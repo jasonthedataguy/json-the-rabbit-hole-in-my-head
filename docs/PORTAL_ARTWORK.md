@@ -13,6 +13,7 @@ The Introduction now uses the latest supplied concept board's complete compositi
 | Earlier bowl-and-pedestal crop with stationary Jason removed | `shared/artwork/book-cover/cover-scene-board-clean.png` |
 | Exact design-board centre crop (preserved input) | `shared/artwork/book-cover/cover-scene-board.png` |
 | Active Introduction leaf ring and aligned scene | `shared/artwork/portal/introduction-ring-v2.png`, `shared/artwork/portal/introduction-scene-v2.png` |
+| Transparent circular Introduction page composition | `shared/artwork/portal/introduction-portal-v2.png` |
 | Active Introduction homepage centre crop | `shared/artwork/portal/introduction-cover-scene-v2.png` |
 | Earlier Introduction city scene (alternate) | `shared/artwork/portal/introduction-scene-board.png` |
 | Earlier open-book scene (alternate) | `shared/artwork/portal/introduction-scene.png` |
@@ -33,11 +34,13 @@ The Introduction now uses the latest supplied concept board's complete compositi
 | Interactive template / SVG exporter | `docs/PORTAL_STUDIO.html` |
 | Reproducible cover and Cold Rice ring cutting, scene painting and print layout | `scripts/cut_board_ring.py`, `scripts/cut_rice_ring.py`, `scripts/paint_intro_portal.py`, `scripts/paint_print_portals.py`, `scripts/build_print_pack.py` |
 
-The cover, Introduction and Cold Rice scene use zoom 1.00 with no offset. Placement is non-destructive SVG composition; the supplied board and approved illustrations remain unchanged. The frame rotates around the same centre without moving the scene.
+The cover and Cold Rice scenes use zoom 1.00 with no offset in the SVG frame renderer. The Introduction page uses a transparent PNG composition of its matching ring and scene so only the circular portal is visible. The supplied boards and approved illustrations remain unchanged.
 
 The main cover follows the board's physical-book layout: navy cloth, cream `.json` title, ring as the focal point, and a figure facing a dusk city. The board's papercut ring supplies the rotating frame. Every cover stop shares the same circular aperture: the cover, Introduction and Cold Rice use raster scenes, while chapter stops after the Prologue use scene-only SVG artwork from `renderPortalScene`. The selected picture changes while the frame rotates independently.
 
 Static composition previews of the active picture and cut ring include `docs/qa/introduction-concept-leaf-composition.png`, `docs/qa/introduction-concept-cover-stop-composition.png`, and `docs/qa/cold-rice-map-ring-preview.png`. Earlier cover and Introduction proofs remain under `docs/qa/`. These show the artwork fit and are not browser screenshots of the final page.
+
+Browser renders of the circular Introduction page at 1440px and a 500px narrow layout are saved as `docs/qa/introduction-page-desktop.png` and `docs/qa/introduction-page-500px.png`.
 
 To use the template locally, serve the repository (not `dist`) on port 4174:
 
@@ -51,7 +54,7 @@ Open `http://localhost:4174/docs/PORTAL_STUDIO.html`. Choose a preset or a local
 
 The Cold Rice chapter ring is cut from the original supplied `chapters/com-nguoi/artwork/portal/rice-portal.png` by `scripts/cut_rice_ring.py`. Its transparent centre reveals the approved `rice-scene-v2.png` family meal; the source illustration is preserved unchanged. This 1000-pixel cut is for the digital chapter map and reader, not the print master. The homepage continues to use the constant book-cover ring at its Cold Rice stop.
 
-The Introduction leaf now pairs its ring with an aligned scene from the author's latest 1672 × 941 board. `scripts/cut_intro_concept_board.py` cuts both pieces and a focused cover-stop scene; it also renders two composition proofs. The homepage's rotating book-cover ring remains constant at its Introduction stop. The supplied board is unchanged in `references/design/`, and the earlier Introduction ring and city scene remain available as alternates. These are digital front-matter illustrations, not print-resolution masters.
+The Introduction page now displays a single transparent circular composition made from its ring and aligned scene, without a rectangular artboard behind it. `scripts/cut_intro_concept_board.py` cuts both pieces from the author's latest 1672 × 941 board, exports the circular composition and focused cover-stop scene, and renders two composition proofs. The homepage's rotating book-cover ring remains constant at its Introduction stop. The supplied board is unchanged in `references/design/`, and the earlier Introduction ring and city scene remain available as alternates. These are digital front-matter illustrations, not print-resolution masters.
 
 The active landscape crop is derived from the unchanged design board by `scripts/cut_board_ring.py`. The active Cold Rice scene was generated with the built-in imagegen tool on 18 October 2026. The previous Introduction city scene from `scripts/compose_intro_board_scene.py` and earlier open-book scene from `scripts/paint_intro_portal.py` remain alternates. The later Saigon and father-and-child alternates are drawn locally by `scripts/paint_print_portals.py` at 3000 pixels, then reduced to 1000-pixel web versions. The separate [print prototype](../print/README.md) still uses those later alternates and documents its full-resolution masters, cut guides and proofs.
 

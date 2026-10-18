@@ -35,6 +35,17 @@ def cut():
     leaf_scene.save(PORTAL / 'introduction-scene-v2.png', optimize=True)
     cover_scene.save(PORTAL / 'introduction-cover-scene-v2.png', optimize=True)
 
+    # The Introduction page is a stationary illustration. Export one transparent
+    # circular composition so its aperture can never appear as a square image.
+    portal = Image.new('RGBA', (SIZE, SIZE))
+    slot = leaf_scene.resize((624, 624), Image.Resampling.LANCZOS)
+    slot_mask = Image.new('L', slot.size)
+    ImageDraw.Draw(slot_mask).ellipse((1, 1, 623, 623), fill=255)
+    slot.putalpha(slot_mask.filter(ImageFilter.GaussianBlur(1.2)))
+    portal.alpha_composite(slot, (188, 188))
+    portal.alpha_composite(ring)
+    portal.save(PORTAL / 'introduction-portal-v2.png', optimize=True)
+
     qa = ROOT / 'docs/qa'
     qa.mkdir(parents=True, exist_ok=True)
     for name, picture, frame in (
@@ -43,8 +54,11 @@ def cut():
          Image.open(PORTAL / 'board-cover-ring.png').convert('RGBA')),
     ):
         proof = Image.new('RGBA', (SIZE, SIZE), '#efe1c7')
-        proof.alpha_composite(picture.resize((624, 624), Image.Resampling.LANCZOS), (188, 188))
-        proof.alpha_composite(frame)
+        if name == 'introduction-concept-leaf-composition.png':
+            proof.alpha_composite(portal)
+        else:
+            proof.alpha_composite(picture.resize((624, 624), Image.Resampling.LANCZOS), (188, 188))
+            proof.alpha_composite(frame)
         proof.convert('RGB').resize((700, 700), Image.Resampling.LANCZOS).save(qa / name, optimize=True)
 
 

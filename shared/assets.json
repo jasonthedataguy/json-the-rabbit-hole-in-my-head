@@ -152,6 +152,12 @@
       "provenance": "Active Introduction ring cut from the unchanged author-supplied Introduction Portal Ring Concept Board.png; recipe scripts/cut_intro_concept_board.py. Digital use only."
     },
     {
+      "source": "shared/artwork/portal/introduction-portal-v2.png",
+      "public_path": "assets/introduction-portal-v2.png",
+      "sha256_at_intake": "a396e35ccb2cd4c3c14a847169a7875d2134c42a9d03de19363904dfc8833eff",
+      "provenance": "Active transparent circular Introduction page composition from the author's concept board; ring and aligned scene stay separately available. Recipe scripts/cut_intro_concept_board.py. Digital use only."
+    },
+    {
       "source": "shared/artwork/portal/introduction-scene-v2.png",
       "public_path": "assets/introduction-scene-v2.png",
       "sha256_at_intake": "17aa8909133f36779dc7d898d8d7f12e8cab088264730f7f0d958b45f0e04c63",

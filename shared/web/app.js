@@ -15,6 +15,7 @@ const library = await fetch(new URL('./content/manuscripts.json?v=10',import.met
 });
 const publishedById = new Map(library.chapters.filter(c=>c.editorialId!==null).map(c=>[c.editorialId,c]));
 const publishedBySlug = new Map(library.chapters.map(c=>[c.slug,c]));
+const dating102 = publishedBySlug.get('dating-102');
 const chapterById = id => chapters.find(c=>c.id===id);
 const partById = id => parts.find(part=>part.id===id);
 const partLabel = part => `${part.key} | ${part.title}`;
@@ -38,14 +39,16 @@ function parseRoute(){
 function isCurrent(key){return currentRoute?.key===key;}
 const currentAttr = key => isCurrent(key)?' aria-current="page"':'';
 const dot = available => available?'<span class="available-dot" aria-label="Full text available"></span>':'';
+function dating102NavRow(){return `<a class="chapter-nav-link archive-interlude-link" href="#archive/dating-102"${currentAttr('archive/dating-102')}><span class="nav-number">↳</span><span class="nav-title"><small>ARCHIVE POST · ${esc(dating102.legacyId)}</small>${esc(dating102.title)}</span>${dot(true)}</a>`;}
 function navigationHTML(){
   const currentChapter=currentRoute?.type==='chapter'?chapterById(currentRoute.id):null;
-  return `<div class="frontmatter-nav"><a class="nav-link" href="#cover"${currentAttr('cover')}><span class="nav-symbol" aria-hidden="true">▯</span><span>Book cover</span></a><a class="nav-link" href="#map"${currentAttr('map')}><span class="nav-symbol" aria-hidden="true">◌</span><span>Chapter map</span></a><a class="nav-link" href="#introduction"${currentAttr('introduction')}><span class="nav-number">i</span><span class="nav-title">Introduction</span></a><a class="nav-link" href="#contents"${currentAttr('contents')}><span class="nav-number">ii</span><span class="nav-title">Contents</span></a><a class="nav-link prologue-nav" href="#chapter/00"${currentAttr('chapter/00')}><span class="nav-number">00</span><span class="nav-title"><small>PROLOGUE</small>Cold Rice</span>${renderReferenceBowlIcon(24)}</a></div><div class="part-navigation-list">${parts.map(part=>`<details class="part-navigation"${currentChapter?.act===part.id?' open':''}><summary><span class="part-roman">${roman[part.id]}</span><span class="part-nav-title">${esc(partLabel(part))}</span></summary><div class="part-chapters">${chapters.filter(chapter=>chapter.act===part.id).map(chapter=>`<a class="chapter-nav-link" href="#chapter/${chapter.id}"${currentAttr(`chapter/${chapter.id}`)}><span class="nav-number">${chapter.id}</span><span class="nav-title">${esc(chapter.title)}</span>${dot(publishedById.has(chapter.id))}</a>`).join('')}</div></details>`).join('')}</div><div class="sidebar-secondary"><a class="nav-link" href="#archive"${currentAttr('archive')}><span class="nav-symbol" aria-hidden="true"><svg width="12" height="14" viewBox="0 0 14 16" fill="none" stroke="currentColor"><path d="M2 2h9v12H2zM4 5h5M4 8h5M4 11h3"/></svg></span><span>Published essays</span></a><a class="nav-link" href="#edition"${currentAttr('edition')}><span class="nav-symbol" aria-hidden="true">·</span><span>About this edition</span></a></div>`;
+  return `<div class="frontmatter-nav"><a class="nav-link" href="#cover"${currentAttr('cover')}><span class="nav-symbol" aria-hidden="true">▯</span><span>Book cover</span></a><a class="nav-link" href="#map"${currentAttr('map')}><span class="nav-symbol" aria-hidden="true">◌</span><span>Chapter map</span></a><a class="nav-link" href="#introduction"${currentAttr('introduction')}><span class="nav-number">i</span><span class="nav-title">Introduction</span></a><a class="nav-link" href="#contents"${currentAttr('contents')}><span class="nav-number">ii</span><span class="nav-title">Contents</span></a><a class="nav-link prologue-nav" href="#chapter/00"${currentAttr('chapter/00')}><span class="nav-number">00</span><span class="nav-title"><small>PROLOGUE</small>Cold Rice</span>${renderReferenceBowlIcon(24)}</a></div><div class="part-navigation-list">${parts.map(part=>`<details class="part-navigation"${currentChapter?.act===part.id||(part.id===3&&currentRoute?.slug==='dating-102')?' open':''}><summary><span class="part-roman">${roman[part.id]}</span><span class="part-nav-title">${esc(partLabel(part))}</span></summary><div class="part-chapters">${chapters.filter(chapter=>chapter.act===part.id).map(chapter=>`<a class="chapter-nav-link" href="#chapter/${chapter.id}"${currentAttr(`chapter/${chapter.id}`)}><span class="nav-number">${chapter.id}</span><span class="nav-title">${esc(chapter.title)}</span>${dot(publishedById.has(chapter.id))}</a>${chapter.id==='18'?dating102NavRow():''}`).join('')}</div></details>`).join('')}</div><div class="sidebar-secondary"><a class="nav-link" href="#archive"${currentAttr('archive')}><span class="nav-symbol" aria-hidden="true"><svg width="12" height="14" viewBox="0 0 14 16" fill="none" stroke="currentColor"><path d="M2 2h9v12H2zM4 5h5M4 8h5M4 11h3"/></svg></span><span>Published essays</span></a><a class="nav-link" href="#edition"${currentAttr('edition')}><span class="nav-symbol" aria-hidden="true">·</span><span>About this edition</span></a></div>`;
 }
 function renderNavigation(){$('#desktop-navigation').innerHTML=navigationHTML();$('#mobile-navigation').innerHTML=navigationHTML();}
 function tocRow(chapter){return `<a class="toc-row" href="#chapter/${chapter.id}"><span class="toc-number">${chapter.id}</span><span class="toc-title">${esc(chapter.title)}${chapter.id==='31'?'<small class="toc-epilogue">Epilogue</small>':''}</span><span class="toc-leader" aria-hidden="true"></span>${dot(publishedById.has(chapter.id))}</a>`;}
+function dating102TocRow(){return `<a class="toc-row toc-archive-post" href="#archive/dating-102"><span class="toc-number">↳</span><span class="toc-title">${esc(dating102.title)}<small>Archive post · original essay ${esc(dating102.legacyId)}</small></span><span class="toc-leader" aria-hidden="true"></span>${dot(true)}</a>`;}
 function renderContents(){
-  $('#book-table-of-contents').innerHTML=`<div class="toc-frontmatter"><a class="toc-row" href="#introduction"><span class="toc-number">i</span><span class="toc-title">Introduction</span><span class="toc-leader" aria-hidden="true"></span></a><p class="toc-prologue-label">PROLOGUE</p>${tocRow(chapters[0])}</div>${parts.map(part=>`<section class="toc-part"><header><p class="toc-part-number">PART ${String(part.id).padStart(2,'0')}</p><h2>${esc(partLabel(part))}</h2></header><div class="toc-chapters">${chapters.filter(chapter=>chapter.act===part.id).map(tocRow).join('')}</div></section>`).join('')}`;
+  $('#book-table-of-contents').innerHTML=`<div class="toc-frontmatter"><a class="toc-row" href="#introduction"><span class="toc-number">i</span><span class="toc-title">Introduction</span><span class="toc-leader" aria-hidden="true"></span></a><p class="toc-prologue-label">PROLOGUE</p>${tocRow(chapters[0])}</div>${parts.map(part=>`<section class="toc-part"><header><p class="toc-part-number">PART ${String(part.id).padStart(2,'0')}</p><h2>${esc(partLabel(part))}</h2></header><div class="toc-chapters">${chapters.filter(chapter=>chapter.act===part.id).map(chapter=>tocRow(chapter)+(chapter.id==='18'?dating102TocRow():'')).join('')}</div></section>`).join('')}`;
 }
 function artHTML(chapter){
   if(chapter.id==='00')return renderFramedPortal('rice','rice-chapter','assets/rice-ring.png');
@@ -60,8 +63,8 @@ function pageTurn({href,title,label='',direction='next'}){
 }
 function chapterFooter(chapter){
   const number=Number(chapter.id);
-  const previous=number===0?{href:'#introduction',title:'Introduction',label:'PREVIOUS PAGE'}:{href:`#chapter/${chapters[number-1].id}`,title:chapters[number-1].title,label:number===1?'PROLOGUE':'PREVIOUS CHAPTER'};
-  const next=number===31?{href:'#cover',title:'Book cover',label:'CLOSE THE BOOK'}:{href:`#chapter/${chapters[number+1].id}`,title:chapters[number+1].title,label:'NEXT CHAPTER'};
+  const previous=number===19?{href:'#archive/dating-102',title:dating102.title,label:'PREVIOUS POST'}:number===0?{href:'#introduction',title:'Introduction',label:'PREVIOUS PAGE'}:{href:`#chapter/${chapters[number-1].id}`,title:chapters[number-1].title,label:number===1?'PROLOGUE':'PREVIOUS CHAPTER'};
+  const next=number===18?{href:'#archive/dating-102',title:dating102.title,label:'NEXT POST'}:number===31?{href:'#cover',title:'Book cover',label:'CLOSE THE BOOK'}:{href:`#chapter/${chapters[number+1].id}`,title:chapters[number+1].title,label:'NEXT CHAPTER'};
   return `<footer class="leaf-navigation">${pageTurn({...previous,direction:'previous'})}<span class="folio">${chapter.id}</span>${pageTurn({...next,direction:'next'})}</footer>`;
 }
 function sourceNotes(manuscript){
@@ -78,16 +81,19 @@ function renderChapter(id){
   selectedMapChapter=Number(id);
 }
 function renderArchive(){
-  $('#archive-list').innerHTML=library.chapters.filter(manuscript=>manuscript.legacyId!=null).map(manuscript=>`<a class="archive-row" href="#archive/${esc(manuscript.slug)}"><span class="archive-original-number">${esc(manuscript.legacyId)}</span><span><strong>${esc(manuscript.title)}</strong><small>${manuscript.editorialId!==null?`IN THIS BOOK · ${manuscript.editorialId==='00'?'PROLOGUE':`CHAPTER ${manuscript.editorialId}`}`:'ARCHIVED ESSAY'}</small></span><span aria-hidden="true">→</span></a>`).join('');
+  $('#archive-list').innerHTML=library.chapters.filter(manuscript=>manuscript.legacyId!=null).map(manuscript=>`<a class="archive-row" href="#archive/${esc(manuscript.slug)}"><span class="archive-original-number">${esc(manuscript.legacyId)}</span><span><strong>${esc(manuscript.title)}</strong><small>${manuscript.slug==='dating-102'?'IN BOOK READING ORDER · AFTER DATING ALGORITHM':manuscript.editorialId!==null?`IN THIS BOOK · ${manuscript.editorialId==='00'?'PROLOGUE':`CHAPTER ${manuscript.editorialId}`}`:'ARCHIVED ESSAY'}</small></span><span aria-hidden="true">→</span></a>`).join('');
 }
 function renderArchiveChapter(slug){
   const manuscript=publishedBySlug.get(slug);
-  $('#chapter-leaf').innerHTML=`<header class="chapter-heading"><p class="leaf-kicker">ARCHIVE · ESSAY ${esc(manuscript.legacyId)}</p><h1 id="chapter-heading" class="chapter-title" tabindex="-1">${esc(manuscript.title)}</h1><p class="chapter-part-title">From the original publication, before the book was arranged.</p></header><div class="chapter-prose prose" lang="vi" data-reading-kind="full">${manuscript.bodyHtml || manuscript.html}</div>${sourceNotes(manuscript)}<footer class="leaf-navigation">${pageTurn({href:'#archive',title:'Published essays',direction:'previous'})}<span class="folio">Archive ${esc(manuscript.legacyId)}</span>${manuscript.editorialId!==null?pageTurn({href:`#chapter/${manuscript.editorialId}`,title:'Read in book order',label:manuscript.editorialId==='00'?'PROLOGUE':`CHAPTER ${manuscript.editorialId}`}):''}</footer>`;
+  const isDating102=slug==='dating-102';
+  const previous=isDating102?{href:'#chapter/18',title:'Dating Algorithm',label:'PREVIOUS CHAPTER',direction:'previous'}:{href:'#archive',title:'Published essays',direction:'previous'};
+  const next=isDating102?{href:'#chapter/19',title:chapterById('19').title,label:'NEXT CHAPTER'}:manuscript.editorialId!==null?{href:`#chapter/${manuscript.editorialId}`,title:'Read in book order',label:manuscript.editorialId==='00'?'PROLOGUE':`CHAPTER ${manuscript.editorialId}`}:null;
+  $('#chapter-leaf').innerHTML=`<header class="chapter-heading"><p class="leaf-kicker">${isDating102?'PART III · ARCHIVE POST':`ARCHIVE · ESSAY ${esc(manuscript.legacyId)}`}</p><h1 id="chapter-heading" class="chapter-title" tabindex="-1">${esc(manuscript.title)}</h1><p class="chapter-part-title">${isDating102?'Read after Dating Algorithm. Original essay 16.':'From the original publication, before the book was arranged.'}</p></header><div class="chapter-prose prose" lang="vi" data-reading-kind="full">${manuscript.bodyHtml || manuscript.html}</div>${sourceNotes(manuscript)}<footer class="leaf-navigation">${pageTurn(previous)}<span class="folio">Archive ${esc(manuscript.legacyId)}</span>${next?pageTurn(next):''}</footer>`;
 }
 function savePosition(){if(currentRoute){positions[currentRoute.key]=Math.round(window.scrollY);store.set('json-book-positions',positions);}}
 function breadcrumb(route){
   if(route.type==='chapter'){const chapter=chapterById(route.id);return chapter.act?`Part ${roman[chapter.act]} / ${chapter.title}`:`Prologue / ${chapter.title}`;}
-  return ({cover:'Book cover',introduction:'Front matter / Introduction',contents:'Contents',map:'Chapter map',edition:'Edition notes',archive:'Published essays','archive-chapter':'Archive / '+(publishedBySlug.get(route.slug)?.title || '')})[route.type];
+  return ({cover:'Book cover',introduction:'Front matter / Introduction',contents:'Contents',map:'Chapter map',edition:'Edition notes',archive:'Published essays','archive-chapter':route.slug==='dating-102'?'Part III / Dating 102 (archive)':'Archive / '+(publishedBySlug.get(route.slug)?.title || '')})[route.type];
 }
 function renderRoute(route,{initial=false}={}){
   if(!initial)savePosition();
@@ -143,6 +149,7 @@ function selectMapChapter(index,{fromRing=false}={}){
   $('#map-number').textContent=chapter.id;$('#map-title').textContent=chapter.title;
   $('#map-summary').textContent=chapterNotes[chapter.id].summary;
   $('#map-enter').href=`#chapter/${chapter.id}`;$('#map-enter').innerHTML=`${publishedById.has(chapter.id)?'Read chapter':'Read outline'} <span aria-hidden="true">→</span>`;
+  $('#map-related').hidden=chapter.id!=='18';
   $('#map-availability').textContent=publishedById.has(chapter.id)?'FULL TEXT':'OUTLINE';
   $$('.orbit-mark').forEach((element,i)=>{element.classList.toggle('active',i===selectedMapChapter);element.setAttribute('aria-pressed',i===selectedMapChapter);});
   $$('.map-part-button').forEach(element=>{const active=Number(element.dataset.mapPart)===chapter.act;element.classList.toggle('active',active);element.setAttribute('aria-pressed',active);});
@@ -230,7 +237,6 @@ window.addEventListener('popstate',()=>renderRoute(parseRoute()));
 window.addEventListener('hashchange',()=>{const route=parseRoute();if(route.key!==currentRoute?.key)renderRoute(route);});
 window.addEventListener('scroll',()=>{clearTimeout(scrollTimer);scrollTimer=setTimeout(savePosition,180);},{passive:true});
 window.addEventListener('pagehide',savePosition);
-$('#introduction-portal-art').innerHTML=renderFramedPortal('introduction','introduction-leaf','assets/introduction-ring-v2.png');
 $('#book-epigraph').innerHTML=introduction.epigraph.split(/(?<=answer\.)\s+/).map(line=>`<p>${esc(line)}</p>`).join('');
 $('#introduction-text').innerHTML=introduction.sections.map((section,index)=>`<section class="intro-section${index===0?' intro-synopsis':''}"><h2>${esc(section.heading)}</h2>${section.paragraphs.map(paragraph=>`<p>${introInline(paragraph)}</p>`).join('')}</section>`).join('');
 renderContents();renderArchive();applyReadingSize();applyMotion();renderRoute(parseRoute(),{initial:true});
