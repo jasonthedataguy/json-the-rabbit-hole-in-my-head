@@ -37,7 +37,7 @@ dist/                            ignored generated public site
 
 ## Editorial and source identity
 
-The cover ring includes two front-matter stops before the chapter registry: Cover and Introduction. `PortalRing` accepts a stop count so the cover has 35 stops and the chapter map has 33. Returning to the cover opens on its cover artwork. English chapter display titles live in `title`/`short_title`; translated chapter metadata retains `original_title`, and original-edition metadata/manuscript bytes remain untouched. The five part labels display `key | title` using Vietnamese part titles in `book.json`.
+The cover ring includes two front-matter stops before the chapter registry: Cover and Introduction. `PortalRing` accepts a stop count so the cover has 35 stops and the chapter map has 33. On desktop, selecting a stop also renders its full text or clearly marked outline in a separately scrollable paper page beside the ring. Mobile retains the compact cover and opens the normal reader through the page link. Returning to the cover opens on its cover artwork. English chapter display titles live in `title`/`short_title`; translated chapter metadata retains `original_title`, and original-edition metadata/manuscript bytes remain untouched. The five part labels display `key | title` using Vietnamese part titles in `book.json`.
 
 Stable slugs survive a change of reading order. A v2 chapter number never overwrites the original number. For example, Cơm nguội is v2 `00` and original `07`; Fashion is v2 `04` and original `02`. Dating 102 is now v2 `19`, following Dating Algorithm (`18`), while its original publication number remains `16`. Former v2 chapters `19`–`31` shift to `20`–`32`. The old `#archive/dating-102` hash still opens its book chapter.
 

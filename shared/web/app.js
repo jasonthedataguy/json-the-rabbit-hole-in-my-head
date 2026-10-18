@@ -175,6 +175,27 @@ const coverPages = [
   ...chapters.map(chapter=>({kind:'chapter', label:chapter.id, title:chapter.title, href:`#chapter/${chapter.id}`, chapter}))
 ];
 const coverStep = 360 / coverPages.length;
+let renderedCoverPage = -1;
+function renderCoverReadingPage(page){
+  if(renderedCoverPage===selectedCoverPage)return;
+  renderedCoverPage=selectedCoverPage;
+  const content=$('#cover-reading-content');
+  if(page.kind==='cover'){
+    content.innerHTML=`<div class="cover-reader-cover"><p class="cover-reader-kicker">THE BOOK</p><h2>.json</h2><p class="cover-reader-subtitle">Jason, under revision</p><span class="cover-reader-rule" aria-hidden="true"></span><blockquote>${introduction.epigraph.split(/(?<=answer\.)\s+/).map(line=>`<p>${esc(line)}</p>`).join('')}</blockquote><p class="cover-reader-hint">Turn the ring to see each page here.</p></div>`;
+  }else if(page.kind==='introduction'){
+    content.innerHTML=`<div class="cover-reader-page"><p class="cover-reader-kicker">FRONT MATTER · i</p><h2>${esc(introduction.title)}</h2><div class="cover-reader-prose prose" lang="vi">${introduction.sections.map(section=>`<section><h3>${esc(section.heading)}</h3>${section.paragraphs.map(paragraph=>`<p>${introInline(paragraph)}</p>`).join('')}</section>`).join('')}</div></div>`;
+  }else{
+    const chapter=page.chapter,part=partById(chapter.act),manuscript=publishedById.get(chapter.id);
+    const numberLabel=chapter.id==='00'?'PROLOGUE':chapter.slug==='loi-xin-loi'?'EPILOGUE':`CHAPTER ${chapter.id}`;
+    const body=manuscript?`<div class="cover-reader-prose prose" lang="vi">${manuscript.bodyHtml || manuscript.html}</div>${sourceNotes(manuscript)}`:`<div class="cover-reader-outline"><span>OUTLINE</span><p>${esc(chapterNotes[chapter.id].summary)}</p><small>The full manuscript is not yet available in this edition.</small></div>`;
+    content.innerHTML=`<div class="cover-reader-page"><p class="cover-reader-kicker">${esc(numberLabel)}${part?` · PART ${roman[part.id]}`:''}</p><h2>${esc(chapter.title)}</h2>${part?`<p class="cover-reader-part">${esc(partLabel(part))}</p>`:''}${body}</div>`;
+  }
+  content.scrollTop=0;
+  $('#cover-reading-folio').textContent=page.kind==='cover'?'COVER':page.kind==='introduction'?'i':page.label;
+  const link=$('#cover-reading-link');
+  link.href=page.kind==='cover'?'#introduction':page.href;
+  link.innerHTML=`${page.kind==='cover'?'Open the book':page.kind==='introduction'?'Read Introduction':`Read ${page.label} in the book`} <span aria-hidden="true">→</span>`;
+}
 function positionCoverOrbit(rotation=coverRing?.rotation ?? -selectedCoverPage*coverStep){
   const radius=-$('#cover-stage').getBoundingClientRect().width*.457;
   $$('.cover-orbit-mark').forEach((element,index)=>{element.style.setProperty('--angle',`${index*coverStep+rotation}deg`);element.style.setProperty('--orbit-radius',`${radius}px`);});
@@ -195,6 +216,7 @@ function selectCoverPage(index,{fromRing=false}={}){
   $('#cover-chapter-link').title=page.kind==='cover'?'Open the introduction':page.title;
   $('#cover-stage').setAttribute('aria-label',`Book ring. ${page.kind==='cover'?'Book cover':page.title}. Drag to turn, arrow keys to choose, Enter to read.`);
   $('#cover-page-position').textContent=page.kind==='cover'?'COVER':page.kind==='introduction'?'FRONT MATTER':page.label==='00'?'PROLOGUE':`CHAPTER ${page.label} / ${chapters.at(-1).id}`;
+  renderCoverReadingPage(page);
   $$('.cover-orbit-mark').forEach((element,i)=>{element.classList.toggle('active',i===selectedCoverPage);element.setAttribute('aria-pressed',i===selectedCoverPage);});
   if(!fromRing)coverRing?.setChapter(selectedCoverPage);
   positionCoverOrbit();

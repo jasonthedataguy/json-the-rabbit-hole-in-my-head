@@ -39,3 +39,36 @@
 @media(max-width:640px){.cover-top-nav{font-size:12px;gap:18px}.cover-titling>p{font-size:9px;letter-spacing:1.4px}.cover-chapter-link{font-size:22px}.cover-page-position{font-size:9px}.cover-page-controls{font-size:10px;gap:10px}.cover-open-book{font-size:12px}.frontmatter-marker{font-size:22px}}
 @media(max-width:350px){.cover-top-nav{font-size:11px;gap:14px}.cover-chapter-link{font-size:20px}.cover-page-controls{font-size:9px}}
 @media print{.cover-page-controls,.cover-page-position{display:none}}
+
+/* On a wide screen the ring turns the page beside it. Narrow screens keep the cover. */
+.cover-reading-panel { display: none; }
+@media screen and (min-width: 1024px) {
+  .cover-spread { display: grid; grid-template-columns: minmax(0, 560px) minmax(0, 560px); align-items: start; justify-content: center; gap: clamp(26px, 3.5vw, 56px); max-width: 1230px; margin: 0 auto; }
+  .cover-spread .cover-book { width: 100%; margin: 0; }
+  .cover-reading-panel { display: flex; flex-direction: column; min-width: 0; height: min(780px, calc(100svh - 98px)); color: #293a38; background: repeating-linear-gradient(93deg, #815c3308 0 1px, transparent 1px 6px), linear-gradient(90deg, #d5bd93 0, #f1e4ca 2%, #f8eedb 7%, #f5e9d2 100%); border: 1px solid #b89a6f; border-radius: 3px 7px 7px 3px; box-shadow: 0 18px 38px #0008, inset 10px 0 16px #6c4d2717, inset 0 0 0 7px #fff9eb42; overflow: hidden; }
+  .cover-reading-content { flex: 1; min-height: 0; padding: clamp(31px, 4vw, 54px) clamp(31px, 4vw, 56px) 42px; overflow-y: auto; overscroll-behavior: contain; scrollbar-width: thin; scrollbar-color: #a9926c transparent; }
+  .cover-reading-footer { display: flex; justify-content: space-between; align-items: center; gap: 20px; flex-shrink: 0; padding: 17px clamp(31px, 4vw, 56px); border-top: 1px solid #a58b6447; background: #f0e2c7d9; color: #927852; font: 10px/1.4 var(--sans); letter-spacing: 1px; }
+  .cover-reading-footer a { color: #25434c; letter-spacing: 0; font-size: 12px; }
+  .cover-reading-footer a:hover { color: #a0643e; }
+  .cover-reading-footer a span { margin-left: 8px; }
+  .cover-reader-kicker { margin-bottom: 18px; color: #9a7855; font: 10px/1.5 var(--sans); letter-spacing: 2px; }
+  .cover-reader-page h2 { color: #1b343c; font: 52px/1.04 var(--serif); text-wrap: balance; }
+  .cover-reader-part { margin: 18px 0 34px; color: #96785c; font: 15px/1.5 var(--serif); }
+  .cover-reader-prose.prose { margin-top: 34px; color: #344139; font: 17px/1.75 var(--body-serif); }
+  .cover-reader-prose.prose h1:first-child { display: none; }
+  .cover-reader-prose.prose section + section { margin-top: 36px; }
+  .cover-reader-prose.prose section h3 { margin: 0 0 14px; font: 26px/1.2 var(--serif); }
+  .cover-reader-outline { margin-top: 42px; }
+  .cover-reader-outline span { color: #9a7855; font: 10px/1.5 var(--sans); letter-spacing: 2px; }
+  .cover-reader-outline p { margin-top: 22px; font: 23px/1.55 var(--serif); }
+  .cover-reader-outline small { display: block; margin-top: 30px; color: #847d6d; font: 11px/1.6 var(--sans); }
+  .cover-reader-cover { display: flex; flex-direction: column; align-items: center; justify-content: center; min-height: 100%; text-align: center; }
+  .cover-reader-cover h2 { color: #1b343c; font: 96px/.9 var(--serif); letter-spacing: -4px; }
+  .cover-reader-subtitle { margin-top: 17px; color: #977a58; font: 11px/1.5 var(--sans); letter-spacing: 2px; text-transform: uppercase; }
+  .cover-reader-rule { display: block; width: 58px; height: 1px; margin: 50px auto 40px; background: #b89965; }
+  .cover-reader-cover blockquote { max-width: 370px; color: #354846; font: italic 23px/1.55 var(--serif); }
+  .cover-reader-cover blockquote p + p { margin-top: 22px; }
+  .cover-reader-hint { margin-top: 56px; color: #8d806b; font: 11px/1.5 var(--sans); letter-spacing: .5px; }
+  .cover-reading-panel .chapter-archive { color: #777766; border-color: #9d866443; }
+}
+@media print { .cover-reading-panel { display: none !important; } }

@@ -8,8 +8,8 @@
   <title>.json — Jason, under revision</title>
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="style.css?v=21">
-  <script type="module" src="app.js?v=31"></script>
-  <link rel="stylesheet" href="cover.css?v=13">
+  <script type="module" src="app.js?v=32"></script>
+  <link rel="stylesheet" href="cover.css?v=14">
 </head>
 <body class="viewing-cover">
 <a class="skip-link" href="#book-content">Skip to book content</a>
@@ -28,6 +28,7 @@
   <main id="book-content" tabindex="-1">
     <section id="cover-view" class="book-view cover-view" aria-labelledby="cover-title">
       <nav class="cover-top-nav" aria-label="Cover navigation"><a href="#introduction">Introduction</a><a href="#map">Chapter map</a><a href="#contents">Contents</a><button id="cover-menu-open" aria-label="Open book navigation" aria-haspopup="dialog"><svg width="16" height="16" viewBox="0 0 20 20" fill="none" stroke="currentColor" aria-hidden="true"><path d="M2 5h16M2 10h16M2 15h16"/></svg></button></nav>
+      <div class="cover-spread">
       <article class="cover-book">
         <div class="cover-spine" aria-hidden="true"><span>.json</span><small>JASON, UNDER REVISION</small></div>
         <div class="cover-face">
@@ -60,6 +61,11 @@
           <a class="cover-open-book" href="#introduction">Open the book <span aria-hidden="true">→</span></a>
         </div>
       </article>
+      <section class="cover-reading-panel" aria-label="Selected page">
+        <div id="cover-reading-content" class="cover-reading-content"></div>
+        <footer class="cover-reading-footer"><span id="cover-reading-folio">COVER</span><a id="cover-reading-link" href="#introduction">Open the book <span aria-hidden="true">→</span></a></footer>
+      </section>
+      </div>
     </section>
 
     <section id="introduction-view" class="book-view introduction-view" hidden aria-labelledby="intro-heading">

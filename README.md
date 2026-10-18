@@ -1,6 +1,6 @@
 # .json — Jason, under revision
 
-The portal edition and its immersive chapter production workspace. The homepage keeps the cloth cover, rotating chapter ring, changing centre artwork and curved maths/literature quote. The reading order contains 33 editorial slots. Dating 102 is Chapter 19, immediately after Dating Algorithm; its original essay number remains in the source notes.
+The portal edition and its immersive chapter production workspace. On desktop, the homepage presents the rotating cover ring beside a paper reading page that loads the selected Introduction or chapter text. The mobile cover keeps its compact layout. The ring retains its changing centre artwork and curved maths/literature quote. The reading order contains 33 editorial slots. Dating 102 is Chapter 19, immediately after Dating Algorithm; its original essay number remains in the source notes.
 
 The Introduction leaf shows the author's latest concept board as a transparent circular portal: its collage ring frames the open book, reader, dusk city and bridge, followed by the six-step story progression. The homepage keeps the shared cover ring as it turns to a centre scene cut from that same board.
 
