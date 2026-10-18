@@ -2,7 +2,7 @@ import { chapters, renderPortal, renderPortalScene } from './chapters.js?v=14';
 import { introduction, parts, chapterNotes } from './book.js?v=12';
 import { renderChapterMarker, renderReferenceBowlIcon, getChapterMarkerName } from './markers.js?v=10';
 import { PortalRing } from './ring.js?v=10';
-import { renderPortalPicture, renderPortalFrame, renderFramedPortal } from './portal-art.js?v=22';
+import { renderPortalPicture, renderPortalFrame, renderFramedPortal } from './portal-art.js?v=23';
 
 const $ = selector => document.querySelector(selector);
 const $$ = selector => [...document.querySelectorAll(selector)];
@@ -229,6 +229,7 @@ window.addEventListener('popstate',()=>renderRoute(parseRoute()));
 window.addEventListener('hashchange',()=>{const route=parseRoute();if(route.key!==currentRoute?.key)renderRoute(route);});
 window.addEventListener('scroll',()=>{clearTimeout(scrollTimer);scrollTimer=setTimeout(savePosition,180);},{passive:true});
 window.addEventListener('pagehide',savePosition);
+$('#introduction-portal-art').innerHTML=renderFramedPortal('introduction','introduction-leaf','assets/introduction-ring.png');
 $('#book-epigraph').innerHTML=introduction.epigraph.split(/(?<=answer\.)\s+/).map(line=>`<p>${esc(line)}</p>`).join('');
 $('#introduction-text').innerHTML=introduction.sections.map((section,index)=>`<section class="intro-section${index===0?' intro-synopsis':''}"><h2>${esc(section.heading)}</h2>${section.paragraphs.map(paragraph=>`<p>${introInline(paragraph)}</p>`).join('')}</section>`).join('');
 renderContents();renderArchive();applyReadingSize();applyMotion();renderRoute(parseRoute(),{initial:true});

@@ -128,6 +128,12 @@
       "provenance": "New paper-cut Introduction scene generated locally by scripts/paint_intro_portal.py; design palette follows the user-supplied board."
     },
     {
+      "source": "shared/artwork/portal/introduction-ring.png",
+      "public_path": "assets/introduction-ring.png",
+      "sha256_at_intake": "88fe9880d4e4793d44f931a4ca37ff3cd234a6579c8ef81f718738eec552f669",
+      "provenance": "Main Introduction portal ring cropped from the author-supplied Jason, Under Revision Concept Board - introduction.png; unchanged artboard preserved in references/design and crop reproducible with scripts/cut_intro_artboard.py. Digital use only."
+    },
+    {
       "source": "shared/artwork/portal/placeholder.svg",
       "public_path": "assets/portal-placeholder.svg",
       "sha256_at_intake": "b93b827674b562d71b0550a7660391c1b3baf8038368cff9dc23fb58bd2ed19c",

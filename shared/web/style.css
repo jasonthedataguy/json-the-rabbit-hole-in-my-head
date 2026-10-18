@@ -111,6 +111,9 @@ h1, h2, h3 { font-family: var(--serif); font-weight: 400; line-height: 1.15; }
 .book-title { font: 70px/1.1 var(--serif); letter-spacing: -4px; margin: 30px 0 9px; color: var(--navy); }
 .book-subtitle { font: italic 25px/1.4 var(--serif); color: #7b7d69; }
 .title-rule { display: block; width: 27px; height: 1px; margin: 36px auto 0; background: #ab9979; }
+.introduction-portal { width: min(420px, 100%); margin: 38px auto 0; text-align: center; }
+.introduction-portal-art { width: 100%; aspect-ratio: 1; }
+.introduction-portal figcaption { margin-top: 15px; font: 9px/1.5 var(--sans); letter-spacing: 2.2px; text-transform: uppercase; color: #8b795f; }
 .book-epigraph { max-width: 520px; margin: 40px auto 68px; text-align: center; font: italic 19px/1.7 Georgia, 'Times New Roman', serif; color: #706e5b; }
 .book-epigraph p + p { margin-top: 12px; }
 .introduction-prose h1 { font-size: 40px; margin: 0 0 27px; line-height: 1.2; }
@@ -306,6 +309,8 @@ h1, h2, h3 { font-family: var(--serif); font-weight: 400; line-height: 1.15; }
   .book-title { font-size: 68px; margin-top: 24px; }
   .book-subtitle { font-size: 23px; }
   .title-rule { margin-top: 29px; }
+  .introduction-portal { width: min(310px, 100%); margin-top: 28px; }
+  .introduction-portal figcaption { margin-top: 10px; font-size: 8px; letter-spacing: 1.8px; }
   .book-epigraph { font-size: 19px; max-width: 360px; margin: 30px auto 54px; }
   .prose { font-size: calc(var(--reading-font) - 1px); line-height: 1.75; }
   .introduction-prose h1 { font-size: 35px; margin-bottom: 24px; }

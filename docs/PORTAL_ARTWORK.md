@@ -13,6 +13,8 @@ The Introduction remains a paper-cut open book. Cold Rice again uses the earlier
 | Earlier bowl-and-pedestal crop with stationary Jason removed | `shared/artwork/book-cover/cover-scene-board-clean.png` |
 | Exact design-board centre crop (preserved input) | `shared/artwork/book-cover/cover-scene-board.png` |
 | Introduction scene | `shared/artwork/portal/introduction-scene.png` |
+| Introduction leaf ring | `shared/artwork/portal/introduction-ring.png` |
+| Introduction concept board (unchanged) | `references/design/Jason, Under Revision Concept Board - introduction.png` |
 | Earlier generated cover interpretation (retained as an alternate) | `shared/artwork/book-cover/cover-scene-v2.png` |
 | Three-person Cold Rice scene used by the site | `chapters/com-nguoi/artwork/portal/rice-scene-v2.png` |
 | Later father-and-child Cold Rice alternate (print study) | `chapters/com-nguoi/artwork/portal/rice-scene-board-v3.png` |
@@ -42,6 +44,8 @@ python -m http.server 4174 --bind 127.0.0.1
 Open `http://localhost:4174/docs/PORTAL_STUDIO.html`. Choose a preset or a local PNG/JPEG/WebP, adjust zoom and placement, and download the fitted SVG. The export embeds both image and frame, works independently of the repository, and excludes alignment guides. The studio is an internal authoring tool and is not copied to the public site.
 
 ## Generation record
+
+The Introduction leaf pairs the existing open-book scene with the main collage ring from the author's new concept board. Its transparent cut-out lets the open book and skyline show through. `scripts/cut_intro_artboard.py` records the crop and cut; the 1672 × 941 board is preserved unchanged under `references/design/`. The cover's rotating ring remains constant at its Introduction stop, showing the open-book scene in its centre. The new ring is a digital front-matter illustration and is not a print-resolution master.
 
 The active landscape crop is derived from the unchanged design board by `scripts/cut_board_ring.py`. The active Cold Rice scene was generated with the built-in imagegen tool on 18 October 2026. The Introduction scene is painted locally with a fixed seed by `scripts/paint_intro_portal.py`. The later Saigon and father-and-child alternates are drawn locally by `scripts/paint_print_portals.py` at 3000 pixels, then reduced to 1000-pixel web versions. The separate [print prototype](../print/README.md) still uses those later alternates and documents its full-resolution masters, cut guides and proofs.
 
