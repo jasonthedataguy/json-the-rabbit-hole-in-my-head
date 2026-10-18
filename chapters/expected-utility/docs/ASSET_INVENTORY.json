@@ -22,6 +22,26 @@
       "sha256": "17668edee7a4c80fc9d2a260953df3442507b54133f499e2ecffe5cedb8ca131"
     },
     {
+      "path": "artwork/portal/expected-utility-desk-v2.webp",
+      "bytes": 35932,
+      "sha256": "7790edb00f1c3be429734ea95f52ea62e17bfa74aca3f92801a53dd7ca56d9fd"
+    },
+    {
+      "path": "artwork/portal/expected-utility-portal-v2.png",
+      "bytes": 1294206,
+      "sha256": "0342db51296528f1256ec471fd7cabc026633b6d7845e967227adbfa9f64918e"
+    },
+    {
+      "path": "artwork/portal/expected-utility-ring-v2.png",
+      "bytes": 1625170,
+      "sha256": "9defa77000667ad87f15a9db1f41b9ca8c56483bca5a4e4450fbe7a007143cff"
+    },
+    {
+      "path": "artwork/portal/expected-utility-scene-v2.png",
+      "bytes": 1169061,
+      "sha256": "6c1a31f23b08736b9756050fb768cb543b3607d1453f9ee28776f91c419ffe4f"
+    },
+    {
       "path": "artwork/scenes/01-desk.jpg",
       "bytes": 391582,
       "sha256": "05f5fe62daa5a5d7e681afb1b760765295025c8ae4d71244765ad9c1ef94e1e6"
@@ -78,8 +98,13 @@
     },
     {
       "path": "chapter.json",
-      "bytes": 1420,
-      "sha256": "220213a6cb1408482b7d645b6a25d1fa8f3f29a5ea174bd5521d595f5f1a644e"
+      "bytes": 1478,
+      "sha256": "685832a20b0803f4ac03b1c2f4329560ac9030818c4102b7126a1ab73ab7235b"
+    },
+    {
+      "path": "docs/DESIGN_ADAPTATION.md",
+      "bytes": 1044,
+      "sha256": "021f26fe107eab8c17acd0734a2bd792f2870e5f42646ae291e429a53a7e244e"
     },
     {
       "path": "docs/DESIGN_REVIEW.md",
@@ -317,9 +342,24 @@
       "sha256": "9283b7515bfe7cf20d601e109301fc2a39849264b5ba718916848cd0ea20f949"
     },
     {
+      "path": "web/assets/expected-utility-desk-v2.webp",
+      "bytes": 35932,
+      "sha256": "7790edb00f1c3be429734ea95f52ea62e17bfa74aca3f92801a53dd7ca56d9fd"
+    },
+    {
+      "path": "web/assets/expected-utility-portal-v2.png",
+      "bytes": 1294206,
+      "sha256": "0342db51296528f1256ec471fd7cabc026633b6d7845e967227adbfa9f64918e"
+    },
+    {
+      "path": "web/expected-utility-v2.css",
+      "bytes": 2621,
+      "sha256": "de0dcc63d182f729dfff7ab5eb0d4e47e3c17f07cc74de422577d975868ed26b"
+    },
+    {
       "path": "web/index.html",
-      "bytes": 30128,
-      "sha256": "f7275eafbc5247b8bb293d250c6e6220734a45862e9a35a69458106cdb34c857"
+      "bytes": 30131,
+      "sha256": "08eb0d06ba169f0319db772dd39a92249c282e8a8828fd2f7e3fd651f9c035c5"
     }
   ]
 }

@@ -59,7 +59,12 @@ The scaffold is unpublished. To work on one of the planned 33 chapters, edit its
 
 Fashion uses the final supplied digital-book board's wardrobe and sneaker portal on the chapter map and Chapter 04 leaf. The homepage keeps the common book-cover ring and shows the Fashion scene in its centre. Both reading views use the board's wide wardrobe illustration. The board's “02” is its original-edition number; the current book keeps Fashion at Chapter 04. See [the Fashion adaptation notes](chapters/fashion/docs/DESIGN_ADAPTATION.md).
 
+## Expected Utility digital design
+
+Expected Utility uses the supplied portal-layers board's decision-tree ring, laptop-and-eyes centre and desk scene on its Chapter 02 map and reading views. The homepage keeps the shared cover ring and swaps in the aligned centre. The board labels original-edition Chapter 04; the v2 chapter remains 02. See [the Expected Utility adaptation notes](chapters/expected-utility/docs/DESIGN_ADAPTATION.md).
+
 ## Deployment
+
 
 GitHub Actions tests, inventories, builds and validates before deploying `dist/` on pushes to `main`. Pull requests run checks without deployment. Source assets and chapter products are versioned; generated site output is ignored. Existing hash routes and root asset URLs are preserved, and all local paths work beneath `/json-under-revision-v2/`.
 

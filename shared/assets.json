@@ -56,6 +56,24 @@
       "provenance": "Wide Fashion reading-spread illustration cropped from the author's final digital-book board by scripts/cut_fashion_board.py. Digital use only."
     },
     {
+      "source": "chapters/expected-utility/artwork/portal/expected-utility-ring-v2.png",
+      "public_path": "assets/expected-utility-ring-v2.png",
+      "sha256_at_intake": "9defa77000667ad87f15a9db1f41b9ca8c56483bca5a4e4450fbe7a007143cff",
+      "provenance": "Transparent chapter ring cut from the author's Expected Utility portal-layers board by scripts/cut_expected_utility_board.py. Digital use only."
+    },
+    {
+      "source": "chapters/expected-utility/artwork/portal/expected-utility-scene-v2.png",
+      "public_path": "assets/expected-utility-scene-v2.png",
+      "sha256_at_intake": "6c1a31f23b08736b9756050fb768cb543b3607d1453f9ee28776f91c419ffe4f",
+      "provenance": "Laptop, eyes and desk centre aligned to the Expected Utility ring by scripts/cut_expected_utility_board.py. Digital use only."
+    },
+    {
+      "source": "chapters/expected-utility/artwork/portal/expected-utility-desk-v2.webp",
+      "public_path": "assets/expected-utility-desk-v2.webp",
+      "sha256_at_intake": "7790edb00f1c3be429734ea95f52ea62e17bfa74aca3f92801a53dd7ca56d9fd",
+      "provenance": "Wide desk reading image cropped from the same Expected Utility board by scripts/cut_expected_utility_board.py. Digital use only."
+    },
+    {
       "source": "shared/fonts/DM-Sans-Regular.ttf",
       "public_path": "assets/font-0.ttf",
       "sha256_at_intake": "b0ae3e89a7d3ef2b1838bb4b1ceb0b17cc3435af061eee809d76aa623ff116e9",

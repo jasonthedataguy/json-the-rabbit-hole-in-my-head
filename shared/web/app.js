@@ -2,7 +2,7 @@ import { chapters, renderIcon, renderPortal, renderPortalScene } from './chapter
 import { introduction, parts, chapterNotes } from './book.js?v=13';
 import { renderChapterMarker, getChapterMarkerName } from './markers.js?v=11';
 import { PortalRing } from './ring.js?v=10';
-import { renderPortalPicture, renderPortalFrame, renderFramedPortal } from './portal-art.js?v=26';
+import { renderPortalPicture, renderPortalFrame, renderFramedPortal } from './portal-art.js?v=27';
 
 const $ = selector => document.querySelector(selector);
 const $$ = selector => [...document.querySelectorAll(selector)];
@@ -52,6 +52,7 @@ function renderContents(){
 function artHTML(chapter){
   if(chapter.id==='00')return renderFramedPortal('rice','rice-chapter','assets/rice-ring.png');
   if(chapter.id==='01')return renderFramedPortal('quant','quant-chapter','assets/quant-ring.png');
+  if(chapter.id==='02')return renderFramedPortal('expectedUtility','expected-utility-chapter','assets/expected-utility-ring-v2.png');
   if(chapter.id==='04')return renderFramedPortal('fashion','fashion-chapter','assets/fashion-ring-v2.png');
   return renderPortal(chapter);
 }
@@ -76,10 +77,13 @@ function renderChapter(id){
   const headingLabel=id==='00'?'PROLOGUE':chapter.slug==='loi-xin-loi'?'EPILOGUE':`CHAPTER ${id}`;
   const sourceTitle=manuscript && manuscript.originalTitle.toLowerCase().replaceAll('_',' ')!==chapter.title.toLowerCase()?`<p class="chapter-source-title">Original title: ${esc(manuscript.originalTitle)}</p>`:'';
   const text=manuscript?`<div class="chapter-prose prose" lang="vi" data-chapter="${id}" data-reading-kind="full">${manuscript.bodyHtml || manuscript.html}</div>${sourceNotes(manuscript)}`:`<div class="outline-notice"><span>OUTLINE</span><p>The full text is not yet available in this edition.</p></div><div class="outline-prose prose" lang="vi" data-reading-kind="outline"><p>${esc(chapterNotes[id].summary)}</p></div><p class="outline-source">From the manuscript outline.</p>`;
-  const opening=id==='04'
+  const opening=id==='02'
+    ?`<header class="utility-chapter-heading"><p class="leaf-kicker">PART ${roman[part.id]} · CHAPTER ${id}</p><p class="utility-chapter-numeral">${id}</p><h1 id="chapter-heading" tabindex="-1">${esc(chapter.shortTitle)}</h1><p class="utility-chapter-subtitle">Decision / Probability / Emotion</p><p class="utility-chapter-part">${esc(partLabel(part))}</p>${sourceTitle}</header><div class="utility-chapter-stage">${chapterArtwork(chapter)}<div class="utility-chapter-note"><span>A VISUAL INTRODUCTION</span><p>Different outcomes.<br>Same uncertainty.<br>Still you.</p><button type="button" id="utility-read">Read the chapter <span aria-hidden="true">↓</span></button></div></div><figure class="utility-desk-banner"><img src="assets/expected-utility-desk-v2.webp" alt="A desk with a laptop displaying a woman's eyes, code, coffee and notes."><figcaption>Decision / Probability / Emotion</figcaption></figure>`
+    :id==='04'
     ?`<header class="fashion-chapter-heading"><p class="leaf-kicker">PART ${roman[part.id]} · CHAPTER ${id}</p><p class="fashion-chapter-numeral">${id}</p><h1 id="chapter-heading" tabindex="-1">${esc(chapter.shortTitle)}</h1><p class="fashion-chapter-subtitle">Be Your Own Label</p><p class="fashion-chapter-part">${esc(partLabel(part))}</p>${sourceTitle}</header><div class="fashion-chapter-stage">${chapterArtwork(chapter)}<div class="fashion-chapter-note"><span>A VISUAL INTRODUCTION</span><p>Street corners, shoeboxes, hand-me-downs, and new dreams.</p><button type="button" id="fashion-read">Read the chapter <span aria-hidden="true">↓</span></button></div></div><figure class="fashion-room-banner"><img src="assets/fashion-room-v2.webp" alt="A sunset-lit room filled with a sneaker, shoeboxes, hanging clothes, photographs and plants."><figcaption>Same objects. Different worlds.</figcaption></figure>`
     :`<header class="chapter-heading"><p class="leaf-kicker">${part?`PART ${roman[part.id]}`:'.JSON / JASON, UNDER REVISION'}</p><p class="chapter-numeral">${headingLabel}</p><h1 id="chapter-heading" class="chapter-title" tabindex="-1">${esc(chapter.title)}</h1>${part?`<p class="chapter-part-title">${esc(partLabel(part))}</p>`:''}${sourceTitle}</header>${chapterArtwork(chapter)}`;
-  $('#chapter-leaf').innerHTML=`${opening}${id==='04'?`<div id="fashion-chapter-text">${text}</div>`:text}${chapterFooter(chapter)}`;
+  $('#chapter-leaf').innerHTML=`${opening}${id==='02'?`<div id="utility-chapter-text">${text}</div>`:id==='04'?`<div id="fashion-chapter-text">${text}</div>`:text}${chapterFooter(chapter)}`;
+  if(id==='02')$('#utility-read').addEventListener('click',()=>$('#utility-chapter-text').scrollIntoView({behavior:reducedMotion?'instant':'smooth'}));
   if(id==='04')$('#fashion-read').addEventListener('click',()=>$('#fashion-chapter-text').scrollIntoView({behavior:reducedMotion?'instant':'smooth'}));
   selectedMapChapter=Number(id);
 }
@@ -139,9 +143,9 @@ function selectMapChapter(index,{fromRing=false}={}){
   selectedMapChapter=((index%chapters.length)+chapters.length)%chapters.length;
   const chapter=chapters[selectedMapChapter],part=partById(chapter.act);
   $('#map-view').dataset.chapter=chapter.slug;
-  const fittedRing={'00':'assets/rice-ring.png','01':'assets/quant-ring.png','04':'assets/fashion-ring-v2.png'}[chapter.id];
+  const fittedRing={'00':'assets/rice-ring.png','01':'assets/quant-ring.png','02':'assets/expected-utility-ring-v2.png','04':'assets/fashion-ring-v2.png'}[chapter.id];
   const fitted=Boolean(fittedRing);
-  const pictureKey=chapter.id==='01'?'quant':chapter.id==='04'?'fashion':'rice';
+  const pictureKey=chapter.id==='01'?'quant':chapter.id==='02'?'expectedUtility':chapter.id==='04'?'fashion':'rice';
   $('#portal-art').classList.toggle('uses-fitted-picture',fitted);
   $('#portal-scene').innerHTML=fitted?renderPortalPicture(pictureKey):artHTML(chapter);
   $('#portal-rim-art').innerHTML=fitted?renderPortalFrame(`${pictureKey}-map`,fittedRing):artHTML(chapter);
@@ -149,7 +153,7 @@ function selectMapChapter(index,{fromRing=false}={}){
   $('#portal-marker').setAttribute('aria-label',`Chapter marker ${chapter.id}: ${getChapterMarkerName(chapter)}`);
   $('#portal-stage').setAttribute('aria-label',`${chapter.id}. ${chapter.title}. Drag to rotate; use arrow keys to choose; Enter to read.`);
   $('#map-part').textContent=part?`PART ${roman[part.id]} · ${partLabel(part)}`:'PROLOGUE';
-  $('#map-number').textContent=chapter.id;$('#map-title').textContent=chapter.id==='04'?chapter.shortTitle:chapter.title;
+  $('#map-number').textContent=chapter.id;$('#map-title').textContent=['02','04'].includes(chapter.id)?chapter.shortTitle:chapter.title;
   $('#map-summary').textContent=chapterNotes[chapter.id].summary;
   $('#map-enter').href=`#chapter/${chapter.id}`;$('#map-enter').innerHTML=`${publishedById.has(chapter.id)?'Read chapter':'Read outline'} <span aria-hidden="true">→</span>`;
   $('#map-availability').textContent=publishedById.has(chapter.id)?'FULL TEXT':'OUTLINE';
@@ -193,7 +197,9 @@ function renderCoverReadingPage(page){
     const chapter=page.chapter,part=partById(chapter.act),manuscript=publishedById.get(chapter.id);
     const numberLabel=chapter.id==='00'?'PROLOGUE':chapter.slug==='loi-xin-loi'?'EPILOGUE':`CHAPTER ${chapter.id}`;
     const body=manuscript?`<div class="cover-reader-prose prose" lang="vi">${manuscript.bodyHtml || manuscript.html}</div>${sourceNotes(manuscript)}`:`<div class="cover-reader-outline"><span>OUTLINE</span><p>${esc(chapterNotes[chapter.id].summary)}</p><small>The full manuscript is not yet available in this edition.</small></div>`;
-    content.innerHTML=chapter.id==='04'
+    content.innerHTML=chapter.id==='02'
+      ?`<div class="cover-reader-page utility-reader-page"><p class="cover-reader-kicker">PART ${roman[part.id]} · CHAPTER ${chapter.id}</p><span class="utility-reader-number">${chapter.id}</span><h2>${esc(chapter.shortTitle)}</h2><p class="utility-reader-subtitle">Decision / Probability / Emotion</p><figure class="utility-reader-scene"><img src="assets/expected-utility-desk-v2.webp" alt="Code and a woman's eyes fill a laptop on a late-night desk."><figcaption>Different outcomes. Same uncertainty. Still you.</figcaption></figure>${body}</div>`
+      :chapter.id==='04'
       ?`<div class="cover-reader-page fashion-reader-page"><p class="cover-reader-kicker">PART ${roman[part.id]} · CHAPTER ${chapter.id}</p><span class="fashion-reader-number">${chapter.id}</span><h2>${esc(chapter.shortTitle)}</h2><p class="fashion-reader-subtitle">Be Your Own Label</p><figure class="fashion-reader-scene"><img src="assets/fashion-room-v2.webp" alt="A sneaker and lived-in wardrobe in a room overlooking the city."><figcaption>Same objects. Different worlds.</figcaption></figure>${body}</div>`
       :`<div class="cover-reader-page"><p class="cover-reader-kicker">${esc(numberLabel)}${part?` · PART ${roman[part.id]}`:''}</p><h2>${esc(chapter.title)}</h2>${part?`<p class="cover-reader-part">${esc(partLabel(part))}</p>`:''}${body}</div>`;
   }
@@ -212,7 +218,7 @@ function selectCoverPage(index,{fromRing=false}={}){
   const page=coverPages[selectedCoverPage];
   $('#cover-stage').dataset.page=page.kind;
   $('#cover-stage').dataset.pageIndex=String(selectedCoverPage);
-  $('#cover-scene').innerHTML=page.kind==='chapter'?(page.chapter.id==='00'?renderPortalPicture('rice'):page.chapter.id==='01'?renderPortalPicture('quant'):page.chapter.id==='04'?renderPortalPicture('fashion'):renderPortalScene(page.chapter)):page.kind==='cover'
+  $('#cover-scene').innerHTML=page.kind==='chapter'?(page.chapter.id==='00'?renderPortalPicture('rice'):page.chapter.id==='01'?renderPortalPicture('quant'):page.chapter.id==='02'?renderPortalPicture('expectedUtility'):page.chapter.id==='04'?renderPortalPicture('fashion'):renderPortalScene(page.chapter)):page.kind==='cover'
     ?renderPortalPicture('cover')
     :renderPortalPicture('introductionCover');
   $('#cover-marker').innerHTML=page.kind==='chapter'?renderChapterMarker(page.chapter,{compact:true}):`<span class="frontmatter-marker" aria-hidden="true">${page.kind==='cover'?'▯':'i'}</span>`;

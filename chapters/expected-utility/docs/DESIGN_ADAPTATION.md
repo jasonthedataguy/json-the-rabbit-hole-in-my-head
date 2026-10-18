@@ -1,0 +1,5 @@
+# Expected Utility digital-book design adaptation
+
+The author's unchanged `references/design/Expected Utility_ Portal Layers Board.png` is the visual source. `scripts/cut_expected_utility_board.py` cuts a transparent decision-tree ring, its aligned laptop-and-eyes centre, a wide desk scene and a composition proof. These are screen assets. The 604-pixel source circle does not provide a print-resolution master or separable print layers.
+
+The board's **Chapter 04** is the original edition number. The current digital book retains Expected Utility as **Chapter 02**. The homepage keeps the shared book-cover ring and changes only its centre at this stop. The chapter map and reading leaf use Expected Utility's own ring and centre; both desktop reading previews show the desk image. `web/expected-utility-v2.css` carries the same palette and portal into the preserved immersive chapter. Its original-edition number, source essay, print proof, film and product links remain distinct from the current edition. `source/approved.md` is unchanged.
