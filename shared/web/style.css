@@ -122,6 +122,11 @@ h1, h2, h3 { font-family: var(--serif); font-weight: 400; line-height: 1.15; }
 .introduction-journey li::before { content: ''; position: absolute; top: -4px; left: 50%; width: 7px; height: 7px; transform: translateX(-50%); border-radius: 50%; background: #bb8355; box-shadow: 0 0 0 2px var(--paper); }
 .book-epigraph { max-width: 520px; margin: 52px auto 68px; text-align: center; font: italic 19px/1.7 Georgia, 'Times New Roman', serif; color: #706e5b; }
 .book-epigraph p + p { margin-top: 12px; }
+.introduction-reading-spread,.quant-reading-spread{margin:0 0 48px}
+.introduction-reading-spread img,.quant-reading-spread img{display:block;width:100%;height:auto;object-fit:contain;border:4px solid #d8c2a1;box-shadow:0 12px 25px #39443c24}
+.introduction-reading-spread figcaption,.quant-reading-spread figcaption{margin-top:10px;color:#927e68;font:10px/1.5 var(--sans);letter-spacing:1.3px;text-transform:uppercase}
+.chapter-illustration + .quant-reading-spread{margin-top:-21px;margin-bottom:35px}
+.quant-reading-spread + .chapter-prose{margin-top:0}
 .intro-section + .intro-section { margin-top: 55px; }
 .intro-section h2 { font: 400 30px/1.25 var(--serif); margin: 0 0 23px; }
 .intro-synopsis { border-left: 2px solid #b0956a; padding-left: 25px; }

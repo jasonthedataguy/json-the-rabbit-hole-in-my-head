@@ -17,7 +17,7 @@
     },
     {
       "id": "artwork",
-      "files_present": 3,
+      "files_present": 4,
       "status": "available for review",
       "required_deliverables": [
         "source and provenance",
@@ -126,6 +126,11 @@
       "product": "Quant portal scene",
       "state": "ready for digital reader",
       "path": "artwork/portal/quant-scene.png"
+    },
+    {
+      "product": "Quant rectangular reading illustration",
+      "state": "screen artwork ready for review",
+      "path": "artwork/portal/quant-reading-spread-v2.webp"
     }
   ],
   "remaining": [

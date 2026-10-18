@@ -3,8 +3,13 @@
   "files": [
     {
       "path": "artwork/portal/index.json",
-      "bytes": 769,
-      "sha256": "bd9695e8cbf3193926e51fa8a337e7d791da899659f9b1ffac466ea9e7565574"
+      "bytes": 1092,
+      "sha256": "c3e23a512041f16760b25306a54032a590fe4f9713e14bd752ea59da4e9cf199"
+    },
+    {
+      "path": "artwork/portal/quant-reading-spread-v2.webp",
+      "bytes": 68534,
+      "sha256": "8938ba272e35e9e00c98750b7895667ff7d3b3b2bb1e66817c784e098b50d154"
     },
     {
       "path": "artwork/portal/quant-ring.png",
@@ -23,8 +28,8 @@
     },
     {
       "path": "docs/PRODUCTS.json",
-      "bytes": 668,
-      "sha256": "989ced29ccdacfe49a895980a7cae93c7a0b86be32747463338b87e925b2daf4"
+      "bytes": 855,
+      "sha256": "2c6a9c10498fe71a8b3bfe95e181e4696aa3043e9f076c3b1fda5f26cf07a5a0"
     },
     {
       "path": "production.json",
@@ -33,8 +38,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 947,
-      "sha256": "5b2b68268b5db288f152386f01f208c5b48655da59ecf134f88995f9647461d2"
+      "bytes": 1235,
+      "sha256": "7609e7a4bb91d609685add118a4a7c05b64316e4ac66483c9e85b88631f44aee"
     },
     {
       "path": "references/editorial-artboard.png",

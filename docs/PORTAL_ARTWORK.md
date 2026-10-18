@@ -15,6 +15,7 @@ The Introduction now uses the latest supplied concept board's complete compositi
 | Active Introduction leaf ring and aligned scene | `shared/artwork/portal/introduction-ring-v2.png`, `shared/artwork/portal/introduction-scene-v2.png` |
 | Transparent circular Introduction page composition | `shared/artwork/portal/introduction-portal-v2.png` |
 | Active Introduction homepage centre crop | `shared/artwork/portal/introduction-cover-scene-v2.png` |
+| Introduction rectangular reading illustration | `shared/artwork/portal/introduction-reading-spread-v2.webp` |
 | Earlier Introduction city scene (alternate) | `shared/artwork/portal/introduction-scene-board.png` |
 | Earlier open-book scene (alternate) | `shared/artwork/portal/introduction-scene.png` |
 | Earlier Introduction leaf ring (alternate) | `shared/artwork/portal/introduction-ring.png` |
@@ -23,6 +24,7 @@ The Introduction now uses the latest supplied concept board's complete compositi
 | Cold Rice family-dinner centre used by the site | `chapters/com-nguoi/artwork/portal/rice-scene-board-v2.png` |
 | Cold Rice floral lattice ring for the chapter map and reader | `chapters/com-nguoi/artwork/portal/rice-ring-board-v2.png` |
 | Cold Rice wide reading illustration | `chapters/com-nguoi/artwork/portal/rice-family-room-v2.webp` |
+| Quant rectangular reading illustration | `chapters/i-was-born-a-quant/artwork/portal/quant-reading-spread-v2.webp` |
 | Fashion ring, upright centre and wide digital spread | `chapters/fashion/artwork/portal/fashion-ring-v2.png`, `fashion-scene-v2.png`, `fashion-room-v2.webp` |
 | Earlier Fashion Paris portal (inactive reference) | `chapters/fashion/artwork/portal/fashion-portal.png` |
 | Fashion final digital-book board (unchanged) | `references/design/Fashion Chapter Digital Book Board - final.png` |

@@ -242,6 +242,12 @@
       "provenance": "Introduction homepage-stop centre from the same new concept board; keeps the book-cover ring unchanged. Recipe scripts/cut_intro_concept_board.py. Digital use only."
     },
     {
+      "source": "shared/artwork/portal/introduction-reading-spread-v2.webp",
+      "public_path": "assets/introduction-reading-spread-v2.webp",
+      "sha256_at_intake": "7b83eb92e80537cf4948c3213ba323be33d0ed4ff2018380b88cd34d29651a5e",
+      "provenance": "Uncropped 3:2 Introduction reading illustration of the open book, reader, city and bridge from the preserved concept board. Recipe scripts/cut_intro_quant_spreads.py; digital use only."
+    },
+    {
       "source": "shared/artwork/portal/placeholder.svg",
       "public_path": "assets/portal-placeholder.svg",
       "sha256_at_intake": "b93b827674b562d71b0550a7660391c1b3baf8038368cff9dc23fb58bd2ed19c",
@@ -270,6 +276,12 @@
       "public_path": "assets/quant-scene.png",
       "sha256_at_intake": "d5ac9a12fedd4202a99a7bb72fc13384b2ff35a6b1a0e924d8ffcd1e41ed8308",
       "provenance": "Web crop of the Jason, city and chart digital-icon vignette from the author-supplied I Was Born a Quant editorial artboard; reproducible with scripts/cut_quant_artboard.py."
+    },
+    {
+      "source": "chapters/i-was-born-a-quant/artwork/portal/quant-reading-spread-v2.webp",
+      "public_path": "assets/quant-reading-spread-v2.webp",
+      "sha256_at_intake": "8938ba272e35e9e00c98750b7895667ff7d3b3b2bb1e66817c784e098b50d154",
+      "provenance": "Full-height Quant reading illustration of Jason, charts, risk-budget note and dog from the preserved editorial artboard. Recipe scripts/cut_intro_quant_spreads.py; digital use only."
     }
   ]
 }

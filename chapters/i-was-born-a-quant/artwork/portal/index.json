@@ -16,6 +16,13 @@
       "source_rect_xyxy": [737, 688, 947, 898],
       "selection": "Digital icon vignette",
       "alt": "Jason seen from behind against a dusk skyline and bell curve."
+    },
+    {
+      "file": "quant-reading-spread-v2.webp",
+      "source_rect_xyxy": [0, 345, 540, 610],
+      "selection": "Jason at the desk, lower main artwork",
+      "recipe": "scripts/cut_intro_quant_spreads.py",
+      "alt": "Jason studies charts at his desk with a dog beside him and a note about minimizing loss."
     }
   ]
 }
