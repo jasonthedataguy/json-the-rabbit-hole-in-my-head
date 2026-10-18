@@ -22,9 +22,19 @@
       "sha256": "17668edee7a4c80fc9d2a260953df3442507b54133f499e2ecffe5cedb8ca131"
     },
     {
+      "path": "artwork/portal/expected-utility-cover-scene-v3.png",
+      "bytes": 1238278,
+      "sha256": "a76a7dfedbe01822ccbd219a7e25360744bdd9843438c16702549f9cc2f02125"
+    },
+    {
       "path": "artwork/portal/expected-utility-desk-v2.webp",
       "bytes": 35932,
       "sha256": "7790edb00f1c3be429734ea95f52ea62e17bfa74aca3f92801a53dd7ca56d9fd"
+    },
+    {
+      "path": "artwork/portal/expected-utility-gaze-v3.webp",
+      "bytes": 328860,
+      "sha256": "1e91337a9f343140083f9785f4956ef4c4db2e8165d47aeff58cf0af39a40f7e"
     },
     {
       "path": "artwork/portal/expected-utility-portal-v2.png",
@@ -32,14 +42,34 @@
       "sha256": "0342db51296528f1256ec471fd7cabc026633b6d7845e967227adbfa9f64918e"
     },
     {
+      "path": "artwork/portal/expected-utility-portal-v3.png",
+      "bytes": 1581744,
+      "sha256": "1fe907e58ea14c553f77dadac2c4dd24da8c529c9cd75778dd8130cba94009e9"
+    },
+    {
       "path": "artwork/portal/expected-utility-ring-v2.png",
       "bytes": 1625170,
       "sha256": "9defa77000667ad87f15a9db1f41b9ca8c56483bca5a4e4450fbe7a007143cff"
     },
     {
+      "path": "artwork/portal/expected-utility-ring-v3.png",
+      "bytes": 1925809,
+      "sha256": "17f7d161058ff95dcfc2dcedaafb21a47e2bd2d2331678709a4e3240941330bd"
+    },
+    {
       "path": "artwork/portal/expected-utility-scene-v2.png",
       "bytes": 1169061,
       "sha256": "6c1a31f23b08736b9756050fb768cb543b3607d1453f9ee28776f91c419ffe4f"
+    },
+    {
+      "path": "artwork/portal/expected-utility-scene-v3.png",
+      "bytes": 1549867,
+      "sha256": "d74cc6d46f027ec5978f0af99cf43dc2d65b17cdd5400d17bbfd25dc08d555dc"
+    },
+    {
+      "path": "artwork/portal/expected-utility-spread-v3.webp",
+      "bytes": 160012,
+      "sha256": "7e81460b67b7076ba77d1809e88aa93bec0daad0efb65bc645188b87076d1482"
     },
     {
       "path": "artwork/scenes/01-desk.jpg",
@@ -98,13 +128,13 @@
     },
     {
       "path": "chapter.json",
-      "bytes": 1478,
-      "sha256": "685832a20b0803f4ac03b1c2f4329560ac9030818c4102b7126a1ab73ab7235b"
+      "bytes": 1558,
+      "sha256": "feee067ec29ea1070ca4385a402c90a17be69db261ad43c47aae9842c85daee0"
     },
     {
       "path": "docs/DESIGN_ADAPTATION.md",
-      "bytes": 1044,
-      "sha256": "021f26fe107eab8c17acd0734a2bd792f2870e5f42646ae291e429a53a7e244e"
+      "bytes": 1309,
+      "sha256": "569331401840a98ad03233cc4deda4275898ee711a0f629cc04ea346298c7bc2"
     },
     {
       "path": "docs/DESIGN_REVIEW.md",
@@ -128,8 +158,8 @@
     },
     {
       "path": "docs/PRODUCTS.json",
-      "bytes": 2164,
-      "sha256": "70d3a50212aff11990269ea46407561ec295168bd76244879a526e584b1cc9e2"
+      "bytes": 3197,
+      "sha256": "86e7097224dc47dcfdfbab0f72d062229a47fd01ed56e3d37804bc51bc6be7f9"
     },
     {
       "path": "previews/artwork.jpg",
@@ -173,8 +203,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 527,
-      "sha256": "cb0ceb843a6a6e44b33e6ef2b997a862066dc5becac7697bcbe57ff5fcff791f"
+      "bytes": 988,
+      "sha256": "6b3b3c0cfdce4159a989c7c259ff9ff8623af49209b1278b98f4d23512f057cd"
     },
     {
       "path": "references/original-edition/approved-checkout.md",
@@ -347,19 +377,34 @@
       "sha256": "7790edb00f1c3be429734ea95f52ea62e17bfa74aca3f92801a53dd7ca56d9fd"
     },
     {
+      "path": "web/assets/expected-utility-gaze-v3.webp",
+      "bytes": 328860,
+      "sha256": "1e91337a9f343140083f9785f4956ef4c4db2e8165d47aeff58cf0af39a40f7e"
+    },
+    {
       "path": "web/assets/expected-utility-portal-v2.png",
       "bytes": 1294206,
       "sha256": "0342db51296528f1256ec471fd7cabc026633b6d7845e967227adbfa9f64918e"
     },
     {
+      "path": "web/assets/expected-utility-portal-v3.png",
+      "bytes": 1581744,
+      "sha256": "1fe907e58ea14c553f77dadac2c4dd24da8c529c9cd75778dd8130cba94009e9"
+    },
+    {
+      "path": "web/assets/expected-utility-spread-v3.webp",
+      "bytes": 160012,
+      "sha256": "7e81460b67b7076ba77d1809e88aa93bec0daad0efb65bc645188b87076d1482"
+    },
+    {
       "path": "web/expected-utility-v2.css",
-      "bytes": 2621,
-      "sha256": "de0dcc63d182f729dfff7ab5eb0d4e47e3c17f07cc74de422577d975868ed26b"
+      "bytes": 2706,
+      "sha256": "4e5c29b81610717ada6b75ae1b8a24bd071a61d48fcc4963f33024ae34a345c7"
     },
     {
       "path": "web/index.html",
-      "bytes": 30131,
-      "sha256": "08eb0d06ba169f0319db772dd39a92249c282e8a8828fd2f7e3fd651f9c035c5"
+      "bytes": 30394,
+      "sha256": "f44f142e1570bc6149bcf409ed87ab5f08aa61bd3293d7d7d0df6d855100e1b3"
     }
   ]
 }

@@ -12,14 +12,16 @@
   "canonical_path": "#chapter/02",
   "summary": "Một chàng trai tìm bug trong code nhưng không ngừng nhìn thấy đôi mắt một cô gái. Từ một mất tập trung rất người, anh chuyển sang lợi ích, chi phí, hối tiếc và lựa chọn tối ưu.",
   "portal": {
-    "scene": "A late-night laptop and warm desk lamp face intrusive eyes reflected in the glass.",
+    "scene": "Jason faces a woman's eyes through layered paths, choices, a heart and a scale under a late-night clock.",
     "objects": [
-      "code screen",
-      "branching path",
-      "small heart"
+      "her eyes",
+      "branching paths",
+      "small heart",
+      "balance scale",
+      "late-night laptop"
     ],
-    "iconKey": "laptop",
-    "motif": "The branching path"
+    "iconKey": "scales",
+    "motif": "The paths not chosen"
   },
   "original_edition": {
     "number": "04",
@@ -29,7 +31,7 @@
     "metadata": "references/original-edition/chapter.json",
     "archive_url": "https://jasonthedataguy.github.io/json-under-revision/chapters/04/"
   },
-  "production_status": "digital portal adapted from supplied board; imported print and media proofs still need v2 review",
+  "production_status": "digital portal updated from revised author board; imported print and media proofs still need v2 review",
   "manuscript_sha256": "9ede9cdc721416cbc1f625d7a0df5f2ce1329a1050f8c7e6dab32785c595e5d4",
   "outline_title": "Expected Utility"
 }

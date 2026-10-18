@@ -1,8 +1,8 @@
-import { chapters, renderIcon, renderPortal, renderPortalScene } from './chapters.js?v=17';
+import { chapters, renderIcon, renderPortal, renderPortalScene } from './chapters.js?v=18';
 import { introduction, parts, chapterNotes } from './book.js?v=13';
-import { renderChapterMarker, getChapterMarkerName } from './markers.js?v=13';
+import { renderChapterMarker, getChapterMarkerName } from './markers.js?v=14';
 import { PortalRing } from './ring.js?v=10';
-import { renderPortalPicture, renderPortalFrame, renderFramedPortal } from './portal-art.js?v=37';
+import { renderPortalPicture, renderPortalFrame, renderFramedPortal } from './portal-art.js?v=38';
 
 const $ = selector => document.querySelector(selector);
 const $$ = selector => [...document.querySelectorAll(selector)];
@@ -52,7 +52,7 @@ function renderContents(){
 function artHTML(chapter){
   if(chapter.id==='00')return renderFramedPortal('rice','rice-chapter','assets/rice-ring-board-v2.png');
   if(chapter.id==='01')return renderFramedPortal('quant','quant-chapter','assets/quant-ring.png');
-  if(chapter.id==='02')return renderFramedPortal('expectedUtility','expected-utility-chapter','assets/expected-utility-ring-v2.png');
+  if(chapter.id==='02')return renderFramedPortal('expectedUtility','expected-utility-chapter','assets/expected-utility-ring-v3.png');
   if(chapter.id==='03')return renderFramedPortal('playToWin','play-to-win-chapter','assets/play-to-win-ring-v2.png');
   if(chapter.id==='04')return renderFramedPortal('fashion','fashion-chapter','assets/fashion-ring-v2.png');
   if(chapter.id==='05')return renderFramedPortal('flow','flow-chapter','assets/flow-ring-v2.png');
@@ -97,7 +97,7 @@ function renderChapter(id){
     :id==='00'
     ?`<header class="rice-chapter-heading"><p class="leaf-kicker">PROLOGUE · ${id}</p><p class="rice-chapter-numeral">${id}</p><h1 id="chapter-heading" tabindex="-1">${esc(chapter.title)}</h1><p class="rice-chapter-subtitle">Memory / Family / Childhood / Home</p>${sourceTitle}</header><div class="rice-chapter-stage">${chapterArtwork(chapter)}<div class="rice-chapter-note"><span>A VISUAL INTRODUCTION</span><p>A bowl of cold rice, a warm home, and the people who made ordinary nights feel like everything.</p><button type="button" id="rice-read">Read the prologue <span aria-hidden="true">↓</span></button></div></div><figure class="rice-room-banner"><img src="assets/rice-family-room-v2.webp?v=2" alt="A family shares dinner in a warm room overlooking the city."><figcaption>Memory / Family / Childhood / Home</figcaption></figure>`
     :id==='02'
-    ?`<header class="utility-chapter-heading"><p class="leaf-kicker">PART ${roman[part.id]} · CHAPTER ${id}</p><p class="utility-chapter-numeral">${id}</p><h1 id="chapter-heading" tabindex="-1">${esc(chapter.shortTitle)}</h1><p class="utility-chapter-subtitle">Decision / Probability / Emotion</p><p class="utility-chapter-part">${esc(partLabel(part))}</p>${sourceTitle}</header><div class="utility-chapter-stage">${chapterArtwork(chapter)}<div class="utility-chapter-note"><span>A VISUAL INTRODUCTION</span><p>Different outcomes.<br>Same uncertainty.<br>Still you.</p><button type="button" id="utility-read">Read the chapter <span aria-hidden="true">↓</span></button></div></div><figure class="utility-desk-banner"><img src="assets/expected-utility-desk-v2.webp" alt="A desk with a laptop displaying a woman's eyes, code, coffee and notes."><figcaption>Decision / Probability / Emotion</figcaption></figure>`
+    ?`<header class="utility-chapter-heading"><p class="leaf-kicker">PART ${roman[part.id]} · CHAPTER ${id}</p><p class="utility-chapter-numeral">${id}</p><h1 id="chapter-heading" tabindex="-1">${esc(chapter.shortTitle)}</h1><p class="utility-chapter-subtitle">Decision / Probability / Emotion</p><p class="utility-chapter-part">${esc(partLabel(part))}</p>${sourceTitle}</header><div class="utility-chapter-stage">${chapterArtwork(chapter)}<div class="utility-chapter-note"><span>A VISUAL INTRODUCTION</span><p>Different outcomes.<br>Same uncertainty.<br>Still you.</p><button type="button" id="utility-read">Read the chapter <span aria-hidden="true">↓</span></button></div></div><figure class="utility-spread-banner"><img src="assets/expected-utility-gaze-v3.webp" alt="A woman's eyes framed by choices, a heart, scales, code, a letter and branching paths."><figcaption>Decision / Probability / Emotion</figcaption></figure>`
     :id==='03'
     ?`<header class="play-chapter-heading"><p class="leaf-kicker">PART ${roman[part.id]} · CHAPTER ${id}</p><p class="play-chapter-numeral">${id}</p><h1 id="chapter-heading" tabindex="-1">${esc(chapter.title)}</h1><p class="play-chapter-subtitle">Game Theory / Decision / Relationship / Trade-off</p><p class="play-chapter-part">${esc(partLabel(part))}</p>${sourceTitle}</header><div class="play-chapter-stage">${chapterArtwork(chapter)}<div class="play-chapter-note"><span>A VISUAL INTRODUCTION</span><p>Different players.<br>Different incentives.<br>Same game.<br>Choose well.</p><button type="button" id="play-read">Read the chapter <span aria-hidden="true">↓</span></button></div></div><figure class="play-table-banner"><img src="assets/play-to-win-table-v2.webp" alt="Cards, poker chips and mahjong tiles on a lamplit game table."><figcaption>Different players. Different incentives.</figcaption></figure>`
     :id==='04'
@@ -175,7 +175,7 @@ function selectMapChapter(index,{fromRing=false}={}){
   selectedMapChapter=((index%chapters.length)+chapters.length)%chapters.length;
   const chapter=chapters[selectedMapChapter],part=partById(chapter.act);
   $('#map-view').dataset.chapter=chapter.slug;
-  const fittedRing={'00':'assets/rice-ring-board-v2.png','01':'assets/quant-ring.png','02':'assets/expected-utility-ring-v2.png','03':'assets/play-to-win-ring-v2.png','04':'assets/fashion-ring-v2.png','05':'assets/flow-ring-v2.png','08':'assets/mother-russia-ring-v2.png','09':'assets/dream-world-ring-v2.png','17':'assets/three-meeting-ring-v2.png?v=4','18':'assets/dating-algorithm-ring-v2.png','19':'assets/dating-102-ring-v2.png'}[chapter.id];
+  const fittedRing={'00':'assets/rice-ring-board-v2.png','01':'assets/quant-ring.png','02':'assets/expected-utility-ring-v3.png','03':'assets/play-to-win-ring-v2.png','04':'assets/fashion-ring-v2.png','05':'assets/flow-ring-v2.png','08':'assets/mother-russia-ring-v2.png','09':'assets/dream-world-ring-v2.png','17':'assets/three-meeting-ring-v2.png?v=4','18':'assets/dating-algorithm-ring-v2.png','19':'assets/dating-102-ring-v2.png'}[chapter.id];
   const fitted=Boolean(fittedRing);
   const pictureKey=chapter.id==='01'?'quant':chapter.id==='02'?'expectedUtility':chapter.id==='03'?'playToWin':chapter.id==='04'?'fashion':chapter.id==='05'?'flow':chapter.id==='08'?'motherRussia':chapter.id==='09'?'dreamWorld':chapter.id==='17'?'threeMeeting':chapter.id==='18'?'datingAlgorithm':chapter.id==='19'?'dating102':'rice';
   $('#portal-art').classList.toggle('uses-fitted-picture',fitted);
@@ -251,7 +251,7 @@ function renderCoverReadingPage(page){
       :chapter.id==='00'
       ?`<div class="cover-reader-page rice-reader-page"><p class="cover-reader-kicker">PROLOGUE · ${chapter.id}</p><span class="rice-reader-number">${chapter.id}</span><h2>${esc(chapter.title)}</h2><p class="rice-reader-subtitle">Memory / Family / Childhood / Home</p><figure class="rice-reader-scene"><img src="assets/rice-family-room-v2.webp?v=2" alt="A family shares dinner in a warm room overlooking the city."><figcaption>The same table. The same bowl. A thousand versions of home.</figcaption></figure>${body}</div>`
       :chapter.id==='02'
-      ?`<div class="cover-reader-page utility-reader-page"><p class="cover-reader-kicker">PART ${roman[part.id]} · CHAPTER ${chapter.id}</p><span class="utility-reader-number">${chapter.id}</span><h2>${esc(chapter.shortTitle)}</h2><p class="utility-reader-subtitle">Decision / Probability / Emotion</p><figure class="utility-reader-scene"><img src="assets/expected-utility-desk-v2.webp" alt="Code and a woman's eyes fill a laptop on a late-night desk."><figcaption>Different outcomes. Same uncertainty. Still you.</figcaption></figure>${body}</div>`
+      ?`<div class="cover-reader-page utility-reader-page"><p class="cover-reader-kicker">PART ${roman[part.id]} · CHAPTER ${chapter.id}</p><span class="utility-reader-number">${chapter.id}</span><h2>${esc(chapter.shortTitle)}</h2><p class="utility-reader-subtitle">Decision / Probability / Emotion</p><figure class="utility-reader-scene"><img src="assets/expected-utility-gaze-v3.webp" alt="A woman's eyes framed by choices, a heart, scales, code, a letter and branching paths."><figcaption>Different outcomes. Same uncertainty. Still you.</figcaption></figure>${body}</div>`
       :chapter.id==='03'
       ?`<div class="cover-reader-page play-reader-page"><p class="cover-reader-kicker">PART ${roman[part.id]} · CHAPTER ${chapter.id}</p><span class="play-reader-number">${chapter.id}</span><h2>${esc(chapter.title)}</h2><p class="play-reader-subtitle">Game Theory / Decision / Relationship / Trade-off</p><figure class="play-reader-scene"><img src="assets/play-to-win-table-v2.webp" alt="A warm lamp above cards, chips and mahjong tiles on a game table."><figcaption>Different players. Different incentives. Same game.</figcaption></figure>${body}</div>`
       :chapter.id==='04'
@@ -275,7 +275,7 @@ function selectCoverPage(index,{fromRing=false}={}){
   const page=coverPages[selectedCoverPage];
   $('#cover-stage').dataset.page=page.kind;
   $('#cover-stage').dataset.pageIndex=String(selectedCoverPage);
-  $('#cover-scene').innerHTML=page.kind==='chapter'?(page.chapter.id==='00'?renderPortalPicture('rice'):page.chapter.id==='01'?renderPortalPicture('quant'):page.chapter.id==='02'?renderPortalPicture('expectedUtility'):page.chapter.id==='03'?renderPortalPicture('playToWin'):page.chapter.id==='04'?renderPortalPicture('fashion'):page.chapter.id==='05'?renderPortalPicture('flowCover'):page.chapter.id==='08'?renderPortalPicture('motherRussiaCover'):page.chapter.id==='09'?renderPortalPicture('dreamWorldCover'):page.chapter.id==='17'?renderPortalPicture('threeMeetingCover'):page.chapter.id==='18'?renderPortalPicture('datingAlgorithmCover'):page.chapter.id==='19'?renderPortalPicture('dating102Cover'):renderPortalScene(page.chapter)):page.kind==='cover'
+  $('#cover-scene').innerHTML=page.kind==='chapter'?(page.chapter.id==='00'?renderPortalPicture('rice'):page.chapter.id==='01'?renderPortalPicture('quant'):page.chapter.id==='02'?renderPortalPicture('expectedUtilityCover'):page.chapter.id==='03'?renderPortalPicture('playToWin'):page.chapter.id==='04'?renderPortalPicture('fashion'):page.chapter.id==='05'?renderPortalPicture('flowCover'):page.chapter.id==='08'?renderPortalPicture('motherRussiaCover'):page.chapter.id==='09'?renderPortalPicture('dreamWorldCover'):page.chapter.id==='17'?renderPortalPicture('threeMeetingCover'):page.chapter.id==='18'?renderPortalPicture('datingAlgorithmCover'):page.chapter.id==='19'?renderPortalPicture('dating102Cover'):renderPortalScene(page.chapter)):page.kind==='cover'
     ?renderPortalPicture('cover')
     :renderPortalPicture('introductionCover');
   $('#cover-marker').innerHTML=page.kind==='chapter'?renderChapterMarker(page.chapter,{compact:true}):`<span class="frontmatter-marker" aria-hidden="true">${page.kind==='cover'?'▯':'i'}</span>`;

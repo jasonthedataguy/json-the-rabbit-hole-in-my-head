@@ -65,6 +65,31 @@
       "product": "Author reading script",
       "state": "ready for recording",
       "path": "audio/reading-script.md"
+    },
+    {
+      "product": "Revised Expected Utility ring",
+      "state": "new digital crop; Jason remains intact on the rotating layer",
+      "path": "artwork/portal/expected-utility-ring-v3.png"
+    },
+    {
+      "product": "Revised Expected Utility centre",
+      "state": "stationary face aligned to the ring",
+      "path": "artwork/portal/expected-utility-scene-v3.png"
+    },
+    {
+      "product": "Revised Expected Utility cover preview",
+      "state": "face-only crop under the shared homepage ring",
+      "path": "artwork/portal/expected-utility-cover-scene-v3.png"
+    },
+    {
+      "product": "Revised Expected Utility reading spread",
+      "state": "full extracted-elements rectangle, not a print master",
+      "path": "artwork/portal/expected-utility-spread-v3.webp"
+    },
+    {
+      "product": "Revised Expected Utility gaze panorama",
+      "state": "wide reading illustration in the book and standalone experience",
+      "path": "artwork/portal/expected-utility-gaze-v3.webp"
     }
   ],
   "remaining": [

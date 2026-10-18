@@ -1,10 +1,11 @@
-import { chapters, acts } from './chapter-data.js?v=14';
+import { chapters, acts } from './chapter-data.js?v=15';
 export { chapters, acts };
 
 const iconPaths = {
   bowl:'M3 10h18c-1 7-5 10-9 10S4 17 3 10ZM5 6c2-3 3 2 5-1m4 0c2-3 3 2 5-1',
   chart:'M4 3v17h17M7 15l4-6 4 3 5-7M7 5h1m9 13h1',
   laptop:'M5 4h14v12H5zM2 20h20l-3-4H5zM8 8l-2 2 2 2m8-4 2 2-2 2',
+  scales:'M12 2v19M5 6h14M4 21h16M5 6 2 14h6L5 6Zm14 0-3 8h6l-3-8Z',
   tile:'M6 2h12v20H6zM10 7h4m-4 5h4m-4 5h4',
   sneaker:'M3 14l4-7 5 5 5 1 4 3v4H3zM3 17h18M10 11l-2 2m5-1-2 2',
   key:'M10 9a4 4 0 1 1-8 0 4 4 0 0 1 8 0ZM10 9h12m-4 0v4m-4-4v3',

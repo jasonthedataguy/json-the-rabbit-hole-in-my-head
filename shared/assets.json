@@ -426,6 +426,36 @@
       "public_path": "assets/dream-world-spread-v2.webp",
       "sha256_at_intake": "553fa84c8dd78156d091bacca88f6cf287aa3ee1814e7624b0adb138d98eb3aa",
       "provenance": "Author-supplied Dream World board in references/design/, cut by scripts/cut_dream_world_board.py. Full rectangular extracted-elements illustration for Chapter 09 reading leaf and desktop preview. Screen use only."
+    },
+    {
+      "source": "chapters/expected-utility/artwork/portal/expected-utility-ring-v3.png",
+      "public_path": "assets/expected-utility-ring-v3.png",
+      "sha256_at_intake": "17f7d161058ff95dcfc2dcedaafb21a47e2bd2d2331678709a4e3240941330bd",
+      "provenance": "Revised author board references/design/model_specification - expected utility.png; recipe scripts/cut_expected_utility_v3_board.py. Rotating paths, heart and scale; Jason's head and body stay together on the ring. Screen use only."
+    },
+    {
+      "source": "chapters/expected-utility/artwork/portal/expected-utility-scene-v3.png",
+      "public_path": "assets/expected-utility-scene-v3.png",
+      "sha256_at_intake": "d74cc6d46f027ec5978f0af99cf43dc2d65b17cdd5400d17bbfd25dc08d555dc",
+      "provenance": "Revised author board references/design/model_specification - expected utility.png; recipe scripts/cut_expected_utility_v3_board.py. Stationary woman's eyes aligned with the revised chapter ring. Screen use only."
+    },
+    {
+      "source": "chapters/expected-utility/artwork/portal/expected-utility-cover-scene-v3.png",
+      "public_path": "assets/expected-utility-cover-scene-v3.png",
+      "sha256_at_intake": "a76a7dfedbe01822ccbd219a7e25360744bdd9843438c16702549f9cc2f02125",
+      "provenance": "Revised author board references/design/model_specification - expected utility.png; recipe scripts/cut_expected_utility_v3_board.py. Face-only preview under the unchanged shared homepage ring. Screen use only."
+    },
+    {
+      "source": "chapters/expected-utility/artwork/portal/expected-utility-spread-v3.webp",
+      "public_path": "assets/expected-utility-spread-v3.webp",
+      "sha256_at_intake": "7e81460b67b7076ba77d1809e88aa93bec0daad0efb65bc645188b87076d1482",
+      "provenance": "Revised author board references/design/model_specification - expected utility.png; recipe scripts/cut_expected_utility_v3_board.py. Complete rectangular extracted-elements art for the reading leaf and desktop preview. Screen use only."
+    },
+    {
+      "source": "chapters/expected-utility/artwork/portal/expected-utility-gaze-v3.webp",
+      "public_path": "assets/expected-utility-gaze-v3.webp",
+      "sha256_at_intake": "1e91337a9f343140083f9785f4956ef4c4db2e8165d47aeff58cf0af39a40f7e",
+      "provenance": "Wide gaze and choice-symbol crop from the revised author board; recipe scripts/cut_expected_utility_v3_board.py. Screen use only."
     }
   ]
 }

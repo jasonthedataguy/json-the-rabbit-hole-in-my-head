@@ -502,30 +502,31 @@ h1, h2, h3 { font-family: var(--serif); font-weight: 400; line-height: 1.15; }
 #map-view[data-chapter="fashion"] .map-enter{border-color:#f0625c88}
 @media(max-width:700px){.fashion-chapter-stage{grid-template-columns:1fr;gap:10px}.fashion-chapter-stage .chapter-illustration:has(.fitted-portal){width:min(300px,80%);margin:0 auto}.fashion-chapter-note{margin:0 12px;padding:14px 0 14px 20px}.fashion-chapter-note p{font-size:21px}.fashion-room-banner{margin-top:18px}.fashion-chapter-heading h1{font-size:54px}.fashion-chapter-numeral{font-size:61px}}
 
-/* Expected Utility: the late-night desk sits inside its own decision-tree ring. */
+/* Expected Utility: branching paths and choices turn around an unmoving gaze. */
 .utility-chapter-heading{text-align:center;margin:0 auto}
 .utility-chapter-heading .leaf-kicker{color:#8e8069}
-.utility-chapter-numeral{margin:20px 0 2px;color:#bb7457;font:69px/.9 var(--serif)}
+.utility-chapter-numeral{margin:20px 0 2px;color:#ad785e;font:69px/.9 var(--serif)}
 .utility-chapter-heading h1{margin:0;color:#142d3a;font:clamp(46px,7vw,62px)/1.03 var(--serif);letter-spacing:-1.5px}
-.utility-chapter-subtitle{margin:12px 0 0;color:#9b725f;font:11px/1.5 var(--sans);letter-spacing:2.1px;text-transform:uppercase}
+.utility-chapter-subtitle{margin:12px 0 0;color:#8c6474;font:11px/1.5 var(--sans);letter-spacing:2.1px;text-transform:uppercase}
 .utility-chapter-part{margin:18px 0 0;color:#777e74;font:italic 17px/1.5 var(--body-serif)}
 .utility-chapter-stage{display:grid;grid-template-columns:minmax(0,330px) minmax(0,1fr);gap:24px;align-items:center;margin:22px 0 28px}
 .utility-chapter-stage .chapter-illustration:has(.fitted-portal){width:100%;height:auto;margin:0;aspect-ratio:1}
+.utility-chapter-stage .portal-page-marker,#map-view[data-chapter="expected-utility"] #portal-marker{display:none}
 .utility-chapter-note{padding:22px 0 22px 25px;border-left:1px solid #bd8866}
 .utility-chapter-note>span{color:#a47f64;font:10px/1.5 var(--sans);letter-spacing:1.7px}
 .utility-chapter-note p{margin:19px 0 25px;color:#203745;font:24px/1.42 var(--serif)}
 .utility-chapter-note button{display:inline-flex;gap:12px;align-items:center;padding:0 0 6px;border:0;border-bottom:1px solid #b98370;background:none;color:#9d6049;font:11px/1.5 var(--sans);letter-spacing:.7px;cursor:pointer}
 .utility-chapter-note button:hover{color:#72442f}
-.utility-desk-banner{margin:0 0 34px}
-.utility-desk-banner img{display:block;width:100%;aspect-ratio:2.4/1;object-fit:cover;border:4px solid #d8b995;box-shadow:0 12px 25px #39443c24}
-.utility-desk-banner figcaption{margin-top:10px;color:#927e68;font:10px/1.5 var(--sans);letter-spacing:1.3px;text-transform:uppercase}
+.utility-spread-banner{margin:0 0 34px;text-align:center}
+.utility-spread-banner img{display:block;width:100%;height:auto;object-fit:contain}
+.utility-spread-banner figcaption{margin-top:10px;color:#927e68;font:10px/1.5 var(--sans);letter-spacing:1.3px;text-transform:uppercase}
 #utility-chapter-text{scroll-margin-top:80px}
 #utility-chapter-text .chapter-prose{margin-top:42px}
 #utility-chapter-text .chapter-prose>p:first-of-type::first-letter{color:#b36b50}
 #map-view[data-chapter="expected-utility"] .map-number{color:#eda26d}
 #map-view[data-chapter="expected-utility"] .map-enter{border-color:#eda26d88}
 #map-view[data-chapter="expected-utility"] #map-summary{font-family:var(--body-serif)}
-@media(max-width:700px){.utility-chapter-stage{grid-template-columns:1fr;gap:9px}.utility-chapter-stage .chapter-illustration:has(.fitted-portal){width:min(310px,82%);margin:0 auto}.utility-chapter-note{margin:0 12px;padding:14px 0 14px 20px}.utility-chapter-note p{font-size:21px}.utility-desk-banner{margin-top:17px}.utility-chapter-numeral{font-size:60px}.utility-chapter-heading h1{font-size:clamp(43px,11vw,56px)}}
+@media(max-width:700px){.utility-chapter-stage{grid-template-columns:1fr;gap:9px}.utility-chapter-stage .chapter-illustration:has(.fitted-portal){width:min(310px,82%);margin:0 auto}.utility-chapter-note{margin:0 12px;padding:14px 0 14px 20px}.utility-chapter-note p{font-size:21px}.utility-spread-banner{margin-top:17px}.utility-chapter-numeral{font-size:60px}.utility-chapter-heading h1{font-size:clamp(43px,11vw,56px)}}
 
 /* Play to Win: paper game room, cards, mahjong and the decision matrix. */
 .play-chapter-heading{text-align:center;margin:0 auto;max-width:940px}
