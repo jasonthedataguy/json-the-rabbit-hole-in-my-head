@@ -34,7 +34,7 @@ with sync_playwright() as p:
     page.on('pageerror', lambda e: errors.append(str(e)))
     page.on('response', lambda r: failed.append([r.status, r.url]) if r.status >= 400 else None)
     page.goto(base, wait_until='networkidle')
-    expect(page.locator('.cover-orbit-mark')).to_have_count(34)
+    expect(page.locator('.cover-orbit-mark')).to_have_count(35)
     selected(page, 0)
     expect(page.locator('#cover-scene image')).to_have_attribute('href', 'assets/cover-scene-landscape.png')
     expect(page.locator('#cover-chapter-label')).to_have_text('Book cover')
@@ -49,15 +49,15 @@ with sync_playwright() as p:
     page.locator('#cover-prev').click(); selected(page, 1)
     page.locator('#cover-stage').focus()
     page.keyboard.press('Home'); selected(page, 0)
-    for index in range(1, 35):
-        page.keyboard.press('ArrowRight'); selected(page, index % 34)
-    page.keyboard.press('ArrowLeft'); selected(page, 33)
+    for index in range(1, 36):
+        page.keyboard.press('ArrowRight'); selected(page, index % 35)
+    page.keyboard.press('ArrowLeft'); selected(page, 34)
     page.keyboard.press('Home')
     box = page.locator('#cover-stage').bounding_box()
     cx, cy, radius = box['x']+box['width']/2, box['y']+box['height']/2, box['width']*.38
     page.mouse.move(cx+radius,cy); page.mouse.down()
     for step in range(1, 21):
-        angle = math.radians(-5*360/34*step/20)
+        angle = math.radians(-5*360/35*step/20)
         page.mouse.move(cx+radius*math.cos(angle),cy+radius*math.sin(angle))
     selected(page, 5)  # Live update before release.
     page.mouse.up(); selected(page, 5)
@@ -77,6 +77,17 @@ with sync_playwright() as p:
     expect(page).to_have_url(base+'#introduction')
 
     library = json.loads((root/'dist/content/manuscripts.json').read_text(encoding='utf-8'))
+    assert next(c for c in library['chapters'] if c['slug']=='dating-102')['editorialId']=='19'
+    page.goto(base+'#chapter/19', wait_until='networkidle')
+    expect(page.locator('#chapter-heading')).to_have_text('Dating 102')
+    expect(page.locator('.chapter-prose')).to_be_visible()
+    expect(page.locator('.chapter-nav-link[href="#chapter/19"] .nav-chapter-icon svg')).to_have_count(1)
+    expect(page.locator('.next-leaf')).to_have_attribute('href','#chapter/20')
+    page.goto(base+'#chapter/18', wait_until='networkidle')
+    expect(page.locator('.next-leaf')).to_have_attribute('href','#chapter/19')
+    page.goto(base+'#contents', wait_until='networkidle')
+    expect(page.locator('.toc-row[href="#chapter/19"] .toc-title')).to_have_text('Dating 102')
+    expect(page.locator('.toc-row[href="#archive/dating-102"]')).to_have_count(0)
     for chapter in library['chapters']:
         route = '#chapter/'+chapter['editorialId'] if chapter['editorialId'] is not None else '#archive/'+chapter['slug']
         page.goto(base+route, wait_until='networkidle')
@@ -91,13 +102,13 @@ with sync_playwright() as p:
             page.screenshot(path=str(output / 'reader-desktop.png'))
             page.locator('.chapter-prose').scroll_into_view_if_needed()
             page.screenshot(path=str(output / 'prose-desktop.png'))
-    page.goto(base+'#chapter/30',wait_until='networkidle')
+    page.goto(base+'#chapter/31',wait_until='networkidle')
     no_overflow(page)
     page.screenshot(path=str(output/'long-title-desktop.png'))
     page.goto(base+'#map',wait_until='networkidle')
     page.locator('#portal-stage').focus();page.keyboard.press('Home')
     expect(page.locator('#map-number')).to_have_text('00')
-    page.keyboard.press('End');expect(page.locator('#map-number')).to_have_text('31')
+    page.keyboard.press('End');expect(page.locator('#map-number')).to_have_text('32')
     page.keyboard.press('ArrowRight');expect(page.locator('#map-number')).to_have_text('00')
 
     phone = browser.new_context(viewport={'width':390,'height':844},is_mobile=True,has_touch=True,reduced_motion='reduce')
@@ -123,4 +134,4 @@ with sync_playwright() as p:
     browser.close()
 assert not errors, errors
 assert not failed, failed
-print(json.dumps({'result':'passed','cover_stops':34,'manuscripts_unchanged':len(library['chapters']),'browser_errors':errors,'http_failures':failed,'screenshots':str(output)},indent=2))
+print(json.dumps({'result':'passed','cover_stops':35,'manuscripts_unchanged':len(library['chapters']),'browser_errors':errors,'http_failures':failed,'screenshots':str(output)},indent=2))

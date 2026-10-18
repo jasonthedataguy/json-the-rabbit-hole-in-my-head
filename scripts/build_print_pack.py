@@ -114,7 +114,7 @@ def cover_wrap(spine_mm,show_scene):
     # Back typography keeps the exact concept-board line; no placeholder ISBN.
     d=ImageDraw.Draw(page)
     d.ellipse((back_cx-px(5),px(45),back_cx+px(5),px(55)),fill=GOLD)
-    lines=['One book.','32 portals.','A continuous journey','into the many versions','of myself.']
+    lines=['One book.','33 portals.','A continuous journey','into the many versions','of myself.']
     quote=font('Libre-Caslon-Display-Regular.ttf',19)
     for i,text in enumerate(lines):
         d.text((back_cx,px(76+i*12.5)),text,font=quote,anchor='mm',fill='#f3dfbd')

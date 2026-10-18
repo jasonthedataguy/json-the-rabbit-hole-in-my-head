@@ -65,8 +65,8 @@ def validate_project(root=ROOT):
         for product in read_json(folder / 'docs/PRODUCTS.json')['products']:
             if not safe_path(folder, product['path']).is_file():
                 raise ValueError(f'Product claims a missing file: {folder.name}/{product["path"]}')
-    if numbers != [f'{number:02d}' for number in range(len(numbers))] or len(numbers) > 32:
-        raise ValueError('Portal chapters must be ordered consecutively from 00, with at most 32 slots')
+    if numbers != [f'{number:02d}' for number in range(len(numbers))] or len(numbers) > 99:
+        raise ValueError('Portal chapters must be ordered consecutively from 00, with at most 99 slots')
     for asset in read_json(safe_path(root, registry['asset_manifest']))['assets']:
         if not safe_path(root, asset['source']).is_file():
             raise ValueError(f'Missing public asset source: {asset["source"]}')

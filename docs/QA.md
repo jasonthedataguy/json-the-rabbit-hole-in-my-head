@@ -2,6 +2,8 @@
 
 The local v2 migration passed the following checks. These results cover the repository migration and website integration, not a new certification of inherited print/media products.
 
+Current reader order has 33 editorial slots (`00`–`32`), 11 full manuscripts and 22 outlines. Dating 102 is Chapter 19 after Dating Algorithm. The table below records the earlier migration audit before this chapter-order update; current build and link validation are reported by `scripts/check_site.py`.
+
 | Check | Result |
 |---|---|
 | Chapter registry | 32 editorial slots, 23 outline-only slots, 10 published manuscripts including one archive-only essay |

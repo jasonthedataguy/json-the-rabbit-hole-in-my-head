@@ -133,8 +133,8 @@
     },
     {
       "path": "chapter.json",
-      "bytes": 963,
-      "sha256": "5aa5a790308723a338e40689a1fb1a2e402d655e9b00dad4dde1b3106a6008b6"
+      "bytes": 1334,
+      "sha256": "b6ddc857d5e448c4fbad57c8d59af7a4039a483645dbbaca61fbe49956daad8d"
     },
     {
       "path": "docs/BROWSER_QA.json",
@@ -288,8 +288,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 537,
-      "sha256": "8bf2f0161924a207333af0cafdd63ca0076b58237942d1fc63b9b0477c237080"
+      "bytes": 602,
+      "sha256": "25ac838c234fbf54e49bb32d91cdbae89e9f39b7dbd9b6dcc109572756605415"
     },
     {
       "path": "references/original-edition/approved.md",

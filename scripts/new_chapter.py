@@ -16,8 +16,8 @@ def create_chapter(root, slug, title, number=None, part=None, archive=False):
             raise ValueError('An archive essay must not take a portal number or part')
     else:
         expected = f'{len(registry["chapters"]):02d}'
-        if len(registry['chapters']) >= 32:
-            raise ValueError('All 32 portal slots already exist; edit a chapter folder or use --archive')
+        if len(registry['chapters']) >= 99:
+            raise ValueError('All 99 two-digit portal slots already exist; edit a chapter folder or use --archive')
         if number != expected or part not in range(1, 6):
             raise ValueError(f'Use the next free editorial slot {expected} and a part from 1 to 5')
     shutil.copytree(root / 'templates/chapter', destination)

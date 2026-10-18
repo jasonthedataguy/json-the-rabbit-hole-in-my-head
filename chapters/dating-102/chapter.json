@@ -1,21 +1,21 @@
 {
   "schema_version": 2,
   "slug": "dating-102",
-  "number": null,
+  "number": "19",
   "title": "Dating 102",
   "short_title": "Dating 102",
-  "part": null,
+  "part": 3,
   "language": "vi",
   "publish": true,
   "release_stage": "reader-with-original-products",
   "canonical_text": "source/approved.md",
-  "canonical_path": "#archive/dating-102",
-  "summary": "",
+  "canonical_path": "#chapter/19",
+  "summary": "Jason nhìn lại cách mình từng biến tình yêu thành cuộc đấu giá địa vị, rồi nhận ra sự tò mò về một con người đáng giá hơn những tín hiệu hào nhoáng.",
   "portal": {
-    "scene": "",
-    "objects": [],
-    "iconKey": null,
-    "motif": ""
+    "scene": "Two people study a small iPad sketch at dusk while discarded status cards fall away beyond the paper ring.",
+    "objects": ["tablet sketch", "two people", "falling status cards"],
+    "iconKey": "heart",
+    "motif": "Curiosity beyond status"
   },
   "original_edition": {
     "number": "16",

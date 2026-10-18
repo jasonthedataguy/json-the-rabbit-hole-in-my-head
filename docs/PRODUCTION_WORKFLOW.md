@@ -24,7 +24,7 @@ New additional essays can start with:
 python scripts/new_chapter.py --slug another-essay --title "Another essay" --archive
 ```
 
-The scaffold remains unpublished and contains no fake manuscript. The cover has 32 editorial stops; all are already allocated. A structural expansion beyond 32 requires a deliberate navigation change.
+The scaffold remains unpublished and contains no fake manuscript. The cover currently has 33 editorial chapter stops, plus Cover and Introduction. They are all allocated; a new chapter requires a deliberate reading-order change.
 
 After an authorized manuscript selection, calculate the raw SHA-256 and put it in `chapter.json` as `manuscript_sha256`. Record the reason in `source/revisions.log`; changing a hash is a record of a selection, not an approval process itself.
 

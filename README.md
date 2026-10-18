@@ -1,10 +1,10 @@
 # .json — Jason, under revision
 
-The portal edition and its immersive chapter production workspace. The homepage keeps the cloth cover, rotating chapter ring, changing centre artwork and curved maths/literature quote. The reading order contains 32 editorial slots. Dating 102 keeps its archive route and original essay number, and appears immediately after Dating Algorithm in the reader, contents and sidebar.
+The portal edition and its immersive chapter production workspace. The homepage keeps the cloth cover, rotating chapter ring, changing centre artwork and curved maths/literature quote. The reading order contains 33 editorial slots. Dating 102 is Chapter 19, immediately after Dating Algorithm; its original essay number remains in the source notes.
 
 The Introduction leaf shows the author's latest concept board as a transparent circular portal: its collage ring frames the open book, reader, dusk city and bridge, followed by the six-step story progression. The homepage keeps the shared cover ring as it turns to a centre scene cut from that same board.
 
-The homepage starts on the earlier dusk-city landscape from the supplied design board, with Jason carried by its rotating paper ring. The Introduction uses the new board-derived city portal; Cold Rice again shows the earlier family-meal artwork. Its 34 ring stops follow **Cover → Introduction → Prologue (00) → Chapters 01–31**. The optional chapter map retains its 32 chapter stops. The paper ring surrounds a separate, upright picture. Navigation and chapter headings use English; the five part names display each English key alongside its Vietnamese title. The original Vinglish manuscripts remain unchanged. The Introduction uses the author's new Vietnamese synopsis and reader promise. Reading pages bundle Noto Serif for full Vietnamese typography. [Portal artwork and the replaceable picture template](docs/PORTAL_ARTWORK.md) explain how to fit another scene. The [6×9 in print prototype](print/README.md) preserves the newer art as a separate printable study, with underlays, cut guides and proofs.
+The homepage starts on the earlier dusk-city landscape from the supplied design board, with Jason carried by its rotating paper ring. The Introduction uses the new board-derived city portal; Cold Rice again shows the earlier family-meal artwork. Its 35 ring stops follow **Cover → Introduction → Prologue (00) → Chapters 01–32**. The optional chapter map has 33 chapter stops. The paper ring surrounds a separate, upright picture. Navigation and chapter headings use English; the five part names display each English key alongside its Vietnamese title. The original Vinglish manuscripts remain unchanged. The Introduction uses the author's new Vietnamese synopsis and reader promise. Reading pages bundle Noto Serif for full Vietnamese typography. [Portal artwork and the replaceable picture template](docs/PORTAL_ARTWORK.md) explain how to fit another scene. The [6×9 in print prototype](print/README.md) preserves the newer art as a separate printable study, with underlays, cut guides and proofs.
 
 Start with the [production board](docs/PROJECT_BOARD.html), [chapter status](docs/PRODUCTION_STATUS.md), [architecture](docs/ARCHITECTURE.md), [asset guide](docs/ASSET_GUIDE.md), and [full production workflow](docs/PRODUCTION_WORKFLOW.md).
 
@@ -25,9 +25,9 @@ Each chapter has `chapter.json`, `production.json`, `source/`, `artwork/{source,
 
 ## Work here
 
-Edit the website in `shared/web/`. Edit book-level content in `book.json` and chapter identity/summary in `chapters/<slug>/chapter.json`. Keep author-selected prose in the chapter’s `source/`. All 32 slots already have a folder; 23 currently contain editorial outlines, not full author manuscripts.
+Edit the website in `shared/web/`. Edit book-level content in `book.json` and chapter identity/summary in `chapters/<slug>/chapter.json`. Keep author-selected prose in the chapter’s `source/`. All 33 slots have a folder; 22 currently contain editorial outlines, not full author manuscripts.
 
-The ten published original chapters have their complete tracked asset kits locally: 1,412 preserved file mappings, about 444 MB including existing portal assets and production references. The selected reader retains all 80,917 original manuscript bytes. Nine manuscripts have justified portal mappings; Dating 102 has none. [Migration evidence](docs/MIGRATION.json) and [source provenance](docs/source-provenance.json) record the distinction.
+Ten original chapters have their complete tracked asset kits locally: 1,412 preserved file mappings, about 444 MB including existing portal assets and production references. The selected reader retains all 80,917 original manuscript bytes and the author-supplied Quant chapter. All eleven full manuscripts now have portal slots. [Migration evidence](docs/MIGRATION.json) and [source provenance](docs/source-provenance.json) record their identities.
 
 The reader links to local immersive experiences and inherited print/film files. Their original numbering and proof states remain explicit. Existing assets are available for adaptation; narration, printer-specific work and v2 media/design review are not automatically complete.
 
@@ -53,7 +53,7 @@ Open [localhost:4173](http://localhost:4173). Rebuild after changing sources. To
 python scripts/new_chapter.py --slug another-essay --title "Another essay" --archive
 ```
 
-The scaffold is unpublished. To work on one of the planned 32 chapters, edit its existing folder. [The workflow](docs/PRODUCTION_WORKFLOW.md) explains manuscript selection, Read / Explore / Revisit, print, narration, films, social packs and release evidence.
+The scaffold is unpublished. To work on one of the planned 33 chapters, edit its existing folder. [The workflow](docs/PRODUCTION_WORKFLOW.md) explains manuscript selection, Read / Explore / Revisit, print, narration, films, social packs and release evidence.
 
 ## Deployment
 

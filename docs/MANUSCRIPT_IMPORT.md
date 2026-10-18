@@ -2,9 +2,9 @@
 
 The original edition is pinned to `b41b692b3e3633abea4997b6ac4513a91308f127`. Ten selected manuscripts, their original prose/history and tracked product kits are held locally under `chapters/<slug>/`. The ten selected manuscripts remain 80,917 bytes in total.
 
-`chapter.json` now describes v2. The original `chapter.json` is preserved at `references/original-edition/chapter.json` inside that chapter, and the pinned selected manuscript is preserved beside it as `approved.md`. Original product labels, metadata and source numbers stay distinct from editorial slots 00–31.
+`chapter.json` now describes v2. The original `chapter.json` is preserved at `references/original-edition/chapter.json` inside that chapter, and the pinned selected manuscript is preserved beside it as `approved.md`. Original product labels, metadata and source numbers stay distinct from editorial slots 00–32.
 
-The original mapping is [references/original-edition/manuscript-map.json](../references/original-edition/manuscript-map.json). Nine manuscripts map to portals. Dating 102 remains an additional archive essay; it is not assigned to Tiểu hành tinh. All source-based previews retain their existing outlines.
+The original mapping is [references/original-edition/manuscript-map.json](../references/original-edition/manuscript-map.json). All ten original manuscripts now map to portals. Dating 102 is Chapter 19 in v2 and remains essay 16 in the original edition. Its full prose is unchanged. All source-based previews retain their existing outlines.
 
 Two original Windows checkout files used CRLF while v2’s pinned manuscripts used LF. The checkout bytes were preserved as `approved-checkout.md` in the relevant chapter references, and the existing v2 selected bytes remain canonical. No prose was rewritten.
 

@@ -53,12 +53,14 @@ h1, h2, h3 { font-family: var(--serif); font-weight: 400; line-height: 1.15; }
 .book-navigation { min-height: 0; overflow-y: auto; overscroll-behavior: contain; scrollbar-width: thin; scrollbar-color: #8e8d7855 transparent; }
 .book-sidebar .book-navigation { flex: 1; }
 .frontmatter-nav { padding-bottom: 15px; margin-bottom: 13px; border-bottom: 1px solid #eee4cf1a; }
-.nav-link, .chapter-nav-link { display: flex; align-items: baseline; gap: 11px; padding: 8px 12px; color: #c6ccbf; border-left: 2px solid transparent; font-size: 13px; line-height: 1.45; }
+.nav-link, .chapter-nav-link { display: flex; align-items: baseline; gap: 8px; padding: 8px 12px; color: #c6ccbf; border-left: 2px solid transparent; font-size: 13px; line-height: 1.45; }
+.nav-chapter-icon { display: inline-grid; place-items: center; width: 22px; height: 22px; flex-shrink: 0; align-self: center; color: #c1a677; }
+.nav-chapter-icon svg { width: 18px; height: 18px; }
+.chapter-nav-link[aria-current='page'] .nav-chapter-icon, .nav-link[aria-current='page'] .nav-chapter-icon { color: #e8c48a; }
 .nav-number { min-width: 18px; flex-shrink: 0; font: 10px/1.6 var(--sans); color: #929e95; font-variant-numeric: tabular-nums; }
 .nav-title { min-width: 0; flex: 1; }
 .nav-title > small { display: block; font-size: 6px; line-height: 1.4; letter-spacing: 1px; color: #9caa9c; margin-bottom: 3px; }
 .prologue-nav { align-items: center; }
-.prologue-nav .reference-bowl-icon { margin-left: auto; width: 24px; height: 24px; }
 .nav-symbol { width: 18px; text-align: center; color: #9eaa9e; flex-shrink: 0; }
 .nav-link:hover, .chapter-nav-link:hover { color: #fbf1dc; background: #f3ecdc09; }
 .nav-link[aria-current='page'], .chapter-nav-link[aria-current='page'] { color: #fff4de; background: #f3ecdc0e; border-left-color: #c8b080; }
@@ -72,8 +74,6 @@ h1, h2, h3 { font-family: var(--serif); font-weight: 400; line-height: 1.15; }
 .part-nav-title { min-width: 0; font-size: 10px; line-height: 1.6; letter-spacing: 0; overflow-wrap: anywhere; }
 .part-chapters { padding: 0 0 9px 4px; }
 .chapter-nav-link { font-size: 12px; padding: 7px 10px; }
-.archive-interlude-link { margin-left: 13px; color: #d1b995; }
-.archive-interlude-link .nav-number { color: #c3a679; }
 .sidebar-secondary { margin-top: 17px; padding-top: 14px; border-top: 1px solid #eee4cf1a; }
 .sidebar-secondary .nav-link { color: #9eaa9e; font-size: 11px; padding-top: 8px; padding-bottom: 8px; }
 .sidebar-edition { flex-shrink: 0; padding: 20px 14px 0; font-size: 7px; letter-spacing: 1.5px; color: #87968b; }

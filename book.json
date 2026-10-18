@@ -23,6 +23,7 @@
     "tieu-hanh-tinh",
     "three-meeting-theory",
     "dating-algorithm",
+    "dating-102",
     "to-mary-jane",
     "runaway",
     "nhung-hinh-chieu-xau-xi",
@@ -37,9 +38,7 @@
     "co-nhung-thu-chi-khi-minh-roi-di-roi-moi-nhin-thay",
     "loi-xin-loi"
   ],
-  "archive_chapters": [
-    "dating-102"
-  ],
+  "archive_chapters": [],
   "introduction": {
     "title": "Introduction",
     "epigraph": "I like maths because there is always a definite answer. I like literature because there isn’t a wrong one.",

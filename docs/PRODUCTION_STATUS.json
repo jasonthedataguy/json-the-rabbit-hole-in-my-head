@@ -192,8 +192,18 @@
       "products": 24
     },
     {
-      "slug": "to-mary-jane",
+      "slug": "dating-102",
       "number": "19",
+      "title": "Dating 102",
+      "reader": "published manuscript",
+      "product_release": "imported proofs; v2 adaptation pending",
+      "files": 120,
+      "bytes": 39548040,
+      "products": 26
+    },
+    {
+      "slug": "to-mary-jane",
+      "number": "20",
       "title": "To Mary Jane",
       "reader": "outline only",
       "product_release": "awaiting author manuscript",
@@ -203,7 +213,7 @@
     },
     {
       "slug": "runaway",
-      "number": "20",
+      "number": "21",
       "title": "Runaway",
       "reader": "outline only",
       "product_release": "awaiting author manuscript",
@@ -213,7 +223,7 @@
     },
     {
       "slug": "nhung-hinh-chieu-xau-xi",
-      "number": "21",
+      "number": "22",
       "title": "Ugly Projections",
       "reader": "outline only",
       "product_release": "awaiting author manuscript",
@@ -223,7 +233,7 @@
     },
     {
       "slug": "the-23-word-nuclear-warhead",
-      "number": "22",
+      "number": "23",
       "title": "The 23-Word Nuclear Warhead",
       "reader": "outline only",
       "product_release": "awaiting author manuscript",
@@ -233,7 +243,7 @@
     },
     {
       "slug": "better-and-brighter-than-ever",
-      "number": "23",
+      "number": "24",
       "title": "Better and Brighter Than Ever",
       "reader": "outline only",
       "product_release": "awaiting author manuscript",
@@ -243,7 +253,7 @@
     },
     {
       "slug": "masterclass-in-record-keeping",
-      "number": "24",
+      "number": "25",
       "title": "Masterclass in Record Keeping",
       "reader": "outline only",
       "product_release": "awaiting author manuscript",
@@ -253,7 +263,7 @@
     },
     {
       "slug": "good-boy",
-      "number": "25",
+      "number": "26",
       "title": "Good Boy",
       "reader": "outline only",
       "product_release": "awaiting author manuscript",
@@ -263,7 +273,7 @@
     },
     {
       "slug": "negative-sum-game",
-      "number": "26",
+      "number": "27",
       "title": "Negative-Sum Game",
       "reader": "outline only",
       "product_release": "awaiting author manuscript",
@@ -273,7 +283,7 @@
     },
     {
       "slug": "sharingan",
-      "number": "27",
+      "number": "28",
       "title": "Sharingan",
       "reader": "outline only",
       "product_release": "awaiting author manuscript",
@@ -283,7 +293,7 @@
     },
     {
       "slug": "command-respect",
-      "number": "28",
+      "number": "29",
       "title": "Command Respect",
       "reader": "outline only",
       "product_release": "awaiting author manuscript",
@@ -293,7 +303,7 @@
     },
     {
       "slug": "lone-wolf",
-      "number": "29",
+      "number": "30",
       "title": "Lone Wolf",
       "reader": "outline only",
       "product_release": "awaiting author manuscript",
@@ -303,7 +313,7 @@
     },
     {
       "slug": "co-nhung-thu-chi-khi-minh-roi-di-roi-moi-nhin-thay",
-      "number": "30",
+      "number": "31",
       "title": "Things You Only See After Leaving",
       "reader": "outline only",
       "product_release": "awaiting author manuscript",
@@ -313,23 +323,13 @@
     },
     {
       "slug": "loi-xin-loi",
-      "number": "31",
+      "number": "32",
       "title": "An Apology",
       "reader": "outline only",
       "product_release": "awaiting author manuscript",
       "files": 6,
       "bytes": 2078,
       "products": 0
-    },
-    {
-      "slug": "dating-102",
-      "number": null,
-      "title": "Dating 102",
-      "reader": "published manuscript",
-      "product_release": "imported proofs; v2 adaptation pending",
-      "files": 120,
-      "bytes": 39547604,
-      "products": 26
     }
   ],
   "policy": "Files present means available for review, not final production. Imported proofs keep their original labels; no synthetic author voice, invented manuscript, automatic social posting or assumed print certification."
