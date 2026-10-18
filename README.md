@@ -1,6 +1,6 @@
 # .json — Jason, Under Revision · Portal edition
 
-A separate digital reading edition of the book. Its opening is a title page, epigraph, and source-based introduction, followed by the Cơm nguội prologue and five narrative parts. Chapters are continuous reading pages; the illustrated portal map and physical-edition notes are separate views. The original repository remains at [jasonthedataguy/json-under-revision](https://github.com/jasonthedataguy/json-under-revision).
+A separate digital reading edition of the book. Its homepage is the illustrated chapter map, with direct access to the introduction, printed-style contents, published archive, and edition notes. The book’s reading order begins with the title page, epigraph, and source-based introduction, followed by the Cơm nguội prologue and five narrative parts. Chapters are continuous reading pages; the illustrated portal map and physical-edition notes are separate views. The original repository remains at [jasonthedataguy/json-under-revision](https://github.com/jasonthedataguy/json-under-revision).
 
 The optional illustrated contents map uses a circular paper rim that follows mouse or touch angle and snaps to 11.25° stops while the central scene stays upright. Center swipes, scroll gestures, arrow buttons, keyboard navigation and the chapter index provide other ways in. Every portal carries its own item-and-number paper marker. Cơm nguội uses the exact navy-and-ivory rice-bowl badge from the supplied reference image, displayed without redrawing it. Fashion uses a Jordan 1 keepsake.
 

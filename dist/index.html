@@ -7,13 +7,13 @@
   <meta name="description" content=".json — Jason, under revision. Đọc cuốn sách theo năm phần, từ Cơm nguội đến Lời xin lỗi.">
   <title>.json — Jason, under revision</title>
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="style.css?v=4">
-  <script type="module" src="app.js?v=4"></script>
+  <link rel="stylesheet" href="style.css?v=5">
+  <script type="module" src="app.js?v=5"></script>
 </head>
-<body>
+<body class="viewing-map">
 <a class="skip-link" href="#book-content">Đến nội dung sách</a>
 <aside class="book-sidebar" aria-label="Điều hướng sách">
-  <a class="book-brand" href="#introduction"><strong>.json</strong><span>JASON, UNDER REVISION</span></a>
+  <a class="book-brand" href="#map"><strong>.json</strong><span>JASON, UNDER REVISION</span></a>
   <p class="sidebar-author">Jason</p>
   <nav class="book-navigation" id="desktop-navigation" aria-label="Mục lục sách"></nav>
   <p class="sidebar-edition">BẢN ĐANG BIÊN TẬP</p>
@@ -21,12 +21,12 @@
 <div class="book-shell">
   <header class="book-topbar">
     <button id="menu-open" class="menu-button" aria-haspopup="dialog" aria-label="Mở mục lục"><svg width="18" height="18" viewBox="0 0 20 20" fill="none" stroke="currentColor" aria-hidden="true"><path d="M2 5h16M2 10h16M2 15h16"/></svg><span>Mục lục</span></button>
-    <a class="mobile-wordmark" href="#introduction">.json</a>
-    <span id="reading-breadcrumb" class="reading-breadcrumb">Phần mở đầu / Dẫn nhập</span>
+    <a class="mobile-wordmark" href="#map">.json</a>
+    <span id="reading-breadcrumb" class="reading-breadcrumb">Bản đồ chương</span>
     <div class="reading-controls" role="group" aria-label="Cỡ chữ"><button id="font-down" aria-label="Giảm cỡ chữ">A−</button><button id="font-up" aria-label="Tăng cỡ chữ">A+</button></div>
   </header>
   <main id="book-content" tabindex="-1">
-    <section id="introduction-view" class="book-view introduction-view" aria-labelledby="intro-heading">
+    <section id="introduction-view" class="book-view introduction-view" hidden aria-labelledby="intro-heading">
       <article class="reading-leaf introduction-leaf">
         <header class="title-page"><p class="frontmatter-label">DẪN NHẬP</p><p class="book-title">.json</p><p class="book-subtitle">Jason, under revision</p><p class="title-author">Jason</p><span class="title-rule" aria-hidden="true"></span></header>
         <blockquote class="book-epigraph" id="book-epigraph"></blockquote>
@@ -37,16 +37,16 @@
     </section>
     <section id="contents-view" class="book-view" hidden aria-labelledby="contents-heading"><article class="reading-leaf contents-leaf"><header class="leaf-heading"><p class="leaf-kicker">.JSON / JASON, UNDER REVISION</p><h1 id="contents-heading" tabindex="-1">Mục lục</h1><p class="contents-note">Thứ tự đọc theo cấu trúc bản thảo.</p></header><div id="book-table-of-contents"></div><p class="availability-note"><span class="available-dot" aria-hidden="true"></span> Toàn văn đã có trong ấn bản số. Các chương còn lại hiện có đề cương.</p><footer class="leaf-navigation"><a href="#introduction" class="previous-leaf"><span class="leaf-arrow" aria-hidden="true">←</span><span>Dẫn nhập</span></a><span class="folio">ii</span><a href="#chapter/00" class="next-leaf"><span>Mở đầu · Cơm nguội</span><span class="leaf-arrow" aria-hidden="true">→</span></a></footer></article></section>
     <section id="chapter-view" class="book-view" hidden aria-labelledby="chapter-heading"><article class="reading-leaf chapter-leaf" id="chapter-leaf"></article></section>
-    <section id="map-view" class="book-view map-view" hidden aria-labelledby="map-heading">
-      <header class="map-heading"><p class="leaf-kicker">MỤC LỤC BẰNG HÌNH ẢNH</p><h1 id="map-heading" tabindex="-1">Bản đồ chương</h1><p>Xoay vòng ký ức để chọn một chương.</p></header>
+    <section id="map-view" class="book-view map-view" aria-labelledby="map-heading">
+      <header class="map-heading"><p class="leaf-kicker">MỤC LỤC BẰNG HÌNH ẢNH</p><h1 id="map-heading" tabindex="-1">Bản đồ chương</h1><p>Xoay vòng ký ức để chọn một chương.</p><nav class="map-reading-links" aria-label="Bắt đầu đọc"><a href="#introduction">Dẫn nhập <span aria-hidden="true">→</span></a><a href="#contents">Mục lục <span aria-hidden="true">→</span></a></nav></header>
       <div class="map-layout"><div class="portal-column"><div class="portal-stage" id="portal-stage" role="group" tabindex="0" aria-label="Xoay vòng để chọn chương"><div class="orbit-guide" aria-hidden="true"></div><span class="orbit-top-mark" aria-hidden="true">✦</span><div id="orbit-marks" class="orbit-marks" aria-label="Chọn chương"></div><div id="portal-art" class="portal-art"><div id="portal-scene" class="portal-scene"></div><div id="portal-rim" class="portal-rim" aria-hidden="true"><div id="portal-rim-art" class="portal-rim-art"></div></div><div id="portal-marker" class="portal-page-marker"></div></div></div><div class="portal-tools"><button id="map-prev" class="circle-button" aria-label="Chương trước">←</button><span>KÉO VÒNG ĐỂ XOAY</span><button id="map-next" class="circle-button" aria-label="Chương sau">→</button></div></div><article class="map-chapter" aria-live="polite" aria-atomic="true"><p id="map-part" class="leaf-kicker"></p><span id="map-number" class="map-number"></span><h2 id="map-title"></h2><p id="map-summary"></p><a id="map-enter" class="map-enter" href="#chapter/00">Đọc chương <span aria-hidden="true">→</span></a><span id="map-availability" class="map-availability"></span></article></div>
       <div class="map-bottom"><div id="map-parts" class="map-parts" role="group" aria-label="Năm phần của cuốn sách"></div><button id="motion-toggle" class="motion-toggle" aria-pressed="false"><span aria-hidden="true">◌</span><span id="motion-label">Giảm chuyển động</span></button></div>
     </section>
     <section id="archive-view" class="book-view" hidden aria-labelledby="archive-heading"><article class="reading-leaf archive-leaf"><header class="leaf-heading"><p class="leaf-kicker">BẢN LƯU</p><h1 id="archive-heading" tabindex="-1">Những bản đã công bố</h1><p class="archive-introduction">Các bài viết trước khi được xếp lại thành cuốn sách. Tên bài và số thứ tự trong bản lưu được giữ theo lần công bố.</p></header><div id="archive-list" class="archive-list"></div><footer class="leaf-navigation"><a href="#contents" class="previous-leaf"><span aria-hidden="true">←</span> Mục lục cuốn sách</a><span class="folio">Bản lưu</span></footer></article></section>
-    <section id="edition-view" class="book-view" hidden aria-labelledby="edition-heading"><article class="reading-leaf edition-leaf"><header class="leaf-heading"><p class="leaf-kicker">GHI CHÚ ẤN BẢN</p><h1 id="edition-heading" tabindex="-1">Về ấn bản</h1></header><div class="prose"><p>Cấu trúc đọc gồm lời mở đầu <em>Cơm nguội</em>, năm phần và ba mươi mốt chương. Các bài viết được đặt cạnh nhau theo hành trình thay đổi cách người kể nhìn cuộc đời.</p><p>Những bản đã công bố giữ nguyên câu chữ. Những chương chưa có toàn văn được đánh dấu là đề cương. Số thứ tự trong cuốn sách và trong bản lưu được phân biệt vì chúng thuộc hai lần sắp xếp khác nhau.</p><h2>Hình thức sách giấy</h2><p>Thiết kế bìa vải xanh, cửa sổ tròn và các lớp giấy là ý tưởng cho ấn bản vật lý đang phát triển. Những hình ảnh dưới đây là bản thiết kế, chưa phải sản phẩm đã sản xuất.</p></div><figure class="edition-board"><img src="assets/book-concept.jpg" alt="Bản thiết kế sách giấy với bìa vải xanh và những cửa sổ giấy nhiều lớp." loading="lazy"><figcaption>Ý tưởng thiết kế ấn bản giấy.</figcaption></figure><footer class="leaf-navigation"><a href="#introduction" class="previous-leaf"><span aria-hidden="true">←</span> Trở về trang đầu</a><span class="folio">Ấn bản số</span></footer></article></section>
+    <section id="edition-view" class="book-view" hidden aria-labelledby="edition-heading"><article class="reading-leaf edition-leaf"><header class="leaf-heading"><p class="leaf-kicker">GHI CHÚ ẤN BẢN</p><h1 id="edition-heading" tabindex="-1">Về ấn bản</h1></header><div class="prose"><p>Cấu trúc đọc gồm lời mở đầu <em>Cơm nguội</em>, năm phần và ba mươi mốt chương. Các bài viết được đặt cạnh nhau theo hành trình thay đổi cách người kể nhìn cuộc đời.</p><p>Những bản đã công bố giữ nguyên câu chữ. Những chương chưa có toàn văn được đánh dấu là đề cương. Số thứ tự trong cuốn sách và trong bản lưu được phân biệt vì chúng thuộc hai lần sắp xếp khác nhau.</p><h2>Hình thức sách giấy</h2><p>Thiết kế bìa vải xanh, cửa sổ tròn và các lớp giấy là ý tưởng cho ấn bản vật lý đang phát triển. Những hình ảnh dưới đây là bản thiết kế, chưa phải sản phẩm đã sản xuất.</p></div><figure class="edition-board"><img src="assets/book-concept.jpg" alt="Bản thiết kế sách giấy với bìa vải xanh và những cửa sổ giấy nhiều lớp." loading="lazy"><figcaption>Ý tưởng thiết kế ấn bản giấy.</figcaption></figure><footer class="leaf-navigation"><a href="#map" class="previous-leaf"><span aria-hidden="true">←</span> Trở về trang đầu</a><span class="folio">Ấn bản số</span></footer></article></section>
   </main>
   <footer class="book-colophon"><span>.json</span><span>Jason, under revision</span><a href="#contents">Mục lục</a></footer>
 </div>
-<dialog id="navigation-drawer" class="navigation-drawer" aria-label="Mục lục sách"><div class="drawer-heading"><a class="drawer-wordmark" href="#introduction">.json</a><button id="menu-close" aria-label="Đóng mục lục">×</button></div><nav id="mobile-navigation" class="book-navigation" aria-label="Mục lục sách"></nav></dialog>
+<dialog id="navigation-drawer" class="navigation-drawer" aria-label="Mục lục sách"><div class="drawer-heading"><a class="drawer-wordmark" href="#map">.json</a><button id="menu-close" aria-label="Đóng mục lục">×</button></div><nav id="mobile-navigation" class="book-navigation" aria-label="Mục lục sách"></nav></dialog>
 <div id="reading-status" class="sr-only" aria-live="polite"></div>
 </body></html>

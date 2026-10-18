@@ -394,3 +394,5 @@ h1, h2, h3 { font-family: var(--serif); font-weight: 400; line-height: 1.15; }
 }
 /* Focus moves to page headings after navigation without drawing a form-style box. */
 .reading-leaf h1[tabindex="-1"]:focus,.map-heading h1[tabindex="-1"]:focus{outline:none}.skip-link:not(:focus){clip-path:inset(50%);width:1px;height:1px;overflow:hidden;padding:0;white-space:nowrap}.book-navigation .nav-title small{display:block}
+
+.map-reading-links{display:flex;align-items:center;gap:26px;margin-top:18px;font:11px/1.5 var(--sans);color:#d7c5a4}.map-reading-links a{display:flex;gap:14px;align-items:center;padding:4px 0;border-bottom:1px solid #d7c5a43b}.map-reading-links a:hover{color:#f2e2bd}.map-reading-links a span{font-size:16px}

@@ -1,7 +1,7 @@
-import { chapters, renderPortal } from './chapters.js?v=4';
-import { introduction, parts, chapterNotes } from './book.js?v=4';
-import { renderChapterMarker, renderReferenceBowlIcon, getChapterMarkerName } from './markers.js?v=4';
-import { PortalRing } from './ring.js?v=4';
+import { chapters, renderPortal } from './chapters.js?v=5';
+import { introduction, parts, chapterNotes } from './book.js?v=5';
+import { renderChapterMarker, renderReferenceBowlIcon, getChapterMarkerName } from './markers.js?v=5';
+import { PortalRing } from './ring.js?v=5';
 
 const $ = selector => document.querySelector(selector);
 const $$ = selector => [...document.querySelectorAll(selector)];
@@ -29,15 +29,15 @@ function parseRoute(){
   if(chapter&&chapterById(chapter[1]))return {type:'chapter',key:hash,id:chapter[1]};
   const archive=hash.match(/^archive\/([a-z0-9-]+)$/);
   if(archive&&publishedBySlug.has(archive[1]))return {type:'archive-chapter',key:hash,slug:archive[1]};
-  if(['contents','map','edition','archive'].includes(hash))return {type:hash,key:hash};
-  return {type:'introduction',key:'introduction'};
+  if(['introduction','contents','map','edition','archive'].includes(hash))return {type:hash,key:hash};
+  return {type:'map',key:'map'};
 }
 function isCurrent(key){return currentRoute?.key===key;}
 const currentAttr = key => isCurrent(key)?' aria-current="page"':'';
 const dot = available => available?'<span class="available-dot" aria-label="Có toàn văn"></span>':'';
 function navigationHTML(){
   const currentChapter=currentRoute?.type==='chapter'?chapterById(currentRoute.id):null;
-  return `<div class="frontmatter-nav"><a class="nav-link" href="#introduction"${currentAttr('introduction')}><span class="nav-number">i</span><span class="nav-title">Dẫn nhập</span></a><a class="nav-link" href="#contents"${currentAttr('contents')}><span class="nav-number">ii</span><span class="nav-title">Mục lục</span></a><a class="nav-link prologue-nav" href="#chapter/00"${currentAttr('chapter/00')}><span class="nav-number">00</span><span class="nav-title"><small>MỞ ĐẦU</small>Cơm nguội</span>${renderReferenceBowlIcon(24)}</a></div><div class="part-navigation-list">${parts.map(part=>`<details class="part-navigation"${currentChapter?.act===part.id?' open':''}><summary><span class="part-roman">${roman[part.id]}</span><span class="part-nav-title">${esc(part.title)}</span></summary><div class="part-chapters">${chapters.filter(chapter=>chapter.act===part.id).map(chapter=>`<a class="chapter-nav-link" href="#chapter/${chapter.id}"${currentAttr(`chapter/${chapter.id}`)}><span class="nav-number">${chapter.id}</span><span class="nav-title">${esc(chapter.title)}</span>${dot(publishedById.has(chapter.id))}</a>`).join('')}</div></details>`).join('')}</div><div class="sidebar-secondary"><a class="nav-link" href="#map"${currentAttr('map')}><span class="nav-symbol" aria-hidden="true">◌</span><span>Bản đồ chương</span></a><a class="nav-link" href="#archive"${currentAttr('archive')}><span class="nav-symbol" aria-hidden="true"><svg width="12" height="14" viewBox="0 0 14 16" fill="none" stroke="currentColor"><path d="M2 2h9v12H2zM4 5h5M4 8h5M4 11h3"/></svg></span><span>Những bản đã công bố</span></a><a class="nav-link" href="#edition"${currentAttr('edition')}><span class="nav-symbol" aria-hidden="true">·</span><span>Về ấn bản</span></a></div>`;
+  return `<div class="frontmatter-nav"><a class="nav-link" href="#map"${currentAttr('map')}><span class="nav-symbol" aria-hidden="true">◌</span><span>Bản đồ chương</span></a><a class="nav-link" href="#introduction"${currentAttr('introduction')}><span class="nav-number">i</span><span class="nav-title">Dẫn nhập</span></a><a class="nav-link" href="#contents"${currentAttr('contents')}><span class="nav-number">ii</span><span class="nav-title">Mục lục</span></a><a class="nav-link prologue-nav" href="#chapter/00"${currentAttr('chapter/00')}><span class="nav-number">00</span><span class="nav-title"><small>MỞ ĐẦU</small>Cơm nguội</span>${renderReferenceBowlIcon(24)}</a></div><div class="part-navigation-list">${parts.map(part=>`<details class="part-navigation"${currentChapter?.act===part.id?' open':''}><summary><span class="part-roman">${roman[part.id]}</span><span class="part-nav-title">${esc(part.title)}</span></summary><div class="part-chapters">${chapters.filter(chapter=>chapter.act===part.id).map(chapter=>`<a class="chapter-nav-link" href="#chapter/${chapter.id}"${currentAttr(`chapter/${chapter.id}`)}><span class="nav-number">${chapter.id}</span><span class="nav-title">${esc(chapter.title)}</span>${dot(publishedById.has(chapter.id))}</a>`).join('')}</div></details>`).join('')}</div><div class="sidebar-secondary"><a class="nav-link" href="#archive"${currentAttr('archive')}><span class="nav-symbol" aria-hidden="true"><svg width="12" height="14" viewBox="0 0 14 16" fill="none" stroke="currentColor"><path d="M2 2h9v12H2zM4 5h5M4 8h5M4 11h3"/></svg></span><span>Những bản đã công bố</span></a><a class="nav-link" href="#edition"${currentAttr('edition')}><span class="nav-symbol" aria-hidden="true">·</span><span>Về ấn bản</span></a></div>`;
 }
 function renderNavigation(){$('#desktop-navigation').innerHTML=navigationHTML();$('#mobile-navigation').innerHTML=navigationHTML();}
 function tocRow(chapter){return `<a class="toc-row" href="#chapter/${chapter.id}"><span class="toc-number">${chapter.id}</span><span class="toc-title">${esc(chapter.title)}${chapter.id==='31'?'<small class="toc-epilogue">Lời kết</small>':''}</span><span class="toc-leader" aria-hidden="true"></span>${dot(publishedById.has(chapter.id))}</a>`;}
@@ -57,7 +57,7 @@ function pageTurn({href,title,label='',direction='next'}){
 function chapterFooter(chapter){
   const number=Number(chapter.id);
   const previous=number===0?{href:'#introduction',title:'Dẫn nhập',label:'TRANG TRƯỚC'}:{href:`#chapter/${chapters[number-1].id}`,title:chapters[number-1].title,label:number===1?'MỞ ĐẦU':'CHƯƠNG TRƯỚC'};
-  const next=number===31?{href:'#introduction',title:'Trở về trang đầu',label:'KHÉP LẠI'}:{href:`#chapter/${chapters[number+1].id}`,title:chapters[number+1].title,label:'CHƯƠNG TIẾP'};
+  const next=number===31?{href:'#map',title:'Bản đồ chương',label:'KHÉP LẠI'}:{href:`#chapter/${chapters[number+1].id}`,title:chapters[number+1].title,label:'CHƯƠNG TIẾP'};
   return `<footer class="leaf-navigation">${pageTurn({...previous,direction:'previous'})}<span class="folio">${chapter.id}</span>${pageTurn({...next,direction:'next'})}</footer>`;
 }
 function sourceNotes(manuscript){return `<details class="chapter-archive"><summary>Bản lưu của chương</summary><p>Bản đã công bố: <em>${esc(manuscript.originalTitle)}</em> · ${esc(manuscript.legacyId)}</p><a href="${esc(manuscript.archiveUrl)}" target="_blank" rel="noopener">Đọc bản công bố và xem tư liệu <span aria-hidden="true">↗</span></a><a href="${esc(manuscript.downloadUrl)}" download>Tải bản chữ gốc</a></details>`;}

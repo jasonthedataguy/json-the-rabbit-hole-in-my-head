@@ -1,4 +1,4 @@
-import { renderIcon } from './chapters.js?v=4';
+import { renderIcon } from './chapters.js?v=5';
 
 // The chapter's keepsake is printed on a paper tab seated in the portal's rim.
 // Keep this SVG in normal document flow; its owner decides where the tab sits.
