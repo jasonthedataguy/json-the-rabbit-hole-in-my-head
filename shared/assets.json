@@ -402,6 +402,30 @@
       "public_path": "assets/flow-spread-v2.webp",
       "sha256_at_intake": "c5007023b4f4a93954dd3c32466c26ac8964f253cb74b946648e2f408e240a22",
       "provenance": "Full rectangular extracted-elements strip for the Flow reading page and desktop preview; recipe scripts/cut_flow_board.py; screen use only."
+    },
+    {
+      "source": "chapters/the-gioi-trong-mo-cua-toi/artwork/portal/dream-world-ring-v2.png",
+      "public_path": "assets/dream-world-ring-v2.png",
+      "sha256_at_intake": "1b58afd7fd00167f9b9ea0420b3406f8acf395c41a41dc809f37d312fd468f34",
+      "provenance": "Author-supplied Dream World board in references/design/, cut by scripts/cut_dream_world_board.py. Transparent Metro-memory ring retaining Jason, his head, body and two suitcases on the same rotating layer. Screen use only."
+    },
+    {
+      "source": "chapters/the-gioi-trong-mo-cua-toi/artwork/portal/dream-world-scene-v2.png",
+      "public_path": "assets/dream-world-scene-v2.png",
+      "sha256_at_intake": "afb2166864ec39196146e372de03fd5916e5f060d53963bb0fa16d96b1e57c97",
+      "provenance": "Author-supplied Dream World board in references/design/, cut by scripts/cut_dream_world_board.py. Aligned stationary imagined family dinner beneath the chapter ring. Screen use only."
+    },
+    {
+      "source": "chapters/the-gioi-trong-mo-cua-toi/artwork/portal/dream-world-cover-scene-v2.png",
+      "public_path": "assets/dream-world-cover-scene-v2.png",
+      "sha256_at_intake": "055e595d70cdcb672d31b8c79576adcdf8a17941bdd254faa3f97288338536ea",
+      "provenance": "Author-supplied Dream World board in references/design/, cut by scripts/cut_dream_world_board.py. Tight family-window scene for the unchanged shared homepage book ring at Chapter 09; no duplicated Jason. Screen use only."
+    },
+    {
+      "source": "chapters/the-gioi-trong-mo-cua-toi/artwork/portal/dream-world-spread-v2.webp",
+      "public_path": "assets/dream-world-spread-v2.webp",
+      "sha256_at_intake": "553fa84c8dd78156d091bacca88f6cf287aa3ee1814e7624b0adb138d98eb3aa",
+      "provenance": "Author-supplied Dream World board in references/design/, cut by scripts/cut_dream_world_board.py. Full rectangular extracted-elements illustration for Chapter 09 reading leaf and desktop preview. Screen use only."
     }
   ]
 }

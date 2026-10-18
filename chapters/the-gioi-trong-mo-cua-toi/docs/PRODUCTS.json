@@ -1,6 +1,6 @@
 {
   "chapter": "the-gioi-trong-mo-cua-toi",
-  "release_stage": "supplied",
+  "release_stage": "digital-board-adapted-with-original-products",
   "products": [
     {
       "product": "Original manuscript",
@@ -10,7 +10,7 @@
     {
       "product": "Reader and The Borrowed Reel",
       "path": "web/index.html",
-      "state": "static prose; three modes, keyboard grade slider and reset"
+      "state": "v2 Dream World art and original approved essay; three responsive Borrowed Reel modes, keyboard grade slider and reset"
     },
     {
       "product": "Supplied illustration board",
@@ -136,6 +136,31 @@
       "product": "72-task checklist review",
       "path": "docs/CHECKLIST_REVIEW.md",
       "state": "item-by-item actual state and remaining work"
+    },
+    {
+      "product": "Dream World chapter ring",
+      "path": "artwork/portal/dream-world-ring-v2.png",
+      "state": "v2 digital crop, transparent and rotating"
+    },
+    {
+      "product": "Dream World stationary centre",
+      "path": "artwork/portal/dream-world-scene-v2.png",
+      "state": "v2 digital crop of imagined dinner"
+    },
+    {
+      "product": "Dream World cover preview",
+      "path": "artwork/portal/dream-world-cover-scene-v2.png",
+      "state": "v2 homepage scene beneath the common book ring"
+    },
+    {
+      "product": "Dream World rectangular spread",
+      "path": "artwork/portal/dream-world-spread-v2.webp",
+      "state": "v2 reading illustration at full crop ratio"
+    },
+    {
+      "product": "Dream World interactive modes",
+      "path": "web/index.html",
+      "state": "observed, imagined and afterimage art from the supplied board"
     }
   ],
   "remaining": [

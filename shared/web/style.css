@@ -687,3 +687,30 @@ h1, h2, h3 { font-family: var(--serif); font-weight: 400; line-height: 1.15; }
 #map-view[data-chapter="flow"] .portal-rim-art{transform-origin:center;transition:transform .48s cubic-bezier(.2,.75,.25,1)}
 #map-view[data-chapter="flow"] .is-dragging .portal-rim-art,#map-view[data-chapter="flow"] .ring-instant .portal-rim-art{transition:none}
 @media(max-width:700px){.flow-chapter-stage{grid-template-columns:1fr;gap:9px}.flow-chapter-stage .chapter-illustration:has(.fitted-portal){width:min(310px,82%);margin:0 auto}.flow-chapter-note{margin:0 12px;padding:14px 0 14px 20px}.flow-chapter-note p{font-size:21px}.flow-spread-banner{margin-top:17px}.flow-chapter-numeral{font-size:60px}}
+
+/* Dream World: the remembered train turns around an imagined family dinner. */
+.dream-chapter-heading{text-align:center;margin:0 auto}
+.dream-chapter-numeral{margin:20px 0 3px;color:#b6824e;font:68px/.9 var(--serif)}
+.dream-chapter-heading h1{margin:0;color:#162c3a;font:clamp(42px,5.7vw,62px)/1.04 var(--serif);letter-spacing:-1px;text-wrap:balance}
+.dream-chapter-subtitle{margin:13px 0 0;color:#977653;font:11px/1.6 var(--sans);letter-spacing:1.7px;text-transform:uppercase}
+.dream-chapter-part{margin:15px 0 0;color:#777d76;font:italic 17px/1.5 var(--body-serif)}
+.dream-chapter-stage{display:grid;grid-template-columns:minmax(0,330px) minmax(0,1fr);gap:24px;align-items:center;margin:23px 0 28px}
+.dream-chapter-stage .chapter-illustration:has(.fitted-portal){width:100%;height:auto;margin:0;aspect-ratio:1}
+.dream-chapter-stage .portal-page-marker,#map-view[data-chapter="the-gioi-trong-mo-cua-toi"] #portal-marker{display:none}
+.dream-chapter-note{padding:20px 0 20px 25px;border-left:1px solid #b6824e}
+.dream-chapter-note>span{color:#957d69;font:10px/1.5 var(--sans);letter-spacing:1.7px}
+.dream-chapter-note p{margin:19px 0 25px;color:#203745;font:22px/1.45 var(--serif)}
+.dream-chapter-note button{display:inline-flex;gap:12px;align-items:center;padding:0 0 6px;border:0;border-bottom:1px solid #b6824e;background:none;color:#82613e;font:11px/1.5 var(--sans);letter-spacing:.7px;cursor:pointer}
+.dream-chapter-note button:hover{color:#553d24}
+.dream-spread-banner{margin:0 0 34px;text-align:center}
+.dream-spread-banner img{display:block;width:100%;height:auto;margin:auto;object-fit:contain}
+.dream-spread-banner figcaption{margin-top:10px;color:#927e68;font:10px/1.5 var(--sans);letter-spacing:1.3px;text-transform:uppercase}
+#dream-chapter-text{scroll-margin-top:80px}
+#dream-chapter-text .chapter-prose{margin-top:42px}
+#dream-chapter-text .chapter-prose>p:first-of-type::first-letter{color:#b6824e}
+#map-view[data-chapter="the-gioi-trong-mo-cua-toi"] .map-number{color:#e7b477}
+#map-view[data-chapter="the-gioi-trong-mo-cua-toi"] .map-enter{border-color:#e7b47788}
+#map-view[data-chapter="the-gioi-trong-mo-cua-toi"] #map-summary{font-family:var(--body-serif)}
+#map-view[data-chapter="the-gioi-trong-mo-cua-toi"] .portal-rim-art{transform-origin:center;transition:transform .48s cubic-bezier(.2,.75,.25,1)}
+#map-view[data-chapter="the-gioi-trong-mo-cua-toi"] .is-dragging .portal-rim-art,#map-view[data-chapter="the-gioi-trong-mo-cua-toi"] .ring-instant .portal-rim-art{transition:none}
+@media(max-width:700px){.dream-chapter-stage{grid-template-columns:1fr;gap:9px}.dream-chapter-stage .chapter-illustration:has(.fitted-portal){width:min(310px,82%);margin:0 auto}.dream-chapter-note{margin:0 12px;padding:14px 0 14px 20px}.dream-chapter-note p{font-size:21px}.dream-spread-banner{margin-top:17px}.dream-chapter-numeral{font-size:60px}.dream-chapter-heading h1{font-size:clamp(40px,10vw,55px)}}

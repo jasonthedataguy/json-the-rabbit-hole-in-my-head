@@ -3,7 +3,7 @@
   "editorial_number": "09",
   "original_number": "09",
   "reader": "published manuscript",
-  "v2_product_release": "imported proofs; v2 adaptation pending",
+  "v2_product_release": "digital portal adapted from author board; imported print and media remain original-edition proofs",
   "lanes": [
     {
       "id": "manuscript",
@@ -17,7 +17,7 @@
     },
     {
       "id": "artwork",
-      "files_present": 28,
+      "files_present": 33,
       "status": "available for review",
       "required_deliverables": [
         "source and provenance",
@@ -27,7 +27,7 @@
     },
     {
       "id": "web",
-      "files_present": 17,
+      "files_present": 23,
       "status": "available for review",
       "required_deliverables": [
         "complete reader",
@@ -120,7 +120,7 @@
     {
       "product": "Reader and The Borrowed Reel",
       "path": "web/index.html",
-      "state": "static prose; three modes, keyboard grade slider and reset"
+      "state": "v2 Dream World art and original approved essay; three responsive Borrowed Reel modes, keyboard grade slider and reset"
     },
     {
       "product": "Supplied illustration board",
@@ -246,6 +246,31 @@
       "product": "72-task checklist review",
       "path": "docs/CHECKLIST_REVIEW.md",
       "state": "item-by-item actual state and remaining work"
+    },
+    {
+      "product": "Dream World chapter ring",
+      "path": "artwork/portal/dream-world-ring-v2.png",
+      "state": "v2 digital crop, transparent and rotating"
+    },
+    {
+      "product": "Dream World stationary centre",
+      "path": "artwork/portal/dream-world-scene-v2.png",
+      "state": "v2 digital crop of imagined dinner"
+    },
+    {
+      "product": "Dream World cover preview",
+      "path": "artwork/portal/dream-world-cover-scene-v2.png",
+      "state": "v2 homepage scene beneath the common book ring"
+    },
+    {
+      "product": "Dream World rectangular spread",
+      "path": "artwork/portal/dream-world-spread-v2.webp",
+      "state": "v2 reading illustration at full crop ratio"
+    },
+    {
+      "product": "Dream World interactive modes",
+      "path": "web/index.html",
+      "state": "observed, imagined and afterimage art from the supplied board"
     }
   ],
   "remaining": [

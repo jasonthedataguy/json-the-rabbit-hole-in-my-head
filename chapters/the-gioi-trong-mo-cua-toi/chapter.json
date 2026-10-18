@@ -2,24 +2,26 @@
   "schema_version": 2,
   "slug": "the-gioi-trong-mo-cua-toi",
   "number": "09",
-  "title": "Metro No. 5",
-  "short_title": "Metro No. 5",
+  "title": "The World in My Dreams",
+  "short_title": "Dream World",
   "part": 2,
   "language": "vi",
   "publish": true,
   "release_stage": "reader-with-original-products",
   "canonical_text": "source/approved.md",
   "canonical_path": "#chapter/09",
-  "summary": "Hai đứa trẻ ngồi đối diện trên chuyến tàu tới Bastille. Từ một đoạn hội thoại nghe được, Jason tưởng tượng ra bữa tối trong gia đình chúng và thứ ánh sáng vàng của những phim cũ.",
+  "summary": "Trên tàu số 5 tới Bastille, Jason quan sát hai đứa trẻ và một cuộc điện thoại nghe lõm bõm. Anh tưởng tượng bữa tối của một gia đình xa lạ trong sắc vàng của một thước phim cũ.",
   "portal": {
-    "scene": "Two children sit opposite one another in an observed Paris metro carriage approaching Bastille.",
+    "scene": "Jason stands with two suitcases outside layered night streets, looking through a Metro Line 5 memory toward an imagined family dinner.",
     "objects": [
-      "Metro 5 sign",
-      "opposite seats",
-      "carriage window"
+      "Metro 5 train",
+      "two suitcases",
+      "two children",
+      "family window",
+      "film photographs"
     ],
     "iconKey": "metro",
-    "motif": "The carriage window"
+    "motif": "The borrowed reel"
   },
   "original_edition": {
     "number": "09",
@@ -29,7 +31,7 @@
     "metadata": "references/original-edition/chapter.json",
     "archive_url": "https://jasonthedataguy.github.io/json-under-revision/chapters/09/"
   },
-  "production_status": "imported proofs; v2 adaptation pending",
+  "production_status": "digital portal adapted from author board; imported print and media remain original-edition proofs",
   "manuscript_sha256": "4382f452fa05b61baceed66a86b0510882f9a5b7329a44bf9fa3e831b830c3d9",
   "outline_title": "Metro số 5",
   "original_title": "Metro số 5"

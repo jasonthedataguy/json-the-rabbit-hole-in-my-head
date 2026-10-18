@@ -22,6 +22,31 @@
       "sha256": "1f874c175087958422b2e22473ed41978f4d5e9040dd1775879d6324dd7552a0"
     },
     {
+      "path": "artwork/portal/dream-world-cover-scene-v2.png",
+      "bytes": 1040689,
+      "sha256": "055e595d70cdcb672d31b8c79576adcdf8a17941bdd254faa3f97288338536ea"
+    },
+    {
+      "path": "artwork/portal/dream-world-portal-v2.png",
+      "bytes": 1629698,
+      "sha256": "eaa382e6a5501790261f182ce51c6214c3f5b1a634488134098560bb0974d294"
+    },
+    {
+      "path": "artwork/portal/dream-world-ring-v2.png",
+      "bytes": 1962771,
+      "sha256": "1b58afd7fd00167f9b9ea0420b3406f8acf395c41a41dc809f37d312fd468f34"
+    },
+    {
+      "path": "artwork/portal/dream-world-scene-v2.png",
+      "bytes": 1525133,
+      "sha256": "afb2166864ec39196146e372de03fd5916e5f060d53963bb0fa16d96b1e57c97"
+    },
+    {
+      "path": "artwork/portal/dream-world-spread-v2.webp",
+      "bytes": 177880,
+      "sha256": "553fa84c8dd78156d091bacca88f6cf287aa3ee1814e7624b0adb138d98eb3aa"
+    },
+    {
       "path": "artwork/scenes/01_rooftop_skyline.jpg",
       "bytes": 84433,
       "sha256": "ac82e44b307b1bb18d2156a8cdade6a6471046c0dcdf39580f6bc5bbfa46de8a"
@@ -213,8 +238,8 @@
     },
     {
       "path": "chapter.json",
-      "bytes": 1496,
-      "sha256": "b02c50faf0a518332a344a69858bffcf5623f24ac13d2bb98f1e926f5e07316d"
+      "bytes": 1645,
+      "sha256": "807f7944b9ec2af008e97e6769ab705ed07b676b9307db2fc6ab9ffe443b9501"
     },
     {
       "path": "docs/BROWSER_QA.json",
@@ -263,8 +288,8 @@
     },
     {
       "path": "docs/PRODUCTS.json",
-      "bytes": 4790,
-      "sha256": "bbb3a553d31b3ce4f6f4bef60d276606fdb1faaa286fbabb5d9cc4a5133278f4"
+      "bytes": 5798,
+      "sha256": "ffdaad5386691caf17f6d39c271d383b4bb4073f865510f935f8f10ddb34390f"
     },
     {
       "path": "docs/PROJECT_BOARD.md",
@@ -403,8 +428,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 532,
-      "sha256": "73b6ae52f7fddedb01feea72e04c04b83e7ff58de841eeb4bbe57e40bc14ce50"
+      "bytes": 1007,
+      "sha256": "c9c412883d6b7384e8e332a847738c710f1943a182a8315fea65568b5cd33691"
     },
     {
       "path": "references/dream-world-v01/art/00_approved_storyboard.jpg",
@@ -1153,8 +1178,38 @@
     },
     {
       "path": "web/assets/chapter.js",
-      "bytes": 2861,
-      "sha256": "fe8310782f36bdcdb4f74494437618fd5ef95e3e8a8043f09005c2fcc759867a"
+      "bytes": 2936,
+      "sha256": "863987c5a40a5abcc7fd0b114e819d245560957e08eeb5d4ea67bf9e02ce0cb6"
+    },
+    {
+      "path": "web/assets/dream-world-afterimage-v2.webp",
+      "bytes": 209756,
+      "sha256": "2efb5ba41e87e0b5f92c16a27bedbdb88915be2f2fcc4398b4ec5596a33cc601"
+    },
+    {
+      "path": "web/assets/dream-world-imagined-v2.webp",
+      "bytes": 153108,
+      "sha256": "d95abc342a3ebcdfaa3dcbfa156f3a6877464731867d7e0ecd5216b9a949d8e5"
+    },
+    {
+      "path": "web/assets/dream-world-observed-v2.webp",
+      "bytes": 241260,
+      "sha256": "280e5fa72b423507240235bbd8a5b1c572a77bfff20c30e6da89fce2087e0939"
+    },
+    {
+      "path": "web/assets/dream-world-portal-v2.png",
+      "bytes": 1629698,
+      "sha256": "eaa382e6a5501790261f182ce51c6214c3f5b1a634488134098560bb0974d294"
+    },
+    {
+      "path": "web/assets/dream-world-spread-v2.webp",
+      "bytes": 177880,
+      "sha256": "553fa84c8dd78156d091bacca88f6cf287aa3ee1814e7624b0adb138d98eb3aa"
+    },
+    {
+      "path": "web/assets/dream-world-v2.css",
+      "bytes": 1146,
+      "sha256": "4c94c61aa8eaceb8a32b3d9e4933aba06bd6ea45fe673569b730ad474045cb6f"
     },
     {
       "path": "web/assets/hero.jpg",
@@ -1178,8 +1233,8 @@
     },
     {
       "path": "web/index.html",
-      "bytes": 15928,
-      "sha256": "fc085d5672aeac9397d774f8a83ea66626a349483d67c52914ae9bbe55bd3c57"
+      "bytes": 16610,
+      "sha256": "79a30aa99fd9b9fb819c03f4170c630226b18f4a69a70fb0dbdaa3093e94b93d"
     },
     {
       "path": "web/template.html",
