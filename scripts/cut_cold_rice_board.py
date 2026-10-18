@@ -23,7 +23,9 @@ def cut():
     # exactly the area exposed by the ring's 624 px circular aperture.
     circle = board.crop((16, 116, 408, 508)).resize((SIZE, SIZE), Image.Resampling.LANCZOS)
     scene = board.crop((90, 190, 334, 434)).resize((SIZE, SIZE), Image.Resampling.LANCZOS)
-    dinner = board.crop((66, 205, 362, 403))
+    # Keep the whole family and tabletop in the reading-page rectangle.
+    # The earlier 296x198 crop was then displayed at 2.4:1, hiding its lower half.
+    dinner = board.crop((40, 201, 385, 431))
 
     ring = circle.convert('RGBA')
     mask = Image.new('L', (SIZE, SIZE))

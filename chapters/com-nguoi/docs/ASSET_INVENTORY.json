@@ -23,8 +23,8 @@
     },
     {
       "path": "artwork/portal/rice-family-room-v2.webp",
-      "bytes": 32208,
-      "sha256": "a54b7fb12c086f1dda6b56350b8d248fbd4b0ceee579349ce652d41e1bb6ad44"
+      "bytes": 44164,
+      "sha256": "a655596054dede9293ab26a4dd154d6f6060e8aad3e78b51f948239f386c0fdd"
     },
     {
       "path": "artwork/portal/rice-portal-board-v2.png",
@@ -153,8 +153,8 @@
     },
     {
       "path": "docs/DESIGN_ADAPTATION.md",
-      "bytes": 1228,
-      "sha256": "c4d3fabdcd6a30131f7cebc4fcb05902732d5461e6864c4ccf634ab928a563a6"
+      "bytes": 1310,
+      "sha256": "5fab0e19e8c6c1c90e950cd22570ae40675ff05ca97fd39be32356d09a1738dd"
     },
     {
       "path": "docs/DESIGN_REVIEW.md",
@@ -393,8 +393,8 @@
     },
     {
       "path": "web/assets/rice-family-room-v2.webp",
-      "bytes": 32208,
-      "sha256": "a54b7fb12c086f1dda6b56350b8d248fbd4b0ceee579349ce652d41e1bb6ad44"
+      "bytes": 44164,
+      "sha256": "a655596054dede9293ab26a4dd154d6f6060e8aad3e78b51f948239f386c0fdd"
     },
     {
       "path": "web/assets/rice-portal-board-v2.png",
@@ -403,8 +403,8 @@
     },
     {
       "path": "web/cold-rice-v2.css",
-      "bytes": 2601,
-      "sha256": "2a14f8ef9b1f86baee343aa881893cafe452006687c22f3325ddab4eb7e6244a"
+      "bytes": 2623,
+      "sha256": "e6b2f8dacdccc99845a9c6618af18505c84da7d1b6b5e7fc806cc73b405acbd1"
     },
     {
       "path": "web/index.html",
