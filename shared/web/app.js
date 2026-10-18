@@ -48,7 +48,7 @@ function renderContents(){
   $('#book-table-of-contents').innerHTML=`<div class="toc-frontmatter"><a class="toc-row" href="#introduction"><span class="toc-number">i</span><span class="toc-title">Introduction</span><span class="toc-leader" aria-hidden="true"></span></a><p class="toc-prologue-label">PROLOGUE</p>${tocRow(chapters[0])}</div>${parts.map(part=>`<section class="toc-part"><header><p class="toc-part-number">PART ${String(part.id).padStart(2,'0')}</p><h2>${esc(partLabel(part))}</h2></header><div class="toc-chapters">${chapters.filter(chapter=>chapter.act===part.id).map(tocRow).join('')}</div></section>`).join('')}`;
 }
 function artHTML(chapter){
-  if(chapter.id==='00')return renderFramedPortal('rice','rice-chapter');
+  if(chapter.id==='00')return renderFramedPortal('rice','rice-chapter','assets/rice-ring.png');
   if(chapter.id==='01')return renderFramedPortal('quant','quant-chapter','assets/quant-ring.png');
   if(chapter.id==='04')return '<img src="assets/fashion-portal.png" alt="A room, an old shirt, shoes and a Paris window in layers of coloured paper.">';
   return renderPortal(chapter);
@@ -130,11 +130,12 @@ function positionOrbit(rotation=ring?.rotation ?? -selectedMapChapter*11.25){
 function selectMapChapter(index,{fromRing=false}={}){
   selectedMapChapter=((index%32)+32)%32;
   const chapter=chapters[selectedMapChapter],part=partById(chapter.act);
-  const fitted=chapter.id==='00'||chapter.id==='01';
+  const fittedRing={'00':'assets/rice-ring.png','01':'assets/quant-ring.png'}[chapter.id];
+  const fitted=Boolean(fittedRing);
   const pictureKey=chapter.id==='01'?'quant':'rice';
   $('#portal-art').classList.toggle('uses-fitted-picture',fitted);
   $('#portal-scene').innerHTML=fitted?renderPortalPicture(pictureKey):artHTML(chapter);
-  $('#portal-rim-art').innerHTML=fitted?renderPortalFrame(`${pictureKey}-map`,chapter.id==='01'?'assets/quant-ring.png':'assets/board-ring-cut.png'):artHTML(chapter);
+  $('#portal-rim-art').innerHTML=fitted?renderPortalFrame(`${pictureKey}-map`,fittedRing):artHTML(chapter);
   $('#portal-marker').innerHTML=renderChapterMarker(chapter);
   $('#portal-marker').setAttribute('aria-label',`Chapter marker ${chapter.id}: ${getChapterMarkerName(chapter)}`);
   $('#portal-stage').setAttribute('aria-label',`${chapter.id}. ${chapter.title}. Drag to rotate; use arrow keys to choose; Enter to read.`);

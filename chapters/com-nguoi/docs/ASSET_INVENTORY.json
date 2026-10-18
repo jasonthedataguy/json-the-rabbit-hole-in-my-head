@@ -27,6 +27,11 @@
       "sha256": "ddadcd45d41920aea71ea03b515e063c6e3879c53d5f692460936aea641f619b"
     },
     {
+      "path": "artwork/portal/rice-ring.png",
+      "bytes": 1732552,
+      "sha256": "b27d09261705044a72f15a4d1bfb4364d2ab7f8b285ca9c6a22fa324d4e854fb"
+    },
+    {
       "path": "artwork/portal/rice-scene-board-v3.png",
       "bytes": 574946,
       "sha256": "24441552bf2f29be353423d3f10078f4d23f208325211f8c01fce2c5ad1906fb"
@@ -148,8 +153,8 @@
     },
     {
       "path": "docs/PRODUCTS.json",
-      "bytes": 2157,
-      "sha256": "108630e4b09f32cde055c8120c07710685b8fccfd62c480d8bac2d5ba4b5ee8d"
+      "bytes": 2341,
+      "sha256": "ec5709676c1beff652597b64d57259b6b1c30d04df0666bc8f44301d09ec07fb"
     },
     {
       "path": "previews/artwork.jpg",

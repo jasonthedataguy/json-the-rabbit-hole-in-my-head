@@ -116,6 +116,12 @@
       "provenance": "Earlier full-bleed Cold Rice family-meal scene; restored as the active web picture at the author's request. The original supplied rice portal remains preserved."
     },
     {
+      "source": "chapters/com-nguoi/artwork/portal/rice-ring.png",
+      "public_path": "assets/rice-ring.png",
+      "sha256_at_intake": "b27d09261705044a72f15a4d1bfb4364d2ab7f8b285ca9c6a22fa324d4e854fb",
+      "provenance": "Cold Rice chapter ring cut from the preserved author-supplied rice-portal.png by scripts/cut_rice_ring.py; used on the chapter map and reader."
+    },
+    {
       "source": "shared/artwork/book-cover/cover-scene-landscape.png",
       "public_path": "assets/cover-scene-landscape.png",
       "sha256_at_intake": "bb33e582593231fa778040804fb0141532b346053cf058d09c5118e887305422",

@@ -12,6 +12,11 @@
       "path": "artwork/scenes/index.json"
     },
     {
+      "product": "Cold Rice ring for digital chapter map and reader",
+      "state": "ready as supplied-art derivative",
+      "path": "artwork/portal/rice-ring.png"
+    },
+    {
       "product": "Illustrated A5 chapter",
       "state": "editorial proof",
       "path": "book/chapter-A5-proof.pdf"

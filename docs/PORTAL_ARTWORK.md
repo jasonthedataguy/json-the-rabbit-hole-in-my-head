@@ -2,7 +2,7 @@
 
 The picture is independent of the rotating frame. Both use a 1000 × 1000 canvas centred at (500, 500). The frame PNG carries its own transparency, with radius 480 outside and radius 310 inside; its cover variant also carries Jason's head across the opening. The circular picture extends to radius 312 underneath the frame, hiding subpixel seams. The cover, Introduction, Cold Rice homepage selection, chapter reader and Cold Rice map use this shared geometry.
 
-The cover ring comes from the user's `Jason Under Revision_ Design Asset Board.png`. The source board is copied unchanged into `references/design/`; `scripts/cut_board_ring.py` records the artwork crops and transparent annular frame. The active cover picture is again the earlier landscape-only crop of the supplied board. Jason's body and head remain together in the rotating foreground ring. The same ring stays mounted throughout all 34 homepage stops while the selected scene stays upright. A figure-free cut serves the separate chapter map and reader. The older ring remains in `shared/artwork/cover-ring.png` as a supplied reference.
+The cover ring comes from the user's `Jason Under Revision_ Design Asset Board.png`. The source board is copied unchanged into `references/design/`; `scripts/cut_board_ring.py` records the artwork crops and transparent annular frame. The active cover picture is again the earlier landscape-only crop of the supplied board. Jason's body and head remain together in the rotating foreground ring. The same ring stays mounted throughout all 34 homepage stops while the selected scene stays upright. The chapter map and reader use chapter-specific artwork: Cold Rice has its own cut ring, Quant uses its editorial-board ring, Fashion uses its supplied portal, and the remaining chapters use their individual procedural portal designs. The older ring remains in `shared/artwork/cover-ring.png` as a supplied reference.
 
 The Introduction now shows the supplied concept board city and bridge scene inside its collage ring. Cold Rice again uses the earlier three-person family meal around a shared bowl. The later Saigon cover and father-and-child Cold Rice scenes remain separate alternates for the print study. The Saigon alternate depicts the [Bitexco Tower's projecting helipad](https://bitexco.com.vn/en/project/bitexco-financial-tower/) and [Ba Son Bridge's leaning pylon and cable fan](https://bandodulichtphcm.vn/en/diem-den/ba-son-bridge/). The supplied assets remain unchanged.
 
@@ -18,23 +18,24 @@ The Introduction now shows the supplied concept board city and bridge scene insi
 | Introduction concept board (unchanged) | `references/design/Jason, Under Revision Concept Board - introduction.png` |
 | Earlier generated cover interpretation (retained as an alternate) | `shared/artwork/book-cover/cover-scene-v2.png` |
 | Three-person Cold Rice scene used by the site | `chapters/com-nguoi/artwork/portal/rice-scene-v2.png` |
+| Cold Rice ring for the chapter map and reader | `chapters/com-nguoi/artwork/portal/rice-ring.png` |
 | Later father-and-child Cold Rice alternate (print study) | `chapters/com-nguoi/artwork/portal/rice-scene-board-v3.png` |
 | Full-resolution scene masters | `print/assets/cover-saigon-scene-3000.png`, `print/assets/cold-rice-scene-3000.png` |
 | Constant homepage ring, including the foreground figure | `shared/artwork/portal/board-cover-ring.png` |
-| Clean ring for the separate chapter map and reader | `shared/artwork/portal/board-ring-cut.png` |
+| Earlier figure-free design-board ring (retained alternate) | `shared/artwork/portal/board-ring-cut.png` |
 | Design board source | `references/design/Jason Under Revision_ Design Asset Board.png` |
 | Previous ring (retained) | `shared/artwork/cover-ring.png` |
 | Picture placeholder | `shared/artwork/portal/placeholder.svg` |
 | Reusable cutting mask and instructions | `templates/portal/` |
 | Frame renderer and image placement | `shared/web/portal-art.js` |
 | Interactive template / SVG exporter | `docs/PORTAL_STUDIO.html` |
-| Reproducible cover cutting, scene painting and print layout | `scripts/cut_board_ring.py`, `scripts/paint_intro_portal.py`, `scripts/paint_print_portals.py`, `scripts/build_print_pack.py` |
+| Reproducible cover and Cold Rice ring cutting, scene painting and print layout | `scripts/cut_board_ring.py`, `scripts/cut_rice_ring.py`, `scripts/paint_intro_portal.py`, `scripts/paint_print_portals.py`, `scripts/build_print_pack.py` |
 
 The cover, Introduction and Cold Rice scene use zoom 1.00 with no offset. Placement is non-destructive SVG composition; the supplied board and approved illustrations remain unchanged. The frame rotates around the same centre without moving the scene.
 
 The main cover follows the board's physical-book layout: navy cloth, cream `.json` title, ring as the focal point, and a figure facing a dusk city. The board's papercut ring supplies the rotating frame. Every cover stop shares the same circular aperture: the cover, Introduction and Cold Rice use raster scenes, while chapter stops after the Prologue use scene-only SVG artwork from `renderPortalScene`. The selected picture changes while the frame rotates independently.
 
-Static composition previews of the active picture and cut ring are saved at `docs/qa/cover-board-composition.png`, `docs/qa/cover-turned-composition.png`, `docs/qa/introduction-board-composition.png` and `docs/qa/cold-rice-board-composition.png`. These show the artwork fit and are not browser screenshots of the final page.
+Static composition previews of the active picture and cut ring are saved at `docs/qa/cover-board-composition.png`, `docs/qa/cover-turned-composition.png`, `docs/qa/introduction-board-composition.png`, `docs/qa/cold-rice-board-composition.png` and `docs/qa/cold-rice-map-ring-preview.png`. These show the artwork fit and are not browser screenshots of the final page.
 
 To use the template locally, serve the repository (not `dist`) on port 4174:
 
@@ -45,6 +46,8 @@ python -m http.server 4174 --bind 127.0.0.1
 Open `http://localhost:4174/docs/PORTAL_STUDIO.html`. Choose a preset or a local PNG/JPEG/WebP, adjust zoom and placement, and download the fitted SVG. The export embeds both image and frame, works independently of the repository, and excludes alignment guides. The studio is an internal authoring tool and is not copied to the public site.
 
 ## Generation record
+
+The Cold Rice chapter ring is cut from the original supplied `chapters/com-nguoi/artwork/portal/rice-portal.png` by `scripts/cut_rice_ring.py`. Its transparent centre reveals the approved `rice-scene-v2.png` family meal; the source illustration is preserved unchanged. This 1000-pixel cut is for the digital chapter map and reader, not the print master. The homepage continues to use the constant book-cover ring at its Cold Rice stop.
 
 The Introduction leaf pairs the board-derived city scene with the main collage ring from the author's new concept board. Its transparent cut-out lets the sunset skyline and bridge show through. `scripts/cut_intro_artboard.py` records the crop and cut; the 1672 × 941 board is preserved unchanged under `references/design/`. The cover's rotating ring remains constant at its Introduction stop, showing the same city scene in its centre. The new ring is a digital front-matter illustration and is not a print-resolution master.
 
