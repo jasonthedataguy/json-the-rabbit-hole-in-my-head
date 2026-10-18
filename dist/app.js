@@ -1,7 +1,7 @@
-import { chapters, renderPortal } from './chapters.js?v=5';
-import { introduction, parts, chapterNotes } from './book.js?v=5';
-import { renderChapterMarker, renderReferenceBowlIcon, getChapterMarkerName } from './markers.js?v=5';
-import { PortalRing } from './ring.js?v=5';
+import { chapters, renderPortal } from './chapters.js?v=6';
+import { introduction, parts, chapterNotes } from './book.js?v=6';
+import { renderChapterMarker, renderReferenceBowlIcon, getChapterMarkerName } from './markers.js?v=6';
+import { PortalRing } from './ring.js?v=6';
 
 const $ = selector => document.querySelector(selector);
 const $$ = selector => [...document.querySelectorAll(selector)];
@@ -19,7 +19,7 @@ const motionMedia = matchMedia('(prefers-reduced-motion: reduce)');
 let reducedMotion = store.get('json-reduced-motion',motionMedia.matches);
 let readingSize = store.get('json-reading-size',24);
 const positions = store.get('json-book-positions',{});
-let currentRoute = null, selectedMapChapter = 0, ring = null, scrollTimer = null;
+let currentRoute = null, selectedMapChapter = 0, selectedCoverChapter = 0, ring = null, coverRing = null, scrollTimer = null;
 const drawer = $('#navigation-drawer');
 if('scrollRestoration' in history)history.scrollRestoration='manual';
 
@@ -29,15 +29,15 @@ function parseRoute(){
   if(chapter&&chapterById(chapter[1]))return {type:'chapter',key:hash,id:chapter[1]};
   const archive=hash.match(/^archive\/([a-z0-9-]+)$/);
   if(archive&&publishedBySlug.has(archive[1]))return {type:'archive-chapter',key:hash,slug:archive[1]};
-  if(['introduction','contents','map','edition','archive'].includes(hash))return {type:hash,key:hash};
-  return {type:'map',key:'map'};
+  if(['cover','introduction','contents','map','edition','archive'].includes(hash))return {type:hash,key:hash};
+  return {type:'cover',key:'cover'};
 }
 function isCurrent(key){return currentRoute?.key===key;}
 const currentAttr = key => isCurrent(key)?' aria-current="page"':'';
 const dot = available => available?'<span class="available-dot" aria-label="Có toàn văn"></span>':'';
 function navigationHTML(){
   const currentChapter=currentRoute?.type==='chapter'?chapterById(currentRoute.id):null;
-  return `<div class="frontmatter-nav"><a class="nav-link" href="#map"${currentAttr('map')}><span class="nav-symbol" aria-hidden="true">◌</span><span>Bản đồ chương</span></a><a class="nav-link" href="#introduction"${currentAttr('introduction')}><span class="nav-number">i</span><span class="nav-title">Dẫn nhập</span></a><a class="nav-link" href="#contents"${currentAttr('contents')}><span class="nav-number">ii</span><span class="nav-title">Mục lục</span></a><a class="nav-link prologue-nav" href="#chapter/00"${currentAttr('chapter/00')}><span class="nav-number">00</span><span class="nav-title"><small>MỞ ĐẦU</small>Cơm nguội</span>${renderReferenceBowlIcon(24)}</a></div><div class="part-navigation-list">${parts.map(part=>`<details class="part-navigation"${currentChapter?.act===part.id?' open':''}><summary><span class="part-roman">${roman[part.id]}</span><span class="part-nav-title">${esc(part.title)}</span></summary><div class="part-chapters">${chapters.filter(chapter=>chapter.act===part.id).map(chapter=>`<a class="chapter-nav-link" href="#chapter/${chapter.id}"${currentAttr(`chapter/${chapter.id}`)}><span class="nav-number">${chapter.id}</span><span class="nav-title">${esc(chapter.title)}</span>${dot(publishedById.has(chapter.id))}</a>`).join('')}</div></details>`).join('')}</div><div class="sidebar-secondary"><a class="nav-link" href="#archive"${currentAttr('archive')}><span class="nav-symbol" aria-hidden="true"><svg width="12" height="14" viewBox="0 0 14 16" fill="none" stroke="currentColor"><path d="M2 2h9v12H2zM4 5h5M4 8h5M4 11h3"/></svg></span><span>Những bản đã công bố</span></a><a class="nav-link" href="#edition"${currentAttr('edition')}><span class="nav-symbol" aria-hidden="true">·</span><span>Về ấn bản</span></a></div>`;
+  return `<div class="frontmatter-nav"><a class="nav-link" href="#cover"${currentAttr('cover')}><span class="nav-symbol" aria-hidden="true">▯</span><span>Trang bìa</span></a><a class="nav-link" href="#map"${currentAttr('map')}><span class="nav-symbol" aria-hidden="true">◌</span><span>Bản đồ chương</span></a><a class="nav-link" href="#introduction"${currentAttr('introduction')}><span class="nav-number">i</span><span class="nav-title">Dẫn nhập</span></a><a class="nav-link" href="#contents"${currentAttr('contents')}><span class="nav-number">ii</span><span class="nav-title">Mục lục</span></a><a class="nav-link prologue-nav" href="#chapter/00"${currentAttr('chapter/00')}><span class="nav-number">00</span><span class="nav-title"><small>MỞ ĐẦU</small>Cơm nguội</span>${renderReferenceBowlIcon(24)}</a></div><div class="part-navigation-list">${parts.map(part=>`<details class="part-navigation"${currentChapter?.act===part.id?' open':''}><summary><span class="part-roman">${roman[part.id]}</span><span class="part-nav-title">${esc(part.title)}</span></summary><div class="part-chapters">${chapters.filter(chapter=>chapter.act===part.id).map(chapter=>`<a class="chapter-nav-link" href="#chapter/${chapter.id}"${currentAttr(`chapter/${chapter.id}`)}><span class="nav-number">${chapter.id}</span><span class="nav-title">${esc(chapter.title)}</span>${dot(publishedById.has(chapter.id))}</a>`).join('')}</div></details>`).join('')}</div><div class="sidebar-secondary"><a class="nav-link" href="#archive"${currentAttr('archive')}><span class="nav-symbol" aria-hidden="true"><svg width="12" height="14" viewBox="0 0 14 16" fill="none" stroke="currentColor"><path d="M2 2h9v12H2zM4 5h5M4 8h5M4 11h3"/></svg></span><span>Những bản đã công bố</span></a><a class="nav-link" href="#edition"${currentAttr('edition')}><span class="nav-symbol" aria-hidden="true">·</span><span>Về ấn bản</span></a></div>`;
 }
 function renderNavigation(){$('#desktop-navigation').innerHTML=navigationHTML();$('#mobile-navigation').innerHTML=navigationHTML();}
 function tocRow(chapter){return `<a class="toc-row" href="#chapter/${chapter.id}"><span class="toc-number">${chapter.id}</span><span class="toc-title">${esc(chapter.title)}${chapter.id==='31'?'<small class="toc-epilogue">Lời kết</small>':''}</span><span class="toc-leader" aria-hidden="true"></span>${dot(publishedById.has(chapter.id))}</a>`;}
@@ -57,7 +57,7 @@ function pageTurn({href,title,label='',direction='next'}){
 function chapterFooter(chapter){
   const number=Number(chapter.id);
   const previous=number===0?{href:'#introduction',title:'Dẫn nhập',label:'TRANG TRƯỚC'}:{href:`#chapter/${chapters[number-1].id}`,title:chapters[number-1].title,label:number===1?'MỞ ĐẦU':'CHƯƠNG TRƯỚC'};
-  const next=number===31?{href:'#map',title:'Bản đồ chương',label:'KHÉP LẠI'}:{href:`#chapter/${chapters[number+1].id}`,title:chapters[number+1].title,label:'CHƯƠNG TIẾP'};
+  const next=number===31?{href:'#cover',title:'Trang bìa',label:'KHÉP LẠI'}:{href:`#chapter/${chapters[number+1].id}`,title:chapters[number+1].title,label:'CHƯƠNG TIẾP'};
   return `<footer class="leaf-navigation">${pageTurn({...previous,direction:'previous'})}<span class="folio">${chapter.id}</span>${pageTurn({...next,direction:'next'})}</footer>`;
 }
 function sourceNotes(manuscript){return `<details class="chapter-archive"><summary>Bản lưu của chương</summary><p>Bản đã công bố: <em>${esc(manuscript.originalTitle)}</em> · ${esc(manuscript.legacyId)}</p><a href="${esc(manuscript.archiveUrl)}" target="_blank" rel="noopener">Đọc bản công bố và xem tư liệu <span aria-hidden="true">↗</span></a><a href="${esc(manuscript.downloadUrl)}" download>Tải bản chữ gốc</a></details>`;}
@@ -67,7 +67,7 @@ function renderChapter(id){
   const sourceTitle=manuscript && manuscript.originalTitle.toLowerCase().replaceAll('_',' ')!==chapter.title.toLowerCase()?`<p class="chapter-source-title">Bản công bố: ${esc(manuscript.originalTitle)}</p>`:'';
   const text=manuscript?`<div class="chapter-prose prose" data-reading-kind="full">${manuscript.bodyHtml || manuscript.html}</div>${sourceNotes(manuscript)}`:`<div class="outline-notice"><span>ĐỀ CƯƠNG</span><p>Toàn văn chương này chưa có trong ấn bản số.</p></div><div class="outline-prose prose" data-reading-kind="outline"><p>${esc(chapterNotes[id].summary)}</p></div><p class="outline-source">Theo đề cương cấu trúc bản thảo.</p>`;
   $('#chapter-leaf').innerHTML=`<header class="chapter-heading"><p class="leaf-kicker">${part?`PHẦN ${roman[part.id]} · ${esc(part.key)}`:'.JSON / JASON, UNDER REVISION'}</p><p class="chapter-numeral">${headingLabel}</p><h1 id="chapter-heading" class="chapter-title" tabindex="-1">${esc(chapter.title)}</h1>${part?`<p class="chapter-part-title">${esc(part.title)}</p>`:''}${sourceTitle}</header>${chapterArtwork(chapter)}${text}${chapterFooter(chapter)}`;
-  selectedMapChapter=Number(id);
+  selectedMapChapter=Number(id);selectedCoverChapter=Number(id);
 }
 function renderArchive(){
   $('#archive-list').innerHTML=library.chapters.map(manuscript=>`<a class="archive-row" href="#archive/${esc(manuscript.slug)}"><span class="archive-original-number">${esc(manuscript.legacyId)}</span><span><strong>${esc(manuscript.originalTitle)}</strong><small>${manuscript.editorialId!==null?`TRONG CUỐN SÁCH · ${manuscript.editorialId==='00'?'MỞ ĐẦU':`CHƯƠNG ${manuscript.editorialId}`}`:'BÀI VIẾT TRONG BẢN LƯU'}</small></span><span aria-hidden="true">→</span></a>`).join('');
@@ -79,7 +79,7 @@ function renderArchiveChapter(slug){
 function savePosition(){if(currentRoute){positions[currentRoute.key]=Math.round(window.scrollY);store.set('json-book-positions',positions);}}
 function breadcrumb(route){
   if(route.type==='chapter'){const chapter=chapterById(route.id);return chapter.act?`Phần ${roman[chapter.act]} / ${chapter.title}`:`Mở đầu / ${chapter.title}`;}
-  return ({introduction:'Phần mở đầu / Dẫn nhập',contents:'Mục lục',map:'Bản đồ chương',edition:'Ghi chú ấn bản',archive:'Những bản đã công bố','archive-chapter':'Bản lưu / '+(publishedBySlug.get(route.slug)?.originalTitle || '')})[route.type];
+  return ({cover:'Trang bìa',introduction:'Phần mở đầu / Dẫn nhập',contents:'Mục lục',map:'Bản đồ chương',edition:'Ghi chú ấn bản',archive:'Những bản đã công bố','archive-chapter':'Bản lưu / '+(publishedBySlug.get(route.slug)?.originalTitle || '')})[route.type];
 }
 function renderRoute(route,{initial=false}={}){
   if(!initial)savePosition();
@@ -89,15 +89,18 @@ function renderRoute(route,{initial=false}={}){
   if(route.type==='chapter')renderChapter(route.id);
   if(route.type==='archive-chapter')renderArchiveChapter(route.slug);
   if(route.type==='map')selectMapChapter(selectedMapChapter);
+  if(route.type==='cover')selectCoverChapter(selectedCoverChapter);
   $('#reading-breadcrumb').textContent=breadcrumb(route);
-  document.title=route.type==='introduction'?'.json — Jason, under revision':`${route.type==='chapter'?chapterById(route.id).title:route.type==='archive-chapter'?publishedBySlug.get(route.slug).originalTitle:breadcrumb(route)} — .json`;
+  document.title=['cover','introduction'].includes(route.type)?'.json — Jason, under revision':`${route.type==='chapter'?chapterById(route.id).title:route.type==='archive-chapter'?publishedBySlug.get(route.slug).originalTitle:breadcrumb(route)} — .json`;
   document.body.classList.toggle('viewing-map',route.type==='map');
+  document.body.classList.toggle('viewing-cover',route.type==='cover');
   renderNavigation();
   if(drawer.open)drawer.close();
   requestAnimationFrame(()=>{
     window.scrollTo({top:positions[route.key] || 0,behavior:'instant'});
     const heading=$(`#${view}-view h1`);heading?.focus({preventScroll:true});
     if(route.type==='map')positionOrbit();
+    if(route.type==='cover')positionCoverOrbit();
   });
   $('#reading-status').textContent=breadcrumb(route);
 }
@@ -147,14 +150,47 @@ $('#portal-stage').addEventListener('keydown',event=>{
   const actions={ArrowRight:()=>selectMapChapter(selectedMapChapter+1),ArrowDown:()=>selectMapChapter(selectedMapChapter+1),ArrowLeft:()=>selectMapChapter(selectedMapChapter-1),ArrowUp:()=>selectMapChapter(selectedMapChapter-1),Home:()=>selectMapChapter(0),End:()=>selectMapChapter(31),Enter:()=>navigate(`chapter/${chapters[selectedMapChapter].id}`),' ':()=>navigate(`chapter/${chapters[selectedMapChapter].id}`)};
   if(actions[event.key]){event.preventDefault();actions[event.key]();}
 });
+
+// The cover has its own paper dial; it does not replace the full chapter map.
+function positionCoverOrbit(rotation=coverRing?.rotation ?? -selectedCoverChapter*11.25){
+  const radius=-$('#cover-stage').getBoundingClientRect().width*.457;
+  $$('.cover-orbit-mark').forEach((element,index)=>{element.style.setProperty('--angle',`${index*11.25+rotation}deg`);element.style.setProperty('--orbit-radius',`${radius}px`);});
+}
+function selectCoverChapter(index,{fromRing=false}={}){
+  selectedCoverChapter=((index%32)+32)%32;
+  const chapter=chapters[selectedCoverChapter];
+  $('#cover-marker').innerHTML=renderChapterMarker(chapter,{compact:true});
+  $('#cover-marker').setAttribute('aria-label',`Dấu chương ${chapter.id}: ${getChapterMarkerName(chapter)}`);
+  $('#cover-chapter-link').href=`#chapter/${chapter.id}`;
+  $('#cover-chapter-label').textContent=`${chapter.id} · ${chapter.title}`;
+  $('#cover-chapter-link').title=chapter.title;
+  $('#cover-stage').setAttribute('aria-label',`Vòng chương trên bìa sách. ${chapter.id}: ${chapter.title}. Kéo để xoay, mũi tên để chọn, Enter để đọc.`);
+  $$('.cover-orbit-mark').forEach((element,i)=>{element.classList.toggle('active',i===selectedCoverChapter);element.setAttribute('aria-pressed',i===selectedCoverChapter);});
+  if(!fromRing)coverRing?.setChapter(selectedCoverChapter);
+  positionCoverOrbit();
+}
+$('#cover-orbit-marks').innerHTML=chapters.map((chapter,index)=>`<button class="cover-orbit-mark" data-cover-chapter="${index}" aria-label="${chapter.id}. ${esc(chapter.title)}" title="${chapter.id} · ${esc(chapter.title)}"><span>${chapter.id}</span></button>`).join('');
+coverRing=new PortalRing({stage:$('#cover-stage'),initialIndex:0,onRotate(rotation,{animate}){
+  $('#cover-stage').classList.toggle('ring-instant',!animate);$('#cover-stage').dataset.ringRotation=String(rotation);
+  $('#cover-rotor').style.transform=`rotate(${rotation}deg)`;positionCoverOrbit(rotation);
+},onSelect(index){selectCoverChapter(index,{fromRing:true});}});
+new ResizeObserver(()=>positionCoverOrbit()).observe($('#cover-stage'));
+$('#cover-stage').addEventListener('keydown',event=>{
+  if(event.target.closest('button')&&['Enter',' '].includes(event.key))return;
+  const actions={ArrowRight:()=>selectCoverChapter(selectedCoverChapter+1),ArrowDown:()=>selectCoverChapter(selectedCoverChapter+1),ArrowLeft:()=>selectCoverChapter(selectedCoverChapter-1),ArrowUp:()=>selectCoverChapter(selectedCoverChapter-1),Home:()=>selectCoverChapter(0),End:()=>selectCoverChapter(31),Enter:()=>navigate(`chapter/${chapters[selectedCoverChapter].id}`),' ':()=>navigate(`chapter/${chapters[selectedCoverChapter].id}`)};
+  if(actions[event.key]){event.preventDefault();actions[event.key]();}
+});
+
 $('#motion-toggle').addEventListener('click',()=>{reducedMotion=!reducedMotion;store.set('json-reduced-motion',reducedMotion);applyMotion();});
 motionMedia.addEventListener('change',event=>{reducedMotion=event.matches;applyMotion();});
 for(const [selector,delta] of [['#font-down',-2],['#font-up',2]])$(selector).addEventListener('click',()=>{readingSize=Math.max(18,Math.min(34,readingSize+delta));store.set('json-reading-size',readingSize);applyReadingSize();});
 $('#menu-open').addEventListener('click',()=>drawer.showModal());
+$('#cover-menu-open').addEventListener('click',()=>drawer.showModal());
 $('#menu-close').addEventListener('click',()=>drawer.close());
 drawer.addEventListener('click',event=>{if(event.target===drawer){const rect=drawer.getBoundingClientRect();if(event.clientX>rect.right)drawer.close();}});
 document.addEventListener('click',event=>{
   if(event.target.closest('.skip-link')){event.preventDefault();$('#book-content').focus();return;}
+  const coverChapter=event.target.closest('[data-cover-chapter]');if(coverChapter){selectCoverChapter(Number(coverChapter.dataset.coverChapter));return;}
   const mapChapter=event.target.closest('[data-map-chapter]');if(mapChapter){selectMapChapter(Number(mapChapter.dataset.mapChapter));return;}
   const mapPart=event.target.closest('[data-map-part]');if(mapPart){selectMapChapter(Number(chapters.find(chapter=>chapter.act===Number(mapPart.dataset.mapPart)).id));return;}
   const link=event.target.closest('a[href^="#"]');

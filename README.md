@@ -1,6 +1,6 @@
 # .json — Jason, Under Revision · Portal edition
 
-A separate digital reading edition of the book. Its homepage is the illustrated chapter map, with direct access to the introduction, printed-style contents, published archive, and edition notes. The book’s reading order begins with the title page, epigraph, and source-based introduction, followed by the Cơm nguội prologue and five narrative parts. Chapters are continuous reading pages; the illustrated portal map and physical-edition notes are separate views. The original repository remains at [jasonthedataguy/json-under-revision](https://github.com/jasonthedataguy/json-under-revision).
+A separate digital reading edition of the book. Its homepage is a navy cloth book cover with a rotating paper portal and the short “I like maths because…” introduction. It links to the introduction, illustrated chapter map, printed-style contents, published archive, and edition notes. The book’s reading order begins with the title page, epigraph, and source-based introduction, followed by the Cơm nguội prologue and five narrative parts. Chapters are continuous reading pages; the illustrated portal map and physical-edition notes are separate views. The original repository remains at [jasonthedataguy/json-under-revision](https://github.com/jasonthedataguy/json-under-revision).
 
 The optional illustrated contents map uses a circular paper rim that follows mouse or touch angle and snaps to 11.25° stops while the central scene stays upright. Center swipes, scroll gestures, arrow buttons, keyboard navigation and the chapter index provide other ways in. Every portal carries its own item-and-number paper marker. Cơm nguội uses the exact navy-and-ivory rice-bowl badge from the supplied reference image, displayed without redrawing it. Fashion uses a Jordan 1 keepsake.
 
@@ -15,6 +15,17 @@ The reader bundles all ten published manuscripts from the original repository at
 Nine manuscripts have evidence-based links to the new 00–31 portal order. Their original titles are retained in the reader. **Dating 102** remains an additional essay in the published archive and is not assigned to the unrelated Tiểu hành tinh portal. Original chapter numbers and the new editorial IDs are recorded separately in [source provenance](docs/source-provenance.json). Chapters without a published manuscript remain clearly labeled previews.
 
 Original memory experiences, downloads and multimedia remain reachable through links to the original published chapter pages. This repository does not modify the original archive.
+
+## Work on this repository
+
+- `dist/index.html` — cover and book-page markup.
+- `dist/cover.css` — cloth-cover appearance, paper ring, and short introduction.
+- `dist/app.js` — navigation, readers, and the cover/chapter-map interactions.
+- `dist/book.js` — book introduction, five parts, and chapter outlines.
+- `content/chapters/` — preserved author-approved manuscript source files.
+- `scripts/check_site.py` — manuscript and public-file validation.
+
+Push changes to `main` to run the GitHub Pages deployment workflow.
 
 ## Run locally
 

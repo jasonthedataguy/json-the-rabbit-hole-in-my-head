@@ -4,7 +4,7 @@
 
 export const introduction = {
   title: 'Dẫn nhập',
-  epigraph: 'I love maths because there is always a definite answer. I like literature because there isn’t a wrong one.',
+  epigraph: 'I like maths because there is always a definite answer. I like literature because there isn’t a wrong one.',
   paragraphs: [
     'Jason thích toán vì ở đó có đáp án; anh thích văn chương vì có những câu hỏi không nhất thiết phải có đáp án đúng. Anh lớn lên với những ký ức vừa dịu dàng vừa đáng sợ, rồi bước vào tuổi trưởng thành bằng niềm tin rằng mọi vấn đề đều có thể hiểu được nếu quan sát đủ kỹ, đặt đúng biến số và tìm đúng mô hình.',
     'Từ chuyện mặc quần áo, mua giày, quản lý tiền, yêu đương tới đi làm, anh liên tục tìm cách giải thích hành vi con người bằng kinh tế học, game theory, xác suất, tư duy định lượng. Anh gọi mình là một quant từ trong bản chất: người biết kiểm soát rủi ro giữa một thế giới không thể dự đoán.',
@@ -17,6 +17,7 @@ export const introduction = {
     kind: 'editorial introduction',
     note: 'Trích phần dẫn nhập không tiết lộ diễn biến từ hồ sơ tác phẩm; bản nguồn không có lời tựa riêng của tác giả.',
     epigraphSection: 'Trang tên sách',
+    epigraphRevision: 'Opening updated to I like maths at the author’s request; the remainder follows the supplied epigraph.',
   },
 };
 
