@@ -2,7 +2,7 @@ import { chapters, renderPortal, renderPortalScene } from './chapters.js?v=14';
 import { introduction, parts, chapterNotes } from './book.js?v=12';
 import { renderChapterMarker, renderReferenceBowlIcon, getChapterMarkerName } from './markers.js?v=10';
 import { PortalRing } from './ring.js?v=10';
-import { renderPortalPicture, renderPortalFrame, renderFramedPortal } from './portal-art.js?v=24';
+import { renderPortalPicture, renderPortalFrame, renderFramedPortal } from './portal-art.js?v=25';
 
 const $ = selector => document.querySelector(selector);
 const $$ = selector => [...document.querySelectorAll(selector)];
@@ -182,7 +182,7 @@ function selectCoverPage(index,{fromRing=false}={}){
   $('#cover-stage').dataset.pageIndex=String(selectedCoverPage);
   $('#cover-scene').innerHTML=page.kind==='chapter'?(page.chapter.id==='00'?renderPortalPicture('rice'):page.chapter.id==='01'?renderPortalPicture('quant'):renderPortalScene(page.chapter)):page.kind==='cover'
     ?renderPortalPicture('cover')
-    :renderPortalPicture('introduction');
+    :renderPortalPicture('introductionCover');
   $('#cover-marker').innerHTML=page.kind==='chapter'?renderChapterMarker(page.chapter,{compact:true}):`<span class="frontmatter-marker" aria-hidden="true">${page.kind==='cover'?'▯':'i'}</span>`;
   $('#cover-marker').hidden=page.kind==='cover';
   $('#cover-marker').setAttribute('aria-label',page.kind==='chapter'?`Chapter marker ${page.label}: ${getChapterMarkerName(page.chapter)}`:page.kind==='cover'?'Book cover':'Introduction');
@@ -230,7 +230,7 @@ window.addEventListener('popstate',()=>renderRoute(parseRoute()));
 window.addEventListener('hashchange',()=>{const route=parseRoute();if(route.key!==currentRoute?.key)renderRoute(route);});
 window.addEventListener('scroll',()=>{clearTimeout(scrollTimer);scrollTimer=setTimeout(savePosition,180);},{passive:true});
 window.addEventListener('pagehide',savePosition);
-$('#introduction-portal-art').innerHTML=renderFramedPortal('introduction','introduction-leaf','assets/introduction-ring.png');
+$('#introduction-portal-art').innerHTML=renderFramedPortal('introduction','introduction-leaf','assets/introduction-ring-v2.png');
 $('#book-epigraph').innerHTML=introduction.epigraph.split(/(?<=answer\.)\s+/).map(line=>`<p>${esc(line)}</p>`).join('');
 $('#introduction-text').innerHTML=introduction.sections.map((section,index)=>`<section class="intro-section${index===0?' intro-synopsis':''}"><h2>${esc(section.heading)}</h2>${section.paragraphs.map(paragraph=>`<p>${introInline(paragraph)}</p>`).join('')}</section>`).join('');
 renderContents();renderArchive();applyReadingSize();applyMotion();renderRoute(parseRoute(),{initial:true});

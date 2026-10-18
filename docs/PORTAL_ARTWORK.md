@@ -4,7 +4,7 @@ The picture is independent of the rotating frame. Both use a 1000 × 1000 canvas
 
 The cover ring comes from the user's `Jason Under Revision_ Design Asset Board.png`. The source board is copied unchanged into `references/design/`; `scripts/cut_board_ring.py` records the artwork crops and transparent annular frame. The active cover picture is again the earlier landscape-only crop of the supplied board. Jason's body and head remain together in the rotating foreground ring. The same ring stays mounted throughout all 34 homepage stops while the selected scene stays upright. The chapter map and reader use chapter-specific artwork: Cold Rice has its own cut ring, Quant uses its editorial-board ring, Fashion uses its supplied portal, and the remaining chapters use their individual procedural portal designs. The older ring remains in `shared/artwork/cover-ring.png` as a supplied reference.
 
-The Introduction now shows the supplied concept board city and bridge scene inside its collage ring. Cold Rice again uses the earlier three-person family meal around a shared bowl. The later Saigon cover and father-and-child Cold Rice scenes remain separate alternates for the print study. The Saigon alternate depicts the [Bitexco Tower's projecting helipad](https://bitexco.com.vn/en/project/bitexco-financial-tower/) and [Ba Son Bridge's leaning pylon and cable fan](https://bandodulichtphcm.vn/en/diem-den/ba-son-bridge/). The supplied assets remain unchanged.
+The Introduction now uses the latest supplied concept board's complete composition: an open book and reader before a moonlit city and bridge, encircled by memories and models. Cold Rice uses the earlier three-person family meal around a shared bowl. The later Saigon cover and father-and-child Cold Rice scenes remain separate alternates for the print study. The Saigon alternate depicts the [Bitexco Tower's projecting helipad](https://bitexco.com.vn/en/project/bitexco-financial-tower/) and [Ba Son Bridge's leaning pylon and cable fan](https://bandodulichtphcm.vn/en/diem-den/ba-son-bridge/). The supplied assets remain unchanged.
 
 | Asset | Editable source |
 |---|---|
@@ -12,10 +12,12 @@ The Introduction now shows the supplied concept board city and bridge scene insi
 | Later Saigon cover alternate (print study) | `shared/artwork/book-cover/cover-scene-saigon-v3.png` |
 | Earlier bowl-and-pedestal crop with stationary Jason removed | `shared/artwork/book-cover/cover-scene-board-clean.png` |
 | Exact design-board centre crop (preserved input) | `shared/artwork/book-cover/cover-scene-board.png` |
-| Active Introduction city scene | `shared/artwork/portal/introduction-scene-board.png` |
+| Active Introduction leaf ring and aligned scene | `shared/artwork/portal/introduction-ring-v2.png`, `shared/artwork/portal/introduction-scene-v2.png` |
+| Active Introduction homepage centre crop | `shared/artwork/portal/introduction-cover-scene-v2.png` |
+| Earlier Introduction city scene (alternate) | `shared/artwork/portal/introduction-scene-board.png` |
 | Earlier open-book scene (alternate) | `shared/artwork/portal/introduction-scene.png` |
-| Introduction leaf ring | `shared/artwork/portal/introduction-ring.png` |
-| Introduction concept board (unchanged) | `references/design/Jason, Under Revision Concept Board - introduction.png` |
+| Earlier Introduction leaf ring (alternate) | `shared/artwork/portal/introduction-ring.png` |
+| Introduction concept boards (unchanged) | `references/design/Introduction Portal Ring Concept Board.png`, `references/design/Jason, Under Revision Concept Board - introduction.png` |
 | Earlier generated cover interpretation (retained as an alternate) | `shared/artwork/book-cover/cover-scene-v2.png` |
 | Three-person Cold Rice scene used by the site | `chapters/com-nguoi/artwork/portal/rice-scene-v2.png` |
 | Cold Rice ring for the chapter map and reader | `chapters/com-nguoi/artwork/portal/rice-ring.png` |
@@ -35,7 +37,7 @@ The cover, Introduction and Cold Rice scene use zoom 1.00 with no offset. Placem
 
 The main cover follows the board's physical-book layout: navy cloth, cream `.json` title, ring as the focal point, and a figure facing a dusk city. The board's papercut ring supplies the rotating frame. Every cover stop shares the same circular aperture: the cover, Introduction and Cold Rice use raster scenes, while chapter stops after the Prologue use scene-only SVG artwork from `renderPortalScene`. The selected picture changes while the frame rotates independently.
 
-Static composition previews of the active picture and cut ring are saved at `docs/qa/cover-board-composition.png`, `docs/qa/cover-turned-composition.png`, `docs/qa/introduction-board-composition.png`, `docs/qa/cold-rice-board-composition.png` and `docs/qa/cold-rice-map-ring-preview.png`. These show the artwork fit and are not browser screenshots of the final page.
+Static composition previews of the active picture and cut ring include `docs/qa/introduction-concept-leaf-composition.png`, `docs/qa/introduction-concept-cover-stop-composition.png`, and `docs/qa/cold-rice-map-ring-preview.png`. Earlier cover and Introduction proofs remain under `docs/qa/`. These show the artwork fit and are not browser screenshots of the final page.
 
 To use the template locally, serve the repository (not `dist`) on port 4174:
 
@@ -49,9 +51,9 @@ Open `http://localhost:4174/docs/PORTAL_STUDIO.html`. Choose a preset or a local
 
 The Cold Rice chapter ring is cut from the original supplied `chapters/com-nguoi/artwork/portal/rice-portal.png` by `scripts/cut_rice_ring.py`. Its transparent centre reveals the approved `rice-scene-v2.png` family meal; the source illustration is preserved unchanged. This 1000-pixel cut is for the digital chapter map and reader, not the print master. The homepage continues to use the constant book-cover ring at its Cold Rice stop.
 
-The Introduction leaf pairs the board-derived city scene with the main collage ring from the author's new concept board. Its transparent cut-out lets the sunset skyline and bridge show through. `scripts/cut_intro_artboard.py` records the crop and cut; the 1672 × 941 board is preserved unchanged under `references/design/`. The cover's rotating ring remains constant at its Introduction stop, showing the same city scene in its centre. The new ring is a digital front-matter illustration and is not a print-resolution master.
+The Introduction leaf now pairs its ring with an aligned scene from the author's latest 1672 × 941 board. `scripts/cut_intro_concept_board.py` cuts both pieces and a focused cover-stop scene; it also renders two composition proofs. The homepage's rotating book-cover ring remains constant at its Introduction stop. The supplied board is unchanged in `references/design/`, and the earlier Introduction ring and city scene remain available as alternates. These are digital front-matter illustrations, not print-resolution masters.
 
-The active landscape crop is derived from the unchanged design board by `scripts/cut_board_ring.py`. The active Cold Rice scene was generated with the built-in imagegen tool on 18 October 2026. The active Introduction scene is composed from the board artwork with crisp skyline and bridge layers by `scripts/compose_intro_board_scene.py`; the earlier open-book scene from `scripts/paint_intro_portal.py` remains an alternate. The later Saigon and father-and-child alternates are drawn locally by `scripts/paint_print_portals.py` at 3000 pixels, then reduced to 1000-pixel web versions. The separate [print prototype](../print/README.md) still uses those later alternates and documents its full-resolution masters, cut guides and proofs.
+The active landscape crop is derived from the unchanged design board by `scripts/cut_board_ring.py`. The active Cold Rice scene was generated with the built-in imagegen tool on 18 October 2026. The previous Introduction city scene from `scripts/compose_intro_board_scene.py` and earlier open-book scene from `scripts/paint_intro_portal.py` remain alternates. The later Saigon and father-and-child alternates are drawn locally by `scripts/paint_print_portals.py` at 3000 pixels, then reduced to 1000-pixel web versions. The separate [print prototype](../print/README.md) still uses those later alternates and documents its full-resolution masters, cut guides and proofs.
 
 ### Cold Rice prompt
 

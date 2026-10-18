@@ -7,8 +7,8 @@
   <meta name="description" content=".json — Jason, under revision. An immersive book in five parts, from Cold Rice to An Apology.">
   <title>.json — Jason, under revision</title>
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="style.css?v=18">
-  <script type="module" src="app.js?v=28"></script>
+  <link rel="stylesheet" href="style.css?v=19">
+  <script type="module" src="app.js?v=29"></script>
   <link rel="stylesheet" href="cover.css?v=13">
 </head>
 <body class="viewing-cover">
@@ -64,10 +64,15 @@
 
     <section id="introduction-view" class="book-view introduction-view" hidden aria-labelledby="intro-heading">
       <article class="reading-leaf introduction-leaf">
-        <header class="title-page"><p class="frontmatter-label">INTRODUCTION</p><p class="book-title">.json</p><p class="book-subtitle">Jason, under revision</p><span class="title-rule" aria-hidden="true"></span></header>
-        <figure class="introduction-portal" aria-label="Introduction portal: memories and models surround a dusk city and bridge"><div id="introduction-portal-art" class="introduction-portal-art"></div><figcaption>All my selves lead here</figcaption></figure>
+        <div class="introduction-artboard">
+          <div class="introduction-artboard-top"><p class="introduction-artboard-brand">.json<small>Jason, under revision</small></p><p class="introduction-artboard-note">One book.<br>32 portals.<br>A more honest<br>version of myself.</p></div>
+          <figure class="introduction-portal" aria-label="Introduction portal: memories and models frame an open book, a reader and a dusk city"><div id="introduction-portal-art" class="introduction-portal-art"></div></figure>
+          <h1 id="intro-heading" class="introduction-artboard-title" tabindex="-1">Introduction</h1>
+          <p class="introduction-artboard-caption">All my selves lead here.</p>
+          <ol class="introduction-journey" aria-label="The book's progression"><li>Observation</li><li>Interpretation</li><li>Model</li><li>Prediction</li><li>Error</li><li>Revision</li></ol>
+        </div>
         <blockquote class="book-epigraph" id="book-epigraph"></blockquote>
-        <div class="introduction-prose prose"><h1 id="intro-heading" tabindex="-1">Introduction</h1><div id="introduction-text" lang="vi"></div></div>
+        <div class="introduction-prose prose"><div id="introduction-text" lang="vi"></div></div>
         <footer class="leaf-navigation intro-leaf-navigation"><span class="folio">i</span><a href="#chapter/00" class="next-leaf"><span>PROLOGUE<strong>Cold Rice</strong></span><span class="leaf-arrow" aria-hidden="true">→</span></a></footer>
       </article>
     </section>

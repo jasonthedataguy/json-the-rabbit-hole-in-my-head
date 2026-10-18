@@ -137,13 +137,31 @@
       "source": "shared/artwork/portal/introduction-scene-board.png",
       "public_path": "assets/introduction-scene-board.png",
       "sha256_at_intake": "b20a254f4f0c3ae20b0b384a48d2f14431fefdc191a686d3824e9bb3b1c12417",
-      "provenance": "Active Introduction centre scene composed from the author-supplied concept board's illustrated city page, with crisp paper-cut skyline and bridge layers; recipe scripts/compose_intro_board_scene.py."
+      "provenance": "Earlier Introduction centre scene composed from the author-supplied concept board's illustrated city page, with crisp paper-cut skyline and bridge layers; retained as an alternate. Recipe scripts/compose_intro_board_scene.py."
     },
     {
       "source": "shared/artwork/portal/introduction-ring.png",
       "public_path": "assets/introduction-ring.png",
       "sha256_at_intake": "88fe9880d4e4793d44f931a4ca37ff3cd234a6579c8ef81f718738eec552f669",
-      "provenance": "Main Introduction portal ring cropped from the author-supplied Jason, Under Revision Concept Board - introduction.png; unchanged artboard preserved in references/design and crop reproducible with scripts/cut_intro_artboard.py. Digital use only."
+      "provenance": "Earlier Introduction portal ring cropped from the author-supplied Jason, Under Revision Concept Board - introduction.png; retained as an alternate and reproducible with scripts/cut_intro_artboard.py. Digital use only."
+    },
+    {
+      "source": "shared/artwork/portal/introduction-ring-v2.png",
+      "public_path": "assets/introduction-ring-v2.png",
+      "sha256_at_intake": "367e36d2a51047fd8864551fd23e2bd770e1a548e80bbda602e26772d277eead",
+      "provenance": "Active Introduction ring cut from the unchanged author-supplied Introduction Portal Ring Concept Board.png; recipe scripts/cut_intro_concept_board.py. Digital use only."
+    },
+    {
+      "source": "shared/artwork/portal/introduction-scene-v2.png",
+      "public_path": "assets/introduction-scene-v2.png",
+      "sha256_at_intake": "17aa8909133f36779dc7d898d8d7f12e8cab088264730f7f0d958b45f0e04c63",
+      "provenance": "Active Introduction leaf scene, cut from the new concept board to align exactly with its ring; recipe scripts/cut_intro_concept_board.py. Digital use only."
+    },
+    {
+      "source": "shared/artwork/portal/introduction-cover-scene-v2.png",
+      "public_path": "assets/introduction-cover-scene-v2.png",
+      "sha256_at_intake": "b26b35325af4e24add29bb602b3f20246cb6145bec629af6ad8bfa6844a1d60a",
+      "provenance": "Introduction homepage-stop centre from the same new concept board; keeps the book-cover ring unchanged. Recipe scripts/cut_intro_concept_board.py. Digital use only."
     },
     {
       "source": "shared/artwork/portal/placeholder.svg",
