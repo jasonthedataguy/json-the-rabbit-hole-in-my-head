@@ -12,11 +12,11 @@
   "canonical_path": "#chapter/17",
   "summary": "Niềm tin của những đứa trẻ hopeless romantic: hai người có thể cắt nhau ba lần trước khi nhận ra nhau.",
   "portal": {
-    "scene": "Three paths nearly intersect on a city street at dusk beneath a solitary streetlight.",
+    "scene": "Two people meet before a sunset skyline and bridge, framed by crowds, flowers, cafes and traces of travel.",
     "objects": [
-      "crossing paths",
-      "streetlight",
-      "silhouettes"
+      "two people",
+      "sunset bridge",
+      "flowers and cafes"
     ],
     "iconKey": "paths",
     "motif": "The almost-meeting"
@@ -29,7 +29,7 @@
     "metadata": "references/original-edition/chapter.json",
     "archive_url": "https://jasonthedataguy.github.io/json-under-revision/chapters/15/"
   },
-  "production_status": "imported proofs; v2 adaptation pending",
+  "production_status": "digital portal adapted from supplied board; imported print and media remain original-edition proofs",
   "manuscript_sha256": "b5b27a3d38118db90eb440f12b095a44fc66a73e631e7ca1f5f232b4c65651c2",
   "outline_title": "Three Meeting Theory"
 }

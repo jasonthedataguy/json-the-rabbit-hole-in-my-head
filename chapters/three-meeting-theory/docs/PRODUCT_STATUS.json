@@ -3,7 +3,7 @@
   "editorial_number": "17",
   "original_number": "15",
   "reader": "published manuscript",
-  "v2_product_release": "imported proofs; v2 adaptation pending",
+  "v2_product_release": "digital portal adapted from supplied board; imported print and media remain original-edition proofs",
   "lanes": [
     {
       "id": "manuscript",
@@ -17,7 +17,7 @@
     },
     {
       "id": "artwork",
-      "files_present": 22,
+      "files_present": 27,
       "status": "available for review",
       "required_deliverables": [
         "source and provenance",
@@ -27,7 +27,7 @@
     },
     {
       "id": "web",
-      "files_present": 10,
+      "files_present": 13,
       "status": "available for review",
       "required_deliverables": [
         "complete reader",
@@ -81,7 +81,7 @@
     },
     {
       "id": "qa",
-      "files_present": 9,
+      "files_present": 10,
       "status": "available for review",
       "required_deliverables": [
         "asset inventory",

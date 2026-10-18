@@ -12,6 +12,31 @@
       "sha256": "6bf3bf1ffbadf7e3cecd6f12970e63b91d70e00d2ea6ee60176c39af96bc2fb0"
     },
     {
+      "path": "artwork/portal/three-meeting-cover-scene-v2.png",
+      "bytes": 729540,
+      "sha256": "98e160fa3684d8db2dd28104631364fbd3c72727b13471e7192b8615baa367e4"
+    },
+    {
+      "path": "artwork/portal/three-meeting-portal-v2.png",
+      "bytes": 1270454,
+      "sha256": "29c94c8a21dc71912d3802153506e6960daefe0846192f67c11005432acec5eb"
+    },
+    {
+      "path": "artwork/portal/three-meeting-ring-v2.png",
+      "bytes": 1551837,
+      "sha256": "76b0b7d72149c8fc7c2f08b67344c2fdbd60f8530698c137bffb2175d56ed5a8"
+    },
+    {
+      "path": "artwork/portal/three-meeting-scene-v2.png",
+      "bytes": 729540,
+      "sha256": "98e160fa3684d8db2dd28104631364fbd3c72727b13471e7192b8615baa367e4"
+    },
+    {
+      "path": "artwork/portal/three-meeting-spread-v2.webp",
+      "bytes": 159882,
+      "sha256": "73be9ccef0b7b11ed05fbccac7c1341f7af5717e478eaaf0775d75d8ad76758d"
+    },
+    {
       "path": "artwork/scenes/city.jpg",
       "bytes": 128678,
       "sha256": "0fd37a5863c35d6dadf9081a3ef91b1dc0eb6f4e09b0fccf25e8f45eb99cc785"
@@ -148,8 +173,8 @@
     },
     {
       "path": "chapter.json",
-      "bytes": 1344,
-      "sha256": "82b5ca624d14a491ed34372b52ef96b126740631d23874f274547e2296f22673"
+      "bytes": 1430,
+      "sha256": "f3ae2189b6100bee855b722db08655a42502a51fd47002d2785df9d93a72b197"
     },
     {
       "path": "docs/BROWSER_QA.json",
@@ -170,6 +195,11 @@
       "path": "docs/CHECKLIST_REVIEW.md",
       "bytes": 14733,
       "sha256": "ff2d3c05689e516e7c448cb2455004f214ccfca163ae89598572f5305f403cdc"
+    },
+    {
+      "path": "docs/DESIGN_ADAPTATION.md",
+      "bytes": 1535,
+      "sha256": "79b10bff0aac3e82b507b378070cbcc5731c6af6b1741ddc77cd65ccf8d2416d"
     },
     {
       "path": "docs/INVENTORY.json",
@@ -293,8 +323,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 535,
-      "sha256": "c44875e292f234bd34a212603ee4fa55f28b010ecef889f7b808def1c183084e"
+      "bytes": 950,
+      "sha256": "6d61317bb8f7dc94a0bd5a02f6fae92eb13e61cc8bb11b0806d4b5679e27c765"
     },
     {
       "path": "references/original-edition/approved.md",
@@ -837,14 +867,29 @@
       "sha256": "a5547c4b63d809f4f2863a49f408ed9c0291ba104d765bb0ad03114083c6b0b3"
     },
     {
+      "path": "web/assets/three-meeting-portal-v2.png",
+      "bytes": 1270454,
+      "sha256": "29c94c8a21dc71912d3802153506e6960daefe0846192f67c11005432acec5eb"
+    },
+    {
+      "path": "web/assets/three-meeting-spread-v2.webp",
+      "bytes": 159882,
+      "sha256": "73be9ccef0b7b11ed05fbccac7c1341f7af5717e478eaaf0775d75d8ad76758d"
+    },
+    {
       "path": "web/index.html",
-      "bytes": 10432,
-      "sha256": "42e14489d10945051c2dbe7c1abdc538c1de724b7c73dd23d9b996d6aba4a214"
+      "bytes": 10979,
+      "sha256": "183c12db49bb2b95ad88afaf512dbc4de2e9896e0c9b7646277a5a64edc6d09f"
     },
     {
       "path": "web/template.html",
       "bytes": 6572,
       "sha256": "ec33e0b761b29775d5e2fcf717bed05e4786f9bff25cbc94c0e810d8d7b23c97"
+    },
+    {
+      "path": "web/three-meeting-v2.css",
+      "bytes": 1811,
+      "sha256": "400ba0e16aa8194142d05e0e684b5eac2cd1f783769c973216231e8290fd3cd6"
     }
   ]
 }

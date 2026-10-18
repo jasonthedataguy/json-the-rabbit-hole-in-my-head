@@ -577,3 +577,30 @@ h1, h2, h3 { font-family: var(--serif); font-weight: 400; line-height: 1.15; }
 #map-view[data-chapter="for-mother-russia"] .map-enter{border-color:#db9a8388}
 #map-view[data-chapter="for-mother-russia"] #map-summary{font-family:var(--body-serif)}
 @media(max-width:700px){.russia-chapter-stage{grid-template-columns:1fr;gap:9px}.russia-chapter-stage .chapter-illustration:has(.fitted-portal){width:min(310px,82%);margin:0 auto}.russia-chapter-note{margin:0 12px;padding:14px 0 14px 20px}.russia-chapter-note p{font-size:21px}.russia-cabin-banner{margin-top:17px}.russia-chapter-numeral{font-size:60px}.russia-chapter-heading h1{font-size:clamp(42px,11vw,55px)}}
+
+/* Three Meeting Theory: sunset portal, intact foreground pair and panoramic spread. */
+.meeting-chapter-heading{text-align:center;margin:0 auto}
+.meeting-chapter-heading .leaf-kicker{color:#827f78}
+.meeting-chapter-numeral{margin:20px 0 3px;color:#bd6d60;font:68px/.9 var(--serif)}
+.meeting-chapter-heading h1{margin:0;color:#152c3a;font:clamp(43px,5.5vw,60px)/1.06 var(--serif);letter-spacing:-1px;text-wrap:balance}
+.meeting-chapter-subtitle{margin:13px 0 0;color:#a46b61;font:11px/1.6 var(--sans);letter-spacing:1.8px;text-transform:uppercase}
+.meeting-chapter-part{margin:15px 0 0;color:#777d76;font:italic 17px/1.5 var(--body-serif)}
+.meeting-chapter-stage{display:grid;grid-template-columns:minmax(0,330px) minmax(0,1fr);gap:24px;align-items:center;margin:23px 0 28px}
+.meeting-chapter-stage .chapter-illustration:has(.fitted-portal){width:100%;height:auto;margin:0;aspect-ratio:1}
+.meeting-chapter-note{padding:20px 0 20px 25px;border-left:1px solid #bb7166}
+.meeting-chapter-note>span{color:#957d69;font:10px/1.5 var(--sans);letter-spacing:1.7px}
+.meeting-chapter-note p{margin:19px 0 25px;color:#203745;font:22px/1.45 var(--serif)}
+.meeting-chapter-note button{display:inline-flex;gap:12px;align-items:center;padding:0 0 6px;border:0;border-bottom:1px solid #bb7166;background:none;color:#995d4f;font:11px/1.5 var(--sans);letter-spacing:.7px;cursor:pointer}
+.meeting-chapter-note button:hover{color:#6c3d30}
+.meeting-spread-banner{margin:0 0 34px;text-align:center}
+.meeting-spread-banner img{display:block;width:100%;height:auto;margin:auto;object-fit:contain}
+.meeting-spread-banner figcaption{margin-top:10px;color:#927e68;font:10px/1.5 var(--sans);letter-spacing:1.3px;text-transform:uppercase}
+#meeting-chapter-text{scroll-margin-top:80px}
+#meeting-chapter-text .chapter-prose{margin-top:42px}
+#meeting-chapter-text .chapter-prose>p:first-of-type::first-letter{color:#bd6d60}
+#map-view[data-chapter="three-meeting-theory"] .map-number{color:#de9b87}
+#map-view[data-chapter="three-meeting-theory"] .map-enter{border-color:#de9b8788}
+#map-view[data-chapter="three-meeting-theory"] #map-summary{font-family:var(--body-serif)}
+#map-view[data-chapter="three-meeting-theory"] .portal-rim-art{transform-origin:center;transition:transform .48s cubic-bezier(.2,.75,.25,1)}
+#map-view[data-chapter="three-meeting-theory"] .is-dragging .portal-rim-art,#map-view[data-chapter="three-meeting-theory"] .ring-instant .portal-rim-art{transition:none}
+@media(max-width:700px){.meeting-chapter-stage{grid-template-columns:1fr;gap:9px}.meeting-chapter-stage .chapter-illustration:has(.fitted-portal){width:min(310px,82%);margin:0 auto}.meeting-chapter-note{margin:0 12px;padding:14px 0 14px 20px}.meeting-chapter-note p{font-size:21px}.meeting-spread-banner{margin-top:17px}.meeting-chapter-numeral{font-size:60px}.meeting-chapter-heading h1{font-size:clamp(42px,11vw,55px)}}

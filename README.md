@@ -75,6 +75,10 @@ Play to Win uses the supplied game-table concept board's cards, mahjong, chips a
 
 For Mother Russia now uses the supplied winter-memory board's photographic portal ring, snowy city-and-cabin centre and rectangular cabin vignette in the chapter map, Chapter 08 reading leaf and desktop book preview. The homepage retains the common cover ring and shows the new centre at this stop. Its separate immersive page adopts the same art while keeping the original essay and Memory Graph. The board's Chapter 03 is a concept label; v2 remains Chapter 08, and original-edition 05 remains historical metadata. See [the design adaptation notes](chapters/for-mother-russia/docs/DESIGN_ADAPTATION.md).
 
+## Three Meeting Theory digital design
+
+Three Meeting Theory uses the supplied romance-and-city board's paper collage ring, sunset bridge centre and rectangular couple/cafe vignette on the chapter map, Chapter 17 reading leaf and desktop book preview. The homepage keeps its common cover ring while changing the centre for this stop. Its separate immersive page uses the new art and retains the original essay and Third Intersection explorer. The board's Chapter 15 is an original-edition label; v2 remains Chapter 17. See [the design adaptation notes](chapters/three-meeting-theory/docs/DESIGN_ADAPTATION.md).
+
 ## Deployment
 
 

@@ -306,6 +306,30 @@
       "public_path": "assets/mother-russia-cabin-v2.webp",
       "sha256_at_intake": "ac3d565b6571b3fc784d7a1555b9e9d5f7bf698bce89107608994d6cfdcf105c",
       "provenance": "Complete snowy cabin vignette extracted from the For Mother Russia board for the rectangular digital reading pages; recipe scripts/cut_mother_russia_board.py. Screen use only."
+    },
+    {
+      "source": "chapters/three-meeting-theory/artwork/portal/three-meeting-ring-v2.png",
+      "public_path": "assets/three-meeting-ring-v2.png",
+      "sha256_at_intake": "76b0b7d72149c8fc7c2f08b67344c2fdbd60f8530698c137bffb2175d56ed5a8",
+      "provenance": "Transparent chapter ring cut from the author's Three Meeting Theory concept board; both foreground figures remain on the rotating ring. Recipe scripts/cut_three_meeting_board.py. Screen use only."
+    },
+    {
+      "source": "chapters/three-meeting-theory/artwork/portal/three-meeting-scene-v2.png",
+      "public_path": "assets/three-meeting-scene-v2.png",
+      "sha256_at_intake": "98e160fa3684d8db2dd28104631364fbd3c72727b13471e7192b8615baa367e4",
+      "provenance": "Stationary sunset skyline, river and bridge centre cut from the same board and cleared of the foreground couple. Recipe scripts/cut_three_meeting_board.py. Screen use only."
+    },
+    {
+      "source": "chapters/three-meeting-theory/artwork/portal/three-meeting-cover-scene-v2.png",
+      "public_path": "assets/three-meeting-cover-scene-v2.png",
+      "sha256_at_intake": "98e160fa3684d8db2dd28104631364fbd3c72727b13471e7192b8615baa367e4",
+      "provenance": "Homepage centre for the unchanged shared book ring at the Three Meeting Theory stop. Recipe scripts/cut_three_meeting_board.py. Screen use only."
+    },
+    {
+      "source": "chapters/three-meeting-theory/artwork/portal/three-meeting-spread-v2.webp",
+      "public_path": "assets/three-meeting-spread-v2.webp",
+      "sha256_at_intake": "73be9ccef0b7b11ed05fbccac7c1341f7af5717e478eaaf0775d75d8ad76758d",
+      "provenance": "Full rectangular reading panorama of the couple, cafe, bridge and skyline from the unchanged concept board. Recipe scripts/cut_three_meeting_board.py. Screen use only."
     }
   ]
 }

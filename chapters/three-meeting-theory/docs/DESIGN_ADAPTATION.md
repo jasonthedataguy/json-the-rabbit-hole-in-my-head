@@ -1,0 +1,7 @@
+# Three Meeting Theory digital-book design adaptation
+
+The author's board is preserved unchanged at `references/design/relationshio_modelling - three meeting theory.png` (including the source filename's spelling). `scripts/cut_three_meeting_board.py` derives the transparent collage ring, sunset city-and-bridge centre, homepage centre, complete rectangular cafe/city vignette and circular composition proof. Both foreground figures remain on the turning ring, so their heads and bodies move together. The stationary centre contains the board's skyline and bridge with the couple cleared from the river area.
+
+The homepage retains the common book-cover ring and changes its centre at this stop. The chapter map and Chapter 17 reading leaf use the dedicated Three Meeting Theory ring. The map artwork turns with the reader's drag and settles upright when selected, keeping the pair legible. The reading leaf and desktop book preview show the full rectangular vignette. The separate immersive page uses the same circular portal and vignette while retaining the approved essay and Third Intersection interaction.
+
+The board's **15** is an original-edition design label. The current digital book retains **Chapter 17**, and original-edition **15** remains historical metadata. The selected `source/approved.md` manuscript and inherited print, film and social proofs are unchanged. The 388-pixel source circle and extracted board collage support this digital adaptation; they are not printer-resolution or separately editable print layers.
