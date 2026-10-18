@@ -43,22 +43,28 @@ def cut():
                   for x, y in pair_outline], fill=255)
     ring.putalpha(mask.filter(ImageFilter.GaussianBlur(1.15)))
 
-    # Remove the foreground pair from the *stationary* scene, retaining the
-    # board's actual sunset, skyline and bridge. Fill only their silhouette
-    # from the river colours on either side at the same height.
-    scene_box = (137, 159, 287, 309)
+    # Match the aperture's field of view in the 388 px source circle. Its
+    # 624/1000 diameter is 242 source pixels, centred on the same point as
+    # MAIN_BOX. The old 150 px crop enlarged the bridge and broke the seam.
+    # Remove the foreground pair from this stationary layer; their complete
+    # silhouettes remain on the rotating ring above it.
+    aperture_size = round((MAIN_BOX[2] - MAIN_BOX[0]) * 624 / SIZE)
+    centre_x = (MAIN_BOX[0] + MAIN_BOX[2]) // 2
+    centre_y = (MAIN_BOX[1] + MAIN_BOX[3]) // 2
+    scene_box = (centre_x - aperture_size // 2, centre_y - aperture_size // 2,
+                 centre_x + aperture_size // 2, centre_y + aperture_size // 2)
     scene_source = board.crop(scene_box)
     people_mask = Image.new('L', scene_source.size)
     ImageDraw.Draw(people_mask).polygon([(x - scene_box[0], y - scene_box[1])
                                          for x, y in pair_outline], fill=255)
-    people_mask = people_mask.filter(ImageFilter.MaxFilter(7))
+    people_mask = people_mask.filter(ImageFilter.MaxFilter(5))
     for y in range(scene_source.height):
         occupied = [x for x in range(scene_source.width) if people_mask.getpixel((x, y))]
         if not occupied:
             continue
         left, right = occupied[0], occupied[-1]
-        left_colour = scene_source.getpixel((max(0, left - 2), y))
-        right_colour = scene_source.getpixel((min(scene_source.width - 1, right + 2), y))
+        left_colour = scene_source.getpixel((max(0, left - 3), y))
+        right_colour = scene_source.getpixel((min(scene_source.width - 1, right + 3), y))
         for x in occupied:
             blend = (x - left) / max(1, right - left)
             scene_source.putpixel((x, y), tuple(round(a * (1 - blend) + b * blend)
