@@ -167,13 +167,31 @@
       "source": "chapters/com-nguoi/artwork/portal/rice-scene-v2.png",
       "public_path": "assets/rice-scene-v2.png",
       "sha256_at_intake": "6c9859ee3574ed85f5acd404f558a3ed00667968c3685fe66d81c46544b015ef",
-      "provenance": "Earlier full-bleed Cold Rice family-meal scene; restored as the active web picture at the author's request. The original supplied rice portal remains preserved."
+      "provenance": "Earlier full-bleed Cold Rice family-meal scene; retained as a digital alternate after the author's new board was adopted. The original supplied rice portal remains preserved."
     },
     {
       "source": "chapters/com-nguoi/artwork/portal/rice-ring.png",
       "public_path": "assets/rice-ring.png",
       "sha256_at_intake": "b27d09261705044a72f15a4d1bfb4364d2ab7f8b285ca9c6a22fa324d4e854fb",
-      "provenance": "Cold Rice chapter ring cut from the preserved author-supplied rice-portal.png by scripts/cut_rice_ring.py; used on the chapter map and reader."
+      "provenance": "Earlier Cold Rice ring cut from the preserved author-supplied rice-portal.png by scripts/cut_rice_ring.py; retained as a digital alternate."
+    },
+    {
+      "source": "chapters/com-nguoi/artwork/portal/rice-ring-board-v2.png",
+      "public_path": "assets/rice-ring-board-v2.png",
+      "sha256_at_intake": "506d51ad8ee7074b2a4ff1f184313dfc8af5b611ab957d136b9bfc052d1dc206",
+      "provenance": "Cold Rice floral lattice ring, cut from the author's unchanged prologue - cold rice.png design board by scripts/cut_cold_rice_board.py; active on the chapter map and prologue leaf."
+    },
+    {
+      "source": "chapters/com-nguoi/artwork/portal/rice-scene-board-v2.png",
+      "public_path": "assets/rice-scene-board-v2.png",
+      "sha256_at_intake": "0f8e8cbca1a028646ccf7405611cd6e9d9c60f20ae5c4c4470b66009621b32fe",
+      "provenance": "Aligned family-dinner centre from the Cold Rice design board; active under its chapter ring and the shared homepage ring."
+    },
+    {
+      "source": "chapters/com-nguoi/artwork/portal/rice-family-room-v2.webp",
+      "public_path": "assets/rice-family-room-v2.webp",
+      "sha256_at_intake": "a54b7fb12c086f1dda6b56350b8d248fbd4b0cee579349ce652d41e1bb6ad44",
+      "provenance": "Wide family dinner crop from the Cold Rice design board for digital reading previews. Screen-only artwork."
     },
     {
       "source": "shared/artwork/book-cover/cover-scene-landscape.png",

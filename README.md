@@ -4,7 +4,7 @@ The portal edition and its immersive chapter production workspace. On desktop, t
 
 The Introduction leaf shows the author's latest concept board as a transparent circular portal: its collage ring frames the open book, reader, dusk city and bridge, followed by the six-step story progression. The homepage keeps the shared cover ring as it turns to a centre scene cut from that same board.
 
-The homepage starts on the earlier dusk-city landscape from the supplied design board, with Jason carried by its rotating paper ring. The Introduction uses the new board-derived city portal; Cold Rice again shows the earlier family-meal artwork. Its 35 ring stops follow **Cover → Introduction → Prologue (00) → Chapters 01–32**. The optional chapter map has 33 chapter stops. The paper ring surrounds a separate, upright picture. Navigation and chapter headings use English; the five part names display each English key alongside its Vietnamese title. The original Vinglish manuscripts remain unchanged. The Introduction uses the author's new Vietnamese synopsis and reader promise. Reading pages bundle Noto Serif for full Vietnamese typography. [Portal artwork and the replaceable picture template](docs/PORTAL_ARTWORK.md) explain how to fit another scene. The [6×9 in print prototype](print/README.md) preserves the newer art as a separate printable study, with underlays, cut guides and proofs.
+The homepage starts on the earlier dusk-city landscape from the supplied design board, with Jason carried by its rotating paper ring. The Introduction uses the new board-derived city portal; Cold Rice now shows the author's floral-lattice family-dinner board. Its 35 ring stops follow **Cover → Introduction → Prologue (00) → Chapters 01–32**. The optional chapter map has 33 chapter stops. The paper ring surrounds a separate, upright picture. Navigation and chapter headings use English; the five part names display each English key alongside its Vietnamese title. The original Vinglish manuscripts remain unchanged. The Introduction uses the author's new Vietnamese synopsis and reader promise. Reading pages bundle Noto Serif for full Vietnamese typography. [Portal artwork and the replaceable picture template](docs/PORTAL_ARTWORK.md) explain how to fit another scene. The [6×9 in print prototype](print/README.md) preserves the newer art as a separate printable study, with underlays, cut guides and proofs.
 
 Start with the [production board](docs/PROJECT_BOARD.html), [chapter status](docs/PRODUCTION_STATUS.md), [architecture](docs/ARCHITECTURE.md), [asset guide](docs/ASSET_GUIDE.md), and [full production workflow](docs/PRODUCTION_WORKFLOW.md).
 
@@ -54,6 +54,10 @@ python scripts/new_chapter.py --slug another-essay --title "Another essay" --arc
 ```
 
 The scaffold is unpublished. To work on one of the planned 33 chapters, edit its existing folder. [The workflow](docs/PRODUCTION_WORKFLOW.md) explains manuscript selection, Read / Explore / Revisit, print, narration, films, social packs and release evidence.
+
+## Cold Rice digital design
+
+Cold Rice uses the supplied prologue board's floral lattice portal on the map, prologue leaf and immersive page. The homepage uses the same family dinner scene inside the constant book-cover ring, while the desktop reading preview shows the warm family room. The board's “03” is an illustrative mock-page label: this edition keeps **Prologue 00**, with original essay **07** preserved. See [Cold Rice adaptation notes](chapters/com-nguoi/docs/DESIGN_ADAPTATION.md).
 
 ## Fashion digital design
 

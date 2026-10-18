@@ -20,8 +20,9 @@ The Introduction now uses the latest supplied concept board's complete compositi
 | Earlier Introduction leaf ring (alternate) | `shared/artwork/portal/introduction-ring.png` |
 | Introduction concept boards (unchanged) | `references/design/Introduction Portal Ring Concept Board.png`, `references/design/Jason, Under Revision Concept Board - introduction.png` |
 | Earlier generated cover interpretation (retained as an alternate) | `shared/artwork/book-cover/cover-scene-v2.png` |
-| Three-person Cold Rice scene used by the site | `chapters/com-nguoi/artwork/portal/rice-scene-v2.png` |
-| Cold Rice ring for the chapter map and reader | `chapters/com-nguoi/artwork/portal/rice-ring.png` |
+| Cold Rice family-dinner centre used by the site | `chapters/com-nguoi/artwork/portal/rice-scene-board-v2.png` |
+| Cold Rice floral lattice ring for the chapter map and reader | `chapters/com-nguoi/artwork/portal/rice-ring-board-v2.png` |
+| Cold Rice wide reading illustration | `chapters/com-nguoi/artwork/portal/rice-family-room-v2.webp` |
 | Fashion ring, upright centre and wide digital spread | `chapters/fashion/artwork/portal/fashion-ring-v2.png`, `fashion-scene-v2.png`, `fashion-room-v2.webp` |
 | Earlier Fashion Paris portal (inactive reference) | `chapters/fashion/artwork/portal/fashion-portal.png` |
 | Fashion final digital-book board (unchanged) | `references/design/Fashion Chapter Digital Book Board - final.png` |
@@ -45,7 +46,7 @@ The cover and Cold Rice scenes use zoom 1.00 with no offset in the SVG frame ren
 
 The main cover follows the board's physical-book layout: navy cloth, cream `.json` title, ring as the focal point, and a figure facing a dusk city. The board's papercut ring supplies the rotating frame. Every cover stop shares the same circular aperture: the cover, Introduction, Cold Rice, Quant, Expected Utility, Play to Win and Fashion use raster scenes, while the other chapters use scene-only SVG artwork from `renderPortalScene`. The selected picture changes while the frame rotates independently.
 
-Static composition previews of the active picture and cut ring include `docs/qa/introduction-concept-leaf-composition.png`, `docs/qa/introduction-concept-cover-stop-composition.png`, and `docs/qa/cold-rice-map-ring-preview.png`. Earlier cover and Introduction proofs remain under `docs/qa/`. These show the artwork fit and are not browser screenshots of the final page.
+Static composition previews of the active picture and cut ring include `docs/qa/introduction-concept-leaf-composition.png`, `docs/qa/introduction-concept-cover-stop-composition.png`, and `docs/qa/cold-rice-board-portal-composition.png`. The earlier `docs/qa/cold-rice-map-ring-preview.png` remains for comparison. These show the artwork fit and are not browser screenshots of the final page.
 
 Browser renders of the circular Introduction page at 1440px and a 500px narrow layout are saved as `docs/qa/introduction-page-desktop.png` and `docs/qa/introduction-page-500px.png`.
 
@@ -65,7 +66,7 @@ Open `http://localhost:4174/docs/PORTAL_STUDIO.html`. Choose a preset or a local
 
 `scripts/cut_play_to_win_board.py` cuts Play to Win's game-table ring, matching centre and wide table scene from the author's 1448 x 1086 concept board. The map and Chapter 03 leaf use the chapter ring, while the homepage retains the common cover ring and changes only its centre. The original-edition 06 on the board does not change the v2 chapter number. These screen crops are separate from print masters; the composition proof is `docs/qa/play-to-win-board-portal-composition.png`.
 
-The Cold Rice chapter ring is cut from the original supplied `chapters/com-nguoi/artwork/portal/rice-portal.png` by `scripts/cut_rice_ring.py`. Its transparent centre reveals the approved `rice-scene-v2.png` family meal; the source illustration is preserved unchanged. This 1000-pixel cut is for the digital chapter map and reader, not the print master. The homepage continues to use the constant book-cover ring at its Cold Rice stop.
+The active Cold Rice portal is cut from the unchanged author board `references/design/prologue - cold rice.png` by `scripts/cut_cold_rice_board.py`. The floral lattice ring surrounds its aligned family-dinner centre on the chapter map and reader. The same centre sits under the constant book-cover ring at the homepage Cold Rice stop. The earlier `rice-portal.png`, `rice-ring.png` and `rice-scene-v2.png` remain as digital alternates. These 1000-pixel cuts are for screen display, not print masters.
 
 The Introduction page now displays a single transparent circular composition made from its ring and aligned scene, without a rectangular artboard behind it. `scripts/cut_intro_concept_board.py` cuts both pieces from the author's latest 1672 × 941 board, exports the circular composition and focused cover-stop scene, and renders two composition proofs. The homepage's rotating book-cover ring remains constant at its Introduction stop. The supplied board is unchanged in `references/design/`, and the earlier Introduction ring and city scene remain available as alternates. These are digital front-matter illustrations, not print-resolution masters.
 

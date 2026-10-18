@@ -5,7 +5,7 @@ export const portalPictures = Object.freeze({
   cover:{src:'assets/cover-scene-landscape.png',alt:'Jason looks through the portal toward the original dusk city and bridge landscape.',zoom:1,x:0,y:0},
   introduction:{src:'assets/introduction-scene-v2.png',alt:'An open book, a lone reader and a dusk city beside a bridge glow inside the Introduction portal.',zoom:1,x:0,y:0},
   introductionCover:{src:'assets/introduction-cover-scene-v2.png',alt:'A reader looks through an open book toward a moonlit city and bridge.',zoom:1,x:0,y:0},
-  rice:{src:'assets/rice-scene-v2.png',alt:'A family shares a bowl of rice beneath a warm lamp in a paper-cut room.',zoom:1,x:0,y:0},
+  rice:{src:'assets/rice-scene-board-v2.png',alt:'A family gathers for dinner beneath a warm lamp, seen through the floral Cold Rice portal.',zoom:1,x:0,y:0},
   quant:{src:'assets/quant-scene.png',alt:'Jason studies a skyline and probability curve, contemplating his risk budget.',zoom:1,x:0,y:0},
   expectedUtility:{src:'assets/expected-utility-scene-v2.png',alt:'A laptop shows a woman’s eyes amid code, notes, coffee and branching decisions.',zoom:1,x:0,y:0},
   playToWin:{src:'assets/play-to-win-scene-v2.png',alt:'A warm lamp lights a game table with cards, poker chips, mahjong tiles and a payoff matrix.',zoom:1,x:0,y:0},

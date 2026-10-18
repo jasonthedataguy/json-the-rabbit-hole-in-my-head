@@ -448,6 +448,31 @@ h1, h2, h3 { font-family: var(--serif); font-weight: 400; line-height: 1.15; }
 .chapter-illustration:has(.fitted-portal){width:320px;height:320px;max-width:100%;aspect-ratio:1;background:transparent;box-shadow:none}
 @media(max-width:640px){.chapter-illustration:has(.fitted-portal){width:280px;height:auto}}
 
+/* Cold Rice prologue: floral lattice, a lamplit family table, and warm paper. */
+.rice-chapter-heading{text-align:center;margin:0 auto}
+.rice-chapter-heading .leaf-kicker{color:#8b806c}
+.rice-chapter-numeral{margin:20px 0 2px;color:#b87754;font:68px/.9 var(--serif)}
+.rice-chapter-heading h1{margin:0;color:#142d3a;font:clamp(46px,7vw,62px)/1.03 var(--serif);letter-spacing:-1.2px}
+.rice-chapter-subtitle{margin:12px 0 0;color:#9b725b;font:11px/1.5 var(--sans);letter-spacing:2px;text-transform:uppercase}
+.rice-chapter-heading .chapter-source-title{margin-top:17px}
+.rice-chapter-stage{display:grid;grid-template-columns:minmax(0,330px) minmax(0,1fr);gap:24px;align-items:center;margin:22px 0 28px}
+.rice-chapter-stage .chapter-illustration:has(.fitted-portal){width:100%;height:auto;margin:0;aspect-ratio:1}
+.rice-chapter-note{padding:20px 0 20px 25px;border-left:1px solid #b88460}
+.rice-chapter-note>span{color:#9b7d5e;font:10px/1.5 var(--sans);letter-spacing:1.7px}
+.rice-chapter-note p{margin:19px 0 25px;color:#203745;font:22px/1.45 var(--serif)}
+.rice-chapter-note button{display:inline-flex;gap:12px;align-items:center;padding:0 0 6px;border:0;border-bottom:1px solid #b98370;background:none;color:#955b44;font:11px/1.5 var(--sans);letter-spacing:.7px;cursor:pointer}
+.rice-chapter-note button:hover{color:#6c3d30}
+.rice-room-banner{margin:0 0 34px}
+.rice-room-banner img{display:block;width:100%;aspect-ratio:2.4/1;object-fit:cover;border:4px solid #d7c09e;box-shadow:0 12px 25px #39443c24}
+.rice-room-banner figcaption{margin-top:10px;color:#927e68;font:10px/1.5 var(--sans);letter-spacing:1.3px;text-transform:uppercase}
+#rice-chapter-text{scroll-margin-top:80px}
+#rice-chapter-text .chapter-prose{margin-top:42px}
+#rice-chapter-text .chapter-prose>p:first-of-type::first-letter{color:#aa6a50}
+#map-view[data-chapter="com-nguoi"] .map-number{color:#e9ac72}
+#map-view[data-chapter="com-nguoi"] .map-enter{border-color:#e9ac7288}
+#map-view[data-chapter="com-nguoi"] #map-summary{font-family:var(--body-serif)}
+@media(max-width:700px){.rice-chapter-stage{grid-template-columns:1fr;gap:9px}.rice-chapter-stage .chapter-illustration:has(.fitted-portal){width:min(310px,82%);margin:0 auto}.rice-chapter-note{margin:0 12px;padding:14px 0 14px 20px}.rice-chapter-note p{font-size:21px}.rice-room-banner{margin-top:17px}.rice-chapter-numeral{font-size:60px}.rice-chapter-heading h1{font-size:clamp(43px,11vw,56px)}}
+
 /* Fashion's chapter leaf uses the wardrobe portal and sunset room from its board. */
 .fashion-chapter-heading{text-align:center;margin:0 auto}
 .fashion-chapter-heading .leaf-kicker{color:#a28672}
