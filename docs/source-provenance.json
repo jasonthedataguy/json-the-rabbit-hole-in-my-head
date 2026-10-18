@@ -62,6 +62,17 @@
       "sourceUrl": "https://github.com/jasonthedataguy/json-under-revision/blob/b41b692b3e3633abea4997b6ac4513a91308f127/chapters/fashion/source/approved.md"
     },
     {
+      "slug": "flow",
+      "editorialId": "05",
+      "legacyId": null,
+      "originalTitle": "FLOW — The Secret of Wealth",
+      "sourcePath": "chapters/flow/source/approved.md",
+      "sha256": "157011474797f6a424c954f8dc45c2efe460d7a2dd6310df43af6743d5ba8e5f",
+      "bytes": 36836,
+      "archiveUrl": null,
+      "sourceUrl": null
+    },
+    {
       "slug": "for-mother-russia",
       "editorialId": "08",
       "legacyId": "05",

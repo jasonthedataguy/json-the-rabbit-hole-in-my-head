@@ -378,6 +378,30 @@
       "public_path": "assets/dating-102-spread-v2.webp",
       "sha256_at_intake": "391d08cd18e9aee6ac7845ad7b1043c77ef0db2acbe241bd18c420ebf5e6018f",
       "provenance": "Full rectangular night-room vignette from the supplied board, including both people and their shared notebook. Recipe scripts/cut_dating_102_board.py; screen use only."
+    },
+    {
+      "source": "chapters/flow/artwork/portal/flow-ring-v2.png",
+      "public_path": "assets/flow-ring-v2.png",
+      "sha256_at_intake": "defec2fccf6f41284deba2057aa544a3cfb61315b17c41fb47924dc0fc283395",
+      "provenance": "Rotating collage with Jason intact, cut from the author's unchanged Flow concept board by scripts/cut_flow_board.py; screen use only."
+    },
+    {
+      "source": "chapters/flow/artwork/portal/flow-scene-v2.png",
+      "public_path": "assets/flow-scene-v2.png",
+      "sha256_at_intake": "f4740db791d88e8ba2656dfd7daa17dc50d5aa6b76f9368ae9900a91440080f9",
+      "provenance": "Aligned river and reservoir centre from the Flow board, stationary beneath its rotating chapter ring; screen use only."
+    },
+    {
+      "source": "chapters/flow/artwork/portal/flow-cover-scene-v2.png",
+      "public_path": "assets/flow-cover-scene-v2.png",
+      "sha256_at_intake": "3a3e575aec3e590b9e1184c57bc7f7dd3c995bcda76ace81735f069c91cc0f45",
+      "provenance": "Winding river under the unchanged shared book-cover ring at Chapter 05; recipe scripts/cut_flow_board.py; screen use only."
+    },
+    {
+      "source": "chapters/flow/artwork/portal/flow-spread-v2.webp",
+      "public_path": "assets/flow-spread-v2.webp",
+      "sha256_at_intake": "c5007023b4f4a93954dd3c32466c26ac8964f253cb74b946648e2f408e240a22",
+      "provenance": "Full rectangular extracted-elements strip for the Flow reading page and desktop preview; recipe scripts/cut_flow_board.py; screen use only."
     }
   ]
 }

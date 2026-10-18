@@ -658,3 +658,32 @@ h1, h2, h3 { font-family: var(--serif); font-weight: 400; line-height: 1.15; }
 #map-view[data-chapter="dating-102"] .portal-rim-art{transform-origin:center;transition:transform .48s cubic-bezier(.2,.75,.25,1)}
 #map-view[data-chapter="dating-102"] .is-dragging .portal-rim-art,#map-view[data-chapter="dating-102"] .ring-instant .portal-rim-art{transition:none}
 @media(max-width:700px){.dating-102-chapter-stage{grid-template-columns:1fr;gap:9px}.dating-102-chapter-stage .chapter-illustration:has(.fitted-portal){width:min(310px,82%);margin:0 auto}.dating-102-chapter-note{margin:0 12px;padding:14px 0 14px 20px}.dating-102-chapter-note p{font-size:21px}.dating-102-spread-banner{margin-top:17px}.dating-102-chapter-numeral{font-size:60px}.dating-102-chapter-heading h1{font-size:clamp(42px,11vw,55px)}}
+
+/* Flow: a river of cash through reservoir and waterwheel paper-cut layers. */
+.flow-chapter-heading{text-align:center;margin:0 auto}
+.flow-chapter-numeral{margin:20px 0 3px;color:#bd8650;font:68px/.9 var(--serif)}
+.flow-chapter-heading h1{margin:0;color:#152e3a;font:clamp(48px,6vw,66px)/1.02 var(--serif);letter-spacing:-1px}
+.flow-chapter-subtitle{margin:10px 0 0;color:#9d7753;font:11px/1.6 var(--sans);letter-spacing:2px;text-transform:uppercase}
+.flow-chapter-part{margin:15px 0 0;color:#777d76;font:italic 17px/1.5 var(--body-serif)}
+.flow-chapter-stage{display:grid;grid-template-columns:minmax(0,330px) minmax(0,1fr);gap:24px;align-items:center;margin:23px 0 28px}
+.flow-chapter-stage .chapter-illustration:has(.fitted-portal){width:100%;height:auto;margin:0;aspect-ratio:1}
+.flow-chapter-stage .portal-page-marker,#map-view[data-chapter="flow"] #portal-marker{display:none}
+.flow-chapter-note{padding:20px 0 20px 25px;border-left:1px solid #b88a55}
+.flow-chapter-note>span{color:#957d69;font:10px/1.5 var(--sans);letter-spacing:1.7px}
+.flow-chapter-note p{margin:19px 0 25px;color:#203745;font:22px/1.45 var(--serif)}
+.flow-chapter-note button{display:inline-flex;gap:12px;align-items:center;padding:0 0 6px;border:0;border-bottom:1px solid #b88a55;background:none;color:#82613e;font:11px/1.5 var(--sans);letter-spacing:.7px;cursor:pointer}
+.flow-chapter-note button:hover{color:#553d24}
+.flow-spread-banner{margin:0 0 34px;text-align:center}
+.flow-spread-banner img{display:block;width:100%;height:auto;margin:auto;object-fit:contain}
+.flow-spread-banner figcaption{margin-top:10px;color:#927e68;font:10px/1.5 var(--sans);letter-spacing:1.3px;text-transform:uppercase}
+#flow-chapter-text{scroll-margin-top:80px}
+#flow-chapter-text .chapter-prose{margin-top:42px}
+#flow-chapter-text .chapter-prose>p:first-of-type{font:10px/1.6 var(--sans);letter-spacing:2px;text-transform:uppercase;color:#9a7d52;text-align:center;margin-bottom:34px}
+#flow-chapter-text .chapter-prose>p:first-of-type::first-letter{float:none;font:inherit;padding:0;color:inherit}
+#flow-chapter-text .chapter-prose>p:nth-of-type(2)::first-letter{float:left;font:2.8em/.88 var(--serif);padding:9px 8px 0 0;color:#aa8050}
+#map-view[data-chapter="flow"] .map-number{color:#e7b477}
+#map-view[data-chapter="flow"] .map-enter{border-color:#e7b47788}
+#map-view[data-chapter="flow"] #map-summary{font-family:var(--body-serif)}
+#map-view[data-chapter="flow"] .portal-rim-art{transform-origin:center;transition:transform .48s cubic-bezier(.2,.75,.25,1)}
+#map-view[data-chapter="flow"] .is-dragging .portal-rim-art,#map-view[data-chapter="flow"] .ring-instant .portal-rim-art{transition:none}
+@media(max-width:700px){.flow-chapter-stage{grid-template-columns:1fr;gap:9px}.flow-chapter-stage .chapter-illustration:has(.fitted-portal){width:min(310px,82%);margin:0 auto}.flow-chapter-note{margin:0 12px;padding:14px 0 14px 20px}.flow-chapter-note p{font-size:21px}.flow-spread-banner{margin-top:17px}.flow-chapter-numeral{font-size:60px}}

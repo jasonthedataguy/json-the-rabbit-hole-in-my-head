@@ -2,7 +2,7 @@ import { chapters, renderIcon, renderPortal, renderPortalScene } from './chapter
 import { introduction, parts, chapterNotes } from './book.js?v=13';
 import { renderChapterMarker, getChapterMarkerName } from './markers.js?v=13';
 import { PortalRing } from './ring.js?v=10';
-import { renderPortalPicture, renderPortalFrame, renderFramedPortal } from './portal-art.js?v=35';
+import { renderPortalPicture, renderPortalFrame, renderFramedPortal } from './portal-art.js?v=36';
 
 const $ = selector => document.querySelector(selector);
 const $$ = selector => [...document.querySelectorAll(selector)];
@@ -55,6 +55,7 @@ function artHTML(chapter){
   if(chapter.id==='02')return renderFramedPortal('expectedUtility','expected-utility-chapter','assets/expected-utility-ring-v2.png');
   if(chapter.id==='03')return renderFramedPortal('playToWin','play-to-win-chapter','assets/play-to-win-ring-v2.png');
   if(chapter.id==='04')return renderFramedPortal('fashion','fashion-chapter','assets/fashion-ring-v2.png');
+  if(chapter.id==='05')return renderFramedPortal('flow','flow-chapter','assets/flow-ring-v2.png');
   if(chapter.id==='08')return renderFramedPortal('motherRussia','mother-russia-chapter','assets/mother-russia-ring-v2.png');
   if(chapter.id==='17')return renderFramedPortal('threeMeeting','three-meeting-chapter','assets/three-meeting-ring-v2.png?v=4');
   if(chapter.id==='18')return renderFramedPortal('datingAlgorithm','dating-algorithm-chapter','assets/dating-algorithm-ring-v2.png');
@@ -98,9 +99,11 @@ function renderChapter(id){
     ?`<header class="play-chapter-heading"><p class="leaf-kicker">PART ${roman[part.id]} · CHAPTER ${id}</p><p class="play-chapter-numeral">${id}</p><h1 id="chapter-heading" tabindex="-1">${esc(chapter.title)}</h1><p class="play-chapter-subtitle">Game Theory / Decision / Relationship / Trade-off</p><p class="play-chapter-part">${esc(partLabel(part))}</p>${sourceTitle}</header><div class="play-chapter-stage">${chapterArtwork(chapter)}<div class="play-chapter-note"><span>A VISUAL INTRODUCTION</span><p>Different players.<br>Different incentives.<br>Same game.<br>Choose well.</p><button type="button" id="play-read">Read the chapter <span aria-hidden="true">↓</span></button></div></div><figure class="play-table-banner"><img src="assets/play-to-win-table-v2.webp" alt="Cards, poker chips and mahjong tiles on a lamplit game table."><figcaption>Different players. Different incentives.</figcaption></figure>`
     :id==='04'
     ?`<header class="fashion-chapter-heading"><p class="leaf-kicker">PART ${roman[part.id]} · CHAPTER ${id}</p><p class="fashion-chapter-numeral">${id}</p><h1 id="chapter-heading" tabindex="-1">${esc(chapter.shortTitle)}</h1><p class="fashion-chapter-subtitle">Be Your Own Label</p><p class="fashion-chapter-part">${esc(partLabel(part))}</p>${sourceTitle}</header><div class="fashion-chapter-stage">${chapterArtwork(chapter)}<div class="fashion-chapter-note"><span>A VISUAL INTRODUCTION</span><p>Street corners, shoeboxes, hand-me-downs, and new dreams.</p><button type="button" id="fashion-read">Read the chapter <span aria-hidden="true">↓</span></button></div></div><figure class="fashion-room-banner"><img src="assets/fashion-room-v2.webp" alt="A sunset-lit room filled with a sneaker, shoeboxes, hanging clothes, photographs and plants."><figcaption>Same objects. Different worlds.</figcaption></figure>`
+    :id==='05'
+    ?`<header class="flow-chapter-heading"><p class="leaf-kicker">PART ${roman[part.id]} · CHAPTER ${id}</p><p class="flow-chapter-numeral">${id}</p><h1 id="chapter-heading" tabindex="-1">FLOW</h1><p class="flow-chapter-subtitle">The Secret of Wealth</p><p class="flow-chapter-part">${esc(partLabel(part))}</p>${sourceTitle}</header><div class="flow-chapter-stage">${chapterArtwork(chapter)}<div class="flow-chapter-note"><span>A VISUAL INTRODUCTION</span><p>Money is like water.<br>Wealth is the reservoir.<br>Cash flow is the river.</p><button type="button" id="flow-read">Read the chapter <span aria-hidden="true">↓</span></button></div></div><figure class="flow-spread-banner"><img src="assets/flow-spread-v2.webp" width="1600" height="480" alt="Jason, coins, a reservoir, waterwheel, homes, a seedling and a bridge from the Flow illustration."><figcaption>Income / Assets / Consumption / Cash flow</figcaption></figure>`
     :`<header class="chapter-heading"><p class="leaf-kicker">${part?`PART ${roman[part.id]}`:'.JSON / JASON, UNDER REVISION'}</p><p class="chapter-numeral">${headingLabel}</p><h1 id="chapter-heading" class="chapter-title" tabindex="-1">${esc(chapter.title)}</h1>${part?`<p class="chapter-part-title">${esc(partLabel(part))}</p>`:''}${sourceTitle}</header>${chapterArtwork(chapter)}`;
   const quantSpread=id==='01'?`<figure class="quant-reading-spread"><img src="assets/quant-reading-spread-v2.webp" width="540" height="265" alt="Jason studies charts at his desk with a dog beside him and a note about minimizing loss."><figcaption>Same objective. Same potential. Different risk budget.</figcaption></figure>`:'';
-  $('#chapter-leaf').innerHTML=`${opening}${quantSpread}${id==='19'?`<div id="dating-102-chapter-text">${text}</div>`:id==='18'?`<div id="dating-chapter-text">${text}</div>`:id==='17'?`<div id="meeting-chapter-text">${text}</div>`:id==='08'?`<div id="russia-chapter-text">${text}</div>`:id==='00'?`<div id="rice-chapter-text">${text}</div>`:id==='02'?`<div id="utility-chapter-text">${text}</div>`:id==='03'?`<div id="play-chapter-text">${text}</div>`:id==='04'?`<div id="fashion-chapter-text">${text}</div>`:text}${chapterFooter(chapter)}`;
+  $('#chapter-leaf').innerHTML=`${opening}${quantSpread}${id==='19'?`<div id="dating-102-chapter-text">${text}</div>`:id==='18'?`<div id="dating-chapter-text">${text}</div>`:id==='17'?`<div id="meeting-chapter-text">${text}</div>`:id==='08'?`<div id="russia-chapter-text">${text}</div>`:id==='00'?`<div id="rice-chapter-text">${text}</div>`:id==='02'?`<div id="utility-chapter-text">${text}</div>`:id==='03'?`<div id="play-chapter-text">${text}</div>`:id==='04'?`<div id="fashion-chapter-text">${text}</div>`:id==='05'?`<div id="flow-chapter-text">${text}</div>`:text}${chapterFooter(chapter)}`;
   if(id==='19')$('#dating-102-read').addEventListener('click',()=>$('#dating-102-chapter-text').scrollIntoView({behavior:reducedMotion?'instant':'smooth'}));
   if(id==='18')$('#dating-read').addEventListener('click',()=>$('#dating-chapter-text').scrollIntoView({behavior:reducedMotion?'instant':'smooth'}));
   if(id==='17')$('#meeting-read').addEventListener('click',()=>$('#meeting-chapter-text').scrollIntoView({behavior:reducedMotion?'instant':'smooth'}));
@@ -109,6 +112,7 @@ function renderChapter(id){
   if(id==='02')$('#utility-read').addEventListener('click',()=>$('#utility-chapter-text').scrollIntoView({behavior:reducedMotion?'instant':'smooth'}));
   if(id==='03')$('#play-read').addEventListener('click',()=>$('#play-chapter-text').scrollIntoView({behavior:reducedMotion?'instant':'smooth'}));
   if(id==='04')$('#fashion-read').addEventListener('click',()=>$('#fashion-chapter-text').scrollIntoView({behavior:reducedMotion?'instant':'smooth'}));
+  if(id==='05')$('#flow-read').addEventListener('click',()=>$('#flow-chapter-text').scrollIntoView({behavior:reducedMotion?'instant':'smooth'}));
   selectedMapChapter=Number(id);
 }
 function renderArchive(){
@@ -167,9 +171,9 @@ function selectMapChapter(index,{fromRing=false}={}){
   selectedMapChapter=((index%chapters.length)+chapters.length)%chapters.length;
   const chapter=chapters[selectedMapChapter],part=partById(chapter.act);
   $('#map-view').dataset.chapter=chapter.slug;
-  const fittedRing={'00':'assets/rice-ring-board-v2.png','01':'assets/quant-ring.png','02':'assets/expected-utility-ring-v2.png','03':'assets/play-to-win-ring-v2.png','04':'assets/fashion-ring-v2.png','08':'assets/mother-russia-ring-v2.png','17':'assets/three-meeting-ring-v2.png?v=4','18':'assets/dating-algorithm-ring-v2.png','19':'assets/dating-102-ring-v2.png'}[chapter.id];
+  const fittedRing={'00':'assets/rice-ring-board-v2.png','01':'assets/quant-ring.png','02':'assets/expected-utility-ring-v2.png','03':'assets/play-to-win-ring-v2.png','04':'assets/fashion-ring-v2.png','05':'assets/flow-ring-v2.png','08':'assets/mother-russia-ring-v2.png','17':'assets/three-meeting-ring-v2.png?v=4','18':'assets/dating-algorithm-ring-v2.png','19':'assets/dating-102-ring-v2.png'}[chapter.id];
   const fitted=Boolean(fittedRing);
-  const pictureKey=chapter.id==='01'?'quant':chapter.id==='02'?'expectedUtility':chapter.id==='03'?'playToWin':chapter.id==='04'?'fashion':chapter.id==='08'?'motherRussia':chapter.id==='17'?'threeMeeting':chapter.id==='18'?'datingAlgorithm':chapter.id==='19'?'dating102':'rice';
+  const pictureKey=chapter.id==='01'?'quant':chapter.id==='02'?'expectedUtility':chapter.id==='03'?'playToWin':chapter.id==='04'?'fashion':chapter.id==='05'?'flow':chapter.id==='08'?'motherRussia':chapter.id==='17'?'threeMeeting':chapter.id==='18'?'datingAlgorithm':chapter.id==='19'?'dating102':'rice';
   $('#portal-art').classList.toggle('uses-fitted-picture',fitted);
   $('#portal-scene').innerHTML=fitted?renderPortalPicture(pictureKey):artHTML(chapter);
   $('#portal-rim-art').innerHTML=fitted?renderPortalFrame(`${pictureKey}-map`,fittedRing):artHTML(chapter);
@@ -246,6 +250,8 @@ function renderCoverReadingPage(page){
       ?`<div class="cover-reader-page play-reader-page"><p class="cover-reader-kicker">PART ${roman[part.id]} · CHAPTER ${chapter.id}</p><span class="play-reader-number">${chapter.id}</span><h2>${esc(chapter.title)}</h2><p class="play-reader-subtitle">Game Theory / Decision / Relationship / Trade-off</p><figure class="play-reader-scene"><img src="assets/play-to-win-table-v2.webp" alt="A warm lamp above cards, chips and mahjong tiles on a game table."><figcaption>Different players. Different incentives. Same game.</figcaption></figure>${body}</div>`
       :chapter.id==='04'
       ?`<div class="cover-reader-page fashion-reader-page"><p class="cover-reader-kicker">PART ${roman[part.id]} · CHAPTER ${chapter.id}</p><span class="fashion-reader-number">${chapter.id}</span><h2>${esc(chapter.shortTitle)}</h2><p class="fashion-reader-subtitle">Be Your Own Label</p><figure class="fashion-reader-scene"><img src="assets/fashion-room-v2.webp" alt="A sneaker and lived-in wardrobe in a room overlooking the city."><figcaption>Same objects. Different worlds.</figcaption></figure>${body}</div>`
+      :chapter.id==='05'
+      ?`<div class="cover-reader-page flow-reader-page"><p class="cover-reader-kicker">PART ${roman[part.id]} · CHAPTER ${chapter.id}</p><span class="flow-reader-number">${chapter.id}</span><h2>FLOW</h2><p class="flow-reader-subtitle">The Secret of Wealth</p><figure class="flow-reader-scene"><img src="assets/flow-spread-v2.webp" width="1600" height="480" alt="Jason, coins, reservoir, waterwheel, houses, trees and bridge from the Flow illustration."><figcaption>Money is like water. Cash flow is the river.</figcaption></figure>${body}</div>`
       :`<div class="cover-reader-page"><p class="cover-reader-kicker">${esc(numberLabel)}${part?` · PART ${roman[part.id]}`:''}</p><h2>${esc(chapter.title)}</h2>${part?`<p class="cover-reader-part">${esc(partLabel(part))}</p>`:''}${body}</div>`;
   }
   content.scrollTop=0;
@@ -263,7 +269,7 @@ function selectCoverPage(index,{fromRing=false}={}){
   const page=coverPages[selectedCoverPage];
   $('#cover-stage').dataset.page=page.kind;
   $('#cover-stage').dataset.pageIndex=String(selectedCoverPage);
-  $('#cover-scene').innerHTML=page.kind==='chapter'?(page.chapter.id==='00'?renderPortalPicture('rice'):page.chapter.id==='01'?renderPortalPicture('quant'):page.chapter.id==='02'?renderPortalPicture('expectedUtility'):page.chapter.id==='03'?renderPortalPicture('playToWin'):page.chapter.id==='04'?renderPortalPicture('fashion'):page.chapter.id==='08'?renderPortalPicture('motherRussiaCover'):page.chapter.id==='17'?renderPortalPicture('threeMeetingCover'):page.chapter.id==='18'?renderPortalPicture('datingAlgorithmCover'):page.chapter.id==='19'?renderPortalPicture('dating102Cover'):renderPortalScene(page.chapter)):page.kind==='cover'
+  $('#cover-scene').innerHTML=page.kind==='chapter'?(page.chapter.id==='00'?renderPortalPicture('rice'):page.chapter.id==='01'?renderPortalPicture('quant'):page.chapter.id==='02'?renderPortalPicture('expectedUtility'):page.chapter.id==='03'?renderPortalPicture('playToWin'):page.chapter.id==='04'?renderPortalPicture('fashion'):page.chapter.id==='05'?renderPortalPicture('flowCover'):page.chapter.id==='08'?renderPortalPicture('motherRussiaCover'):page.chapter.id==='17'?renderPortalPicture('threeMeetingCover'):page.chapter.id==='18'?renderPortalPicture('datingAlgorithmCover'):page.chapter.id==='19'?renderPortalPicture('dating102Cover'):renderPortalScene(page.chapter)):page.kind==='cover'
     ?renderPortalPicture('cover')
     :renderPortalPicture('introductionCover');
   $('#cover-marker').innerHTML=page.kind==='chapter'?renderChapterMarker(page.chapter,{compact:true}):`<span class="frontmatter-marker" aria-hidden="true">${page.kind==='cover'?'▯':'i'}</span>`;
