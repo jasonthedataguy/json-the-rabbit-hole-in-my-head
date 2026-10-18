@@ -3,14 +3,29 @@
   "release_stage": "supplied",
   "products": [
     {
-      "product": "Original Version B",
-      "state": "published verbatim; 53 essay paragraphs plus edition line",
+      "product": "Author-final digital manuscript",
+      "state": "selected for v2 Chapter 18; bracketed editorial data request omitted at the author's direction",
       "path": "source/approved.md"
     },
     {
+      "product": "Original Version B",
+      "state": "preserved original-edition manuscript; not the current v2 reading copy",
+      "path": "source/original.md"
+    },
+    {
       "product": "Responsive chapter and three model interactions",
-      "state": "ready; static complete prose, weights, matching and invitation controls",
+      "state": "author-final prose, board-derived portal and spread, plus weights, matching and invitation controls",
       "path": "web/index.html"
+    },
+    {
+      "product": "Chapter 18 digital portal",
+      "state": "board-derived screen crop; complete couple held in the stationary centre",
+      "path": "artwork/portal/dating-algorithm-portal-v2.png"
+    },
+    {
+      "product": "Chapter 18 rectangular reading illustration",
+      "state": "board-derived screen crop with a readable HTML caption",
+      "path": "artwork/portal/dating-algorithm-spread-v2.webp"
     },
     {
       "product": "Reference import",
@@ -24,7 +39,7 @@
     },
     {
       "product": "Homepage artwork provenance",
-      "state": "documented crop",
+      "state": "historical stage-art crop; new homepage scene documented by scripts/cut_dating_algorithm_board.py",
       "path": "artwork/scenes/index.json"
     },
     {

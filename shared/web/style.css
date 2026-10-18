@@ -604,3 +604,30 @@ h1, h2, h3 { font-family: var(--serif); font-weight: 400; line-height: 1.15; }
 #map-view[data-chapter="three-meeting-theory"] .portal-rim-art{transform-origin:center;transition:transform .48s cubic-bezier(.2,.75,.25,1)}
 #map-view[data-chapter="three-meeting-theory"] .is-dragging .portal-rim-art,#map-view[data-chapter="three-meeting-theory"] .ring-instant .portal-rim-art{transition:none}
 @media(max-width:700px){.meeting-chapter-stage{grid-template-columns:1fr;gap:9px}.meeting-chapter-stage .chapter-illustration:has(.fitted-portal){width:min(310px,82%);margin:0 auto}.meeting-chapter-note{margin:0 12px;padding:14px 0 14px 20px}.meeting-chapter-note p{font-size:21px}.meeting-spread-banner{margin-top:17px}.meeting-chapter-numeral{font-size:60px}.meeting-chapter-heading h1{font-size:clamp(42px,11vw,55px)}}
+
+/* Dating Algorithm: the date stays still while the surrounding model turns. */
+.dating-chapter-heading{text-align:center;margin:0 auto}
+.dating-chapter-heading .leaf-kicker{color:#827f78}
+.dating-chapter-numeral{margin:20px 0 3px;color:#c87975;font:68px/.9 var(--serif)}
+.dating-chapter-heading h1{margin:0;color:#152c3a;font:clamp(43px,5.5vw,60px)/1.06 var(--serif);letter-spacing:-1px;text-wrap:balance}
+.dating-chapter-subtitle{margin:13px 0 0;color:#9e6c69;font:11px/1.6 var(--sans);letter-spacing:1.8px;text-transform:uppercase}
+.dating-chapter-part{margin:15px 0 0;color:#777d76;font:italic 17px/1.5 var(--body-serif)}
+.dating-chapter-stage{display:grid;grid-template-columns:minmax(0,330px) minmax(0,1fr);gap:24px;align-items:center;margin:23px 0 28px}
+.dating-chapter-stage .chapter-illustration:has(.fitted-portal){width:100%;height:auto;margin:0;aspect-ratio:1}
+.dating-chapter-note{padding:20px 0 20px 25px;border-left:1px solid #ca8278}
+.dating-chapter-note>span{color:#957d69;font:10px/1.5 var(--sans);letter-spacing:1.7px}
+.dating-chapter-note p{margin:19px 0 25px;color:#203745;font:22px/1.45 var(--serif)}
+.dating-chapter-note button{display:inline-flex;gap:12px;align-items:center;padding:0 0 6px;border:0;border-bottom:1px solid #ca8278;background:none;color:#9d5d58;font:11px/1.5 var(--sans);letter-spacing:.7px;cursor:pointer}
+.dating-chapter-note button:hover{color:#6c3d3a}
+.dating-spread-banner{margin:0 0 34px;text-align:center}
+.dating-spread-banner img{display:block;width:100%;height:auto;margin:auto;object-fit:contain}
+.dating-spread-banner figcaption{margin-top:10px;color:#927e68;font:10px/1.5 var(--sans);letter-spacing:1.3px;text-transform:uppercase}
+#dating-chapter-text{scroll-margin-top:80px}
+#dating-chapter-text .chapter-prose{margin-top:42px}
+#dating-chapter-text .chapter-prose>p:first-of-type::first-letter{color:#c87975}
+#map-view[data-chapter="dating-algorithm"] .map-number{color:#e6a39b}
+#map-view[data-chapter="dating-algorithm"] .map-enter{border-color:#e6a39b88}
+#map-view[data-chapter="dating-algorithm"] #map-summary{font-family:var(--body-serif)}
+#map-view[data-chapter="dating-algorithm"] .portal-rim-art{transform-origin:center;transition:transform .48s cubic-bezier(.2,.75,.25,1)}
+#map-view[data-chapter="dating-algorithm"] .is-dragging .portal-rim-art,#map-view[data-chapter="dating-algorithm"] .ring-instant .portal-rim-art{transition:none}
+@media(max-width:700px){.dating-chapter-stage{grid-template-columns:1fr;gap:9px}.dating-chapter-stage .chapter-illustration:has(.fitted-portal){width:min(310px,82%);margin:0 auto}.dating-chapter-note{margin:0 12px;padding:14px 0 14px 20px}.dating-chapter-note p{font-size:21px}.dating-spread-banner{margin-top:17px}.dating-chapter-numeral{font-size:60px}.dating-chapter-heading h1{font-size:clamp(42px,11vw,55px)}}

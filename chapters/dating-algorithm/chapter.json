@@ -10,16 +10,17 @@
   "release_stage": "reader-with-original-products",
   "canonical_text": "source/approved.md",
   "canonical_path": "#chapter/18",
-  "summary": "Jason lên sân khấu tưởng tượng của một buổi TED Talk, định lượng sự hấp dẫn, incentive và luật chơi của dating.",
+  "summary": "Jason biến dating thành một bài toán về matching, signals và strategy, rồi nhận ra mô hình ấy không đo được điều anh thực sự muốn trong một mối quan hệ.",
   "portal": {
-    "scene": "An imagined talk stage holds an empty audience and a confident presenter framed by hypothetical dating cards.",
+    "scene": "Two people share a lamplit date before a moonlit city while profile cards, hearts, charts and clocks surround their table.",
     "objects": [
-      "microphone",
-      "graph",
-      "fictional dating-card frames"
+      "date table",
+      "profile cards",
+      "compatibility graph",
+      "city at night"
     ],
-    "iconKey": "microphone",
-    "motif": "The imagined stage"
+    "iconKey": "dialogue",
+    "motif": "The date table and the model"
   },
   "original_edition": {
     "number": "08",
@@ -29,7 +30,7 @@
     "metadata": "references/original-edition/chapter.json",
     "archive_url": "https://jasonthedataguy.github.io/json-under-revision/chapters/08/"
   },
-  "production_status": "author-final manuscript selected; inherited print and media remain original-edition proofs",
+  "production_status": "author-final reader and board-derived digital portal; inherited print and media remain original-edition proofs",
   "manuscript_sha256": "304dad35f472e6ab17729d6867f8f8db958c75ed9d50ff5170ccad7d75f0f23e",
   "outline_title": "Dating Algorithm"
 }

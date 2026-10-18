@@ -22,9 +22,34 @@
       "sha256": "a35115b38d5d1570fa49b88a95d99d3ee8518c26941473ae27abe4dfa0fcfe29"
     },
     {
+      "path": "artwork/portal/dating-algorithm-cover-scene-v2.png",
+      "bytes": 1180360,
+      "sha256": "caa0efa2bf021f42094248351c48fc0cf834751cef08b970d642cfd2f74b9fb1"
+    },
+    {
+      "path": "artwork/portal/dating-algorithm-portal-v2.png",
+      "bytes": 1368390,
+      "sha256": "60fcfdddd00204de11f15fac8cadac4b0e14c2f4e4a1813bc52a5c58474b7f35"
+    },
+    {
+      "path": "artwork/portal/dating-algorithm-ring-v2.png",
+      "bytes": 1534696,
+      "sha256": "5b0427cc915bc523e2436eb9a44d470a4d8181bb2c0d550695e4b5df05e5f582"
+    },
+    {
+      "path": "artwork/portal/dating-algorithm-scene-v2.png",
+      "bytes": 1229469,
+      "sha256": "482d681cacb177f47c113ee982a6c448e81f0c526da1ff86d306bebfe2c92ba4"
+    },
+    {
+      "path": "artwork/portal/dating-algorithm-spread-v2.webp",
+      "bytes": 61316,
+      "sha256": "1b28a2c29dc4306717c8d84968edd24bc6dc8f92111fc8ead31204cc53abc99e"
+    },
+    {
       "path": "artwork/scenes/index.json",
-      "bytes": 461,
-      "sha256": "2c14b0f75bdbc1f7b0e0c156c532dda0168599199ab6eb7fa46fff5bcd25be59"
+      "bytes": 993,
+      "sha256": "d7f7cbdd2ee30e9232cf100f55db2fe9891df8d76d94a2e377bdaf10573fb66e"
     },
     {
       "path": "artwork/source/00_CHAPTER_04_COVER.jpg",
@@ -133,8 +158,8 @@
     },
     {
       "path": "chapter.json",
-      "bytes": 1429,
-      "sha256": "da4b28c03eefa0cabb904623b6e7a02b93b5015b4509afa49f0bf4be88f7b221"
+      "bytes": 1539,
+      "sha256": "d2fea41beca4e6c2b8a7f0a4f79cfcb8758e7ac26f5b2d56652bcc0838c06e67"
     },
     {
       "path": "docs/BROWSER_QA.json",
@@ -173,8 +198,8 @@
     },
     {
       "path": "docs/PRODUCTS.json",
-      "bytes": 4395,
-      "sha256": "d6fb80a721a5061b52c50fc4df7ba41985747e3eadfe54ab435c6f36bfd7bc8f"
+      "bytes": 5171,
+      "sha256": "a43859c26e68c74ae024823cbb3cacaaedd805e2d676f7a1efa53ccec9ef22d9"
     },
     {
       "path": "docs/REFERENCE_IMPORT.json",
@@ -263,8 +288,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 1029,
-      "sha256": "6577dd3fcc7efc14eda7c5fc6a310151844fcb9592583b6624c7eb726546eab1"
+      "bytes": 1678,
+      "sha256": "7176c1a604b0c1555b0542edbc9d680a7be28dc115c5bf4a7716fb485af6a1d4"
     },
     {
       "path": "references/dating-v01/art/00_CHAPTER_04_COVER.jpg",
@@ -867,14 +892,29 @@
       "sha256": "30b03d390e552dcbc4485a8b6329801bf36d7dd393ec0b856bdd9cc984ed6646"
     },
     {
+      "path": "web/assets/dating-algorithm-portal-v2.png",
+      "bytes": 1368390,
+      "sha256": "60fcfdddd00204de11f15fac8cadac4b0e14c2f4e4a1813bc52a5c58474b7f35"
+    },
+    {
+      "path": "web/assets/dating-algorithm-spread-v2.webp",
+      "bytes": 61316,
+      "sha256": "1b28a2c29dc4306717c8d84968edd24bc6dc8f92111fc8ead31204cc53abc99e"
+    },
+    {
       "path": "web/assets/reader-hero.jpg",
       "bytes": 210507,
       "sha256": "f3600c1ba29445036f4db5e4130fdeb8ee3bdff0c0758e157b6493986dc0d619"
     },
     {
+      "path": "web/dating-algorithm-v2.css",
+      "bytes": 1432,
+      "sha256": "ea95f5607459887bceaa6eb009db080576bd22ca4fd5d5c6ff7813d3e93c53c5"
+    },
+    {
       "path": "web/index.html",
-      "bytes": 67562,
-      "sha256": "834b6fa930af0a33be670623346d4779f52159b04202a339d40c4c425320b9ba"
+      "bytes": 68106,
+      "sha256": "63df21148d5c52c73288552779dc868f5a72eda10c408d5795a6a08e854c8503"
     },
     {
       "path": "web/template.html",

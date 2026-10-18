@@ -330,6 +330,30 @@
       "public_path": "assets/three-meeting-spread-v2.webp",
       "sha256_at_intake": "73be9ccef0b7b11ed05fbccac7c1341f7af5717e478eaaf0775d75d8ad76758d",
       "provenance": "Full rectangular reading panorama of the couple, cafe, bridge and skyline from the unchanged concept board. Recipe scripts/cut_three_meeting_board.py. Screen use only."
+    },
+    {
+      "source": "chapters/dating-algorithm/artwork/portal/dating-algorithm-ring-v2.png",
+      "public_path": "assets/dating-algorithm-ring-v2.png",
+      "sha256_at_intake": "5b0427cc915bc523e2436eb9a44d470a4d8181bb2c0d550695e4b5df05e5f582",
+      "provenance": "Transparent rotating collage cut from the author-supplied Dating Algorithm concept board. Recipe scripts/cut_dating_algorithm_board.py; screen use only."
+    },
+    {
+      "source": "chapters/dating-algorithm/artwork/portal/dating-algorithm-scene-v2.png",
+      "public_path": "assets/dating-algorithm-scene-v2.png",
+      "sha256_at_intake": "482d681cacb177f47c113ee982a6c448e81f0c526da1ff86d306bebfe2c92ba4",
+      "provenance": "Aligned stationary date-table scene from the same board; both people remain whole in the portal centre. Recipe scripts/cut_dating_algorithm_board.py; screen use only."
+    },
+    {
+      "source": "chapters/dating-algorithm/artwork/portal/dating-algorithm-cover-scene-v2.png",
+      "public_path": "assets/dating-algorithm-cover-scene-v2.png",
+      "sha256_at_intake": "caa0efa2bf021f42094248351c48fc0cf834751cef08b970d642cfd2f74b9fb1",
+      "provenance": "Complete date-table couple under the unchanged homepage book ring at Chapter 18. Recipe scripts/cut_dating_algorithm_board.py; screen use only."
+    },
+    {
+      "source": "chapters/dating-algorithm/artwork/portal/dating-algorithm-spread-v2.webp",
+      "public_path": "assets/dating-algorithm-spread-v2.webp",
+      "sha256_at_intake": "1b28a2c29dc4306717c8d84968edd24bc6dc8f92111fc8ead31204cc53abc99e",
+      "provenance": "Complete date/profile/compatibility object strip from the author's board, with baked labels removed for a readable HTML caption. Recipe scripts/cut_dating_algorithm_board.py; screen use only."
     }
   ]
 }

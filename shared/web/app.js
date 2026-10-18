@@ -1,8 +1,8 @@
-import { chapters, renderIcon, renderPortal, renderPortalScene } from './chapters.js?v=15';
+import { chapters, renderIcon, renderPortal, renderPortalScene } from './chapters.js?v=16';
 import { introduction, parts, chapterNotes } from './book.js?v=13';
-import { renderChapterMarker, getChapterMarkerName } from './markers.js?v=11';
+import { renderChapterMarker, getChapterMarkerName } from './markers.js?v=12';
 import { PortalRing } from './ring.js?v=10';
-import { renderPortalPicture, renderPortalFrame, renderFramedPortal } from './portal-art.js?v=32';
+import { renderPortalPicture, renderPortalFrame, renderFramedPortal } from './portal-art.js?v=33';
 
 const $ = selector => document.querySelector(selector);
 const $$ = selector => [...document.querySelectorAll(selector)];
@@ -57,6 +57,7 @@ function artHTML(chapter){
   if(chapter.id==='04')return renderFramedPortal('fashion','fashion-chapter','assets/fashion-ring-v2.png');
   if(chapter.id==='08')return renderFramedPortal('motherRussia','mother-russia-chapter','assets/mother-russia-ring-v2.png');
   if(chapter.id==='17')return renderFramedPortal('threeMeeting','three-meeting-chapter','assets/three-meeting-ring-v2.png');
+  if(chapter.id==='18')return renderFramedPortal('datingAlgorithm','dating-algorithm-chapter','assets/dating-algorithm-ring-v2.png');
   return renderPortal(chapter);
 }
 function chapterArtwork(chapter){return `<figure class="chapter-illustration" aria-label="Chapter portal ${chapter.id}: ${esc(chapter.title)}"><div class="portal-scene">${artHTML(chapter)}</div><div class="portal-page-marker">${renderChapterMarker(chapter,{compact:true})}</div></figure>`;}
@@ -80,7 +81,9 @@ function renderChapter(id){
   const headingLabel=id==='00'?'PROLOGUE':chapter.slug==='loi-xin-loi'?'EPILOGUE':`CHAPTER ${id}`;
   const sourceTitle=manuscript && manuscript.originalTitle.toLowerCase().replaceAll('_',' ')!==chapter.title.toLowerCase()?`<p class="chapter-source-title">Original title: ${esc(manuscript.originalTitle)}</p>`:'';
   const text=manuscript?`<div class="chapter-prose prose" lang="vi" data-chapter="${id}" data-reading-kind="full">${manuscript.bodyHtml || manuscript.html}</div>${sourceNotes(manuscript)}`:`<div class="outline-notice"><span>OUTLINE</span><p>The full text is not yet available in this edition.</p></div><div class="outline-prose prose" lang="vi" data-reading-kind="outline"><p>${esc(chapterNotes[id].summary)}</p></div><p class="outline-source">From the manuscript outline.</p>`;
-  const opening=id==='17'
+  const opening=id==='18'
+    ?`<header class="dating-chapter-heading"><p class="leaf-kicker">PART ${roman[part.id]} / CHAPTER ${id}</p><p class="dating-chapter-numeral">${id}</p><h1 id="chapter-heading" tabindex="-1">${esc(chapter.title)}</h1><p class="dating-chapter-subtitle">Matching / Signaling / Compatibility / Strategy</p><p class="dating-chapter-part">${esc(partLabel(part))}</p>${sourceTitle}</header><div class="dating-chapter-stage">${chapterArtwork(chapter)}<div class="dating-chapter-note"><span>A VISUAL INTRODUCTION</span><p>Some matches are math.<br>Some are timing.<br>The rare ones are both.</p><button type="button" id="dating-read">Read the chapter <span aria-hidden="true">↓</span></button></div></div><figure class="dating-spread-banner"><img src="assets/dating-algorithm-spread-v2.webp" width="1600" height="600" alt="A date table, profile card, chat, compatibility graph, coffee, invitation and moonlit city from the chapter artwork."><figcaption>Matching / Signaling / Compatibility / Strategy</figcaption></figure>`
+    :id==='17'
     ?`<header class="meeting-chapter-heading"><p class="leaf-kicker">PART ${roman[part.id]} / CHAPTER ${id}</p><p class="meeting-chapter-numeral">${id}</p><h1 id="chapter-heading" tabindex="-1">${esc(chapter.title)}</h1><p class="meeting-chapter-subtitle">Destiny / Timing / Reunion / Romance</p><p class="meeting-chapter-part">${esc(partLabel(part))}</p>${sourceTitle}</header><div class="meeting-chapter-stage">${chapterArtwork(chapter)}<div class="meeting-chapter-note"><span>A VISUAL INTRODUCTION</span><p>Some people return like destiny.</p><button type="button" id="meeting-read">Read the chapter <span aria-hidden="true">↓</span></button></div></div><figure class="meeting-spread-banner"><img src="assets/three-meeting-spread-v2.webp" width="1600" height="600" alt="Two people meet near a flower-lined cafe, with a bridge and city skyline beyond."><figcaption>A crowd / A glance / Another time</figcaption></figure>`
     :id==='08'
     ?`<header class="russia-chapter-heading"><p class="leaf-kicker">PART ${roman[part.id]} · CHAPTER ${id}</p><p class="russia-chapter-numeral">${id}</p><h1 id="chapter-heading" tabindex="-1">${esc(chapter.title)}</h1><p class="russia-chapter-subtitle">Memory / Nostalgia / War / Dream</p><p class="russia-chapter-part">${esc(partLabel(part))}</p>${sourceTitle}</header><div class="russia-chapter-stage">${chapterArtwork(chapter)}<div class="russia-chapter-note"><span>A VISUAL INTRODUCTION</span><p>Some homelands are inherited through stories.</p><button type="button" id="russia-read">Read the chapter <span aria-hidden="true">↓</span></button></div></div><figure class="russia-cabin-banner"><img src="assets/mother-russia-cabin-v2.webp" width="240" height="150" alt="A wooden cabin glows beside the water amid snowy pines beneath a winter moon."><figcaption>Memory / Nostalgia / War / Dream</figcaption></figure>`
@@ -94,7 +97,8 @@ function renderChapter(id){
     ?`<header class="fashion-chapter-heading"><p class="leaf-kicker">PART ${roman[part.id]} · CHAPTER ${id}</p><p class="fashion-chapter-numeral">${id}</p><h1 id="chapter-heading" tabindex="-1">${esc(chapter.shortTitle)}</h1><p class="fashion-chapter-subtitle">Be Your Own Label</p><p class="fashion-chapter-part">${esc(partLabel(part))}</p>${sourceTitle}</header><div class="fashion-chapter-stage">${chapterArtwork(chapter)}<div class="fashion-chapter-note"><span>A VISUAL INTRODUCTION</span><p>Street corners, shoeboxes, hand-me-downs, and new dreams.</p><button type="button" id="fashion-read">Read the chapter <span aria-hidden="true">↓</span></button></div></div><figure class="fashion-room-banner"><img src="assets/fashion-room-v2.webp" alt="A sunset-lit room filled with a sneaker, shoeboxes, hanging clothes, photographs and plants."><figcaption>Same objects. Different worlds.</figcaption></figure>`
     :`<header class="chapter-heading"><p class="leaf-kicker">${part?`PART ${roman[part.id]}`:'.JSON / JASON, UNDER REVISION'}</p><p class="chapter-numeral">${headingLabel}</p><h1 id="chapter-heading" class="chapter-title" tabindex="-1">${esc(chapter.title)}</h1>${part?`<p class="chapter-part-title">${esc(partLabel(part))}</p>`:''}${sourceTitle}</header>${chapterArtwork(chapter)}`;
   const quantSpread=id==='01'?`<figure class="quant-reading-spread"><img src="assets/quant-reading-spread-v2.webp" width="540" height="265" alt="Jason studies charts at his desk with a dog beside him and a note about minimizing loss."><figcaption>Same objective. Same potential. Different risk budget.</figcaption></figure>`:'';
-  $('#chapter-leaf').innerHTML=`${opening}${quantSpread}${id==='17'?`<div id="meeting-chapter-text">${text}</div>`:id==='08'?`<div id="russia-chapter-text">${text}</div>`:id==='00'?`<div id="rice-chapter-text">${text}</div>`:id==='02'?`<div id="utility-chapter-text">${text}</div>`:id==='03'?`<div id="play-chapter-text">${text}</div>`:id==='04'?`<div id="fashion-chapter-text">${text}</div>`:text}${chapterFooter(chapter)}`;
+  $('#chapter-leaf').innerHTML=`${opening}${quantSpread}${id==='18'?`<div id="dating-chapter-text">${text}</div>`:id==='17'?`<div id="meeting-chapter-text">${text}</div>`:id==='08'?`<div id="russia-chapter-text">${text}</div>`:id==='00'?`<div id="rice-chapter-text">${text}</div>`:id==='02'?`<div id="utility-chapter-text">${text}</div>`:id==='03'?`<div id="play-chapter-text">${text}</div>`:id==='04'?`<div id="fashion-chapter-text">${text}</div>`:text}${chapterFooter(chapter)}`;
+  if(id==='18')$('#dating-read').addEventListener('click',()=>$('#dating-chapter-text').scrollIntoView({behavior:reducedMotion?'instant':'smooth'}));
   if(id==='17')$('#meeting-read').addEventListener('click',()=>$('#meeting-chapter-text').scrollIntoView({behavior:reducedMotion?'instant':'smooth'}));
   if(id==='08')$('#russia-read').addEventListener('click',()=>$('#russia-chapter-text').scrollIntoView({behavior:reducedMotion?'instant':'smooth'}));
   if(id==='00')$('#rice-read').addEventListener('click',()=>$('#rice-chapter-text').scrollIntoView({behavior:reducedMotion?'instant':'smooth'}));
@@ -159,9 +163,9 @@ function selectMapChapter(index,{fromRing=false}={}){
   selectedMapChapter=((index%chapters.length)+chapters.length)%chapters.length;
   const chapter=chapters[selectedMapChapter],part=partById(chapter.act);
   $('#map-view').dataset.chapter=chapter.slug;
-  const fittedRing={'00':'assets/rice-ring-board-v2.png','01':'assets/quant-ring.png','02':'assets/expected-utility-ring-v2.png','03':'assets/play-to-win-ring-v2.png','04':'assets/fashion-ring-v2.png','08':'assets/mother-russia-ring-v2.png','17':'assets/three-meeting-ring-v2.png'}[chapter.id];
+  const fittedRing={'00':'assets/rice-ring-board-v2.png','01':'assets/quant-ring.png','02':'assets/expected-utility-ring-v2.png','03':'assets/play-to-win-ring-v2.png','04':'assets/fashion-ring-v2.png','08':'assets/mother-russia-ring-v2.png','17':'assets/three-meeting-ring-v2.png','18':'assets/dating-algorithm-ring-v2.png'}[chapter.id];
   const fitted=Boolean(fittedRing);
-  const pictureKey=chapter.id==='01'?'quant':chapter.id==='02'?'expectedUtility':chapter.id==='03'?'playToWin':chapter.id==='04'?'fashion':chapter.id==='08'?'motherRussia':chapter.id==='17'?'threeMeeting':'rice';
+  const pictureKey=chapter.id==='01'?'quant':chapter.id==='02'?'expectedUtility':chapter.id==='03'?'playToWin':chapter.id==='04'?'fashion':chapter.id==='08'?'motherRussia':chapter.id==='17'?'threeMeeting':chapter.id==='18'?'datingAlgorithm':'rice';
   $('#portal-art').classList.toggle('uses-fitted-picture',fitted);
   $('#portal-scene').innerHTML=fitted?renderPortalPicture(pictureKey):artHTML(chapter);
   $('#portal-rim-art').innerHTML=fitted?renderPortalFrame(`${pictureKey}-map`,fittedRing):artHTML(chapter);
@@ -180,10 +184,10 @@ function selectMapChapter(index,{fromRing=false}={}){
   positionOrbit();
 }
 function orientMapArtwork(rotation,dragging){
-  // The figures turn together while dragging, then the authored Chapter 17
-  // composition faces upright again at the selected stop.
+  // These supplied collages turn while dragging, then face upright at their
+  // selected stops so the centre artwork joins the paper layers again.
   const base=dragging?(ring?.drag?.startRotation ?? rotation):rotation;
-  $('#portal-rim-art').style.transform=chapters[selectedMapChapter].id==='17'?`rotate(${-base}deg)`:'';
+  $('#portal-rim-art').style.transform=['17','18'].includes(chapters[selectedMapChapter].id)?`rotate(${-base}deg)`:'';
 }
 $('#orbit-marks').innerHTML=chapters.map((chapter,index)=>`<button class="orbit-mark" data-map-chapter="${index}" aria-label="${chapter.id}. ${esc(chapter.title)}" title="${chapter.id} · ${esc(chapter.title)}"><span>${chapter.id}</span></button>`).join('');
 $('#map-parts').innerHTML=parts.map(part=>`<button class="map-part-button" data-map-part="${part.id}"><span>${roman[part.id]}</span><small>${esc(partLabel(part))}</small></button>`).join('');
@@ -220,7 +224,9 @@ function renderCoverReadingPage(page){
     const chapter=page.chapter,part=partById(chapter.act),manuscript=publishedById.get(chapter.id);
     const numberLabel=chapter.id==='00'?'PROLOGUE':chapter.slug==='loi-xin-loi'?'EPILOGUE':`CHAPTER ${chapter.id}`;
     const body=manuscript?`<div class="cover-reader-prose prose" lang="vi">${manuscript.bodyHtml || manuscript.html}</div>${sourceNotes(manuscript)}`:`<div class="cover-reader-outline"><span>OUTLINE</span><p>${esc(chapterNotes[chapter.id].summary)}</p><small>The full manuscript is not yet available in this edition.</small></div>`;
-    content.innerHTML=chapter.id==='17'
+    content.innerHTML=chapter.id==='18'
+      ?`<div class="cover-reader-page dating-reader-page"><p class="cover-reader-kicker">PART ${roman[part.id]} / CHAPTER ${chapter.id}</p><span class="dating-reader-number">${chapter.id}</span><h2>${esc(chapter.title)}</h2><p class="dating-reader-subtitle">Matching / Signaling / Compatibility / Strategy</p><figure class="dating-reader-scene"><img src="assets/dating-algorithm-spread-v2.webp" width="1600" height="600" alt="A date table, profile, messages, a compatibility graph and a moonlit city."><figcaption>Some matches are math. Some are timing.</figcaption></figure>${body}</div>`
+      :chapter.id==='17'
       ?`<div class="cover-reader-page meeting-reader-page"><p class="cover-reader-kicker">PART ${roman[part.id]} / CHAPTER ${chapter.id}</p><span class="meeting-reader-number">${chapter.id}</span><h2>${esc(chapter.title)}</h2><p class="meeting-reader-subtitle">Destiny / Timing / Reunion / Romance</p><figure class="meeting-reader-scene"><img src="assets/three-meeting-spread-v2.webp" width="1600" height="600" alt="Two people meet near a flower-lined cafe, with a bridge and city skyline beyond."><figcaption>Some people return like destiny.</figcaption></figure>${body}</div>`
       :chapter.id==='08'
       ?`<div class="cover-reader-page russia-reader-page"><p class="cover-reader-kicker">PART ${roman[part.id]} · CHAPTER ${chapter.id}</p><span class="russia-reader-number">${chapter.id}</span><h2>${esc(chapter.title)}</h2><p class="russia-reader-subtitle">Memory / Nostalgia / War / Dream</p><figure class="russia-reader-scene"><img src="assets/mother-russia-cabin-v2.webp" width="240" height="150" alt="A wooden cabin glows beside the water amid snowy pines beneath a winter moon."><figcaption>Some homelands are inherited through stories.</figcaption></figure>${body}</div>`
@@ -251,7 +257,7 @@ function selectCoverPage(index,{fromRing=false}={}){
   const page=coverPages[selectedCoverPage];
   $('#cover-stage').dataset.page=page.kind;
   $('#cover-stage').dataset.pageIndex=String(selectedCoverPage);
-  $('#cover-scene').innerHTML=page.kind==='chapter'?(page.chapter.id==='00'?renderPortalPicture('rice'):page.chapter.id==='01'?renderPortalPicture('quant'):page.chapter.id==='02'?renderPortalPicture('expectedUtility'):page.chapter.id==='03'?renderPortalPicture('playToWin'):page.chapter.id==='04'?renderPortalPicture('fashion'):page.chapter.id==='08'?renderPortalPicture('motherRussiaCover'):page.chapter.id==='17'?renderPortalPicture('threeMeetingCover'):renderPortalScene(page.chapter)):page.kind==='cover'
+  $('#cover-scene').innerHTML=page.kind==='chapter'?(page.chapter.id==='00'?renderPortalPicture('rice'):page.chapter.id==='01'?renderPortalPicture('quant'):page.chapter.id==='02'?renderPortalPicture('expectedUtility'):page.chapter.id==='03'?renderPortalPicture('playToWin'):page.chapter.id==='04'?renderPortalPicture('fashion'):page.chapter.id==='08'?renderPortalPicture('motherRussiaCover'):page.chapter.id==='17'?renderPortalPicture('threeMeetingCover'):page.chapter.id==='18'?renderPortalPicture('datingAlgorithmCover'):renderPortalScene(page.chapter)):page.kind==='cover'
     ?renderPortalPicture('cover')
     :renderPortalPicture('introductionCover');
   $('#cover-marker').innerHTML=page.kind==='chapter'?renderChapterMarker(page.chapter,{compact:true}):`<span class="frontmatter-marker" aria-hidden="true">${page.kind==='cover'?'▯':'i'}</span>`;
