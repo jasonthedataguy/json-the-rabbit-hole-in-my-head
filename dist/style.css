@@ -192,7 +192,7 @@ h1, h2, h3 { font-family: var(--serif); font-weight: 400; line-height: 1.15; }
 .map-view .leaf-kicker { color: #b2a17f; }
 .map-heading { max-width: 1030px; margin: 0 auto 24px; }
 .map-heading h1 { font-size: 44px; margin-top: 11px; letter-spacing: -.5px; }
-.map-heading > p:last-child { font: 20px/1.5 var(--serif); color: #a8b0a2; margin-top: 11px; }
+.map-heading > p:not(.leaf-kicker) { font: 20px/1.5 var(--serif); color: #a8b0a2; margin-top: 11px; }
 .map-layout { display: grid; grid-template-columns: minmax(350px, 1.4fr) minmax(230px, .8fr); gap: 37px; align-items: center; max-width: 1030px; margin: 0 auto; }
 .portal-column { width: 100%; max-width: 540px; min-width: 0; justify-self: center; }
 .portal-stage { width: 100%; aspect-ratio: 1; position: relative; isolation: isolate; cursor: grab; touch-action: none; user-select: none; -webkit-user-select: none; }
@@ -336,7 +336,7 @@ h1, h2, h3 { font-family: var(--serif); font-weight: 400; line-height: 1.15; }
   .map-view { padding: 34px 26px 28px; min-height: calc(100dvh - 61px); }
   .map-heading { margin-bottom: 23px; }
   .map-heading h1 { font-size: 37px; }
-  .map-heading > p:last-child { font-size: 18px; }
+  .map-heading > p:not(.leaf-kicker) { font-size: 18px; }
   .map-layout { grid-template-columns: 1fr; gap: 35px; }
   .portal-column { max-width: 480px; }
   .map-chapter { max-width: 480px; width: 100%; justify-self: center; padding: 0 10px; }
