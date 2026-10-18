@@ -16,6 +16,8 @@ export const portalPictures = Object.freeze({
   threeMeetingCover:{src:'assets/three-meeting-cover-scene-v2.png?v=2',alt:'Two people meet before a sunset bridge and skyline inside the homepage book ring.',zoom:1,x:0,y:0},
   datingAlgorithm:{src:'assets/dating-algorithm-scene-v2.png',alt:'Two people sit together at a lamplit table before a moonlit city, framed by dating profiles and signals.',zoom:1,x:0,y:0},
   datingAlgorithmCover:{src:'assets/dating-algorithm-cover-scene-v2.png',alt:'Two people share a date beneath a crescent moon inside the homepage book ring.',zoom:1,x:0,y:0},
+  dating102:{src:'assets/dating-102-scene-v2.png',alt:'Two people share a notebook before a moonlit city inside the Dating 102 portal.',zoom:1,x:0,y:0},
+  dating102Cover:{src:'assets/dating-102-cover-scene-v2.png',alt:'Two people lean over a shared notebook in a warm room beneath the homepage book ring.',zoom:1,x:0,y:0},
   placeholder:{src:'assets/portal-placeholder.svg',alt:'Empty picture slot for a chapter scene.',zoom:1,x:0,y:0}
 });
 const esc=value=>String(value).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));

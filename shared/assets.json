@@ -354,6 +354,30 @@
       "public_path": "assets/dating-algorithm-spread-v2.webp",
       "sha256_at_intake": "1b28a2c29dc4306717c8d84968edd24bc6dc8f92111fc8ead31204cc53abc99e",
       "provenance": "Complete date/profile/compatibility object strip from the author's board, with baked labels removed for a readable HTML caption. Recipe scripts/cut_dating_algorithm_board.py; screen use only."
+    },
+    {
+      "source": "chapters/dating-102/artwork/portal/dating-102-ring-v2.png",
+      "public_path": "assets/dating-102-ring-v2.png",
+      "sha256_at_intake": "8e8000fea488b460ba543edf88ddd59c89a53e4f0126037f661723541915738a",
+      "provenance": "Transparent rotating collage from the supplied Dating 102 board. Recipe scripts/cut_dating_102_board.py; screen use only."
+    },
+    {
+      "source": "chapters/dating-102/artwork/portal/dating-102-scene-v2.png",
+      "public_path": "assets/dating-102-scene-v2.png",
+      "sha256_at_intake": "2818b721e21992ded597120491a3c309138a31c14ed8891ce19a204ec1651d5c",
+      "provenance": "Aligned stationary illustration of two people sharing a sketch before the night city. Recipe scripts/cut_dating_102_board.py; screen use only."
+    },
+    {
+      "source": "chapters/dating-102/artwork/portal/dating-102-cover-scene-v2.png",
+      "public_path": "assets/dating-102-cover-scene-v2.png",
+      "sha256_at_intake": "7f9b6b9826924ae3030fc7aa8643dcaf605066c54d14070af4ec4d1f8a9d6ee4",
+      "provenance": "Both people and the shared notebook under the unchanged homepage book ring at Chapter 19. Recipe scripts/cut_dating_102_board.py; screen use only."
+    },
+    {
+      "source": "chapters/dating-102/artwork/portal/dating-102-spread-v2.webp",
+      "public_path": "assets/dating-102-spread-v2.webp",
+      "sha256_at_intake": "391d08cd18e9aee6ac7845ad7b1043c77ef0db2acbe241bd18c420ebf5e6018f",
+      "provenance": "Full rectangular night-room vignette from the supplied board, including both people and their shared notebook. Recipe scripts/cut_dating_102_board.py; screen use only."
     }
   ]
 }

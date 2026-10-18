@@ -27,6 +27,31 @@
       "sha256": "d56062422ffd4a08787f4333891303068665b017eae2ab76827466f82ca94022"
     },
     {
+      "path": "artwork/portal/dating-102-cover-scene-v2.png",
+      "bytes": 986017,
+      "sha256": "7f9b6b9826924ae3030fc7aa8643dcaf605066c54d14070af4ec4d1f8a9d6ee4"
+    },
+    {
+      "path": "artwork/portal/dating-102-portal-v2.png",
+      "bytes": 1269920,
+      "sha256": "2a032aa709700ef5d673532403e868ed7a3af00c433aca2b8dfdea422957225a"
+    },
+    {
+      "path": "artwork/portal/dating-102-ring-v2.png",
+      "bytes": 1461220,
+      "sha256": "8e8000fea488b460ba543edf88ddd59c89a53e4f0126037f661723541915738a"
+    },
+    {
+      "path": "artwork/portal/dating-102-scene-v2.png",
+      "bytes": 1075950,
+      "sha256": "2818b721e21992ded597120491a3c309138a31c14ed8891ce19a204ec1651d5c"
+    },
+    {
+      "path": "artwork/portal/dating-102-spread-v2.webp",
+      "bytes": 150880,
+      "sha256": "391d08cd18e9aee6ac7845ad7b1043c77ef0db2acbe241bd18c420ebf5e6018f"
+    },
+    {
       "path": "artwork/scenes/01-lecture.jpg",
       "bytes": 140813,
       "sha256": "bce84dd7832be7c9634664399cb7a8c4da67cad16044053fc7212ea116d79b23"
@@ -58,8 +83,8 @@
     },
     {
       "path": "artwork/scenes/index.json",
-      "bytes": 2686,
-      "sha256": "81d24c9d885d8036b801fb25e6711d77ca34dc821a2c2cf337e310130579dcb1"
+      "bytes": 3284,
+      "sha256": "da587147b5366a5305eca7db064f7a3ad09af0efe49c26116ec1b00a504863e0"
     },
     {
       "path": "artwork/source/chapter16_hero_CONCEPT.jpg",
@@ -133,8 +158,8 @@
     },
     {
       "path": "chapter.json",
-      "bytes": 1334,
-      "sha256": "b6ddc857d5e448c4fbad57c8d59af7a4039a483645dbbaca61fbe49956daad8d"
+      "bytes": 1454,
+      "sha256": "627404a303ed2dc7f7415944163806c32fd36a365751618624ad6b440441a97b"
     },
     {
       "path": "docs/BROWSER_QA.json",
@@ -188,8 +213,8 @@
     },
     {
       "path": "docs/PRODUCTS.json",
-      "bytes": 3901,
-      "sha256": "50dbcd25d8021448c1b32190939af8142308efa4cb0e4896c4031da78851bf2d"
+      "bytes": 4432,
+      "sha256": "d4be22359d53ed20350ed2cbdf18cb80cc6cd380daaeca3296d5545d357436c7"
     },
     {
       "path": "docs/PROJECT_BOARD.md",
@@ -288,8 +313,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 602,
-      "sha256": "25ac838c234fbf54e49bb32d91cdbae89e9f39b7dbd9b6dcc109572756605415"
+      "bytes": 1021,
+      "sha256": "e7ff531c867e554d85d3c7965a4bdd4d66fd6791decd3f12658dc9be94454ba0"
     },
     {
       "path": "references/original-edition/approved.md",
@@ -592,9 +617,24 @@
       "sha256": "897ff0d0eeee9763628e185a1239e4a4b765ed68858779ece3648da01f57f309"
     },
     {
+      "path": "web/assets/dating-102-portal-v2.png",
+      "bytes": 1269920,
+      "sha256": "2a032aa709700ef5d673532403e868ed7a3af00c433aca2b8dfdea422957225a"
+    },
+    {
+      "path": "web/assets/dating-102-spread-v2.webp",
+      "bytes": 150880,
+      "sha256": "391d08cd18e9aee6ac7845ad7b1043c77ef0db2acbe241bd18c420ebf5e6018f"
+    },
+    {
+      "path": "web/dating-102-v2.css",
+      "bytes": 2043,
+      "sha256": "517bdbaffaf2616a1e93dedce9772e69a90ae953792efcd3c69df43e47034a03"
+    },
+    {
       "path": "web/index.html",
-      "bytes": 32508,
-      "sha256": "749d82810743c74e0cd248e79c3b30c0d1bb9f3f42aed5219577049891d78060"
+      "bytes": 32964,
+      "sha256": "cc84d7409e9ed6e4027db3219bad5d5152221da9a42916d50630131375c96d16"
     },
     {
       "path": "web/template.html",

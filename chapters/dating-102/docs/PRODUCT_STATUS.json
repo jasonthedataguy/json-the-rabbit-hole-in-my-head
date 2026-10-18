@@ -3,7 +3,7 @@
   "editorial_number": "19",
   "original_number": "16",
   "reader": "published manuscript",
-  "v2_product_release": "imported proofs; v2 adaptation pending",
+  "v2_product_release": "board-derived digital portal and reader; inherited print and media remain original-edition proofs",
   "lanes": [
     {
       "id": "manuscript",
@@ -17,7 +17,7 @@
     },
     {
       "id": "artwork",
-      "files_present": 14,
+      "files_present": 19,
       "status": "available for review",
       "required_deliverables": [
         "source and provenance",
@@ -27,7 +27,7 @@
     },
     {
       "id": "web",
-      "files_present": 4,
+      "files_present": 7,
       "status": "available for review",
       "required_deliverables": [
         "complete reader",
@@ -119,8 +119,18 @@
     },
     {
       "product": "Source illustration and scene crops",
-      "state": "ready as supplied-art derivatives",
+      "state": "original-edition scene library retained; current digital board provenance added",
       "path": "artwork/scenes/index.json"
+    },
+    {
+      "product": "Chapter 19 digital portal",
+      "state": "board-derived screen crop; both readers held in the stationary centre",
+      "path": "artwork/portal/dating-102-portal-v2.png"
+    },
+    {
+      "product": "Chapter 19 rectangular reading illustration",
+      "state": "complete board-derived night-room vignette for digital reading",
+      "path": "artwork/portal/dating-102-spread-v2.webp"
     },
     {
       "product": "Illustrated A5 chapter",
@@ -129,7 +139,7 @@
     },
     {
       "product": "Interactive website",
-      "state": "ready for deployment",
+      "state": "v2 portal and reading spread; original Currency Exchange interaction retained",
       "path": "web/index.html"
     },
     {

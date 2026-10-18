@@ -8,8 +8,18 @@
     },
     {
       "product": "Source illustration and scene crops",
-      "state": "ready as supplied-art derivatives",
+      "state": "original-edition scene library retained; current digital board provenance added",
       "path": "artwork/scenes/index.json"
+    },
+    {
+      "product": "Chapter 19 digital portal",
+      "state": "board-derived screen crop; both readers held in the stationary centre",
+      "path": "artwork/portal/dating-102-portal-v2.png"
+    },
+    {
+      "product": "Chapter 19 rectangular reading illustration",
+      "state": "complete board-derived night-room vignette for digital reading",
+      "path": "artwork/portal/dating-102-spread-v2.webp"
     },
     {
       "product": "Illustrated A5 chapter",
@@ -18,7 +28,7 @@
     },
     {
       "product": "Interactive website",
-      "state": "ready for deployment",
+      "state": "v2 portal and reading spread; original Currency Exchange interaction retained",
       "path": "web/index.html"
     },
     {
