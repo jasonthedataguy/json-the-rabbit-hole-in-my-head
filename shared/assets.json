@@ -125,7 +125,13 @@
       "source": "shared/artwork/portal/introduction-scene.png",
       "public_path": "assets/introduction-scene.png",
       "sha256_at_intake": "c92e2e4671205a9445d412cfe7ef61157ab8143eccf9a07fc62442ba94dbe43f",
-      "provenance": "New paper-cut Introduction scene generated locally by scripts/paint_intro_portal.py; design palette follows the user-supplied board."
+      "provenance": "Earlier open-book Introduction scene generated locally by scripts/paint_intro_portal.py; retained as an inactive alternate."
+    },
+    {
+      "source": "shared/artwork/portal/introduction-scene-board.png",
+      "public_path": "assets/introduction-scene-board.png",
+      "sha256_at_intake": "b20a254f4f0c3ae20b0b384a48d2f14431fefdc191a686d3824e9bb3b1c12417",
+      "provenance": "Active Introduction centre scene composed from the author-supplied concept board's illustrated city page, with crisp paper-cut skyline and bridge layers; recipe scripts/compose_intro_board_scene.py."
     },
     {
       "source": "shared/artwork/portal/introduction-ring.png",

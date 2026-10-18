@@ -4,7 +4,7 @@ The picture is independent of the rotating frame. Both use a 1000 × 1000 canvas
 
 The cover ring comes from the user's `Jason Under Revision_ Design Asset Board.png`. The source board is copied unchanged into `references/design/`; `scripts/cut_board_ring.py` records the artwork crops and transparent annular frame. The active cover picture is again the earlier landscape-only crop of the supplied board. Jason's body and head remain together in the rotating foreground ring. The same ring stays mounted throughout all 34 homepage stops while the selected scene stays upright. A figure-free cut serves the separate chapter map and reader. The older ring remains in `shared/artwork/cover-ring.png` as a supplied reference.
 
-The Introduction remains a paper-cut open book. Cold Rice again uses the earlier three-person family meal around a shared bowl. The later Saigon cover and father-and-child Cold Rice scenes remain separate alternates for the print study. The Saigon alternate depicts the [Bitexco Tower's projecting helipad](https://bitexco.com.vn/en/project/bitexco-financial-tower/) and [Ba Son Bridge's leaning pylon and cable fan](https://bandodulichtphcm.vn/en/diem-den/ba-son-bridge/). The supplied assets remain unchanged.
+The Introduction now shows the supplied concept board city and bridge scene inside its collage ring. Cold Rice again uses the earlier three-person family meal around a shared bowl. The later Saigon cover and father-and-child Cold Rice scenes remain separate alternates for the print study. The Saigon alternate depicts the [Bitexco Tower's projecting helipad](https://bitexco.com.vn/en/project/bitexco-financial-tower/) and [Ba Son Bridge's leaning pylon and cable fan](https://bandodulichtphcm.vn/en/diem-den/ba-son-bridge/). The supplied assets remain unchanged.
 
 | Asset | Editable source |
 |---|---|
@@ -12,7 +12,8 @@ The Introduction remains a paper-cut open book. Cold Rice again uses the earlier
 | Later Saigon cover alternate (print study) | `shared/artwork/book-cover/cover-scene-saigon-v3.png` |
 | Earlier bowl-and-pedestal crop with stationary Jason removed | `shared/artwork/book-cover/cover-scene-board-clean.png` |
 | Exact design-board centre crop (preserved input) | `shared/artwork/book-cover/cover-scene-board.png` |
-| Introduction scene | `shared/artwork/portal/introduction-scene.png` |
+| Active Introduction city scene | `shared/artwork/portal/introduction-scene-board.png` |
+| Earlier open-book scene (alternate) | `shared/artwork/portal/introduction-scene.png` |
 | Introduction leaf ring | `shared/artwork/portal/introduction-ring.png` |
 | Introduction concept board (unchanged) | `references/design/Jason, Under Revision Concept Board - introduction.png` |
 | Earlier generated cover interpretation (retained as an alternate) | `shared/artwork/book-cover/cover-scene-v2.png` |
@@ -45,9 +46,9 @@ Open `http://localhost:4174/docs/PORTAL_STUDIO.html`. Choose a preset or a local
 
 ## Generation record
 
-The Introduction leaf pairs the existing open-book scene with the main collage ring from the author's new concept board. Its transparent cut-out lets the open book and skyline show through. `scripts/cut_intro_artboard.py` records the crop and cut; the 1672 × 941 board is preserved unchanged under `references/design/`. The cover's rotating ring remains constant at its Introduction stop, showing the open-book scene in its centre. The new ring is a digital front-matter illustration and is not a print-resolution master.
+The Introduction leaf pairs the board-derived city scene with the main collage ring from the author's new concept board. Its transparent cut-out lets the sunset skyline and bridge show through. `scripts/cut_intro_artboard.py` records the crop and cut; the 1672 × 941 board is preserved unchanged under `references/design/`. The cover's rotating ring remains constant at its Introduction stop, showing the same city scene in its centre. The new ring is a digital front-matter illustration and is not a print-resolution master.
 
-The active landscape crop is derived from the unchanged design board by `scripts/cut_board_ring.py`. The active Cold Rice scene was generated with the built-in imagegen tool on 18 October 2026. The Introduction scene is painted locally with a fixed seed by `scripts/paint_intro_portal.py`. The later Saigon and father-and-child alternates are drawn locally by `scripts/paint_print_portals.py` at 3000 pixels, then reduced to 1000-pixel web versions. The separate [print prototype](../print/README.md) still uses those later alternates and documents its full-resolution masters, cut guides and proofs.
+The active landscape crop is derived from the unchanged design board by `scripts/cut_board_ring.py`. The active Cold Rice scene was generated with the built-in imagegen tool on 18 October 2026. The active Introduction scene is composed from the board artwork with crisp skyline and bridge layers by `scripts/compose_intro_board_scene.py`; the earlier open-book scene from `scripts/paint_intro_portal.py` remains an alternate. The later Saigon and father-and-child alternates are drawn locally by `scripts/paint_print_portals.py` at 3000 pixels, then reduced to 1000-pixel web versions. The separate [print prototype](../print/README.md) still uses those later alternates and documents its full-resolution masters, cut guides and proofs.
 
 ### Cold Rice prompt
 

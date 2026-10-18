@@ -2,7 +2,7 @@ import { chapters, renderPortal, renderPortalScene } from './chapters.js?v=14';
 import { introduction, parts, chapterNotes } from './book.js?v=12';
 import { renderChapterMarker, renderReferenceBowlIcon, getChapterMarkerName } from './markers.js?v=10';
 import { PortalRing } from './ring.js?v=10';
-import { renderPortalPicture, renderPortalFrame, renderFramedPortal } from './portal-art.js?v=23';
+import { renderPortalPicture, renderPortalFrame, renderFramedPortal } from './portal-art.js?v=24';
 
 const $ = selector => document.querySelector(selector);
 const $$ = selector => [...document.querySelectorAll(selector)];

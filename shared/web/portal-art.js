@@ -3,7 +3,7 @@
 export const portalGeometry = Object.freeze({size:1000, centre:500, outerRadius:480, apertureRadius:310, pictureRadius:312});
 export const portalPictures = Object.freeze({
   cover:{src:'assets/cover-scene-landscape.png',alt:'Jason looks through the portal toward the original dusk city and bridge landscape.',zoom:1,x:0,y:0},
-  introduction:{src:'assets/introduction-scene.png',alt:'An open book joins a mathematics diagram and written lines beneath a glowing Saigon skyline.',zoom:1,x:0,y:0},
+  introduction:{src:'assets/introduction-scene-board.png',alt:'A dusk city, cable bridge and river from the Introduction concept board glow through the portal.',zoom:1,x:0,y:0},
   rice:{src:'assets/rice-scene-v2.png',alt:'A family shares a bowl of rice beneath a warm lamp in a paper-cut room.',zoom:1,x:0,y:0},
   quant:{src:'assets/quant-scene.png',alt:'Jason studies a skyline and probability curve, contemplating his risk budget.',zoom:1,x:0,y:0},
   placeholder:{src:'assets/portal-placeholder.svg',alt:'Empty picture slot for a chapter scene.',zoom:1,x:0,y:0}
