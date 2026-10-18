@@ -1,0 +1,21 @@
+{
+  "source": "../../references/editorial-artboard.png",
+  "source_dimensions_px": [1536, 1024],
+  "use": "digital reader and portal navigation",
+  "print_master": false,
+  "recipe": "scripts/cut_quant_artboard.py",
+  "exports": [
+    {
+      "file": "quant-ring.png",
+      "source_rect_xyxy": [552, 70, 883, 416],
+      "selection": "Alternative A / Expected Value, also shown in the artboard chapter-page mockup",
+      "alt": "Dice, probability curves, charts and a city skyline arranged as an annular collage around a circular opening."
+    },
+    {
+      "file": "quant-scene.png",
+      "source_rect_xyxy": [737, 688, 947, 898],
+      "selection": "Digital icon vignette",
+      "alt": "Jason seen from behind against a dusk skyline and bell curve."
+    }
+  ]
+}

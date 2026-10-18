@@ -2,8 +2,8 @@
   "schema_version": 2,
   "slug": "vo-mong",
   "number": "12",
-  "title": "Vỡ mộng",
-  "short_title": "Vỡ mộng",
+  "title": "Disillusionment",
+  "short_title": "Disillusionment",
   "part": 2,
   "language": "vi",
   "publish": false,
@@ -23,5 +23,6 @@
   },
   "original_edition": null,
   "production_status": "awaiting author manuscript",
-  "outline_title": "Vỡ mộng"
+  "outline_title": "Vỡ mộng",
+  "original_title": "Vỡ mộng"
 }

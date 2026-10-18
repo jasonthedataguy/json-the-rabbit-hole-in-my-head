@@ -1,0 +1,33 @@
+// One coordinate system for the picture, rotating frame and authoring template.
+// Images are full-bleed scenes. Decorative rings belong only to the frame layer.
+export const portalGeometry = Object.freeze({size:1000, centre:500, outerRadius:480, apertureRadius:310, pictureRadius:312});
+export const portalPictures = Object.freeze({
+  cover:{src:'assets/cover-scene-landscape.png',alt:'Jason looks through the portal toward the original dusk city and bridge landscape.',zoom:1,x:0,y:0},
+  introduction:{src:'assets/introduction-scene.png',alt:'An open book joins a mathematics diagram and written lines beneath a glowing Saigon skyline.',zoom:1,x:0,y:0},
+  rice:{src:'assets/rice-scene-v2.png',alt:'A family shares a bowl of rice beneath a warm lamp in a paper-cut room.',zoom:1,x:0,y:0},
+  quant:{src:'assets/quant-scene.png',alt:'Jason studies a skyline and probability curve, contemplating his risk budget.',zoom:1,x:0,y:0},
+  placeholder:{src:'assets/portal-placeholder.svg',alt:'Empty picture slot for a chapter scene.',zoom:1,x:0,y:0}
+});
+const esc=value=>String(value).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+
+export function renderPortalPicture(key,overrides={}){
+  const picture={...(portalPictures[key] || portalPictures.placeholder),...overrides};
+  const zoom=Math.max(1,Math.min(2,Number(picture.zoom)||1));
+  const size=1000*zoom;
+  // Clamp offsets so an image can never reveal an empty edge of the slot.
+  const limit=(size-1000)/2;
+  const x=Math.max(-limit,Math.min(limit,(Number(picture.x)||0)*10));
+  const y=Math.max(-limit,Math.min(limit,(Number(picture.y)||0)*10));
+  return `<svg class="fitted-portal-picture" viewBox="0 0 1000 1000" role="img" aria-label="${esc(picture.alt)}"><image href="${esc(picture.src)}" x="${500-size/2+x}" y="${500-size/2+y}" width="${size}" height="${size}" preserveAspectRatio="xMidYMid slice"/></svg>`;
+}
+
+export function renderPortalFrame(id='portal-frame',texture='assets/board-ring-cut.png'){
+  // The PNG carries its own alpha mask. An SVG aperture mask would cut off
+  // Jason's head where he leans into the portal opening.
+  const guide=texture==='assets/board-ring-cut.png'?'<circle cx="500" cy="500" r="310" fill="none" stroke="#c5a575" stroke-width="2"/><circle cx="500" cy="500" r="480" fill="none" stroke="#c5a575" stroke-width="1.5"/>':'';
+  return `<svg class="fitted-portal-frame" viewBox="0 0 1000 1000" aria-hidden="true"><image href="${esc(texture)}" x="0" y="0" width="1000" height="1000" preserveAspectRatio="xMidYMid slice"/>${guide}</svg>`;
+}
+
+export function renderFramedPortal(key,id='chapter-frame',texture='assets/board-ring-cut.png'){
+  return `<div class="fitted-portal"><div class="fitted-portal-slot">${renderPortalPicture(key)}</div>${renderPortalFrame(id,texture)}</div>`;
+}

@@ -188,8 +188,8 @@
     },
     {
       "path": "chapter.json",
-      "bytes": 1435,
-      "sha256": "29867f08b884f992aef3f7ed236112efd32a2c050598d2442906c4fd496bfba1"
+      "bytes": 1475,
+      "sha256": "961ad17611ce3d7596e2138997528de2ff548bbfcff23cea9a9cbec91275a7a3"
     },
     {
       "path": "docs/BROWSER_QA.json",

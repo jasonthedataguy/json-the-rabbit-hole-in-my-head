@@ -1,11 +1,10 @@
-// A continuous dial: the artwork follows pointer angle, then settles at one of 32 stops.
-const STEP = 360 / 32;
-const wrap = index => ((index % 32) + 32) % 32;
+// Each dial owns its reading order: the cover includes front matter; the map has chapters.
 const shortestDelta = angle => ((angle + 540) % 360) - 180;
 
 export class PortalRing {
-  constructor({stage, initialIndex=0, onRotate, onSelect}) {
-    this.stage=stage;this.index=initialIndex;this.rotation=-initialIndex*STEP;
+  constructor({stage, count=32, initialIndex=0, onRotate, onSelect}) {
+    this.count=count;this.step=360/count;
+    this.stage=stage;this.index=initialIndex;this.rotation=-initialIndex*this.step;
     this.onRotate=onRotate;this.onSelect=onSelect;this.drag=null;
     this.ignoreClickUntil=0;this.lastWheelEvent=-Infinity;this.wheelCommitted=false;this.wheelDelta=0;
     stage.addEventListener('pointerdown', event=>this.start(event));
@@ -21,11 +20,12 @@ export class PortalRing {
     this.paint(false);
   }
   paint(animate=true){this.onRotate(this.rotation,{animate,dragging:!!this.drag?.moved});}
+  wrap(index){return ((index%this.count)+this.count)%this.count;}
   setChapter(index,{animate=true}={}){
-    this.index=wrap(index);
-    const current=-this.rotation/STEP;
-    const nearest=this.index+32*Math.round((current-this.index)/32);
-    this.rotation=-nearest*STEP;
+    this.index=this.wrap(index);
+    const current=-this.rotation/this.step;
+    const nearest=this.index+this.count*Math.round((current-this.index)/this.count);
+    this.rotation=-nearest*this.step;
     this.paint(animate);
   }
   turn(steps){this.setChapter(this.index+steps);this.onSelect(this.index);}
@@ -51,10 +51,10 @@ export class PortalRing {
     else {
       const distance=Math.abs(dx)>=Math.abs(dy)?dx:dy;
       drag.swipeDistance=distance;
-      this.rotation=drag.startRotation+Math.max(-STEP*1.2,Math.min(STEP*1.2,distance*STEP/(drag.width*.15)));
+      this.rotation=drag.startRotation+Math.max(-this.step*1.2,Math.min(this.step*1.2,distance*this.step/(drag.width*.15)));
     }
     this.paint(false);
-    const next=wrap(Math.round(-this.rotation/STEP));
+    const next=this.wrap(Math.round(-this.rotation/this.step));
     if(next!==this.index){this.index=next;this.onSelect(next);}
   }
   finish(event,cancelled=false){
@@ -66,7 +66,7 @@ export class PortalRing {
     let stop;
     if(cancelled)stop=drag.startIndex;
     else if(drag.mode==='swipe')stop=drag.startIndex+(Math.abs(drag.swipeDistance||0)>=24?(drag.swipeDistance<0?1:-1):0);
-    else stop=wrap(Math.round(-this.rotation/STEP));
+    else stop=this.wrap(Math.round(-this.rotation/this.step));
     this.setChapter(stop);this.onSelect(this.index);
   }
   wheel(event){

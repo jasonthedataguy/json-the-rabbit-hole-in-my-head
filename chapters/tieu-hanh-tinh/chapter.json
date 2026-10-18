@@ -2,8 +2,8 @@
   "schema_version": 2,
   "slug": "tieu-hanh-tinh",
   "number": "16",
-  "title": "Tiểu hành tinh",
-  "short_title": "Tiểu hành tinh",
+  "title": "Asteroid",
+  "short_title": "Asteroid",
   "part": 3,
   "language": "vi",
   "publish": false,
@@ -23,5 +23,6 @@
   },
   "original_edition": null,
   "production_status": "awaiting author manuscript",
-  "outline_title": "Tiểu hành tinh"
+  "outline_title": "Tiểu hành tinh",
+  "original_title": "Tiểu hành tinh"
 }

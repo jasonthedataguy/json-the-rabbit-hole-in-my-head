@@ -2,8 +2,8 @@
   "schema_version": 2,
   "slug": "nhung-thu-khong-duoc-luu-lai",
   "number": "10",
-  "title": "Những thứ không được lưu lại",
-  "short_title": "Những thứ không được lưu lại",
+  "title": "The Things We Never Saved",
+  "short_title": "The Things We Never Saved",
   "part": 2,
   "language": "vi",
   "publish": false,
@@ -23,5 +23,6 @@
   },
   "original_edition": null,
   "production_status": "awaiting author manuscript",
-  "outline_title": "Những thứ không được lưu lại"
+  "outline_title": "Những thứ không được lưu lại",
+  "original_title": "Những thứ không được lưu lại"
 }

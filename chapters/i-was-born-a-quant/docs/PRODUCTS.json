@@ -1,10 +1,24 @@
 {
   "chapter": "i-was-born-a-quant",
-  "products": [],
+  "products": [
+    {
+      "product": "Selected prose",
+      "state": "ready",
+      "path": "source/approved.md"
+    },
+    {
+      "product": "Expected Value portal ring",
+      "state": "ready for digital reader",
+      "path": "artwork/portal/quant-ring.png"
+    },
+    {
+      "product": "Quant portal scene",
+      "state": "ready for digital reader",
+      "path": "artwork/portal/quant-scene.png"
+    }
+  ],
   "remaining": [
-    "Author manuscript and selection",
-    "Approved scene artwork",
-    "Read / Explore / Revisit experience",
+    "Source-grounded Explore / Revisit interaction",
     "Print proofs",
     "Author narration and films",
     "Social channel packs",

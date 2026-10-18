@@ -2,8 +2,8 @@
   "schema_version": 2,
   "slug": "nut-do",
   "number": "06",
-  "title": "Nút đỏ",
-  "short_title": "Nút đỏ",
+  "title": "The Red Button",
+  "short_title": "The Red Button",
   "part": 2,
   "language": "vi",
   "publish": false,
@@ -23,5 +23,6 @@
   },
   "original_edition": null,
   "production_status": "awaiting author manuscript",
-  "outline_title": "Nút đỏ"
+  "outline_title": "Nút đỏ",
+  "original_title": "Nút đỏ"
 }

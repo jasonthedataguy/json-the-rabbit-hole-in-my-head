@@ -18,6 +18,17 @@
       "sourceUrl": "https://github.com/jasonthedataguy/json-under-revision/blob/b41b692b3e3633abea4997b6ac4513a91308f127/chapters/com-nguoi/source/approved.md"
     },
     {
+      "slug": "i-was-born-a-quant",
+      "editorialId": "01",
+      "legacyId": null,
+      "originalTitle": "I Was Born a Quant",
+      "sourcePath": "chapters/i-was-born-a-quant/source/approved.md",
+      "sha256": "9f41b35e58610640618ed793b079eda6dd8f7a47bb5dd434677f1b56b7ac0380",
+      "bytes": 4467,
+      "archiveUrl": null,
+      "sourceUrl": null
+    },
+    {
       "slug": "expected-utility",
       "editorialId": "02",
       "legacyId": "04",

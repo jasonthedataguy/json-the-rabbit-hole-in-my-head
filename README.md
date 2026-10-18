@@ -2,6 +2,8 @@
 
 The portal edition and its immersive chapter production workspace. The homepage keeps the cloth cover, rotating chapter ring, changing centre artwork and curved maths/literature quote. The reading order contains 32 editorial slots; Dating 102 remains a separate archive essay.
 
+The homepage starts on the earlier dusk-city landscape from the supplied design board, with Jason carried by its rotating paper ring. The Introduction keeps its open-book portal; Cold Rice again shows the earlier family-meal artwork. Its 34 ring stops follow **Cover → Introduction → Prologue (00) → Chapters 01–31**. The optional chapter map retains its 32 chapter stops. The paper ring surrounds a separate, upright picture. Navigation and chapter headings use English; the five part names display each English key alongside its Vietnamese title. The original Vinglish manuscripts remain unchanged. The Introduction uses the author's new Vietnamese synopsis and reader promise. Reading pages bundle Noto Serif for full Vietnamese typography. [Portal artwork and the replaceable picture template](docs/PORTAL_ARTWORK.md) explain how to fit another scene. The [6×9 in print prototype](print/README.md) preserves the newer art as a separate printable study, with underlays, cut guides and proofs.
+
 Start with the [production board](docs/PROJECT_BOARD.html), [chapter status](docs/PRODUCTION_STATUS.md), [architecture](docs/ARCHITECTURE.md), [asset guide](docs/ASSET_GUIDE.md), and [full production workflow](docs/PRODUCTION_WORKFLOW.md).
 
 ```text

@@ -1,4 +1,4 @@
-import { chapters, acts } from './chapter-data.js';
+import { chapters, acts } from './chapter-data.js?v=11';
 export { chapters, acts };
 
 const iconPaths = {
@@ -134,6 +134,14 @@ function ringPath(cx,cy,r,seed,irregular=0) {
 }
 
 let portalRenderCount = 0;
+
+/** Scene-only illustration for the shared paper ring on the book cover. */
+export function renderPortalScene(chapter) {
+  if (typeof chapter === 'string') chapter = chapters.find(c => c.id === chapter) || chapters[0];
+  const palette = palettes[chapter.act] || palettes[0];
+  const uid = `portal-scene-${chapter.id}-${++portalRenderCount}`;
+  return `<svg class="portal-scene-art" viewBox="120 120 360 360" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="${uid}-title ${uid}-desc"><title id="${uid}-title">${esc(chapter.id)} · ${esc(chapter.title)}</title><desc id="${uid}-desc">${esc(chapter.scene)}</desc><rect x="120" y="120" width="360" height="360" fill="#193541"/>${sceneFor(chapter, palette)}</svg>`;
+}
 
 /** Self-contained paper-cut illustration. Safe to inject as a trusted local template. */
 export function renderPortal(chapter) {

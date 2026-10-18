@@ -1,0 +1,9 @@
+# Circular picture template
+
+Open `docs/PORTAL_STUDIO.html` through a local repository server. Choose Cover, Introduction, Cold Rice, or the empty placeholder, or choose a picture from your computer. Adjust zoom and horizontal/vertical placement, rotate the frame to check alignment, and download a self-contained SVG.
+
+The template uses a 1000 × 1000 canvas. Every layer is centred at (500, 500). The outer frame radius is 480; the picture opening radius is 310. The picture extends 2 units under the frame to prevent a seam. `frame-mask.svg` is a transparent annular cutting mask; white is the retained frame. `placeholder.svg` is the replaceable picture insert. Keep subjects inside the central 80% of a square scene so the circular crop does not clip faces or feet.
+
+Supply a full-bleed picture without a decorative ring. The ring and picture are independent layers. The website reads placement from `portalPictures` in `shared/web/portal-art.js`; the studio reports the same values. Offsets are percentages of the picture slot, not the entire ring. Zoom/offsets are clamped to avoid exposing an empty edge. Non-square pictures are cropped from their centre with `preserveAspectRatio="xMidYMid slice"`.
+
+The original supplied illustrations remain unchanged. The homepage ring is extracted from the supplied design board; Jason's head and body belong to this rotating frame. `scripts/cut_board_ring.py` also makes a figure-free ring for the separate chapter map and reader. The site currently uses the earlier landscape crop and three-person Cold Rice scene. `scripts/paint_print_portals.py` makes newer alternate Saigon and Cold Rice picture layers at print and web resolutions; `scripts/paint_intro_portal.py` makes the active Introduction scene. Their provenance and layout rules are recorded in `docs/PORTAL_ARTWORK.md` and `print/README.md`.

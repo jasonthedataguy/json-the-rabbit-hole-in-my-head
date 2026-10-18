@@ -37,13 +37,15 @@ dist/                            ignored generated public site
 
 ## Editorial and source identity
 
+The cover ring includes two front-matter stops before the chapter registry: Cover and Introduction. These do not renumber chapters or change their hash routes. `PortalRing` accepts a stop count so the cover has 34 stops and the chapter map has 32. Returning to the cover opens on its cover artwork. English chapter display titles live in `title`/`short_title`; translated chapter metadata retains `original_title`, and original-edition metadata/manuscript bytes remain untouched. The five part labels display `key | title` using Vietnamese part titles in `book.json`.
+
 Stable slugs survive a change of reading order. A v2 chapter number never overwrites the original number. For example, Cơm nguội is v2 `00` and original `07`; Fashion is v2 `04` and original `02`. Dating 102 has no portal number and remains in `archive_chapters`.
 
 Ten existing manuscripts and their complete tracked product folders were imported. Nine map to the portal order; 23 portal slots contain the existing editorial outlines and no invented full text. `publish: false` means no manuscript/product publication, while the existing outline remains visible in the editorial map. `publish: true` requires selected prose and its recorded SHA-256. Reader availability is independent of print, narration and multimedia completion.
 
 ## Build and public paths
 
-`build_site.py` reads local sources and works without the original checkout or a package install. It generates `book.js`, `chapter-data.js`, rendered manuscripts, manuscript downloads and the public asset manifest. The artwork renderer in `shared/web/chapters.js` consumes generated metadata. Runtime URLs such as `#chapter/00`, `#map`, `#archive/dating-102`, and `assets/cover-ring.png` remain stable.
+`build_site.py` reads local sources and works without the original checkout or a package install. It generates `book.js`, `chapter-data.js`, rendered manuscripts, manuscript downloads and the public asset manifest. The artwork renderer in `shared/web/chapters.js` consumes generated metadata. Runtime URLs such as `#chapter/00`, `#map`, `#archive/dating-102`, and `assets/cover-ring.png` remain stable. All homepage stops share `assets/board-cover-ring.png`, including Jason's foreground figure, while the centre changes from the earlier `assets/cover-scene-landscape.png` to `assets/introduction-scene.png` and chapter scenes. Prologue 00 uses the earlier `assets/rice-scene-v2.png`. The separate chapter map and reader use `assets/board-ring-cut.png`. The earlier `assets/cover-ring.png` remains available. `scripts/paint_print_portals.py` preserves alternate digital scenes and 3000-pixel print masters; `scripts/build_print_pack.py` builds the separate 6×9 in print prototype.
 
 The build stages its output before replacing the marked `dist/` directory. It refuses to clean any source directory or an unmarked output directory. `check_site.py` detects stale inputs, modified generated files, missing links, altered protected originals and absent declared products.
 

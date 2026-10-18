@@ -78,6 +78,84 @@
       "public_path": "assets/Libre-Caslon-Display-OFL.txt",
       "sha256_at_intake": "c364cbca78d55436dd98e379f362c302a7b09dcc16dc7aa501af03459a2ae961",
       "provenance": "Preserved from the v2 portal edition; fonts retain their supplied OFL licenses."
+    },
+    {
+      "source": "shared/artwork/book-cover/cover_portal_circle.png",
+      "public_path": "assets/cover_portal_circle.png",
+      "sha256_at_intake": "7b2c9807301de658a018e3fad599371942e0ef5a86c4458e4e19e303884dca71",
+      "provenance": "Author-supplied json_assets_book_cover/cover_portal_circle.png; unchanged raster reference crop, used for the cover/front matter."
+    },
+    {
+      "source": "shared/artwork/book-cover/original_portal_circle.png",
+      "public_path": "assets/original_portal_circle.png",
+      "sha256_at_intake": "db4e3fd4619d3f7020ca578ba3189d35ecd5693faaa7559631e4b964905c02db",
+      "provenance": "Author-supplied json_assets_book_cover/original_portal_circle.png; unchanged raster reference crop, used for the cover/front matter."
+    },
+    {
+      "source": "shared/fonts/Noto-Serif.ttf",
+      "public_path": "assets/noto-serif.ttf",
+      "sha256_at_intake": "4d8e6761424656867019081a1a01336f3cb086982682698714054fc33f782713",
+      "provenance": "Google Fonts / google/fonts / ofl/notoserif; SIL Open Font License 1.1 in shared/fonts/Noto-Serif-OFL.txt."
+    },
+    {
+      "source": "shared/fonts/Noto-Serif-Italic.ttf",
+      "public_path": "assets/noto-serif-italic.ttf",
+      "sha256_at_intake": "e87acbc6c0efd0d9a20d6a8cbbda2b266c14be3a3a6f5af8ec9d7b2460570ad1",
+      "provenance": "Google Fonts / google/fonts / ofl/notoserif; SIL Open Font License 1.1 in shared/fonts/Noto-Serif-OFL.txt."
+    },
+    {
+      "source": "shared/fonts/Noto-Serif-OFL.txt",
+      "public_path": "assets/Noto-Serif-OFL.txt",
+      "sha256_at_intake": "cee9892f9f0cc8fe882c9e9537ee6a89621d86ee7ceaf70b02e2b2b1c25c061a",
+      "provenance": "SIL Open Font License 1.1 distributed with both Noto Serif font faces."
+    },
+    {
+      "source": "chapters/com-nguoi/artwork/portal/rice-scene-v2.png",
+      "public_path": "assets/rice-scene-v2.png",
+      "sha256_at_intake": "6c9859ee3574ed85f5acd404f558a3ed00667968c3685fe66d81c46544b015ef",
+      "provenance": "Earlier full-bleed Cold Rice family-meal scene; restored as the active web picture at the author's request. The original supplied rice portal remains preserved."
+    },
+    {
+      "source": "shared/artwork/book-cover/cover-scene-landscape.png",
+      "public_path": "assets/cover-scene-landscape.png",
+      "sha256_at_intake": "bb33e582593231fa778040804fb0141532b346053cf058d09c5118e887305422",
+      "provenance": "Earlier landscape-only crop of the supplied design board, restored as the active web cover picture at the author's request. The original board remains preserved."
+    },
+    {
+      "source": "shared/artwork/portal/introduction-scene.png",
+      "public_path": "assets/introduction-scene.png",
+      "sha256_at_intake": "c92e2e4671205a9445d412cfe7ef61157ab8143eccf9a07fc62442ba94dbe43f",
+      "provenance": "New paper-cut Introduction scene generated locally by scripts/paint_intro_portal.py; design palette follows the user-supplied board."
+    },
+    {
+      "source": "shared/artwork/portal/placeholder.svg",
+      "public_path": "assets/portal-placeholder.svg",
+      "sha256_at_intake": "b93b827674b562d71b0550a7660391c1b3baf8038368cff9dc23fb58bd2ed19c",
+      "provenance": "New centred portal system; source, generation prompts and placement documented in docs/PORTAL_ARTWORK.md."
+    },
+    {
+      "source": "shared/artwork/portal/board-cover-ring.png",
+      "public_path": "assets/board-cover-ring.png",
+      "sha256_at_intake": "2b42f3d616a74df74ce17fbf5a6003570c0ccd5a37267f2cf662c7b2bc7fca6e",
+      "provenance": "Annular crop of the user-supplied design board with the complete foreground figure carried across the aperture. The same frame is used at all homepage ring stops."
+    },
+    {
+      "source": "shared/artwork/portal/board-ring-cut.png",
+      "public_path": "assets/board-ring-cut.png",
+      "sha256_at_intake": "42528d8490a400f23dbd66a6b44a8d1ce5adbc09f07c7bc4aa0040a5d12d54f0",
+      "provenance": "Paper-band crop of the user-supplied design board, with lower bands mirrored to remove the foreground figure. Used by the chapter map and reader."
+    },
+    {
+      "source": "chapters/i-was-born-a-quant/artwork/portal/quant-ring.png",
+      "public_path": "assets/quant-ring.png",
+      "sha256_at_intake": "44c8b502f4fc5b1b6ece8042f440ac353aec6bd961485e75027ee3640cabe996",
+      "provenance": "Web crop of Alternative A / Expected Value from the author-supplied I Was Born a Quant editorial artboard; reproducible with scripts/cut_quant_artboard.py."
+    },
+    {
+      "source": "chapters/i-was-born-a-quant/artwork/portal/quant-scene.png",
+      "public_path": "assets/quant-scene.png",
+      "sha256_at_intake": "d5ac9a12fedd4202a99a7bb72fc13384b2ff35a6b1a0e924d8ffcd1e41ed8308",
+      "provenance": "Web crop of the Jason, city and chart digital-icon vignette from the author-supplied I Was Born a Quant editorial artboard; reproducible with scripts/cut_quant_artboard.py."
     }
   ]
 }

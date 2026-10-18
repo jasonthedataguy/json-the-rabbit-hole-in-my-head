@@ -2,8 +2,8 @@
   "schema_version": 2,
   "slug": "loi-xin-loi",
   "number": "31",
-  "title": "Lời xin lỗi",
-  "short_title": "Lời xin lỗi",
+  "title": "An Apology",
+  "short_title": "An Apology",
   "part": 5,
   "language": "vi",
   "publish": false,
@@ -23,5 +23,6 @@
   },
   "original_edition": null,
   "production_status": "awaiting author manuscript",
-  "outline_title": "Lời xin lỗi"
+  "outline_title": "Lời xin lỗi",
+  "original_title": "Lời xin lỗi"
 }

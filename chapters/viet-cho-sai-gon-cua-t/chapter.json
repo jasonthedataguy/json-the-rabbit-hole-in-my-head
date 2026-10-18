@@ -2,8 +2,8 @@
   "schema_version": 2,
   "slug": "viet-cho-sai-gon-cua-t",
   "number": "14",
-  "title": "Viết cho Sài Gòn của t",
-  "short_title": "Viết cho Sài Gòn của t",
+  "title": "To My Saigon",
+  "short_title": "To My Saigon",
   "part": 2,
   "language": "vi",
   "publish": true,
@@ -31,5 +31,6 @@
   },
   "production_status": "imported proofs; v2 adaptation pending",
   "manuscript_sha256": "911b174411dced9668dffd01c6860c079cc17e231c5235f5153666c6021d8b26",
-  "outline_title": "Viết cho Sài Gòn của t"
+  "outline_title": "Viết cho Sài Gòn của t",
+  "original_title": "Viết cho Sài Gòn của t"
 }

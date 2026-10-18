@@ -27,6 +27,16 @@
       "sha256": "ddadcd45d41920aea71ea03b515e063c6e3879c53d5f692460936aea641f619b"
     },
     {
+      "path": "artwork/portal/rice-scene-board-v3.png",
+      "bytes": 574946,
+      "sha256": "24441552bf2f29be353423d3f10078f4d23f208325211f8c01fce2c5ad1906fb"
+    },
+    {
+      "path": "artwork/portal/rice-scene-v2.png",
+      "bytes": 2759378,
+      "sha256": "6c9859ee3574ed85f5acd404f558a3ed00667968c3685fe66d81c46544b015ef"
+    },
+    {
       "path": "artwork/scenes/01-dinner.jpg",
       "bytes": 78572,
       "sha256": "d2aa24fdc16a06e3da88ee6dca58e768651fb3dbe9e59b05a7f7b32ae2186219"
@@ -113,8 +123,8 @@
     },
     {
       "path": "chapter.json",
-      "bytes": 1352,
-      "sha256": "f55b98419e7e178c61df891f17f22fbdfcb08737bab3b2e26e5e632fc0c4d1e4"
+      "bytes": 1375,
+      "sha256": "992fa5046beb2e79e39d152728d609151c2c91263114bb02a35cc6ea722d96a8"
     },
     {
       "path": "docs/DESIGN_REVIEW.md",

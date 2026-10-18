@@ -2,8 +2,8 @@
   "schema_version": 2,
   "slug": "play-to-win",
   "number": "03",
-  "title": "Chơi để không thua",
-  "short_title": "Chơi để không thua",
+  "title": "Playing Not to Lose",
+  "short_title": "Playing Not to Lose",
   "part": 1,
   "language": "vi",
   "publish": true,
@@ -31,5 +31,6 @@
   },
   "production_status": "imported proofs; v2 adaptation pending",
   "manuscript_sha256": "116573a7d6778968bdde5be030d9fb764346a992cd263d83efb94c6e2727e42b",
-  "outline_title": "Chơi để không thua"
+  "outline_title": "Chơi để không thua",
+  "original_title": "Chơi để không thua"
 }

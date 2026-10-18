@@ -2,8 +2,8 @@
   "schema_version": 2,
   "slug": "co-nhung-thu-chi-khi-minh-roi-di-roi-moi-nhin-thay",
   "number": "30",
-  "title": "Có những thứ chỉ khi mình rời đi rồi mới nhìn thấy",
-  "short_title": "Có những thứ chỉ khi mình rời đi rồi mới nhìn thấy",
+  "title": "Things You Only See After Leaving",
+  "short_title": "Things You Only See After Leaving",
   "part": 5,
   "language": "vi",
   "publish": false,
@@ -23,5 +23,6 @@
   },
   "original_edition": null,
   "production_status": "awaiting author manuscript",
-  "outline_title": "Có những thứ chỉ khi mình rời đi rồi mới nhìn thấy"
+  "outline_title": "Có những thứ chỉ khi mình rời đi rồi mới nhìn thấy",
+  "original_title": "Có những thứ chỉ khi mình rời đi rồi mới nhìn thấy"
 }

@@ -2,12 +2,12 @@
   "chapter": "i-was-born-a-quant",
   "editorial_number": "01",
   "original_number": null,
-  "reader": "outline only",
-  "v2_product_release": "awaiting author manuscript",
+  "reader": "published manuscript",
+  "v2_product_release": "selected author manuscript and editorial web portal; other products pending",
   "lanes": [
     {
       "id": "manuscript",
-      "files_present": 2,
+      "files_present": 3,
       "status": "available for review",
       "required_deliverables": [
         "original manuscript",
@@ -17,8 +17,8 @@
     },
     {
       "id": "artwork",
-      "files_present": 0,
-      "status": "not supplied",
+      "files_present": 3,
+      "status": "available for review",
       "required_deliverables": [
         "source and provenance",
         "scene library",
@@ -102,8 +102,8 @@
     },
     {
       "id": "references",
-      "files_present": 0,
-      "status": "not supplied",
+      "files_present": 1,
+      "status": "available for review",
       "required_deliverables": [
         "unchanged supplied boards",
         "original edition metadata",
@@ -111,11 +111,25 @@
       ]
     }
   ],
-  "products": [],
+  "products": [
+    {
+      "product": "Selected prose",
+      "state": "ready",
+      "path": "source/approved.md"
+    },
+    {
+      "product": "Expected Value portal ring",
+      "state": "ready for digital reader",
+      "path": "artwork/portal/quant-ring.png"
+    },
+    {
+      "product": "Quant portal scene",
+      "state": "ready for digital reader",
+      "path": "artwork/portal/quant-scene.png"
+    }
+  ],
   "remaining": [
-    "Author manuscript and selection",
-    "Approved scene artwork",
-    "Read / Explore / Revisit experience",
+    "Source-grounded Explore / Revisit interaction",
     "Print proofs",
     "Author narration and films",
     "Social channel packs",

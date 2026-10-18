@@ -41,22 +41,43 @@
     "dating-102"
   ],
   "introduction": {
-    "title": "Dẫn nhập",
+    "title": "Introduction",
     "epigraph": "I like maths because there is always a definite answer. I like literature because there isn’t a wrong one.",
-    "paragraphs": [
-      "Jason thích toán vì ở đó có đáp án; anh thích văn chương vì có những câu hỏi không nhất thiết phải có đáp án đúng. Anh lớn lên với những ký ức vừa dịu dàng vừa đáng sợ, rồi bước vào tuổi trưởng thành bằng niềm tin rằng mọi vấn đề đều có thể hiểu được nếu quan sát đủ kỹ, đặt đúng biến số và tìm đúng mô hình.",
-      "Từ chuyện mặc quần áo, mua giày, quản lý tiền, yêu đương tới đi làm, anh liên tục tìm cách giải thích hành vi con người bằng kinh tế học, game theory, xác suất, tư duy định lượng. Anh gọi mình là một quant từ trong bản chất: người biết kiểm soát rủi ro giữa một thế giới không thể dự đoán.",
-      "Độc giả không cần biết data science để đọc cuốn sách này. Mọi thuật ngữ có vai trò kể chuyện sẽ được đặt trong những trải nghiệm cụ thể."
+    "sections": [
+      {
+        "heading": "Tác phẩm trong một câu",
+        "paragraphs": [
+          "Một người trẻ quen đọc cuộc đời bằng dữ liệu, xác suất và những mô hình tưởng chừng chính xác dần phát hiện ra rằng những sai số lớn nhất không nằm trong thuật toán, mà nằm ở cách anh nhìn nhận tình yêu, gia đình, đồng nghiệp và chính mình."
+        ]
+      },
+      {
+        "heading": "Giới thiệu nội dung",
+        "paragraphs": [
+          "Jason thích toán vì ở đó có đáp án; anh thích văn chương vì có những câu hỏi không nhất thiết phải có đáp án đúng. Anh lớn lên với những ký ức vừa dịu dàng vừa đáng sợ, rồi bước vào tuổi trưởng thành bằng niềm tin rằng mọi vấn đề đều có thể hiểu được nếu quan sát đủ kỹ, đặt đúng biến số và tìm đúng mô hình.",
+          "Từ chuyện mặc quần áo, mua giày, quản lý tiền, yêu đương tới đi làm, anh liên tục tìm cách giải thích hành vi con người bằng kinh tế học, game theory, xác suất, tư duy định lượng. Anh gọi mình là một quant từ trong bản chất: người biết kiểm soát rủi ro giữa một thế giới không thể dự đoán. Nhưng song song với những bài essay đầy tự tin ấy là những mẩu ký ức không theo bất kỳ mô hình nào: một bát cơm nguội nhường cho bố, chuyến tàu số 5 tới Bastille, giấc mơ về căn nhà gỗ bên rừng tuyết, hai chiếc vali khi đến Sài Gòn, những cuộc chia tay chưa kịp giải thích, một cô gái nhìn thấy ý nghĩa trong những nét vẽ nguệch ngoạc trên iPad.",
+          "Bước ngoặt xảy ra khi một mâu thuẫn công sở khiến Jason tự biến mình thành nhân vật trong trò chơi quyền lực do chính anh tưởng tượng. Một bình luận trên Slack, một ticket Linear và một lời đùa trở thành cuộc đối đầu mà anh tin mình đang thắng bằng trí tuệ. Anh tập hợp dữ liệu, kiểm tra lịch sử, sử dụng các AI agent, phát triển mô hình đạo đức để biện minh cho việc phản công. Trong khi đồng nghiệp liên tục khuyên anh dừng lại và người đối đầu gửi lời xin lỗi, Jason vẫn muốn người kia sợ mình. Anh nhận ra muộn màng rằng mình đã bước vào một negative-sum game: không tạo thêm giá trị nào, chỉ cố chứng minh đối phương mất nhiều hơn mình.",
+          "Từ thất bại đó, Jason bắt đầu nhìn lại một bài học anh cho rằng mình đã học từ gia đình: muốn được tôn trọng thì phải khiến người khác sợ. Cảm giác bất động khi đứng trước bố, cách anh phản ứng với mẹ và những lần anh chạy trốn khỏi sự thân mật không còn là các sự kiện riêng rẽ. Chúng đặt ra một câu hỏi khó hơn bất kỳ bài toán tối ưu nào: liệu anh đang nhận diện được pattern của thế giới, hay chỉ liên tục tái tạo pattern của chính mình?",
+          "Sau khi rời công ty, một đồng nghiệp gửi Jason bức ảnh tấm bảng trắng vẫn còn nét vẽ road trip của anh. Rồi đến những người tới buổi chia tay trời mưa, một bao thuốc được để lại, một cái ôm, những tin nhắn hỏi thăm từ người mà anh từng nghĩ chỉ đứng về phía công ty. Những cử chỉ nhỏ đó buộc anh xem xét lại định nghĩa về value, sự tôn trọng và cảm giác thuộc về. Anh vốn rất giỏi phát hiện threat, nhưng gần như không nhận ra affection.",
+          "*.json* không kể về một chuyên gia dữ liệu dùng khoa học để giải thích con người. Nó kể về một người từng tưởng mình có thể làm điều đó, rồi phải học cách sống với những gì mô hình không đo lường được. Cuốn sách khép lại không bằng một công thức, mà bằng khả năng nói lời xin lỗi."
+        ]
+      },
+      {
+        "heading": "Lời hứa dành cho độc giả",
+        "paragraphs": [
+          "Độc giả không cần biết data science để đọc cuốn sách này. Mọi thuật ngữ có vai trò kể chuyện sẽ được đặt trong những trải nghiệm cụ thể. Điều quan trọng không phải độc giả có đồng tình với các theory của Jason hay không, mà là họ được chứng kiến một người thay đổi cách lý giải cuộc đời—trong khi chính những bài viết cũ vẫn hiện diện, đầy những khẳng định mà về sau anh không còn chắc chắn."
+        ]
+      }
     ],
     "source": {
-      "document": "Publisher narrative review",
-      "section": "I. Hồ sơ tác phẩm",
+      "document": "Author-supplied introduction, 18 October 2026",
+      "section": "Introduction",
       "subsections": [
+        "Tác phẩm trong một câu",
         "Giới thiệu nội dung",
         "Lời hứa dành cho độc giả"
       ],
-      "kind": "editorial introduction",
-      "note": "Trích phần dẫn nhập không tiết lộ diễn biến từ hồ sơ tác phẩm; bản nguồn không có lời tựa riêng của tác giả.",
+      "kind": "author-supplied introduction",
+      "note": "The author's full supplied introduction replaces the earlier excerpt from the publisher narrative review. The preceding excerpt remains in repository history.",
       "epigraphSection": "Trang tên sách",
       "epigraphRevision": "Opening updated to I like maths at the author’s request; the remainder follows the supplied epigraph."
     }
@@ -66,66 +87,71 @@
       "id": 1,
       "key": "model_specification",
       "title": "Những mô hình đầu tiên",
-      "subtitle": "Người kể tin rằng thế giới có thể đọc được nếu ta nhận ra cấu trúc của nó."
+      "subtitle": "Người kể tin rằng thế giới có thể đọc được nếu ta nhận ra cấu trúc của nó.",
+      "original_title": "Những mô hình đầu tiên"
     },
     {
       "id": 2,
       "key": "data_collection",
       "title": "Những thứ không thể đo",
-      "subtitle": "Sau hệ thống lý thuyết, độc giả gặp những con người và khung cảnh thực đã nuôi dưỡng tác giả."
+      "subtitle": "Sau hệ thống lý thuyết, độc giả gặp những con người và khung cảnh thực đã nuôi dưỡng tác giả.",
+      "original_title": "Những thứ không thể đo"
     },
     {
       "id": 3,
       "key": "relationship_modeling",
       "title": "Mô hình của tình yêu",
-      "subtitle": "Jason xây các lý thuyết về tiếp cận và bảo vệ bản thân, trong khi các mối quan hệ riêng lẻ làm lộ những điều không lọt vào mô hình ấy."
+      "subtitle": "Jason xây các lý thuyết về tiếp cận và bảo vệ bản thân, trong khi các mối quan hệ riêng lẻ làm lộ những điều không lọt vào mô hình ấy.",
+      "original_title": "Mô hình của tình yêu"
     },
     {
       "id": 4,
       "key": "model_failure",
       "title": "Một mô hình tự chứng minh mình đúng",
-      "subtitle": "Những cuộc hội thoại, tin nhắn và ghi chép công sở."
+      "subtitle": "Những cuộc hội thoại, tin nhắn và ghi chép công sở.",
+      "original_title": "Một mô hình tự chứng minh mình đúng"
     },
     {
       "id": 5,
       "key": "under_revision",
       "title": "Những thứ bị bỏ sót",
-      "subtitle": "Khi việc thắng không còn là mục tiêu, điều gì bắt đầu hiện ra?"
+      "subtitle": "Khi việc thắng không còn là mục tiêu, điều gì bắt đầu hiện ra?",
+      "original_title": "Những thứ bị bỏ sót"
     }
   ],
   "acts": [
     {
       "id": 1,
       "key": "model_specification",
-      "name": "Model specification",
+      "name": "model_specification | Những mô hình đầu tiên",
       "color": "#d98a6b",
       "range": "01–05"
     },
     {
       "id": 2,
       "key": "data_collection",
-      "name": "Data collection",
+      "name": "data_collection | Những thứ không thể đo",
       "color": "#cca55d",
       "range": "06–15"
     },
     {
       "id": 3,
       "key": "relationship_modeling",
-      "name": "Relationship modeling",
+      "name": "relationship_modeling | Mô hình của tình yêu",
       "color": "#cb9292",
       "range": "16–21"
     },
     {
       "id": 4,
       "key": "model_failure",
-      "name": "Model failure",
+      "name": "model_failure | Một mô hình tự chứng minh mình đúng",
       "color": "#c26950",
       "range": "22–26"
     },
     {
       "id": 5,
       "key": "under_revision",
-      "name": "Under revision",
+      "name": "under_revision | Những thứ bị bỏ sót",
       "color": "#a8b8a0",
       "range": "27–31"
     }

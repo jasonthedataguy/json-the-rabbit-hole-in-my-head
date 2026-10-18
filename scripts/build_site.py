@@ -85,7 +85,7 @@ def build_library(output, entries):
         chapters.append({
             'slug': meta['slug'], 'editorialId': meta['number'],
             'legacyId': original['number'] if original else None,
-            'originalTitle': old.get('title', meta['title']), 'title': old.get('title', meta['title']),
+            'originalTitle': old.get('title', meta['title']), 'title': meta['title'],
             'originalHeading': heading, 'language': meta['language'], 'subtitle': old.get('subtitle', ''),
             'html': full, 'bodyHtml': body, 'plainText': plain.result(), 'paragraphCount': count,
             'sourcePath': manuscript.relative_to(ROOT).as_posix(),

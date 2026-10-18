@@ -4,22 +4,22 @@
     {
       "slug": "com-nguoi",
       "number": "00",
-      "title": "Cơm nguội",
+      "title": "Cold Rice",
       "reader": "published manuscript",
       "product_release": "imported proofs; v2 adaptation pending",
-      "files": 71,
-      "bytes": 14000559,
+      "files": 73,
+      "bytes": 17334906,
       "products": 13
     },
     {
       "slug": "i-was-born-a-quant",
       "number": "01",
       "title": "I Was Born a Quant",
-      "reader": "outline only",
-      "product_release": "awaiting author manuscript",
-      "files": 6,
-      "bytes": 2386,
-      "products": 0
+      "reader": "published manuscript",
+      "product_release": "selected author manuscript and editorial web portal; other products pending",
+      "files": 11,
+      "bytes": 4608917,
+      "products": 3
     },
     {
       "slug": "expected-utility",
@@ -34,11 +34,11 @@
     {
       "slug": "play-to-win",
       "number": "03",
-      "title": "Chơi để không thua",
+      "title": "Playing Not to Lose",
       "reader": "published manuscript",
       "product_release": "imported proofs; v2 adaptation pending",
       "files": 109,
-      "bytes": 31072563,
+      "bytes": 31072603,
       "products": 33
     },
     {
@@ -64,21 +64,21 @@
     {
       "slug": "nut-do",
       "number": "06",
-      "title": "Nút đỏ",
+      "title": "The Red Button",
       "reader": "outline only",
       "product_release": "awaiting author manuscript",
       "files": 6,
-      "bytes": 2131,
+      "bytes": 2174,
       "products": 0
     },
     {
       "slug": "mot-nguoi-ban-cu",
       "number": "07",
-      "title": "Một người bạn cũ",
+      "title": "An Old Friend",
       "reader": "outline only",
       "product_release": "awaiting author manuscript",
       "files": 6,
-      "bytes": 2085,
+      "bytes": 2112,
       "products": 0
     },
     {
@@ -94,61 +94,61 @@
     {
       "slug": "the-gioi-trong-mo-cua-toi",
       "number": "09",
-      "title": "Metro số 5",
+      "title": "Metro No. 5",
       "reader": "published manuscript",
       "product_release": "imported proofs; v2 adaptation pending",
       "files": 237,
-      "bytes": 70587636,
+      "bytes": 70587671,
       "products": 27
     },
     {
       "slug": "nhung-thu-khong-duoc-luu-lai",
       "number": "10",
-      "title": "Những thứ không được lưu lại",
+      "title": "The Things We Never Saved",
       "reader": "outline only",
       "product_release": "awaiting author manuscript",
       "files": 6,
-      "bytes": 2337,
+      "bytes": 2372,
       "products": 0
     },
     {
       "slug": "nhung-su-trung-hop",
       "number": "11",
-      "title": "Những sự trùng hợp",
+      "title": "Coincidences",
       "reader": "outline only",
       "product_release": "awaiting author manuscript",
       "files": 6,
-      "bytes": 2337,
+      "bytes": 2361,
       "products": 0
     },
     {
       "slug": "vo-mong",
       "number": "12",
-      "title": "Vỡ mộng",
+      "title": "Disillusionment",
       "reader": "outline only",
       "product_release": "awaiting author manuscript",
       "files": 6,
-      "bytes": 2097,
+      "bytes": 2141,
       "products": 0
     },
     {
       "slug": "nhung-nguoi-anh-em",
       "number": "13",
-      "title": "Những người anh em",
+      "title": "My Brothers",
       "reader": "outline only",
       "product_release": "awaiting author manuscript",
       "files": 6,
-      "bytes": 2215,
+      "bytes": 2239,
       "products": 0
     },
     {
       "slug": "viet-cho-sai-gon-cua-t",
       "number": "14",
-      "title": "Viết cho Sài Gòn của t",
+      "title": "To My Saigon",
       "reader": "published manuscript",
       "product_release": "imported proofs; v2 adaptation pending",
       "files": 105,
-      "bytes": 40538186,
+      "bytes": 40538207,
       "products": 24
     },
     {
@@ -164,11 +164,11 @@
     {
       "slug": "tieu-hanh-tinh",
       "number": "16",
-      "title": "Tiểu hành tinh",
+      "title": "Asteroid",
       "reader": "outline only",
       "product_release": "awaiting author manuscript",
       "files": 6,
-      "bytes": 2067,
+      "bytes": 2091,
       "products": 0
     },
     {
@@ -214,11 +214,11 @@
     {
       "slug": "nhung-hinh-chieu-xau-xi",
       "number": "21",
-      "title": "Những hình chiếu xấu xí",
+      "title": "Ugly Projections",
       "reader": "outline only",
       "product_release": "awaiting author manuscript",
       "files": 6,
-      "bytes": 2160,
+      "bytes": 2186,
       "products": 0
     },
     {
@@ -304,21 +304,21 @@
     {
       "slug": "co-nhung-thu-chi-khi-minh-roi-di-roi-moi-nhin-thay",
       "number": "30",
-      "title": "Có những thứ chỉ khi mình rời đi rồi mới nhìn thấy",
+      "title": "Things You Only See After Leaving",
       "reader": "outline only",
       "product_release": "awaiting author manuscript",
       "files": 6,
-      "bytes": 2760,
+      "bytes": 2783,
       "products": 0
     },
     {
       "slug": "loi-xin-loi",
       "number": "31",
-      "title": "Lời xin lỗi",
+      "title": "An Apology",
       "reader": "outline only",
       "product_release": "awaiting author manuscript",
       "files": 6,
-      "bytes": 2048,
+      "bytes": 2078,
       "products": 0
     },
     {

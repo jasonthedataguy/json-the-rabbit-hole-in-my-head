@@ -33,3 +33,19 @@
   font-display: swap;
   src: url(assets/font-4.ttf) format('truetype');
 }
+
+/* Full Vietnamese coverage and real italic/bold faces for the Vinglish prose. */
+@font-face {
+  font-family: 'Noto Serif';
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url(assets/noto-serif.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Noto Serif';
+  font-style: italic;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url(assets/noto-serif-italic.ttf) format('truetype');
+}

@@ -2,16 +2,16 @@
 
 The publisher narrative review (`json_publisher_narrative_review.pdf.pdf`, supplied by the author) controls the reading structure of this edition:
 
-1. Title, epigraph, and editorial introduction.
+1. Title, epigraph, and author-supplied introduction.
 2. Prologue — Cơm nguội (editorial ID 00).
-3. I — Những mô hình đầu tiên / model_specification (01–05).
-4. II — Những thứ không thể đo / data_collection (06–15).
-5. III — Mô hình của tình yêu / relationship_modeling (16–21).
-6. IV — Một mô hình tự chứng minh mình đúng / model_failure (22–26).
-7. V — Những thứ bị bỏ sót / under_revision (27–31).
+3. I — model_specification | Những mô hình đầu tiên (01–05).
+4. II — data_collection | Những thứ không thể đo (06–15).
+5. III — relationship_modeling | Mô hình của tình yêu (16–21).
+6. IV — model_failure | Một mô hình tự chứng minh mình đúng (22–26).
+7. V — under_revision | Những thứ bị bỏ sót (27–31).
 8. Lời xin lỗi (31) also serves as the epilogue.
 
-The review contains no separate author-written preface. `book.json` holds the review's epigraph (with the opening changed to “I like maths” at the author’s request) and three non-spoiler excerpts from section I as editorial introductory material; the build generates `dist/book.js`. The page identifies this as a lead-in from the work's outline. It does not present the publisher's complete synopsis, later plot revelations, market positioning, or editing recommendations as the book's opening.
+The review contains no separate author-written preface. On 18 October 2026, the author supplied a full replacement Introduction with a one-sentence premise, content synopsis, and reader promise. `book.json` records that text and its source; the build generates `dist/book.js`. The epigraph retains the author-requested “I like maths” opening. The earlier three-paragraph editorial excerpt remains available in repository history.
 
 Published manuscript bytes and all source provenance remain unchanged. Only rendering omits each manuscript's duplicated first heading; the reader heading uses the new book title and records a different published title when applicable. Missing manuscripts show editorial premises from section II as **Đề cương**, never invented full prose.
 

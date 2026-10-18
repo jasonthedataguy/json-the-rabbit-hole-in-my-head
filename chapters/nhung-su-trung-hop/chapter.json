@@ -2,8 +2,8 @@
   "schema_version": 2,
   "slug": "nhung-su-trung-hop",
   "number": "11",
-  "title": "Những sự trùng hợp",
-  "short_title": "Những sự trùng hợp",
+  "title": "Coincidences",
+  "short_title": "Coincidences",
   "part": 2,
   "language": "vi",
   "publish": false,
@@ -23,5 +23,6 @@
   },
   "original_edition": null,
   "production_status": "awaiting author manuscript",
-  "outline_title": "Những sự trùng hợp"
+  "outline_title": "Những sự trùng hợp",
+  "original_title": "Những sự trùng hợp"
 }
