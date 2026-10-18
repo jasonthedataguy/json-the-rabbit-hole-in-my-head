@@ -2,7 +2,7 @@ import { chapters, renderIcon, renderPortal, renderPortalScene } from './chapter
 import { introduction, parts, chapterNotes } from './book.js?v=13';
 import { renderChapterMarker, getChapterMarkerName } from './markers.js?v=13';
 import { PortalRing } from './ring.js?v=10';
-import { renderPortalPicture, renderPortalFrame, renderFramedPortal } from './portal-art.js?v=34';
+import { renderPortalPicture, renderPortalFrame, renderFramedPortal } from './portal-art.js?v=35';
 
 const $ = selector => document.querySelector(selector);
 const $$ = selector => [...document.querySelectorAll(selector)];
@@ -56,7 +56,7 @@ function artHTML(chapter){
   if(chapter.id==='03')return renderFramedPortal('playToWin','play-to-win-chapter','assets/play-to-win-ring-v2.png');
   if(chapter.id==='04')return renderFramedPortal('fashion','fashion-chapter','assets/fashion-ring-v2.png');
   if(chapter.id==='08')return renderFramedPortal('motherRussia','mother-russia-chapter','assets/mother-russia-ring-v2.png');
-  if(chapter.id==='17')return renderFramedPortal('threeMeeting','three-meeting-chapter','assets/three-meeting-ring-v2.png');
+  if(chapter.id==='17')return renderFramedPortal('threeMeeting','three-meeting-chapter','assets/three-meeting-ring-v2.png?v=4');
   if(chapter.id==='18')return renderFramedPortal('datingAlgorithm','dating-algorithm-chapter','assets/dating-algorithm-ring-v2.png');
   if(chapter.id==='19')return renderFramedPortal('dating102','dating-102-chapter','assets/dating-102-ring-v2.png');
   return renderPortal(chapter);
@@ -167,7 +167,7 @@ function selectMapChapter(index,{fromRing=false}={}){
   selectedMapChapter=((index%chapters.length)+chapters.length)%chapters.length;
   const chapter=chapters[selectedMapChapter],part=partById(chapter.act);
   $('#map-view').dataset.chapter=chapter.slug;
-  const fittedRing={'00':'assets/rice-ring-board-v2.png','01':'assets/quant-ring.png','02':'assets/expected-utility-ring-v2.png','03':'assets/play-to-win-ring-v2.png','04':'assets/fashion-ring-v2.png','08':'assets/mother-russia-ring-v2.png','17':'assets/three-meeting-ring-v2.png','18':'assets/dating-algorithm-ring-v2.png','19':'assets/dating-102-ring-v2.png'}[chapter.id];
+  const fittedRing={'00':'assets/rice-ring-board-v2.png','01':'assets/quant-ring.png','02':'assets/expected-utility-ring-v2.png','03':'assets/play-to-win-ring-v2.png','04':'assets/fashion-ring-v2.png','08':'assets/mother-russia-ring-v2.png','17':'assets/three-meeting-ring-v2.png?v=4','18':'assets/dating-algorithm-ring-v2.png','19':'assets/dating-102-ring-v2.png'}[chapter.id];
   const fitted=Boolean(fittedRing);
   const pictureKey=chapter.id==='01'?'quant':chapter.id==='02'?'expectedUtility':chapter.id==='03'?'playToWin':chapter.id==='04'?'fashion':chapter.id==='08'?'motherRussia':chapter.id==='17'?'threeMeeting':chapter.id==='18'?'datingAlgorithm':chapter.id==='19'?'dating102':'rice';
   $('#portal-art').classList.toggle('uses-fitted-picture',fitted);

@@ -77,7 +77,7 @@ For Mother Russia now uses the supplied winter-memory board's photographic porta
 
 ## Three Meeting Theory digital design
 
-Three Meeting Theory uses the supplied romance-and-city board's paper collage ring, sunset bridge centre and rectangular couple/cafe vignette on the chapter map, Chapter 17 reading leaf and desktop book preview. The homepage keeps its common cover ring and shows both people in the centre at this stop. Its separate immersive page uses the new art and retains the original essay and Third Intersection explorer. The board's Chapter 15 is an original-edition label; v2 remains Chapter 17. See [the design adaptation notes](chapters/three-meeting-theory/docs/DESIGN_ADAPTATION.md).
+Three Meeting Theory uses the supplied romance-and-city board's complete circular collage and rectangular couple/cafe vignette on the chapter map, Chapter 17 reading leaf and desktop book preview. The whole illustrated circle turns together, keeping the original bridge and river free of reconstructed background. The homepage keeps its common cover ring and shows both people in the centre at this stop. Its separate immersive page uses the same art and retains the original essay and Third Intersection explorer. The board's Chapter 15 is an original-edition label; v2 remains Chapter 17. See [the design adaptation notes](chapters/three-meeting-theory/docs/DESIGN_ADAPTATION.md).
 
 ## Deployment
 

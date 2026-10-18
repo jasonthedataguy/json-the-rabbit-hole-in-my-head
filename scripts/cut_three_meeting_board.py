@@ -26,49 +26,19 @@ def cut():
     mask = Image.new('L', (SIZE, SIZE))
     draw = ImageDraw.Draw(mask)
     draw.ellipse((5, 5, 995, 995), fill=255)
-    draw.ellipse((248, 248, 752, 752), fill=0)
-
-    # The pair lean into the aperture. Keep both entire people on the rotating
-    # sheet rather than slicing their heads away from their bodies.
-    pair_outline = [
-        (157, 274), (163, 265), (178, 259), (191, 262), (201, 274),
-        (205, 286), (210, 279), (212, 266), (221, 256), (233, 257),
-        (243, 266), (244, 280), (239, 290), (251, 300), (262, 323),
-        (262, 372), (256, 392), (246, 404), (225, 405), (214, 389),
-        (205, 392), (191, 403), (171, 401), (160, 391), (157, 365),
-        (147, 344), (151, 320), (147, 301), (151, 287),
-    ]
-    scale = SIZE / (MAIN_BOX[2] - MAIN_BOX[0])
-    draw.polygon([((x - MAIN_BOX[0]) * scale, (y - MAIN_BOX[1]) * scale)
-                  for x, y in pair_outline], fill=255)
+    # The board supplies a complete circular composition, not an empty river
+    # layer behind the figures. Keep its collage, skyline and couple intact on
+    # one turning sheet instead of fabricating a background inside a cutout.
     ring.putalpha(mask.filter(ImageFilter.GaussianBlur(1.15)))
 
-    # Match the aperture's field of view in the 388 px source circle. Its
-    # 624/1000 diameter is 242 source pixels, centred on the same point as
-    # MAIN_BOX. The old 150 px crop enlarged the bridge and broke the seam.
-    # Remove the foreground pair from this stationary layer; their complete
-    # silhouettes remain on the rotating ring above it.
+    # Retain an aligned centre derivative for reuse in the homepage/artwork
+    # library. The chapter portal shows the intact circle above this picture.
     aperture_size = round((MAIN_BOX[2] - MAIN_BOX[0]) * 624 / SIZE)
     centre_x = (MAIN_BOX[0] + MAIN_BOX[2]) // 2
     centre_y = (MAIN_BOX[1] + MAIN_BOX[3]) // 2
     scene_box = (centre_x - aperture_size // 2, centre_y - aperture_size // 2,
                  centre_x + aperture_size // 2, centre_y + aperture_size // 2)
     scene_source = board.crop(scene_box)
-    people_mask = Image.new('L', scene_source.size)
-    ImageDraw.Draw(people_mask).polygon([(x - scene_box[0], y - scene_box[1])
-                                         for x, y in pair_outline], fill=255)
-    people_mask = people_mask.filter(ImageFilter.MaxFilter(5))
-    for y in range(scene_source.height):
-        occupied = [x for x in range(scene_source.width) if people_mask.getpixel((x, y))]
-        if not occupied:
-            continue
-        left, right = occupied[0], occupied[-1]
-        left_colour = scene_source.getpixel((max(0, left - 3), y))
-        right_colour = scene_source.getpixel((min(scene_source.width - 1, right + 3), y))
-        for x in occupied:
-            blend = (x - left) / max(1, right - left)
-            scene_source.putpixel((x, y), tuple(round(a * (1 - blend) + b * blend)
-                                                 for a, b in zip(left_colour, right_colour)))
     scene = scene_source.resize((SIZE, SIZE), Image.Resampling.LANCZOS)
     # The shared homepage cover ring has no chapter-specific foreground.
     # Keep the board's complete meeting pair in that stop's centre picture.

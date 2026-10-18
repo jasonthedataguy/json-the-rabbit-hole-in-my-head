@@ -34,7 +34,7 @@ The Introduction now uses the latest supplied concept board's complete compositi
 | Play to Win concept board (unchanged) | `references/design/model_specification - play to win dont play not to lose.png` |
 | For Mother Russia ring, aligned centre, homepage centre and cabin vignette | `chapters/for-mother-russia/artwork/portal/mother-russia-ring-v2.png`, `mother-russia-scene-v2.png`, `mother-russia-cover-scene-v2.png`, `mother-russia-cabin-v2.webp` |
 | For Mother Russia concept board (unchanged) | `references/design/data_collection - for mother russia.png` |
-| Three Meeting Theory ring, skyline centre, homepage centre and rectangular vignette | `chapters/three-meeting-theory/artwork/portal/three-meeting-ring-v2.png`, `three-meeting-scene-v2.png`, `three-meeting-cover-scene-v2.png`, `three-meeting-spread-v2.webp` |
+| Three Meeting Theory complete circular artwork, aligned centre derivative, homepage centre and rectangular vignette | `chapters/three-meeting-theory/artwork/portal/three-meeting-ring-v2.png`, `three-meeting-scene-v2.png`, `three-meeting-cover-scene-v2.png`, `three-meeting-spread-v2.webp` |
 | Three Meeting Theory concept board (unchanged) | `references/design/relationshio_modelling - three meeting theory.png` |
 | Later father-and-child Cold Rice alternate (print study) | `chapters/com-nguoi/artwork/portal/rice-scene-board-v3.png` |
 | Full-resolution scene masters | `print/assets/cover-saigon-scene-3000.png`, `print/assets/cold-rice-scene-3000.png` |

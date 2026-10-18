@@ -311,13 +311,13 @@
       "source": "chapters/three-meeting-theory/artwork/portal/three-meeting-ring-v2.png",
       "public_path": "assets/three-meeting-ring-v2.png",
       "sha256_at_intake": "76b0b7d72149c8fc7c2f08b67344c2fdbd60f8530698c137bffb2175d56ed5a8",
-      "provenance": "Transparent chapter ring cut from the author's Three Meeting Theory concept board; both foreground figures remain on the rotating ring. Recipe scripts/cut_three_meeting_board.py. Screen use only."
+      "provenance": "Complete circular chapter illustration cut from the author's Three Meeting Theory concept board; the river and both figures turn as one without a synthetic fill. Recipe scripts/cut_three_meeting_board.py. Screen use only."
     },
     {
       "source": "chapters/three-meeting-theory/artwork/portal/three-meeting-scene-v2.png",
       "public_path": "assets/three-meeting-scene-v2.png",
       "sha256_at_intake": "98e160fa3684d8db2dd28104631364fbd3c72727b13471e7192b8615baa367e4",
-      "provenance": "Stationary sunset skyline, river and bridge centre cut from the same board and cleared of the foreground couple. Recipe scripts/cut_three_meeting_board.py. Screen use only."
+      "provenance": "Aligned centre crop retained as a reusable derivative of the complete Three Meeting Theory board illustration; the chapter portal itself uses the intact circular image above it. Recipe scripts/cut_three_meeting_board.py. Screen use only."
     },
     {
       "source": "chapters/three-meeting-theory/artwork/portal/three-meeting-cover-scene-v2.png",

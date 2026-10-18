@@ -1,5 +1,6 @@
 // One coordinate system for the picture, rotating frame and authoring template.
-// Images are full-bleed scenes. Decorative rings belong only to the frame layer.
+// Most chapters use a separate picture and frame. Three Meeting Theory keeps
+// its indivisible source illustration intact on one rotating circular sheet.
 export const portalGeometry = Object.freeze({size:1000, centre:500, outerRadius:480, apertureRadius:310, pictureRadius:312});
 export const portalPictures = Object.freeze({
   cover:{src:'assets/cover-scene-landscape.png',alt:'Jason looks through the portal toward the original dusk city and bridge landscape.',zoom:1,x:0,y:0},
@@ -12,7 +13,7 @@ export const portalPictures = Object.freeze({
   fashion:{src:'assets/fashion-scene-v2.png',alt:'A red-and-white sneaker, hanging clothes and shoeboxes in a warm room overlooking the city.',zoom:1,x:0,y:0},
   motherRussia:{src:'assets/mother-russia-scene-v2.png',alt:'A glowing wooden cabin in snow faces a river and imagined city beneath a winter moon.',zoom:1,x:0,y:0},
   motherRussiaCover:{src:'assets/mother-russia-cover-scene-v2.png',alt:'A glowing cabin beside a snowy river faces an imagined city beneath a winter moon.',zoom:1,x:0,y:0},
-  threeMeeting:{src:'assets/three-meeting-scene-v2.png?v=3',alt:'A sunset city, river and bridge seen through the Three Meeting Theory portal.',zoom:1,x:0,y:0},
+  threeMeeting:{src:'assets/three-meeting-scene-v2.png?v=4',alt:'Two people meet beside a sunset city and bridge in the Three Meeting Theory illustration.',zoom:1,x:0,y:0},
   threeMeetingCover:{src:'assets/three-meeting-cover-scene-v2.png?v=2',alt:'Two people meet before a sunset bridge and skyline inside the homepage book ring.',zoom:1,x:0,y:0},
   datingAlgorithm:{src:'assets/dating-algorithm-scene-v2.png',alt:'Two people sit together at a lamplit table before a moonlit city, framed by dating profiles and signals.',zoom:1,x:0,y:0},
   datingAlgorithmCover:{src:'assets/dating-algorithm-cover-scene-v2.png',alt:'Two people share a date beneath a crescent moon inside the homepage book ring.',zoom:1,x:0,y:0},
