@@ -39,7 +39,7 @@ def main():
         if parsed.scheme or parsed.netloc: continue
         assert not parsed.path.startswith('/'), f'Use a relative asset URL for GitHub Pages: {src}'
         assert (DIST / unquote(parsed.path)).is_file(), f'Missing public asset: {src}'
-    for name in ['app.js', 'chapters.js', 'ring.js', 'markers.js', 'style.css', 'assets/bowl-reference.jpg']:
+    for name in ['app.js', 'book.js', 'chapters.js', 'ring.js', 'markers.js', 'style.css', 'assets/bowl-reference.jpg']:
         assert (DIST / name).is_file(), name
     print(f'Passed: 10 byte-identical manuscripts ({total:,} bytes), 9 portal mappings, complete static assets.')
 

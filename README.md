@@ -1,8 +1,12 @@
 # .json — Jason, Under Revision · Portal edition
 
-A separate edition of the book website, with 32 rotating chapter portals, five narrative acts and a quiet text reader. The original repository remains at [jasonthedataguy/json-under-revision](https://github.com/jasonthedataguy/json-under-revision).
+A separate digital reading edition of the book. Its opening is a title page, epigraph, and source-based introduction, followed by the Cơm nguội prologue and five narrative parts. Chapters are continuous reading pages; the illustrated portal map and physical-edition notes are separate views. The original repository remains at [jasonthedataguy/json-under-revision](https://github.com/jasonthedataguy/json-under-revision).
 
-The circular paper rim follows mouse or touch angle and snaps to 11.25° stops while the central scene stays upright. Center swipes, scroll gestures, arrow buttons, keyboard navigation and the chapter index provide other ways in. Every portal carries its own item-and-number paper marker. Cơm nguội uses the exact navy-and-ivory rice-bowl badge from the supplied reference image, displayed without redrawing it. Fashion uses a Jordan 1 keepsake.
+The optional illustrated contents map uses a circular paper rim that follows mouse or touch angle and snaps to 11.25° stops while the central scene stays upright. Center swipes, scroll gestures, arrow buttons, keyboard navigation and the chapter index provide other ways in. Every portal carries its own item-and-number paper marker. Cơm nguội uses the exact navy-and-ivory rice-bowl badge from the supplied reference image, displayed without redrawing it. Fashion uses a Jordan 1 keepsake.
+
+## Book structure
+
+`dist/book.js` records the introduction, five Vietnamese part titles, and 32 chapter premises from the publisher narrative review. The introduction is editorial front matter, not an invented author preface. Published chapters retain their exact prose; chapters without full text display a clearly labeled Vietnamese outline. Browser history, type sizing, saved reading positions, a printed-style table of contents, and the mobile contents drawer support reading. Promotional material is absent from the opening; physical-book notes appear only under **Về ấn bản**.
 
 ## Published writing
 
