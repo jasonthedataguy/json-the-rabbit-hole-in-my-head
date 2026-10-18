@@ -1,6 +1,6 @@
 # Editorial notes / Chapter 04
 
-**Status: author review.** The proposed book text is currently identical to the attached Version B. Nothing from the essay was silently deleted, revised or invented.
+**Status: original-edition review notes.** Version B is preserved in `original.md` and `revisions/approved-2026-10-17.md`. The author-final submission of 2026-10-19 is selected in `approved.md`; the sole editorial data request was omitted from the digital reading copy at the author's direction. No Tinder measurements or conclusions were invented.
 
 ## Keep as written
 - Arrogant TED Talk opening; the early 70%/90% model later revealed as invented hyperparameters.

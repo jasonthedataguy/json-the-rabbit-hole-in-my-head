@@ -133,8 +133,8 @@
     },
     {
       "path": "chapter.json",
-      "bytes": 1377,
-      "sha256": "72412bae16139d723e89ee2cf4a8443cd225c699e11e1afe1773466fbd88275a"
+      "bytes": 1429,
+      "sha256": "da4b28c03eefa0cabb904623b6e7a02b93b5015b4509afa49f0bf4be88f7b221"
     },
     {
       "path": "docs/BROWSER_QA.json",
@@ -263,8 +263,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 527,
-      "sha256": "38ba2663d95546ad312434089b3d990d39e520135d38ad7864e1455311fe3251"
+      "bytes": 1029,
+      "sha256": "6577dd3fcc7efc14eda7c5fc6a310151844fcb9592583b6624c7eb726546eab1"
     },
     {
       "path": "references/dating-v01/art/00_CHAPTER_04_COVER.jpg",
@@ -688,8 +688,13 @@
     },
     {
       "path": "source/approved.md",
-      "bytes": 14268,
-      "sha256": "ffa4e16711ff364538e8e60def9144a4dcdbe13b612c1ce10360fa70efae5c49"
+      "bytes": 43595,
+      "sha256": "304dad35f472e6ab17729d6867f8f8db958c75ed9d50ff5170ccad7d75f0f23e"
+    },
+    {
+      "path": "source/author-final-submission-2026-10-19.txt",
+      "bytes": 44748,
+      "sha256": "e848474849fec2d62f4e13ab319504b8525127b5c508ec2c58041396fcbdfa9d"
     },
     {
       "path": "source/original.md",
@@ -697,14 +702,19 @@
       "sha256": "ffa4e16711ff364538e8e60def9144a4dcdbe13b612c1ce10360fa70efae5c49"
     },
     {
+      "path": "source/revisions/approved-2026-10-17.md",
+      "bytes": 14268,
+      "sha256": "ffa4e16711ff364538e8e60def9144a4dcdbe13b612c1ce10360fa70efae5c49"
+    },
+    {
       "path": "source/revisions.log",
-      "bytes": 375,
-      "sha256": "7ca5c16f7d87111a588f64160864cb780fca4536705fe1be8a0e2009d2f0fbf4"
+      "bytes": 1033,
+      "sha256": "0e30d08ed7e58ce9f8044195e0333a051ae3c5912f7a363c1ed0c7bdedd95641"
     },
     {
       "path": "source/SUPPLIED_EDIT_NOTES.md",
-      "bytes": 1933,
-      "sha256": "9621ab157c5d55291d72226aae0a3e12105ff05c0eeef95ae9250ef9f072d72e"
+      "bytes": 2116,
+      "sha256": "476360e401d36642becc98a5acd1fa1ecc91db1a7a5a99b96d88c00e9771c89b"
     },
     {
       "path": "source/SUPPLIED_SOURCE_FACTS.md",
@@ -863,8 +873,8 @@
     },
     {
       "path": "web/index.html",
-      "bytes": 34956,
-      "sha256": "e91e969a5609ee94a5d10641bdaa4c314a2988d86d8e72e72e6a18d83199e7df"
+      "bytes": 67562,
+      "sha256": "834b6fa930af0a33be670623346d4779f52159b04202a339d40c4c425320b9ba"
     },
     {
       "path": "web/template.html",
