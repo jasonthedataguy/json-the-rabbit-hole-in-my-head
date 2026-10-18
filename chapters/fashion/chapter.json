@@ -12,7 +12,7 @@
   "canonical_path": "#chapter/04",
   "summary": "Một thời chạy theo NMD, Yeezy và các thần tượng hip-hop, rồi chuyển từ sưu tập món đồ đắt tiền sang trân trọng thứ mặc được lâu và có lịch sử riêng.",
   "portal": {
-    "scene": "A lived-in bedroom holds shoeboxes, a wardrobe and an inherited old shirt among familiar clothes.",
+    "scene": "A layered wardrobe room holds sneakers, shoeboxes, hanging clothes and photographs against a sunset city window.",
     "objects": [
       "generic sneakers",
       "hanger",
@@ -29,7 +29,7 @@
     "metadata": "references/original-edition/chapter.json",
     "archive_url": "https://jasonthedataguy.github.io/json-under-revision/chapters/02/"
   },
-  "production_status": "imported proofs; v2 adaptation pending",
+  "production_status": "digital portal adapted from final board; imported print and media proofs still need v2 review",
   "manuscript_sha256": "fa6d61a045a5c160a45ecd541382077c46a4581b00de6ffd027bf1674ac78c9e",
   "outline_title": "Fashion — Be Your Own Label"
 }

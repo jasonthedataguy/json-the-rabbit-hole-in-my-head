@@ -42,9 +42,29 @@
       "sha256": "21b33e9b1410425a08bcca2c6116513b83c5d6116b4902a0c62c9df7d685242d"
     },
     {
+      "path": "artwork/portal/fashion-portal-v2.png",
+      "bytes": 1132166,
+      "sha256": "085a4009b374779ef075185bd071177142d5c18a490b70d8c08f05789d0db3c7"
+    },
+    {
       "path": "artwork/portal/fashion-portal.png",
       "bytes": 2899608,
       "sha256": "7f7eefa879ec3e896b226626afda01f96a821aab5bc981bed8908abd0afdcd68"
+    },
+    {
+      "path": "artwork/portal/fashion-ring-v2.png",
+      "bytes": 1362790,
+      "sha256": "52742da172205da90de993e5a2851be6c2e5e035dcff9b3819367b1d5f87e532"
+    },
+    {
+      "path": "artwork/portal/fashion-room-v2.webp",
+      "bytes": 38838,
+      "sha256": "6128874137c6e72e0c037b4ea9375983279a5f0f6118680e7d4aed5edfc14e00"
+    },
+    {
+      "path": "artwork/portal/fashion-scene-v2.png",
+      "bytes": 954259,
+      "sha256": "47db82ba77ae7d1548e414d40f62d20f788e4d7f14c4f91f264b3553268bf515"
     },
     {
       "path": "artwork/scenes/cover_final_concept.jpg",
@@ -183,8 +203,8 @@
     },
     {
       "path": "chapter.json",
-      "bytes": 1403,
-      "sha256": "4db47c25a087d618714ef89d628ae992740ee3477cfc1e03d8751c57b69d9553"
+      "bytes": 1473,
+      "sha256": "70ec3f9457f46eb878eba1e227b6674dab6808b70b212e166d68084319a645ee"
     },
     {
       "path": "docs/CHECKLIST_REVIEW.csv",
@@ -195,6 +215,11 @@
       "path": "docs/CHECKLIST_REVIEW.md",
       "bytes": 11395,
       "sha256": "2a6b83fd3fff91841d26962642360f929c93dde2baa6dbabc5ed3e38d492255a"
+    },
+    {
+      "path": "docs/DESIGN_ADAPTATION.md",
+      "bytes": 1205,
+      "sha256": "6b8b997eb1b8d5d87bf374e13ab9d2a0065d5ce8133e8b00e6eaf7fa9c537a8c"
     },
     {
       "path": "docs/EDITORIAL_REVIEW.md",
@@ -1002,6 +1027,16 @@
       "sha256": "d2b7d76b136b98ce73fa29e33f27d48e7f4cc140adc6a323ef794a24baecb07c"
     },
     {
+      "path": "web/assets/fashion-portal-v2.png",
+      "bytes": 1132166,
+      "sha256": "085a4009b374779ef075185bd071177142d5c18a490b70d8c08f05789d0db3c7"
+    },
+    {
+      "path": "web/assets/fashion-room-v2.webp",
+      "bytes": 38838,
+      "sha256": "6128874137c6e72e0c037b4ea9375983279a5f0f6118680e7d4aed5edfc14e00"
+    },
+    {
       "path": "web/assets/hero.webp",
       "bytes": 357918,
       "sha256": "ccba6df76da9ea6e571c76df1dc43a240b576be90b116b55c36e04c2b582535f"
@@ -1042,9 +1077,14 @@
       "sha256": "a18396d2fbffa2d4a4cccb20b6e1a7b15f8850e7efecff3728ec983f4ef7f4e9"
     },
     {
+      "path": "web/fashion-v2.css",
+      "bytes": 2697,
+      "sha256": "a8ff0b24ef4be5297fb41cfb236c1b361993eae0a23c5456a5884c5dfbce45bb"
+    },
+    {
       "path": "web/index.html",
-      "bytes": 28679,
-      "sha256": "1963ecf57f7a7314650113a98c9d274bbef77f0462d37fe024f0d7e074c2ff43"
+      "bytes": 28739,
+      "sha256": "6cd96178b38fc914fae202a721104b6bed217525af0bb426839d511575dec39d"
     },
     {
       "path": "web/template.html",

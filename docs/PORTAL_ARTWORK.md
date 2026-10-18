@@ -22,6 +22,9 @@ The Introduction now uses the latest supplied concept board's complete compositi
 | Earlier generated cover interpretation (retained as an alternate) | `shared/artwork/book-cover/cover-scene-v2.png` |
 | Three-person Cold Rice scene used by the site | `chapters/com-nguoi/artwork/portal/rice-scene-v2.png` |
 | Cold Rice ring for the chapter map and reader | `chapters/com-nguoi/artwork/portal/rice-ring.png` |
+| Fashion ring, upright centre and wide digital spread | `chapters/fashion/artwork/portal/fashion-ring-v2.png`, `fashion-scene-v2.png`, `fashion-room-v2.webp` |
+| Earlier Fashion Paris portal (inactive reference) | `chapters/fashion/artwork/portal/fashion-portal.png` |
+| Fashion final digital-book board (unchanged) | `references/design/Fashion Chapter Digital Book Board - final.png` |
 | Later father-and-child Cold Rice alternate (print study) | `chapters/com-nguoi/artwork/portal/rice-scene-board-v3.png` |
 | Full-resolution scene masters | `print/assets/cover-saigon-scene-3000.png`, `print/assets/cold-rice-scene-3000.png` |
 | Constant homepage ring, including the foreground figure | `shared/artwork/portal/board-cover-ring.png` |
@@ -51,6 +54,8 @@ python -m http.server 4174 --bind 127.0.0.1
 Open `http://localhost:4174/docs/PORTAL_STUDIO.html`. Choose a preset or a local PNG/JPEG/WebP, adjust zoom and placement, and download the fitted SVG. The export embeds both image and frame, works independently of the repository, and excludes alignment guides. The studio is an internal authoring tool and is not copied to the public site.
 
 ## Generation record
+
+`scripts/cut_fashion_board.py` cuts the Fashion ring, its matching upright centre and the wide wardrobe scene from the author's final 1448 x 1086 digital-book board. The chapter map and Chapter 04 leaf use the Fashion ring. The homepage retains the common cover ring and changes only the centre scene. Both reading views use the wide illustration. The original portal and inherited products remain separate; these crops are digital assets rather than print-resolution masters. The composition proof is `docs/qa/fashion-board-portal-composition.png`.
 
 The Cold Rice chapter ring is cut from the original supplied `chapters/com-nguoi/artwork/portal/rice-portal.png` by `scripts/cut_rice_ring.py`. Its transparent centre reveals the approved `rice-scene-v2.png` family meal; the source illustration is preserved unchanged. This 1000-pixel cut is for the digital chapter map and reader, not the print master. The homepage continues to use the constant book-cover ring at its Cold Rice stop.
 

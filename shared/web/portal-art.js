@@ -7,6 +7,7 @@ export const portalPictures = Object.freeze({
   introductionCover:{src:'assets/introduction-cover-scene-v2.png',alt:'A reader looks through an open book toward a moonlit city and bridge.',zoom:1,x:0,y:0},
   rice:{src:'assets/rice-scene-v2.png',alt:'A family shares a bowl of rice beneath a warm lamp in a paper-cut room.',zoom:1,x:0,y:0},
   quant:{src:'assets/quant-scene.png',alt:'Jason studies a skyline and probability curve, contemplating his risk budget.',zoom:1,x:0,y:0},
+  fashion:{src:'assets/fashion-scene-v2.png',alt:'A red-and-white sneaker, hanging clothes and shoeboxes in a warm room overlooking the city.',zoom:1,x:0,y:0},
   placeholder:{src:'assets/portal-placeholder.svg',alt:'Empty picture slot for a chapter scene.',zoom:1,x:0,y:0}
 });
 const esc=value=>String(value).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
