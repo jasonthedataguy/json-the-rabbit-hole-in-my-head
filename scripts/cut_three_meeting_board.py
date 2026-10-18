@@ -64,7 +64,9 @@ def cut():
             scene_source.putpixel((x, y), tuple(round(a * (1 - blend) + b * blend)
                                                  for a, b in zip(left_colour, right_colour)))
     scene = scene_source.resize((SIZE, SIZE), Image.Resampling.LANCZOS)
-    cover_scene = scene.copy()
+    # The shared homepage cover ring has no chapter-specific foreground.
+    # Keep the board's complete meeting pair in that stop's centre picture.
+    cover_scene = board.crop((100, 180, 330, 410)).resize((SIZE, SIZE), Image.Resampling.LANCZOS)
 
     # A full rectangular reading illustration. Keep the author-provided
     # couple, cafe, bridge and skyline in view, with paper-coloured margins.

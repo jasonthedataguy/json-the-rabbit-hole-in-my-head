@@ -13,7 +13,7 @@ export const portalPictures = Object.freeze({
   motherRussia:{src:'assets/mother-russia-scene-v2.png',alt:'A glowing wooden cabin in snow faces a river and imagined city beneath a winter moon.',zoom:1,x:0,y:0},
   motherRussiaCover:{src:'assets/mother-russia-cover-scene-v2.png',alt:'A glowing cabin beside a snowy river faces an imagined city beneath a winter moon.',zoom:1,x:0,y:0},
   threeMeeting:{src:'assets/three-meeting-scene-v2.png',alt:'A sunset city, river and bridge seen through the Three Meeting Theory portal.',zoom:1,x:0,y:0},
-  threeMeetingCover:{src:'assets/three-meeting-cover-scene-v2.png',alt:'A sunset bridge and skyline frame the next meeting.',zoom:1,x:0,y:0},
+  threeMeetingCover:{src:'assets/three-meeting-cover-scene-v2.png?v=2',alt:'Two people meet before a sunset bridge and skyline inside the homepage book ring.',zoom:1,x:0,y:0},
   placeholder:{src:'assets/portal-placeholder.svg',alt:'Empty picture slot for a chapter scene.',zoom:1,x:0,y:0}
 });
 const esc=value=>String(value).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));

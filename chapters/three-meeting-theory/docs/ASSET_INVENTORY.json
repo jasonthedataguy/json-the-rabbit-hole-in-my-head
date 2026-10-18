@@ -13,8 +13,8 @@
     },
     {
       "path": "artwork/portal/three-meeting-cover-scene-v2.png",
-      "bytes": 729540,
-      "sha256": "98e160fa3684d8db2dd28104631364fbd3c72727b13471e7192b8615baa367e4"
+      "bytes": 1097589,
+      "sha256": "3518ae13e3c8d68d844c12e322123e60ba9b7fa694a5a8356ac1595cff1e6cae"
     },
     {
       "path": "artwork/portal/three-meeting-portal-v2.png",
@@ -198,8 +198,8 @@
     },
     {
       "path": "docs/DESIGN_ADAPTATION.md",
-      "bytes": 1535,
-      "sha256": "79b10bff0aac3e82b507b378070cbcc5731c6af6b1741ddc77cd65ccf8d2416d"
+      "bytes": 1663,
+      "sha256": "ff8cee5d3b8c0c616a8662c7dc5684b4743252d72ccdd473d26449a18df19cea"
     },
     {
       "path": "docs/INVENTORY.json",
