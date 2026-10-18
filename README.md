@@ -63,7 +63,12 @@ Fashion uses the final supplied digital-book board's wardrobe and sneaker portal
 
 Expected Utility uses the supplied portal-layers board's decision-tree ring, laptop-and-eyes centre and desk scene on its Chapter 02 map and reading views. The homepage keeps the shared cover ring and swaps in the aligned centre. The board labels original-edition Chapter 04; the v2 chapter remains 02. See [the Expected Utility adaptation notes](chapters/expected-utility/docs/DESIGN_ADAPTATION.md).
 
+## Play to Win digital design
+
+Play to Win uses the supplied game-table concept board's cards, mahjong, chips and payoff matrix across its Chapter 03 map and reading views. The homepage keeps the shared cover ring and swaps in the aligned table scene. The board labels original-edition Chapter 06; the v2 chapter remains 03 and uses the full author-approved English title. See [the Play to Win adaptation notes](chapters/play-to-win/docs/DESIGN_ADAPTATION.md).
+
 ## Deployment
+
 
 
 GitHub Actions tests, inventories, builds and validates before deploying `dist/` on pushes to `main`. Pull requests run checks without deployment. Source assets and chapter products are versioned; generated site output is ignored. Existing hash routes and root asset URLs are preserved, and all local paths work beneath `/json-under-revision-v2/`.

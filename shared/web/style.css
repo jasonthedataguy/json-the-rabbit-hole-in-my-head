@@ -496,3 +496,29 @@ h1, h2, h3 { font-family: var(--serif); font-weight: 400; line-height: 1.15; }
 #map-view[data-chapter="expected-utility"] .map-enter{border-color:#eda26d88}
 #map-view[data-chapter="expected-utility"] #map-summary{font-family:var(--body-serif)}
 @media(max-width:700px){.utility-chapter-stage{grid-template-columns:1fr;gap:9px}.utility-chapter-stage .chapter-illustration:has(.fitted-portal){width:min(310px,82%);margin:0 auto}.utility-chapter-note{margin:0 12px;padding:14px 0 14px 20px}.utility-chapter-note p{font-size:21px}.utility-desk-banner{margin-top:17px}.utility-chapter-numeral{font-size:60px}.utility-chapter-heading h1{font-size:clamp(43px,11vw,56px)}}
+
+/* Play to Win: paper game room, cards, mahjong and the decision matrix. */
+.play-chapter-heading{text-align:center;margin:0 auto;max-width:940px}
+.play-chapter-heading .leaf-kicker{color:#8c806c}
+.play-chapter-numeral{margin:20px 0 3px;color:#b86955;font:68px/.9 var(--serif)}
+.play-chapter-heading h1{margin:0;color:#142d3a;font:clamp(41px,5.3vw,58px)/1.08 var(--serif);letter-spacing:-1.2px;text-wrap:balance}
+.play-chapter-subtitle{margin:14px 0 0;color:#9d725b;font:11px/1.7 var(--sans);letter-spacing:1.7px;text-transform:uppercase}
+.play-chapter-part{margin:17px 0 0;color:#737c71;font:italic 17px/1.5 var(--body-serif)}
+.play-chapter-stage{display:grid;grid-template-columns:minmax(0,330px) minmax(0,1fr);gap:24px;align-items:center;margin:24px 0 28px}
+.play-chapter-stage .chapter-illustration:has(.fitted-portal){width:100%;height:auto;margin:0;aspect-ratio:1}
+.play-chapter-note{padding:20px 0 20px 25px;border-left:1px solid #b57b60}
+.play-chapter-note>span{color:#a47c61;font:10px/1.5 var(--sans);letter-spacing:1.7px}
+.play-chapter-note p{margin:20px 0 26px;color:#203745;font:22px/1.4 var(--serif)}
+.play-chapter-note button{display:inline-flex;gap:12px;align-items:center;padding:0 0 6px;border:0;border-bottom:1px solid #b98370;background:none;color:#9d6049;font:11px/1.5 var(--sans);letter-spacing:.7px;cursor:pointer}
+.play-chapter-note button:hover{color:#72442f}
+.play-table-banner{margin:0 0 34px}
+.play-table-banner img{display:block;width:100%;aspect-ratio:2.4/1;object-fit:cover;border:4px solid #d6bd9b;box-shadow:0 12px 25px #39443c24}
+.play-table-banner figcaption{margin-top:10px;color:#927e68;font:10px/1.5 var(--sans);letter-spacing:1.3px;text-transform:uppercase}
+#play-chapter-text{scroll-margin-top:80px}
+#play-chapter-text .chapter-prose{margin-top:42px}
+#play-chapter-text .chapter-prose>p:first-of-type::first-letter{color:#b96852}
+#map-view[data-chapter="play-to-win"] .map-number{color:#e89b70}
+#map-view[data-chapter="play-to-win"] .map-enter{border-color:#e89b7088}
+#map-view[data-chapter="play-to-win"] #map-title{font-size:clamp(35px,3.3vw,47px)}
+#map-view[data-chapter="play-to-win"] #map-summary{font-family:var(--body-serif)}
+@media(max-width:700px){.play-chapter-stage{grid-template-columns:1fr;gap:9px}.play-chapter-stage .chapter-illustration:has(.fitted-portal){width:min(310px,82%);margin:0 auto}.play-chapter-note{margin:0 12px;padding:14px 0 14px 20px}.play-chapter-note p{font-size:21px}.play-table-banner{margin-top:17px}.play-chapter-numeral{font-size:60px}.play-chapter-heading h1{font-size:clamp(39px,10vw,53px)}#map-view[data-chapter="play-to-win"] #map-title{font-size:38px}}

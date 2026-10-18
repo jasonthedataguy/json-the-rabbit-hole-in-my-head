@@ -7,7 +7,7 @@
 | Chapter titles, summaries, portal scene metadata | `chapters/<slug>/chapter.json` | Generated `chapter-data.js` |
 | Portal SVG drawing code | `shared/web/chapters.js` | `chapters.js` |
 | Paper ring and bowl badge | `shared/artwork/` | Existing `assets/` URLs through `shared/assets.json` |
-| Cơm nguội / Expected Utility / Fashion portal images | Their chapter’s `artwork/portal/` | Existing portal image URLs |
+| Cơm nguội / Expected Utility / Play to Win / Fashion portal images | Their chapter’s `artwork/portal/` | Existing portal image URLs |
 | Fonts and license texts | `shared/fonts/` | Local `assets/` files, mapped by manifest |
 | Physical-edition concept image | `references/design/` | Only the explicitly mapped concept image |
 | Selected manuscript | `chapters/<slug>/source/approved.md` | Rendered content plus byte-identical Markdown download |

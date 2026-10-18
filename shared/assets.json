@@ -74,6 +74,24 @@
       "provenance": "Wide desk reading image cropped from the same Expected Utility board by scripts/cut_expected_utility_board.py. Digital use only."
     },
     {
+      "source": "chapters/play-to-win/artwork/portal/play-to-win-ring-v2.png",
+      "public_path": "assets/play-to-win-ring-v2.png",
+      "sha256_at_intake": "e0757f72f3c9a74f78e5d56e9ea667fce7f0239cca0ee76a6a67f888d3fa7f37",
+      "provenance": "Transparent game-table chapter ring cut from the author's Play to Win board by scripts/cut_play_to_win_board.py. Digital use only."
+    },
+    {
+      "source": "chapters/play-to-win/artwork/portal/play-to-win-scene-v2.png",
+      "public_path": "assets/play-to-win-scene-v2.png",
+      "sha256_at_intake": "360ce397fbadfde4e2f704d9ca66a32b287c9c905df75ac8560564753dc0b970",
+      "provenance": "Game table, lamp, cards and mahjong centre aligned with the Play to Win ring by scripts/cut_play_to_win_board.py. Digital use only."
+    },
+    {
+      "source": "chapters/play-to-win/artwork/portal/play-to-win-table-v2.webp",
+      "public_path": "assets/play-to-win-table-v2.webp",
+      "sha256_at_intake": "73f22810fe06b88d71625fa242869dbf6024c4c9b795bcaa016603f8f7ae4daa",
+      "provenance": "Wide game-table reading illustration cropped from the same Play to Win board by scripts/cut_play_to_win_board.py. Digital use only."
+    },
+    {
       "source": "shared/fonts/DM-Sans-Regular.ttf",
       "public_path": "assets/font-0.ttf",
       "sha256_at_intake": "b0ae3e89a7d3ef2b1838bb4b1ceb0b17cc3435af061eee809d76aa623ff116e9",

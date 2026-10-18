@@ -57,6 +57,26 @@
       "sha256": "a83ea72294c825e3f59b3baf85e7b4b9c5e32c68524c9c407c6c607f29c3c87e"
     },
     {
+      "path": "artwork/portal/play-to-win-portal-v2.png",
+      "bytes": 1235154,
+      "sha256": "1f15f8308d3b5b0c4f4ffbb8354231ff2db2f4e6bc35e47e9f097cae2bdfa566"
+    },
+    {
+      "path": "artwork/portal/play-to-win-ring-v2.png",
+      "bytes": 1534081,
+      "sha256": "e0757f72f3c9a74f78e5d56e9ea667fce7f0239cca0ee76a6a67f888d3fa7f37"
+    },
+    {
+      "path": "artwork/portal/play-to-win-scene-v2.png",
+      "bytes": 1116847,
+      "sha256": "360ce397fbadfde4e2f704d9ca66a32b287c9c905df75ac8560564753dc0b970"
+    },
+    {
+      "path": "artwork/portal/play-to-win-table-v2.webp",
+      "bytes": 35534,
+      "sha256": "73f22810fe06b88d71625fa242869dbf6024c4c9b795bcaa016603f8f7ae4daa"
+    },
+    {
       "path": "artwork/scenes/01-eight-bamboo.jpg",
       "bytes": 534039,
       "sha256": "d27f0e8b96a4a71c30e68ffcb6d01f85b8f7268049642a88ef08f6e1dd9fc95b"
@@ -188,8 +208,8 @@
     },
     {
       "path": "chapter.json",
-      "bytes": 1475,
-      "sha256": "961ad17611ce3d7596e2138997528de2ff548bbfcff23cea9a9cbec91275a7a3"
+      "bytes": 1569,
+      "sha256": "ed04ad29e7ed3c19daf8e838f9034987cfa0a711b53d04ef65115c7c3474cd34"
     },
     {
       "path": "docs/BROWSER_QA.json",
@@ -200,6 +220,11 @@
       "path": "docs/COMPLETENESS_REVIEW.md",
       "bytes": 1281,
       "sha256": "6b6a7d434f3ed1cb7d58d9b7ff833b20494bd55efbaf21a7d3499fe168e21189"
+    },
+    {
+      "path": "docs/DESIGN_ADAPTATION.md",
+      "bytes": 1241,
+      "sha256": "d5d48431d9789c8f2bb620faeee62d1505f028d93e62eac055c9732ff893b0aa"
     },
     {
       "path": "docs/DESIGN_APPROVAL.md",
@@ -298,8 +323,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 529,
-      "sha256": "dc6f203b24d774203937375064031f0fdcf6a4250e9f9025e3735f1d9277bc57"
+      "bytes": 706,
+      "sha256": "588fdbcecf855a8140a94501465647a51f6d2634f6a505b82cdb1a56f2b42642"
     },
     {
       "path": "references/original-edition/approved.md",
@@ -537,9 +562,24 @@
       "sha256": "092f0703d9d14564e21f9775f04b5e3a8aad0a848f536895803b0a6018fabe18"
     },
     {
+      "path": "web/assets/play-to-win-portal-v2.png",
+      "bytes": 1235154,
+      "sha256": "1f15f8308d3b5b0c4f4ffbb8354231ff2db2f4e6bc35e47e9f097cae2bdfa566"
+    },
+    {
+      "path": "web/assets/play-to-win-table-v2.webp",
+      "bytes": 35534,
+      "sha256": "73f22810fe06b88d71625fa242869dbf6024c4c9b795bcaa016603f8f7ae4daa"
+    },
+    {
       "path": "web/index.html",
-      "bytes": 48115,
-      "sha256": "b50116de7034d5179e957602aac29fb7006ff2ad2c3ffb87ac95919b6a5f2d3d"
+      "bytes": 47981,
+      "sha256": "931fe69540161f9c2fb5c240b496164d1a395f3f62d8e65ca4cbc31fd5d5dcbb"
+    },
+    {
+      "path": "web/play-to-win-v2.css",
+      "bytes": 3274,
+      "sha256": "5ed9e6d4ccbc150531264d100dfdc499c30f31cf501d005d256d34996aa2a1ff"
     },
     {
       "path": "web/template.html",
