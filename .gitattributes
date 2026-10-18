@@ -1,0 +1,4 @@
+# Author-approved source files and downloadable manuscripts retain exact bytes.
+content/chapters/**/approved.md -text
+content/chapters/**/chapter.json -text
+dist/content/manuscripts/*.md -text

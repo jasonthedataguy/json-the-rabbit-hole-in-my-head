@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "slug": "viet-cho-sai-gon-cua-t",
+  "number": "03",
+  "title": "Viết cho Sài Gòn của t",
+  "subtitle": "Nhưng t thì vẫn ở đây.",
+  "publish": true,
+  "language": "vi",
+  "theme": [
+    "belonging",
+    "Saigon",
+    "memory",
+    "friendship",
+    "uncertainty"
+  ],
+  "palette": {
+    "dark": "#1D2A3A",
+    "paper": "#F6EBD7",
+    "accent": "#E9A7B4",
+    "ink": "#1D2A3A"
+  },
+  "artifact": "memory",
+  "canonical_text": "source/approved.md",
+  "canonical_path": "chapters/03/",
+  "aliases": [
+    "chapters/viet-cho-sai-gon-cua-t/"
+  ],
+  "illustration": "references/project-board-v01/assets/saigon_landmark_poster_proof.png",
+  "illustration_provenance": "Supplied project-board concept based on author-provided photographs, as described by the board. Imported as a design reference, not a final cover or documentary photograph. The source photographs are not in this delivery.",
+  "narration": {
+    "status": "awaiting-author-recording",
+    "file": null,
+    "synthetic_voice": false
+  },
+  "video_mode": "edit cuts awaiting author-recorded narration",
+  "print_status": "complete original in illustrated A5 editorial proof; printer production pending",
+  "qr_status": "deferred",
+  "location": "Sài Gòn",
+  "status": "published-multimedia-proofs",
+  "source_status": "author-supplied original; published verbatim",
+  "reference_manifest": "docs/REFERENCE_IMPORT.json",
+  "reference_board": "references/project-board-v01/PROJECT_BOARD.html",
+  "release_stage": "multimedia",
+  "history_text": "source/original.md",
+  "history_label": "Bản gốc của tác giả",
+  "revision_note": "Bản đang đọc giữ nguyên nội dung tác giả cung cấp. Bản viết lại trước đó đã được thay bằng bài gốc.",
+  "hero_alt": "Minh họa người đội mũ hồng và Gấu trên khăn picnic ở Landmark, trước đường chân trời Sài Gòn.",
+  "publication": {
+    "selected_on": "2026-10-16",
+    "selected_from": "source/original.md",
+    "scope": "Author supplied the original essay and requested correction of the published rewrite. Restore the complete original verbatim."
+  },
+  "text_policy": "verbatim-author-original",
+  "manuscript_source": {
+    "path": "source/original.md",
+    "received_on": "2026-10-16",
+    "sha256": "911b174411dced9668dffd01c6860c079cc17e231c5235f5153666c6021d8b26",
+    "bytes": 10658
+  },
+  "web_template": "web/template.html"
+}

@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "slug": "three-meeting-theory",
+  "number": "15",
+  "title": "Three Meeting Theory",
+  "subtitle": "ba lần gặp, một điều gì đó quen thuộc.",
+  "publish": true,
+  "language": "vi",
+  "theme": [
+    "romance",
+    "timing",
+    "memory",
+    "hope"
+  ],
+  "palette": {
+    "dark": "#10233B",
+    "paper": "#F7EFD9",
+    "accent": "#F2CD62",
+    "ink": "#182B45"
+  },
+  "artifact": "third-intersection",
+  "release_stage": "supplied",
+  "web_template": "web/template.html",
+  "canonical_text": "source/approved.md",
+  "canonical_path": "chapters/15/",
+  "aliases": [
+    "chapters/three-meeting-theory/"
+  ],
+  "hero_alt": "Minh họa người đeo ba lô giữa phố và cô gái mặc váy vàng bên hoa hướng dương.",
+  "illustration": "artwork/source/00_approved_project_board.jpg",
+  "illustration_provenance": "Supplied concept-board crops; no new generated artwork or additional native detail.",
+  "narration": {
+    "status": "awaiting-author-recording",
+    "file": null,
+    "synthetic_voice": false
+  },
+  "video_mode": "edit cuts awaiting author-recorded narration",
+  "print_status": "supplied five-page A5 and one-page A4 editorial proofs",
+  "qr_status": "deferred",
+  "source_status": "original supplied manuscript; author requested deployment",
+  "text_policy": "verbatim-author-original",
+  "manuscript_source": {
+    "path": "source/original.md",
+    "received_on": "2026-10-17",
+    "bytes": 2839,
+    "sha256": "b5b27a3d38118db90eb440f12b095a44fc66a73e631e7ca1f5f232b4c65651c2"
+  },
+  "reference_manifest": "docs/REFERENCE_IMPORT.json",
+  "history_label": "Original supplied manuscript",
+  "revision_note": "Published at the author’s request. All eight original paragraphs and their emphasis are preserved; Chapter 15 follows the supplied manuscript and kit. No third reunion has been added."
+}

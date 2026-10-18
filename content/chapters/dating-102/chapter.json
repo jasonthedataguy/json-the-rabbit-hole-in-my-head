@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "slug": "dating-102",
+  "number": "16",
+  "title": "Dating 102",
+  "working_subtitle": "The Wrong Currency",
+  "subtitle": "Rituals are not intimacy.",
+  "publish": true,
+  "language": "vi",
+  "theme": [
+    "relationships",
+    "social status",
+    "curiosity"
+  ],
+  "palette": {
+    "dark": "#0B2B32",
+    "paper": "#F4E8CE",
+    "accent": "#F18B69",
+    "ink": "#0B2B32"
+  },
+  "artifact": "currency-exchange",
+  "release_stage": "multimedia",
+  "canonical_text": "source/approved.md",
+  "canonical_path": "chapters/16/",
+  "aliases": [
+    "chapters/dating-102/"
+  ],
+  "illustration": "artwork/source/CHAPTER16_VISUAL_PROJECT_BOARD.png",
+  "illustration_provenance": "Supplied concept board and hero crop; completed standalone artwork was not supplied.",
+  "narration": {
+    "status": "awaiting-author-recording",
+    "file": null,
+    "synthetic_voice": false
+  },
+  "video_mode": "edit cuts awaiting author-recorded narration",
+  "print_status": "A5, A4 and bookmark editorial proofs; concept-resolution artwork",
+  "qr_status": "deferred",
+  "reference_manifest": "docs/REFERENCE_IMPORT.json",
+  "source_status": "Author-supplied essay; formatting-only normalization documented in docs/SOURCE_INTAKE.json",
+  "publication_authorization": "User requested Chapter 16 deployment and supplied the missing manuscript. No additional approval gate inferred from reference-board instructions.",
+  "web_template": "web/template.html",
+  "text_policy": "verbatim-author-original",
+  "manuscript_source": {
+    "path": "source/original.md",
+    "received_on": "2026-10-17",
+    "bytes": 8257,
+    "sha256": "9e06a356af02fbd37adae316a8bcda767c367e724638e8e1884dc143a105c652"
+  },
+  "hero_alt": "Minh họa người thuyết trình và hai người cùng xem những nét vẽ trên máy tính bảng.",
+  "revision_note": "Toàn bộ mười đoạn văn do tác giả gửi được giữ nguyên lời. Chỉ chuẩn hóa định dạng từ nội dung dán; ghi chú nguồn nằm riêng bên dưới.",
+  "history_label": "original.md — văn bản tác giả gửi"
+}
