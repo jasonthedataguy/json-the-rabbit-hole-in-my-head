@@ -10,6 +10,8 @@ export const portalPictures = Object.freeze({
   expectedUtility:{src:'assets/expected-utility-scene-v2.png',alt:'A laptop shows a woman’s eyes amid code, notes, coffee and branching decisions.',zoom:1,x:0,y:0},
   playToWin:{src:'assets/play-to-win-scene-v2.png',alt:'A warm lamp lights a game table with cards, poker chips, mahjong tiles and a payoff matrix.',zoom:1,x:0,y:0},
   fashion:{src:'assets/fashion-scene-v2.png',alt:'A red-and-white sneaker, hanging clothes and shoeboxes in a warm room overlooking the city.',zoom:1,x:0,y:0},
+  motherRussia:{src:'assets/mother-russia-scene-v2.png',alt:'A glowing wooden cabin in snow faces a river and imagined city beneath a winter moon.',zoom:1,x:0,y:0},
+  motherRussiaCover:{src:'assets/mother-russia-cover-scene-v2.png',alt:'A glowing cabin beside a snowy river faces an imagined city beneath a winter moon.',zoom:1,x:0,y:0},
   placeholder:{src:'assets/portal-placeholder.svg',alt:'Empty picture slot for a chapter scene.',zoom:1,x:0,y:0}
 });
 const esc=value=>String(value).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));

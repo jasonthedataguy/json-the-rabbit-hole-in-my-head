@@ -7,6 +7,36 @@
       "sha256": "4f3d6f89d0899a7775157136cb10b0d05fdda5705937430f637841bd48399096"
     },
     {
+      "path": "artwork/portal/index.json",
+      "bytes": 1215,
+      "sha256": "7a858853b4574790fc70af8c3997bb553f6a71a2d7b21a8097825b5cff515885"
+    },
+    {
+      "path": "artwork/portal/mother-russia-cabin-v2.webp",
+      "bytes": 23372,
+      "sha256": "ac3d565b6571b3fc784d7a1555b9e9d5f7bf698bce89107608994d6cfdcf105c"
+    },
+    {
+      "path": "artwork/portal/mother-russia-cover-scene-v2.png",
+      "bytes": 1139948,
+      "sha256": "1cad35554bda31e3a05040ab7379c276a10dd04e044ce648ea542018539264d7"
+    },
+    {
+      "path": "artwork/portal/mother-russia-portal-v2.png",
+      "bytes": 1404371,
+      "sha256": "353f3e4a7f59cb127a842c2ef8a84c7cfe8b60448a78e44b82908a4a0e6c1245"
+    },
+    {
+      "path": "artwork/portal/mother-russia-ring-v2.png",
+      "bytes": 1712859,
+      "sha256": "dca2095363a044081d41e28f5b528893d5841ab0786e0389b72005a8085b9258"
+    },
+    {
+      "path": "artwork/portal/mother-russia-scene-v2.png",
+      "bytes": 1315489,
+      "sha256": "e1ee047427f9de1d65125c1a2d62ed9a660cdaff1b00e95cbcdc1ef5cc911d9c"
+    },
+    {
       "path": "artwork/source/00_CHAPTER_POSTER_A4.jpg",
       "bytes": 595623,
       "sha256": "a0afab9e2fc3f969bf0ed6a2251736bebaf1288c56faf6f9b6967805f552e06b"
@@ -83,8 +113,8 @@
     },
     {
       "path": "chapter.json",
-      "bytes": 1547,
-      "sha256": "74cb8d3755715c1aadaae1edc4805aef85fb2e1ec7ab97d2a9c81954270bd842"
+      "bytes": 1608,
+      "sha256": "d8539e3b74eb161c2c35ab76405fb7a9c64c0119fd06b6a6e0f0e414e5367b98"
     },
     {
       "path": "docs/ARTWORK_CROPS.json",
@@ -95,6 +125,11 @@
       "path": "docs/BROWSER_QA.json",
       "bytes": 797,
       "sha256": "724540b7e2aaab4c3288b1e45a7169c1c1797f02e44bb6ed3a51e9ea798c8336"
+    },
+    {
+      "path": "docs/DESIGN_ADAPTATION.md",
+      "bytes": 1372,
+      "sha256": "2f004d6f322cd863f5b9c312b60d244ce422be876edcb21633d928ad22d21729"
     },
     {
       "path": "docs/INVENTORY.json",
@@ -118,8 +153,8 @@
     },
     {
       "path": "docs/PRODUCTS.json",
-      "bytes": 2229,
-      "sha256": "321cadf23925e4474f8733483a1f9192903024bf85d27322b247dceecf0971a8"
+      "bytes": 2592,
+      "sha256": "24d314e320ebf5797494754732591c01c48913a17588e5e531114895855a0da9"
     },
     {
       "path": "docs/REFERENCE_IMPORT.json",
@@ -143,8 +178,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 529,
-      "sha256": "fd94276d45d9cb0c87d3db61bc5ddbb8c82b7e4656133afec9363fd38590eec5"
+      "bytes": 858,
+      "sha256": "f10675cc512d22d1db5c866914459999656d3c7c4ba607f8eba2c6bc161907be"
     },
     {
       "path": "references/mother-russia-v01/art/00_CHAPTER_POSTER_A4.jpg",
@@ -657,6 +692,16 @@
       "sha256": "c8ccbecd216b91a11ceff7d936f7cdcb64eefbb274a0a15882232d7a72b87330"
     },
     {
+      "path": "web/assets/mother-russia-cabin-v2.webp",
+      "bytes": 23372,
+      "sha256": "ac3d565b6571b3fc784d7a1555b9e9d5f7bf698bce89107608994d6cfdcf105c"
+    },
+    {
+      "path": "web/assets/mother-russia-portal-v2.png",
+      "bytes": 1404371,
+      "sha256": "353f3e4a7f59cb127a842c2ef8a84c7cfe8b60448a78e44b82908a4a0e6c1245"
+    },
+    {
       "path": "web/assets/reader-hero.jpg",
       "bytes": 465478,
       "sha256": "4f756821e48f72514e3c73604bfa5c1c16cf53ccfbfb876e0afd46c93d73176a"
@@ -688,8 +733,13 @@
     },
     {
       "path": "web/index.html",
-      "bytes": 23225,
-      "sha256": "95bd9bfed3c21dd040494f44b9597964f0eeeb976cd392ddb6d9f0c9aeec4b33"
+      "bytes": 23281,
+      "sha256": "3d3f35b81f0d86dba01bb9b42e41e780407ab4a093c28e33fa9bebd8aa0afc73"
+    },
+    {
+      "path": "web/mother-russia-v2.css",
+      "bytes": 1790,
+      "sha256": "7c12ee23edc3ead21ef9fcf01187b80ffb108b18035663d1c924fd1f76078003"
     },
     {
       "path": "web/template.html",

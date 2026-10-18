@@ -71,6 +71,10 @@ Expected Utility uses the supplied portal-layers board's decision-tree ring, lap
 
 Play to Win uses the supplied game-table concept board's cards, mahjong, chips and payoff matrix across its Chapter 03 map and reading views. The homepage keeps the shared cover ring and swaps in the aligned table scene. The board labels original-edition Chapter 06; the v2 chapter remains 03 and uses the full author-approved English title. See [the Play to Win adaptation notes](chapters/play-to-win/docs/DESIGN_ADAPTATION.md).
 
+## For Mother Russia digital design
+
+For Mother Russia now uses the supplied winter-memory board's photographic portal ring, snowy city-and-cabin centre and rectangular cabin vignette in the chapter map, Chapter 08 reading leaf and desktop book preview. The homepage retains the common cover ring and shows the new centre at this stop. Its separate immersive page adopts the same art while keeping the original essay and Memory Graph. The board's Chapter 03 is a concept label; v2 remains Chapter 08, and original-edition 05 remains historical metadata. See [the design adaptation notes](chapters/for-mother-russia/docs/DESIGN_ADAPTATION.md).
+
 ## Deployment
 
 

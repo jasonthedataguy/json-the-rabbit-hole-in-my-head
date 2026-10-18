@@ -1,0 +1,33 @@
+{
+  "source": "references/design/data_collection - for mother russia.png",
+  "source_sha256": "55e193583d8a33a6d7d49aef37b8bb0f2ee860b635d76254c1eb1e6ac0e2c18b",
+  "source_dimensions": [1448, 1086],
+  "recipe": "scripts/cut_mother_russia_board.py",
+  "usage": "screen artwork; not print-resolution separated layers",
+  "cuts": [
+    {
+      "file": "mother-russia-ring-v2.png",
+      "source_rect_xyxy": [18, 117, 412, 511],
+      "selection": "main artwork annulus with photographs, red star, snowy pines and train"
+    },
+    {
+      "file": "mother-russia-scene-v2.png",
+      "source_rect_xyxy": [92, 191, 338, 437],
+      "selection": "aligned upright river, cabin and imagined city centre"
+    },
+    {
+      "file": "mother-russia-cover-scene-v2.png",
+      "source_rect_xyxy": [128, 228, 308, 408],
+      "selection": "tighter child-free centre for the constant homepage book ring"
+    },
+    {
+      "file": "mother-russia-cabin-v2.webp",
+      "source_rect_xyxy": [9, 543, 249, 693],
+      "selection": "complete rectangular winter cabin vignette for reading pages"
+    },
+    {
+      "file": "mother-russia-portal-v2.png",
+      "selection": "composite proof for the original immersive page"
+    }
+  ]
+}
