@@ -1,0 +1,35 @@
+{
+  "schema_version": 2,
+  "slug": "the-gioi-trong-mo-cua-toi",
+  "number": "09",
+  "title": "Metro số 5",
+  "short_title": "Metro số 5",
+  "part": 2,
+  "language": "vi",
+  "publish": true,
+  "release_stage": "reader-with-original-products",
+  "canonical_text": "source/approved.md",
+  "canonical_path": "#chapter/09",
+  "summary": "Hai đứa trẻ ngồi đối diện trên chuyến tàu tới Bastille. Từ một đoạn hội thoại nghe được, Jason tưởng tượng ra bữa tối trong gia đình chúng và thứ ánh sáng vàng của những phim cũ.",
+  "portal": {
+    "scene": "Two children sit opposite one another in an observed Paris metro carriage approaching Bastille.",
+    "objects": [
+      "Metro 5 sign",
+      "opposite seats",
+      "carriage window"
+    ],
+    "iconKey": "metro",
+    "motif": "The carriage window"
+  },
+  "original_edition": {
+    "number": "09",
+    "title": "Thế giới trong mơ của tôi",
+    "repo": "https://github.com/jasonthedataguy/json-under-revision",
+    "commit": "b41b692b3e3633abea4997b6ac4513a91308f127",
+    "metadata": "references/original-edition/chapter.json",
+    "archive_url": "https://jasonthedataguy.github.io/json-under-revision/chapters/09/"
+  },
+  "production_status": "imported proofs; v2 adaptation pending",
+  "manuscript_sha256": "4382f452fa05b61baceed66a86b0510882f9a5b7329a44bf9fa3e831b830c3d9",
+  "outline_title": "Metro số 5"
+}

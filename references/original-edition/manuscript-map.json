@@ -1,0 +1,126 @@
+{
+  "sourceRepo": "https://github.com/jasonthedataguy/json-under-revision",
+  "sourceCommit": "b41b692b3e3633abea4997b6ac4513a91308f127",
+  "chapters": [
+    {
+      "slug": "fashion",
+      "title": "Fashion",
+      "sourceNumber": "02",
+      "sourceCanonicalPath": "chapters/02/",
+      "portalId": "04",
+      "matchEvidence": "title match",
+      "manuscriptPath": "chapters/fashion/source/approved.md",
+      "manuscriptSha256": "fa6d61a045a5c160a45ecd541382077c46a4581b00de6ffd027bf1674ac78c9e",
+      "manuscriptBytes": 6643,
+      "heroPath": "chapters/fashion/artwork/exports/hero.jpg"
+    },
+    {
+      "slug": "viet-cho-sai-gon-cua-t",
+      "title": "Viết cho Sài Gòn của t",
+      "sourceNumber": "03",
+      "sourceCanonicalPath": "chapters/03/",
+      "portalId": "14",
+      "matchEvidence": "exact title match",
+      "manuscriptPath": "chapters/viet-cho-sai-gon-cua-t/source/approved.md",
+      "manuscriptSha256": "911b174411dced9668dffd01c6860c079cc17e231c5235f5153666c6021d8b26",
+      "manuscriptBytes": 10658,
+      "heroPath": "chapters/viet-cho-sai-gon-cua-t/artwork/exports/hero.jpg"
+    },
+    {
+      "slug": "expected-utility",
+      "title": "Expected_utility",
+      "sourceNumber": "04",
+      "sourceCanonicalPath": "chapters/04/",
+      "portalId": "02",
+      "matchEvidence": "title match after underscore normalization",
+      "manuscriptPath": "chapters/expected-utility/source/approved.md",
+      "manuscriptSha256": "9ede9cdc721416cbc1f625d7a0df5f2ce1329a1050f8c7e6dab32785c595e5d4",
+      "manuscriptBytes": 9999,
+      "heroPath": "chapters/expected-utility/artwork/exports/hero.jpg"
+    },
+    {
+      "slug": "for-mother-russia",
+      "title": "For Mother Russia",
+      "sourceNumber": "05",
+      "sourceCanonicalPath": "chapters/05/",
+      "portalId": "08",
+      "matchEvidence": "exact title match",
+      "manuscriptPath": "chapters/for-mother-russia/source/approved.md",
+      "manuscriptSha256": "0ef9d0379a64c2d7229a4bcec11fe85b1f57518865581a121a935e9923b90b3a",
+      "manuscriptBytes": 6260,
+      "heroPath": "chapters/for-mother-russia/artwork/exports/hero.jpg"
+    },
+    {
+      "slug": "play-to-win",
+      "title": "Play to Win, Don’t Play Not to Lose",
+      "sourceNumber": "06",
+      "sourceCanonicalPath": "chapters/06/",
+      "portalId": "03",
+      "matchEvidence": "source original heading Chơi để không thua, exact portal title; approved title changed explicitly in chapter.json",
+      "manuscriptPath": "chapters/play-to-win/source/approved.md",
+      "manuscriptSha256": "116573a7d6778968bdde5be030d9fb764346a992cd263d83efb94c6e2727e42b",
+      "manuscriptBytes": 15534,
+      "heroPath": "chapters/play-to-win/artwork/exports/hero.jpg"
+    },
+    {
+      "slug": "com-nguoi",
+      "title": "Cơm nguội",
+      "sourceNumber": "07",
+      "sourceCanonicalPath": "chapters/07/",
+      "portalId": "00",
+      "matchEvidence": "title match",
+      "manuscriptPath": "chapters/com-nguoi/source/approved.md",
+      "manuscriptSha256": "d957b592dc2317aa34196dd25ab42a3fe4a7938d3aee5a1121ab173214bf76f9",
+      "manuscriptBytes": 1399,
+      "heroPath": "chapters/com-nguoi/artwork/exports/hero.jpg"
+    },
+    {
+      "slug": "dating-algorithm",
+      "title": "Dating Algorithm",
+      "sourceNumber": "08",
+      "sourceCanonicalPath": "chapters/08/",
+      "portalId": "18",
+      "matchEvidence": "exact title match",
+      "manuscriptPath": "chapters/dating-algorithm/source/approved.md",
+      "manuscriptSha256": "ffa4e16711ff364538e8e60def9144a4dcdbe13b612c1ce10360fa70efae5c49",
+      "manuscriptBytes": 14268,
+      "heroPath": "chapters/dating-algorithm/artwork/exports/hero.jpg"
+    },
+    {
+      "slug": "the-gioi-trong-mo-cua-toi",
+      "title": "Thế giới trong mơ của tôi",
+      "sourceNumber": "09",
+      "sourceCanonicalPath": "chapters/09/",
+      "portalId": "09",
+      "matchEvidence": "manuscript describes Metro5/Bastille/two children/phone/imagined family kitchen; portal title is scene title",
+      "manuscriptPath": "chapters/the-gioi-trong-mo-cua-toi/source/approved.md",
+      "manuscriptSha256": "4382f452fa05b61baceed66a86b0510882f9a5b7329a44bf9fa3e831b830c3d9",
+      "manuscriptBytes": 5060,
+      "heroPath": "chapters/the-gioi-trong-mo-cua-toi/artwork/exports/hero.jpg"
+    },
+    {
+      "slug": "three-meeting-theory",
+      "title": "Three Meeting Theory",
+      "sourceNumber": "15",
+      "sourceCanonicalPath": "chapters/15/",
+      "portalId": "17",
+      "matchEvidence": "exact title match",
+      "manuscriptPath": "chapters/three-meeting-theory/source/approved.md",
+      "manuscriptSha256": "b5b27a3d38118db90eb440f12b095a44fc66a73e631e7ca1f5f232b4c65651c2",
+      "manuscriptBytes": 2839,
+      "heroPath": "chapters/three-meeting-theory/artwork/exports/hero.jpg"
+    },
+    {
+      "slug": "dating-102",
+      "title": "Dating 102",
+      "sourceNumber": "16",
+      "sourceCanonicalPath": "chapters/16/",
+      "portalId": null,
+      "matchEvidence": "No justified atlas mapping; preserve as additional source archive chapter",
+      "manuscriptPath": "chapters/dating-102/source/approved.md",
+      "manuscriptSha256": "9e06a356af02fbd37adae316a8bcda767c367e724638e8e1884dc143a105c652",
+      "manuscriptBytes": 8257,
+      "heroPath": "chapters/dating-102/artwork/exports/hero.jpg"
+    }
+  ]
+}

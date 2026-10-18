@@ -1,0 +1,35 @@
+{
+  "chapter": "command-respect",
+  "files": [
+    {
+      "path": "chapter.json",
+      "bytes": 1021,
+      "sha256": "c76a4eeef16f6e27938afc1ae80de825473eb4e6b480ccbfcd98e150d757e656"
+    },
+    {
+      "path": "docs/PRODUCTS.json",
+      "bytes": 310,
+      "sha256": "bc7e25bf5c1ae86ca64e656cc632b1fe9678cbc78b60ddb36fa4f0415ded1a7b"
+    },
+    {
+      "path": "production.json",
+      "bytes": 158,
+      "sha256": "04cca5cbcb7714947f2e115425c3b36fd58203c853d17184364ed8f229b16d7d"
+    },
+    {
+      "path": "README.md",
+      "bytes": 430,
+      "sha256": "7b6c15b92bdd15d0d54878a8dc6d439375890c5ad46e757188161d6dafcdc00a"
+    },
+    {
+      "path": "source/outline.md",
+      "bytes": 425,
+      "sha256": "117f65adf159c7ce98f7ebd38aefca8bd041d9a1f6d110de81f5b661a5a096d2"
+    },
+    {
+      "path": "source/revisions.log",
+      "bytes": 111,
+      "sha256": "e01ec275c2bd0c7128f4545ba1a8339712c2e287d8a0ea329c9ccf3068756f36"
+    }
+  ]
+}

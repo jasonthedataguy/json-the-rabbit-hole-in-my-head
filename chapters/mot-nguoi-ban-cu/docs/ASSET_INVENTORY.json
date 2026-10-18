@@ -1,0 +1,35 @@
+{
+  "chapter": "mot-nguoi-ban-cu",
+  "files": [
+    {
+      "path": "chapter.json",
+      "bytes": 838,
+      "sha256": "6ef3a7b13a3c5ffa18b5c4942253b5fa8d26b632bfe67123dd8ca00432c1df25"
+    },
+    {
+      "path": "docs/PRODUCTS.json",
+      "bytes": 311,
+      "sha256": "0861301e765d7c368357a2290dcddb140820e23f11342496c5f5fd976157678d"
+    },
+    {
+      "path": "production.json",
+      "bytes": 158,
+      "sha256": "04cca5cbcb7714947f2e115425c3b36fd58203c853d17184364ed8f229b16d7d"
+    },
+    {
+      "path": "README.md",
+      "bytes": 440,
+      "sha256": "dbb5e8bbd74115dacfe6fcfc084603f91ccc7b1bd7d8e2cc9e84b02b08ba1c78"
+    },
+    {
+      "path": "source/outline.md",
+      "bytes": 227,
+      "sha256": "59199bb6da19f6a4642d4f7e278f4eb8cc11c931b354191eb241c482f4798f63"
+    },
+    {
+      "path": "source/revisions.log",
+      "bytes": 111,
+      "sha256": "e01ec275c2bd0c7128f4545ba1a8339712c2e287d8a0ea329c9ccf3068756f36"
+    }
+  ]
+}

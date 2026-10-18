@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "slug": "sharingan",
+  "number": "27",
+  "title": "Sharingan",
+  "short_title": "Sharingan",
+  "part": 5,
+  "language": "vi",
+  "publish": false,
+  "release_stage": "outline",
+  "canonical_text": null,
+  "canonical_path": "#chapter/27",
+  "summary": "Đi bộ dưới những cây cổ thụ, Jason nhớ lần rời Masan hai năm trước và nhận ra lịch sử có vẻ đang lặp lại. Người tự hào sở hữu đôi mắt Sharingan nhìn được pattern ở mọi nơi lại không thấy những pattern độc hại của chính mình.",
+  "portal": {
+    "scene": "A solitary path passes ancient trees whose bark holds an eye-shaped reflection.",
+    "objects": [
+      "leaf",
+      "reflection",
+      "repeated footprints"
+    ],
+    "iconKey": "eye",
+    "motif": "The quiet path"
+  },
+  "original_edition": null,
+  "production_status": "awaiting author manuscript",
+  "outline_title": "Sharingan"
+}

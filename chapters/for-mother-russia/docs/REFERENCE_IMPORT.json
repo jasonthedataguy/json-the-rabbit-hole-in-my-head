@@ -1,0 +1,569 @@
+{
+  "source_working_number": "03",
+  "published_chapter": "05",
+  "packages": [
+    {
+      "name": "For_Mother_Russia_Book_and_Poster.zip",
+      "sha256": "2e6792a45b81b888ec3e863112d83562919dce497ab70fe0e790287ff8790f88"
+    },
+    {
+      "name": "For_Mother_Russia_Interactive_Website.zip",
+      "sha256": "f2ccc3bb472838f649b002f3681e75b5f72f8467b6f5e8847cb286a9728378d5"
+    },
+    {
+      "name": "For_Mother_Russia_Project_Board_and_Source.zip",
+      "sha256": "1af7f717b78703b9e95340f20387503a17833279357cfd301e701f72b8e15a76"
+    },
+    {
+      "name": "For_Mother_Russia_Social_and_Video.zip",
+      "sha256": "a897ba3f04df281b0bb9cbf55ff268a05b456ae088036c1afc0fe3e6731bb94c"
+    }
+  ],
+  "files": [
+    {
+      "path": "references/mother-russia-v01/README.md",
+      "bytes": 1633,
+      "sha256": "aeed012498de2a07766eb608709d435502ddae6cb70951d597d27ebabbf70749",
+      "packages": [
+        "For_Mother_Russia_Project_Board_and_Source.zip"
+      ]
+    },
+    {
+      "path": "references/mother-russia-v01/art/00_CHAPTER_POSTER_A4.jpg",
+      "bytes": 595623,
+      "sha256": "a0afab9e2fc3f969bf0ed6a2251736bebaf1288c56faf6f9b6967805f552e06b",
+      "packages": [
+        "For_Mother_Russia_Book_and_Poster.zip"
+      ]
+    },
+    {
+      "path": "references/mother-russia-v01/art/01_HERO_beanie_Gau_blue_winter.jpg",
+      "bytes": 664333,
+      "sha256": "788002362094d7724da3ffa534078c7a2518bb6318b4323778b371fbb9dadc2f",
+      "packages": [
+        "For_Mother_Russia_Book_and_Poster.zip"
+      ]
+    },
+    {
+      "path": "references/mother-russia-v01/art/02_snowy_path.jpg",
+      "bytes": 232748,
+      "sha256": "c2964a95ecd7fae11f87a77ae70dcb27cc115095ceeeb80dc802ae37769487d9",
+      "packages": [
+        "For_Mother_Russia_Book_and_Poster.zip"
+      ]
+    },
+    {
+      "path": "references/mother-russia-v01/art/03_grandfather.jpg",
+      "bytes": 123448,
+      "sha256": "ce4492db0d27895cd989ed7451f45fdceeebe0557e6756e12298d38d3fba3f25",
+      "packages": [
+        "For_Mother_Russia_Book_and_Poster.zip"
+      ]
+    },
+    {
+      "path": "references/mother-russia-v01/art/04_soviet_apartments.jpg",
+      "bytes": 130481,
+      "sha256": "c31440edfcd49fe1d0eae0d8def63655843cecdc6a3d595483924d96b7c5aee4",
+      "packages": [
+        "For_Mother_Russia_Book_and_Poster.zip"
+      ]
+    },
+    {
+      "path": "references/mother-russia-v01/art/05_russian_salad.jpg",
+      "bytes": 150898,
+      "sha256": "d858ecb915ea1e356b8cbd9981b21e30af6a6c5449bc45f063c80730b2a2459c",
+      "packages": [
+        "For_Mother_Russia_Book_and_Poster.zip"
+      ]
+    },
+    {
+      "path": "references/mother-russia-v01/art/06_stalingrad_game_memory.jpg",
+      "bytes": 141763,
+      "sha256": "f4f7fdd8c877d6c35dc2c0f9342b6df6dfc035f183eb6e45c405ce9f21a1c932",
+      "packages": [
+        "For_Mother_Russia_Book_and_Poster.zip"
+      ]
+    },
+    {
+      "path": "references/mother-russia-v01/art/07_wood_cabin.jpg",
+      "bytes": 144418,
+      "sha256": "a144f73be31731e2c741e4b0df0ca6631cd016a66998050577c2375691c24332",
+      "packages": [
+        "For_Mother_Russia_Book_and_Poster.zip"
+      ]
+    },
+    {
+      "path": "references/mother-russia-v01/art/08_snow_forest.jpg",
+      "bytes": 133488,
+      "sha256": "993ee74e9ce598b4490e06a34842b539408517ed1e8054332fb80fa0809680ef",
+      "packages": [
+        "For_Mother_Russia_Book_and_Poster.zip"
+      ]
+    },
+    {
+      "path": "references/mother-russia-v01/art/09_volga_dream.jpg",
+      "bytes": 147729,
+      "sha256": "c2e2fe5d4f830193e8a7da09baf4ef15dd74431f9baef77999e1feee743c5726",
+      "packages": [
+        "For_Mother_Russia_Book_and_Poster.zip"
+      ]
+    },
+    {
+      "path": "references/mother-russia-v01/art/10_game_screen.jpg",
+      "bytes": 146544,
+      "sha256": "90d54d58cda9ff976135bd32c05314aa6cc99ef55a293a1e40505ce91b3613a8",
+      "packages": [
+        "For_Mother_Russia_Book_and_Poster.zip"
+      ]
+    },
+    {
+      "path": "references/mother-russia-v01/art/11_room_at_night.jpg",
+      "bytes": 118389,
+      "sha256": "384ede80bffe413b5a7bde85d2d57e770e7b5c36f8a9fb974760aa88c22ea239",
+      "packages": [
+        "For_Mother_Russia_Book_and_Poster.zip"
+      ]
+    },
+    {
+      "path": "references/mother-russia-v01/art/12_memory_graph.jpg",
+      "bytes": 98058,
+      "sha256": "1029904e5173fe8ec80906e55d2cc4189343e54b1e342c37d1b86f56dcbccccf",
+      "packages": [
+        "For_Mother_Russia_Book_and_Poster.zip"
+      ]
+    },
+    {
+      "path": "references/mother-russia-v01/book/03_For_Mother_Russia_A4_POSTER_PROOF.pdf",
+      "bytes": 746188,
+      "sha256": "254f6f08af9a19422f486d97eda4393cf783500d44b1606fc650a2e9f2b84c9b",
+      "packages": [
+        "For_Mother_Russia_Book_and_Poster.zip"
+      ]
+    },
+    {
+      "path": "references/mother-russia-v01/book/03_For_Mother_Russia_A5_EDITORIAL_PROOF.pdf",
+      "bytes": 1610452,
+      "sha256": "2038edeb0f8bf75ffb1bbd520b199a016b9289546c153cdc3f4109a49478bbda",
+      "packages": [
+        "For_Mother_Russia_Book_and_Poster.zip"
+      ]
+    },
+    {
+      "path": "references/mother-russia-v01/docs/CHECKLIST.csv",
+      "bytes": 8895,
+      "sha256": "ab0dc5eef6e87e8d794eebddeaf214b05ccc7ff8f523c8b0959b03f0c2386c89",
+      "packages": [
+        "For_Mother_Russia_Project_Board_and_Source.zip"
+      ]
+    },
+    {
+      "path": "references/mother-russia-v01/docs/METADATA.json",
+      "bytes": 1226,
+      "sha256": "908211d22025ca057b13fb6ff98e404276db544fbf1762c9041401b682b2bd3c",
+      "packages": [
+        "For_Mother_Russia_Project_Board_and_Source.zip"
+      ]
+    },
+    {
+      "path": "references/mother-russia-v01/docs/PROJECT_BOARD.html",
+      "bytes": 22108,
+      "sha256": "01544ff075c66ec1fce8eb10192c0d6b8dbfdc91e90e86d2220f7b8625cae38b",
+      "packages": [
+        "For_Mother_Russia_Project_Board_and_Source.zip"
+      ]
+    },
+    {
+      "path": "references/mother-russia-v01/docs/PROJECT_TASKS.json",
+      "bytes": 17412,
+      "sha256": "455a280abffda0afbc20f9a0936ea1929e8ac0c9185af30d382985cc3c64ce70",
+      "packages": [
+        "For_Mother_Russia_Project_Board_and_Source.zip"
+      ]
+    },
+    {
+      "path": "references/mother-russia-v01/docs/QA_REPORT.json",
+      "bytes": 1232,
+      "sha256": "74da14c7164e0a86ca58a542094cedea469667d14152b6f5f5a62d87c8ee0922",
+      "packages": [
+        "For_Mother_Russia_Project_Board_and_Source.zip"
+      ]
+    },
+    {
+      "path": "references/mother-russia-v01/docs/RIGHTS_AND_CREDITS.md",
+      "bytes": 1376,
+      "sha256": "9a87751f134957e4694a82170ded742461c8e694efc11d99ce7e73f23e8402d1",
+      "packages": [
+        "For_Mother_Russia_Project_Board_and_Source.zip"
+      ]
+    },
+    {
+      "path": "references/mother-russia-v01/docs/memory_graph.json",
+      "bytes": 1842,
+      "sha256": "9fb655b3b1ab79adb69fdbe64b58aa0fc681f2763e461097af4713bf630bd39e",
+      "packages": [
+        "For_Mother_Russia_Project_Board_and_Source.zip"
+      ]
+    },
+    {
+      "path": "references/mother-russia-v01/manuscript/EDIT_NOTES.md",
+      "bytes": 1196,
+      "sha256": "b8ee41a81971712297e6a1d8b1a3fa0a60d329772f8abb8620d19fc018230b07",
+      "packages": [
+        "For_Mother_Russia_Project_Board_and_Source.zip"
+      ]
+    },
+    {
+      "path": "references/mother-russia-v01/manuscript/original.md",
+      "bytes": 6260,
+      "sha256": "0ef9d0379a64c2d7229a4bcec11fe85b1f57518865581a121a935e9923b90b3a",
+      "packages": [
+        "For_Mother_Russia_Project_Board_and_Source.zip"
+      ]
+    },
+    {
+      "path": "references/mother-russia-v01/manuscript/proposed-edit.md",
+      "bytes": 6258,
+      "sha256": "2e9508f302af2c5c02ecad0cf2a31cb3fea269dae230758a9c6677c798ec23d5",
+      "packages": [
+        "For_Mother_Russia_Project_Board_and_Source.zip"
+      ]
+    },
+    {
+      "path": "references/mother-russia-v01/previews/pdf_contact_sheet.jpg",
+      "bytes": 194174,
+      "sha256": "db8c8c731521614b874152a312ed5409328948eff20d289b43e56cfa05e2362c",
+      "packages": [
+        "For_Mother_Russia_Book_and_Poster.zip"
+      ]
+    },
+    {
+      "path": "references/mother-russia-v01/previews/website_desktop.png",
+      "bytes": 1049193,
+      "sha256": "6978bd0ef05d36ea62592462efe6090ccbb4453bf54177b34389db593657c2ed",
+      "packages": [
+        "For_Mother_Russia_Project_Board_and_Source.zip"
+      ]
+    },
+    {
+      "path": "references/mother-russia-v01/previews/website_mobile.png",
+      "bytes": 334789,
+      "sha256": "cf6f7715cd6efbc2270deedb39ee74fcaaa52e88f12b9169d9b57b44b8a179ce",
+      "packages": [
+        "For_Mother_Russia_Project_Board_and_Source.zip"
+      ]
+    },
+    {
+      "path": "references/mother-russia-v01/scripts/build_assets.py",
+      "bytes": 8538,
+      "sha256": "33e157284c86d783b4a21fd2e00239002623c306dc130925abd5fc0a0065d4d4",
+      "packages": [
+        "For_Mother_Russia_Project_Board_and_Source.zip"
+      ]
+    },
+    {
+      "path": "references/mother-russia-v01/scripts/build_pdf.py",
+      "bytes": 3528,
+      "sha256": "07a68a2fe6caedd4bb3a88053d347d13c12ab756ca0f09cdd5026e45dba3e745",
+      "packages": [
+        "For_Mother_Russia_Project_Board_and_Source.zip"
+      ]
+    },
+    {
+      "path": "references/mother-russia-v01/scripts/build_project.py",
+      "bytes": 21337,
+      "sha256": "01ab00833529ac5a00cf45fe6dc0ba7668bd494b3f790df08f1dd412f2d07e69",
+      "packages": [
+        "For_Mother_Russia_Project_Board_and_Source.zip"
+      ]
+    },
+    {
+      "path": "references/mother-russia-v01/scripts/build_video.py",
+      "bytes": 2770,
+      "sha256": "cc53bffac1d65bb47e17cd4d076ef2a78bd708263b6afe6d1fd7f4d18cb4c3f5",
+      "packages": [
+        "For_Mother_Russia_Project_Board_and_Source.zip"
+      ]
+    },
+    {
+      "path": "references/mother-russia-v01/scripts/build_web.py",
+      "bytes": 14543,
+      "sha256": "2abbc55f937c75426936f01c3306790f968433e2ffaa6c0ccdd52b2d98f23ec2",
+      "packages": [
+        "For_Mother_Russia_Project_Board_and_Source.zip"
+      ]
+    },
+    {
+      "path": "references/mother-russia-v01/scripts/qa.py",
+      "bytes": 3388,
+      "sha256": "ee81b316ab1552fe07d88924e119b52c181c71c3f8b4a10664e61ae00ed42be0",
+      "packages": [
+        "For_Mother_Russia_Project_Board_and_Source.zip"
+      ]
+    },
+    {
+      "path": "references/mother-russia-v01/social/POSTS_DRAFT.md",
+      "bytes": 1789,
+      "sha256": "dd3ef5254f6084e48796c9ef4e80ce8294b4324fdb4f42f6d973a62c1d66e539",
+      "packages": [
+        "For_Mother_Russia_Social_and_Video.zip"
+      ]
+    },
+    {
+      "path": "references/mother-russia-v01/social/facebook_1600x900.jpg",
+      "bytes": 296407,
+      "sha256": "4dedf845bbe38353fd45c509ffa3da82b0fa38c2364a71301735650131f6eacd",
+      "packages": [
+        "For_Mother_Russia_Social_and_Video.zip"
+      ]
+    },
+    {
+      "path": "references/mother-russia-v01/social/instagram/01_card_3x4.jpg",
+      "bytes": 236102,
+      "sha256": "6a78fdfcb62e7cd1d1a128ad80e431554826997389d7de9c56d08c2e5c58a222",
+      "packages": [
+        "For_Mother_Russia_Social_and_Video.zip"
+      ]
+    },
+    {
+      "path": "references/mother-russia-v01/social/instagram/02_card_3x4.jpg",
+      "bytes": 115143,
+      "sha256": "164c694ddf783987e8be9c204cc6b07a52a679be072622eb89cc5c7287064820",
+      "packages": [
+        "For_Mother_Russia_Social_and_Video.zip"
+      ]
+    },
+    {
+      "path": "references/mother-russia-v01/social/instagram/03_card_3x4.jpg",
+      "bytes": 131838,
+      "sha256": "718ea8f21b9d841fdf8399725983703587904bf5c9e32098de7d1dbf8c75845e",
+      "packages": [
+        "For_Mother_Russia_Social_and_Video.zip"
+      ]
+    },
+    {
+      "path": "references/mother-russia-v01/social/instagram/04_card_3x4.jpg",
+      "bytes": 125113,
+      "sha256": "2f07d4b3fc10e41e7ca97aa3035cb94bacdbd227971a85460e504bf3c8f82181",
+      "packages": [
+        "For_Mother_Russia_Social_and_Video.zip"
+      ]
+    },
+    {
+      "path": "references/mother-russia-v01/social/instagram/05_card_3x4.jpg",
+      "bytes": 194955,
+      "sha256": "09aaed07bf8eac56c45e258580f3e0eecc8b28d5d54ac1f797e25f404b42ca90",
+      "packages": [
+        "For_Mother_Russia_Social_and_Video.zip"
+      ]
+    },
+    {
+      "path": "references/mother-russia-v01/social/youtube_thumbnail_1280x720.jpg",
+      "bytes": 219216,
+      "sha256": "b095137e3ee0c693c112ccf9b003528713ab2bbb0bd5610079248ae2f6976c26",
+      "packages": [
+        "For_Mother_Russia_Social_and_Video.zip"
+      ]
+    },
+    {
+      "path": "references/mother-russia-v01/video/03_Mother_Russia_ANIMATIC_9x16.mp4",
+      "bytes": 603094,
+      "sha256": "3ead1d5ba390d8907cce225398aa2889d4d675c59643e958a625e095ee2af85a",
+      "packages": [
+        "For_Mother_Russia_Interactive_Website.zip",
+        "For_Mother_Russia_Social_and_Video.zip"
+      ]
+    },
+    {
+      "path": "references/mother-russia-v01/video/BEAT_CAPTIONS_NOT_VOICE.srt",
+      "bytes": 305,
+      "sha256": "9900184fded1311c747229d3a6072e0f56ad0613d2c7a05a582d08574e4eed6d",
+      "packages": [
+        "For_Mother_Russia_Social_and_Video.zip"
+      ]
+    },
+    {
+      "path": "references/mother-russia-v01/video/NARRATION_DRAFT.md",
+      "bytes": 978,
+      "sha256": "c2e69d5c40add89d22a68bb5e4f545a852de5ed0b5d88ce43f98d36263a1ac47",
+      "packages": [
+        "For_Mother_Russia_Social_and_Video.zip"
+      ]
+    },
+    {
+      "path": "references/mother-russia-v01/video/STORYBOARD.md",
+      "bytes": 721,
+      "sha256": "5f6a70eca346d5c27c7937dd4ad49a5c944c3cb58f540090505b7327b58951a2",
+      "packages": [
+        "For_Mother_Russia_Social_and_Video.zip"
+      ]
+    },
+    {
+      "path": "references/mother-russia-v01/video/ambient_synth.wav",
+      "bytes": 1152044,
+      "sha256": "12a88e42310c9cb81a3bb6bcda4eb965f633ad253a85e60c54cad7e2a4112c74",
+      "packages": [
+        "For_Mother_Russia_Social_and_Video.zip"
+      ]
+    },
+    {
+      "path": "references/mother-russia-v01/video/concat.txt",
+      "bytes": 191,
+      "sha256": "3c42c37beae3ad4cfca523272586f491db950c70a10fc57cd5ddbe912e9312c4",
+      "packages": [
+        "For_Mother_Russia_Social_and_Video.zip"
+      ]
+    },
+    {
+      "path": "references/mother-russia-v01/video/cover_1080x1920.jpg",
+      "bytes": 271267,
+      "sha256": "3fe574261c349a63d49389706c8cab87986b12f0e5bf289d4f705e1793975acf",
+      "packages": [
+        "For_Mother_Russia_Social_and_Video.zip"
+      ]
+    },
+    {
+      "path": "references/mother-russia-v01/video/stills/01.jpg",
+      "bytes": 126092,
+      "sha256": "07a765256ae55e039e277324fadd0d4e1a4060becc58248ec88112cc41bf4a9d",
+      "packages": [
+        "For_Mother_Russia_Social_and_Video.zip"
+      ]
+    },
+    {
+      "path": "references/mother-russia-v01/video/stills/02.jpg",
+      "bytes": 65213,
+      "sha256": "b65f47b673ce67983e38f2cdc1677227e2ed5d01b9d22bb99533e8a97f0c20eb",
+      "packages": [
+        "For_Mother_Russia_Social_and_Video.zip"
+      ]
+    },
+    {
+      "path": "references/mother-russia-v01/video/stills/03.jpg",
+      "bytes": 72333,
+      "sha256": "c826ce1bf801d0ca65ba40a0bff15becc89060399782218401e475f86cab19b5",
+      "packages": [
+        "For_Mother_Russia_Social_and_Video.zip"
+      ]
+    },
+    {
+      "path": "references/mother-russia-v01/video/stills/04.jpg",
+      "bytes": 61757,
+      "sha256": "af7f5f5137a1773ee13bc9d6b66d839dbeab8c20b1ad5bf5fb71b81172a2769b",
+      "packages": [
+        "For_Mother_Russia_Social_and_Video.zip"
+      ]
+    },
+    {
+      "path": "references/mother-russia-v01/video/stills/05.jpg",
+      "bytes": 109837,
+      "sha256": "638d6f0000cfbe751363a4970232bf2dad7ce64fab784018ece9481f665cecd2",
+      "packages": [
+        "For_Mother_Russia_Social_and_Video.zip"
+      ]
+    },
+    {
+      "path": "references/mother-russia-v01/web/assets/apartments.jpg",
+      "bytes": 90728,
+      "sha256": "5f942105f6e51ce49f95bb7e716f8a415b52b73c43af6d0fc3d57c0600f8474a",
+      "packages": [
+        "For_Mother_Russia_Interactive_Website.zip"
+      ]
+    },
+    {
+      "path": "references/mother-russia-v01/web/assets/banner.jpg",
+      "bytes": 231315,
+      "sha256": "0f11a7267a3d5484b24fa7f01e7251b71b32eec8e1e8e73f2202dfb4951d9c6b",
+      "packages": [
+        "For_Mother_Russia_Interactive_Website.zip"
+      ]
+    },
+    {
+      "path": "references/mother-russia-v01/web/assets/cabin.jpg",
+      "bytes": 101458,
+      "sha256": "a8c5890c5ccf88f3afa472856254b798f27efd468f7419eb042ed2ac11c65550",
+      "packages": [
+        "For_Mother_Russia_Interactive_Website.zip"
+      ]
+    },
+    {
+      "path": "references/mother-russia-v01/web/assets/game.jpg",
+      "bytes": 99366,
+      "sha256": "aaa9a5f39b49190d9d2bfaa7e04910afe21951c71675d150ec936bc800f3ea29",
+      "packages": [
+        "For_Mother_Russia_Interactive_Website.zip"
+      ]
+    },
+    {
+      "path": "references/mother-russia-v01/web/assets/grandfather.jpg",
+      "bytes": 85985,
+      "sha256": "88d6e3c6401e1c0894f5e05c61e7a0f910de700df21af4e08adc75c0330dc91a",
+      "packages": [
+        "For_Mother_Russia_Interactive_Website.zip"
+      ]
+    },
+    {
+      "path": "references/mother-russia-v01/web/assets/graph.jpg",
+      "bytes": 68644,
+      "sha256": "462134b0538530620f357dd279f80f1233a7bcb261d9e07743673e954db54255",
+      "packages": [
+        "For_Mother_Russia_Interactive_Website.zip"
+      ]
+    },
+    {
+      "path": "references/mother-russia-v01/web/assets/hero.jpg",
+      "bytes": 164221,
+      "sha256": "c8ccbecd216b91a11ceff7d936f7cdcb64eefbb274a0a15882232d7a72b87330",
+      "packages": [
+        "For_Mother_Russia_Interactive_Website.zip"
+      ]
+    },
+    {
+      "path": "references/mother-russia-v01/web/assets/room.jpg",
+      "bytes": 82141,
+      "sha256": "14ff6b5edf5d1997b65e7ba7f4ca7e2c3e672fd7efea2fafe41db78116fb0907",
+      "packages": [
+        "For_Mother_Russia_Interactive_Website.zip"
+      ]
+    },
+    {
+      "path": "references/mother-russia-v01/web/assets/salad.jpg",
+      "bytes": 106712,
+      "sha256": "dab59e6d124b29d9fa24956b94e3076570173fe51fa7371180bbebea93aafd04",
+      "packages": [
+        "For_Mother_Russia_Interactive_Website.zip"
+      ]
+    },
+    {
+      "path": "references/mother-russia-v01/web/assets/screen.jpg",
+      "bytes": 102658,
+      "sha256": "f7b09e7c1a9f6273630bb5455e92077a053148fed2dcf96ff5d7426794d87012",
+      "packages": [
+        "For_Mother_Russia_Interactive_Website.zip"
+      ]
+    },
+    {
+      "path": "references/mother-russia-v01/web/assets/snow.jpg",
+      "bytes": 93049,
+      "sha256": "bf69d0d3cdfa0c12c72e19b5963e45a86e4b1c2c28497e5a2d514ea1c3f7ffd0",
+      "packages": [
+        "For_Mother_Russia_Interactive_Website.zip"
+      ]
+    },
+    {
+      "path": "references/mother-russia-v01/web/assets/volga.jpg",
+      "bytes": 103954,
+      "sha256": "3bf0b20a1d5c483b265e357502078fd4a39995817a68fac808d17f79ce4bfa8a",
+      "packages": [
+        "For_Mother_Russia_Interactive_Website.zip"
+      ]
+    },
+    {
+      "path": "references/mother-russia-v01/web/index.html",
+      "bytes": 25823,
+      "sha256": "1f54843fabae609eae7e0c814b583e77ea10564f66b52ce0afc55ea5b06fbd88",
+      "packages": [
+        "For_Mother_Russia_Interactive_Website.zip"
+      ]
+    }
+  ]
+}

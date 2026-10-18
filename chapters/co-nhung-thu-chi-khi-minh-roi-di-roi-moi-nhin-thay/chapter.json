@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "slug": "co-nhung-thu-chi-khi-minh-roi-di-roi-moi-nhin-thay",
+  "number": "30",
+  "title": "Có những thứ chỉ khi mình rời đi rồi mới nhìn thấy",
+  "short_title": "Có những thứ chỉ khi mình rời đi rồi mới nhìn thấy",
+  "part": 5,
+  "language": "vi",
+  "publish": false,
+  "release_stage": "outline",
+  "canonical_text": null,
+  "canonical_path": "#chapter/30",
+  "summary": "Ba tuần sau khi rời team, Jason nhìn thấy bức vẽ trên whiteboard vẫn còn đó. Bao thuốc, chai rượu, người đi mưa tới farewell, email từ Geoffrey và câu hỏi thăm của David trở thành những chi tiết về sự quan tâm mà anh từng bỏ sót.",
+  "portal": {
+    "scene": "An empty office holds a hand-drawn Patagonia road trip on a whiteboard.",
+    "objects": [
+      "mountain road",
+      "umbrella",
+      "farewell bottle"
+    ],
+    "iconKey": "mountain",
+    "motif": "The road ahead"
+  },
+  "original_edition": null,
+  "production_status": "awaiting author manuscript",
+  "outline_title": "Có những thứ chỉ khi mình rời đi rồi mới nhìn thấy"
+}

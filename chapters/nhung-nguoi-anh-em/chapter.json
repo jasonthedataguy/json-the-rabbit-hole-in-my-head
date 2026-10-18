@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "slug": "nhung-nguoi-anh-em",
+  "number": "13",
+  "title": "Những người anh em",
+  "short_title": "Những người anh em",
+  "part": 2,
+  "language": "vi",
+  "publish": false,
+  "release_stage": "outline",
+  "canonical_text": null,
+  "canonical_path": "#chapter/13",
+  "summary": "Cuộc gặp lại ông Tư, ký ức road trip xuyên Việt và nỗi nhớ một tập thể cũ có khả năng nói chuyện đến tận khuya về bất cứ thứ gì.",
+  "portal": {
+    "scene": "Road-trip silhouettes gather around shared cups at a late-night table near a waiting van.",
+    "objects": [
+      "van",
+      "road",
+      "shared cups"
+    ],
+    "iconKey": "van",
+    "motif": "The shared cups"
+  },
+  "original_edition": null,
+  "production_status": "awaiting author manuscript",
+  "outline_title": "Những người anh em"
+}

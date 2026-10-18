@@ -1,0 +1,74 @@
+{
+  "chapter": "16",
+  "pdf_pages": 7,
+  "pdf_body_paragraphs_verified": 10,
+  "pdf_fonts_embedded": true,
+  "pdf_text_in_bounds": true,
+  "pdf_source_notes": true,
+  "films": [
+    {
+      "file": "discovery-9x16.mp4",
+      "size": [
+        1080,
+        1920
+      ],
+      "duration_seconds": 60.0,
+      "full_decode": "passed",
+      "sampled_frames": 6,
+      "audio": "AAC ambience; no voice"
+    },
+    {
+      "file": "youtube-9x16.mp4",
+      "size": [
+        1080,
+        1920
+      ],
+      "duration_seconds": 120.0,
+      "full_decode": "passed",
+      "sampled_frames": 8,
+      "audio": "AAC ambience; no voice"
+    },
+    {
+      "file": "feed-3x4.mp4",
+      "size": [
+        1080,
+        1440
+      ],
+      "duration_seconds": 45.0,
+      "full_decode": "passed",
+      "sampled_frames": 4,
+      "audio": "AAC ambience; no voice"
+    },
+    {
+      "file": "teaser-9x16.mp4",
+      "size": [
+        1080,
+        1920
+      ],
+      "duration_seconds": 24.0,
+      "full_decode": "passed",
+      "sampled_frames": 3,
+      "audio": "AAC ambience; no voice"
+    },
+    {
+      "file": "essay-16x9.mp4",
+      "size": [
+        1920,
+        1080
+      ],
+      "duration_seconds": 120.0,
+      "full_decode": "passed",
+      "sampled_frames": 8,
+      "audio": "AAC ambience; no voice"
+    }
+  ],
+  "social_dimensions": "five carousel + three story cards passed",
+  "contrast": {
+    "paper/ink": 12.291963407550066,
+    "coral/dark": 6.143798529572253,
+    "sage/dark": 10.10715597072293
+  },
+  "artwork_quality": "supplied concept-board crops; native sizes recorded; not high-resolution print masters",
+  "recording_script_matches_original": true,
+  "visual_preview": "previews/book.jpg and previews/video-frames.jpg"
+}

@@ -1,0 +1,17 @@
+{
+  "source": "artwork/source/01_stage_hero_PREVIS.jpg",
+  "source_pixels": [
+    1848,
+    1197
+  ],
+  "crop_pixels": [
+    920,
+    0,
+    1848,
+    1197
+  ],
+  "kind": "documented crop of supplied flattened concept art; no added native detail",
+  "hero": "artwork/exports/hero.jpg",
+  "hero_framing": "Complete stage-detail crop contained on pine background at 1600 by 960; no added artwork",
+  "mobile": "artwork/exports/hero-mobile.jpg"
+}

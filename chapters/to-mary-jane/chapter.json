@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "slug": "to-mary-jane",
+  "number": "19",
+  "title": "To Mary Jane",
+  "short_title": "To Mary Jane",
+  "part": 3,
+  "language": "vi",
+  "publish": false,
+  "release_stage": "outline",
+  "canonical_text": null,
+  "canonical_path": "#chapter/19",
+  "summary": "Một lá thư chia tay: anh biết mình đang rời đi, cố giữ sự dịu dàng và đồng thời đặt một cánh cửa đóng lại.",
+  "portal": {
+    "scene": "A sealed goodbye letter and a dried flower rest on a small table near a dawn-lit doorway.",
+    "objects": [
+      "sealed envelope",
+      "doorway",
+      "dried flower"
+    ],
+    "iconKey": "envelope",
+    "motif": "The goodbye letter"
+  },
+  "original_edition": null,
+  "production_status": "awaiting author manuscript",
+  "outline_title": "To Mary Jane"
+}

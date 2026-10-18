@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "slug": "mot-nguoi-ban-cu",
+  "number": "07",
+  "title": "Một người bạn cũ",
+  "short_title": "Một người bạn cũ",
+  "part": 2,
+  "language": "vi",
+  "publish": false,
+  "release_stage": "outline",
+  "canonical_text": null,
+  "canonical_path": "#chapter/07",
+  "summary": "Một món đồ chơi nhỏ từ lớp mẫu giáo mở ra một tình bạn kéo dài rồi thay đổi.",
+  "portal": {
+    "scene": "A tiny kindergarten toy sits alone on an enormous classroom floor between two stools.",
+    "objects": [
+      "wind-up toy",
+      "school window",
+      "two stools"
+    ],
+    "iconKey": "toy",
+    "motif": "The tiny toy"
+  },
+  "original_edition": null,
+  "production_status": "awaiting author manuscript",
+  "outline_title": "Một người bạn cũ"
+}

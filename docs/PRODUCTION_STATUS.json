@@ -1,0 +1,336 @@
+{
+  "schema_version": 1,
+  "chapters": [
+    {
+      "slug": "com-nguoi",
+      "number": "00",
+      "title": "Cơm nguội",
+      "reader": "published manuscript",
+      "product_release": "imported proofs; v2 adaptation pending",
+      "files": 71,
+      "bytes": 14000559,
+      "products": 13
+    },
+    {
+      "slug": "i-was-born-a-quant",
+      "number": "01",
+      "title": "I Was Born a Quant",
+      "reader": "outline only",
+      "product_release": "awaiting author manuscript",
+      "files": 6,
+      "bytes": 2386,
+      "products": 0
+    },
+    {
+      "slug": "expected-utility",
+      "number": "02",
+      "title": "Expected Utility",
+      "reader": "published manuscript",
+      "product_release": "imported proofs; v2 adaptation pending",
+      "files": 64,
+      "bytes": 24952463,
+      "products": 13
+    },
+    {
+      "slug": "play-to-win",
+      "number": "03",
+      "title": "Chơi để không thua",
+      "reader": "published manuscript",
+      "product_release": "imported proofs; v2 adaptation pending",
+      "files": 109,
+      "bytes": 31072563,
+      "products": 33
+    },
+    {
+      "slug": "fashion",
+      "number": "04",
+      "title": "Fashion — Be Your Own Label",
+      "reader": "published manuscript",
+      "product_release": "imported proofs; v2 adaptation pending",
+      "files": 210,
+      "bytes": 127730913,
+      "products": 21
+    },
+    {
+      "slug": "flow",
+      "number": "05",
+      "title": "FLOW",
+      "reader": "outline only",
+      "product_release": "awaiting author manuscript",
+      "files": 6,
+      "bytes": 2070,
+      "products": 0
+    },
+    {
+      "slug": "nut-do",
+      "number": "06",
+      "title": "Nút đỏ",
+      "reader": "outline only",
+      "product_release": "awaiting author manuscript",
+      "files": 6,
+      "bytes": 2131,
+      "products": 0
+    },
+    {
+      "slug": "mot-nguoi-ban-cu",
+      "number": "07",
+      "title": "Một người bạn cũ",
+      "reader": "outline only",
+      "product_release": "awaiting author manuscript",
+      "files": 6,
+      "bytes": 2085,
+      "products": 0
+    },
+    {
+      "slug": "for-mother-russia",
+      "number": "08",
+      "title": "For Mother Russia",
+      "reader": "published manuscript",
+      "product_release": "imported proofs; v2 adaptation pending",
+      "files": 139,
+      "bytes": 24891617,
+      "products": 13
+    },
+    {
+      "slug": "the-gioi-trong-mo-cua-toi",
+      "number": "09",
+      "title": "Metro số 5",
+      "reader": "published manuscript",
+      "product_release": "imported proofs; v2 adaptation pending",
+      "files": 237,
+      "bytes": 70587636,
+      "products": 27
+    },
+    {
+      "slug": "nhung-thu-khong-duoc-luu-lai",
+      "number": "10",
+      "title": "Những thứ không được lưu lại",
+      "reader": "outline only",
+      "product_release": "awaiting author manuscript",
+      "files": 6,
+      "bytes": 2337,
+      "products": 0
+    },
+    {
+      "slug": "nhung-su-trung-hop",
+      "number": "11",
+      "title": "Những sự trùng hợp",
+      "reader": "outline only",
+      "product_release": "awaiting author manuscript",
+      "files": 6,
+      "bytes": 2337,
+      "products": 0
+    },
+    {
+      "slug": "vo-mong",
+      "number": "12",
+      "title": "Vỡ mộng",
+      "reader": "outline only",
+      "product_release": "awaiting author manuscript",
+      "files": 6,
+      "bytes": 2097,
+      "products": 0
+    },
+    {
+      "slug": "nhung-nguoi-anh-em",
+      "number": "13",
+      "title": "Những người anh em",
+      "reader": "outline only",
+      "product_release": "awaiting author manuscript",
+      "files": 6,
+      "bytes": 2215,
+      "products": 0
+    },
+    {
+      "slug": "viet-cho-sai-gon-cua-t",
+      "number": "14",
+      "title": "Viết cho Sài Gòn của t",
+      "reader": "published manuscript",
+      "product_release": "imported proofs; v2 adaptation pending",
+      "files": 105,
+      "bytes": 40538186,
+      "products": 24
+    },
+    {
+      "slug": "i-am-28-today",
+      "number": "15",
+      "title": "I Am 28 Today",
+      "reader": "outline only",
+      "product_release": "awaiting author manuscript",
+      "files": 6,
+      "bytes": 2137,
+      "products": 0
+    },
+    {
+      "slug": "tieu-hanh-tinh",
+      "number": "16",
+      "title": "Tiểu hành tinh",
+      "reader": "outline only",
+      "product_release": "awaiting author manuscript",
+      "files": 6,
+      "bytes": 2067,
+      "products": 0
+    },
+    {
+      "slug": "three-meeting-theory",
+      "number": "17",
+      "title": "Three Meeting Theory",
+      "reader": "published manuscript",
+      "product_release": "imported proofs; v2 adaptation pending",
+      "files": 169,
+      "bytes": 30392531,
+      "products": 20
+    },
+    {
+      "slug": "dating-algorithm",
+      "number": "18",
+      "title": "Dating Algorithm",
+      "reader": "published manuscript",
+      "product_release": "imported proofs; v2 adaptation pending",
+      "files": 174,
+      "bytes": 37401148,
+      "products": 24
+    },
+    {
+      "slug": "to-mary-jane",
+      "number": "19",
+      "title": "To Mary Jane",
+      "reader": "outline only",
+      "product_release": "awaiting author manuscript",
+      "files": 6,
+      "bytes": 2104,
+      "products": 0
+    },
+    {
+      "slug": "runaway",
+      "number": "20",
+      "title": "Runaway",
+      "reader": "outline only",
+      "product_release": "awaiting author manuscript",
+      "files": 6,
+      "bytes": 2465,
+      "products": 0
+    },
+    {
+      "slug": "nhung-hinh-chieu-xau-xi",
+      "number": "21",
+      "title": "Những hình chiếu xấu xí",
+      "reader": "outline only",
+      "product_release": "awaiting author manuscript",
+      "files": 6,
+      "bytes": 2160,
+      "products": 0
+    },
+    {
+      "slug": "the-23-word-nuclear-warhead",
+      "number": "22",
+      "title": "The 23-Word Nuclear Warhead",
+      "reader": "outline only",
+      "product_release": "awaiting author manuscript",
+      "files": 6,
+      "bytes": 2507,
+      "products": 0
+    },
+    {
+      "slug": "better-and-brighter-than-ever",
+      "number": "23",
+      "title": "Better and Brighter Than Ever",
+      "reader": "outline only",
+      "product_release": "awaiting author manuscript",
+      "files": 6,
+      "bytes": 2183,
+      "products": 0
+    },
+    {
+      "slug": "masterclass-in-record-keeping",
+      "number": "24",
+      "title": "Masterclass in Record Keeping",
+      "reader": "outline only",
+      "product_release": "awaiting author manuscript",
+      "files": 6,
+      "bytes": 2395,
+      "products": 0
+    },
+    {
+      "slug": "good-boy",
+      "number": "25",
+      "title": "Good Boy",
+      "reader": "outline only",
+      "product_release": "awaiting author manuscript",
+      "files": 6,
+      "bytes": 2173,
+      "products": 0
+    },
+    {
+      "slug": "negative-sum-game",
+      "number": "26",
+      "title": "Negative-Sum Game",
+      "reader": "outline only",
+      "product_release": "awaiting author manuscript",
+      "files": 6,
+      "bytes": 2453,
+      "products": 0
+    },
+    {
+      "slug": "sharingan",
+      "number": "27",
+      "title": "Sharingan",
+      "reader": "outline only",
+      "product_release": "awaiting author manuscript",
+      "files": 6,
+      "bytes": 2376,
+      "products": 0
+    },
+    {
+      "slug": "command-respect",
+      "number": "28",
+      "title": "Command Respect",
+      "reader": "outline only",
+      "product_release": "awaiting author manuscript",
+      "files": 6,
+      "bytes": 2455,
+      "products": 0
+    },
+    {
+      "slug": "lone-wolf",
+      "number": "29",
+      "title": "Lone Wolf",
+      "reader": "outline only",
+      "product_release": "awaiting author manuscript",
+      "files": 6,
+      "bytes": 2284,
+      "products": 0
+    },
+    {
+      "slug": "co-nhung-thu-chi-khi-minh-roi-di-roi-moi-nhin-thay",
+      "number": "30",
+      "title": "Có những thứ chỉ khi mình rời đi rồi mới nhìn thấy",
+      "reader": "outline only",
+      "product_release": "awaiting author manuscript",
+      "files": 6,
+      "bytes": 2760,
+      "products": 0
+    },
+    {
+      "slug": "loi-xin-loi",
+      "number": "31",
+      "title": "Lời xin lỗi",
+      "reader": "outline only",
+      "product_release": "awaiting author manuscript",
+      "files": 6,
+      "bytes": 2048,
+      "products": 0
+    },
+    {
+      "slug": "dating-102",
+      "number": null,
+      "title": "Dating 102",
+      "reader": "published manuscript",
+      "product_release": "imported proofs; v2 adaptation pending",
+      "files": 120,
+      "bytes": 39547604,
+      "products": 26
+    }
+  ],
+  "policy": "Files present means available for review, not final production. Imported proofs keep their original labels; no synthetic author voice, invented manuscript, automatic social posting or assumed print certification."
+}

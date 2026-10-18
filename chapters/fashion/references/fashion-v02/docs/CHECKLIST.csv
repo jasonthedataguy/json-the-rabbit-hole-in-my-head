@@ -1,0 +1,65 @@
+﻿id,stream,task,status,owner,priority
+E01,Editorial,Preserve original,READY,Production,P2
+E02,Editorial,Create proposed edit,PROOF,Production,P1
+E03,Editorial,Verify hip-hop/brand timeline,TODO,Production,P2
+E04,Editorial,Select canonical manuscript,BLOCKED,Jason,P0
+E05,Editorial,Check colleague privacy,BLOCKED,Jason,P0
+E06,Editorial,Finalize narrator age/placement,BLOCKED,Jason,P0
+E07,Editorial,Copyedit final text,BLOCKED,Jason,P0
+E08,Editorial,Verify final excerpt,BLOCKED,Jason,P0
+E09,Editorial,Approve public publication,BLOCKED,Jason,P0
+I01,Illustration,Define wardrobe visual system,READY,Production,P2
+I02,Illustration,Create original cover poster,PROOF,Production,P1
+I03,Illustration,Build sneakers scene,PROOF,Production,P1
+I04,Illustration,Build trend cycle scene,PROOF,Production,P1
+I05,Illustration,Build techwear rulebook scene,PROOF,Production,P1
+I06,Illustration,Build remix scene,PROOF,Production,P1
+I07,Illustration,Build garment patina scene,PROOF,Production,P1
+I08,Illustration,Build father wardrobe image,PROOF,Production,P1
+I09,Illustration,Export editable print layers,TODO,Production,P2
+I10,Illustration,Review image rights and logo avoidance,BLOCKED,Production,P2
+P01,Print,Layout A5 complete chapter,PROOF,Production,P1
+P02,Print,Render all PDF pages,READY,Production,P2
+P03,Print,Check Vietnamese embedding,READY,Production,P2
+P04,Print,Illustration placements review,PROOF,Production,P1
+P05,Print,Choose trim and paper stock,BLOCKED,Jason,P0
+P06,Print,Printer bleed and gutter spec,BLOCKED,Jason,P0
+P07,Print,Produce PDF/X,BLOCKED,Jason,P0
+P08,Print,Add permanent QR,BLOCKED,Jason,P0
+P09,Print,Order physical press proof,PROOF,Jason,P0
+W01,Website,Build full offline chapter reader,PROOF,Production,P1
+W02,Website,Original/edit switch,READY,Production,P2
+W03,Website,Interactive wardrobe explorer,READY,Production,P2
+W04,Website,Keyboard/mobile interaction QA,READY,Production,P2
+W05,Website,Alt text and contrast review,TODO,Production,P2
+W06,Website,Prepare approved public teaser,READY,Production,P2
+W07,Website,Import approved binary art to GitHub,BLOCKED,Jason,P0
+W08,Website,Choose final chapter URL,BLOCKED,Jason,P0
+W09,Website,Release full text to public site,BLOCKED,Jason,P0
+V01,Video,Draft storyboard,READY,Production,P2
+V02,Video,Write narrator script,BLOCKED,Production,P2
+V03,Video,Render vertical animatic,PROOF,Production,P1
+V04,Video,Export ambient audio proof,PROOF,Production,P1
+V05,Video,Record approved voice,BLOCKED,Jason,P0
+V06,Video,Sync actual subtitles,BLOCKED,Jason,P0
+V07,Video,Master 1080×1920 film,BLOCKED,Jason,P0
+V08,Video,Verify safe zones on phone,BLOCKED,Jason,P0
+V09,Video,Publish Reel/Short,BLOCKED,Jason,P0
+S01,Social,Create five 3:4 cards,PROOF,Production,P1
+S02,Social,Create Instagram caption,READY,Production,P2
+S03,Social,Create Facebook artwork,PROOF,Production,P1
+S04,Social,Draft Facebook post,READY,Production,P2
+S05,Social,Draft TikTok title/caption,READY,Production,P2
+S06,Social,Create YouTube thumbnail,PROOF,Production,P1
+S07,Social,Review claims and photography rights,BLOCKED,Jason,P0
+S08,Social,Approve scheduled social posts,BLOCKED,Jason,P0
+S09,Social,Record published URLs,BLOCKED,Jason,P0
+R01,Release,Track metadata and credits,READY,Production,P2
+R02,Release,Create status inventory,READY,Production,P2
+R03,Release,Open GitHub draft PR,TODO,Production,P2
+R04,Release,Make full downloadable bundle,TODO,Production,P2
+R05,Release,Review content approval scope,BLOCKED,Jason,P0
+R06,Release,Run phone-based QA,TODO,Production,P2
+R07,Release,Print vendor signoff,BLOCKED,Jason,P0
+R08,Release,Live deployment verification,BLOCKED,Jason,P0
+R09,Release,Final author go/no-go,BLOCKED,Jason,P0

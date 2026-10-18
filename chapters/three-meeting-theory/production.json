@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "excerpts_verbatim": true,
+  "publish_media": {
+    "carousel": [
+      {
+        "text": "we are just background characters",
+        "scene": "artwork/scenes/first.jpg"
+      },
+      {
+        "text": "with a spark between both of us",
+        "scene": "artwork/scenes/second.jpg"
+      },
+      {
+        "text": "Anh không biết sẽ tới bao giờ, nhưng anh vẫn sẽ chờ.",
+        "scene": "artwork/scenes/third.jpg"
+      },
+      {
+        "text": "trên đường phố New York",
+        "scene": "artwork/scenes/city.jpg"
+      },
+      {
+        "text": "em hãy mặc một chiếc váy vàng màu hoa hướng dương để anh có thể nhận ra em ngay trong đám đông nhé.",
+        "scene": "artwork/scenes/yellow.jpg"
+      }
+    ]
+  },
+  "films": [
+    {
+      "name": "discovery-9x16",
+      "size": [
+        1080,
+        1920
+      ],
+      "scene_fit": "contain",
+      "segments": [
+        {
+          "text": "we are just background characters",
+          "scene": "artwork/scenes/first.jpg",
+          "duration": 4.2
+        },
+        {
+          "text": "with a spark between both of us",
+          "scene": "artwork/scenes/second.jpg",
+          "duration": 4.2
+        },
+        {
+          "text": "Anh không biết sẽ tới bao giờ, nhưng anh vẫn sẽ chờ.",
+          "scene": "artwork/scenes/third.jpg",
+          "duration": 4.2
+        },
+        {
+          "text": "trên đường phố New York",
+          "scene": "artwork/scenes/city.jpg",
+          "duration": 4.2
+        },
+        {
+          "text": "em hãy mặc một chiếc váy vàng màu hoa hướng dương để anh có thể nhận ra em ngay trong đám đông nhé.",
+          "scene": "artwork/scenes/yellow.jpg",
+          "duration": 7.2
+        }
+      ]
+    }
+  ]
+}

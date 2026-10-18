@@ -1,0 +1,35 @@
+{
+  "chapter": "flow",
+  "files": [
+    {
+      "path": "chapter.json",
+      "bytes": 844,
+      "sha256": "68387867cea6915952bafc75d2a59b409e0f527636bb4edab782a8da856b14f7"
+    },
+    {
+      "path": "docs/PRODUCTS.json",
+      "bytes": 299,
+      "sha256": "95f5b5059812925c3a4bf6be44bfe2ec17e9cb68f363a1eacf04004119fd3186"
+    },
+    {
+      "path": "production.json",
+      "bytes": 158,
+      "sha256": "04cca5cbcb7714947f2e115425c3b36fd58203c853d17184364ed8f229b16d7d"
+    },
+    {
+      "path": "README.md",
+      "bytes": 408,
+      "sha256": "f508c0d6a3d29d5d5b77475ac480f0dd6900216b25bb676cb475a1d708f9884d"
+    },
+    {
+      "path": "source/outline.md",
+      "bytes": 250,
+      "sha256": "1a27203db39f542dbea57329ca006ff226803c2989d8515717c5aacf5de072b0"
+    },
+    {
+      "path": "source/revisions.log",
+      "bytes": 111,
+      "sha256": "e01ec275c2bd0c7128f4545ba1a8339712c2e287d8a0ea329c9ccf3068756f36"
+    }
+  ]
+}

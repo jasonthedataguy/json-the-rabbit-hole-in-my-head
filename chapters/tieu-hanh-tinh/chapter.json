@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "slug": "tieu-hanh-tinh",
+  "number": "16",
+  "title": "Tiểu hành tinh",
+  "short_title": "Tiểu hành tinh",
+  "part": 3,
+  "language": "vi",
+  "publish": false,
+  "release_stage": "outline",
+  "canonical_text": null,
+  "canonical_path": "#chapter/16",
+  "summary": "Một bức thư gửi cô gái được ví như ngôi sao nhỏ: non nớt, sáng rực và có con đường riêng.",
+  "portal": {
+    "scene": "A luminous asteroid passes a handwritten letter suspended in an evening sky.",
+    "objects": [
+      "asteroid",
+      "envelope",
+      "pencil line"
+    ],
+    "iconKey": "asteroid",
+    "motif": "The passing asteroid"
+  },
+  "original_edition": null,
+  "production_status": "awaiting author manuscript",
+  "outline_title": "Tiểu hành tinh"
+}

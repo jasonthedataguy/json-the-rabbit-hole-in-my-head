@@ -1,0 +1,35 @@
+{
+  "chapter": "co-nhung-thu-chi-khi-minh-roi-di-roi-moi-nhin-thay",
+  "files": [
+    {
+      "path": "chapter.json",
+      "bytes": 1178,
+      "sha256": "dad9189e7cc5382c801d08f0b1428e169e19c0413c6cfaa3be6625022e0c0812"
+    },
+    {
+      "path": "docs/PRODUCTS.json",
+      "bytes": 345,
+      "sha256": "c957de57fc0b2a88a606b36ae4a883c1455598ee6d435e274fae4c1bbb267f91"
+    },
+    {
+      "path": "production.json",
+      "bytes": 158,
+      "sha256": "04cca5cbcb7714947f2e115425c3b36fd58203c853d17184364ed8f229b16d7d"
+    },
+    {
+      "path": "README.md",
+      "bytes": 518,
+      "sha256": "e304142b593e6168d6d107d17037c594fe6b6a4814b50a0e3b0ce165402e857c"
+    },
+    {
+      "path": "source/outline.md",
+      "bytes": 450,
+      "sha256": "24e8f52e8138856a30c1b91f65a0206b132136fa05a2e4336a93071622dd0916"
+    },
+    {
+      "path": "source/revisions.log",
+      "bytes": 111,
+      "sha256": "e01ec275c2bd0c7128f4545ba1a8339712c2e287d8a0ea329c9ccf3068756f36"
+    }
+  ]
+}

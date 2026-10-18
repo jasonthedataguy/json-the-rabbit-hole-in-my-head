@@ -1,0 +1,35 @@
+{
+  "chapter": "to-mary-jane",
+  "files": [
+    {
+      "path": "chapter.json",
+      "bytes": 851,
+      "sha256": "82fd82c869df8b04b2bc180c6c6e74a25c46a62c7d4baeb75c277975dddc7186"
+    },
+    {
+      "path": "docs/PRODUCTS.json",
+      "bytes": 307,
+      "sha256": "98f38ab93ee0ebb64489b0dfdd97f450bf5ed7751f9bdb8ad8c2a49d3cd518c1"
+    },
+    {
+      "path": "production.json",
+      "bytes": 158,
+      "sha256": "04cca5cbcb7714947f2e115425c3b36fd58203c853d17184364ed8f229b16d7d"
+    },
+    {
+      "path": "README.md",
+      "bytes": 424,
+      "sha256": "61469f1cab7fde934fd58957b83023b7e62ce00a53614ec21c94025f9237ffe7"
+    },
+    {
+      "path": "source/outline.md",
+      "bytes": 253,
+      "sha256": "9cd3a29c21edda490d04290743261d6599c27dc5140e3a4ca219a7b86429c809"
+    },
+    {
+      "path": "source/revisions.log",
+      "bytes": 111,
+      "sha256": "e01ec275c2bd0c7128f4545ba1a8339712c2e287d8a0ea329c9ccf3068756f36"
+    }
+  ]
+}

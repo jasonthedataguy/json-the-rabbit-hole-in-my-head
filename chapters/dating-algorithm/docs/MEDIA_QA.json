@@ -1,0 +1,356 @@
+{
+  "chapter": "08",
+  "references_verified": 65,
+  "source_sha256": "ffa4e16711ff364538e8e60def9144a4dcdbe13b612c1ce10360fa70efae5c49",
+  "pdfs": [
+    {
+      "path": "book/04_Dating_Algorithm_A4_POSTER_PROOF.pdf",
+      "pages": 1,
+      "mm": [
+        210.0,
+        297.0
+      ]
+    },
+    {
+      "path": "book/04_Dating_Algorithm_A5_EDITORIAL_PROOF.pdf",
+      "pages": 14,
+      "mm": [
+        148.0,
+        210.0
+      ],
+      "essay_paragraphs_found": 53,
+      "edition_note": "PDF edition line uses slashes; essay wording verified after whitespace/punctuation normalization"
+    }
+  ],
+  "decoded_images": [
+    {
+      "path": "artwork/exports/hero-mobile.jpg",
+      "size": [
+        900,
+        1000
+      ]
+    },
+    {
+      "path": "artwork/exports/hero.jpg",
+      "size": [
+        1600,
+        960
+      ]
+    },
+    {
+      "path": "artwork/exports/poster-9x16.jpg",
+      "size": [
+        1080,
+        1920
+      ]
+    },
+    {
+      "path": "artwork/exports/stage-detail.jpg",
+      "size": [
+        928,
+        1197
+      ]
+    },
+    {
+      "path": "artwork/source/00_CHAPTER_04_COVER.jpg",
+      "size": [
+        1600,
+        2250
+      ]
+    },
+    {
+      "path": "artwork/source/01_stage_hero_PREVIS.jpg",
+      "size": [
+        1848,
+        1197
+      ]
+    },
+    {
+      "path": "artwork/source/02_presenter_profile_PREVIS.jpg",
+      "size": [
+        900,
+        720
+      ]
+    },
+    {
+      "path": "artwork/source/03_the_model_PREVIS.jpg",
+      "size": [
+        900,
+        720
+      ]
+    },
+    {
+      "path": "artwork/source/04_audience_PREVIS.jpg",
+      "size": [
+        900,
+        720
+      ]
+    },
+    {
+      "path": "artwork/source/05_lecture_PREVIS.jpg",
+      "size": [
+        900,
+        720
+      ]
+    },
+    {
+      "path": "artwork/source/06_tinder_PREVIS.jpg",
+      "size": [
+        900,
+        720
+      ]
+    },
+    {
+      "path": "artwork/source/07_notebook_PREVIS.jpg",
+      "size": [
+        900,
+        720
+      ]
+    },
+    {
+      "path": "artwork/source/08_city_PREVIS.jpg",
+      "size": [
+        900,
+        720
+      ]
+    },
+    {
+      "path": "artwork/source/09_funnel_original_diagram.png",
+      "size": [
+        1800,
+        1100
+      ]
+    },
+    {
+      "path": "artwork/source/10_matching_hypothetical.png",
+      "size": [
+        1800,
+        1100
+      ]
+    },
+    {
+      "path": "artwork/source/11_invitation_decision_tree.png",
+      "size": [
+        1800,
+        1100
+      ]
+    },
+    {
+      "path": "social/facebook/facebook_1600x900.jpg",
+      "size": [
+        1600,
+        900
+      ]
+    },
+    {
+      "path": "social/instagram/01_dating_algorithm_3x4.jpg",
+      "size": [
+        1080,
+        1440
+      ]
+    },
+    {
+      "path": "social/instagram/02_dating_algorithm_3x4.jpg",
+      "size": [
+        1080,
+        1440
+      ]
+    },
+    {
+      "path": "social/instagram/03_dating_algorithm_3x4.jpg",
+      "size": [
+        1080,
+        1440
+      ]
+    },
+    {
+      "path": "social/instagram/04_dating_algorithm_3x4.jpg",
+      "size": [
+        1080,
+        1440
+      ]
+    },
+    {
+      "path": "social/instagram/05_dating_algorithm_3x4.jpg",
+      "size": [
+        1080,
+        1440
+      ]
+    },
+    {
+      "path": "social/instagram/slide-01.jpg",
+      "size": [
+        1080,
+        1440
+      ]
+    },
+    {
+      "path": "social/instagram/slide-02.jpg",
+      "size": [
+        1080,
+        1440
+      ]
+    },
+    {
+      "path": "social/instagram/slide-03.jpg",
+      "size": [
+        1080,
+        1440
+      ]
+    },
+    {
+      "path": "social/instagram/slide-04.jpg",
+      "size": [
+        1080,
+        1440
+      ]
+    },
+    {
+      "path": "social/instagram/slide-05.jpg",
+      "size": [
+        1080,
+        1440
+      ]
+    },
+    {
+      "path": "social/tiktok/cover.jpg",
+      "size": [
+        1080,
+        1920
+      ]
+    },
+    {
+      "path": "social/youtube/youtube_thumb_1280x720.jpg",
+      "size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "path": "previews/ASSET_OVERVIEW.jpg",
+      "size": [
+        1600,
+        1450
+      ]
+    },
+    {
+      "path": "previews/board_desktop.png",
+      "size": [
+        1400,
+        900
+      ]
+    },
+    {
+      "path": "previews/book.jpg",
+      "size": [
+        1645,
+        700
+      ]
+    },
+    {
+      "path": "previews/PDF_CONTACT_SHEET.jpg",
+      "size": [
+        1600,
+        1380
+      ]
+    },
+    {
+      "path": "previews/poster.jpg",
+      "size": [
+        620,
+        900
+      ]
+    },
+    {
+      "path": "previews/website_desktop.png",
+      "size": [
+        1440,
+        900
+      ]
+    },
+    {
+      "path": "previews/website_mobile.png",
+      "size": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "web/assets/01_stage_hero_PREVIS.jpg",
+      "size": [
+        1848,
+        1197
+      ]
+    },
+    {
+      "path": "web/assets/09_funnel_original_diagram.png",
+      "size": [
+        1800,
+        1100
+      ]
+    },
+    {
+      "path": "web/assets/10_matching_hypothetical.png",
+      "size": [
+        1800,
+        1100
+      ]
+    },
+    {
+      "path": "web/assets/reader-hero.jpg",
+      "size": [
+        900,
+        1000
+      ]
+    }
+  ],
+  "videos": [
+    {
+      "path": "video/04_Dating_Algorithm_ANIMATIC_9x16.mp4",
+      "duration": 24.0,
+      "video": "H.264",
+      "audio": "AAC",
+      "full_decode": "passed"
+    },
+    {
+      "path": "video/04_Dating_Algorithm_YOUTUBE_16x9_AMBIENT_PROOF.mp4",
+      "duration": 24.0,
+      "video": "H.264",
+      "audio": "AAC",
+      "full_decode": "passed"
+    },
+    {
+      "path": "video/discovery-9x16.mp4",
+      "duration": 24.0,
+      "video": "H.264",
+      "audio": "AAC",
+      "full_decode": "passed"
+    },
+    {
+      "path": "video/essay-16x9.mp4",
+      "duration": 24.0,
+      "video": "H.264",
+      "audio": "AAC",
+      "full_decode": "passed"
+    }
+  ],
+  "ambient_audio": {
+    "seconds": 24.0,
+    "channels": 1,
+    "sample_rate": 22050
+  },
+  "blank_csv_rows": 10,
+  "blank_csv_columns": [
+    "anon_id",
+    "perceived_visual_profile_score_1_to_10",
+    "right_swipes",
+    "matches",
+    "conversations",
+    "first_messages",
+    "replies",
+    "observation_window",
+    "consent_status",
+    "notes"
+  ],
+  "result": "Passed source hashes, all essay paragraphs in A5, 14 A5 + 1 A4 page renders, image decoding and four complete film decodes. Visual contact sheets accompany this report."
+}

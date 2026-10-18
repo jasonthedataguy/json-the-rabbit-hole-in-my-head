@@ -1,0 +1,25 @@
+{
+  "chapter": "15",
+  "mode": "local",
+  "widths": [
+    320,
+    390,
+    820,
+    1440
+  ],
+  "homepage_cards": 8,
+  "source_paragraphs": 8,
+  "source_sha256": "b5b27a3d38118db90eb440f12b095a44fc66a73e631e7ca1f5f232b4c65651c2",
+  "checks": [
+    "original prose and seven emphasis spans",
+    "three meeting controls and reset by keyboard",
+    "unknown third outcome retained",
+    "images and all download links",
+    "1080p 24-second film playback, VTT and ambient audio",
+    "no-JavaScript full text and default explorer",
+    "offline reader and controls",
+    "all seven prior chapter manuscripts",
+    "08 → 15 → 02 navigation and slug alias"
+  ],
+  "errors": []
+}

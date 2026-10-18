@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "slug": "better-and-brighter-than-ever",
+  "number": "23",
+  "title": "Better and Brighter Than Ever",
+  "short_title": "Better and Brighter Than Ever",
+  "part": 4,
+  "language": "vi",
+  "publish": false,
+  "release_stage": "outline",
+  "canonical_text": null,
+  "canonical_path": "#chapter/23",
+  "summary": "Từ món quà áo bóng đá từng tượng trưng cho tình bạn tới sự cay nghiệt sau khi mất lòng tin.",
+  "portal": {
+    "scene": "Two football jerseys hang apart beneath fluorescent light with a gift tag and an empty hook.",
+    "objects": [
+      "football jerseys",
+      "gift tag",
+      "empty hook"
+    ],
+    "iconKey": "jersey",
+    "motif": "The empty hook"
+  },
+  "original_edition": null,
+  "production_status": "awaiting author manuscript",
+  "outline_title": "Better and Brighter Than Ever"
+}

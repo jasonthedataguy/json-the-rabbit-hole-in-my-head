@@ -1,0 +1,614 @@
+[
+  {
+    "id": "001",
+    "stream": "Editorial & provenance",
+    "title": "Preserve original Vietnamese/Vinglish essay",
+    "status": "READY",
+    "owner": "Production",
+    "acceptance": "Exact file/behavior verified before marking READY.",
+    "priority": "P1"
+  },
+  {
+    "id": "002",
+    "stream": "Editorial & provenance",
+    "title": "Create proposed minimal edit",
+    "status": "PROOF",
+    "owner": "Production",
+    "acceptance": "Exact file/behavior verified before marking READY.",
+    "priority": "P1"
+  },
+  {
+    "id": "003",
+    "stream": "Editorial & provenance",
+    "title": "Approve canonical manuscript",
+    "status": "BLOCKED",
+    "owner": "Jason",
+    "acceptance": "Explicit author or provider approval is recorded.",
+    "priority": "P0"
+  },
+  {
+    "id": "004",
+    "stream": "Editorial & provenance",
+    "title": "Reconcile memoir age and working chapter number",
+    "status": "TODO",
+    "owner": "Production",
+    "acceptance": "Exact file/behavior verified before marking READY.",
+    "priority": "P0"
+  },
+  {
+    "id": "005",
+    "stream": "Editorial & provenance",
+    "title": "Verify quoted game dialogue",
+    "status": "BLOCKED",
+    "owner": "Jason",
+    "acceptance": "Explicit author or provider approval is recorded.",
+    "priority": "P0"
+  },
+  {
+    "id": "006",
+    "stream": "Editorial & provenance",
+    "title": "Check Call of Duty mission sequence",
+    "status": "BLOCKED",
+    "owner": "Jason",
+    "acceptance": "Explicit author or provider approval is recorded.",
+    "priority": "P0"
+  },
+  {
+    "id": "007",
+    "stream": "Editorial & provenance",
+    "title": "Keep recollection distinct from history",
+    "status": "READY",
+    "owner": "Production",
+    "acceptance": "Exact file/behavior verified before marking READY.",
+    "priority": "P1"
+  },
+  {
+    "id": "008",
+    "stream": "Editorial & provenance",
+    "title": "Check period language and geography",
+    "status": "TODO",
+    "owner": "Production",
+    "acceptance": "Exact file/behavior verified before marking READY.",
+    "priority": "P0"
+  },
+  {
+    "id": "009",
+    "stream": "Editorial & provenance",
+    "title": "Approve ending and Victory Day reference",
+    "status": "BLOCKED",
+    "owner": "Jason",
+    "acceptance": "Explicit author or provider approval is recorded.",
+    "priority": "P0"
+  },
+  {
+    "id": "010",
+    "stream": "Editorial & provenance",
+    "title": "Authorize public full chapter release",
+    "status": "BLOCKED",
+    "owner": "Jason",
+    "acceptance": "Explicit author or provider approval is recorded.",
+    "priority": "P0"
+  },
+  {
+    "id": "011",
+    "stream": "Illustration & design",
+    "title": "Select midnight-blue/warm-gold palette",
+    "status": "READY",
+    "owner": "Production",
+    "acceptance": "Exact file/behavior verified before marking READY.",
+    "priority": "P1"
+  },
+  {
+    "id": "012",
+    "stream": "Illustration & design",
+    "title": "Retain approved first board composition",
+    "status": "READY",
+    "owner": "Production",
+    "acceptance": "Exact file/behavior verified before marking READY.",
+    "priority": "P1"
+  },
+  {
+    "id": "013",
+    "stream": "Illustration & design",
+    "title": "Include yellow beanie + black outfit + white Gấu on hero",
+    "status": "READY",
+    "owner": "Production",
+    "acceptance": "Exact file/behavior verified before marking READY.",
+    "priority": "P1"
+  },
+  {
+    "id": "014",
+    "stream": "Illustration & design",
+    "title": "Export main chapter art proof",
+    "status": "PROOF",
+    "owner": "Production",
+    "acceptance": "Exact file/behavior verified before marking READY.",
+    "priority": "P1"
+  },
+  {
+    "id": "015",
+    "stream": "Illustration & design",
+    "title": "Prepare 10 memory-scene art plates",
+    "status": "PROOF",
+    "owner": "Production",
+    "acceptance": "Exact file/behavior verified before marking READY.",
+    "priority": "P1"
+  },
+  {
+    "id": "016",
+    "stream": "Illustration & design",
+    "title": "Produce standalone print-quality repaint",
+    "status": "TODO",
+    "owner": "Production",
+    "acceptance": "Exact file/behavior verified before marking READY.",
+    "priority": "P0"
+  },
+  {
+    "id": "017",
+    "stream": "Illustration & design",
+    "title": "Prepare memory graph illustration",
+    "status": "READY",
+    "owner": "Production",
+    "acceptance": "Exact file/behavior verified before marking READY.",
+    "priority": "P1"
+  },
+  {
+    "id": "018",
+    "stream": "Illustration & design",
+    "title": "Create mobile art crops",
+    "status": "READY",
+    "owner": "Production",
+    "acceptance": "Exact file/behavior verified before marking READY.",
+    "priority": "P1"
+  },
+  {
+    "id": "019",
+    "stream": "Illustration & design",
+    "title": "Review no invented historical documentary scenes",
+    "status": "TODO",
+    "owner": "Production",
+    "acceptance": "Exact file/behavior verified before marking READY.",
+    "priority": "P0"
+  },
+  {
+    "id": "020",
+    "stream": "Illustration & design",
+    "title": "Check IP for game references and uniforms",
+    "status": "BLOCKED",
+    "owner": "Jason",
+    "acceptance": "Explicit author or provider approval is recorded.",
+    "priority": "P0"
+  },
+  {
+    "id": "021",
+    "stream": "Illustration & design",
+    "title": "Prepare edited layered illustration files",
+    "status": "TODO",
+    "owner": "Production",
+    "acceptance": "Exact file/behavior verified before marking READY.",
+    "priority": "P0"
+  },
+  {
+    "id": "022",
+    "stream": "Illustration & design",
+    "title": "Approve final print/social artwork",
+    "status": "BLOCKED",
+    "owner": "Jason",
+    "acceptance": "Explicit author or provider approval is recorded.",
+    "priority": "P0"
+  },
+  {
+    "id": "023",
+    "stream": "Book & print",
+    "title": "Generate full illustrated A5 editorial PDF",
+    "status": "PROOF",
+    "owner": "Production",
+    "acceptance": "Exact file/behavior verified before marking READY.",
+    "priority": "P1"
+  },
+  {
+    "id": "024",
+    "stream": "Book & print",
+    "title": "Render all A5 pages for proofing",
+    "status": "READY",
+    "owner": "Production",
+    "acceptance": "Exact file/behavior verified before marking READY.",
+    "priority": "P1"
+  },
+  {
+    "id": "025",
+    "stream": "Book & print",
+    "title": "Produce A4 collectible poster proof",
+    "status": "PROOF",
+    "owner": "Production",
+    "acceptance": "Exact file/behavior verified before marking READY.",
+    "priority": "P1"
+  },
+  {
+    "id": "026",
+    "stream": "Book & print",
+    "title": "Proofread Vietnamese diacritics",
+    "status": "TODO",
+    "owner": "Production",
+    "acceptance": "Exact file/behavior verified before marking READY.",
+    "priority": "P0"
+  },
+  {
+    "id": "027",
+    "stream": "Book & print",
+    "title": "Confirm final chapter number in book",
+    "status": "BLOCKED",
+    "owner": "Jason",
+    "acceptance": "Explicit author or provider approval is recorded.",
+    "priority": "P0"
+  },
+  {
+    "id": "028",
+    "stream": "Book & print",
+    "title": "Receive printer trim/bleed/gutter specs",
+    "status": "BLOCKED",
+    "owner": "Jason",
+    "acceptance": "Explicit author or provider approval is recorded.",
+    "priority": "P0"
+  },
+  {
+    "id": "029",
+    "stream": "Book & print",
+    "title": "Export print-vendor PDF/X",
+    "status": "BLOCKED",
+    "owner": "Jason",
+    "acceptance": "Explicit author or provider approval is recorded.",
+    "priority": "P0"
+  },
+  {
+    "id": "030",
+    "stream": "Book & print",
+    "title": "Print and approve physical proof",
+    "status": "BLOCKED",
+    "owner": "Jason",
+    "acceptance": "Explicit author or provider approval is recorded.",
+    "priority": "P0"
+  },
+  {
+    "id": "031",
+    "stream": "Digital & interactive",
+    "title": "Build local responsive chapter reader",
+    "status": "PROOF",
+    "owner": "Production",
+    "acceptance": "Exact file/behavior verified before marking READY.",
+    "priority": "P1"
+  },
+  {
+    "id": "032",
+    "stream": "Digital & interactive",
+    "title": "Include full original/proposed text switch",
+    "status": "READY",
+    "owner": "Production",
+    "acceptance": "Exact file/behavior verified before marking READY.",
+    "priority": "P1"
+  },
+  {
+    "id": "033",
+    "stream": "Digital & interactive",
+    "title": "Implement seven-node Memory Graph",
+    "status": "READY",
+    "owner": "Production",
+    "acceptance": "Exact file/behavior verified before marking READY.",
+    "priority": "P1"
+  },
+  {
+    "id": "034",
+    "stream": "Digital & interactive",
+    "title": "Add visual gallery and meaningful alt text",
+    "status": "READY",
+    "owner": "Production",
+    "acceptance": "Exact file/behavior verified before marking READY.",
+    "priority": "P1"
+  },
+  {
+    "id": "035",
+    "stream": "Digital & interactive",
+    "title": "Embed ambient-only animatic player",
+    "status": "READY",
+    "owner": "Production",
+    "acceptance": "Exact file/behavior verified before marking READY.",
+    "priority": "P1"
+  },
+  {
+    "id": "036",
+    "stream": "Digital & interactive",
+    "title": "Mobile 390px functional QA",
+    "status": "TODO",
+    "owner": "Production",
+    "acceptance": "Exact file/behavior verified before marking READY.",
+    "priority": "P0"
+  },
+  {
+    "id": "037",
+    "stream": "Digital & interactive",
+    "title": "Desktop 1440px functional QA",
+    "status": "TODO",
+    "owner": "Production",
+    "acceptance": "Exact file/behavior verified before marking READY.",
+    "priority": "P0"
+  },
+  {
+    "id": "038",
+    "stream": "Digital & interactive",
+    "title": "Keyboard and reduced-motion checks",
+    "status": "TODO",
+    "owner": "Production",
+    "acceptance": "Exact file/behavior verified before marking READY.",
+    "priority": "P0"
+  },
+  {
+    "id": "039",
+    "stream": "Digital & interactive",
+    "title": "Approve content rights for public site",
+    "status": "BLOCKED",
+    "owner": "Jason",
+    "acceptance": "Explicit author or provider approval is recorded.",
+    "priority": "P0"
+  },
+  {
+    "id": "040",
+    "stream": "Digital & interactive",
+    "title": "Deploy verified stable HTTPS route",
+    "status": "BLOCKED",
+    "owner": "Jason",
+    "acceptance": "Explicit author or provider approval is recorded.",
+    "priority": "P0"
+  },
+  {
+    "id": "041",
+    "stream": "Digital & interactive",
+    "title": "Generate tested physical book QR",
+    "status": "BLOCKED",
+    "owner": "Jason",
+    "acceptance": "Explicit author or provider approval is recorded.",
+    "priority": "P0"
+  },
+  {
+    "id": "042",
+    "stream": "Video & sound",
+    "title": "Create source-grounded 5-beat storyboard",
+    "status": "READY",
+    "owner": "Production",
+    "acceptance": "Exact file/behavior verified before marking READY.",
+    "priority": "P1"
+  },
+  {
+    "id": "043",
+    "stream": "Video & sound",
+    "title": "Write Vietnamese narration script",
+    "status": "PROOF",
+    "owner": "Production",
+    "acceptance": "Exact file/behavior verified before marking READY.",
+    "priority": "P1"
+  },
+  {
+    "id": "044",
+    "stream": "Video & sound",
+    "title": "Create 24-second 9:16 H264 animatic",
+    "status": "PROOF",
+    "owner": "Production",
+    "acceptance": "Exact file/behavior verified before marking READY.",
+    "priority": "P1"
+  },
+  {
+    "id": "045",
+    "stream": "Video & sound",
+    "title": "Synthesize credited original ambience",
+    "status": "READY",
+    "owner": "Production",
+    "acceptance": "Exact file/behavior verified before marking READY.",
+    "priority": "P1"
+  },
+  {
+    "id": "046",
+    "stream": "Video & sound",
+    "title": "Make visual beat captions SRT",
+    "status": "READY",
+    "owner": "Production",
+    "acceptance": "Exact file/behavior verified before marking READY.",
+    "priority": "P1"
+  },
+  {
+    "id": "047",
+    "stream": "Video & sound",
+    "title": "Get author/narrator recording rights",
+    "status": "BLOCKED",
+    "owner": "Jason",
+    "acceptance": "Explicit author or provider approval is recorded.",
+    "priority": "P0"
+  },
+  {
+    "id": "048",
+    "stream": "Video & sound",
+    "title": "Record final narrator",
+    "status": "BLOCKED",
+    "owner": "Jason",
+    "acceptance": "Explicit author or provider approval is recorded.",
+    "priority": "P0"
+  },
+  {
+    "id": "049",
+    "stream": "Video & sound",
+    "title": "Sync captions to recorded voice",
+    "status": "BLOCKED",
+    "owner": "Jason",
+    "acceptance": "Explicit author or provider approval is recorded.",
+    "priority": "P0"
+  },
+  {
+    "id": "050",
+    "stream": "Video & sound",
+    "title": "Export 1080x1920 finished short",
+    "status": "BLOCKED",
+    "owner": "Jason",
+    "acceptance": "Explicit author or provider approval is recorded.",
+    "priority": "P0"
+  },
+  {
+    "id": "051",
+    "stream": "Video & sound",
+    "title": "Phone and loudness QA",
+    "status": "TODO",
+    "owner": "Production",
+    "acceptance": "Exact file/behavior verified before marking READY.",
+    "priority": "P0"
+  },
+  {
+    "id": "052",
+    "stream": "Social & distribution",
+    "title": "Export five 3:4 Instagram cards",
+    "status": "PROOF",
+    "owner": "Production",
+    "acceptance": "Exact file/behavior verified before marking READY.",
+    "priority": "P1"
+  },
+  {
+    "id": "053",
+    "stream": "Social & distribution",
+    "title": "Prepare Facebook hero image",
+    "status": "PROOF",
+    "owner": "Production",
+    "acceptance": "Exact file/behavior verified before marking READY.",
+    "priority": "P1"
+  },
+  {
+    "id": "054",
+    "stream": "Social & distribution",
+    "title": "Prepare YouTube thumbnail",
+    "status": "PROOF",
+    "owner": "Production",
+    "acceptance": "Exact file/behavior verified before marking READY.",
+    "priority": "P1"
+  },
+  {
+    "id": "055",
+    "stream": "Social & distribution",
+    "title": "Write Instagram carousel caption",
+    "status": "READY",
+    "owner": "Production",
+    "acceptance": "Exact file/behavior verified before marking READY.",
+    "priority": "P1"
+  },
+  {
+    "id": "056",
+    "stream": "Social & distribution",
+    "title": "Write Facebook story excerpt",
+    "status": "READY",
+    "owner": "Production",
+    "acceptance": "Exact file/behavior verified before marking READY.",
+    "priority": "P1"
+  },
+  {
+    "id": "057",
+    "stream": "Social & distribution",
+    "title": "Write TikTok/YouTube description",
+    "status": "READY",
+    "owner": "Production",
+    "acceptance": "Exact file/behavior verified before marking READY.",
+    "priority": "P1"
+  },
+  {
+    "id": "058",
+    "stream": "Social & distribution",
+    "title": "Author approves public social text",
+    "status": "BLOCKED",
+    "owner": "Jason",
+    "acceptance": "Explicit author or provider approval is recorded.",
+    "priority": "P0"
+  },
+  {
+    "id": "059",
+    "stream": "Social & distribution",
+    "title": "Upload to social accounts",
+    "status": "BLOCKED",
+    "owner": "Jason",
+    "acceptance": "Explicit author or provider approval is recorded.",
+    "priority": "P0"
+  },
+  {
+    "id": "060",
+    "stream": "Release & governance",
+    "title": "Maintain source provenance and notes",
+    "status": "READY",
+    "owner": "Production",
+    "acceptance": "Exact file/behavior verified before marking READY.",
+    "priority": "P1"
+  },
+  {
+    "id": "061",
+    "stream": "Release & governance",
+    "title": "Identify visual reconstruction vs autobiography",
+    "status": "READY",
+    "owner": "Production",
+    "acceptance": "Exact file/behavior verified before marking READY.",
+    "priority": "P1"
+  },
+  {
+    "id": "062",
+    "stream": "Release & governance",
+    "title": "Check people/locations privacy and Gấu scene",
+    "status": "TODO",
+    "owner": "Production",
+    "acceptance": "Exact file/behavior verified before marking READY.",
+    "priority": "P0"
+  },
+  {
+    "id": "063",
+    "stream": "Release & governance",
+    "title": "Verify third-party game and music rights",
+    "status": "BLOCKED",
+    "owner": "Jason",
+    "acceptance": "Explicit author or provider approval is recorded.",
+    "priority": "P0"
+  },
+  {
+    "id": "064",
+    "stream": "Release & governance",
+    "title": "Prepare README and machine-readable manifest",
+    "status": "READY",
+    "owner": "Production",
+    "acceptance": "Exact file/behavior verified before marking READY.",
+    "priority": "P1"
+  },
+  {
+    "id": "065",
+    "stream": "Release & governance",
+    "title": "Create interactive progress board",
+    "status": "READY",
+    "owner": "Production",
+    "acceptance": "Exact file/behavior verified before marking READY.",
+    "priority": "P1"
+  },
+  {
+    "id": "066",
+    "stream": "Release & governance",
+    "title": "Commit review-safe sources to GitHub branch",
+    "status": "TODO",
+    "owner": "Production",
+    "acceptance": "Exact file/behavior verified before marking READY.",
+    "priority": "P0"
+  },
+  {
+    "id": "067",
+    "stream": "Release & governance",
+    "title": "Review and approve GitHub draft PR",
+    "status": "BLOCKED",
+    "owner": "Jason",
+    "acceptance": "Explicit author or provider approval is recorded.",
+    "priority": "P0"
+  },
+  {
+    "id": "068",
+    "stream": "Release & governance",
+    "title": "Test web URL and print QR",
+    "status": "BLOCKED",
+    "owner": "Jason",
+    "acceptance": "Explicit author or provider approval is recorded.",
+    "priority": "P0"
+  }
+]

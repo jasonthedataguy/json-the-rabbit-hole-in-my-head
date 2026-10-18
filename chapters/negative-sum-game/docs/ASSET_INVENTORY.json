@@ -1,0 +1,35 @@
+{
+  "chapter": "negative-sum-game",
+  "files": [
+    {
+      "path": "chapter.json",
+      "bytes": 1021,
+      "sha256": "8a765bc86d671878f153616dcc55172506406ab76b6dfb78222cb36a4a9f8765"
+    },
+    {
+      "path": "docs/PRODUCTS.json",
+      "bytes": 312,
+      "sha256": "a7973da53857fb37f1ab881bd2774803ab3264397a2e1055518c88f3db44ff3f"
+    },
+    {
+      "path": "production.json",
+      "bytes": 158,
+      "sha256": "04cca5cbcb7714947f2e115425c3b36fd58203c853d17184364ed8f229b16d7d"
+    },
+    {
+      "path": "README.md",
+      "bytes": 434,
+      "sha256": "246f94b7b49948697e5d2dd0e5b6291227c74b84933033a7bacd0a239020bc8c"
+    },
+    {
+      "path": "source/outline.md",
+      "bytes": 417,
+      "sha256": "c2d8466d0b9d7c22bd2e193e8cd330dcce8e2e122be6931fccccd9a08d18168b"
+    },
+    {
+      "path": "source/revisions.log",
+      "bytes": 111,
+      "sha256": "e01ec275c2bd0c7128f4545ba1a8339712c2e287d8a0ea329c9ccf3068756f36"
+    }
+  ]
+}

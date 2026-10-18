@@ -1,0 +1,35 @@
+{
+  "chapter": "nhung-su-trung-hop",
+  "files": [
+    {
+      "path": "chapter.json",
+      "bytes": 967,
+      "sha256": "85983d79b0399587207c5ae12d5b3af0a65a69a8c18498af5ab80f26f8e6155f"
+    },
+    {
+      "path": "docs/PRODUCTS.json",
+      "bytes": 313,
+      "sha256": "6ade4b2cb6b2fa04cc8786df0b7027ff6d8d9ae4065bda0ce9cf308ba2f267a8"
+    },
+    {
+      "path": "production.json",
+      "bytes": 158,
+      "sha256": "04cca5cbcb7714947f2e115425c3b36fd58203c853d17184364ed8f229b16d7d"
+    },
+    {
+      "path": "README.md",
+      "bytes": 443,
+      "sha256": "1655ab274fb1cdb9d90a365295a2858ffa9c4a004f8dc7de38a9d911c3df78b6"
+    },
+    {
+      "path": "source/outline.md",
+      "bytes": 345,
+      "sha256": "f0f794177775a9bb80f5ef71f60d93e409362870debc1185ceaf7f912c6b6356"
+    },
+    {
+      "path": "source/revisions.log",
+      "bytes": 111,
+      "sha256": "e01ec275c2bd0c7128f4545ba1a8339712c2e287d8a0ea329c9ccf3068756f36"
+    }
+  ]
+}

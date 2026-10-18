@@ -1,55 +1,58 @@
-# .json — Jason, Under Revision · Portal edition
+# .json — Jason, under revision
 
-A separate digital reading edition of the book. Its homepage is a navy cloth book cover with a rotating paper portal and the short “I like maths because…” introduction. It links to the introduction, illustrated chapter map, printed-style contents, published archive, and edition notes. The book’s reading order begins with the title page, epigraph, and source-based introduction, followed by the Cơm nguội prologue and five narrative parts. Chapters are continuous reading pages; the illustrated portal map and physical-edition notes are separate views. The original repository remains at [jasonthedataguy/json-under-revision](https://github.com/jasonthedataguy/json-under-revision).
+The portal edition and its immersive chapter production workspace. The homepage keeps the cloth cover, rotating chapter ring, changing centre artwork and curved maths/literature quote. The reading order contains 32 editorial slots; Dating 102 remains a separate archive essay.
 
-The optional illustrated contents map uses a circular paper rim that follows mouse or touch angle and snaps to 11.25° stops while the central scene stays upright. Center swipes, scroll gestures, arrow buttons, keyboard navigation and the chapter index provide other ways in. Every portal carries its own item-and-number paper marker. Cơm nguội uses the exact navy-and-ivory rice-bowl badge from the supplied reference image, displayed without redrawing it. Fashion uses a Jordan 1 keepsake.
+Start with the [production board](docs/PROJECT_BOARD.html), [chapter status](docs/PRODUCTION_STATUS.md), [architecture](docs/ARCHITECTURE.md), [asset guide](docs/ASSET_GUIDE.md), and [full production workflow](docs/PRODUCTION_WORKFLOW.md).
 
-## Book structure
-
-`dist/book.js` records the introduction, five Vietnamese part titles, and 32 chapter premises from the publisher narrative review. The introduction is editorial front matter, not an invented author preface. Published chapters retain their exact prose; chapters without full text display a clearly labeled Vietnamese outline. Browser history, type sizing, saved reading positions, a printed-style table of contents, and the mobile contents drawer support reading. Promotional material is absent from the opening; physical-book notes appear only under **Về ấn bản**.
-
-## Published writing
-
-The reader bundles all ten published manuscripts from the original repository at commit `b41b692b3e3633abea4997b6ac4513a91308f127`. Each approved manuscript and its metadata are preserved byte-for-byte under `content/chapters/`. Deployed Markdown copies and rendered reader content are under `dist/content/`.
-
-Nine manuscripts have evidence-based links to the new 00–31 portal order. Their original titles are retained in the reader. **Dating 102** remains an additional essay in the published archive and is not assigned to the unrelated Tiểu hành tinh portal. Original chapter numbers and the new editorial IDs are recorded separately in [source provenance](docs/source-provenance.json). Chapters without a published manuscript remain clearly labeled previews.
-
-Original memory experiences, downloads and multimedia remain reachable through links to the original published chapter pages. This repository does not modify the original archive.
-
-## Work on this repository
-
-- `dist/index.html` — cover and book-page markup.
-- `dist/cover.css` — cloth-cover appearance, paper ring, and short introduction.
-- `dist/app.js` — navigation, readers, and the cover/chapter-map interactions.
-- `dist/book.js` — book introduction, five parts, and chapter outlines.
-- `content/chapters/` — preserved author-approved manuscript source files.
-- `scripts/check_site.py` — manuscript and public-file validation.
-
-Push changes to `main` to run the GitHub Pages deployment workflow.
-
-## Run locally
-
-No package installation or build step is required. Python is used for validation and a local HTTP server:
-
-```sh
-python scripts/check_site.py
-python -m http.server 4173 --directory dist
+```text
+book.json             reading order, parts, introduction and shared conventions
+chapters/<slug>/      manuscript, artwork, web, book, audio, video, social, QA
+shared/               editable portal site, fonts, shared artwork, product contract
+templates/chapter/    reusable unpublished intake structure
+scripts/              build, inventory, validation, scaffolding and reference audit
+tests/                source integrity and build safety checks
+docs/                 project board, workflow, provenance and migration records
+references/           original toolchain and design inputs
+archive/              superseded v2 deliverables
+dist/                 generated website; do not edit or commit
 ```
 
-Then open http://localhost:4173. JavaScript modules require an HTTP server.
+Each chapter has `chapter.json`, `production.json`, `source/`, `artwork/{source,scenes,exports,portal}/`, `book/`, `web/`, `audio/`, `video/`, four social channel folders, `docs/`, `previews/`, and `references/`. Stable slugs identify chapters independently of editorial numbers.
+
+## Work here
+
+Edit the website in `shared/web/`. Edit book-level content in `book.json` and chapter identity/summary in `chapters/<slug>/chapter.json`. Keep author-selected prose in the chapter’s `source/`. All 32 slots already have a folder; 23 currently contain editorial outlines, not full author manuscripts.
+
+The ten published original chapters have their complete tracked asset kits locally: 1,412 preserved file mappings, about 444 MB including existing portal assets and production references. The selected reader retains all 80,917 original manuscript bytes. Nine manuscripts have justified portal mappings; Dating 102 has none. [Migration evidence](docs/MIGRATION.json) and [source provenance](docs/source-provenance.json) record the distinction.
+
+The reader links to local immersive experiences and inherited print/film files. Their original numbering and proof states remain explicit. Existing assets are available for adaptation; narration, printer-specific work and v2 media/design review are not automatically complete.
+
+## Build and preview
+
+Python 3.11+; no package installation is required for the site or inventories.
+
+```sh
+python scripts/build_inventory.py
+python scripts/build_site.py
+python scripts/check_site.py
+python -m unittest discover -s tests -v
+python -m http.server 4173 --directory dist --bind 127.0.0.1
+```
+
+Open [localhost:4173](http://localhost:4173). Rebuild after changing sources. To view the internal board in a browser, serve the repository on a separate local port and visit `/docs/PROJECT_BOARD.html`; only `dist/` is intended for public deployment.
+
+`build_site.py` generates the portal modules, manuscript library, public assets and local chapter collections. `build_inventory.py` generates the per-chapter file inventory, product status and cross-chapter board. The current tooling preserves existing media; it does not claim to regenerate inherited print or video products. Their recipes and original renderer remain available for deliberate v2 adaptation.
+
+## Additional essays
+
+```sh
+python scripts/new_chapter.py --slug another-essay --title "Another essay" --archive
+```
+
+The scaffold is unpublished. To work on one of the planned 32 chapters, edit its existing folder. [The workflow](docs/PRODUCTION_WORKFLOW.md) explains manuscript selection, Read / Explore / Revisit, print, narration, films, social packs and release evidence.
 
 ## Deployment
 
-GitHub Pages deploys the tracked `dist/` directory on pushes to `main`. The workflow verifies manuscript hashes and public assets before upload. Set the repository Pages source to **GitHub Actions**. All asset paths are relative, so the site works beneath `/json-under-revision-v2/` and on other static hosts.
+GitHub Actions tests, inventories, builds and validates before deploying `dist/` on pushes to `main`. Pull requests run checks without deployment. Source assets and chapter products are versioned; generated site output is ignored. Existing hash routes and root asset URLs are preserved, and all local paths work beneath `/json-under-revision-v2/`.
 
-No tokens, runtime credentials, or external account connections are required by the site. Fonts are served locally with their OFL licenses. Preferences and reading positions are stored only in the visitor's browser.
-
-## Content updates
-
-To re-import from a local checkout of the original repository:
-
-```sh
-python scripts/import_reference.py --help
-```
-
-Keep editorial IDs separate from original archive numbers. Do not replace unpublished chapters with invented essays. The supplied book and illustration boards are concepts; no stock, pricing or manufactured-cover claims are made.
+No release or social upload is performed by the local build. The [original edition](https://github.com/jasonthedataguy/json-under-revision) remains unchanged at its own repository and URLs.

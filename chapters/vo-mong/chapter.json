@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "slug": "vo-mong",
+  "number": "12",
+  "title": "Vỡ mộng",
+  "short_title": "Vỡ mộng",
+  "part": 2,
+  "language": "vi",
+  "publish": false,
+  "release_stage": "outline",
+  "canonical_text": null,
+  "canonical_path": "#chapter/12",
+  "summary": "Từ ông già Noel tới những phát hiện không dễ chịu khác, Jason kể quá trình mất dần sự đơn giản của thế giới thời bé.",
+  "portal": {
+    "scene": "A fading childhood holiday decoration hangs above an ordinary roof and a small lit window.",
+    "objects": [
+      "paper star",
+      "gift box",
+      "window light"
+    ],
+    "iconKey": "star",
+    "motif": "The paper star"
+  },
+  "original_edition": null,
+  "production_status": "awaiting author manuscript",
+  "outline_title": "Vỡ mộng"
+}

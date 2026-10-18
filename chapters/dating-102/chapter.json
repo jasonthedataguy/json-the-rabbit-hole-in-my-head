@@ -1,0 +1,30 @@
+{
+  "schema_version": 2,
+  "slug": "dating-102",
+  "number": null,
+  "title": "Dating 102",
+  "short_title": "Dating 102",
+  "part": null,
+  "language": "vi",
+  "publish": true,
+  "release_stage": "reader-with-original-products",
+  "canonical_text": "source/approved.md",
+  "canonical_path": "#archive/dating-102",
+  "summary": "",
+  "portal": {
+    "scene": "",
+    "objects": [],
+    "iconKey": null,
+    "motif": ""
+  },
+  "original_edition": {
+    "number": "16",
+    "title": "Dating 102",
+    "repo": "https://github.com/jasonthedataguy/json-under-revision",
+    "commit": "b41b692b3e3633abea4997b6ac4513a91308f127",
+    "metadata": "references/original-edition/chapter.json",
+    "archive_url": "https://jasonthedataguy.github.io/json-under-revision/chapters/16/"
+  },
+  "production_status": "imported proofs; v2 adaptation pending",
+  "manuscript_sha256": "9e06a356af02fbd37adae316a8bcda767c367e724638e8e1884dc143a105c652"
+}

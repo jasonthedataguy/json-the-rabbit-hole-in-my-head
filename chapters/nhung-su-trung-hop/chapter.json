@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "slug": "nhung-su-trung-hop",
+  "number": "11",
+  "title": "Những sự trùng hợp",
+  "short_title": "Những sự trùng hợp",
+  "part": 2,
+  "language": "vi",
+  "publish": false,
+  "release_stage": "outline",
+  "canonical_text": null,
+  "canonical_path": "#chapter/11",
+  "summary": "Những dãy giờ lặp trên iPhone, cuộc tái ngộ flatmate, một cuộc trò chuyện Việt Nam ở hiệu sách Saratoga và sách của Thích Nhất Hạnh tạo cảm giác thế giới đang gửi tín hiệu.",
+  "portal": {
+    "scene": "A bookstore shelf rests beneath a repeating-digit clock while paths quietly converge.",
+    "objects": [
+      "clock",
+      "book spines",
+      "converging paths"
+    ],
+    "iconKey": "clock",
+    "motif": "The repeating clock"
+  },
+  "original_edition": null,
+  "production_status": "awaiting author manuscript",
+  "outline_title": "Những sự trùng hợp"
+}

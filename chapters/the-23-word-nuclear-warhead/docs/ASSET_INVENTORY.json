@@ -1,0 +1,35 @@
+{
+  "chapter": "the-23-word-nuclear-warhead",
+  "files": [
+    {
+      "path": "chapter.json",
+      "bytes": 1045,
+      "sha256": "f81a8775bc347ecc53536322490869a6f42702d11aee317267d0af0f1bdb4478"
+    },
+    {
+      "path": "docs/PRODUCTS.json",
+      "bytes": 322,
+      "sha256": "21b2153906dd67ff06b408e152ffc01fe0ca7dae6f520b0e2037959f60def646"
+    },
+    {
+      "path": "production.json",
+      "bytes": 158,
+      "sha256": "04cca5cbcb7714947f2e115425c3b36fd58203c853d17184364ed8f229b16d7d"
+    },
+    {
+      "path": "README.md",
+      "bytes": 454,
+      "sha256": "51f27d06e6f5f73e0872fd369ff7dbb6e1787bef21f306a2a0a9d6382a762248"
+    },
+    {
+      "path": "source/outline.md",
+      "bytes": 417,
+      "sha256": "18a0aa3e7fc28a28c4db8ccbaa73abfb8a1e8f65f5a29d2bfe8e0cfbe21f4a2a"
+    },
+    {
+      "path": "source/revisions.log",
+      "bytes": 111,
+      "sha256": "e01ec275c2bd0c7128f4545ba1a8339712c2e287d8a0ea329c9ccf3068756f36"
+    }
+  ]
+}

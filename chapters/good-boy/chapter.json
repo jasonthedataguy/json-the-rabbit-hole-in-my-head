@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "slug": "good-boy",
+  "number": "25",
+  "title": "Good Boy",
+  "short_title": "Good Boy",
+  "part": 4,
+  "language": "vi",
+  "publish": false,
+  "release_stage": "outline",
+  "canonical_text": null,
+  "canonical_path": "#chapter/25",
+  "summary": "Jamin gửi một lời xin lỗi riêng tư, thừa nhận một số hành vi không phù hợp. Jason yêu cầu được để yên; người kia chấp nhận; Jason vẫn gửi thêm “good boy”.",
+  "portal": {
+    "scene": "Two quiet speech-bubble shapes occupy an almost empty phone screen.",
+    "objects": [
+      "two chat bubbles",
+      "blank space",
+      "end-call icon"
+    ],
+    "iconKey": "dialogue",
+    "motif": "The blank space"
+  },
+  "original_edition": null,
+  "production_status": "awaiting author manuscript",
+  "outline_title": "Good Boy"
+}

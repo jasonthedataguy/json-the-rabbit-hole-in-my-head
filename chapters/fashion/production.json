@@ -1,0 +1,132 @@
+{
+  "schema_version": 1,
+  "excerpts_verbatim": true,
+  "publish_media": {
+    "carousel": [
+      {
+        "text": "mỗi mùa đông về có thể tự thưởng cho bản thân một đôi sneakers trendy nhất season.",
+        "scene": "artwork/exports/detail-01.jpg",
+        "alt": "Những hộp giày và góc phòng; trích đoạn về ước mơ một đôi sneakers mỗi mùa đông. Minh họa ý niệm từ artwork được cung cấp, không phải ảnh tư liệu. Chữ trên thẻ: mỗi mùa đông về có thể tự thưởng cho bản thân một đôi sneakers trendy nhất season."
+      },
+      {
+        "text": "Bạn thích mix cái gì với cái gì thì cứ mix, đó là style của bạn, chẳng ai cấm cả.",
+        "scene": "artwork/exports/detail-03.jpg",
+        "alt": "Tủ quần áo trong căn phòng; trích đoạn về tự do phối đồ. Minh họa ý niệm từ artwork được cung cấp, không phải ảnh tư liệu. Chữ trên thẻ: Bạn thích mix cái gì với cái gì thì cứ mix, đó là style của bạn, chẳng ai cấm cả."
+      },
+      {
+        "text": "Hãy để chúng làm nền cho bạn.",
+        "scene": "artwork/exports/detail-04.jpg",
+        "alt": "Các món đồ trong căn phòng; trích đoạn về để quần áo làm nền cho người mặc. Minh họa ý niệm từ artwork được cung cấp, không phải ảnh tư liệu. Chữ trên thẻ: Hãy để chúng làm nền cho bạn."
+      },
+      {
+        "text": "quần áo sinh ra để mặc chứ k phải để trưng",
+        "scene": "artwork/exports/detail-05.jpg",
+        "alt": "Đôi giày cũ và những món đồ đã qua sử dụng; trích đoạn về mặc quần áo thay vì trưng bày. Minh họa ý niệm từ artwork được cung cấp, không phải ảnh tư liệu. Chữ trên thẻ: quần áo sinh ra để mặc chứ k phải để trưng"
+      },
+      {
+        "text": "cái cảm giác lục tủ đồ của bố bạn rồi bỗng nhiên tìm được a hidden gem there",
+        "scene": "artwork/exports/detail-06.jpg",
+        "alt": "Minh họa tủ đồ của bố, áo khoác và ảnh gia đình; trích đoạn về một món đồ bất ngờ tìm thấy. Minh họa ý niệm từ artwork được cung cấp, không phải ảnh tư liệu. Chữ trên thẻ: cái cảm giác lục tủ đồ của bố bạn rồi bỗng nhiên tìm được a hidden gem there"
+      }
+    ]
+  },
+  "stories": [
+    {
+      "text": "Bạn thích mix cái gì với cái gì thì cứ mix, đó là style của bạn, chẳng ai cấm cả.",
+      "scene": "artwork/exports/detail-03.jpg",
+      "alt": "Tủ quần áo trong căn phòng; trích đoạn về tự do phối đồ. Minh họa ý niệm từ artwork được cung cấp, không phải ảnh tư liệu. Chữ trên thẻ: Bạn thích mix cái gì với cái gì thì cứ mix, đó là style của bạn, chẳng ai cấm cả."
+    },
+    {
+      "text": "Hãy để chúng làm nền cho bạn.",
+      "scene": "artwork/exports/detail-04.jpg",
+      "alt": "Các món đồ trong căn phòng; trích đoạn về để quần áo làm nền cho người mặc. Minh họa ý niệm từ artwork được cung cấp, không phải ảnh tư liệu. Chữ trên thẻ: Hãy để chúng làm nền cho bạn."
+    },
+    {
+      "text": "be your own label, not a hanger my man.",
+      "scene": "artwork/exports/detail-06.jpg",
+      "alt": "Minh họa tủ quần áo. Chữ: be your own label, not a hanger my man."
+    }
+  ],
+  "films": [
+    {
+      "name": "discovery-9x16",
+      "size": [
+        1080,
+        1920
+      ],
+      "scene_fit": "contain",
+      "segments": [
+        {
+          "text": "mỗi mùa đông về có thể tự thưởng cho bản thân một đôi sneakers trendy nhất season.",
+          "scene": "artwork/exports/detail-01.jpg",
+          "duration": 6
+        },
+        {
+          "text": "Bạn thích mix cái gì với cái gì thì cứ mix, đó là style của bạn, chẳng ai cấm cả.",
+          "scene": "artwork/exports/detail-03.jpg",
+          "duration": 6
+        },
+        {
+          "text": "Hãy để chúng làm nền cho bạn.",
+          "scene": "artwork/exports/detail-04.jpg",
+          "duration": 6
+        },
+        {
+          "text": "quần áo sinh ra để mặc chứ k phải để trưng",
+          "scene": "artwork/exports/detail-05.jpg",
+          "duration": 6
+        },
+        {
+          "text": "cái cảm giác lục tủ đồ của bố bạn rồi bỗng nhiên tìm được a hidden gem there",
+          "scene": "artwork/exports/detail-06.jpg",
+          "duration": 6
+        }
+      ]
+    },
+    {
+      "name": "essay-16x9",
+      "size": [
+        1920,
+        1080
+      ],
+      "scene_fit": "contain",
+      "segments": [
+        {
+          "text": "mỗi mùa đông về có thể tự thưởng cho bản thân một đôi sneakers trendy nhất season.",
+          "scene": "artwork/exports/detail-01.jpg",
+          "duration": 6
+        },
+        {
+          "text": "Bạn thích mix cái gì với cái gì thì cứ mix, đó là style của bạn, chẳng ai cấm cả.",
+          "scene": "artwork/exports/detail-03.jpg",
+          "duration": 6
+        },
+        {
+          "text": "Hãy để chúng làm nền cho bạn.",
+          "scene": "artwork/exports/detail-04.jpg",
+          "duration": 6
+        },
+        {
+          "text": "quần áo sinh ra để mặc chứ k phải để trưng",
+          "scene": "artwork/exports/detail-05.jpg",
+          "duration": 6
+        },
+        {
+          "text": "cái cảm giác lục tủ đồ của bố bạn rồi bỗng nhiên tìm được a hidden gem there",
+          "scene": "artwork/exports/detail-06.jpg",
+          "duration": 6
+        }
+      ]
+    }
+  ],
+  "copy": {
+    "social/instagram_caption.md": "Một thời, tôi mơ về đôi sneakers trendy nhất season. Giờ thì thấy thú vị hơn với những món đồ đã sống cùng mình.\n\n“Hãy để chúng làm nền cho bạn.”\n\nFashion / Chương 02 — .json, Jason, under revision.\nĐọc trọn chương và tải bản in: {chapter_url}\n\n#jsonunderrevision #Fashion #Streetwear #Memoir",
+    "social/instagram/caption.md": "Một thời, tôi mơ về đôi sneakers trendy nhất season. Giờ thì thấy thú vị hơn với những món đồ đã sống cùng mình.\n\n“Hãy để chúng làm nền cho bạn.”\n\nFashion / Chương 02 — .json, Jason, under revision.\nĐọc trọn chương và tải bản in: {chapter_url}\n\n#jsonunderrevision #Fashion #Streetwear #Memoir",
+    "social/facebook_post.md": "Có khi quần áo đã nói hộ mình quá nhiều thứ. Rồi đến một lúc, mình chỉ muốn chúng làm nền cho người đang mặc.\n\n“Bạn thích mix cái gì với cái gì thì cứ mix, đó là style của bạn, chẳng ai cấm cả.”\n\nFashion — chương 02 của .json, Jason, under revision. Bản tác giả cập nhật ngày 17/10/2026, có bản đọc và bản in đầy đủ:\n{chapter_url}",
+    "social/tiktok/caption.md": "Từ ước mơ sneakers đến một hidden gem trong tủ đồ của bố.\n\n“be your own label, not a hanger my man.”\n\nFashion / .json / 02\nĐọc trọn chương và tải bản in: {chapter_url}\n\n#jsonunderrevision #Fashion #Memoir",
+    "social/youtube/description.md": "Fashion: Be your own label | .json / 02\n\nMột đoạn phim minh họa ngắn từ chương Fashion của Jason: sneakers, những quy tắc ăn mặc và việc tìm ra style của mình.\n\nĐọc trọn chương và tải bản in: {chapter_url}\n\nBản dựng 30 giây dùng trích đoạn nguyên văn trên màn hình và âm thanh nền tổng hợp. Chưa có giọng đọc của Jason; phụ đề đi theo chữ trên màn hình.\n\nArtwork: bộ Fashion v02 do tác giả cung cấp; các chi tiết được cắt và sắp lại cho phiên bản này.",
+    "social/tiktok_youtube.md": "# Video post handoff\n\nCaptions: tiktok/caption.md and youtube/description.md. Cover: tiktok/cover.jpg (1080 × 1920). Video: ../video/discovery-9x16.mp4 (1080 × 1920, 30 seconds); landscape: ../video/essay-16x9.mp4 (1920 × 1080, 30 seconds).\n\nBoth are ambient edit previews, awaiting the author’s voice. SRT/VTT track on-screen excerpt timing, not speech. No social post has been uploaded or scheduled.\n\nReading URL: {chapter_url}",
+    "social/README.md": "# Fashion — current post pack\n\nUse slide-01.jpg through slide-05.jpg in order from instagram/, with instagram/caption.md and the matching entries in alt-text.json. The earlier underscore filenames now point to the same updated cards. Three 1080 × 1920 story cards, 4:5 and square covers, a Facebook image, a YouTube thumbnail and a separate vertical cover are included. Captions contain the permanent chapter URL.\n\nFor video, use discovery-9x16.mp4 or essay-16x9.mp4 in ../video/. Both are 30-second ambient previews; record Jason’s voice before making a narrated release. SRT/VTT time the visible text only.\n\nCopy files contain proposed post text, not a record of publication. Nothing is scheduled or posted. Full-resolution illustration masters and editable original layers were not supplied; the original artwork includes depicted brand marks. See ../docs/CHECKLIST_REVIEW.md for the remaining review items.",
+    "video/STORYBOARD.md": "# Fashion — current excerpt films\n\nBoth 30-second cuts use five exact manuscript excerpts, six seconds each, in the same sequence as the five social cards: sneakers → own style → clothes as background → wear rather than display → father’s wardrobe.\n\nThe vertical cut is 1080 × 1920; the landscape cut is 1920 × 1080. Transitions fade between static illustrations; audio is synthetic ambience. SRT/VTT reflect text-card timing. Narration and speech-synchronized captions remain pending. The earlier 24-second animatics remain supplied references; they are not the current promoted cuts."
+  }
+}

@@ -1,0 +1,559 @@
+{
+  "schema_version": 1,
+  "status": "multimedia-products; author narration pending",
+  "excerpts_verbatim": true,
+  "hero_mobile_size": [
+    1080,
+    810
+  ],
+  "scenes": [
+    {
+      "id": "eight-bamboo",
+      "source": "artwork/source/01-eight-bamboo.svg",
+      "raster": "artwork/exports/scene-01-master.jpg",
+      "render_size": [
+        2400,
+        1700
+      ],
+      "kind": "raster export of approved vector illustration"
+    },
+    {
+      "id": "poker",
+      "source": "artwork/source/02-poker.svg",
+      "raster": "artwork/exports/scene-02-master.jpg",
+      "render_size": [
+        2400,
+        1700
+      ],
+      "kind": "raster export of approved vector illustration"
+    },
+    {
+      "id": "two-seats",
+      "source": "artwork/source/03-two-seats.svg",
+      "raster": "artwork/exports/scene-03-master.jpg",
+      "render_size": [
+        2400,
+        1700
+      ],
+      "kind": "raster export of approved vector illustration"
+    },
+    {
+      "id": "beliefs",
+      "source": "artwork/source/04-beliefs.svg",
+      "raster": "artwork/exports/scene-04-master.jpg",
+      "render_size": [
+        2400,
+        1700
+      ],
+      "kind": "raster export of approved vector illustration"
+    },
+    {
+      "id": "meeting",
+      "source": "artwork/source/05-meeting.svg",
+      "raster": "artwork/exports/scene-05-master.jpg",
+      "render_size": [
+        2400,
+        1700
+      ],
+      "kind": "raster export of approved vector illustration"
+    },
+    {
+      "id": "open-book",
+      "source": "artwork/source/06-open-book.svg",
+      "raster": "artwork/exports/scene-06-master.jpg",
+      "render_size": [
+        2400,
+        1700
+      ],
+      "kind": "raster export of approved vector illustration"
+    }
+  ],
+  "carousel": [
+    {
+      "text": "Playing not to lose, instead of playing to win.",
+      "scene": 1
+    },
+    {
+      "text": "Và rồi Rachel đánh ra quân tám tre.",
+      "scene": 0
+    },
+    {
+      "text": "Điều thay đổi là beliefs của Eleanor về Rachel, về Nick và về hậu quả của từng lựa chọn.",
+      "scene": 3
+    },
+    {
+      "text": "Một quân mạt chược mà làm người ta phải tính lại cả bài toán.",
+      "scene": 0
+    },
+    {
+      "text": "Đôi khi hiểu được người khác đang muốn gì còn quan trọng hơn việc chứng minh mình đúng.",
+      "scene": 4
+    }
+  ],
+  "print_scenes": [
+    {
+      "after_paragraph": 2,
+      "scene": 1
+    },
+    {
+      "after_paragraph": 7,
+      "scene": 2
+    },
+    {
+      "after_paragraph": 18,
+      "scene": 0
+    },
+    {
+      "after_paragraph": 27,
+      "scene": 3
+    },
+    {
+      "after_paragraph": 34,
+      "scene": 4
+    },
+    {
+      "after_paragraph": 39,
+      "scene": 5
+    }
+  ],
+  "print_layout": {
+    "font_size": 10.5,
+    "leading": 15.2,
+    "paragraph_space": 8,
+    "image_height": 110,
+    "heading_size": 25,
+    "heading_leading": 29,
+    "hero_height": 175
+  },
+  "films": [
+    {
+      "name": "discovery-9x16",
+      "size": [
+        1080,
+        1920
+      ],
+      "segments": [
+        {
+          "text": "Playing not to lose, instead of playing to win.",
+          "scene": "artwork/scenes/02-poker.jpg",
+          "duration": 8
+        },
+        {
+          "text": "Và rồi Rachel đánh ra quân tám tre.",
+          "scene": "artwork/scenes/03-two-seats.jpg",
+          "duration": 12
+        },
+        {
+          "text": "Điều thay đổi là beliefs của Eleanor về Rachel, về Nick và về hậu quả của từng lựa chọn.",
+          "scene": "artwork/scenes/01-eight-bamboo.jpg",
+          "duration": 14
+        },
+        {
+          "text": "Một quân mạt chược mà làm người ta phải tính lại cả bài toán.",
+          "scene": "artwork/scenes/04-beliefs.jpg",
+          "duration": 14
+        },
+        {
+          "text": "Đôi khi hiểu được người khác đang muốn gì còn quan trọng hơn việc chứng minh mình đúng.",
+          "scene": "artwork/scenes/06-open-book.jpg",
+          "duration": 12
+        }
+      ]
+    },
+    {
+      "name": "youtube-9x16",
+      "size": [
+        1080,
+        1920
+      ],
+      "segments": [
+        {
+          "text": "Đối thủ của cô dù có lợi thế stronger hands nhưng cuối cùng vẫn bỏ bài, bởi anh ta quá sợ đánh mất những gì mình đang có.",
+          "scene": "artwork/scenes/02-poker.jpg",
+          "duration": 10
+        },
+        {
+          "text": "Playing not to lose, instead of playing to win.",
+          "scene": "artwork/scenes/02-poker.jpg",
+          "duration": 7
+        },
+        {
+          "text": "Bởi có những lúc chúng ta nghĩ rằng mình đang lựa chọn chiến lược tốt nhất, nhưng thực ra chỉ đang cố tránh một kết quả mà mình không muốn đối mặt.",
+          "scene": "artwork/scenes/02-poker.jpg",
+          "duration": 12
+        },
+        {
+          "text": "Một mong muốn nghe có vẻ rất hợp lý, nhưng vấn đề ở đây là mục đích giữa các bên tham gia trò chơi xung đột với nhau.",
+          "scene": "artwork/scenes/03-two-seats.jpg",
+          "duration": 11
+        },
+        {
+          "text": "Sau khi Rachel nhận ra rằng cô ấy sẽ chẳng thể làm vừa lòng Eleanor, và rằng nếu tiếp tục theo chiến lược cũ thì sẽ chẳng có bên nào thực sự thắng, cô đưa ra một quyết định khác: từ bỏ Nick.",
+          "scene": "artwork/scenes/03-two-seats.jpg",
+          "duration": 14
+        },
+        {
+          "text": "Bởi thực tế, Rachel đã rút được quân tám tre, quân bài giúp cô hoàn thành thế bài chiến thắng.",
+          "scene": "artwork/scenes/01-eight-bamboo.jpg",
+          "duration": 9
+        },
+        {
+          "text": "Giờ thì không phải vì cô sợ thua nữa, mà là vì cô thực sự yêu Nick.",
+          "scene": "artwork/scenes/01-eight-bamboo.jpg",
+          "duration": 7
+        },
+        {
+          "text": "Và rồi Rachel đánh ra quân tám tre.",
+          "scene": "artwork/scenes/01-eight-bamboo.jpg",
+          "duration": 6
+        },
+        {
+          "text": "Điều thay đổi sau nước đi ấy không đơn giản chỉ là chiến lược của Rachel, mà còn là information mà Eleanor có được.",
+          "scene": "artwork/scenes/04-beliefs.jpg",
+          "duration": 10
+        },
+        {
+          "text": "Điều thay đổi là beliefs của Eleanor về Rachel, về Nick và về hậu quả của từng lựa chọn.",
+          "scene": "artwork/scenes/04-beliefs.jpg",
+          "duration": 10
+        },
+        {
+          "text": "Trong game theory, tớ nghĩ có thể liên hệ chuyện này với signaling, cụ thể hơn là costly signaling: một hành động mà người thực hiện phải thực sự đánh đổi thứ gì đó, qua đó khiến người khác có thêm cơ sở để đánh giá động cơ của họ.",
+          "scene": "artwork/scenes/04-beliefs.jpg",
+          "duration": 16
+        },
+        {
+          "text": "Tất nhiên, nếu xét nghiêm túc về mặt toán học thì muốn khẳng định cái kết của bộ phim là một cân bằng Nash, chúng ta còn phải xác định đầy đủ chiến lược và payoff của từng bên.",
+          "scene": "artwork/scenes/04-beliefs.jpg",
+          "duration": 14
+        },
+        {
+          "text": "Đôi khi hiểu được người khác đang muốn gì còn quan trọng hơn việc chứng minh mình đúng.",
+          "scene": "artwork/scenes/05-meeting.jpg",
+          "duration": 10
+        },
+        {
+          "text": "Học không phải cứ ngồi trên ghế nhà trường mới là học. Các cậu có thể học bất cứ đâu, bất cứ thời điểm nào, từ bất cứ thứ gì.",
+          "scene": "artwork/scenes/06-open-book.jpg",
+          "duration": 14
+        }
+      ]
+    },
+    {
+      "name": "feed-3x4",
+      "size": [
+        1080,
+        1440
+      ],
+      "segments": [
+        {
+          "text": "Playing not to lose, instead of playing to win.",
+          "scene": "artwork/scenes/02-poker.jpg",
+          "duration": 7
+        },
+        {
+          "text": "Và rồi Rachel đánh ra quân tám tre.",
+          "scene": "artwork/scenes/03-two-seats.jpg",
+          "duration": 8
+        },
+        {
+          "text": "Điều thay đổi là beliefs của Eleanor về Rachel, về Nick và về hậu quả của từng lựa chọn.",
+          "scene": "artwork/scenes/01-eight-bamboo.jpg",
+          "duration": 10
+        },
+        {
+          "text": "Một quân mạt chược mà làm người ta phải tính lại cả bài toán.",
+          "scene": "artwork/scenes/04-beliefs.jpg",
+          "duration": 10
+        },
+        {
+          "text": "Đôi khi hiểu được người khác đang muốn gì còn quan trọng hơn việc chứng minh mình đúng.",
+          "scene": "artwork/scenes/05-meeting.jpg",
+          "duration": 10
+        }
+      ]
+    },
+    {
+      "name": "teaser-9x16",
+      "size": [
+        1080,
+        1920
+      ],
+      "segments": [
+        {
+          "text": "Playing not to lose, instead of playing to win.",
+          "scene": "artwork/scenes/02-poker.jpg",
+          "duration": 5
+        },
+        {
+          "text": "Và rồi Rachel đánh ra quân tám tre.",
+          "scene": "artwork/scenes/01-eight-bamboo.jpg",
+          "duration": 5
+        },
+        {
+          "text": "Một quân mạt chược mà làm người ta phải tính lại cả bài toán.",
+          "scene": "artwork/scenes/04-beliefs.jpg",
+          "duration": 5
+        }
+      ]
+    },
+    {
+      "name": "essay-16x9",
+      "size": [
+        1920,
+        1080
+      ],
+      "segments": [
+        {
+          "text": "Đối thủ của cô dù có lợi thế stronger hands nhưng cuối cùng vẫn bỏ bài, bởi anh ta quá sợ đánh mất những gì mình đang có.",
+          "scene": "artwork/scenes/02-poker.jpg",
+          "duration": 10
+        },
+        {
+          "text": "Playing not to lose, instead of playing to win.",
+          "scene": "artwork/scenes/02-poker.jpg",
+          "duration": 7
+        },
+        {
+          "text": "Bởi có những lúc chúng ta nghĩ rằng mình đang lựa chọn chiến lược tốt nhất, nhưng thực ra chỉ đang cố tránh một kết quả mà mình không muốn đối mặt.",
+          "scene": "artwork/scenes/02-poker.jpg",
+          "duration": 12
+        },
+        {
+          "text": "Một mong muốn nghe có vẻ rất hợp lý, nhưng vấn đề ở đây là mục đích giữa các bên tham gia trò chơi xung đột với nhau.",
+          "scene": "artwork/scenes/03-two-seats.jpg",
+          "duration": 11
+        },
+        {
+          "text": "Sau khi Rachel nhận ra rằng cô ấy sẽ chẳng thể làm vừa lòng Eleanor, và rằng nếu tiếp tục theo chiến lược cũ thì sẽ chẳng có bên nào thực sự thắng, cô đưa ra một quyết định khác: từ bỏ Nick.",
+          "scene": "artwork/scenes/03-two-seats.jpg",
+          "duration": 14
+        },
+        {
+          "text": "Bởi thực tế, Rachel đã rút được quân tám tre, quân bài giúp cô hoàn thành thế bài chiến thắng.",
+          "scene": "artwork/scenes/01-eight-bamboo.jpg",
+          "duration": 9
+        },
+        {
+          "text": "Giờ thì không phải vì cô sợ thua nữa, mà là vì cô thực sự yêu Nick.",
+          "scene": "artwork/scenes/01-eight-bamboo.jpg",
+          "duration": 7
+        },
+        {
+          "text": "Và rồi Rachel đánh ra quân tám tre.",
+          "scene": "artwork/scenes/01-eight-bamboo.jpg",
+          "duration": 6
+        },
+        {
+          "text": "Điều thay đổi sau nước đi ấy không đơn giản chỉ là chiến lược của Rachel, mà còn là information mà Eleanor có được.",
+          "scene": "artwork/scenes/04-beliefs.jpg",
+          "duration": 10
+        },
+        {
+          "text": "Điều thay đổi là beliefs của Eleanor về Rachel, về Nick và về hậu quả của từng lựa chọn.",
+          "scene": "artwork/scenes/04-beliefs.jpg",
+          "duration": 10
+        },
+        {
+          "text": "Trong game theory, tớ nghĩ có thể liên hệ chuyện này với signaling, cụ thể hơn là costly signaling: một hành động mà người thực hiện phải thực sự đánh đổi thứ gì đó, qua đó khiến người khác có thêm cơ sở để đánh giá động cơ của họ.",
+          "scene": "artwork/scenes/04-beliefs.jpg",
+          "duration": 16
+        },
+        {
+          "text": "Tất nhiên, nếu xét nghiêm túc về mặt toán học thì muốn khẳng định cái kết của bộ phim là một cân bằng Nash, chúng ta còn phải xác định đầy đủ chiến lược và payoff của từng bên.",
+          "scene": "artwork/scenes/04-beliefs.jpg",
+          "duration": 14
+        },
+        {
+          "text": "Đôi khi hiểu được người khác đang muốn gì còn quan trọng hơn việc chứng minh mình đúng.",
+          "scene": "artwork/scenes/05-meeting.jpg",
+          "duration": 10
+        },
+        {
+          "text": "Học không phải cứ ngồi trên ghế nhà trường mới là học. Các cậu có thể học bất cứ đâu, bất cứ thời điểm nào, từ bất cứ thứ gì.",
+          "scene": "artwork/scenes/06-open-book.jpg",
+          "duration": 14
+        }
+      ]
+    }
+  ],
+  "print_extras": true,
+  "supplemental": {
+    "editable_cover": true,
+    "cards": [
+      {
+        "path": "social/instagram/story-01.jpg",
+        "size": [
+          1080,
+          1920
+        ],
+        "text": "Playing not to lose, instead of playing to win.",
+        "scene": 1,
+        "label": "STORY 01",
+        "alt": "Minh họa ý niệm trên nền xanh ngọc và giấy ngà. Chữ trên thẻ: Playing not to lose, instead of playing to win."
+      },
+      {
+        "path": "social/instagram/story-02.jpg",
+        "size": [
+          1080,
+          1920
+        ],
+        "text": "Và rồi Rachel đánh ra quân tám tre.",
+        "scene": 0,
+        "label": "STORY 02",
+        "alt": "Minh họa ý niệm trên nền xanh ngọc và giấy ngà. Chữ trên thẻ: Và rồi Rachel đánh ra quân tám tre."
+      },
+      {
+        "path": "social/instagram/story-03.jpg",
+        "size": [
+          1080,
+          1920
+        ],
+        "text": "Đôi khi hiểu được người khác đang muốn gì còn quan trọng hơn việc chứng minh mình đúng.",
+        "scene": 5,
+        "label": "STORY 03",
+        "alt": "Minh họa ý niệm trên nền xanh ngọc và giấy ngà. Chữ trên thẻ: Đôi khi hiểu được người khác đang muốn gì còn quan trọng hơn việc chứng minh mình đúng."
+      },
+      {
+        "path": "social/instagram/highlight.jpg",
+        "size": [
+          1080,
+          1080
+        ],
+        "text": "Play to Win",
+        "scene": 0,
+        "label": "06",
+        "verbatim": false,
+        "alt": "Bìa highlight Play to Win: quân tám tre trên mặt bàn xanh ngọc."
+      }
+    ],
+    "copy": {
+      "source/NARRATIVE_MAP.md": "# Source-grounded narrative map\n\nParagraph numbers are one-based in the unchanged 41-paragraph body. The title/number are the only authorized textual changes.\n\n| Original paragraphs | Theme | Approved visual |\n|---|---|---|\n| 1–4 | Poker and loss aversion | 02-poker.svg |\n| 5–8 | Conflicting aims | 03-two-seats.svg |\n| 9–13 | Giving up the winning tile | 01-eight-bamboo.svg |\n| 14–28 | Information, beliefs and signaling | 04-beliefs.svg |\n| 29–35 | Limits of the model; a meeting | 05-meeting.svg |\n| 36–41 | Learning and closing humour | 06-open-book.svg |\n\nThe 150-second films select excerpts; they do not represent the entire essay. The full reading script and A5 proof retain every paragraph. The interactive matrix is qualitative and does not claim numeric payoffs or a proven Nash equilibrium.\n",
+      "audio/RECORDING_HANDOFF.md": "# Author recording handoff\n\nRecord `reading-script.md` for the complete chapter, or the named `*-script.md` for a specific cut. The complete script is byte-identical to the approved manuscript, including the authorized title. Each cut script contains exact original excerpts in visual order.\n\nDeliver an unprocessed mono WAV, preferably 48 kHz / 24 bit, with a few seconds of room tone. Record at a natural pace; the 15/45/60/150-second edit timings are placeholders, not a speaking-speed requirement. Supply takes with the cut name and take number.\n\nOn receipt: align takes to the storyboard, extend or shorten scene holds, replace the provisional text timings with speech-aligned Vietnamese SRT/VTT, duck the ambient bed under speech, check on headphones and a phone, then export the final mix. English subtitle translation remains a later editorial pass.\n\n`ambience.wav` is a generated tonal room bed, 24 seconds at 24 kHz mono. Video loops this bed with fades; it contains no voice, sampled music or film soundtrack. Narration has not been generated. No tile/page Foley is claimed.\n",
+      "social/BRIEF.md": "# Chapter 06 social release pack\n\nTitle: Play to Win, Don’t Play Not to Lose\nChapter: https://jasonthedataguy.github.io/json-under-revision/chapters/06/\n\nUse jade, ivory and brass with the approved eight-bamboo artwork. Publish the five carousel cards in numerical order; their exact quotations follow the original essay. Three story cards and the highlight cover are included. Platform-specific copy lives beside each asset; alt text is in `alt-text.json` and `instagram/alt-text.json`.\n\nReels/TikTok: 60-second discovery or 15-second teaser, 1080 × 1920. Feed: 45 seconds, 1080 × 1440. YouTube: 150-second vertical excerpt or separately composed 1920 × 1080 landscape excerpt. These are narration-ready edits with ambience. SRT/VTT currently describe the on-screen cards, not recorded speech.\n\nAll footage is composed from the approved conceptual SVG illustrations. There are no movie stills or documentary claims. No social post has been uploaded or scheduled.\n",
+      "social/instagram/stories.md": "# Story sequence\n\nUse story-01.jpg → story-02.jpg → story-03.jpg. Add the platform link sticker to https://jasonthedataguy.github.io/json-under-revision/chapters/06/. Use highlight.jpg for the chapter highlight.\n",
+      "social/instagram/caption.md": "Playing not to lose, instead of playing to win.\n\nVà rồi Rachel đánh ra quân tám tre.\n\nPlay to Win, Don’t Play Not to Lose — .json / Jason, under revision.\nĐọc toàn bộ chương: https://jasonthedataguy.github.io/json-under-revision/chapters/06/\n\n#jsonunderrevision #PlayToWin\n",
+      "social/facebook/post.md": "Một quân mạt chược mà làm người ta phải tính lại cả bài toán.\n\nĐôi khi hiểu được người khác đang muốn gì còn quan trọng hơn việc chứng minh mình đúng.\n\nPlay to Win, Don’t Play Not to Lose — .json / Jason, under revision.\nĐọc chương: https://jasonthedataguy.github.io/json-under-revision/chapters/06/\n",
+      "social/tiktok/caption.md": "Và rồi Rachel đánh ra quân tám tre.\n\nPlay to Win, Don’t Play Not to Lose\nĐọc toàn bộ chương: https://jasonthedataguy.github.io/json-under-revision/chapters/06/\n\nUse discovery-9x16.mp4 or teaser-9x16.mp4. Current cuts await Jason’s recorded narration.\n",
+      "social/youtube/description.md": "# Play to Win, Don’t Play Not to Lose | .json\n\nMột quân mạt chược. Một cách nhìn khác về thắng và thua.\n\nĐọc toàn bộ chương: https://jasonthedataguy.github.io/json-under-revision/chapters/06/\n\nA 2:30 excerpt, composed in both 9:16 and 16:9. Selected original prose, approved conceptual vector illustrations and original synthetic ambience. Author narration pending; provisional captions time the on-screen text. This is an excerpt, not the full chapter or movie footage.\n",
+      "artwork/source/README.md": "# Artwork provenance\n\nSix author-approved conceptual SVG illustrations from the approved Chapter 06 design board. Their editable vector sources remain unchanged. `scripts/render_vector_artwork.py` exports them at 2400 × 1700; `production.json` records each source, export and framing. The card, book, video and platform layouts reuse those exports. The cover SVG keeps typography separately editable. No generated image, movie still or new likeness was added.\n",
+      "docs/DESIGN_REVIEW.md": "# Chapter 06 production implementation\n\nThe approved jade/ivory/brass board is implemented using six unchanged SVG masters, high-resolution scene exports, a complete illustrated A5 chapter, an A4 poster and a bookmark. The approved English title is used throughout; all 41 body paragraphs remain untouched.\n\nFive video edits match the completed Sài Gòn set: 15-second teaser, 60-second discovery, 45-second feed and 150-second excerpts in vertical and landscape formats. Exact author excerpts, original ambient audio, cut scripts and provisional SRT/VTT are delivered. The longer cuts are reading excerpts, not the full manuscript. The full reading script is also provided.\n\nThe five-card carousel, three stories, highlight, Facebook, TikTok and YouTube assets include captions and alt text. The live reader retains its qualitative beliefs explorer and gains playable media and product downloads. A product board presents actual output files, distinct from the preserved approved concept board.\n\nPDFs are editorial proofs, without printer-specific bleed, colour conversion or PDF/X certification. Final recorded narration and speech-aligned captions await the author. QR remains deferred and social posting remains author-managed.\n"
+    },
+    "products": [
+      {
+        "product": "Editable chapter cover",
+        "state": "editable SVG typography and separate illustration",
+        "path": "artwork/exports/cover-a5.svg"
+      },
+      {
+        "product": "15-second vertical teaser",
+        "state": "edit preview; author narration pending",
+        "path": "video/teaser-9x16.mp4"
+      },
+      {
+        "product": "150-second landscape reading excerpt",
+        "state": "edit preview; author narration pending",
+        "path": "video/essay-16x9.mp4"
+      },
+      {
+        "product": "A4 poster",
+        "state": "editorial print proof",
+        "path": "book/poster-A4-proof.pdf"
+      },
+      {
+        "product": "Eight-bamboo bookmark",
+        "state": "50 × 150 mm editorial print proof",
+        "path": "book/bookmark-proof.pdf"
+      },
+      {
+        "product": "Ambient audio bed",
+        "state": "original synthetic ambience; no speech",
+        "path": "audio/ambience.wav"
+      },
+      {
+        "product": "Recording and mix handoff",
+        "state": "ready for author recording",
+        "path": "audio/RECORDING_HANDOFF.md"
+      },
+      {
+        "product": "Source-grounded narrative map",
+        "state": "original paragraph references",
+        "path": "source/NARRATIVE_MAP.md"
+      },
+      {
+        "product": "Social release brief",
+        "state": "prepared; author-managed posting",
+        "path": "social/BRIEF.md"
+      },
+      {
+        "product": "Social accessibility copy",
+        "state": "ready",
+        "path": "social/alt-text.json"
+      },
+      {
+        "product": "Actual product board",
+        "state": "assembled from delivered files",
+        "path": "previews/product-board.jpg"
+      },
+      {
+        "product": "Instagram story 1",
+        "state": "ready",
+        "path": "social/instagram/story-01.jpg"
+      },
+      {
+        "product": "Instagram story 2",
+        "state": "ready",
+        "path": "social/instagram/story-02.jpg"
+      },
+      {
+        "product": "Instagram story 3",
+        "state": "ready",
+        "path": "social/instagram/story-03.jpg"
+      },
+      {
+        "product": "Instagram highlight",
+        "state": "ready",
+        "path": "social/instagram/highlight.jpg"
+      },
+      {
+        "product": "Recording script: discovery-9x16",
+        "state": "verbatim excerpt sequence",
+        "path": "audio/discovery-9x16-script.md"
+      },
+      {
+        "product": "Recording script: youtube-9x16",
+        "state": "verbatim excerpt sequence",
+        "path": "audio/youtube-9x16-script.md"
+      },
+      {
+        "product": "Recording script: feed-3x4",
+        "state": "verbatim excerpt sequence",
+        "path": "audio/feed-3x4-script.md"
+      },
+      {
+        "product": "Recording script: teaser-9x16",
+        "state": "verbatim excerpt sequence",
+        "path": "audio/teaser-9x16-script.md"
+      },
+      {
+        "product": "Recording script: essay-16x9",
+        "state": "verbatim excerpt sequence",
+        "path": "audio/essay-16x9-script.md"
+      }
+    ],
+    "alt_text": [
+      {
+        "file": "social/facebook/post.jpg",
+        "alt": "Quân tám tre và tên chương Play to Win, Don’t Play Not to Lose; minh họa ý niệm xanh ngọc, ngà và đồng."
+      },
+      {
+        "file": "social/youtube/thumbnail.jpg",
+        "alt": "Quân tám tre và tên chương Play to Win, Don’t Play Not to Lose; minh họa ý niệm xanh ngọc, ngà và đồng."
+      },
+      {
+        "file": "social/tiktok/cover.jpg",
+        "alt": "Quân tám tre và tên chương Play to Win, Don’t Play Not to Lose; minh họa ý niệm xanh ngọc, ngà và đồng."
+      }
+    ]
+  }
+}

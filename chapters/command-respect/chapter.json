@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "slug": "command-respect",
+  "number": "28",
+  "title": "Command Respect",
+  "short_title": "Command Respect",
+  "part": 5,
+  "language": "vi",
+  "publish": false,
+  "release_stage": "outline",
+  "canonical_text": null,
+  "canonical_path": "#chapter/28",
+  "summary": "Jason kết nối nhu cầu khiến Jamin sợ với ký ức mình từng sợ người cha bộ đội và những trận đòn thời bé. David không nói bằng lý thuyết, mà bằng sự quan tâm của một người anh và lời khuyên phải tìm cách giải quyết xung đột lành mạnh hơn.",
+  "portal": {
+    "scene": "The childhood dining bowl returns to a family table beneath a tall door shadow.",
+    "objects": [
+      "dining bowl",
+      "doorway",
+      "soldier-cap outline"
+    ],
+    "iconKey": "door",
+    "motif": "The returning bowl"
+  },
+  "original_edition": null,
+  "production_status": "awaiting author manuscript",
+  "outline_title": "Command Respect"
+}

@@ -1,0 +1,15 @@
+{
+  "source": "Author-provided Pasted text.txt attachment, received 2026-10-16",
+  "sha256": "911b174411dced9668dffd01c6860c079cc17e231c5235f5153666c6021d8b26",
+  "bytes": 10658,
+  "paragraphs": 20,
+  "preserved_at": [
+    "source/original.md",
+    "source/approved.md"
+  ],
+  "policy": "Exact source bytes, including original heading, CRLF newlines and trailing newline. No prose edits.",
+  "source_heading": "# 1. Viết cho Sài Gòn của t",
+  "chapter_route": "chapters/03/",
+  "numbering_note": "The supplied heading retains 1. The existing Chapter 03 registry entry and public URL are unchanged.",
+  "supersedes": "archive/superseded/saigon-board-derived-draft-v01"
+}

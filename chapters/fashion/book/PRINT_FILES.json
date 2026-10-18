@@ -1,0 +1,26 @@
+[
+  {
+    "file": "book/Fashion-A5-print.pdf",
+    "pages": 8,
+    "page_mm": [
+      148.0,
+      210.0
+    ]
+  },
+  {
+    "file": "book/Fashion-A4-ink-saving.pdf",
+    "pages": 2,
+    "page_mm": [
+      210.0,
+      297.0
+    ]
+  },
+  {
+    "file": "book/Fashion-A4-booklet.pdf",
+    "pages": 4,
+    "page_mm": [
+      297.0,
+      210.0
+    ]
+  }
+]

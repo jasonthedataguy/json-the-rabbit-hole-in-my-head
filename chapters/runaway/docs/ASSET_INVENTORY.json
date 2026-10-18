@@ -1,0 +1,35 @@
+{
+  "chapter": "runaway",
+  "files": [
+    {
+      "path": "chapter.json",
+      "bytes": 1033,
+      "sha256": "d1d98470d59e7604b136fe9a7bf3cad69f4e7bb0370bf313aadb16acc42d392c"
+    },
+    {
+      "path": "docs/PRODUCTS.json",
+      "bytes": 302,
+      "sha256": "29f50ad88050bf7d3215a73944b99cb789855924103f4b1bef57cc8db906d7d1"
+    },
+    {
+      "path": "production.json",
+      "bytes": 158,
+      "sha256": "04cca5cbcb7714947f2e115425c3b36fd58203c853d17184364ed8f229b16d7d"
+    },
+    {
+      "path": "README.md",
+      "bytes": 414,
+      "sha256": "b1d3f997fa75251dd8adccdd89289322b8119041ff610cb16043df738f16e7cf"
+    },
+    {
+      "path": "source/outline.md",
+      "bytes": 447,
+      "sha256": "57e66eeb7ff40487fb06a56b2367174fa53776948252bd0ef7bd3ae1d6273b76"
+    },
+    {
+      "path": "source/revisions.log",
+      "bytes": 111,
+      "sha256": "e01ec275c2bd0c7128f4545ba1a8339712c2e287d8a0ea329c9ccf3068756f36"
+    }
+  ]
+}

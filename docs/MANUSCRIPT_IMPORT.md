@@ -1,50 +1,26 @@
-# Manuscripts from the original repository
+# Manuscript and product provenance
 
-The new reader includes all ten published canonical manuscripts from
-[`jasonthedataguy/json-under-revision`](https://github.com/jasonthedataguy/json-under-revision/tree/b41b692b3e3633abea4997b6ac4513a91308f127),
-pinned to commit `b41b692b3e3633abea4997b6ac4513a91308f127`.
+The original edition is pinned to `b41b692b3e3633abea4997b6ac4513a91308f127`. Ten selected manuscripts, their original prose/history and tracked product kits are held locally under `chapters/<slug>/`. The ten selected manuscripts remain 80,917 bytes in total.
 
-The `approved.md` and original `chapter.json` copies in
-`content/chapters/<slug>/` are byte-identical to the selected source files.
-Original metadata describes the original repository's paths and numbering;
-the reader manifest records the corresponding new local paths separately.
-Deployed Markdown downloads in `dist/content/manuscripts/` retain those same
-source bytes, including original line endings.
+`chapter.json` now describes v2. The original `chapter.json` is preserved at `references/original-edition/chapter.json` inside that chapter, and the pinned selected manuscript is preserved beside it as `approved.md`. Original product labels, metadata and source numbers stay distinct from editorial slots 00–31.
 
-Regenerate these artifacts with Python 3.10 or newer and an existing checkout
-of the original repository at the pinned commit:
+The original mapping is [references/original-edition/manuscript-map.json](../references/original-edition/manuscript-map.json). Nine manuscripts map to portals. Dating 102 remains an additional archive essay; it is not assigned to Tiểu hành tinh. All source-based previews retain their existing outlines.
+
+Two original Windows checkout files used CRLF while v2’s pinned manuscripts used LF. The checkout bytes were preserved as `approved-checkout.md` in the relevant chapter references, and the existing v2 selected bytes remain canonical. No prose was rewritten.
+
+Build the deployed manuscript library from local sources:
 
 ```sh
-python3 scripts/import_reference.py /path/to/json-under-revision
+python scripts/build_site.py
+python scripts/check_site.py
 ```
 
-The importer reads the source checkout without modifying it, verifies the
-pinned commit, all expected manuscript hashes, byte lengths, and coverage of
-published chapters. It writes `dist/content/manuscripts.json` and
-`docs/source-provenance.json`. It needs only the Python standard library.
+Audit the complete imported original product files against the pinned checkout:
 
-The reader JSON has a `source` object with `repo`, `commit`, and `url`, plus a
-`chapters` array. Each entry includes:
+```sh
+python scripts/import_reference.py /path/to/json-under-revision --check
+```
 
-- `editorialId`: portal atlas ID, or `null` for the additional archive chapter.
-- `legacyId`, `originalTitle`, and `originalHeading`: the original source labels.
-- `html`: the complete manuscript rendered with escaped text and safe links.
-- `bodyHtml`: the same rendering with only the first heading omitted, for a
-  reader that already displays the original title.
-- `plainText`: complete readable text, including the original first heading.
-- `sourcePath`: the new local canonical Markdown copy.
-- `originalSourcePath`, `originalMetadataPath`, `sourceUrl`, and `archiveUrl`:
-  pointers to the selected original content and its published chapter page.
-- `sha256`, `bytes`, `paragraphCount`, and `downloadUrl`: integrity information
-  and the local deployed Markdown download.
+`--restore-missing` restores missing recorded original files only and never overwrites an existing v2 derivative. The audit tolerates checkout line-ending differences only when a candidate reconstructs the exact recorded intake SHA-256. Moving to another source commit is a new intake and requires a new provenance record.
 
-The original repository's chapter numbers and the supplied portal atlas IDs
-are independent. The explicit mapping in `content/reference-map.json` preserves
-nine justified assignments. “Thế giới trong mơ của tôi” is the complete
-manuscript behind the “Metro số 5” portal. “Dating 102” remains an additional
-archive chapter with `editorialId: null`; it is not assigned to portal 16.
-
-Validation of the imported corpus confirmed 10 manuscripts, 233 complete body
-paragraphs, and 80,917 source bytes. Every rendered paragraph was compared
-with its original text after removing only Markdown formatting syntax, and
-all copied manuscript and metadata bytes matched the pinned originals.
+The old v2 importer is preserved in `references/portal-v2/`; it is not the active workflow. Generated `dist/content/manuscripts.json` records current source paths, original identities, safe rendered HTML, manuscript hashes and local experience/download URLs. `docs/source-provenance.json` is refreshed by the build.

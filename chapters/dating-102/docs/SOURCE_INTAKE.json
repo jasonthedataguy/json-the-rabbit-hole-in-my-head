@@ -1,0 +1,16 @@
+{
+  "received_on": "2026-10-17",
+  "channel": "Author pasted manuscript in conversation",
+  "normalization": [
+    "Removed paste-formatting backslashes and separator-only lines.",
+    "Separated Bài 16 heading from the opening paragraph; heading colon replaced with Markdown heading boundary.",
+    "Excluded trailing ### new post chapter analyze and build the projectboard instruction from essay.",
+    "Saved UTF-8 with LF newlines; preserved all ten body paragraphs, slang, spelling, punctuation and internal double spaces."
+  ],
+  "body_paragraphs": 10,
+  "sha256": "9e06a356af02fbd37adae316a8bcda767c367e724638e8e1884dc143a105c652",
+  "bytes": 8257,
+  "original_post_date": null,
+  "author_age_when_written": null,
+  "publication_authorization": "User requested Chapter 16 deployment and supplied the missing manuscript. No additional approval gate inferred from reference-board instructions."
+}

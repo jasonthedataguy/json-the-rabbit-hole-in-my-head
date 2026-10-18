@@ -1,0 +1,35 @@
+{
+  "schema_version": 2,
+  "slug": "dating-algorithm",
+  "number": "18",
+  "title": "Dating Algorithm",
+  "short_title": "Dating Algorithm",
+  "part": 3,
+  "language": "vi",
+  "publish": true,
+  "release_stage": "reader-with-original-products",
+  "canonical_text": "source/approved.md",
+  "canonical_path": "#chapter/18",
+  "summary": "Jason lên sân khấu tưởng tượng của một buổi TED Talk, định lượng sự hấp dẫn, incentive và luật chơi của dating.",
+  "portal": {
+    "scene": "An imagined talk stage holds an empty audience and a confident presenter framed by hypothetical dating cards.",
+    "objects": [
+      "microphone",
+      "graph",
+      "fictional dating-card frames"
+    ],
+    "iconKey": "microphone",
+    "motif": "The imagined stage"
+  },
+  "original_edition": {
+    "number": "08",
+    "title": "Dating Algorithm",
+    "repo": "https://github.com/jasonthedataguy/json-under-revision",
+    "commit": "b41b692b3e3633abea4997b6ac4513a91308f127",
+    "metadata": "references/original-edition/chapter.json",
+    "archive_url": "https://jasonthedataguy.github.io/json-under-revision/chapters/08/"
+  },
+  "production_status": "imported proofs; v2 adaptation pending",
+  "manuscript_sha256": "ffa4e16711ff364538e8e60def9144a4dcdbe13b612c1ce10360fa70efae5c49",
+  "outline_title": "Dating Algorithm"
+}

@@ -1,0 +1,35 @@
+{
+  "chapter": "i-am-28-today",
+  "files": [
+    {
+      "path": "chapter.json",
+      "bytes": 864,
+      "sha256": "2288a3a1225064b81c64e364788a7470baffe7646934e7b321527d35405032e6"
+    },
+    {
+      "path": "docs/PRODUCTS.json",
+      "bytes": 308,
+      "sha256": "61db77a778ba634bcb5c3daa80989d13a8f76f022838b035e5b7befdd86fe414"
+    },
+    {
+      "path": "production.json",
+      "bytes": 158,
+      "sha256": "04cca5cbcb7714947f2e115425c3b36fd58203c853d17184364ed8f229b16d7d"
+    },
+    {
+      "path": "README.md",
+      "bytes": 426,
+      "sha256": "7791d160e82dbfa1225d46071fbaad5dc29d6e35491e39f4d932d91fa2297fea"
+    },
+    {
+      "path": "source/outline.md",
+      "bytes": 270,
+      "sha256": "960e13727589507fb2760d9e15442a7d5ef64100f807bfa111bbc99d3c08da38"
+    },
+    {
+      "path": "source/revisions.log",
+      "bytes": 111,
+      "sha256": "e01ec275c2bd0c7128f4545ba1a8339712c2e287d8a0ea329c9ccf3068756f36"
+    }
+  ]
+}

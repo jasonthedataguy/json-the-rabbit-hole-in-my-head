@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "slug": "i-am-28-today",
+  "number": "15",
+  "title": "I Am 28 Today",
+  "short_title": "I Am 28 Today",
+  "part": 2,
+  "language": "vi",
+  "publish": false,
+  "release_stage": "outline",
+  "canonical_text": null,
+  "canonical_path": "#chapter/15",
+  "summary": "Một người từng nghĩ tuổi 27 là giới hạn nhìn lại lý do mình lưu ảnh, video và kỷ niệm với cả những người không còn thân.",
+  "portal": {
+    "scene": "A birthday cake glows in a dark room surrounded by small frames of recorded memories.",
+    "objects": [
+      "birthday candle",
+      "camera",
+      "archive tapes"
+    ],
+    "iconKey": "cake",
+    "motif": "The birthday candle"
+  },
+  "original_edition": null,
+  "production_status": "awaiting author manuscript",
+  "outline_title": "I Am 28 Today"
+}

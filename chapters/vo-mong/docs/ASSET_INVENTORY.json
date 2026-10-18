@@ -1,0 +1,35 @@
+{
+  "chapter": "vo-mong",
+  "files": [
+    {
+      "path": "chapter.json",
+      "bytes": 844,
+      "sha256": "00d05c7f37e8affac9b4be25adc92926e9b13108c04a5488c8c21487ca30cc24"
+    },
+    {
+      "path": "docs/PRODUCTS.json",
+      "bytes": 302,
+      "sha256": "b694d711e1f567d34dc285cd98d42af3b36e4aac3578759490c4e1e6481a2577"
+    },
+    {
+      "path": "production.json",
+      "bytes": 158,
+      "sha256": "04cca5cbcb7714947f2e115425c3b36fd58203c853d17184364ed8f229b16d7d"
+    },
+    {
+      "path": "README.md",
+      "bytes": 418,
+      "sha256": "417d2d598f07fc9cec6e881a6c83ade5fcff397f16a2b89a2bc38dac1446d6e6"
+    },
+    {
+      "path": "source/outline.md",
+      "bytes": 264,
+      "sha256": "f42511d93f24645fbdd74c59764b20d2c44eac30072173c3351b9b71020496fc"
+    },
+    {
+      "path": "source/revisions.log",
+      "bytes": 111,
+      "sha256": "e01ec275c2bd0c7128f4545ba1a8339712c2e287d8a0ea329c9ccf3068756f36"
+    }
+  ]
+}

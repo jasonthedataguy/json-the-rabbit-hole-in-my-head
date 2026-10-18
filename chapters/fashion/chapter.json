@@ -1,0 +1,35 @@
+{
+  "schema_version": 2,
+  "slug": "fashion",
+  "number": "04",
+  "title": "Fashion — Be Your Own Label",
+  "short_title": "Fashion",
+  "part": 1,
+  "language": "vi",
+  "publish": true,
+  "release_stage": "reader-with-original-products",
+  "canonical_text": "source/approved.md",
+  "canonical_path": "#chapter/04",
+  "summary": "Một thời chạy theo NMD, Yeezy và các thần tượng hip-hop, rồi chuyển từ sưu tập món đồ đắt tiền sang trân trọng thứ mặc được lâu và có lịch sử riêng.",
+  "portal": {
+    "scene": "A lived-in bedroom holds shoeboxes, a wardrobe and an inherited old shirt among familiar clothes.",
+    "objects": [
+      "generic sneakers",
+      "hanger",
+      "old shirt"
+    ],
+    "iconKey": "sneaker",
+    "motif": "The inherited shirt"
+  },
+  "original_edition": {
+    "number": "02",
+    "title": "Fashion",
+    "repo": "https://github.com/jasonthedataguy/json-under-revision",
+    "commit": "b41b692b3e3633abea4997b6ac4513a91308f127",
+    "metadata": "references/original-edition/chapter.json",
+    "archive_url": "https://jasonthedataguy.github.io/json-under-revision/chapters/02/"
+  },
+  "production_status": "imported proofs; v2 adaptation pending",
+  "manuscript_sha256": "fa6d61a045a5c160a45ecd541382077c46a4581b00de6ffd027bf1674ac78c9e",
+  "outline_title": "Fashion — Be Your Own Label"
+}

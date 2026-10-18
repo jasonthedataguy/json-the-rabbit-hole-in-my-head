@@ -1,0 +1,127 @@
+{
+  "chapter": "to-mary-jane",
+  "editorial_number": "19",
+  "original_number": null,
+  "reader": "outline only",
+  "v2_product_release": "awaiting author manuscript",
+  "lanes": [
+    {
+      "id": "manuscript",
+      "files_present": 2,
+      "status": "available for review",
+      "required_deliverables": [
+        "original manuscript",
+        "author-selected manuscript",
+        "revision history"
+      ]
+    },
+    {
+      "id": "artwork",
+      "files_present": 0,
+      "status": "not supplied",
+      "required_deliverables": [
+        "source and provenance",
+        "scene library",
+        "web/print/social exports"
+      ]
+    },
+    {
+      "id": "web",
+      "files_present": 0,
+      "status": "not supplied",
+      "required_deliverables": [
+        "complete reader",
+        "source-grounded interactive experience",
+        "version history",
+        "accessible controls"
+      ]
+    },
+    {
+      "id": "print",
+      "files_present": 0,
+      "status": "not supplied",
+      "required_deliverables": [
+        "complete illustrated A5 proof",
+        "print settings and QA",
+        "optional poster/bookmark"
+      ]
+    },
+    {
+      "id": "audio",
+      "files_present": 0,
+      "status": "not supplied",
+      "required_deliverables": [
+        "author reading script",
+        "author recording",
+        "final mix or documented ambience"
+      ]
+    },
+    {
+      "id": "video",
+      "files_present": 0,
+      "status": "not supplied",
+      "required_deliverables": [
+        "discovery cut",
+        "feed cut",
+        "long-form cut where appropriate",
+        "timeline",
+        "SRT/VTT retimed to actual recording"
+      ]
+    },
+    {
+      "id": "social",
+      "files_present": 0,
+      "status": "not supplied",
+      "required_deliverables": [
+        "Instagram carousel and alt text",
+        "Facebook image and copy",
+        "TikTok cover and caption",
+        "YouTube thumbnail and description"
+      ]
+    },
+    {
+      "id": "qa",
+      "files_present": 1,
+      "status": "available for review",
+      "required_deliverables": [
+        "asset inventory",
+        "product status",
+        "manuscript/media checks",
+        "browser and visual review"
+      ]
+    },
+    {
+      "id": "preview",
+      "files_present": 0,
+      "status": "not supplied",
+      "required_deliverables": [
+        "actual product board",
+        "desktop/mobile screenshots",
+        "print contact sheets"
+      ]
+    },
+    {
+      "id": "references",
+      "files_present": 0,
+      "status": "not supplied",
+      "required_deliverables": [
+        "unchanged supplied boards",
+        "original edition metadata",
+        "intake provenance"
+      ]
+    }
+  ],
+  "products": [],
+  "remaining": [
+    "Author manuscript and selection",
+    "Approved scene artwork",
+    "Read / Explore / Revisit experience",
+    "Print proofs",
+    "Author narration and films",
+    "Social channel packs",
+    "Visual and release QA"
+  ],
+  "v2_remaining": [
+    "Complete the chapter workflow after the author manuscript is supplied"
+  ]
+}

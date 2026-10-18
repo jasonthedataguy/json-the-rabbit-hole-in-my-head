@@ -1,0 +1,37 @@
+{
+  "chapter": "03",
+  "slug": "for-mother-russia",
+  "title": "For Mother Russia",
+  "series": ".json — Jason, under revision",
+  "age_in_narrative": 23,
+  "source_date": null,
+  "source": "user-submitted manuscript (original.md)",
+  "state": "review_proof",
+  "public_release_approved": false,
+  "visual": {
+    "style": "rough winter album-poster editorial, midnight blue and warm gold",
+    "yellow_beanie": true,
+    "clothing": "all-black",
+    "Gau": "white fluffy dog — symbolic companion in cover illustration, not asserted in original recollection",
+    "palette": {
+      "midnight_navy": "#061724",
+      "prussian_blue": "#23548C",
+      "frosted_ice": "#C8DDF1",
+      "cabin_gold": "#F6C16E",
+      "paper": "#F6F1E5"
+    }
+  },
+  "artifacts": {
+    "a5": "book/03_For_Mother_Russia_A5_EDITORIAL_PROOF.pdf",
+    "a4": "book/03_For_Mother_Russia_A4_POSTER_PROOF.pdf",
+    "website": "web/index.html",
+    "memory_graph": "docs/memory_graph.json",
+    "animatic": "video/03_Mother_Russia_ANIMATIC_9x16.mp4",
+    "social": "social/instagram/",
+    "board": "docs/PROJECT_BOARD.html"
+  },
+  "media_rights": "illustration_concept_only",
+  "video_narrated": false,
+  "qr_tested": false,
+  "printer_ready": false
+}

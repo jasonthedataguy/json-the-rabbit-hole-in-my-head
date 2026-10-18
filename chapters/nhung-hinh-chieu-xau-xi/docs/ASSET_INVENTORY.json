@@ -1,0 +1,35 @@
+{
+  "chapter": "nhung-hinh-chieu-xau-xi",
+  "files": [
+    {
+      "path": "chapter.json",
+      "bytes": 871,
+      "sha256": "d6803091e78ec5c8035f9cfc35107c46954a1d42c7835e1ae1ae12f9ad82df53"
+    },
+    {
+      "path": "docs/PRODUCTS.json",
+      "bytes": 318,
+      "sha256": "f7ea90f4017118c3ab64dc625e04fe021a87eaa401acc53b74070d89e29e852d"
+    },
+    {
+      "path": "production.json",
+      "bytes": 158,
+      "sha256": "04cca5cbcb7714947f2e115425c3b36fd58203c853d17184364ed8f229b16d7d"
+    },
+    {
+      "path": "README.md",
+      "bytes": 454,
+      "sha256": "c481e9059608c03e0c0059055a775c12fecf8cfce333983b086d09c8e6c4e69d"
+    },
+    {
+      "path": "source/outline.md",
+      "bytes": 248,
+      "sha256": "90d289794d46e020f8543ac28de1a9c5a285794d6f2154721ed825e4a74b259c"
+    },
+    {
+      "path": "source/revisions.log",
+      "bytes": 111,
+      "sha256": "e01ec275c2bd0c7128f4545ba1a8339712c2e287d8a0ea329c9ccf3068756f36"
+    }
+  ]
+}

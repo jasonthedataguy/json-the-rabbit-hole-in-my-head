@@ -1,0 +1,24 @@
+{
+  "chapter": "16",
+  "mode": "local",
+  "widths": [
+    320,
+    390,
+    820,
+    1440
+  ],
+  "homepage_cards": 9,
+  "source_paragraphs": 10,
+  "source_sha256": "9e06a356af02fbd37adae316a8bcda767c367e724638e8e1884dc143a105c652",
+  "checks": [
+    "all ten original paragraphs and all eight prior chapter texts",
+    "eight status/curiosity object states, keyboard and reset",
+    "all source-card accordions and reduced motion",
+    "all images and download targets",
+    "1080p 60-second film playback, VTT and ambient audio",
+    "no-JavaScript full essay and default exploration",
+    "offline reader and artifact",
+    "15 → 16 → 02 navigation and slug alias"
+  ],
+  "errors": []
+}

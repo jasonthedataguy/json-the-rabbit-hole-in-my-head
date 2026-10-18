@@ -1,0 +1,118 @@
+{
+  "chapter": "fashion",
+  "release_stage": "supplied",
+  "products": [
+    {
+      "product": "Current author manuscript",
+      "state": "wording preserved; spacing normalized",
+      "path": "source/approved.md"
+    },
+    {
+      "product": "Illustrated A5 book",
+      "state": "current text; 8-page home/office printable PDF",
+      "path": "book/Fashion-A5-print.pdf"
+    },
+    {
+      "product": "Ink-saving A4 text",
+      "state": "current text; 2-page printable PDF",
+      "path": "book/Fashion-A4-ink-saving.pdf"
+    },
+    {
+      "product": "A4 folded booklet",
+      "state": "current text; imposed for 2 A4 duplex sheets",
+      "path": "book/Fashion-A4-booklet.pdf"
+    },
+    {
+      "product": "Print pack and instructions",
+      "state": "three PDFs with print settings",
+      "path": "book/Fashion-print-pack.zip"
+    },
+    {
+      "product": "Print instructions",
+      "state": "settings for all three current PDFs",
+      "path": "book/print-guide.html"
+    },
+    {
+      "product": "Interactive reader",
+      "state": "current manuscript and earlier version history",
+      "path": "web/index.html"
+    },
+    {
+      "product": "Five-card carousel",
+      "state": "exact excerpts; 1080 × 1440; alt text included",
+      "path": "social/instagram/slide-01.jpg"
+    },
+    {
+      "product": "Three story cards",
+      "state": "exact excerpts; 1080 × 1920",
+      "path": "social/instagram/story-01.jpg"
+    },
+    {
+      "product": "Post pack",
+      "state": "current images, captions, covers, two cuts and text timings; not posted",
+      "path": "social/Fashion-social-pack.zip"
+    },
+    {
+      "product": "Instagram caption",
+      "state": "current copy and permanent URL; not posted",
+      "path": "social/instagram/caption.md"
+    },
+    {
+      "product": "Facebook image and copy",
+      "state": "current copy and permanent URL; not posted",
+      "path": "social/facebook_post.md"
+    },
+    {
+      "product": "TikTok/Reels cover",
+      "state": "dedicated 1080 × 1920 cover",
+      "path": "social/tiktok/cover.jpg"
+    },
+    {
+      "product": "YouTube description and thumbnail",
+      "state": "current copy and permanent URL; not posted",
+      "path": "social/youtube/description.md"
+    },
+    {
+      "product": "Vertical discovery film",
+      "state": "30-second 1080p ambient edit; author narration pending",
+      "path": "video/discovery-9x16.mp4"
+    },
+    {
+      "product": "Landscape film",
+      "state": "30-second 1080p ambient edit; author narration pending",
+      "path": "video/essay-16x9.mp4"
+    },
+    {
+      "product": "Visible-text captions",
+      "state": "SRT/VTT for current excerpt cards; not speech subtitles",
+      "path": "video/discovery-9x16.srt"
+    },
+    {
+      "product": "Full author reading script",
+      "state": "byte-identical to selected manuscript",
+      "path": "audio/reading-script.md"
+    },
+    {
+      "product": "A4 art poster",
+      "state": "historical supplied art proof",
+      "path": "book/02_Fashion_Album_Poster_A4_ART_PRINT_PROOF.pdf"
+    },
+    {
+      "product": "Earlier A5 proof",
+      "state": "historical supplied proposed edit; superseded for current reading",
+      "path": "book/02_Fashion_Room_in_Revision_A5_PROOF.pdf"
+    },
+    {
+      "product": "Supplied production board",
+      "state": "unchanged historical reference",
+      "path": "references/fashion-v02/docs/PROJECT_BOARD.html"
+    }
+  ],
+  "remaining": [
+    "Jason recording, retiming and speech captions",
+    "Physical print test and commercial printer specifications; high-resolution editable artwork",
+    "Human phone/screen-reader review",
+    "Author copyedit of supplied wording and depicted-brand/artwork provenance review before commercial reuse",
+    "Social uploads and published URLs; no post has been sent or scheduled"
+  ]
+}

@@ -1,0 +1,19 @@
+# Thế giới trong mơ của tôi — youtube-9x16
+
+Recording script: exact text-card excerpts, in sequence. Timings are provisional; record naturally and retime the edit to the recording.
+
+Thế giới trong mơ của tôi có một điều khá kỳ lạ. Ở đó, mọi thứ dường như luôn bắt đầu từ lúc chập tối, sau giờ tan làm, và kết thúc trước khi những ánh sáng đầu tiên của ngày mới xuất hiện.
+
+Ngày đầu tiên đặt chân tới thành phố này, khi đang chật vật với hai chiếc vali trên tàu số 5 để tới ga Bastille gặp người bạn của mình, tôi đã có cảm giác đó.
+
+Đại ý là chúng đang bàn luận xem ngày mai sẽ hẹn nhau ở đâu, trước hay sau bữa ăn tối.
+
+Một đứa trong hai đứa rút chiếc điện thoại cũ ra. Kiểu điện thoại màn hình đen trắng, có bàn phím bấm giống những chiếc điện thoại ngày xưa. Dường như mẹ cậu bé gọi tới, hỏi xem cậu đã sắp về nhà chưa, bảo rằng bà ấy đã về rồi và sẽ chuẩn bị xong bữa tối nhanh thôi.
+
+Trời đã xẩm tối. Cả gia đình cậu bé đang ngồi bên bàn ăn, cậu vừa mở cửa bước vào nhà, đặt đồ đạc xuống rồi ngồi vào chiếc ghế cạnh bố mẹ. Ánh sáng vàng từ đèn xe ngoài đường chiếu hắt lên trần căn bếp qua một khung cửa sổ nhỏ, xen lẫn tiếng còi xe và tiếng động cơ ô tô hối hả bên ngoài.
+
+Tất cả cứ thế diễn ra trong đầu tôi, từ một cuộc điện thoại mà tôi thậm chí còn chẳng hiểu hết nội dung. Tôi không biết cậu bé có thực sự ăn cá hồi vào bữa trưa hôm ấy không, có một bạn nữ mới chuyển đến lớp không, hay bố mẹ cậu có hỏi han về ngày đi học của con mình như tôi tưởng tượng. Tôi cũng chẳng biết căn bếp nhà cậu trông như thế nào.
+
+Chỉ là sau này, khi nhìn lại những bức ảnh mình chụp và chỉnh sửa, tôi nhận ra rất nhiều trong số chúng cũng mang gam màu tương tự.
+
+Chỉ biết rằng tôi luôn tìm thấy chúng, và chúng cũng luôn tìm thấy tôi.

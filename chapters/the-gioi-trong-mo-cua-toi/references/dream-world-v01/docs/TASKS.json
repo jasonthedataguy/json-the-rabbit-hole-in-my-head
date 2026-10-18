@@ -1,0 +1,650 @@
+[
+  {
+    "id": "CH06-001",
+    "stream": "Editorial & provenance",
+    "task": "Preserve verbatim source",
+    "status": "READY",
+    "priority": "P0",
+    "acceptance": "File/task is present in production kit and checked, or retained as an explicit TODO.\nNo scene is represented as documentary evidence beyond the manuscript.",
+    "owner": "Jason + production"
+  },
+  {
+    "id": "CH06-002",
+    "stream": "Editorial & provenance",
+    "task": "Annotate observed / imagined scenes",
+    "status": "TODO",
+    "priority": "P0",
+    "acceptance": "File/task is present in production kit and checked, or retained as an explicit TODO.\nNo scene is represented as documentary evidence beyond the manuscript.",
+    "owner": "Jason + production"
+  },
+  {
+    "id": "CH06-003",
+    "stream": "Editorial & provenance",
+    "task": "Keep ending unmodified",
+    "status": "TODO",
+    "priority": "P0",
+    "acceptance": "File/task is present in production kit and checked, or retained as an explicit TODO.\nNo scene is represented as documentary evidence beyond the manuscript.",
+    "owner": "Jason + production"
+  },
+  {
+    "id": "CH06-004",
+    "stream": "Editorial & provenance",
+    "task": "Review date/setting wording",
+    "status": "TODO",
+    "priority": "P1",
+    "acceptance": "File/task is present in production kit and checked, or retained as an explicit TODO.\nNo scene is represented as documentary evidence beyond the manuscript.",
+    "owner": "Jason + production"
+  },
+  {
+    "id": "CH06-005",
+    "stream": "Editorial & provenance",
+    "task": "Check use of old film reference",
+    "status": "TODO",
+    "priority": "P1",
+    "acceptance": "File/task is present in production kit and checked, or retained as an explicit TODO.\nNo scene is represented as documentary evidence beyond the manuscript.",
+    "owner": "Jason + production"
+  },
+  {
+    "id": "CH06-006",
+    "stream": "Editorial & provenance",
+    "task": "Review all scene captions",
+    "status": "TODO",
+    "priority": "P1",
+    "acceptance": "File/task is present in production kit and checked, or retained as an explicit TODO.\nNo scene is represented as documentary evidence beyond the manuscript.",
+    "owner": "Jason + production"
+  },
+  {
+    "id": "CH06-007",
+    "stream": "Editorial & provenance",
+    "task": "Approve print text",
+    "status": "BLOCKED",
+    "priority": "P1",
+    "acceptance": "Author explicitly approves release scope and related third-party rights.",
+    "owner": "Jason + production"
+  },
+  {
+    "id": "CH06-008",
+    "stream": "Editorial & provenance",
+    "task": "Privacy scope",
+    "status": "TODO",
+    "priority": "P1",
+    "acceptance": "File/task is present in production kit and checked, or retained as an explicit TODO.\nNo scene is represented as documentary evidence beyond the manuscript.",
+    "owner": "Jason + production"
+  },
+  {
+    "id": "CH06-009",
+    "stream": "Editorial & provenance",
+    "task": "Approve cover tagline",
+    "status": "BLOCKED",
+    "priority": "P1",
+    "acceptance": "Author explicitly approves release scope and related third-party rights.",
+    "owner": "Jason + production"
+  },
+  {
+    "id": "CH06-010",
+    "stream": "Editorial & provenance",
+    "task": "Translation accuracy",
+    "status": "TODO",
+    "priority": "P1",
+    "acceptance": "File/task is present in production kit and checked, or retained as an explicit TODO.\nNo scene is represented as documentary evidence beyond the manuscript.",
+    "owner": "Jason + production"
+  },
+  {
+    "id": "CH06-011",
+    "stream": "Editorial & provenance",
+    "task": "Approve canonical manuscript",
+    "status": "BLOCKED",
+    "priority": "P1",
+    "acceptance": "Author explicitly approves release scope and related third-party rights.",
+    "owner": "Jason + production"
+  },
+  {
+    "id": "CH06-012",
+    "stream": "Art direction & illustration",
+    "task": "Lock color palette",
+    "status": "PROOF",
+    "priority": "P0",
+    "acceptance": "File/task is present in production kit and checked, or retained as an explicit TODO.\nNo scene is represented as documentary evidence beyond the manuscript.",
+    "owner": "Jason + production"
+  },
+  {
+    "id": "CH06-013",
+    "stream": "Art direction & illustration",
+    "task": "Approve symbolic rat rooftop",
+    "status": "BLOCKED",
+    "priority": "P0",
+    "acceptance": "Author explicitly approves release scope and related third-party rights.",
+    "owner": "Jason + production"
+  },
+  {
+    "id": "CH06-014",
+    "stream": "Art direction & illustration",
+    "task": "Approve blonde/brunette design",
+    "status": "BLOCKED",
+    "priority": "P0",
+    "acceptance": "Author explicitly approves release scope and related third-party rights.",
+    "owner": "Jason + production"
+  },
+  {
+    "id": "CH06-015",
+    "stream": "Art direction & illustration",
+    "task": "Create cover concept",
+    "status": "PROOF",
+    "priority": "P1",
+    "acceptance": "File/task is present in production kit and checked, or retained as an explicit TODO.\nNo scene is represented as documentary evidence beyond the manuscript.",
+    "owner": "Jason + production"
+  },
+  {
+    "id": "CH06-016",
+    "stream": "Art direction & illustration",
+    "task": "Create Line 5 scene",
+    "status": "PROOF",
+    "priority": "P1",
+    "acceptance": "File/task is present in production kit and checked, or retained as an explicit TODO.\nNo scene is represented as documentary evidence beyond the manuscript.",
+    "owner": "Jason + production"
+  },
+  {
+    "id": "CH06-017",
+    "stream": "Art direction & illustration",
+    "task": "Create phone scene",
+    "status": "PROOF",
+    "priority": "P1",
+    "acceptance": "File/task is present in production kit and checked, or retained as an explicit TODO.\nNo scene is represented as documentary evidence beyond the manuscript.",
+    "owner": "Jason + production"
+  },
+  {
+    "id": "CH06-018",
+    "stream": "Art direction & illustration",
+    "task": "Create fictional kitchen scene",
+    "status": "PROOF",
+    "priority": "P1",
+    "acceptance": "File/task is present in production kit and checked, or retained as an explicit TODO.\nNo scene is represented as documentary evidence beyond the manuscript.",
+    "owner": "Jason + production"
+  },
+  {
+    "id": "CH06-019",
+    "stream": "Art direction & illustration",
+    "task": "Create afterimage scene",
+    "status": "PROOF",
+    "priority": "P1",
+    "acceptance": "File/task is present in production kit and checked, or retained as an explicit TODO.\nNo scene is represented as documentary evidence beyond the manuscript.",
+    "owner": "Jason + production"
+  },
+  {
+    "id": "CH06-020",
+    "stream": "Art direction & illustration",
+    "task": "Create Bastille environment",
+    "status": "PROOF",
+    "priority": "P1",
+    "acceptance": "File/task is present in production kit and checked, or retained as an explicit TODO.\nNo scene is represented as documentary evidence beyond the manuscript.",
+    "owner": "Jason + production"
+  },
+  {
+    "id": "CH06-021",
+    "stream": "Art direction & illustration",
+    "task": "Export gallery plates",
+    "status": "PROOF",
+    "priority": "P1",
+    "acceptance": "File/task is present in production kit and checked, or retained as an explicit TODO.\nNo scene is represented as documentary evidence beyond the manuscript.",
+    "owner": "Jason + production"
+  },
+  {
+    "id": "CH06-022",
+    "stream": "Art direction & illustration",
+    "task": "Create independent high-resolution art",
+    "status": "BLOCKED",
+    "priority": "P1",
+    "acceptance": "Author explicitly approves release scope and related third-party rights.",
+    "owner": "Jason + production"
+  },
+  {
+    "id": "CH06-023",
+    "stream": "Art direction & illustration",
+    "task": "Commercial artwork/likeness review",
+    "status": "TODO",
+    "priority": "P1",
+    "acceptance": "File/task is present in production kit and checked, or retained as an explicit TODO.\nNo scene is represented as documentary evidence beyond the manuscript.",
+    "owner": "Jason + production"
+  },
+  {
+    "id": "CH06-024",
+    "stream": "A5 print, A4 poster",
+    "task": "Typeset entire A5 essay",
+    "status": "READY",
+    "priority": "P0",
+    "acceptance": "File/task is present in production kit and checked, or retained as an explicit TODO.\nNo scene is represented as documentary evidence beyond the manuscript.",
+    "owner": "Jason + production"
+  },
+  {
+    "id": "CH06-025",
+    "stream": "A5 print, A4 poster",
+    "task": "Create A5 cover",
+    "status": "READY",
+    "priority": "P0",
+    "acceptance": "File/task is present in production kit and checked, or retained as an explicit TODO.\nNo scene is represented as documentary evidence beyond the manuscript.",
+    "owner": "Jason + production"
+  },
+  {
+    "id": "CH06-026",
+    "stream": "A5 print, A4 poster",
+    "task": "Illustrate body pages",
+    "status": "READY",
+    "priority": "P0",
+    "acceptance": "File/task is present in production kit and checked, or retained as an explicit TODO.\nNo scene is represented as documentary evidence beyond the manuscript.",
+    "owner": "Jason + production"
+  },
+  {
+    "id": "CH06-027",
+    "stream": "A5 print, A4 poster",
+    "task": "Export A5 editorial PDF",
+    "status": "READY",
+    "priority": "P1",
+    "acceptance": "File/task is present in production kit and checked, or retained as an explicit TODO.\nNo scene is represented as documentary evidence beyond the manuscript.",
+    "owner": "Jason + production"
+  },
+  {
+    "id": "CH06-028",
+    "stream": "A5 print, A4 poster",
+    "task": "Create A4 print poster",
+    "status": "READY",
+    "priority": "P1",
+    "acceptance": "File/task is present in production kit and checked, or retained as an explicit TODO.\nNo scene is represented as documentary evidence beyond the manuscript.",
+    "owner": "Jason + production"
+  },
+  {
+    "id": "CH06-029",
+    "stream": "A5 print, A4 poster",
+    "task": "Inspect every PDF page",
+    "status": "READY",
+    "priority": "P1",
+    "acceptance": "File/task is present in production kit and checked, or retained as an explicit TODO.\nNo scene is represented as documentary evidence beyond the manuscript.",
+    "owner": "Jason + production"
+  },
+  {
+    "id": "CH06-030",
+    "stream": "A5 print, A4 poster",
+    "task": "Printer bleed / trim / PDF-X",
+    "status": "BLOCKED",
+    "priority": "P1",
+    "acceptance": "Author explicitly approves release scope and related third-party rights.",
+    "owner": "Jason + production"
+  },
+  {
+    "id": "CH06-031",
+    "stream": "A5 print, A4 poster",
+    "task": "Proof-print A5 book",
+    "status": "BLOCKED",
+    "priority": "P1",
+    "acceptance": "Author explicitly approves release scope and related third-party rights.",
+    "owner": "Jason + production"
+  },
+  {
+    "id": "CH06-032",
+    "stream": "A5 print, A4 poster",
+    "task": "Sign off physical print",
+    "status": "BLOCKED",
+    "priority": "P1",
+    "acceptance": "Author explicitly approves release scope and related third-party rights.",
+    "owner": "Jason + production"
+  },
+  {
+    "id": "CH06-033",
+    "stream": "Website & interactive reel",
+    "task": "Implement offline reader",
+    "status": "READY",
+    "priority": "P0",
+    "acceptance": "File/task is present in production kit and checked, or retained as an explicit TODO.\nNo scene is represented as documentary evidence beyond the manuscript.",
+    "owner": "Jason + production"
+  },
+  {
+    "id": "CH06-034",
+    "stream": "Website & interactive reel",
+    "task": "Load complete original chapter",
+    "status": "READY",
+    "priority": "P0",
+    "acceptance": "File/task is present in production kit and checked, or retained as an explicit TODO.\nNo scene is represented as documentary evidence beyond the manuscript.",
+    "owner": "Jason + production"
+  },
+  {
+    "id": "CH06-035",
+    "stream": "Website & interactive reel",
+    "task": "Observed / Imagined toggle",
+    "status": "READY",
+    "priority": "P0",
+    "acceptance": "File/task is present in production kit and checked, or retained as an explicit TODO.\nNo scene is represented as documentary evidence beyond the manuscript.",
+    "owner": "Jason + production"
+  },
+  {
+    "id": "CH06-036",
+    "stream": "Website & interactive reel",
+    "task": "Afterimage mode",
+    "status": "READY",
+    "priority": "P1",
+    "acceptance": "File/task is present in production kit and checked, or retained as an explicit TODO.\nNo scene is represented as documentary evidence beyond the manuscript.",
+    "owner": "Jason + production"
+  },
+  {
+    "id": "CH06-037",
+    "stream": "Website & interactive reel",
+    "task": "Working film-grade slider",
+    "status": "READY",
+    "priority": "P1",
+    "acceptance": "File/task is present in production kit and checked, or retained as an explicit TODO.\nNo scene is represented as documentary evidence beyond the manuscript.",
+    "owner": "Jason + production"
+  },
+  {
+    "id": "CH06-038",
+    "stream": "Website & interactive reel",
+    "task": "Mobile breakpoints",
+    "status": "READY",
+    "priority": "P1",
+    "acceptance": "File/task is present in production kit and checked, or retained as an explicit TODO.\nNo scene is represented as documentary evidence beyond the manuscript.",
+    "owner": "Jason + production"
+  },
+  {
+    "id": "CH06-039",
+    "stream": "Website & interactive reel",
+    "task": "Keyboard focus / aria",
+    "status": "READY",
+    "priority": "P1",
+    "acceptance": "File/task is present in production kit and checked, or retained as an explicit TODO.\nNo scene is represented as documentary evidence beyond the manuscript.",
+    "owner": "Jason + production"
+  },
+  {
+    "id": "CH06-040",
+    "stream": "Website & interactive reel",
+    "task": "Gallery assets",
+    "status": "READY",
+    "priority": "P1",
+    "acceptance": "File/task is present in production kit and checked, or retained as an explicit TODO.\nNo scene is represented as documentary evidence beyond the manuscript.",
+    "owner": "Jason + production"
+  },
+  {
+    "id": "CH06-041",
+    "stream": "Website & interactive reel",
+    "task": "Browser functional QA",
+    "status": "READY",
+    "priority": "P1",
+    "acceptance": "File/task is present in production kit and checked, or retained as an explicit TODO.\nNo scene is represented as documentary evidence beyond the manuscript.",
+    "owner": "Jason + production"
+  },
+  {
+    "id": "CH06-042",
+    "stream": "Website & interactive reel",
+    "task": "Public host staging",
+    "status": "BLOCKED",
+    "priority": "P1",
+    "acceptance": "Author explicitly approves release scope and related third-party rights.",
+    "owner": "Jason + production"
+  },
+  {
+    "id": "CH06-043",
+    "stream": "Website & interactive reel",
+    "task": "Live URL + QR verification",
+    "status": "BLOCKED",
+    "priority": "P1",
+    "acceptance": "Author explicitly approves release scope and related third-party rights.",
+    "owner": "Jason + production"
+  },
+  {
+    "id": "CH06-044",
+    "stream": "Website & interactive reel",
+    "task": "Production web accessibility",
+    "status": "BLOCKED",
+    "priority": "P1",
+    "acceptance": "Author explicitly approves release scope and related third-party rights.",
+    "owner": "Jason + production"
+  },
+  {
+    "id": "CH06-045",
+    "stream": "Video & audio",
+    "task": "Draft storyboard",
+    "status": "READY",
+    "priority": "P0",
+    "acceptance": "File/task is present in production kit and checked, or retained as an explicit TODO.\nNo scene is represented as documentary evidence beyond the manuscript.",
+    "owner": "Jason + production"
+  },
+  {
+    "id": "CH06-046",
+    "stream": "Video & audio",
+    "task": "Render 9:16 animatic proof",
+    "status": "READY",
+    "priority": "P0",
+    "acceptance": "File/task is present in production kit and checked, or retained as an explicit TODO.\nNo scene is represented as documentary evidence beyond the manuscript.",
+    "owner": "Jason + production"
+  },
+  {
+    "id": "CH06-047",
+    "stream": "Video & audio",
+    "task": "Original ambient audio",
+    "status": "READY",
+    "priority": "P0",
+    "acceptance": "File/task is present in production kit and checked, or retained as an explicit TODO.\nNo scene is represented as documentary evidence beyond the manuscript.",
+    "owner": "Jason + production"
+  },
+  {
+    "id": "CH06-048",
+    "stream": "Video & audio",
+    "task": "Create beat-caption SRT",
+    "status": "READY",
+    "priority": "P1",
+    "acceptance": "File/task is present in production kit and checked, or retained as an explicit TODO.\nNo scene is represented as documentary evidence beyond the manuscript.",
+    "owner": "Jason + production"
+  },
+  {
+    "id": "CH06-049",
+    "stream": "Video & audio",
+    "task": "Write narration draft",
+    "status": "READY",
+    "priority": "P1",
+    "acceptance": "File/task is present in production kit and checked, or retained as an explicit TODO.\nNo scene is represented as documentary evidence beyond the manuscript.",
+    "owner": "Jason + production"
+  },
+  {
+    "id": "CH06-050",
+    "stream": "Video & audio",
+    "task": "Record authorized voice",
+    "status": "BLOCKED",
+    "priority": "P1",
+    "acceptance": "Author explicitly approves release scope and related third-party rights.",
+    "owner": "Jason + production"
+  },
+  {
+    "id": "CH06-051",
+    "stream": "Video & audio",
+    "task": "Sync actual speech subtitles",
+    "status": "BLOCKED",
+    "priority": "P1",
+    "acceptance": "Author explicitly approves release scope and related third-party rights.",
+    "owner": "Jason + production"
+  },
+  {
+    "id": "CH06-052",
+    "stream": "Video & audio",
+    "task": "Final 1080x1920 master",
+    "status": "BLOCKED",
+    "priority": "P1",
+    "acceptance": "Author explicitly approves release scope and related third-party rights.",
+    "owner": "Jason + production"
+  },
+  {
+    "id": "CH06-053",
+    "stream": "Video & audio",
+    "task": "Phone video QA",
+    "status": "BLOCKED",
+    "priority": "P1",
+    "acceptance": "Author explicitly approves release scope and related third-party rights.",
+    "owner": "Jason + production"
+  },
+  {
+    "id": "CH06-054",
+    "stream": "Social channels",
+    "task": "Five Instagram 3:4 cards",
+    "status": "READY",
+    "priority": "P0",
+    "acceptance": "File/task is present in production kit and checked, or retained as an explicit TODO.\nNo scene is represented as documentary evidence beyond the manuscript.",
+    "owner": "Jason + production"
+  },
+  {
+    "id": "CH06-055",
+    "stream": "Social channels",
+    "task": "Facebook 16:9 art",
+    "status": "READY",
+    "priority": "P0",
+    "acceptance": "File/task is present in production kit and checked, or retained as an explicit TODO.\nNo scene is represented as documentary evidence beyond the manuscript.",
+    "owner": "Jason + production"
+  },
+  {
+    "id": "CH06-056",
+    "stream": "Social channels",
+    "task": "YouTube thumbnail",
+    "status": "READY",
+    "priority": "P0",
+    "acceptance": "File/task is present in production kit and checked, or retained as an explicit TODO.\nNo scene is represented as documentary evidence beyond the manuscript.",
+    "owner": "Jason + production"
+  },
+  {
+    "id": "CH06-057",
+    "stream": "Social channels",
+    "task": "Draft IG caption",
+    "status": "READY",
+    "priority": "P1",
+    "acceptance": "File/task is present in production kit and checked, or retained as an explicit TODO.\nNo scene is represented as documentary evidence beyond the manuscript.",
+    "owner": "Jason + production"
+  },
+  {
+    "id": "CH06-058",
+    "stream": "Social channels",
+    "task": "Draft Facebook post",
+    "status": "READY",
+    "priority": "P1",
+    "acceptance": "File/task is present in production kit and checked, or retained as an explicit TODO.\nNo scene is represented as documentary evidence beyond the manuscript.",
+    "owner": "Jason + production"
+  },
+  {
+    "id": "CH06-059",
+    "stream": "Social channels",
+    "task": "Draft video captions",
+    "status": "READY",
+    "priority": "P1",
+    "acceptance": "File/task is present in production kit and checked, or retained as an explicit TODO.\nNo scene is represented as documentary evidence beyond the manuscript.",
+    "owner": "Jason + production"
+  },
+  {
+    "id": "CH06-060",
+    "stream": "Social channels",
+    "task": "Approve public posting",
+    "status": "BLOCKED",
+    "priority": "P1",
+    "acceptance": "Author explicitly approves release scope and related third-party rights.",
+    "owner": "Jason + production"
+  },
+  {
+    "id": "CH06-061",
+    "stream": "Social channels",
+    "task": "Publish on owned accounts",
+    "status": "BLOCKED",
+    "priority": "P1",
+    "acceptance": "Author explicitly approves release scope and related third-party rights.",
+    "owner": "Jason + production"
+  },
+  {
+    "id": "CH06-062",
+    "stream": "QA, rights & release",
+    "task": "Build source manifest",
+    "status": "READY",
+    "priority": "P0",
+    "acceptance": "File/task is present in production kit and checked, or retained as an explicit TODO.\nNo scene is represented as documentary evidence beyond the manuscript.",
+    "owner": "Jason + production"
+  },
+  {
+    "id": "CH06-063",
+    "stream": "QA, rights & release",
+    "task": "Package editable files",
+    "status": "READY",
+    "priority": "P0",
+    "acceptance": "File/task is present in production kit and checked, or retained as an explicit TODO.\nNo scene is represented as documentary evidence beyond the manuscript.",
+    "owner": "Jason + production"
+  },
+  {
+    "id": "CH06-064",
+    "stream": "QA, rights & release",
+    "task": "Split into small downloads",
+    "status": "READY",
+    "priority": "P0",
+    "acceptance": "File/task is present in production kit and checked, or retained as an explicit TODO.\nNo scene is represented as documentary evidence beyond the manuscript.",
+    "owner": "Jason + production"
+  },
+  {
+    "id": "CH06-065",
+    "stream": "QA, rights & release",
+    "task": "Verify ZIPs",
+    "status": "READY",
+    "priority": "P1",
+    "acceptance": "File/task is present in production kit and checked, or retained as an explicit TODO.\nNo scene is represented as documentary evidence beyond the manuscript.",
+    "owner": "Jason + production"
+  },
+  {
+    "id": "CH06-066",
+    "stream": "QA, rights & release",
+    "task": "Check master source text",
+    "status": "READY",
+    "priority": "P1",
+    "acceptance": "File/task is present in production kit and checked, or retained as an explicit TODO.\nNo scene is represented as documentary evidence beyond the manuscript.",
+    "owner": "Jason + production"
+  },
+  {
+    "id": "CH06-067",
+    "stream": "QA, rights & release",
+    "task": "Document proof-only status",
+    "status": "READY",
+    "priority": "P1",
+    "acceptance": "File/task is present in production kit and checked, or retained as an explicit TODO.\nNo scene is represented as documentary evidence beyond the manuscript.",
+    "owner": "Jason + production"
+  },
+  {
+    "id": "CH06-068",
+    "stream": "QA, rights & release",
+    "task": "License/provenance audit",
+    "status": "BLOCKED",
+    "priority": "P1",
+    "acceptance": "Author explicitly approves release scope and related third-party rights.",
+    "owner": "Jason + production"
+  },
+  {
+    "id": "CH06-069",
+    "stream": "QA, rights & release",
+    "task": "Final author release approval",
+    "status": "BLOCKED",
+    "priority": "P1",
+    "acceptance": "Author explicitly approves release scope and related third-party rights.",
+    "owner": "Jason + production"
+  },
+  {
+    "id": "CH06-070",
+    "stream": "QA, rights & release",
+    "task": "Upload vetted binaries to repo",
+    "status": "BLOCKED",
+    "priority": "P1",
+    "acceptance": "Author explicitly approves release scope and related third-party rights.",
+    "owner": "Jason + production"
+  },
+  {
+    "id": "CH06-071",
+    "stream": "QA, rights & release",
+    "task": "Deploy publicly",
+    "status": "BLOCKED",
+    "priority": "P1",
+    "acceptance": "Author explicitly approves release scope and related third-party rights.",
+    "owner": "Jason + production"
+  },
+  {
+    "id": "CH06-072",
+    "stream": "QA, rights & release",
+    "task": "Post-publication link audit",
+    "status": "BLOCKED",
+    "priority": "P1",
+    "acceptance": "Author explicitly approves release scope and related third-party rights.",
+    "owner": "Jason + production"
+  }
+]

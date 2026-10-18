@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "slug": "lone-wolf",
+  "number": "29",
+  "title": "Lone Wolf",
+  "short_title": "Lone Wolf",
+  "part": 5,
+  "language": "vi",
+  "publish": false,
+  "release_stage": "outline",
+  "canonical_text": null,
+  "canonical_path": "#chapter/29",
+  "summary": "Jason mô tả mình lần lượt là golden retriever, con mèo khó gần rồi sói đơn độc. Nhưng các bài hát của NF khiến anh phải thú nhận rằng sự độc lập cực đoan không xóa đi nhu cầu được nắm tay ai đó.",
+  "portal": {
+    "scene": "A lone person sits beside Gấu, a little white dog, with a wolf-shaped shadow at their feet.",
+    "objects": [
+      "white dog",
+      "wolf shadow",
+      "joined hands"
+    ],
+    "iconKey": "dog",
+    "motif": "Gấu"
+  },
+  "original_edition": null,
+  "production_status": "awaiting author manuscript",
+  "outline_title": "Lone Wolf"
+}

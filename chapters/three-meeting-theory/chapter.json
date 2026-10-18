@@ -1,0 +1,35 @@
+{
+  "schema_version": 2,
+  "slug": "three-meeting-theory",
+  "number": "17",
+  "title": "Three Meeting Theory",
+  "short_title": "Three Meeting Theory",
+  "part": 3,
+  "language": "vi",
+  "publish": true,
+  "release_stage": "reader-with-original-products",
+  "canonical_text": "source/approved.md",
+  "canonical_path": "#chapter/17",
+  "summary": "Niềm tin của những đứa trẻ hopeless romantic: hai người có thể cắt nhau ba lần trước khi nhận ra nhau.",
+  "portal": {
+    "scene": "Three paths nearly intersect on a city street at dusk beneath a solitary streetlight.",
+    "objects": [
+      "crossing paths",
+      "streetlight",
+      "silhouettes"
+    ],
+    "iconKey": "paths",
+    "motif": "The almost-meeting"
+  },
+  "original_edition": {
+    "number": "15",
+    "title": "Three Meeting Theory",
+    "repo": "https://github.com/jasonthedataguy/json-under-revision",
+    "commit": "b41b692b3e3633abea4997b6ac4513a91308f127",
+    "metadata": "references/original-edition/chapter.json",
+    "archive_url": "https://jasonthedataguy.github.io/json-under-revision/chapters/15/"
+  },
+  "production_status": "imported proofs; v2 adaptation pending",
+  "manuscript_sha256": "b5b27a3d38118db90eb440f12b095a44fc66a73e631e7ca1f5f232b4c65651c2",
+  "outline_title": "Three Meeting Theory"
+}

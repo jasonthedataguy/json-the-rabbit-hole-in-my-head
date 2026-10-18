@@ -1,0 +1,83 @@
+{
+  "schema_version": 1,
+  "assets": [
+    {
+      "source": "shared/artwork/cover-ring.png",
+      "public_path": "assets/cover-ring.png",
+      "sha256_at_intake": "aff08a4a19a7d490aa45799a75b8fea29632eab5c2c08c8b7fc3eb7e6970b8a4",
+      "provenance": "Preserved from the v2 portal edition; fonts retain their supplied OFL licenses."
+    },
+    {
+      "source": "shared/artwork/bowl-reference.jpg",
+      "public_path": "assets/bowl-reference.jpg",
+      "sha256_at_intake": "2940241dc07d7e221205d4c01b5676e7919995b9afdfdfd771946bc631778ccf",
+      "provenance": "Preserved from the v2 portal edition; fonts retain their supplied OFL licenses."
+    },
+    {
+      "source": "shared/artwork/favicon.svg",
+      "public_path": "assets/favicon.svg",
+      "sha256_at_intake": "9ab12f0ee018507bc2097c72511e2c9e9564bb16b48df7c18c24e3968b8a64d9",
+      "provenance": "Preserved from the v2 portal edition; fonts retain their supplied OFL licenses."
+    },
+    {
+      "source": "references/design/book-concept.jpg",
+      "public_path": "assets/book-concept.jpg",
+      "sha256_at_intake": "5d5cdbb18f477523b8063b61e06b44b340842ce466f925d70e6f11e0c662bdfb",
+      "provenance": "Preserved from the v2 portal edition; fonts retain their supplied OFL licenses."
+    },
+    {
+      "source": "chapters/com-nguoi/artwork/portal/rice-portal.png",
+      "public_path": "assets/rice-portal.png",
+      "sha256_at_intake": "ddadcd45d41920aea71ea03b515e063c6e3879c53d5f692460936aea641f619b",
+      "provenance": "Preserved from the v2 portal edition; fonts retain their supplied OFL licenses."
+    },
+    {
+      "source": "chapters/fashion/artwork/portal/fashion-portal.png",
+      "public_path": "assets/fashion-portal.png",
+      "sha256_at_intake": "7f7eefa879ec3e896b226626afda01f96a821aab5bc981bed8908abd0afdcd68",
+      "provenance": "Preserved from the v2 portal edition; fonts retain their supplied OFL licenses."
+    },
+    {
+      "source": "shared/fonts/DM-Sans-Regular.ttf",
+      "public_path": "assets/font-0.ttf",
+      "sha256_at_intake": "b0ae3e89a7d3ef2b1838bb4b1ceb0b17cc3435af061eee809d76aa623ff116e9",
+      "provenance": "Preserved from the v2 portal edition; fonts retain their supplied OFL licenses."
+    },
+    {
+      "source": "shared/fonts/DM-Sans-Medium.ttf",
+      "public_path": "assets/font-1.ttf",
+      "sha256_at_intake": "376427b5322148d8de1e03f263bcca4935a2d60ba71d9f94f4947ab664c711ae",
+      "provenance": "Preserved from the v2 portal edition; fonts retain their supplied OFL licenses."
+    },
+    {
+      "source": "shared/fonts/DM-Sans-Semibold.ttf",
+      "public_path": "assets/font-2.ttf",
+      "sha256_at_intake": "b79a2ea7a38f33fd96a282fadb9ce97626bb0724a44d21075859f0e50239993a",
+      "provenance": "Preserved from the v2 portal edition; fonts retain their supplied OFL licenses."
+    },
+    {
+      "source": "shared/fonts/DM-Sans-Bold.ttf",
+      "public_path": "assets/font-3.ttf",
+      "sha256_at_intake": "2a8e7f713ee79fbccdef3cef5c787aff47580299f7da60144961e7db2ec08211",
+      "provenance": "Preserved from the v2 portal edition; fonts retain their supplied OFL licenses."
+    },
+    {
+      "source": "shared/fonts/Libre-Caslon-Display-Regular.ttf",
+      "public_path": "assets/font-4.ttf",
+      "sha256_at_intake": "199b2a7deefd8d7d9bae05d34902c4c6486bd11b8e5d1a22c0cea8862943a5a1",
+      "provenance": "Preserved from the v2 portal edition; fonts retain their supplied OFL licenses."
+    },
+    {
+      "source": "shared/fonts/DM-Sans-OFL.txt",
+      "public_path": "assets/DM-Sans-OFL.txt",
+      "sha256_at_intake": "9af36190332437f5ecd09974de43c1f7c77a310a996cdd8ceb25628b458840e1",
+      "provenance": "Preserved from the v2 portal edition; fonts retain their supplied OFL licenses."
+    },
+    {
+      "source": "shared/fonts/Libre-Caslon-Display-OFL.txt",
+      "public_path": "assets/Libre-Caslon-Display-OFL.txt",
+      "sha256_at_intake": "c364cbca78d55436dd98e379f362c302a7b09dcc16dc7aa501af03459a2ae961",
+      "provenance": "Preserved from the v2 portal edition; fonts retain their supplied OFL licenses."
+    }
+  ]
+}

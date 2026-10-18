@@ -1,0 +1,11 @@
+file 'landscape_01.jpg'
+duration 4.8
+file 'landscape_02.jpg'
+duration 4.8
+file 'landscape_03.jpg'
+duration 4.8
+file 'landscape_04.jpg'
+duration 4.8
+file 'landscape_05.jpg'
+duration 4.8
+file 'landscape_05.jpg'

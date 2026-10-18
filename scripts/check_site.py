@@ -1,47 +1,83 @@
-#!/usr/bin/env python3
-"""Check that the deployed edition preserves all imported published manuscripts."""
-import hashlib
-import json
-from pathlib import Path
+"""Validate sources, preserved manuscripts, generated files and local web links."""
+import re
 from html.parser import HTMLParser
 from urllib.parse import urlsplit, unquote
+from common import ROOT, read_json, safe_path, sha256, chapter_entries, validate_project
 
-ROOT = Path(__file__).resolve().parents[1]
 DIST = ROOT / 'dist'
 
 class Assets(HTMLParser):
     def __init__(self):
         super().__init__(); self.paths = []
+
     def handle_starttag(self, tag, attrs):
         attrs = dict(attrs)
-        if tag in {'script', 'img'} and attrs.get('src'): self.paths.append(attrs['src'])
-        if tag == 'link' and attrs.get('href'): self.paths.append(attrs['href'])
+        for key in ('src', 'href', 'poster', 'data-image'):
+            if attrs.get(key):
+                self.paths.append(attrs[key])
+        if attrs.get('srcset'):
+            self.paths += [part.strip().split()[0] for part in attrs['srcset'].split(',') if part.strip()]
 
-def main():
-    library = json.loads((DIST / 'content/manuscripts.json').read_text())
-    assert len(library['chapters']) == 10, 'The original archive contains ten published chapters'
-    ids = [c['editorialId'] for c in library['chapters'] if c['editorialId'] is not None]
-    assert len(ids) == 9 and len(set(ids)) == 9, 'Nine evidence-based portal mappings are required'
-    assert next(c for c in library['chapters'] if c['slug'] == 'dating-102')['editorialId'] is None
-    total = 0
+def local_link(source, value):
+    parsed = urlsplit(value)
+    if parsed.scheme or parsed.netloc or not parsed.path:
+        return None
+    if parsed.path.startswith('/'):
+        raise ValueError(f'Non-relative public link in {source.relative_to(DIST)}: {value}')
+    target = (source.parent / unquote(parsed.path)).resolve()
+    if not target.is_relative_to(DIST.resolve()):
+        raise ValueError(f'Public link escapes the site: {value}')
+    if target.is_dir():
+        target = target / 'index.html'
+    return target
+
+def check_site():
+    registry = validate_project()
+    library = read_json(DIST / 'content/manuscripts.json')
+    expected = {m['slug'] for _, m in chapter_entries() if m['publish']}
+    assert {c['slug'] for c in library['chapters']} == expected, 'Published manuscript coverage changed'
     for chapter in library['chapters']:
-        raw = (ROOT / chapter['sourcePath']).read_bytes()
-        assert hashlib.sha256(raw).hexdigest() == chapter['sha256'], chapter['slug']
-        deployed = (DIST / 'content/manuscripts' / (chapter['slug'] + '.md')).read_bytes()
-        assert raw == deployed, f'Deployed manuscript differs: {chapter["slug"]}'
-        assert '<script' not in chapter['html'].lower(), 'Rendered manuscripts must be inert'
-        assert chapter['bodyHtml'] and chapter['plainText'], chapter['slug']
-        assert chapter['archiveUrl'].startswith('https://jasonthedataguy.github.io/json-under-revision/chapters/')
-        total += len(raw)
-    parser = Assets(); parser.feed((DIST / 'index.html').read_text())
-    for src in parser.paths:
-        parsed = urlsplit(src)
-        if parsed.scheme or parsed.netloc: continue
-        assert not parsed.path.startswith('/'), f'Use a relative asset URL for GitHub Pages: {src}'
-        assert (DIST / unquote(parsed.path)).is_file(), f'Missing public asset: {src}'
-    for name in ['app.js', 'book.js', 'chapters.js', 'ring.js', 'markers.js', 'style.css', 'cover.css', 'assets/cover-ring.png', 'assets/bowl-reference.jpg']:
-        assert (DIST / name).is_file(), name
-    print(f'Passed: 10 byte-identical manuscripts ({total:,} bytes), 9 portal mappings, complete static assets.')
+        source = safe_path(ROOT, chapter['sourcePath'])
+        assert sha256(source) == chapter['sha256'], chapter['slug']
+        assert source.read_bytes() == safe_path(DIST, chapter['downloadUrl']).read_bytes(), chapter['slug']
+        assert chapter['bodyHtml'] and '<script' not in chapter['html'].lower(), chapter['slug']
+        meta = read_json(ROOT / 'chapters' / chapter['slug'] / 'chapter.json')
+        assert chapter['editorialId'] == meta['number'], chapter['slug']
+        for field in ('experienceUrl', 'printUrl', 'filmUrl'):
+            if chapter.get(field):
+                assert safe_path(DIST, chapter[field]).is_file(), chapter[field]
+    mapping = read_json(ROOT / 'references/original-edition/manuscript-map.json')
+    for item in mapping['chapters']:
+        original = ROOT / 'chapters' / item['slug'] / 'references/original-edition/approved.md'
+        assert sha256(original) == item['manuscriptSha256'], f'Pinned original changed: {item["slug"]}'
+    for record in read_json(ROOT / 'docs/MIGRATION.json')['files']:
+        path = record['path']
+        if '/references/' in path or path.startswith('references/') or path.endswith('/source/original.md'):
+            assert sha256(safe_path(ROOT, path)) == record['sha256'], f'Preserved input changed: {path}'
+    manifest = read_json(DIST / 'build-manifest.json')
+    for relative, digest in manifest['inputs'].items():
+        assert sha256(safe_path(ROOT, relative)) == digest, f'Source changed; rebuild dist: {relative}'
+    for record in manifest['generated_files']:
+        assert sha256(safe_path(DIST, record['path'])) == record['sha256'], f'Generated output changed: {record["path"]}'
+    failures = []
+    for page in sorted(DIST.rglob('*.html')):
+        parser = Assets(); parser.feed(page.read_text(encoding='utf-8'))
+        for value in parser.paths:
+            target = local_link(page, value)
+            if target is not None and not target.is_file():
+                failures.append(f'{page.relative_to(DIST)} -> {value}')
+    for source in sorted(DIST.glob('*.js')):
+        for value in re.findall(r'(?:from\s*|import\s*)[\"\']([^\"\']+)[\"\']', source.read_text(encoding='utf-8')):
+            target = local_link(source, value)
+            if target is not None and not target.is_file():
+                failures.append(f'{source.name} -> {value}')
+    for source in sorted(DIST.rglob('*.css')):
+        for value in re.findall(r'url\([\"\']?([^\)\"\']+)', source.read_text(encoding='utf-8')):
+            target = local_link(source, value)
+            if target is not None and not target.is_file():
+                failures.append(f'{source.relative_to(DIST)} -> {value}')
+    assert not failures, 'Missing local links:\n' + '\n'.join(sorted(set(failures)))
+    print(f'Passed: {len(registry["chapters"])} editorial chapters, {len(library["chapters"])} exact manuscripts, protected originals, generated files and local web links.')
 
 if __name__ == '__main__':
-    main()
+    check_site()

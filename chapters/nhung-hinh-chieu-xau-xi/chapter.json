@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "slug": "nhung-hinh-chieu-xau-xi",
+  "number": "21",
+  "title": "Những hình chiếu xấu xí",
+  "short_title": "Những hình chiếu xấu xí",
+  "part": 3,
+  "language": "vi",
+  "publish": false,
+  "release_stage": "outline",
+  "canonical_text": null,
+  "canonical_path": "#chapter/21",
+  "summary": "Jason nhận ra mình đã đem một ký ức đau đớn về mẹ áp lên phụ nữ và tình yêu như thế nào.",
+  "portal": {
+    "scene": "A mirror projects angular shadows onto a blank wall beside an empty chair.",
+    "objects": [
+      "mirror",
+      "distorted lens",
+      "empty chair"
+    ],
+    "iconKey": "mirror",
+    "motif": "The projection"
+  },
+  "original_edition": null,
+  "production_status": "awaiting author manuscript",
+  "outline_title": "Những hình chiếu xấu xí"
+}

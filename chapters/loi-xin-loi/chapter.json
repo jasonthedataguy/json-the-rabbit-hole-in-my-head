@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "slug": "loi-xin-loi",
+  "number": "31",
+  "title": "Lời xin lỗi",
+  "short_title": "Lời xin lỗi",
+  "part": 5,
+  "language": "vi",
+  "publish": false,
+  "release_stage": "outline",
+  "canonical_text": null,
+  "canonical_path": "#chapter/31",
+  "summary": "Một thông điệp gửi người từng bị Jason đối xử lạnh lùng hai năm trước.",
+  "portal": {
+    "scene": "An unsigned letter rests near an open window and the traces of two toothbrushes, ending in an open crescent.",
+    "objects": [
+      "unsigned letter",
+      "empty hook",
+      "open window"
+    ],
+    "iconKey": "crescent",
+    "motif": "The unfinished crescent"
+  },
+  "original_edition": null,
+  "production_status": "awaiting author manuscript",
+  "outline_title": "Lời xin lỗi"
+}

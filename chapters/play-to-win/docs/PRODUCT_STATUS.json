@@ -1,0 +1,292 @@
+{
+  "chapter": "play-to-win",
+  "editorial_number": "03",
+  "original_number": "06",
+  "reader": "published manuscript",
+  "v2_product_release": "imported proofs; v2 adaptation pending",
+  "lanes": [
+    {
+      "id": "manuscript",
+      "files_present": 4,
+      "status": "available for review",
+      "required_deliverables": [
+        "original manuscript",
+        "author-selected manuscript",
+        "revision history"
+      ]
+    },
+    {
+      "id": "artwork",
+      "files_present": 25,
+      "status": "available for review",
+      "required_deliverables": [
+        "source and provenance",
+        "scene library",
+        "web/print/social exports"
+      ]
+    },
+    {
+      "id": "web",
+      "files_present": 4,
+      "status": "available for review",
+      "required_deliverables": [
+        "complete reader",
+        "source-grounded interactive experience",
+        "version history",
+        "accessible controls"
+      ]
+    },
+    {
+      "id": "print",
+      "files_present": 3,
+      "status": "available for review",
+      "required_deliverables": [
+        "complete illustrated A5 proof",
+        "print settings and QA",
+        "optional poster/bookmark"
+      ]
+    },
+    {
+      "id": "audio",
+      "files_present": 9,
+      "status": "available for review",
+      "required_deliverables": [
+        "author reading script",
+        "author recording",
+        "final mix or documented ambience"
+      ]
+    },
+    {
+      "id": "video",
+      "files_present": 17,
+      "status": "available for review",
+      "required_deliverables": [
+        "discovery cut",
+        "feed cut",
+        "long-form cut where appropriate",
+        "timeline",
+        "SRT/VTT retimed to actual recording"
+      ]
+    },
+    {
+      "id": "social",
+      "files_present": 20,
+      "status": "available for review",
+      "required_deliverables": [
+        "Instagram carousel and alt text",
+        "Facebook image and copy",
+        "TikTok cover and caption",
+        "YouTube thumbnail and description"
+      ]
+    },
+    {
+      "id": "qa",
+      "files_present": 9,
+      "status": "available for review",
+      "required_deliverables": [
+        "asset inventory",
+        "product status",
+        "manuscript/media checks",
+        "browser and visual review"
+      ]
+    },
+    {
+      "id": "preview",
+      "files_present": 11,
+      "status": "available for review",
+      "required_deliverables": [
+        "actual product board",
+        "desktop/mobile screenshots",
+        "print contact sheets"
+      ]
+    },
+    {
+      "id": "references",
+      "files_present": 4,
+      "status": "available for review",
+      "required_deliverables": [
+        "unchanged supplied boards",
+        "original edition metadata",
+        "intake provenance"
+      ]
+    }
+  ],
+  "products": [
+    {
+      "product": "Selected prose",
+      "state": "ready",
+      "path": "source/approved.md"
+    },
+    {
+      "product": "Six approved vector illustrations and high-resolution exports",
+      "state": "editable SVG masters; 2400 × 1700 raster scene exports",
+      "path": "artwork/scenes/index.json"
+    },
+    {
+      "product": "Illustrated A5 chapter",
+      "state": "editorial proof",
+      "path": "book/chapter-A5-proof.pdf"
+    },
+    {
+      "product": "Interactive website",
+      "state": "ready for deployment",
+      "path": "web/index.html"
+    },
+    {
+      "product": "Instagram carousel (five 3:4 cards)",
+      "state": "ready",
+      "path": "social/instagram/slide-01.jpg"
+    },
+    {
+      "product": "Facebook image and copy",
+      "state": "ready",
+      "path": "social/facebook/post.jpg"
+    },
+    {
+      "product": "YouTube thumbnail and description",
+      "state": "ready",
+      "path": "social/youtube/thumbnail.jpg"
+    },
+    {
+      "product": "TikTok cover and caption",
+      "state": "ready",
+      "path": "social/tiktok/cover.jpg"
+    },
+    {
+      "product": "9:16 discovery cut",
+      "state": "edit preview; author narration pending",
+      "path": "video/discovery-9x16.mp4"
+    },
+    {
+      "product": "9:16 YouTube cut",
+      "state": "edit preview; author narration pending",
+      "path": "video/youtube-9x16.mp4"
+    },
+    {
+      "product": "3:4 feed cut",
+      "state": "edit preview; author narration pending",
+      "path": "video/feed-3x4.mp4"
+    },
+    {
+      "product": "SRT/VTT text timings",
+      "state": "provisional; retime to recorded narration",
+      "path": "video/timeline.json"
+    },
+    {
+      "product": "Author reading script",
+      "state": "ready for recording",
+      "path": "audio/reading-script.md"
+    },
+    {
+      "product": "Editable chapter cover",
+      "state": "editable SVG typography and separate illustration",
+      "path": "artwork/exports/cover-a5.svg"
+    },
+    {
+      "product": "15-second vertical teaser",
+      "state": "edit preview; author narration pending",
+      "path": "video/teaser-9x16.mp4"
+    },
+    {
+      "product": "150-second landscape reading excerpt",
+      "state": "edit preview; author narration pending",
+      "path": "video/essay-16x9.mp4"
+    },
+    {
+      "product": "A4 poster",
+      "state": "editorial print proof",
+      "path": "book/poster-A4-proof.pdf"
+    },
+    {
+      "product": "Eight-bamboo bookmark",
+      "state": "50 × 150 mm editorial print proof",
+      "path": "book/bookmark-proof.pdf"
+    },
+    {
+      "product": "Ambient audio bed",
+      "state": "original synthetic ambience; no speech",
+      "path": "audio/ambience.wav"
+    },
+    {
+      "product": "Recording and mix handoff",
+      "state": "ready for author recording",
+      "path": "audio/RECORDING_HANDOFF.md"
+    },
+    {
+      "product": "Source-grounded narrative map",
+      "state": "original paragraph references",
+      "path": "source/NARRATIVE_MAP.md"
+    },
+    {
+      "product": "Social release brief",
+      "state": "prepared; author-managed posting",
+      "path": "social/BRIEF.md"
+    },
+    {
+      "product": "Social accessibility copy",
+      "state": "ready",
+      "path": "social/alt-text.json"
+    },
+    {
+      "product": "Actual product board",
+      "state": "assembled from delivered files",
+      "path": "previews/product-board.jpg"
+    },
+    {
+      "product": "Instagram story 1",
+      "state": "ready",
+      "path": "social/instagram/story-01.jpg"
+    },
+    {
+      "product": "Instagram story 2",
+      "state": "ready",
+      "path": "social/instagram/story-02.jpg"
+    },
+    {
+      "product": "Instagram story 3",
+      "state": "ready",
+      "path": "social/instagram/story-03.jpg"
+    },
+    {
+      "product": "Instagram highlight",
+      "state": "ready",
+      "path": "social/instagram/highlight.jpg"
+    },
+    {
+      "product": "Recording script: discovery-9x16",
+      "state": "verbatim excerpt sequence",
+      "path": "audio/discovery-9x16-script.md"
+    },
+    {
+      "product": "Recording script: youtube-9x16",
+      "state": "verbatim excerpt sequence",
+      "path": "audio/youtube-9x16-script.md"
+    },
+    {
+      "product": "Recording script: feed-3x4",
+      "state": "verbatim excerpt sequence",
+      "path": "audio/feed-3x4-script.md"
+    },
+    {
+      "product": "Recording script: teaser-9x16",
+      "state": "verbatim excerpt sequence",
+      "path": "audio/teaser-9x16-script.md"
+    },
+    {
+      "product": "Recording script: essay-16x9",
+      "state": "verbatim excerpt sequence",
+      "path": "audio/essay-16x9-script.md"
+    }
+  ],
+  "remaining": [
+    "Jason recorded narration and final timing/mix",
+    "Printer specifications and final print production",
+    "Physical-device and human screen-reader review",
+    "Author-managed social uploads; QR remains deferred"
+  ],
+  "v2_remaining": [
+    "Review original chapter numbers, titles and URLs in derivatives before a v2 product release",
+    "Review chapter experience and media against the v2 design",
+    "Record new visual QA for changed deliverables"
+  ]
+}

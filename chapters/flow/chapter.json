@@ -1,0 +1,28 @@
+{
+  "schema_version": 2,
+  "slug": "flow",
+  "number": "05",
+  "title": "FLOW",
+  "short_title": "FLOW",
+  "part": 1,
+  "language": "vi",
+  "publish": false,
+  "release_stage": "outline",
+  "canonical_text": null,
+  "canonical_path": "#chapter/05",
+  "summary": "Jason trò chuyện với flatmate về tiền, căn hộ, đi vay và sự khác nhau giữa tài sản nằm yên với dòng tiền lưu chuyển.",
+  "portal": {
+    "scene": "Two flatmates discuss an apartment drawing across a kitchen table as coins, keys and arrows suggest movement.",
+    "objects": [
+      "apartment key",
+      "stream",
+      "coins",
+      "arrows"
+    ],
+    "iconKey": "key",
+    "motif": "The shared table"
+  },
+  "original_edition": null,
+  "production_status": "awaiting author manuscript",
+  "outline_title": "FLOW"
+}

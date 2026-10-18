@@ -1,0 +1,1190 @@
+{
+  "chapter": "the-gioi-trong-mo-cua-toi",
+  "files": [
+    {
+      "path": "artwork/exports/cover-a5.jpg",
+      "bytes": 332543,
+      "sha256": "ecc946e687b2095ad1f47a200f9eebd7be8a187326d44e95c1333a51fe6bab2e"
+    },
+    {
+      "path": "artwork/exports/hero-mobile.jpg",
+      "bytes": 162973,
+      "sha256": "a5725abf3f05ed16301039abf479330370266e5bc61df70c3037901b83c62825"
+    },
+    {
+      "path": "artwork/exports/hero.jpg",
+      "bytes": 230906,
+      "sha256": "e44a79cf4b515be05b65bcb451dbcb47d81df887043f8fe2618c51103c09b165"
+    },
+    {
+      "path": "artwork/exports/poster-9x16.jpg",
+      "bytes": 272642,
+      "sha256": "1f874c175087958422b2e22473ed41978f4d5e9040dd1775879d6324dd7552a0"
+    },
+    {
+      "path": "artwork/scenes/01_rooftop_skyline.jpg",
+      "bytes": 84433,
+      "sha256": "ac82e44b307b1bb18d2156a8cdade6a6471046c0dcdf39580f6bc5bbfa46de8a"
+    },
+    {
+      "path": "artwork/scenes/02_metro_children.jpg",
+      "bytes": 390502,
+      "sha256": "90911b405aba5173ff088d61fc0055d7f6c586fca2cb6e79fca63138638ad105"
+    },
+    {
+      "path": "artwork/scenes/03_bastille_station.jpg",
+      "bytes": 159809,
+      "sha256": "ea33dada2856bf99b6e00d3109247fb69c76443a863426e470afacea9407e026"
+    },
+    {
+      "path": "artwork/scenes/04_telephone.jpg",
+      "bytes": 76734,
+      "sha256": "b7836c6590ec874999a6f345385a83e88175ac74a806b249e5bd5e6c0760756e"
+    },
+    {
+      "path": "artwork/scenes/05_imagined_kitchen.jpg",
+      "bytes": 146449,
+      "sha256": "8fde0b450546ff9713ce2c8fc9cd89d29eac11a5ad590bfaf309e07081f9af0c"
+    },
+    {
+      "path": "artwork/scenes/06_rooftop_afterimage.jpg",
+      "bytes": 122684,
+      "sha256": "c20a842c6b3b1d5cec152f8a9915e2cd04584d0f54ecbbec99d121a86bc78d4f"
+    },
+    {
+      "path": "artwork/scenes/07_old_photographs.jpg",
+      "bytes": 105239,
+      "sha256": "bc6a41db271ed97ac0a5e68796319cd7bcf1e8f667e27729415bccdf0d1b205d"
+    },
+    {
+      "path": "artwork/scenes/08_both_children.jpg",
+      "bytes": 103048,
+      "sha256": "1ddc8aa13666620c3e5799ce2e1207cd4f56f87e2bfc0cc5f9a9f730cac94d6f"
+    },
+    {
+      "path": "artwork/scenes/index.json",
+      "bytes": 4196,
+      "sha256": "acf179a9f0f4482c62925f12587888c98ee7461742afcb8ff5bad6fa0dda6f7d"
+    },
+    {
+      "path": "artwork/source/00_approved_storyboard.jpg",
+      "bytes": 658194,
+      "sha256": "7ee62fe9f87973315475b2194f813bd079f8bdf9986ddae544f991a71c2711f3"
+    },
+    {
+      "path": "artwork/source/01_rooftop_skyline.jpg",
+      "bytes": 319402,
+      "sha256": "801b8cb4d9a9287dabbc147b89361b89c40e5b8d636173f4b7b9ea7d3a45307f"
+    },
+    {
+      "path": "artwork/source/02_metro_children.jpg",
+      "bytes": 350939,
+      "sha256": "5be1cea139572f849b0ca835b7c0840a887d60162395506555384ab4998fc3f0"
+    },
+    {
+      "path": "artwork/source/03_bastille_station.jpg",
+      "bytes": 167282,
+      "sha256": "63a6bbb9d932ba995fe669dc8e3c2c68cd29c671626a89cf77944c9aa2d134ea"
+    },
+    {
+      "path": "artwork/source/04_telephone.jpg",
+      "bytes": 107628,
+      "sha256": "5492c9ee0570f1900415c28f0ec1b557e1c47ba00c9ee02e18d292669f62d3d5"
+    },
+    {
+      "path": "artwork/source/05_imagined_kitchen.jpg",
+      "bytes": 127244,
+      "sha256": "c9916264a9e3d0a6570b4d754c88c456a9211970dba7e283fd0057895f9ea986"
+    },
+    {
+      "path": "artwork/source/06_rooftop_afterimage.jpg",
+      "bytes": 118606,
+      "sha256": "7277a285a0c25e01890727a16a37eba00c7e4380e4dd817b3924c77512a45cfe"
+    },
+    {
+      "path": "artwork/source/07_old_photographs.jpg",
+      "bytes": 128406,
+      "sha256": "c52b7eb8e89f2661cc4b9061cd9c4fa1f28879c5ea8efd4e0a1206b2cc893fbd"
+    },
+    {
+      "path": "artwork/source/08_both_children.jpg",
+      "bytes": 132245,
+      "sha256": "c9c0cdcb10de07a7ebb9f801b631483e6b50bdd850aa9794ea2bafd88f7d06e7"
+    },
+    {
+      "path": "artwork/source/09_paper_print_detail.jpg",
+      "bytes": 310684,
+      "sha256": "9d90e1f1abe50fbe152a5afb4ff94414483cccca90eff69ce4d8e69c529eb516"
+    },
+    {
+      "path": "artwork/source/10_poster_reference.jpg",
+      "bytes": 186171,
+      "sha256": "8d5e095dcfad13429db9ab52182739d228fa07b39ff03b6052479918e96be9c8"
+    },
+    {
+      "path": "artwork/source/11_web_reference.jpg",
+      "bytes": 592393,
+      "sha256": "9c70332ca692ce8a192b93ceb18d466e3e7d953610a51077ffd3bbef18708c98"
+    },
+    {
+      "path": "artwork/source/12_social_reference.jpg",
+      "bytes": 699057,
+      "sha256": "fb4b8e60518d12b2cbcbb53daafa1a3f85fa112b4fec9b35509a890787eb77ca"
+    },
+    {
+      "path": "artwork/source/13_main_book_cover.jpg",
+      "bytes": 347514,
+      "sha256": "b92266bb2fb29a7476e7e694ec6f4cda2c733c128ea14dc65488e909a17a2383"
+    },
+    {
+      "path": "artwork/source/14_A4_poster_master_proof.jpg",
+      "bytes": 452905,
+      "sha256": "6efecc7f2c2831189243dccd3245c7e1cbf15af597b017abafb443d6067e7987"
+    },
+    {
+      "path": "audio/ambience.wav",
+      "bytes": 1058444,
+      "sha256": "4fb2791229659a0ad2b77596b27d08c632bf1c65a497eb1ae1321872ae704ab8"
+    },
+    {
+      "path": "audio/discovery-9x16-script.md",
+      "bytes": 1037,
+      "sha256": "f0f0c5b4cd5c83a790c45c19a9d4ac71e172d73312ef52e4a8add807e20ba7cd"
+    },
+    {
+      "path": "audio/essay-16x9-script.md",
+      "bytes": 2293,
+      "sha256": "f7319a02cd0cbccd44349e660caa888490f281d0d2b0abb6532c0bdf9cd9e9fc"
+    },
+    {
+      "path": "audio/feed-3x4-script.md",
+      "bytes": 769,
+      "sha256": "98d3d26223acd0f003ae38b58b6de789b7846425fc85d186ecbc84131679bdb7"
+    },
+    {
+      "path": "audio/NARRATION.md",
+      "bytes": 360,
+      "sha256": "d889704a7127dd48e9111c25ac83286fe8d0e67e928516d2941f971ff2e11379"
+    },
+    {
+      "path": "audio/reading-script.md",
+      "bytes": 5060,
+      "sha256": "4382f452fa05b61baceed66a86b0510882f9a5b7329a44bf9fa3e831b830c3d9"
+    },
+    {
+      "path": "audio/RECORDING_HANDOFF.md",
+      "bytes": 621,
+      "sha256": "3df0062e3e9f9055acc58c4cdcfe7cdf8eea64d8ff171ed7c0b23fd2fd647342"
+    },
+    {
+      "path": "audio/teaser-9x16-script.md",
+      "bytes": 483,
+      "sha256": "7a55df7fbf9a4e18c7083a406e57792461dcaf62c8e083e0faf942aaedcdc283"
+    },
+    {
+      "path": "audio/youtube-9x16-script.md",
+      "bytes": 2295,
+      "sha256": "6e17b1ceb5b078b780d87e321894a9f23510893e8ab2c41c6c9164d5b0ed5f38"
+    },
+    {
+      "path": "book/06_The_Gioi_Trong_Mo_A4_POSTER_PROOF.pdf",
+      "bytes": 567786,
+      "sha256": "ba8da9749f658b41976e6292b6a6428f961188f273fec096a417c3ec9fa70616"
+    },
+    {
+      "path": "book/06_The_Gioi_Trong_Mo_A5_EDITORIAL_PROOF.pdf",
+      "bytes": 1242596,
+      "sha256": "704b7ca8e120abdd83b904c91cf231a13061b85025e9a0ddc460b10589621154"
+    },
+    {
+      "path": "book/bookmark-proof.pdf",
+      "bytes": 896658,
+      "sha256": "2c070ca11ad1203ab266491862f58eb3e808f8be983cd37cd55f19446ac9616f"
+    },
+    {
+      "path": "book/chapter-A5-proof.pdf",
+      "bytes": 713446,
+      "sha256": "1bb27288638d80c90073f45e23c3b5a48e89235faca3165ab3672d933634db03"
+    },
+    {
+      "path": "book/poster-A4-proof.pdf",
+      "bytes": 7493549,
+      "sha256": "8da69a2d53750c2ab97d2974c9e851319962dbc704b591c8b7dd17536726463b"
+    },
+    {
+      "path": "chapter.json",
+      "bytes": 1461,
+      "sha256": "261da456f7a252d969d330ce7a2389ab842eb0c79dcf323e7ffc14f18a438798"
+    },
+    {
+      "path": "docs/BROWSER_QA.json",
+      "bytes": 734,
+      "sha256": "c2e5ddf8509c5c70dd589ec6a5158a9bbd3297f181a0a95a4f6c7a45af255e6e"
+    },
+    {
+      "path": "docs/CHECKLIST.csv",
+      "bytes": 16392,
+      "sha256": "05e8bdb64691886be0c9d0a063d27975998d6ca025d3d53d61931e7676d546d8"
+    },
+    {
+      "path": "docs/CHECKLIST_REVIEW.json",
+      "bytes": 42170,
+      "sha256": "9c6497fbad79c1ff7d4d2eef545c3ef66da7123bd3a15459c81140411c076eb5"
+    },
+    {
+      "path": "docs/CHECKLIST_REVIEW.md",
+      "bytes": 15299,
+      "sha256": "cd4846378ffa2e3c64c44cc4760a974a049587acacb8c0727cd46e9589f06d7d"
+    },
+    {
+      "path": "docs/DESIGN_REVIEW.md",
+      "bytes": 1845,
+      "sha256": "239743aa8a142f92c5ba5a9c4442af050df21b30fed2c8b4095936e87a87a719"
+    },
+    {
+      "path": "docs/INTAKE_REVIEW.md",
+      "bytes": 819,
+      "sha256": "50fe39d7d281cab0bd70d54589d8c068f15a73609d990bb6bd68bf7353a49d6f"
+    },
+    {
+      "path": "docs/INVENTORY.json",
+      "bytes": 26027,
+      "sha256": "950f129a6c27cc02402193c0143f16e47df9dc1326ef67c5ccedc0f17b5f0500"
+    },
+    {
+      "path": "docs/MEDIA_QA.json",
+      "bytes": 2137,
+      "sha256": "aedbd585d658f878c10c5470a40d39db6aab8a63b98424d2ea666f0245993058"
+    },
+    {
+      "path": "docs/PRODUCT_SET.md",
+      "bytes": 4023,
+      "sha256": "cea44479e8e6e6b74ce130a6a9a86835dc6a07b3bf09e31c62b187b92204a81a"
+    },
+    {
+      "path": "docs/PRODUCTS.json",
+      "bytes": 4790,
+      "sha256": "bbb3a553d31b3ce4f6f4bef60d276606fdb1faaa286fbabb5d9cc4a5133278f4"
+    },
+    {
+      "path": "docs/PROJECT_BOARD.md",
+      "bytes": 2078,
+      "sha256": "81176f910b7ada9ad03c8c2d01bc8276a07b85a60b04115dc6a15f5cc600f1f9"
+    },
+    {
+      "path": "docs/REFERENCE_IMPORT.json",
+      "bytes": 15199,
+      "sha256": "1ede9ee4fe7823a0d2030293a289e9c0015499b6fe578766995fb6fb5df3cd5a"
+    },
+    {
+      "path": "docs/SOURCE_INTAKE.json",
+      "bytes": 403,
+      "sha256": "4fa886a12c308a7b57cc51bb07306e498433e7698f3a13f1dde769d36ba4b508"
+    },
+    {
+      "path": "previews/A5_CONTACT_SHEET.jpg",
+      "bytes": 370983,
+      "sha256": "f273f128771c45943f47d70b9ca207d3814aa3f24843c7767f4f839eacada4e5"
+    },
+    {
+      "path": "previews/a5_page_1.jpg",
+      "bytes": 56920,
+      "sha256": "180bd3dab78ece18bb5d1069d6b600b3452c561ccbef0c3142aa920dd1fb604c"
+    },
+    {
+      "path": "previews/a5_page_2.jpg",
+      "bytes": 59118,
+      "sha256": "d5a28ab02d1b35fc85aac083b43f044a1a4ebaee8fb69f1f36435829d150acbd"
+    },
+    {
+      "path": "previews/a5_page_3.jpg",
+      "bytes": 72321,
+      "sha256": "9900dbcd341b7f42fa6d331c3c71a2f9515244bf132629b5533b8dc0598ab1d7"
+    },
+    {
+      "path": "previews/a5_page_4.jpg",
+      "bytes": 62289,
+      "sha256": "fe5f850c2422eca28112c4091d6b820bd8e9e7b5b0ca8bf8d2347fb4a652f234"
+    },
+    {
+      "path": "previews/a5_page_5.jpg",
+      "bytes": 57649,
+      "sha256": "b499514042a03a82560e3434d0ac2b23b96bf1e1de1883c5ba70d50a0d259e70"
+    },
+    {
+      "path": "previews/a5_page_6.jpg",
+      "bytes": 11760,
+      "sha256": "ae2be0bfde641d35999f04b134a3266959e37375af3bb84caa4e919c3f334fa7"
+    },
+    {
+      "path": "previews/artwork.jpg",
+      "bytes": 229635,
+      "sha256": "294bba6a91269ffc7579d42ebc9118a887fd199c717c92c2f5ef122de5b49e66"
+    },
+    {
+      "path": "previews/board_desktop.png",
+      "bytes": 744386,
+      "sha256": "a213f648db9d5f7846c3958c4e6488ef63f67a46caddbda8a1e009ef93ffc482"
+    },
+    {
+      "path": "previews/board_mobile.png",
+      "bytes": 46630,
+      "sha256": "071968b7768fa1dc80a3c4c163e70c6a5ffcb290bf2c00c4c65a9dcb09eea2fd"
+    },
+    {
+      "path": "previews/book.jpg",
+      "bytes": 156920,
+      "sha256": "ad7ca954fe3709aab4fab67141155ad14321d1ecdb36a95573b2eefc19899062"
+    },
+    {
+      "path": "previews/carousel.jpg",
+      "bytes": 212366,
+      "sha256": "a0b8b3521cb41976dfe54844fb038fadbaa46698ba7f82e5a5dc9186f7577fec"
+    },
+    {
+      "path": "previews/discovery-frames.jpg",
+      "bytes": 82059,
+      "sha256": "d156156ba6d418d46e90ef4c60b68be06849a46fedc8720e4dcc917aafd771d5"
+    },
+    {
+      "path": "previews/interactive-1440.png",
+      "bytes": 684127,
+      "sha256": "94d89d5a179a878cd6610728637899d25caa0de628983902199c75c266548553"
+    },
+    {
+      "path": "previews/interactive-390.png",
+      "bytes": 495490,
+      "sha256": "2673c376f399ba7c5cbcafe64e184f064c8cd80b91fc2a0065eda82ab59fec6e"
+    },
+    {
+      "path": "previews/product-board.jpg",
+      "bytes": 1153977,
+      "sha256": "1571859c58fd1911df34c5e738c7e034f789e0da5e0fc22171d00564cb8b8d29"
+    },
+    {
+      "path": "previews/PROJECT_BOARD.pdf",
+      "bytes": 597230,
+      "sha256": "3cd136a1c6d606bb047f5c73cba89d01a26b739170557c54ac9d74ad301b4305"
+    },
+    {
+      "path": "previews/video-frames.jpg",
+      "bytes": 375107,
+      "sha256": "3da8f324405dc47dce9ebcec395dc540b46bb1fcc316ff773225bd24299ad958"
+    },
+    {
+      "path": "previews/VIDEO_STORYBOARD.jpg",
+      "bytes": 216248,
+      "sha256": "ee755e0ee6030e1f3a727312697e9fff65b6fbf697840a18b28cebbd209c30cf"
+    },
+    {
+      "path": "previews/web-1440.png",
+      "bytes": 937288,
+      "sha256": "89039706c370abe07cb3275e746fa3c062bcbcf16f54fd6a1cd110f1df8072cb"
+    },
+    {
+      "path": "previews/web-390.png",
+      "bytes": 255078,
+      "sha256": "090967e8a0a098004eb67f9c97fe520e2e12bf645e77112e6a064618a87033cc"
+    },
+    {
+      "path": "previews/website_desktop.png",
+      "bytes": 342868,
+      "sha256": "2a534a01363f37b1fc4c23c33c89e36dc0e0969670c5b2b0ee9ff397b677ee91"
+    },
+    {
+      "path": "previews/website_mobile.png",
+      "bytes": 157278,
+      "sha256": "86d9ad1dab32fc1acb31a883b75c9180ffe49f6efb61b21a238f85c5f68abd87"
+    },
+    {
+      "path": "production.json",
+      "bytes": 14485,
+      "sha256": "1d6142820bdc2f1714c58a78003f989bda263c7efda25687c4a1d8dcedbb9525"
+    },
+    {
+      "path": "README.md",
+      "bytes": 532,
+      "sha256": "73b6ae52f7fddedb01feea72e04c04b83e7ff58de841eeb4bbe57e40bc14ce50"
+    },
+    {
+      "path": "references/dream-world-v01/art/00_approved_storyboard.jpg",
+      "bytes": 658194,
+      "sha256": "7ee62fe9f87973315475b2194f813bd079f8bdf9986ddae544f991a71c2711f3"
+    },
+    {
+      "path": "references/dream-world-v01/art/01_rooftop_skyline.jpg",
+      "bytes": 319402,
+      "sha256": "801b8cb4d9a9287dabbc147b89361b89c40e5b8d636173f4b7b9ea7d3a45307f"
+    },
+    {
+      "path": "references/dream-world-v01/art/02_metro_children.jpg",
+      "bytes": 350939,
+      "sha256": "5be1cea139572f849b0ca835b7c0840a887d60162395506555384ab4998fc3f0"
+    },
+    {
+      "path": "references/dream-world-v01/art/03_bastille_station.jpg",
+      "bytes": 167282,
+      "sha256": "63a6bbb9d932ba995fe669dc8e3c2c68cd29c671626a89cf77944c9aa2d134ea"
+    },
+    {
+      "path": "references/dream-world-v01/art/04_telephone.jpg",
+      "bytes": 107628,
+      "sha256": "5492c9ee0570f1900415c28f0ec1b557e1c47ba00c9ee02e18d292669f62d3d5"
+    },
+    {
+      "path": "references/dream-world-v01/art/05_imagined_kitchen.jpg",
+      "bytes": 127244,
+      "sha256": "c9916264a9e3d0a6570b4d754c88c456a9211970dba7e283fd0057895f9ea986"
+    },
+    {
+      "path": "references/dream-world-v01/art/06_rooftop_afterimage.jpg",
+      "bytes": 118606,
+      "sha256": "7277a285a0c25e01890727a16a37eba00c7e4380e4dd817b3924c77512a45cfe"
+    },
+    {
+      "path": "references/dream-world-v01/art/07_old_photographs.jpg",
+      "bytes": 128406,
+      "sha256": "c52b7eb8e89f2661cc4b9061cd9c4fa1f28879c5ea8efd4e0a1206b2cc893fbd"
+    },
+    {
+      "path": "references/dream-world-v01/art/08_both_children.jpg",
+      "bytes": 132245,
+      "sha256": "c9c0cdcb10de07a7ebb9f801b631483e6b50bdd850aa9794ea2bafd88f7d06e7"
+    },
+    {
+      "path": "references/dream-world-v01/art/09_paper_print_detail.jpg",
+      "bytes": 310684,
+      "sha256": "9d90e1f1abe50fbe152a5afb4ff94414483cccca90eff69ce4d8e69c529eb516"
+    },
+    {
+      "path": "references/dream-world-v01/art/10_poster_reference.jpg",
+      "bytes": 186171,
+      "sha256": "8d5e095dcfad13429db9ab52182739d228fa07b39ff03b6052479918e96be9c8"
+    },
+    {
+      "path": "references/dream-world-v01/art/11_web_reference.jpg",
+      "bytes": 592393,
+      "sha256": "9c70332ca692ce8a192b93ceb18d466e3e7d953610a51077ffd3bbef18708c98"
+    },
+    {
+      "path": "references/dream-world-v01/art/12_social_reference.jpg",
+      "bytes": 699057,
+      "sha256": "fb4b8e60518d12b2cbcbb53daafa1a3f85fa112b4fec9b35509a890787eb77ca"
+    },
+    {
+      "path": "references/dream-world-v01/art/13_main_book_cover.jpg",
+      "bytes": 347514,
+      "sha256": "b92266bb2fb29a7476e7e694ec6f4cda2c733c128ea14dc65488e909a17a2383"
+    },
+    {
+      "path": "references/dream-world-v01/art/14_A4_poster_master_proof.jpg",
+      "bytes": 452905,
+      "sha256": "6efecc7f2c2831189243dccd3245c7e1cbf15af597b017abafb443d6067e7987"
+    },
+    {
+      "path": "references/dream-world-v01/book/06_The_Gioi_Trong_Mo_A4_POSTER_PROOF.pdf",
+      "bytes": 567786,
+      "sha256": "ba8da9749f658b41976e6292b6a6428f961188f273fec096a417c3ec9fa70616"
+    },
+    {
+      "path": "references/dream-world-v01/book/06_The_Gioi_Trong_Mo_A5_EDITORIAL_PROOF.pdf",
+      "bytes": 1242596,
+      "sha256": "704b7ca8e120abdd83b904c91cf231a13061b85025e9a0ddc460b10589621154"
+    },
+    {
+      "path": "references/dream-world-v01/docs/assets/visual_board.jpg",
+      "bytes": 658194,
+      "sha256": "7ee62fe9f87973315475b2194f813bd079f8bdf9986ddae544f991a71c2711f3"
+    },
+    {
+      "path": "references/dream-world-v01/docs/CHECKLIST.csv",
+      "bytes": 15592,
+      "sha256": "8ae4fa138311cbbd1f60bc1d23982dd38ba044051d870bd2af00195c1601465f"
+    },
+    {
+      "path": "references/dream-world-v01/docs/DELIVERY_MANIFEST.json",
+      "bytes": 1083,
+      "sha256": "151be9a392b99097ebf53efb9724a3051229f7529420f4a40f847605b7fdf51f"
+    },
+    {
+      "path": "references/dream-world-v01/docs/FULL_PROJECT_BOARD.md",
+      "bytes": 5624,
+      "sha256": "24889fee4e15859a78de4967c2894e6335729e2398a313fedeb4dad95c780249"
+    },
+    {
+      "path": "references/dream-world-v01/docs/METADATA.json",
+      "bytes": 823,
+      "sha256": "f0aea048356ea8c8cdf31983d715ccba0438ca87ee50020886d02e10322c4db1"
+    },
+    {
+      "path": "references/dream-world-v01/docs/PROJECT_BOARD.html",
+      "bytes": 27753,
+      "sha256": "4632a8269bbcdd5a0fd36451b01777107838a4b4e03844056e5cfb58fc64716a"
+    },
+    {
+      "path": "references/dream-world-v01/docs/QA_REPORT.json",
+      "bytes": 1327,
+      "sha256": "2dfd721ec9db2c9dd2a339cb89538e5b3196bb9a7e4586f5b5c976d0cd2498ba"
+    },
+    {
+      "path": "references/dream-world-v01/docs/TASKS.json",
+      "bytes": 24454,
+      "sha256": "ed6f5bc83ee0d185e1498c71ca4ff4c2a6e75699558d767ccba30467927d4897"
+    },
+    {
+      "path": "references/dream-world-v01/manuscript/EDITORIAL_NOTES.md",
+      "bytes": 1392,
+      "sha256": "2e2a2ef85d952c03bd18cf69ced35abaf7dccba8e9fdfae2148835abea06ce13"
+    },
+    {
+      "path": "references/dream-world-v01/manuscript/ORIGINAL_UNCHANGED.md",
+      "bytes": 5060,
+      "sha256": "4382f452fa05b61baceed66a86b0510882f9a5b7329a44bf9fa3e831b830c3d9"
+    },
+    {
+      "path": "references/dream-world-v01/previews/A5_CONTACT_SHEET.jpg",
+      "bytes": 370983,
+      "sha256": "f273f128771c45943f47d70b9ca207d3814aa3f24843c7767f4f839eacada4e5"
+    },
+    {
+      "path": "references/dream-world-v01/previews/a5_page_1.jpg",
+      "bytes": 56920,
+      "sha256": "180bd3dab78ece18bb5d1069d6b600b3452c561ccbef0c3142aa920dd1fb604c"
+    },
+    {
+      "path": "references/dream-world-v01/previews/a5_page_2.jpg",
+      "bytes": 59118,
+      "sha256": "d5a28ab02d1b35fc85aac083b43f044a1a4ebaee8fb69f1f36435829d150acbd"
+    },
+    {
+      "path": "references/dream-world-v01/previews/a5_page_3.jpg",
+      "bytes": 72321,
+      "sha256": "9900dbcd341b7f42fa6d331c3c71a2f9515244bf132629b5533b8dc0598ab1d7"
+    },
+    {
+      "path": "references/dream-world-v01/previews/a5_page_4.jpg",
+      "bytes": 62289,
+      "sha256": "fe5f850c2422eca28112c4091d6b820bd8e9e7b5b0ca8bf8d2347fb4a652f234"
+    },
+    {
+      "path": "references/dream-world-v01/previews/a5_page_5.jpg",
+      "bytes": 57649,
+      "sha256": "b499514042a03a82560e3434d0ac2b23b96bf1e1de1883c5ba70d50a0d259e70"
+    },
+    {
+      "path": "references/dream-world-v01/previews/a5_page_6.jpg",
+      "bytes": 11760,
+      "sha256": "ae2be0bfde641d35999f04b134a3266959e37375af3bb84caa4e919c3f334fa7"
+    },
+    {
+      "path": "references/dream-world-v01/previews/board_desktop.png",
+      "bytes": 744386,
+      "sha256": "a213f648db9d5f7846c3958c4e6488ef63f67a46caddbda8a1e009ef93ffc482"
+    },
+    {
+      "path": "references/dream-world-v01/previews/board_mobile.png",
+      "bytes": 46630,
+      "sha256": "071968b7768fa1dc80a3c4c163e70c6a5ffcb290bf2c00c4c65a9dcb09eea2fd"
+    },
+    {
+      "path": "references/dream-world-v01/previews/VIDEO_STORYBOARD.jpg",
+      "bytes": 216248,
+      "sha256": "ee755e0ee6030e1f3a727312697e9fff65b6fbf697840a18b28cebbd209c30cf"
+    },
+    {
+      "path": "references/dream-world-v01/previews/website_desktop.png",
+      "bytes": 342868,
+      "sha256": "2a534a01363f37b1fc4c23c33c89e36dc0e0969670c5b2b0ee9ff397b677ee91"
+    },
+    {
+      "path": "references/dream-world-v01/previews/website_mobile.png",
+      "bytes": 157278,
+      "sha256": "86d9ad1dab32fc1acb31a883b75c9180ffe49f6efb61b21a238f85c5f68abd87"
+    },
+    {
+      "path": "references/dream-world-v01/README.md",
+      "bytes": 2230,
+      "sha256": "ab6a7871757e752d2e4e443016f9e78a6a6297c2b321f83d7a958b33453e7240"
+    },
+    {
+      "path": "references/dream-world-v01/social/facebook_1600x900.jpg",
+      "bytes": 184283,
+      "sha256": "b4ccbb9fd4e682682536bfbda6e54c345acfc3b28ddc6265962348ceef2ebd13"
+    },
+    {
+      "path": "references/dream-world-v01/social/instagram/slide_01_3x4.jpg",
+      "bytes": 211930,
+      "sha256": "ce689768186aa21442d988c82dcf26cd94ba9e15785a158883030e9ea0d7347d"
+    },
+    {
+      "path": "references/dream-world-v01/social/instagram/slide_02_3x4.jpg",
+      "bytes": 244875,
+      "sha256": "4f5a46e79bba9d754eecb939650376139a806f5d17e8574c20a54690b8318cf6"
+    },
+    {
+      "path": "references/dream-world-v01/social/instagram/slide_03_3x4.jpg",
+      "bytes": 149849,
+      "sha256": "9f47dcd0c2f7ba5b03a5b69bc4f1916890baf10ed56b0de79ab53f4b7d9be5ce"
+    },
+    {
+      "path": "references/dream-world-v01/social/instagram/slide_04_3x4.jpg",
+      "bytes": 159055,
+      "sha256": "1505d48f48cbbc199d87764f4143b3ff250c70740ddb38eda759af940a26eac8"
+    },
+    {
+      "path": "references/dream-world-v01/social/instagram/slide_05_3x4.jpg",
+      "bytes": 165383,
+      "sha256": "724316a6a4317d6cfe7dda96b723a4f8e3e6513b5d4ca5d4b8749bcac8bbc1bb"
+    },
+    {
+      "path": "references/dream-world-v01/social/POSTS_DRAFT.md",
+      "bytes": 1248,
+      "sha256": "d9799173afecdd60219fb9ce5678f62a1e8306c452057a5ef238c762842d04a8"
+    },
+    {
+      "path": "references/dream-world-v01/social/youtube_thumbnail_1280x720.jpg",
+      "bytes": 136592,
+      "sha256": "44138f8ac77cfaef5f086548094e68ef289c1b7ce0d14227d7886b925d035d3f"
+    },
+    {
+      "path": "references/dream-world-v01/source/build_chapter.py",
+      "bytes": 48524,
+      "sha256": "5e562175f2105018d86b3c004dcad9a86fa5954498fa78a57f66ab5c20d1cf0a"
+    },
+    {
+      "path": "references/dream-world-v01/source/inputs/chapter_06_a_dream_in_paris.png",
+      "bytes": 3177120,
+      "sha256": "6de2d538c219cf89418d580efa1cde20ad91e75a2f93dd25fa68ccbc7e92fc2b"
+    },
+    {
+      "path": "references/dream-world-v01/source/inputs/dream_worlds_in_paris_moodboard.png",
+      "bytes": 3454126,
+      "sha256": "dd60afdab0cfc34de4db295ae055a8da0fb52466810ec9d5e6b3b229cc9a2e16"
+    },
+    {
+      "path": "references/dream-world-v01/source/inputs/paris_dreamworld_editorial_storyboard.png",
+      "bytes": 3226725,
+      "sha256": "2eba32a772c9feb7e2c665df7ef5b9a173f6daaf9b427d97298d7365abc8685b"
+    },
+    {
+      "path": "references/dream-world-v01/source/inputs/paris_twilight_storyboard_ui.png",
+      "bytes": 3098917,
+      "sha256": "1372bffd798305e07ac81bacc0c04614de47e981ca7c62027c2139203e63579b"
+    },
+    {
+      "path": "references/dream-world-v01/source/package_chapter.py",
+      "bytes": 2263,
+      "sha256": "533309ecccc575d5ad4962081797e7aa7223a7b58e1230f66cd737a6a1bb972f"
+    },
+    {
+      "path": "references/dream-world-v01/source/validate_chapter.py",
+      "bytes": 4535,
+      "sha256": "7b74c7228b4ce52d9192bc03e28224c2ac60e6407f49598222b51d624169f22f"
+    },
+    {
+      "path": "references/dream-world-v01/video/06_The_Gioi_Trong_Mo_ANIMATIC_9x16.mp4",
+      "bytes": 491284,
+      "sha256": "5842a569ea03c2c581fdf0d569415234a6ff6175fba21fccc1f7f939ea66730e"
+    },
+    {
+      "path": "references/dream-world-v01/video/NARRATION_DRAFT.md",
+      "bytes": 819,
+      "sha256": "ffe2c8a2cfae3ba6e9cb553079955a0d2a009c5e4a39e313b3092fc2e467fd1e"
+    },
+    {
+      "path": "references/dream-world-v01/video/original_synthetic_ambience.wav",
+      "bytes": 1058444,
+      "sha256": "4fb2791229659a0ad2b77596b27d08c632bf1c65a497eb1ae1321872ae704ab8"
+    },
+    {
+      "path": "references/dream-world-v01/video/stills/beat_01.jpg",
+      "bytes": 111039,
+      "sha256": "3180f93ae2e2754c5913418c6e07fc747e23b59c8037b8fc589b3030827da0c6"
+    },
+    {
+      "path": "references/dream-world-v01/video/stills/beat_02.jpg",
+      "bytes": 131046,
+      "sha256": "7f696f6a2b9dfca6bc197052bb31689f96abf83f902bc9f0e448d1d37a2a32f7"
+    },
+    {
+      "path": "references/dream-world-v01/video/stills/beat_03.jpg",
+      "bytes": 67197,
+      "sha256": "a1c17f22daf6a5d2bc203ebdc56a4af652dde38bf114691a7a41b133925c17cb"
+    },
+    {
+      "path": "references/dream-world-v01/video/stills/beat_04.jpg",
+      "bytes": 85992,
+      "sha256": "56a74fd9ca67b9fef18b07c58e5595a286b6f6292f4acc9c14af506626dce267"
+    },
+    {
+      "path": "references/dream-world-v01/video/stills/beat_05.jpg",
+      "bytes": 79331,
+      "sha256": "0919344fa047927b38b7557f807912af83b0c25f00cfb71852fb1b4feaf9501b"
+    },
+    {
+      "path": "references/dream-world-v01/video/stills/beat_06.jpg",
+      "bytes": 84642,
+      "sha256": "dd3be7a24badf63466f003c378f328f08a98d370e3a79febf0046703e4d04b4a"
+    },
+    {
+      "path": "references/dream-world-v01/video/STORYBOARD.md",
+      "bytes": 942,
+      "sha256": "9de80020b2401f4005d0554c1ae631d23a671cd8248ba7f58f79885f2c2443d1"
+    },
+    {
+      "path": "references/dream-world-v01/video/VISUAL_BEAT_CAPTIONS_NOT_SYNCED_TO_VOICE.srt",
+      "bytes": 428,
+      "sha256": "1ef2b8ff05fe8a070812e6a5c5d2736262eebe325458199c17260edd69cbfe41"
+    },
+    {
+      "path": "references/dream-world-v01/web/app.js",
+      "bytes": 7784,
+      "sha256": "6a9f37601e021c726fbdb40007f35632a10ae8e52a9048a6a3704505f928bb75"
+    },
+    {
+      "path": "references/dream-world-v01/web/assets/03_bastille_station.jpg",
+      "bytes": 167282,
+      "sha256": "63a6bbb9d932ba995fe669dc8e3c2c68cd29c671626a89cf77944c9aa2d134ea"
+    },
+    {
+      "path": "references/dream-world-v01/web/assets/04_telephone.jpg",
+      "bytes": 107628,
+      "sha256": "5492c9ee0570f1900415c28f0ec1b557e1c47ba00c9ee02e18d292669f62d3d5"
+    },
+    {
+      "path": "references/dream-world-v01/web/assets/07_old_photographs.jpg",
+      "bytes": 128406,
+      "sha256": "c52b7eb8e89f2661cc4b9061cd9c4fa1f28879c5ea8efd4e0a1206b2cc893fbd"
+    },
+    {
+      "path": "references/dream-world-v01/web/assets/afterimage.jpg",
+      "bytes": 118606,
+      "sha256": "7277a285a0c25e01890727a16a37eba00c7e4380e4dd817b3924c77512a45cfe"
+    },
+    {
+      "path": "references/dream-world-v01/web/assets/hero.jpg",
+      "bytes": 319402,
+      "sha256": "801b8cb4d9a9287dabbc147b89361b89c40e5b8d636173f4b7b9ea7d3a45307f"
+    },
+    {
+      "path": "references/dream-world-v01/web/assets/imagined.jpg",
+      "bytes": 127244,
+      "sha256": "c9916264a9e3d0a6570b4d754c88c456a9211970dba7e283fd0057895f9ea986"
+    },
+    {
+      "path": "references/dream-world-v01/web/assets/observed.jpg",
+      "bytes": 350939,
+      "sha256": "5be1cea139572f849b0ca835b7c0840a887d60162395506555384ab4998fc3f0"
+    },
+    {
+      "path": "references/dream-world-v01/web/index.html",
+      "bytes": 2966,
+      "sha256": "0a618c40256f3e1d156317539e40d3a292569e802e9f24e544290dd0bffc6445"
+    },
+    {
+      "path": "references/dream-world-v01/web/styles.css",
+      "bytes": 3517,
+      "sha256": "cb24921e6a00496ec9e975eba693b325c1e3a211ab1337ec52fefa17bd08736e"
+    },
+    {
+      "path": "references/original-edition/approved.md",
+      "bytes": 5060,
+      "sha256": "4382f452fa05b61baceed66a86b0510882f9a5b7329a44bf9fa3e831b830c3d9"
+    },
+    {
+      "path": "references/original-edition/chapter-checkout.json",
+      "bytes": 2138,
+      "sha256": "d932461de94425207c0c03bc3a8e67605568a69a2ad2cd8d882a6227c8afb830"
+    },
+    {
+      "path": "references/original-edition/chapter.json",
+      "bytes": 2088,
+      "sha256": "becd65b618c7bbb85168ec2a0e085bd3da79bd5cd215b34670b44c5c26a0f185"
+    },
+    {
+      "path": "references/original-edition/README.md",
+      "bytes": 1039,
+      "sha256": "ab67a1bc7d60b0ad4640c137e488980a2151b30435d4257a9aed1dd76fcfc676"
+    },
+    {
+      "path": "social/alt-text.json",
+      "bytes": 2537,
+      "sha256": "e0ace1c6cf484a380e3c4d2f045b6d608a2c64b77cf5e45cc76fcd6213654dfa"
+    },
+    {
+      "path": "social/BRIEF.md",
+      "bytes": 603,
+      "sha256": "766778bfbcf9db267f9ad3a161294cd9fe0f9465c23ccc6a5133099ba875488b"
+    },
+    {
+      "path": "social/facebook/post.jpg",
+      "bytes": 133286,
+      "sha256": "02174ee80088d6bc3261ff2d198badb70e8e38438e2437faabb453bc12286224"
+    },
+    {
+      "path": "social/facebook/post.md",
+      "bytes": 402,
+      "sha256": "f977c3bd99f3d15da2beb73d0f57ad22c1b46413b4d3f21032a63469a0fe6a24"
+    },
+    {
+      "path": "social/instagram/alt-text.json",
+      "bytes": 1759,
+      "sha256": "238feaa04fe496fa2afd212e45d9fb114957374a525a90e5d57959700648485e"
+    },
+    {
+      "path": "social/instagram/caption.md",
+      "bytes": 402,
+      "sha256": "f977c3bd99f3d15da2beb73d0f57ad22c1b46413b4d3f21032a63469a0fe6a24"
+    },
+    {
+      "path": "social/instagram/slide-01.jpg",
+      "bytes": 298328,
+      "sha256": "5a2b7cd57866f376d45942a51eca2d0b63c65add3f675adfb5bb683822065f27"
+    },
+    {
+      "path": "social/instagram/slide-02.jpg",
+      "bytes": 324957,
+      "sha256": "43ec65cb6f7365cf5a8c4b8e81b993f1a66760fd66f687cc48b43706357537f1"
+    },
+    {
+      "path": "social/instagram/slide-03.jpg",
+      "bytes": 336804,
+      "sha256": "27df57526575571b424abe54ab694b2383a202702f53416a77baa85fcea2073b"
+    },
+    {
+      "path": "social/instagram/slide-04.jpg",
+      "bytes": 313061,
+      "sha256": "45e889a49e56f53ac4b98e897b38a5cbcf4bd0cf9ce52902ce757fd846420ba9"
+    },
+    {
+      "path": "social/instagram/slide-05.jpg",
+      "bytes": 225783,
+      "sha256": "ac475bc1bf0e10cbbf5778543e77909e6a64423e607cfcb474419fa3655a1280"
+    },
+    {
+      "path": "social/POSTS.md",
+      "bytes": 593,
+      "sha256": "bb7352c39156150b76af0f3a6ab3a47b51666b58eb969b70ca7af445f8edfdf2"
+    },
+    {
+      "path": "social/supplied/facebook_1600x900.jpg",
+      "bytes": 184283,
+      "sha256": "b4ccbb9fd4e682682536bfbda6e54c345acfc3b28ddc6265962348ceef2ebd13"
+    },
+    {
+      "path": "social/supplied/instagram/slide_01_3x4.jpg",
+      "bytes": 211930,
+      "sha256": "ce689768186aa21442d988c82dcf26cd94ba9e15785a158883030e9ea0d7347d"
+    },
+    {
+      "path": "social/supplied/instagram/slide_02_3x4.jpg",
+      "bytes": 244875,
+      "sha256": "4f5a46e79bba9d754eecb939650376139a806f5d17e8574c20a54690b8318cf6"
+    },
+    {
+      "path": "social/supplied/instagram/slide_03_3x4.jpg",
+      "bytes": 149849,
+      "sha256": "9f47dcd0c2f7ba5b03a5b69bc4f1916890baf10ed56b0de79ab53f4b7d9be5ce"
+    },
+    {
+      "path": "social/supplied/instagram/slide_04_3x4.jpg",
+      "bytes": 159055,
+      "sha256": "1505d48f48cbbc199d87764f4143b3ff250c70740ddb38eda759af940a26eac8"
+    },
+    {
+      "path": "social/supplied/instagram/slide_05_3x4.jpg",
+      "bytes": 165383,
+      "sha256": "724316a6a4317d6cfe7dda96b723a4f8e3e6513b5d4ca5d4b8749bcac8bbc1bb"
+    },
+    {
+      "path": "social/supplied/POSTS_DRAFT.md",
+      "bytes": 1248,
+      "sha256": "d9799173afecdd60219fb9ce5678f62a1e8306c452057a5ef238c762842d04a8"
+    },
+    {
+      "path": "social/supplied/youtube_thumbnail_1280x720.jpg",
+      "bytes": 136592,
+      "sha256": "44138f8ac77cfaef5f086548094e68ef289c1b7ce0d14227d7886b925d035d3f"
+    },
+    {
+      "path": "social/tiktok/caption.md",
+      "bytes": 427,
+      "sha256": "f61ae1ff4344198bee37b9b4db0bd73ae2858ada4e80b645ea258be1a99966b3"
+    },
+    {
+      "path": "social/tiktok/cover.jpg",
+      "bytes": 272642,
+      "sha256": "1f874c175087958422b2e22473ed41978f4d5e9040dd1775879d6324dd7552a0"
+    },
+    {
+      "path": "social/youtube/description.md",
+      "bytes": 427,
+      "sha256": "f61ae1ff4344198bee37b9b4db0bd73ae2858ada4e80b645ea258be1a99966b3"
+    },
+    {
+      "path": "social/youtube/thumbnail.jpg",
+      "bytes": 99254,
+      "sha256": "a888d4d7f274d3ecf2985da3864d34e0f1ac9241d67aa7a2a0aa7f86733a417d"
+    },
+    {
+      "path": "source/approved.md",
+      "bytes": 5060,
+      "sha256": "4382f452fa05b61baceed66a86b0510882f9a5b7329a44bf9fa3e831b830c3d9"
+    },
+    {
+      "path": "source/NARRATIVE_MAP.md",
+      "bytes": 1037,
+      "sha256": "3d034c69502f17a3535a5488062c5ce49cbe6db68abb078a28e4fd9663cc7e34"
+    },
+    {
+      "path": "source/original.md",
+      "bytes": 5060,
+      "sha256": "4382f452fa05b61baceed66a86b0510882f9a5b7329a44bf9fa3e831b830c3d9"
+    },
+    {
+      "path": "source/README.md",
+      "bytes": 593,
+      "sha256": "3fd213a7cced1200ccc10f2e4227f2146d54c32905978b3d1e2f32afdf5d138b"
+    },
+    {
+      "path": "source/revisions.log",
+      "bytes": 584,
+      "sha256": "420ec6a1efd77ecd9896b8cc3c17cc43d1aa5018fb5e0dd04dab91ff86535055"
+    },
+    {
+      "path": "source/SUPPLIED_EDITORIAL_NOTES.md",
+      "bytes": 1392,
+      "sha256": "2e2a2ef85d952c03bd18cf69ced35abaf7dccba8e9fdfae2148835abea06ce13"
+    },
+    {
+      "path": "tools/build_extras.py",
+      "bytes": 4832,
+      "sha256": "cfa8333018d5c19146cc2fc40e5e5a38ccdf60bf34c4fc87f455c862d55e307c"
+    },
+    {
+      "path": "tools/prepare_artwork.py",
+      "bytes": 1880,
+      "sha256": "69d55d4ca82bf38fa37d53c162f886a5744f8a3a8613ababbd7af9c3811320b7"
+    },
+    {
+      "path": "video/06_The_Gioi_Trong_Mo_ANIMATIC_9x16.mp4",
+      "bytes": 491284,
+      "sha256": "5842a569ea03c2c581fdf0d569415234a6ff6175fba21fccc1f7f939ea66730e"
+    },
+    {
+      "path": "video/discovery-9x16.mp4",
+      "bytes": 1566932,
+      "sha256": "1f9667446db693b4eed808a808e6cb2ba88258400d31531eff403c689702cdf1"
+    },
+    {
+      "path": "video/discovery-9x16.srt",
+      "bytes": 1052,
+      "sha256": "66d793315b5726188d7e5054082b4d3bb39d08fdd11705357a879f8feab2aa7a"
+    },
+    {
+      "path": "video/discovery-9x16.vtt",
+      "bytes": 1044,
+      "sha256": "538fb82f02b643a08bfbc70a838db2eae6c05c775b7b89dede7fbd6443babeec"
+    },
+    {
+      "path": "video/essay-16x9.mp4",
+      "bytes": 3144325,
+      "sha256": "1a87fabdf5fd58bb40c93202ba865194895ad54dcb4f5189d3ba36297bd19194"
+    },
+    {
+      "path": "video/essay-16x9.srt",
+      "bytes": 2398,
+      "sha256": "bbcd5d0aa4db914797dd5ff562d8fc75e0489ddca429806ace5c9cd547f38d1a"
+    },
+    {
+      "path": "video/essay-16x9.vtt",
+      "bytes": 2384,
+      "sha256": "f8abd9d363db2b1ecffa7fa41336396f9b84ee2c868cf453718fff9a513b076f"
+    },
+    {
+      "path": "video/feed-3x4.mp4",
+      "bytes": 1118766,
+      "sha256": "de9680b2b3b93200a80ccb852cad31e3fcaec6c143674e46cf882aa487044edb"
+    },
+    {
+      "path": "video/feed-3x4.srt",
+      "bytes": 753,
+      "sha256": "3cf5d2f034740c3cd27d45f908cfdae63d7d5478854a30db07d0802dbebe7e10"
+    },
+    {
+      "path": "video/feed-3x4.vtt",
+      "bytes": 748,
+      "sha256": "1f684ae49521c8e5869336bc6eff5f78b1128c504a564e7b977f760596a66d4c"
+    },
+    {
+      "path": "video/NARRATION_DRAFT.md",
+      "bytes": 819,
+      "sha256": "ffe2c8a2cfae3ba6e9cb553079955a0d2a009c5e4a39e313b3092fc2e467fd1e"
+    },
+    {
+      "path": "video/original_synthetic_ambience.wav",
+      "bytes": 1058444,
+      "sha256": "4fb2791229659a0ad2b77596b27d08c632bf1c65a497eb1ae1321872ae704ab8"
+    },
+    {
+      "path": "video/stills/beat_01.jpg",
+      "bytes": 111039,
+      "sha256": "3180f93ae2e2754c5913418c6e07fc747e23b59c8037b8fc589b3030827da0c6"
+    },
+    {
+      "path": "video/stills/beat_02.jpg",
+      "bytes": 131046,
+      "sha256": "7f696f6a2b9dfca6bc197052bb31689f96abf83f902bc9f0e448d1d37a2a32f7"
+    },
+    {
+      "path": "video/stills/beat_03.jpg",
+      "bytes": 67197,
+      "sha256": "a1c17f22daf6a5d2bc203ebdc56a4af652dde38bf114691a7a41b133925c17cb"
+    },
+    {
+      "path": "video/stills/beat_04.jpg",
+      "bytes": 85992,
+      "sha256": "56a74fd9ca67b9fef18b07c58e5595a286b6f6292f4acc9c14af506626dce267"
+    },
+    {
+      "path": "video/stills/beat_05.jpg",
+      "bytes": 79331,
+      "sha256": "0919344fa047927b38b7557f807912af83b0c25f00cfb71852fb1b4feaf9501b"
+    },
+    {
+      "path": "video/stills/beat_06.jpg",
+      "bytes": 84642,
+      "sha256": "dd3be7a24badf63466f003c378f328f08a98d370e3a79febf0046703e4d04b4a"
+    },
+    {
+      "path": "video/STORYBOARD.md",
+      "bytes": 6826,
+      "sha256": "1c83ec3e7ef7f9ca1c25ca095ce0632c7f94bc4a0cb4e82de4b3916454abef6f"
+    },
+    {
+      "path": "video/teaser-9x16.mp4",
+      "bytes": 552714,
+      "sha256": "7d138cef2dfe56a04babc8300941c98b84686ff323a79f1b2e92f1c2c154fc75"
+    },
+    {
+      "path": "video/teaser-9x16.srt",
+      "bytes": 393,
+      "sha256": "c94daee5c9e3754d22ab09e7b071abaf88f9de1e0a3c1282227c89aa3563c79e"
+    },
+    {
+      "path": "video/teaser-9x16.vtt",
+      "bytes": 394,
+      "sha256": "19b0ed4a7217fb727205f483610a2f9f58b0a96ac73dc83b457ca7b4c19bfa3e"
+    },
+    {
+      "path": "video/timeline.json",
+      "bytes": 12028,
+      "sha256": "12f3c45fd72eedc7d2859065cd11c670b518ac400ae17a67253569559c3331fb"
+    },
+    {
+      "path": "video/VISUAL_BEAT_CAPTIONS_NOT_SYNCED_TO_VOICE.srt",
+      "bytes": 428,
+      "sha256": "1ef2b8ff05fe8a070812e6a5c5d2736262eebe325458199c17260edd69cbfe41"
+    },
+    {
+      "path": "video/youtube-9x16.mp4",
+      "bytes": 3086187,
+      "sha256": "7f690f1e49f1172b2425dbbe36e64b9b290da1c79ec130673e3a03bb77f4b516"
+    },
+    {
+      "path": "video/youtube-9x16.srt",
+      "bytes": 2398,
+      "sha256": "bbcd5d0aa4db914797dd5ff562d8fc75e0489ddca429806ace5c9cd547f38d1a"
+    },
+    {
+      "path": "video/youtube-9x16.vtt",
+      "bytes": 2384,
+      "sha256": "f8abd9d363db2b1ecffa7fa41336396f9b84ee2c868cf453718fff9a513b076f"
+    },
+    {
+      "path": "web/assets/01_rooftop_skyline.jpg",
+      "bytes": 84433,
+      "sha256": "ac82e44b307b1bb18d2156a8cdade6a6471046c0dcdf39580f6bc5bbfa46de8a"
+    },
+    {
+      "path": "web/assets/02_metro_children.jpg",
+      "bytes": 390502,
+      "sha256": "90911b405aba5173ff088d61fc0055d7f6c586fca2cb6e79fca63138638ad105"
+    },
+    {
+      "path": "web/assets/03_bastille_station.jpg",
+      "bytes": 159809,
+      "sha256": "ea33dada2856bf99b6e00d3109247fb69c76443a863426e470afacea9407e026"
+    },
+    {
+      "path": "web/assets/04_telephone.jpg",
+      "bytes": 76734,
+      "sha256": "b7836c6590ec874999a6f345385a83e88175ac74a806b249e5bd5e6c0760756e"
+    },
+    {
+      "path": "web/assets/05_imagined_kitchen.jpg",
+      "bytes": 146449,
+      "sha256": "8fde0b450546ff9713ce2c8fc9cd89d29eac11a5ad590bfaf309e07081f9af0c"
+    },
+    {
+      "path": "web/assets/06_rooftop_afterimage.jpg",
+      "bytes": 122684,
+      "sha256": "c20a842c6b3b1d5cec152f8a9915e2cd04584d0f54ecbbec99d121a86bc78d4f"
+    },
+    {
+      "path": "web/assets/07_old_photographs.jpg",
+      "bytes": 105239,
+      "sha256": "bc6a41db271ed97ac0a5e68796319cd7bcf1e8f667e27729415bccdf0d1b205d"
+    },
+    {
+      "path": "web/assets/08_both_children.jpg",
+      "bytes": 103048,
+      "sha256": "1ddc8aa13666620c3e5799ce2e1207cd4f56f87e2bfc0cc5f9a9f730cac94d6f"
+    },
+    {
+      "path": "web/assets/afterimage.jpg",
+      "bytes": 122684,
+      "sha256": "c20a842c6b3b1d5cec152f8a9915e2cd04584d0f54ecbbec99d121a86bc78d4f"
+    },
+    {
+      "path": "web/assets/chapter.css",
+      "bytes": 6441,
+      "sha256": "a364109828a4855abaa72bf3440532bfcc929dc070a4925f627b3b5a929abe27"
+    },
+    {
+      "path": "web/assets/chapter.js",
+      "bytes": 2861,
+      "sha256": "fe8310782f36bdcdb4f74494437618fd5ef95e3e8a8043f09005c2fcc759867a"
+    },
+    {
+      "path": "web/assets/hero.jpg",
+      "bytes": 230906,
+      "sha256": "e44a79cf4b515be05b65bcb451dbcb47d81df887043f8fe2618c51103c09b165"
+    },
+    {
+      "path": "web/assets/imagined.jpg",
+      "bytes": 146449,
+      "sha256": "8fde0b450546ff9713ce2c8fc9cd89d29eac11a5ad590bfaf309e07081f9af0c"
+    },
+    {
+      "path": "web/assets/observed.jpg",
+      "bytes": 390502,
+      "sha256": "90911b405aba5173ff088d61fc0055d7f6c586fca2cb6e79fca63138638ad105"
+    },
+    {
+      "path": "web/assets/release.css",
+      "bytes": 2912,
+      "sha256": "4adc803bbffe5161d32dd687a10772938ee6c1de3a4be7e286ab8a5533d2b50a"
+    },
+    {
+      "path": "web/index.html",
+      "bytes": 15928,
+      "sha256": "fc085d5672aeac9397d774f8a83ea66626a349483d67c52914ae9bbe55bd3c57"
+    },
+    {
+      "path": "web/template.html",
+      "bytes": 9121,
+      "sha256": "81bbc8fa02b8c0d3993f0d12180d6d9da1f900bdde2fda8e1df353fbf4d9170b"
+    }
+  ]
+}

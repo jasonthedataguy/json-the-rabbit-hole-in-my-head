@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "slug": "i-was-born-a-quant",
+  "number": "01",
+  "title": "I Was Born a Quant",
+  "short_title": "I Was Born a Quant",
+  "part": 1,
+  "language": "vi",
+  "publish": false,
+  "release_stage": "outline",
+  "canonical_text": null,
+  "canonical_path": "#chapter/01",
+  "summary": "Jason phân biệt tư duy dự báo kết quả với tư duy quản lý rủi ro khi kết quả không thể bảo đảm. Anh kể chuyện trưởng thành trong môi trường thiếu tính nhất quán như một lý giải cá nhân cho sự đề phòng.",
+  "portal": {
+    "scene": "A boy watches uncertain weather through a window in a room built from graphs and measured risk.",
+    "objects": [
+      "risk gauge",
+      "probability grid",
+      "exit door"
+    ],
+    "iconKey": "chart",
+    "motif": "The window"
+  },
+  "original_edition": null,
+  "production_status": "awaiting author manuscript",
+  "outline_title": "I Was Born a Quant"
+}

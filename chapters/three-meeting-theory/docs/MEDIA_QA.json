@@ -1,0 +1,323 @@
+{
+  "chapter": "15",
+  "reference_files": 62,
+  "source_sha256": "b5b27a3d38118db90eb440f12b095a44fc66a73e631e7ca1f5f232b4c65651c2",
+  "source_paragraphs": 8,
+  "pdfs": [
+    {
+      "path": "book/15_Three_Meeting_Theory_A4_POSTER_PROOF.pdf",
+      "pages": 1,
+      "mm": [
+        210.0,
+        297.0
+      ]
+    },
+    {
+      "path": "book/15_Three_Meeting_Theory_A5_EDITORIAL_PROOF.pdf",
+      "pages": 5,
+      "mm": [
+        148.0,
+        210.0
+      ]
+    }
+  ],
+  "a5_all_eight_paragraphs_found": true,
+  "pdf_text_comparison": "whitespace/punctuation-normalized extraction plus rendered-page inspection",
+  "images": [
+    {
+      "path": "artwork/exports/hero.jpg",
+      "size": [
+        1600,
+        960
+      ]
+    },
+    {
+      "path": "artwork/exports/poster-9x16.jpg",
+      "size": [
+        1080,
+        1920
+      ]
+    },
+    {
+      "path": "artwork/scenes/city.jpg",
+      "size": [
+        840,
+        790
+      ]
+    },
+    {
+      "path": "artwork/scenes/first.jpg",
+      "size": [
+        840,
+        790
+      ]
+    },
+    {
+      "path": "artwork/scenes/second.jpg",
+      "size": [
+        840,
+        790
+      ]
+    },
+    {
+      "path": "artwork/scenes/third.jpg",
+      "size": [
+        840,
+        790
+      ]
+    },
+    {
+      "path": "artwork/scenes/yellow.jpg",
+      "size": [
+        595,
+        790
+      ]
+    },
+    {
+      "path": "artwork/source/00_approved_project_board.jpg",
+      "size": [
+        1672,
+        941
+      ]
+    },
+    {
+      "path": "artwork/source/01_cover_wide.jpg",
+      "size": [
+        1672,
+        252
+      ]
+    },
+    {
+      "path": "artwork/source/02_first_meeting.jpg",
+      "size": [
+        840,
+        1000
+      ]
+    },
+    {
+      "path": "artwork/source/03_second_meeting.jpg",
+      "size": [
+        840,
+        1000
+      ]
+    },
+    {
+      "path": "artwork/source/04_third_meeting.jpg",
+      "size": [
+        840,
+        1000
+      ]
+    },
+    {
+      "path": "artwork/source/05_city_bridge.jpg",
+      "size": [
+        840,
+        1000
+      ]
+    },
+    {
+      "path": "artwork/source/06_yellow_dress.jpg",
+      "size": [
+        840,
+        1000
+      ]
+    },
+    {
+      "path": "artwork/source/07_night_city.jpg",
+      "size": [
+        840,
+        1000
+      ]
+    },
+    {
+      "path": "artwork/source/08_pastry.jpg",
+      "size": [
+        840,
+        1000
+      ]
+    },
+    {
+      "path": "artwork/source/09_sunflowers.jpg",
+      "size": [
+        840,
+        1000
+      ]
+    },
+    {
+      "path": "artwork/source/10_cover_portrait.jpg",
+      "size": [
+        1800,
+        2400
+      ]
+    },
+    {
+      "path": "artwork/source/11_meeting_01_card.jpg",
+      "size": [
+        1200,
+        1500
+      ]
+    },
+    {
+      "path": "artwork/source/11_meeting_02_card.jpg",
+      "size": [
+        1200,
+        1500
+      ]
+    },
+    {
+      "path": "artwork/source/11_meeting_03_card.jpg",
+      "size": [
+        1200,
+        1500
+      ]
+    },
+    {
+      "path": "social/facebook_1600x900.jpg",
+      "size": [
+        1600,
+        900
+      ]
+    },
+    {
+      "path": "social/instagram/slide-01.jpg",
+      "size": [
+        1080,
+        1440
+      ]
+    },
+    {
+      "path": "social/instagram/slide-02.jpg",
+      "size": [
+        1080,
+        1440
+      ]
+    },
+    {
+      "path": "social/instagram/slide-03.jpg",
+      "size": [
+        1080,
+        1440
+      ]
+    },
+    {
+      "path": "social/instagram/slide-04.jpg",
+      "size": [
+        1080,
+        1440
+      ]
+    },
+    {
+      "path": "social/instagram/slide-05.jpg",
+      "size": [
+        1080,
+        1440
+      ]
+    },
+    {
+      "path": "social/instagram/slide_01_3x4.jpg",
+      "size": [
+        1080,
+        1440
+      ]
+    },
+    {
+      "path": "social/instagram/slide_02_3x4.jpg",
+      "size": [
+        1080,
+        1440
+      ]
+    },
+    {
+      "path": "social/instagram/slide_03_3x4.jpg",
+      "size": [
+        1080,
+        1440
+      ]
+    },
+    {
+      "path": "social/instagram/slide_04_3x4.jpg",
+      "size": [
+        1080,
+        1440
+      ]
+    },
+    {
+      "path": "social/instagram/slide_05_3x4.jpg",
+      "size": [
+        1080,
+        1440
+      ]
+    },
+    {
+      "path": "social/tiktok/cover.jpg",
+      "size": [
+        1080,
+        1920
+      ]
+    },
+    {
+      "path": "social/youtube_thumbnail_1280x720.jpg",
+      "size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "path": "web/assets/beat_1.jpg",
+      "size": [
+        840,
+        1000
+      ]
+    },
+    {
+      "path": "web/assets/beat_2.jpg",
+      "size": [
+        840,
+        1000
+      ]
+    },
+    {
+      "path": "web/assets/beat_3.jpg",
+      "size": [
+        840,
+        1000
+      ]
+    },
+    {
+      "path": "web/assets/cover.jpg",
+      "size": [
+        1800,
+        2400
+      ]
+    },
+    {
+      "path": "web/assets/hero.jpg",
+      "size": [
+        1672,
+        252
+      ]
+    },
+    {
+      "path": "web/assets/reader-hero.jpg",
+      "size": [
+        1600,
+        960
+      ]
+    }
+  ],
+  "videos": [
+    {
+      "path": "video/15_Three_Meeting_Theory_ANIMATIC_9x16.mp4",
+      "seconds": 24.0,
+      "full_h264_aac_decode": "passed"
+    },
+    {
+      "path": "video/discovery-9x16.mp4",
+      "seconds": 24.04,
+      "full_h264_aac_decode": "passed"
+    }
+  ],
+  "ambient_peak_dbfs": -24.9,
+  "voice_mix": "pending author recording",
+  "result": "Source hashes, PDF coverage, image decoding and two complete film decodes passed."
+}

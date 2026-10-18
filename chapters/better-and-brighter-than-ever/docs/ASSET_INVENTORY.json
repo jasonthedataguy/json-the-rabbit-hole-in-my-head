@@ -1,0 +1,35 @@
+{
+  "chapter": "better-and-brighter-than-ever",
+  "files": [
+    {
+      "path": "chapter.json",
+      "bytes": 889,
+      "sha256": "6cb49bfafccd9ba17a73cfcf2bceb33d9a32ed3fd023f32e6125f5fcaf05fdde"
+    },
+    {
+      "path": "docs/PRODUCTS.json",
+      "bytes": 324,
+      "sha256": "a14150718f20909b7539d48415de966900c6c2dece2ad4bfafec347abc059cec"
+    },
+    {
+      "path": "production.json",
+      "bytes": 158,
+      "sha256": "04cca5cbcb7714947f2e115425c3b36fd58203c853d17184364ed8f229b16d7d"
+    },
+    {
+      "path": "README.md",
+      "bytes": 458,
+      "sha256": "b0a957b894412ee6ed0fef7799867de13dd27a188cd06efbf9186adb37c2f09a"
+    },
+    {
+      "path": "source/outline.md",
+      "bytes": 243,
+      "sha256": "6679862af9f81e740df4482b4cb571439f90a5074787af7cc9326a2dad1d4256"
+    },
+    {
+      "path": "source/revisions.log",
+      "bytes": 111,
+      "sha256": "e01ec275c2bd0c7128f4545ba1a8339712c2e287d8a0ea329c9ccf3068756f36"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "chapter": "nhung-thu-khong-duoc-luu-lai",
+  "files": [
+    {
+      "path": "chapter.json",
+      "bytes": 975,
+      "sha256": "a5bedc7db9e61e253cad3e841d628b36c40a32916b6b897a7d8e82624bba8e1d"
+    },
+    {
+      "path": "docs/PRODUCTS.json",
+      "bytes": 323,
+      "sha256": "2cfc37c29a700a9488024ade533ab1a52702b20ce9db3e8443c1be79ad323590"
+    },
+    {
+      "path": "production.json",
+      "bytes": 158,
+      "sha256": "04cca5cbcb7714947f2e115425c3b36fd58203c853d17184364ed8f229b16d7d"
+    },
+    {
+      "path": "README.md",
+      "bytes": 468,
+      "sha256": "42009b4a59e28836c5be2e443a98238d3412bbb0512a52b4d8f7aaea077cd944"
+    },
+    {
+      "path": "source/outline.md",
+      "bytes": 302,
+      "sha256": "a2765de10a0ff5d6e5d8b32af513d155d0467a0c03ae6aec3e5224b1d39b728f"
+    },
+    {
+      "path": "source/revisions.log",
+      "bytes": 111,
+      "sha256": "e01ec275c2bd0c7128f4545ba1a8339712c2e287d8a0ea329c9ccf3068756f36"
+    }
+  ]
+}

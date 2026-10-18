@@ -1,0 +1,136 @@
+{
+  "schema_version": 2,
+  "title": ".json",
+  "subtitle": "Jason, under revision",
+  "public_url": "https://jasonthedataguy.github.io/json-under-revision-v2/",
+  "chapters": [
+    "com-nguoi",
+    "i-was-born-a-quant",
+    "expected-utility",
+    "play-to-win",
+    "fashion",
+    "flow",
+    "nut-do",
+    "mot-nguoi-ban-cu",
+    "for-mother-russia",
+    "the-gioi-trong-mo-cua-toi",
+    "nhung-thu-khong-duoc-luu-lai",
+    "nhung-su-trung-hop",
+    "vo-mong",
+    "nhung-nguoi-anh-em",
+    "viet-cho-sai-gon-cua-t",
+    "i-am-28-today",
+    "tieu-hanh-tinh",
+    "three-meeting-theory",
+    "dating-algorithm",
+    "to-mary-jane",
+    "runaway",
+    "nhung-hinh-chieu-xau-xi",
+    "the-23-word-nuclear-warhead",
+    "better-and-brighter-than-ever",
+    "masterclass-in-record-keeping",
+    "good-boy",
+    "negative-sum-game",
+    "sharingan",
+    "command-respect",
+    "lone-wolf",
+    "co-nhung-thu-chi-khi-minh-roi-di-roi-moi-nhin-thay",
+    "loi-xin-loi"
+  ],
+  "archive_chapters": [
+    "dating-102"
+  ],
+  "introduction": {
+    "title": "Dẫn nhập",
+    "epigraph": "I like maths because there is always a definite answer. I like literature because there isn’t a wrong one.",
+    "paragraphs": [
+      "Jason thích toán vì ở đó có đáp án; anh thích văn chương vì có những câu hỏi không nhất thiết phải có đáp án đúng. Anh lớn lên với những ký ức vừa dịu dàng vừa đáng sợ, rồi bước vào tuổi trưởng thành bằng niềm tin rằng mọi vấn đề đều có thể hiểu được nếu quan sát đủ kỹ, đặt đúng biến số và tìm đúng mô hình.",
+      "Từ chuyện mặc quần áo, mua giày, quản lý tiền, yêu đương tới đi làm, anh liên tục tìm cách giải thích hành vi con người bằng kinh tế học, game theory, xác suất, tư duy định lượng. Anh gọi mình là một quant từ trong bản chất: người biết kiểm soát rủi ro giữa một thế giới không thể dự đoán.",
+      "Độc giả không cần biết data science để đọc cuốn sách này. Mọi thuật ngữ có vai trò kể chuyện sẽ được đặt trong những trải nghiệm cụ thể."
+    ],
+    "source": {
+      "document": "Publisher narrative review",
+      "section": "I. Hồ sơ tác phẩm",
+      "subsections": [
+        "Giới thiệu nội dung",
+        "Lời hứa dành cho độc giả"
+      ],
+      "kind": "editorial introduction",
+      "note": "Trích phần dẫn nhập không tiết lộ diễn biến từ hồ sơ tác phẩm; bản nguồn không có lời tựa riêng của tác giả.",
+      "epigraphSection": "Trang tên sách",
+      "epigraphRevision": "Opening updated to I like maths at the author’s request; the remainder follows the supplied epigraph."
+    }
+  },
+  "parts": [
+    {
+      "id": 1,
+      "key": "model_specification",
+      "title": "Những mô hình đầu tiên",
+      "subtitle": "Người kể tin rằng thế giới có thể đọc được nếu ta nhận ra cấu trúc của nó."
+    },
+    {
+      "id": 2,
+      "key": "data_collection",
+      "title": "Những thứ không thể đo",
+      "subtitle": "Sau hệ thống lý thuyết, độc giả gặp những con người và khung cảnh thực đã nuôi dưỡng tác giả."
+    },
+    {
+      "id": 3,
+      "key": "relationship_modeling",
+      "title": "Mô hình của tình yêu",
+      "subtitle": "Jason xây các lý thuyết về tiếp cận và bảo vệ bản thân, trong khi các mối quan hệ riêng lẻ làm lộ những điều không lọt vào mô hình ấy."
+    },
+    {
+      "id": 4,
+      "key": "model_failure",
+      "title": "Một mô hình tự chứng minh mình đúng",
+      "subtitle": "Những cuộc hội thoại, tin nhắn và ghi chép công sở."
+    },
+    {
+      "id": 5,
+      "key": "under_revision",
+      "title": "Những thứ bị bỏ sót",
+      "subtitle": "Khi việc thắng không còn là mục tiêu, điều gì bắt đầu hiện ra?"
+    }
+  ],
+  "acts": [
+    {
+      "id": 1,
+      "key": "model_specification",
+      "name": "Model specification",
+      "color": "#d98a6b",
+      "range": "01–05"
+    },
+    {
+      "id": 2,
+      "key": "data_collection",
+      "name": "Data collection",
+      "color": "#cca55d",
+      "range": "06–15"
+    },
+    {
+      "id": 3,
+      "key": "relationship_modeling",
+      "name": "Relationship modeling",
+      "color": "#cb9292",
+      "range": "16–21"
+    },
+    {
+      "id": 4,
+      "key": "model_failure",
+      "name": "Model failure",
+      "color": "#c26950",
+      "range": "22–26"
+    },
+    {
+      "id": 5,
+      "key": "under_revision",
+      "name": "Under revision",
+      "color": "#a8b8a0",
+      "range": "27–31"
+    }
+  ],
+  "design": "shared/design.json",
+  "product_contract": "shared/product-contract.json",
+  "asset_manifest": "shared/assets.json"
+}

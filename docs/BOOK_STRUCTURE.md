@@ -11,7 +11,7 @@ The publisher narrative review (`json_publisher_narrative_review.pdf.pdf`, suppl
 7. V — Những thứ bị bỏ sót / under_revision (27–31).
 8. Lời xin lỗi (31) also serves as the epilogue.
 
-The review contains no separate author-written preface. `dist/book.js` uses the review's epigraph (with the opening changed to “I like maths” at the author’s request) and three non-spoiler excerpts from section I as editorial introductory material. The page identifies this as a lead-in from the work's outline. It does not present the publisher's complete synopsis, later plot revelations, market positioning, or editing recommendations as the book's opening.
+The review contains no separate author-written preface. `book.json` holds the review's epigraph (with the opening changed to “I like maths” at the author’s request) and three non-spoiler excerpts from section I as editorial introductory material; the build generates `dist/book.js`. The page identifies this as a lead-in from the work's outline. It does not present the publisher's complete synopsis, later plot revelations, market positioning, or editing recommendations as the book's opening.
 
 Published manuscript bytes and all source provenance remain unchanged. Only rendering omits each manuscript's duplicated first heading; the reader heading uses the new book title and records a different published title when applicable. Missing manuscripts show editorial premises from section II as **Đề cương**, never invented full prose.
 

@@ -1,0 +1,318 @@
+[
+  {
+    "name": "discovery-9x16",
+    "size": [
+      1080,
+      1920
+    ],
+    "duration": 60,
+    "segments": [
+      {
+        "start": 0,
+        "end": 8,
+        "text": "Playing not to lose, instead of playing to win.",
+        "scene": "artwork/scenes/02-poker.jpg"
+      },
+      {
+        "start": 8,
+        "end": 20,
+        "text": "Và rồi Rachel đánh ra quân tám tre.",
+        "scene": "artwork/scenes/03-two-seats.jpg"
+      },
+      {
+        "start": 20,
+        "end": 34,
+        "text": "Điều thay đổi là beliefs của Eleanor về Rachel, về Nick và về hậu quả của từng lựa chọn.",
+        "scene": "artwork/scenes/01-eight-bamboo.jpg"
+      },
+      {
+        "start": 34,
+        "end": 48,
+        "text": "Một quân mạt chược mà làm người ta phải tính lại cả bài toán.",
+        "scene": "artwork/scenes/04-beliefs.jpg"
+      },
+      {
+        "start": 48,
+        "end": 60,
+        "text": "Đôi khi hiểu được người khác đang muốn gì còn quan trọng hơn việc chứng minh mình đúng.",
+        "scene": "artwork/scenes/06-open-book.jpg"
+      }
+    ],
+    "status": "edit preview awaiting author narration",
+    "timing": "provisional; retime to supplied recording",
+    "audio": "synthetic ambience; no spoken narration",
+    "caption_kind": "on-screen text timing; not narration subtitles"
+  },
+  {
+    "name": "youtube-9x16",
+    "size": [
+      1080,
+      1920
+    ],
+    "duration": 150,
+    "segments": [
+      {
+        "start": 0,
+        "end": 10,
+        "text": "Đối thủ của cô dù có lợi thế stronger hands nhưng cuối cùng vẫn bỏ bài, bởi anh ta quá sợ đánh mất những gì mình đang có.",
+        "scene": "artwork/scenes/02-poker.jpg"
+      },
+      {
+        "start": 10,
+        "end": 17,
+        "text": "Playing not to lose, instead of playing to win.",
+        "scene": "artwork/scenes/02-poker.jpg"
+      },
+      {
+        "start": 17,
+        "end": 29,
+        "text": "Bởi có những lúc chúng ta nghĩ rằng mình đang lựa chọn chiến lược tốt nhất, nhưng thực ra chỉ đang cố tránh một kết quả mà mình không muốn đối mặt.",
+        "scene": "artwork/scenes/02-poker.jpg"
+      },
+      {
+        "start": 29,
+        "end": 40,
+        "text": "Một mong muốn nghe có vẻ rất hợp lý, nhưng vấn đề ở đây là mục đích giữa các bên tham gia trò chơi xung đột với nhau.",
+        "scene": "artwork/scenes/03-two-seats.jpg"
+      },
+      {
+        "start": 40,
+        "end": 54,
+        "text": "Sau khi Rachel nhận ra rằng cô ấy sẽ chẳng thể làm vừa lòng Eleanor, và rằng nếu tiếp tục theo chiến lược cũ thì sẽ chẳng có bên nào thực sự thắng, cô đưa ra một quyết định khác: từ bỏ Nick.",
+        "scene": "artwork/scenes/03-two-seats.jpg"
+      },
+      {
+        "start": 54,
+        "end": 63,
+        "text": "Bởi thực tế, Rachel đã rút được quân tám tre, quân bài giúp cô hoàn thành thế bài chiến thắng.",
+        "scene": "artwork/scenes/01-eight-bamboo.jpg"
+      },
+      {
+        "start": 63,
+        "end": 70,
+        "text": "Giờ thì không phải vì cô sợ thua nữa, mà là vì cô thực sự yêu Nick.",
+        "scene": "artwork/scenes/01-eight-bamboo.jpg"
+      },
+      {
+        "start": 70,
+        "end": 76,
+        "text": "Và rồi Rachel đánh ra quân tám tre.",
+        "scene": "artwork/scenes/01-eight-bamboo.jpg"
+      },
+      {
+        "start": 76,
+        "end": 86,
+        "text": "Điều thay đổi sau nước đi ấy không đơn giản chỉ là chiến lược của Rachel, mà còn là information mà Eleanor có được.",
+        "scene": "artwork/scenes/04-beliefs.jpg"
+      },
+      {
+        "start": 86,
+        "end": 96,
+        "text": "Điều thay đổi là beliefs của Eleanor về Rachel, về Nick và về hậu quả của từng lựa chọn.",
+        "scene": "artwork/scenes/04-beliefs.jpg"
+      },
+      {
+        "start": 96,
+        "end": 112,
+        "text": "Trong game theory, tớ nghĩ có thể liên hệ chuyện này với signaling, cụ thể hơn là costly signaling: một hành động mà người thực hiện phải thực sự đánh đổi thứ gì đó, qua đó khiến người khác có thêm cơ sở để đánh giá động cơ của họ.",
+        "scene": "artwork/scenes/04-beliefs.jpg"
+      },
+      {
+        "start": 112,
+        "end": 126,
+        "text": "Tất nhiên, nếu xét nghiêm túc về mặt toán học thì muốn khẳng định cái kết của bộ phim là một cân bằng Nash, chúng ta còn phải xác định đầy đủ chiến lược và payoff của từng bên.",
+        "scene": "artwork/scenes/04-beliefs.jpg"
+      },
+      {
+        "start": 126,
+        "end": 136,
+        "text": "Đôi khi hiểu được người khác đang muốn gì còn quan trọng hơn việc chứng minh mình đúng.",
+        "scene": "artwork/scenes/05-meeting.jpg"
+      },
+      {
+        "start": 136,
+        "end": 150,
+        "text": "Học không phải cứ ngồi trên ghế nhà trường mới là học. Các cậu có thể học bất cứ đâu, bất cứ thời điểm nào, từ bất cứ thứ gì.",
+        "scene": "artwork/scenes/06-open-book.jpg"
+      }
+    ],
+    "status": "edit preview awaiting author narration",
+    "timing": "provisional; retime to supplied recording",
+    "audio": "synthetic ambience; no spoken narration",
+    "caption_kind": "on-screen text timing; not narration subtitles"
+  },
+  {
+    "name": "feed-3x4",
+    "size": [
+      1080,
+      1440
+    ],
+    "duration": 45,
+    "segments": [
+      {
+        "start": 0,
+        "end": 7,
+        "text": "Playing not to lose, instead of playing to win.",
+        "scene": "artwork/scenes/02-poker.jpg"
+      },
+      {
+        "start": 7,
+        "end": 15,
+        "text": "Và rồi Rachel đánh ra quân tám tre.",
+        "scene": "artwork/scenes/03-two-seats.jpg"
+      },
+      {
+        "start": 15,
+        "end": 25,
+        "text": "Điều thay đổi là beliefs của Eleanor về Rachel, về Nick và về hậu quả của từng lựa chọn.",
+        "scene": "artwork/scenes/01-eight-bamboo.jpg"
+      },
+      {
+        "start": 25,
+        "end": 35,
+        "text": "Một quân mạt chược mà làm người ta phải tính lại cả bài toán.",
+        "scene": "artwork/scenes/04-beliefs.jpg"
+      },
+      {
+        "start": 35,
+        "end": 45,
+        "text": "Đôi khi hiểu được người khác đang muốn gì còn quan trọng hơn việc chứng minh mình đúng.",
+        "scene": "artwork/scenes/05-meeting.jpg"
+      }
+    ],
+    "status": "edit preview awaiting author narration",
+    "timing": "provisional; retime to supplied recording",
+    "audio": "synthetic ambience; no spoken narration",
+    "caption_kind": "on-screen text timing; not narration subtitles"
+  },
+  {
+    "name": "teaser-9x16",
+    "size": [
+      1080,
+      1920
+    ],
+    "duration": 15,
+    "segments": [
+      {
+        "start": 0,
+        "end": 5,
+        "text": "Playing not to lose, instead of playing to win.",
+        "scene": "artwork/scenes/02-poker.jpg"
+      },
+      {
+        "start": 5,
+        "end": 10,
+        "text": "Và rồi Rachel đánh ra quân tám tre.",
+        "scene": "artwork/scenes/01-eight-bamboo.jpg"
+      },
+      {
+        "start": 10,
+        "end": 15,
+        "text": "Một quân mạt chược mà làm người ta phải tính lại cả bài toán.",
+        "scene": "artwork/scenes/04-beliefs.jpg"
+      }
+    ],
+    "status": "edit preview awaiting author narration",
+    "timing": "provisional; retime to supplied recording",
+    "audio": "synthetic ambience; no spoken narration",
+    "caption_kind": "on-screen text timing; not narration subtitles"
+  },
+  {
+    "name": "essay-16x9",
+    "size": [
+      1920,
+      1080
+    ],
+    "duration": 150,
+    "segments": [
+      {
+        "start": 0,
+        "end": 10,
+        "text": "Đối thủ của cô dù có lợi thế stronger hands nhưng cuối cùng vẫn bỏ bài, bởi anh ta quá sợ đánh mất những gì mình đang có.",
+        "scene": "artwork/scenes/02-poker.jpg"
+      },
+      {
+        "start": 10,
+        "end": 17,
+        "text": "Playing not to lose, instead of playing to win.",
+        "scene": "artwork/scenes/02-poker.jpg"
+      },
+      {
+        "start": 17,
+        "end": 29,
+        "text": "Bởi có những lúc chúng ta nghĩ rằng mình đang lựa chọn chiến lược tốt nhất, nhưng thực ra chỉ đang cố tránh một kết quả mà mình không muốn đối mặt.",
+        "scene": "artwork/scenes/02-poker.jpg"
+      },
+      {
+        "start": 29,
+        "end": 40,
+        "text": "Một mong muốn nghe có vẻ rất hợp lý, nhưng vấn đề ở đây là mục đích giữa các bên tham gia trò chơi xung đột với nhau.",
+        "scene": "artwork/scenes/03-two-seats.jpg"
+      },
+      {
+        "start": 40,
+        "end": 54,
+        "text": "Sau khi Rachel nhận ra rằng cô ấy sẽ chẳng thể làm vừa lòng Eleanor, và rằng nếu tiếp tục theo chiến lược cũ thì sẽ chẳng có bên nào thực sự thắng, cô đưa ra một quyết định khác: từ bỏ Nick.",
+        "scene": "artwork/scenes/03-two-seats.jpg"
+      },
+      {
+        "start": 54,
+        "end": 63,
+        "text": "Bởi thực tế, Rachel đã rút được quân tám tre, quân bài giúp cô hoàn thành thế bài chiến thắng.",
+        "scene": "artwork/scenes/01-eight-bamboo.jpg"
+      },
+      {
+        "start": 63,
+        "end": 70,
+        "text": "Giờ thì không phải vì cô sợ thua nữa, mà là vì cô thực sự yêu Nick.",
+        "scene": "artwork/scenes/01-eight-bamboo.jpg"
+      },
+      {
+        "start": 70,
+        "end": 76,
+        "text": "Và rồi Rachel đánh ra quân tám tre.",
+        "scene": "artwork/scenes/01-eight-bamboo.jpg"
+      },
+      {
+        "start": 76,
+        "end": 86,
+        "text": "Điều thay đổi sau nước đi ấy không đơn giản chỉ là chiến lược của Rachel, mà còn là information mà Eleanor có được.",
+        "scene": "artwork/scenes/04-beliefs.jpg"
+      },
+      {
+        "start": 86,
+        "end": 96,
+        "text": "Điều thay đổi là beliefs của Eleanor về Rachel, về Nick và về hậu quả của từng lựa chọn.",
+        "scene": "artwork/scenes/04-beliefs.jpg"
+      },
+      {
+        "start": 96,
+        "end": 112,
+        "text": "Trong game theory, tớ nghĩ có thể liên hệ chuyện này với signaling, cụ thể hơn là costly signaling: một hành động mà người thực hiện phải thực sự đánh đổi thứ gì đó, qua đó khiến người khác có thêm cơ sở để đánh giá động cơ của họ.",
+        "scene": "artwork/scenes/04-beliefs.jpg"
+      },
+      {
+        "start": 112,
+        "end": 126,
+        "text": "Tất nhiên, nếu xét nghiêm túc về mặt toán học thì muốn khẳng định cái kết của bộ phim là một cân bằng Nash, chúng ta còn phải xác định đầy đủ chiến lược và payoff của từng bên.",
+        "scene": "artwork/scenes/04-beliefs.jpg"
+      },
+      {
+        "start": 126,
+        "end": 136,
+        "text": "Đôi khi hiểu được người khác đang muốn gì còn quan trọng hơn việc chứng minh mình đúng.",
+        "scene": "artwork/scenes/05-meeting.jpg"
+      },
+      {
+        "start": 136,
+        "end": 150,
+        "text": "Học không phải cứ ngồi trên ghế nhà trường mới là học. Các cậu có thể học bất cứ đâu, bất cứ thời điểm nào, từ bất cứ thứ gì.",
+        "scene": "artwork/scenes/06-open-book.jpg"
+      }
+    ],
+    "status": "edit preview awaiting author narration",
+    "timing": "provisional; retime to supplied recording",
+    "audio": "synthetic ambience; no spoken narration",
+    "caption_kind": "on-screen text timing; not narration subtitles"
+  }
+]

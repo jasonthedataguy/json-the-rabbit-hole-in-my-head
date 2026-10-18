@@ -1,0 +1,35 @@
+{
+  "chapter": "sharingan",
+  "files": [
+    {
+      "path": "chapter.json",
+      "bytes": 977,
+      "sha256": "62aa20d8819280ec1da655e645f1154b074ac2af0010ceeceaf8678735f02a67"
+    },
+    {
+      "path": "docs/PRODUCTS.json",
+      "bytes": 304,
+      "sha256": "8e7b316a21bec6a82fe22d33e40890ad93e7cc232ad8180761cd9dbaefcdadbc"
+    },
+    {
+      "path": "production.json",
+      "bytes": 158,
+      "sha256": "04cca5cbcb7714947f2e115425c3b36fd58203c853d17184364ed8f229b16d7d"
+    },
+    {
+      "path": "README.md",
+      "bytes": 418,
+      "sha256": "ebdddd6a93731bc7abd4ede7ae78e534298f06152b94bded880f398f45fc6ec6"
+    },
+    {
+      "path": "source/outline.md",
+      "bytes": 408,
+      "sha256": "1047b65d9f9af8d236b7a6265abb07b17cba4cc71fe6660a255abdf80c44085c"
+    },
+    {
+      "path": "source/revisions.log",
+      "bytes": 111,
+      "sha256": "e01ec275c2bd0c7128f4545ba1a8339712c2e287d8a0ea329c9ccf3068756f36"
+    }
+  ]
+}

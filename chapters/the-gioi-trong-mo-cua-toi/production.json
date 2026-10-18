@@ -1,0 +1,298 @@
+{
+  "schema_version": 1,
+  "status": "Chapter 09 supplied kit and verbatim publication derivatives; author narration pending",
+  "excerpts_verbatim": true,
+  "publish_media": {
+    "carousel": [
+      {
+        "text": "Thế giới trong mơ của tôi có một điều khá kỳ lạ. Ở đó, mọi thứ dường như luôn bắt đầu từ lúc chập tối, sau giờ tan làm, và kết thúc trước khi những ánh sáng đầu tiên của ngày mới xuất hiện.",
+        "scene": "artwork/scenes/01_rooftop_skyline.jpg"
+      },
+      {
+        "text": "Đại ý là chúng đang bàn luận xem ngày mai sẽ hẹn nhau ở đâu, trước hay sau bữa ăn tối.",
+        "scene": "artwork/scenes/02_metro_children.jpg"
+      },
+      {
+        "text": "Tất cả cứ thế diễn ra trong đầu tôi, từ một cuộc điện thoại mà tôi thậm chí còn chẳng hiểu hết nội dung. Tôi không biết cậu bé có thực sự ăn cá hồi vào bữa trưa hôm ấy không, có một bạn nữ mới chuyển đến lớp không, hay bố mẹ cậu có hỏi han về ngày đi học của con mình như tôi tưởng tượng. Tôi cũng chẳng biết căn bếp nhà cậu trông như thế nào.",
+        "scene": "artwork/scenes/05_imagined_kitchen.jpg"
+      },
+      {
+        "text": "Có một điều đặc biệt là những khung cảnh ấy luôn xuất hiện trong một gam màu ám vàng nhẹ, độ tương phản không cao, hình ảnh hơi bị nhiễu đôi chút, giống như những thước phim cũ đầu thập niên 20s.",
+        "scene": "artwork/scenes/06_rooftop_afterimage.jpg"
+      },
+      {
+        "text": "Chỉ biết rằng tôi luôn tìm thấy chúng, và chúng cũng luôn tìm thấy tôi.",
+        "scene": "artwork/scenes/07_old_photographs.jpg"
+      }
+    ]
+  },
+  "films": [
+    {
+      "name": "discovery-9x16",
+      "size": [
+        1080,
+        1920
+      ],
+      "scene_fit": "contain",
+      "segments": [
+        {
+          "text": "Tôi cũng chẳng biết tại sao lại như vậy. Chỉ là đôi khi, ngay giữa một khung cảnh rất đỗi bình thường, tôi lại có cảm giác như mình đang ở trong một giấc mơ, thay vì thực sự sống trong khoảnh khắc ấy.",
+          "scene": "artwork/scenes/01_rooftop_skyline.jpg",
+          "duration": 12
+        },
+        {
+          "text": "Ngày đầu tiên đặt chân tới thành phố này, khi đang chật vật với hai chiếc vali trên tàu số 5 để tới ga Bastille gặp người bạn của mình, tôi đã có cảm giác đó.",
+          "scene": "artwork/scenes/03_bastille_station.jpg",
+          "duration": 14
+        },
+        {
+          "text": "Một đứa trong hai đứa rút chiếc điện thoại cũ ra.",
+          "scene": "artwork/scenes/04_telephone.jpg",
+          "duration": 7
+        },
+        {
+          "text": "Không hiểu sao ngay lúc ấy, trong đầu tôi lại hiện lên một khung cảnh hoàn toàn khác.",
+          "scene": "artwork/scenes/05_imagined_kitchen.jpg",
+          "duration": 7
+        },
+        {
+          "text": "Nhưng không hiểu sao tôi lại hình dung ra chúng rõ ràng đến vậy.",
+          "scene": "artwork/scenes/05_imagined_kitchen.jpg",
+          "duration": 8
+        },
+        {
+          "text": "Chỉ biết rằng tôi luôn tìm thấy chúng, và chúng cũng luôn tìm thấy tôi.",
+          "scene": "artwork/scenes/07_old_photographs.jpg",
+          "duration": 12
+        }
+      ]
+    },
+    {
+      "name": "youtube-9x16",
+      "size": [
+        1080,
+        1920
+      ],
+      "scene_fit": "contain",
+      "segments": [
+        {
+          "text": "Thế giới trong mơ của tôi có một điều khá kỳ lạ. Ở đó, mọi thứ dường như luôn bắt đầu từ lúc chập tối, sau giờ tan làm, và kết thúc trước khi những ánh sáng đầu tiên của ngày mới xuất hiện.",
+          "scene": "artwork/scenes/01_rooftop_skyline.jpg",
+          "duration": 14
+        },
+        {
+          "text": "Ngày đầu tiên đặt chân tới thành phố này, khi đang chật vật với hai chiếc vali trên tàu số 5 để tới ga Bastille gặp người bạn của mình, tôi đã có cảm giác đó.",
+          "scene": "artwork/scenes/03_bastille_station.jpg",
+          "duration": 15
+        },
+        {
+          "text": "Đại ý là chúng đang bàn luận xem ngày mai sẽ hẹn nhau ở đâu, trước hay sau bữa ăn tối.",
+          "scene": "artwork/scenes/02_metro_children.jpg",
+          "duration": 9
+        },
+        {
+          "text": "Một đứa trong hai đứa rút chiếc điện thoại cũ ra. Kiểu điện thoại màn hình đen trắng, có bàn phím bấm giống những chiếc điện thoại ngày xưa. Dường như mẹ cậu bé gọi tới, hỏi xem cậu đã sắp về nhà chưa, bảo rằng bà ấy đã về rồi và sẽ chuẩn bị xong bữa tối nhanh thôi.",
+          "scene": "artwork/scenes/04_telephone.jpg",
+          "duration": 17
+        },
+        {
+          "text": "Trời đã xẩm tối. Cả gia đình cậu bé đang ngồi bên bàn ăn, cậu vừa mở cửa bước vào nhà, đặt đồ đạc xuống rồi ngồi vào chiếc ghế cạnh bố mẹ. Ánh sáng vàng từ đèn xe ngoài đường chiếu hắt lên trần căn bếp qua một khung cửa sổ nhỏ, xen lẫn tiếng còi xe và tiếng động cơ ô tô hối hả bên ngoài.",
+          "scene": "artwork/scenes/05_imagined_kitchen.jpg",
+          "duration": 19
+        },
+        {
+          "text": "Tất cả cứ thế diễn ra trong đầu tôi, từ một cuộc điện thoại mà tôi thậm chí còn chẳng hiểu hết nội dung. Tôi không biết cậu bé có thực sự ăn cá hồi vào bữa trưa hôm ấy không, có một bạn nữ mới chuyển đến lớp không, hay bố mẹ cậu có hỏi han về ngày đi học của con mình như tôi tưởng tượng. Tôi cũng chẳng biết căn bếp nhà cậu trông như thế nào.",
+          "scene": "artwork/scenes/05_imagined_kitchen.jpg",
+          "duration": 24
+        },
+        {
+          "text": "Chỉ là sau này, khi nhìn lại những bức ảnh mình chụp và chỉnh sửa, tôi nhận ra rất nhiều trong số chúng cũng mang gam màu tương tự.",
+          "scene": "artwork/scenes/07_old_photographs.jpg",
+          "duration": 11
+        },
+        {
+          "text": "Chỉ biết rằng tôi luôn tìm thấy chúng, và chúng cũng luôn tìm thấy tôi.",
+          "scene": "artwork/scenes/06_rooftop_afterimage.jpg",
+          "duration": 11
+        }
+      ]
+    },
+    {
+      "name": "feed-3x4",
+      "size": [
+        1080,
+        1440
+      ],
+      "scene_fit": "contain",
+      "segments": [
+        {
+          "text": "Đại ý là chúng đang bàn luận xem ngày mai sẽ hẹn nhau ở đâu, trước hay sau bữa ăn tối.",
+          "scene": "artwork/scenes/02_metro_children.jpg",
+          "duration": 8
+        },
+        {
+          "text": "Không hiểu sao ngay lúc ấy, trong đầu tôi lại hiện lên một khung cảnh hoàn toàn khác.",
+          "scene": "artwork/scenes/05_imagined_kitchen.jpg",
+          "duration": 8
+        },
+        {
+          "text": "Nhưng không hiểu sao tôi lại hình dung ra chúng rõ ràng đến vậy.",
+          "scene": "artwork/scenes/05_imagined_kitchen.jpg",
+          "duration": 7
+        },
+        {
+          "text": "Chỉ là sau này, khi nhìn lại những bức ảnh mình chụp và chỉnh sửa, tôi nhận ra rất nhiều trong số chúng cũng mang gam màu tương tự.",
+          "scene": "artwork/scenes/07_old_photographs.jpg",
+          "duration": 11
+        },
+        {
+          "text": "Chỉ biết rằng tôi luôn tìm thấy chúng, và chúng cũng luôn tìm thấy tôi.",
+          "scene": "artwork/scenes/06_rooftop_afterimage.jpg",
+          "duration": 11
+        }
+      ]
+    },
+    {
+      "name": "teaser-9x16",
+      "size": [
+        1080,
+        1920
+      ],
+      "scene_fit": "contain",
+      "segments": [
+        {
+          "text": "Không hiểu sao ngay lúc ấy, trong đầu tôi lại hiện lên một khung cảnh hoàn toàn khác.",
+          "scene": "artwork/scenes/04_telephone.jpg",
+          "duration": 8
+        },
+        {
+          "text": "Nhưng không hiểu sao tôi lại hình dung ra chúng rõ ràng đến vậy.",
+          "scene": "artwork/scenes/05_imagined_kitchen.jpg",
+          "duration": 6
+        },
+        {
+          "text": "Chỉ biết rằng tôi luôn tìm thấy chúng, và chúng cũng luôn tìm thấy tôi.",
+          "scene": "artwork/scenes/06_rooftop_afterimage.jpg",
+          "duration": 10
+        }
+      ]
+    },
+    {
+      "name": "essay-16x9",
+      "size": [
+        1920,
+        1080
+      ],
+      "scene_fit": "contain",
+      "segments": [
+        {
+          "text": "Thế giới trong mơ của tôi có một điều khá kỳ lạ. Ở đó, mọi thứ dường như luôn bắt đầu từ lúc chập tối, sau giờ tan làm, và kết thúc trước khi những ánh sáng đầu tiên của ngày mới xuất hiện.",
+          "scene": "artwork/scenes/01_rooftop_skyline.jpg",
+          "duration": 14
+        },
+        {
+          "text": "Ngày đầu tiên đặt chân tới thành phố này, khi đang chật vật với hai chiếc vali trên tàu số 5 để tới ga Bastille gặp người bạn của mình, tôi đã có cảm giác đó.",
+          "scene": "artwork/scenes/03_bastille_station.jpg",
+          "duration": 15
+        },
+        {
+          "text": "Đại ý là chúng đang bàn luận xem ngày mai sẽ hẹn nhau ở đâu, trước hay sau bữa ăn tối.",
+          "scene": "artwork/scenes/02_metro_children.jpg",
+          "duration": 9
+        },
+        {
+          "text": "Một đứa trong hai đứa rút chiếc điện thoại cũ ra. Kiểu điện thoại màn hình đen trắng, có bàn phím bấm giống những chiếc điện thoại ngày xưa. Dường như mẹ cậu bé gọi tới, hỏi xem cậu đã sắp về nhà chưa, bảo rằng bà ấy đã về rồi và sẽ chuẩn bị xong bữa tối nhanh thôi.",
+          "scene": "artwork/scenes/04_telephone.jpg",
+          "duration": 17
+        },
+        {
+          "text": "Trời đã xẩm tối. Cả gia đình cậu bé đang ngồi bên bàn ăn, cậu vừa mở cửa bước vào nhà, đặt đồ đạc xuống rồi ngồi vào chiếc ghế cạnh bố mẹ. Ánh sáng vàng từ đèn xe ngoài đường chiếu hắt lên trần căn bếp qua một khung cửa sổ nhỏ, xen lẫn tiếng còi xe và tiếng động cơ ô tô hối hả bên ngoài.",
+          "scene": "artwork/scenes/05_imagined_kitchen.jpg",
+          "duration": 19
+        },
+        {
+          "text": "Tất cả cứ thế diễn ra trong đầu tôi, từ một cuộc điện thoại mà tôi thậm chí còn chẳng hiểu hết nội dung. Tôi không biết cậu bé có thực sự ăn cá hồi vào bữa trưa hôm ấy không, có một bạn nữ mới chuyển đến lớp không, hay bố mẹ cậu có hỏi han về ngày đi học của con mình như tôi tưởng tượng. Tôi cũng chẳng biết căn bếp nhà cậu trông như thế nào.",
+          "scene": "artwork/scenes/05_imagined_kitchen.jpg",
+          "duration": 24
+        },
+        {
+          "text": "Chỉ là sau này, khi nhìn lại những bức ảnh mình chụp và chỉnh sửa, tôi nhận ra rất nhiều trong số chúng cũng mang gam màu tương tự.",
+          "scene": "artwork/scenes/07_old_photographs.jpg",
+          "duration": 11
+        },
+        {
+          "text": "Chỉ biết rằng tôi luôn tìm thấy chúng, và chúng cũng luôn tìm thấy tôi.",
+          "scene": "artwork/scenes/06_rooftop_afterimage.jpg",
+          "duration": 11
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "id": "01_rooftop_skyline",
+      "source": "artwork/source/01_rooftop_skyline.jpg",
+      "raster": "artwork/scenes/01_rooftop_skyline.jpg",
+      "kind": "supplied concept-board crop"
+    },
+    {
+      "id": "02_metro_children",
+      "source": "artwork/source/02_metro_children.jpg",
+      "raster": "artwork/scenes/02_metro_children.jpg",
+      "kind": "supplied concept-board crop"
+    },
+    {
+      "id": "03_bastille_station",
+      "source": "artwork/source/03_bastille_station.jpg",
+      "raster": "artwork/scenes/03_bastille_station.jpg",
+      "kind": "supplied concept-board crop"
+    },
+    {
+      "id": "04_telephone",
+      "source": "artwork/source/04_telephone.jpg",
+      "raster": "artwork/scenes/04_telephone.jpg",
+      "kind": "supplied concept-board crop"
+    },
+    {
+      "id": "05_imagined_kitchen",
+      "source": "artwork/source/05_imagined_kitchen.jpg",
+      "raster": "artwork/scenes/05_imagined_kitchen.jpg",
+      "kind": "supplied concept-board crop"
+    },
+    {
+      "id": "06_rooftop_afterimage",
+      "source": "artwork/source/06_rooftop_afterimage.jpg",
+      "raster": "artwork/scenes/06_rooftop_afterimage.jpg",
+      "kind": "supplied concept-board crop"
+    },
+    {
+      "id": "07_old_photographs",
+      "source": "artwork/source/07_old_photographs.jpg",
+      "raster": "artwork/scenes/07_old_photographs.jpg",
+      "kind": "supplied concept-board crop"
+    },
+    {
+      "id": "08_both_children",
+      "source": "artwork/source/08_both_children.jpg",
+      "raster": "artwork/scenes/08_both_children.jpg",
+      "kind": "supplied concept-board crop"
+    }
+  ],
+  "print_scenes": [
+    {
+      "after_paragraph": 6,
+      "scene": 3
+    },
+    {
+      "after_paragraph": 11,
+      "scene": 4
+    }
+  ],
+  "print_layout": {
+    "font_size": 10.5,
+    "leading": 16,
+    "heading_size": 27,
+    "heading_leading": 32
+  },
+  "print_extras": true
+}

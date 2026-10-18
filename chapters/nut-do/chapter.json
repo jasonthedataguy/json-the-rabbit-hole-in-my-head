@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "slug": "nut-do",
+  "number": "06",
+  "title": "Nút đỏ",
+  "short_title": "Nút đỏ",
+  "part": 2,
+  "language": "vi",
+  "publish": false,
+  "release_stage": "outline",
+  "canonical_text": null,
+  "canonical_path": "#chapter/06",
+  "summary": "Trong một cuộc điện thoại với mẹ, Jason bấm ngắt cuộc gọi. Sau nút đỏ là nỗi sợ gắn với những giờ học, bài toán và các lời nói thời thơ ấu.",
+  "portal": {
+    "scene": "A red end-call button glows over an empty childhood study desk.",
+    "objects": [
+      "telephone",
+      "exercise book",
+      "pencil"
+    ],
+    "iconKey": "phone",
+    "motif": "The red button"
+  },
+  "original_edition": null,
+  "production_status": "awaiting author manuscript",
+  "outline_title": "Nút đỏ"
+}

@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "slug": "masterclass-in-record-keeping",
+  "number": "24",
+  "title": "Masterclass in Record Keeping",
+  "short_title": "Masterclass in Record Keeping",
+  "part": 4,
+  "language": "vi",
+  "publish": false,
+  "release_stage": "outline",
+  "canonical_text": null,
+  "canonical_path": "#chapter/24",
+  "summary": "Người từng bị phê bình về cách ghi chép trên Linear dựng một kho bằng chứng về chính ticket đó: title history, timestamps, activity log, nhiều yêu cầu tìm dữ liệu và các câu trả lời từ AI.",
+  "portal": {
+    "scene": "A wall of documents and timestamps is examined through a magnifying glass.",
+    "objects": [
+      "ticket stack",
+      "timestamp",
+      "search cursor"
+    ],
+    "iconKey": "search",
+    "motif": "The record"
+  },
+  "original_edition": null,
+  "production_status": "awaiting author manuscript",
+  "outline_title": "Masterclass in Record Keeping"
+}

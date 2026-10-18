@@ -1,0 +1,36 @@
+{
+  "schema_version": 2,
+  "slug": "for-mother-russia",
+  "number": "08",
+  "title": "For Mother Russia",
+  "short_title": "For Mother Russia",
+  "part": 2,
+  "language": "vi",
+  "publish": true,
+  "release_stage": "reader-with-original-products",
+  "canonical_text": "source/approved.md",
+  "canonical_path": "#chapter/08",
+  "summary": "Một người chưa từng đặt chân tới nước Nga lại mơ lặp đi lặp lại về lối mòn tuyết và ngôi nhà gỗ sáng đèn. Ký ức về ông, quy hoạch Liên Xô, game chiến tranh và những chuyến đi qua màn hình tạo nên một miền ký ức vay mượn, vừa thật vừa tưởng tượng.",
+  "portal": {
+    "scene": "A path through snow-covered conifers leads toward the yellow window of a wooden cabin.",
+    "objects": [
+      "snowflake",
+      "pines",
+      "yellow window",
+      "old television"
+    ],
+    "iconKey": "pine",
+    "motif": "The warm window"
+  },
+  "original_edition": {
+    "number": "05",
+    "title": "For Mother Russia",
+    "repo": "https://github.com/jasonthedataguy/json-under-revision",
+    "commit": "b41b692b3e3633abea4997b6ac4513a91308f127",
+    "metadata": "references/original-edition/chapter.json",
+    "archive_url": "https://jasonthedataguy.github.io/json-under-revision/chapters/05/"
+  },
+  "production_status": "imported proofs; v2 adaptation pending",
+  "manuscript_sha256": "0ef9d0379a64c2d7229a4bcec11fe85b1f57518865581a121a935e9923b90b3a",
+  "outline_title": "For Mother Russia"
+}
