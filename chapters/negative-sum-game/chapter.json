@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "slug": "negative-sum-game",
-  "number": "29",
+  "number": "30",
   "title": "Negative-Sum Game",
   "short_title": "Negative-Sum Game",
   "part": 4,
@@ -9,7 +9,7 @@
   "publish": false,
   "release_stage": "outline",
   "canonical_text": null,
-  "canonical_path": "#chapter/29",
+  "canonical_path": "#chapter/30",
   "summary": "Jason thử biến sự trả đũa thành một “moral mathematical model”, được AI nhắc về giới hạn dữ liệu, phạm vi phân tích và phép lịch sự tối thiểu. David nhiều lần đề nghị dừng đăng công khai; Jason tiếp tục bảo mình “chỉ làm toán”.",
   "portal": {
     "scene": "Two counters fall below a common baseline with an empty office between them.",

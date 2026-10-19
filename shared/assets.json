@@ -696,6 +696,24 @@
       "public_path": "assets/good-boy-spread-v1.webp",
       "sha256_at_intake": "42b0fd7371c4dad16041f9fe64c0c118a798ebcddac41b3daa6042faeefb2ea1",
       "provenance": "Author board references/design/model_failure - office-good-boy.png; recipe scripts/cut_good_boy_board.py. Rectangular extracted-object reading illustration. Screen use only."
+    },
+    {
+      "source": "chapters/the-moral-story-schools-dont-teach-you/artwork/portal/moral-story-ring-v1.png",
+      "public_path": "assets/moral-story-ring-v1.png",
+      "sha256_at_intake": "9f2617b951a4f2ab1b06a837d7a73386d30ca7269827bef0d7580ea74231da87",
+      "provenance": "Author board references/design/model_failure - office-moral-story.png; recipe scripts/cut_moral_story_board.py. Rotating office records, draft versions, moral-model diagram and mirror collage. Screen use only."
+    },
+    {
+      "source": "chapters/the-moral-story-schools-dont-teach-you/artwork/portal/moral-story-scene-v1.png",
+      "public_path": "assets/moral-story-scene-v1.png",
+      "sha256_at_intake": "dd27d0a4cf99a970b91d99378eccacc1791ecc49c5321493d069d69ba774a444",
+      "provenance": "Author board references/design/model_failure - office-moral-story.png; recipe scripts/cut_moral_story_board.py. Stationary open book on context, audience, timing, impact, with Jason and his reflection aligned to the ring. Screen use only."
+    },
+    {
+      "source": "chapters/the-moral-story-schools-dont-teach-you/artwork/portal/moral-story-spread-v1.webp",
+      "public_path": "assets/moral-story-spread-v1.webp",
+      "sha256_at_intake": "61d6654bf03fd3764d5f02ded156303ad2a229c8318835a75c088557e8e2d7a9",
+      "provenance": "Author board references/design/model_failure - office-moral-story.png; recipe scripts/cut_moral_story_board.py. Rectangular key-elements reading illustration. Screen use only."
     }
   ]
 }

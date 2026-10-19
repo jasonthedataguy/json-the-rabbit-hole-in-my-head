@@ -1,4 +1,4 @@
-import { renderIcon } from './chapters.js?v=28';
+import { renderIcon } from './chapters.js?v=29';
 
 // The chapter's keepsake is printed on a paper tab seated in the portal's rim.
 // Keep this SVG in normal document flow; its owner decides where the tab sits.
@@ -34,6 +34,7 @@ const markerNames = {
   matrix: 'a scored payoff matrix',
   jersey: 'a football jersey',
   stamp: 'an apology stamped GOOD BOY',
+  book: 'an open moral-model book',
   search: 'a record-keeper’s magnifying glass',
   dialogue: 'two quiet speech bubbles',
   counters: 'two falling counters',

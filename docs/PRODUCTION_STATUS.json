@@ -292,8 +292,18 @@
       "products": 5
     },
     {
-      "slug": "negative-sum-game",
+      "slug": "the-moral-story-schools-dont-teach-you",
       "number": "29",
+      "title": "Office Battlefield - The Moral Story Schools Don't Teach You",
+      "reader": "published manuscript",
+      "product_release": "author-selected full manuscript and board-derived digital portal; print and media pending",
+      "files": 16,
+      "bytes": 6825494,
+      "products": 5
+    },
+    {
+      "slug": "negative-sum-game",
+      "number": "30",
       "title": "Negative-Sum Game",
       "reader": "outline only",
       "product_release": "awaiting author manuscript",
@@ -303,7 +313,7 @@
     },
     {
       "slug": "sharingan",
-      "number": "30",
+      "number": "31",
       "title": "Sharingan",
       "reader": "outline only",
       "product_release": "awaiting author manuscript",
@@ -313,7 +323,7 @@
     },
     {
       "slug": "command-respect",
-      "number": "31",
+      "number": "32",
       "title": "Command Respect",
       "reader": "outline only",
       "product_release": "awaiting author manuscript",
@@ -323,7 +333,7 @@
     },
     {
       "slug": "lone-wolf",
-      "number": "32",
+      "number": "33",
       "title": "Lone Wolf",
       "reader": "outline only",
       "product_release": "awaiting author manuscript",
@@ -333,7 +343,7 @@
     },
     {
       "slug": "co-nhung-thu-chi-khi-minh-roi-di-roi-moi-nhin-thay",
-      "number": "33",
+      "number": "34",
       "title": "Things You Only See After Leaving",
       "reader": "outline only",
       "product_release": "awaiting author manuscript",
@@ -343,7 +353,7 @@
     },
     {
       "slug": "loi-xin-loi",
-      "number": "34",
+      "number": "35",
       "title": "An Apology",
       "reader": "outline only",
       "product_release": "awaiting author manuscript",

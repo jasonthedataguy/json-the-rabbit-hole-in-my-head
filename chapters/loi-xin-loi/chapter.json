@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "slug": "loi-xin-loi",
-  "number": "34",
+  "number": "35",
   "title": "An Apology",
   "short_title": "An Apology",
   "part": 5,
@@ -9,7 +9,7 @@
   "publish": false,
   "release_stage": "outline",
   "canonical_text": null,
-  "canonical_path": "#chapter/34",
+  "canonical_path": "#chapter/35",
   "summary": "Một thông điệp gửi người từng bị Jason đối xử lạnh lùng hai năm trước.",
   "portal": {
     "scene": "An unsigned letter rests near an open window and the traces of two toothbrushes, ending in an open crescent.",

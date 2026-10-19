@@ -258,6 +258,17 @@
       "bytes": 4157,
       "archiveUrl": null,
       "sourceUrl": null
+    },
+    {
+      "slug": "the-moral-story-schools-dont-teach-you",
+      "editorialId": "29",
+      "legacyId": null,
+      "originalTitle": "Office Battlefield - The Moral Story Schools Don't Teach You",
+      "sourcePath": "chapters/the-moral-story-schools-dont-teach-you/source/approved.md",
+      "sha256": "c880c7ad50924592b25b3f728abadcbfa5227e3a4ecc756c4a206c6ccc6b0189",
+      "bytes": 18368,
+      "archiveUrl": null,
+      "sourceUrl": null
     }
   ]
 }
