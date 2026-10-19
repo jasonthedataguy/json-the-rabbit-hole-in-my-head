@@ -1,6 +1,6 @@
 # Negative-Sum Game
 
-V2 slot: **26**. Stable folder: `negative-sum-game`.
+V2 slot: **28**. Stable folder: `negative-sum-game`.
 
 Edit identity and state in `chapter.json`; keep author prose in `source/` and production recipes in `production.json`. See [the chapter workflow](../../docs/PRODUCTION_WORKFLOW.md) and [product status](docs/PRODUCT_STATUS.json).
 

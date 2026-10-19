@@ -139,8 +139,19 @@
       "sourceUrl": "https://github.com/jasonthedataguy/json-under-revision/blob/b41b692b3e3633abea4997b6ac4513a91308f127/chapters/viet-cho-sai-gon-cua-t/source/approved.md"
     },
     {
-      "slug": "tieu-hanh-tinh",
+      "slug": "bad-trip",
       "editorialId": "16",
+      "legacyId": null,
+      "originalTitle": "Bad Trip",
+      "sourcePath": "chapters/bad-trip/source/approved.md",
+      "sha256": "e2dc5468139375a302940dafb0fc4120d8e1e67902056599a025caa4c2407e91",
+      "bytes": 21822,
+      "archiveUrl": null,
+      "sourceUrl": null
+    },
+    {
+      "slug": "tieu-hanh-tinh",
+      "editorialId": "17",
       "legacyId": null,
       "originalTitle": "Asteroid",
       "sourcePath": "chapters/tieu-hanh-tinh/source/approved.md",
@@ -151,7 +162,7 @@
     },
     {
       "slug": "three-meeting-theory",
-      "editorialId": "17",
+      "editorialId": "18",
       "legacyId": "15",
       "originalTitle": "Three Meeting Theory",
       "sourcePath": "chapters/three-meeting-theory/source/approved.md",
@@ -162,7 +173,7 @@
     },
     {
       "slug": "dating-algorithm",
-      "editorialId": "18",
+      "editorialId": "19",
       "legacyId": "08",
       "originalTitle": "Dating Algorithm",
       "sourcePath": "chapters/dating-algorithm/source/approved.md",
@@ -173,7 +184,7 @@
     },
     {
       "slug": "dating-102",
-      "editorialId": "19",
+      "editorialId": "20",
       "legacyId": "16",
       "originalTitle": "Dating 102",
       "sourcePath": "chapters/dating-102/source/approved.md",
@@ -184,7 +195,7 @@
     },
     {
       "slug": "runaway",
-      "editorialId": "21",
+      "editorialId": "22",
       "legacyId": null,
       "originalTitle": "Run away",
       "sourcePath": "chapters/runaway/source/approved.md",

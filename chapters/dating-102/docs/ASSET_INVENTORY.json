@@ -158,8 +158,8 @@
     },
     {
       "path": "chapter.json",
-      "bytes": 1454,
-      "sha256": "627404a303ed2dc7f7415944163806c32fd36a365751618624ad6b440441a97b"
+      "bytes": 1489,
+      "sha256": "66f7c9adb00fd10d401459dea008964a87f11b960e1904e37819fbd58e2b19f6"
     },
     {
       "path": "docs/BROWSER_QA.json",
@@ -313,8 +313,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 1021,
-      "sha256": "e7ff531c867e554d85d3c7965a4bdd4d66fd6791decd3f12658dc9be94454ba0"
+      "bytes": 1013,
+      "sha256": "6d55057735498ad09eff79a5b4ff4ecc7cc22809f9a658d1023679057ac9d788"
     },
     {
       "path": "references/original-edition/approved.md",
@@ -634,7 +634,7 @@
     {
       "path": "web/index.html",
       "bytes": 32964,
-      "sha256": "cc84d7409e9ed6e4027db3219bad5d5152221da9a42916d50630131375c96d16"
+      "sha256": "e77da156b3f4baefbadc64a3ca7eefd3fc43704802aa56c9ca76586f9378240e"
     },
     {
       "path": "web/template.html",

@@ -1,6 +1,6 @@
 # Good Boy
 
-V2 slot: **25**. Stable folder: `good-boy`.
+V2 slot: **27**. Stable folder: `good-boy`.
 
 Edit identity and state in `chapter.json`; keep author prose in `source/` and production recipes in `production.json`. See [the chapter workflow](../../docs/PRODUCTION_WORKFLOW.md) and [product status](docs/PRODUCT_STATUS.json).
 

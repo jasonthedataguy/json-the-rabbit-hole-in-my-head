@@ -1,4 +1,4 @@
-"""Cut Chapter 16 screen artwork from the author's flattened Asteroid board.
+"""Cut Chapter 17 screen artwork from the author's flattened Asteroid board.
 
 The board is retained unchanged. These enlarged crops are not print masters.
 """

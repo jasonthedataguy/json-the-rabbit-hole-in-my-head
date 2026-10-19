@@ -18,6 +18,8 @@ export const portalPictures = Object.freeze({
   redButtonCover:{src:'assets/red-button-scene-v1.png',alt:'A finger touches the red end-call button in the centre of the book-cover ring.',zoom:1,x:0,y:0},
   oldFriend:{src:'assets/old-friend-scene-v1.png',alt:'Two childhood friends share a packet of candy on a bench, surrounded by memories of school and play.',zoom:1,x:0,y:0},
   oldFriendCover:{src:'assets/old-friend-scene-v1.png',alt:'Two childhood friends share a packet of candy inside the book-cover ring.',zoom:1,x:0,y:0},
+  badTrip:{src:'assets/bad-trip-scene-v1.png',alt:'Jason faces a gilded mirror containing another version of himself, surrounded by photographs and old work.',zoom:1,x:0,y:0},
+  badTripCover:{src:'assets/bad-trip-scene-v1.png',alt:'Jason looks toward his reflection in a gilded mirror inside the shared book-cover ring.',zoom:1,x:0,y:0},
   asteroid:{src:'assets/asteroid-scene-v1.png',alt:'A woman sits on her own luminous little planet while Jason watches from below.',zoom:1,x:0,y:0},
   asteroidCover:{src:'assets/asteroid-scene-v1.png',alt:'A glowing small planet carries a woman through the centre of the book-cover ring.',zoom:1,x:0,y:0},
   runaway:{src:'assets/runaway-scene-v1.png',alt:'Jason pauses at the open doorway; a woman and Gấu wait in the warmly lit room.',zoom:1,x:0,y:0},

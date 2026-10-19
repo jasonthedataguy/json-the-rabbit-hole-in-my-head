@@ -1,0 +1,85 @@
+{
+  "chapter": "bad-trip",
+  "files": [
+    {
+      "path": "artwork/portal/bad-trip-portal-v1.png",
+      "bytes": 1531723,
+      "sha256": "3b5d635f8d26f550d0cf91f9f97bab8e14994522b99bd1970a026b6caee8cb73"
+    },
+    {
+      "path": "artwork/portal/bad-trip-ring-v1.png",
+      "bytes": 1842245,
+      "sha256": "05677dd6acf2c06bb675cbeb5bce881b28f689b7c1a45425440041cede0bb098"
+    },
+    {
+      "path": "artwork/portal/bad-trip-scene-v1.png",
+      "bytes": 1471080,
+      "sha256": "25a78a0302f14a3352ffbb47e4e5ec36a32aac05db26f2d9a614aca0e910e139"
+    },
+    {
+      "path": "artwork/portal/bad-trip-spread-v1.webp",
+      "bytes": 169220,
+      "sha256": "be6e0c8de193740a7d8f1d662d53a297bd42005198b9f64e624f602e85d54935"
+    },
+    {
+      "path": "chapter.json",
+      "bytes": 1296,
+      "sha256": "630de743f6dcdcf5208566a221b5d729fea4fb7b1e5438c30de550060b054025"
+    },
+    {
+      "path": "docs/ASSET_SOURCE.md",
+      "bytes": 918,
+      "sha256": "37c11ff8059e0497e23b3eb3dacd1d245296ba58d92e13e99667a9f31f683027"
+    },
+    {
+      "path": "docs/PRODUCTS.json",
+      "bytes": 1168,
+      "sha256": "cb41e7eb49e1ae9e096563e7b1773fcaeea3d5e4d3f798a12e1e61d12728d5f4"
+    },
+    {
+      "path": "docs/QA.md",
+      "bytes": 1411,
+      "sha256": "847feca31ec77c79cd6a4def985fe7c4604abefc541f4cd2e5323662288b767d"
+    },
+    {
+      "path": "production.json",
+      "bytes": 598,
+      "sha256": "175929109b2c4c378c1a8ac372922a18917442fbe9ad8d867764ed0ef20aa20f"
+    },
+    {
+      "path": "README.md",
+      "bytes": 730,
+      "sha256": "fd43f44455fc0bf653749938a0cf7425ec20350866fd8593b219182546d117ec"
+    },
+    {
+      "path": "source/approved.md",
+      "bytes": 21822,
+      "sha256": "e2dc5468139375a302940dafb0fc4120d8e1e67902056599a025caa4c2407e91"
+    },
+    {
+      "path": "source/revisions.log",
+      "bytes": 254,
+      "sha256": "a0b90c6efbd4a129d002ce2d63624711650e58f2a7d5dec3b7b753f0b12e0eda"
+    },
+    {
+      "path": "web/assets/bad-trip-portal-v1.png",
+      "bytes": 1531723,
+      "sha256": "3b5d635f8d26f550d0cf91f9f97bab8e14994522b99bd1970a026b6caee8cb73"
+    },
+    {
+      "path": "web/assets/bad-trip-spread-v1.webp",
+      "bytes": 169220,
+      "sha256": "be6e0c8de193740a7d8f1d662d53a297bd42005198b9f64e624f602e85d54935"
+    },
+    {
+      "path": "web/bad-trip.css",
+      "bytes": 5856,
+      "sha256": "43219b48e605643ad965a651c28d43ceac0869c028989839c9025e31308da606"
+    },
+    {
+      "path": "web/index.html",
+      "bytes": 26031,
+      "sha256": "a6707cfc4bcdee0887267ae9c7eabf78e6bf71064b4284d8976ed784b300a690"
+    }
+  ]
+}

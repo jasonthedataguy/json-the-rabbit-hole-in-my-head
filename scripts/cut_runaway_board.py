@@ -1,4 +1,4 @@
-"""Cut Chapter 21 screen artwork from the supplied flattened Run away board.
+"""Cut Chapter 22 screen artwork from the supplied flattened Run away board.
 
 The unchanged source board is retained in references/design. Enlarged crops
 are digital assets, not separated print-resolution artwork.

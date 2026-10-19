@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "slug": "three-meeting-theory",
-  "number": "17",
+  "number": "18",
   "title": "Three Meeting Theory",
   "short_title": "Three Meeting Theory",
   "part": 3,
@@ -9,7 +9,7 @@
   "publish": true,
   "release_stage": "reader-with-original-products",
   "canonical_text": "source/approved.md",
-  "canonical_path": "#chapter/17",
+  "canonical_path": "#chapter/18",
   "summary": "Niềm tin của những đứa trẻ hopeless romantic: hai người có thể cắt nhau ba lần trước khi nhận ra nhau.",
   "portal": {
     "scene": "Two people meet before a sunset skyline and bridge, framed by crowds, flowers, cafes and traces of travel.",

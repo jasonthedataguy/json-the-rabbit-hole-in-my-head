@@ -837,3 +837,22 @@ h1, h2, h3 { font-family: var(--serif); font-weight: 400; line-height: 1.15; }
 .runaway-spread-banner img{display:block;width:100%;height:auto;margin:auto;object-fit:contain}
 .runaway-spread-banner figcaption{margin-top:10px;color:#927b5d;font:10px/1.5 var(--sans);letter-spacing:1.3px;text-transform:uppercase}
 @media(max-width:700px){.runaway-chapter-stage{grid-template-columns:1fr;gap:9px}.runaway-chapter-stage .chapter-illustration:has(.fitted-portal){width:min(310px,82%);margin:0 auto}.runaway-chapter-note{margin:0 12px;padding:14px 0 14px 20px}.runaway-chapter-note p{font-size:21px}.runaway-spread-banner{margin-top:17px}.runaway-chapter-numeral{font-size:60px}.runaway-chapter-heading h1{font-size:clamp(35px,8.4vw,47px)}}
+
+.bad-trip-chapter-heading{text-align:center;margin:0 auto;max-width:780px}
+.bad-trip-chapter-heading .leaf-kicker{color:#827f78}
+.bad-trip-chapter-numeral{display:block;color:#a77745;font:75px/.93 var(--serif)}
+.bad-trip-chapter-heading h1{margin:4px 0 0;color:#132c3b;font:clamp(36px,4.3vw,57px)/1.08 var(--serif);letter-spacing:-1px;text-wrap:balance}
+.bad-trip-chapter-subtitle{margin:17px 0 8px;color:#946e47;font:10px/1.5 var(--sans);letter-spacing:2.1px;text-transform:uppercase}
+.bad-trip-chapter-part{margin:0;color:#667572;font:11px/1.5 var(--sans)}
+.bad-trip-chapter-stage{display:grid;grid-template-columns:minmax(0,330px) minmax(0,1fr);gap:24px;align-items:center;margin:24px 0 28px}
+.bad-trip-chapter-stage .chapter-illustration:has(.fitted-portal){width:100%;height:auto;margin:0;aspect-ratio:1}
+.bad-trip-chapter-stage .portal-page-marker,#map-view[data-chapter="bad-trip"] #portal-marker{display:none}
+.bad-trip-chapter-note{padding:20px 0 20px 25px;border-left:1px solid #a77745}
+.bad-trip-chapter-note>span{color:#847c6c;font:10px/1.5 var(--sans);letter-spacing:1.7px}
+.bad-trip-chapter-note p{margin:19px 0 25px;color:#243b44;font:22px/1.45 var(--body-serif)}
+.bad-trip-chapter-note button{display:inline-flex;gap:12px;align-items:center;padding:0 0 6px;border:0;border-bottom:1px solid #a77745;background:none;color:#795a3c;font:11px/1.5 var(--sans);letter-spacing:.7px;cursor:pointer}
+.bad-trip-chapter-note button:hover{color:#553d24}
+.bad-trip-spread-banner{margin:0 0 34px;text-align:center}
+.bad-trip-spread-banner img{display:block;width:100%;height:auto;margin:auto;object-fit:contain}
+.bad-trip-spread-banner figcaption{margin-top:10px;color:#927b5d;font:10px/1.5 var(--sans);letter-spacing:1.3px;text-transform:uppercase}
+@media(max-width:700px){.bad-trip-chapter-stage{grid-template-columns:1fr;gap:9px}.bad-trip-chapter-stage .chapter-illustration:has(.fitted-portal){width:min(310px,82%);margin:0 auto}.bad-trip-chapter-note{margin:0 12px;padding:14px 0 14px 20px}.bad-trip-chapter-note p{font-size:21px}.bad-trip-spread-banner{margin-top:17px}.bad-trip-chapter-numeral{font-size:60px}.bad-trip-chapter-heading h1{font-size:clamp(35px,8.4vw,47px)}}

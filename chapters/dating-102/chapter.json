@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "slug": "dating-102",
-  "number": "19",
+  "number": "20",
   "title": "Dating 102",
   "short_title": "Dating 102",
   "part": 3,
@@ -9,11 +9,16 @@
   "publish": true,
   "release_stage": "reader-with-original-products",
   "canonical_text": "source/approved.md",
-  "canonical_path": "#chapter/19",
+  "canonical_path": "#chapter/20",
   "summary": "Jason nhìn lại cách mình từng biến tình yêu thành cuộc đấu giá địa vị, rồi nhận ra sự tò mò về một con người đáng giá hơn những tín hiệu hào nhoáng.",
   "portal": {
     "scene": "Two people lean over a shared notebook in a warm room overlooking the night city, while profiles, signals, clocks and questions fill the paper ring.",
-    "objects": ["shared notebook", "two people", "profile cards", "night city"],
+    "objects": [
+      "shared notebook",
+      "two people",
+      "profile cards",
+      "night city"
+    ],
     "iconKey": "heart",
     "motif": "Better questions beyond the model"
   },

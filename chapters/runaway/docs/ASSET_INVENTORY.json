@@ -24,12 +24,12 @@
     {
       "path": "chapter.json",
       "bytes": 1229,
-      "sha256": "2080e1705bf1f9a08cbd35a460a2850a39f066cde20b223942a388fb22095220"
+      "sha256": "f9fa254d560c62fbc39257d301f2df51a2a4414404081f89b2a5c10813f28719"
     },
     {
       "path": "docs/ASSET_SOURCE.md",
       "bytes": 984,
-      "sha256": "1d5f8f0d8f0874a786d8472dea8cb5cbbe9405ef0291884778761b9a67f287ee"
+      "sha256": "1289b3e2dbfecfe853b3f966be46e01c7c0ff8fb95f8eee8b690b41fc488605c"
     },
     {
       "path": "docs/PRODUCTS.json",
@@ -49,7 +49,7 @@
     {
       "path": "README.md",
       "bytes": 656,
-      "sha256": "f594aa62e874df072466017c237edb4bf340aa9712fecea9898bf43b2c223b50"
+      "sha256": "ead9dd78c7bde65a98c2398940378d0d6805b3791b67e28afcafa77c7bff66a7"
     },
     {
       "path": "source/approved.md",
@@ -79,7 +79,7 @@
     {
       "path": "web/index.html",
       "bytes": 19932,
-      "sha256": "b6a3fa460f592c0fa35cd1b33b14feb65e624e7183da683e08ad85d9789198e6"
+      "sha256": "1bf7b5d24255cc978b59027518169876a764828c8bfedf4dd723addb47f1e34c"
     },
     {
       "path": "web/runaway.css",

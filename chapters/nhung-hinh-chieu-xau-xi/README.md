@@ -1,6 +1,6 @@
 # Những hình chiếu xấu xí
 
-V2 slot: **21**. Stable folder: `nhung-hinh-chieu-xau-xi`.
+V2 slot: **23**. Stable folder: `nhung-hinh-chieu-xau-xi`.
 
 Edit identity and state in `chapter.json`; keep author prose in `source/` and production recipes in `production.json`. See [the chapter workflow](../../docs/PRODUCTION_WORKFLOW.md) and [product status](docs/PRODUCT_STATUS.json).
 

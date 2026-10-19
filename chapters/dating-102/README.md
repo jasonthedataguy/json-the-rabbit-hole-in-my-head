@@ -1,6 +1,6 @@
 # Dating 102
 
-V2 slot: **Chapter 19**, immediately after Dating Algorithm. Stable folder: `dating-102`. The original publication remains essay 16.
+V2 slot: **20**, immediately after Dating Algorithm. Stable folder: `dating-102`. The original publication remains essay 16.
 
 Edit identity and state in `chapter.json`; keep author prose in `source/` and production recipes in `production.json`. See [the chapter workflow](../../docs/PRODUCTION_WORKFLOW.md) and [product status](docs/PRODUCT_STATUS.json).
 

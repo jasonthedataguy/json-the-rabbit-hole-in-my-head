@@ -1,0 +1,33 @@
+{
+  "schema_version": 2,
+  "slug": "bad-trip",
+  "number": "16",
+  "title": "Bad Trip",
+  "short_title": "Bad Trip",
+  "part": 2,
+  "language": "vi",
+  "publish": true,
+  "release_stage": "reader-with-digital-portal",
+  "canonical_text": "source/approved.md",
+  "canonical_path": "#chapter/16",
+  "summary": "Before a work trip, a party and an unsettling night turn Jason toward a mirror of himself. He has spent years trying to shed the Jason others knew, only to find that being Jason still matters to him.",
+  "portal": {
+    "scene": "Jason sits before a gilded mirror holding another version of himself; records, old photographs, work, travel and fractured memory circle the room.",
+    "objects": [
+      "gilded mirror",
+      "two versions of Jason",
+      "vinyl record",
+      "old photographs",
+      "travel suitcase",
+      "work desk",
+      "fractured path"
+    ],
+    "iconKey": "mirror",
+    "motif": "Seeing the self he tried to leave behind"
+  },
+  "original_edition": null,
+  "production_status": "author-selected full manuscript and board-derived digital portal; print and media pending",
+  "outline_title": "Badtrip",
+  "original_title": "Badtrip",
+  "manuscript_sha256": "e2dc5468139375a302940dafb0fc4120d8e1e67902056599a025caa4c2407e91"
+}

@@ -174,7 +174,7 @@
     {
       "path": "chapter.json",
       "bytes": 1430,
-      "sha256": "f3ae2189b6100bee855b722db08655a42502a51fd47002d2785df9d93a72b197"
+      "sha256": "857a9212e415d783050128550502fa567f297d235b72286007f283ef8f55fb66"
     },
     {
       "path": "docs/BROWSER_QA.json",
@@ -198,8 +198,8 @@
     },
     {
       "path": "docs/DESIGN_ADAPTATION.md",
-      "bytes": 1663,
-      "sha256": "1f6a51eff017ab2fac6d85f2503e3144116aee5f0ee8f2d0328b008e5cd90816"
+      "bytes": 1670,
+      "sha256": "e4eb0aad5b855f8fdb7c7feb6d40b8f273b8eec6230e3f378899a8d0dbd51bd6"
     },
     {
       "path": "docs/INVENTORY.json",
@@ -324,7 +324,7 @@
     {
       "path": "README.md",
       "bytes": 950,
-      "sha256": "6d61317bb8f7dc94a0bd5a02f6fae92eb13e61cc8bb11b0806d4b5679e27c765"
+      "sha256": "b1e6e0c68a1ec89b8d1f350222e688ebcdcad0c35b8394d852308e5bc90c0607"
     },
     {
       "path": "references/original-edition/approved.md",
@@ -879,7 +879,7 @@
     {
       "path": "web/index.html",
       "bytes": 10983,
-      "sha256": "c903b6782862cc3dbc8d23c74774d54f263c42b5b160db8f04822acaaeb25660"
+      "sha256": "a13a6b2766044ff18254a9069917776dd543b9065fb48a183e979f468f50810d"
     },
     {
       "path": "web/template.html",

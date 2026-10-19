@@ -1,4 +1,4 @@
-"""Build Chapter 16's standalone reader from the selected author manuscript."""
+"""Build Chapter 17's standalone reader from the selected author manuscript."""
 
 from pathlib import Path
 
@@ -20,8 +20,8 @@ def build() -> None:
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="theme-color" content="#112637">
-  <meta name="description" content="Asteroid: the complete author-selected Chapter 16 manuscript in the .json digital book.">
-  <title>Asteroid · Chapter 16 · .json</title>
+  <meta name="description" content="Asteroid: the complete author-selected Chapter 17 manuscript in the .json digital book.">
+  <title>Asteroid · Chapter 17 · .json</title>
   <link rel="icon" href="../../../assets/favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="asteroid.css">
 </head>
@@ -29,14 +29,14 @@ def build() -> None:
   <a class="skip" href="#essay">Skip to essay</a>
   <div class="progress" aria-hidden="true"><span id="progress-fill"></span></div>
   <header class="topbar">
-    <a class="brand" href="../../../index.html#chapter/16">.json</a>
-    <span>03_relationship_modeling / Chapter 16</span>
-    <a href="../../../index.html#chapter/16">Back to the book <span aria-hidden="true">↗</span></a>
+    <a class="brand" href="../../../index.html#chapter/17">.json</a>
+    <span>03_relationship_modeling / Chapter 17</span>
+    <a href="../../../index.html#chapter/17">Back to the book <span aria-hidden="true">↗</span></a>
   </header>
   <main>
     <section class="hero" aria-labelledby="title">
       <div class="hero-copy">
-        <p class="eyebrow">CHAPTER 16 / RELATIONSHIP MODELING</p>
+        <p class="eyebrow">CHAPTER 17 / RELATIONSHIP MODELING</p>
         <h1 id="title">Asteroid</h1>
         <p class="hero-lead">Vì vậy vì sao của anh à, đừng bao giờ dừng lại em nhé!</p>
         <a class="read-link" href="#essay">Read the chapter <span aria-hidden="true">↓</span></a>
@@ -48,10 +48,10 @@ def build() -> None:
     </section>
     <figure class="scene-spread"><img src="assets/asteroid-spread-v1.webp" width="1638" height="342" alt="A woman on a tiny planet, an orbit, two coworkers, a cafe table, bench, home, suitcase and sunset from the chapter artwork."><figcaption>Two lives, briefly on the same orbit</figcaption></figure>
     <div class="reading-layout" id="essay">
-      <aside class="essay-nav"><p>ASTEROID</p><a href="../source/approved.md" download>Download manuscript ↗</a><a href="../../../index.html#chapter/16">Return to the book ↗</a></aside>
+      <aside class="essay-nav"><p>ASTEROID</p><a href="../source/approved.md" download>Download manuscript ↗</a><a href="../../../index.html#chapter/17">Return to the book ↗</a></aside>
       <article class="prose" aria-label="Full author manuscript">{body}</article>
     </div>
-    <footer><a href="../../../index.html#chapter/16">Return to Chapter 16 in .json <span aria-hidden="true">↗</span></a></footer>
+    <footer><a href="../../../index.html#chapter/17">Return to Chapter 17 in .json <span aria-hidden="true">↗</span></a></footer>
   </main>
   <script>
     const fill=document.getElementById('progress-fill');

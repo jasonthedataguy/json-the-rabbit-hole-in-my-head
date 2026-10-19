@@ -1,6 +1,6 @@
 # Better and Brighter Than Ever
 
-V2 slot: **23**. Stable folder: `better-and-brighter-than-ever`.
+V2 slot: **25**. Stable folder: `better-and-brighter-than-ever`.
 
 Edit identity and state in `chapter.json`; keep author prose in `source/` and production recipes in `production.json`. See [the chapter workflow](../../docs/PRODUCTION_WORKFLOW.md) and [product status](docs/PRODUCT_STATUS.json).
 

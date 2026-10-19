@@ -159,7 +159,7 @@
     {
       "path": "chapter.json",
       "bytes": 1539,
-      "sha256": "d2fea41beca4e6c2b8a7f0a4f79cfcb8758e7ac26f5b2d56652bcc0838c06e67"
+      "sha256": "a156f2f03deff2134b51c1a7b2460b69f63ac8b3bb1c910c74582074920214d9"
     },
     {
       "path": "docs/BROWSER_QA.json",
@@ -289,7 +289,7 @@
     {
       "path": "README.md",
       "bytes": 1678,
-      "sha256": "7176c1a604b0c1555b0542edbc9d680a7be28dc115c5bf4a7716fb485af6a1d4"
+      "sha256": "eb1c36342384cb51fe5c145e2fe342808a1d2d5b236044541ba942c6e898d036"
     },
     {
       "path": "references/dating-v01/art/00_CHAPTER_04_COVER.jpg",
@@ -914,7 +914,7 @@
     {
       "path": "web/index.html",
       "bytes": 68106,
-      "sha256": "63df21148d5c52c73288552779dc868f5a72eda10c408d5795a6a08e854c8503"
+      "sha256": "2e112edca10c2ff45c1d15986563e4b99855bd242d5ee95d8ac8e29c51e33360"
     },
     {
       "path": "web/template.html",

@@ -1,6 +1,6 @@
 # The 23-Word Nuclear Warhead
 
-V2 slot: **22**. Stable folder: `the-23-word-nuclear-warhead`.
+V2 slot: **24**. Stable folder: `the-23-word-nuclear-warhead`.
 
 Edit identity and state in `chapter.json`; keep author prose in `source/` and production recipes in `production.json`. See [the chapter workflow](../../docs/PRODUCTION_WORKFLOW.md) and [product status](docs/PRODUCT_STATUS.json).
 

@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "slug": "dating-algorithm",
-  "number": "18",
+  "number": "19",
   "title": "Dating Algorithm",
   "short_title": "Dating Algorithm",
   "part": 3,
@@ -9,7 +9,7 @@
   "publish": true,
   "release_stage": "reader-with-original-products",
   "canonical_text": "source/approved.md",
-  "canonical_path": "#chapter/18",
+  "canonical_path": "#chapter/19",
   "summary": "Jason biến dating thành một bài toán về matching, signals và strategy, rồi nhận ra mô hình ấy không đo được điều anh thực sự muốn trong một mối quan hệ.",
   "portal": {
     "scene": "Two people share a lamplit date before a moonlit city while profile cards, hearts, charts and clocks surround their table.",
