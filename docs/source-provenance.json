@@ -84,6 +84,17 @@
       "sourceUrl": null
     },
     {
+      "slug": "mot-nguoi-ban-cu",
+      "editorialId": "07",
+      "legacyId": null,
+      "originalTitle": "An Old Friend",
+      "sourcePath": "chapters/mot-nguoi-ban-cu/source/approved.md",
+      "sha256": "63440b007aac6d24575d45b72f8912b069a05f5d60370fed1fef1c9100870e1c",
+      "bytes": 3951,
+      "archiveUrl": null,
+      "sourceUrl": null
+    },
+    {
       "slug": "for-mother-russia",
       "editorialId": "08",
       "legacyId": "05",

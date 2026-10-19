@@ -534,6 +534,24 @@
       "public_path": "assets/red-button-spread-v1.webp",
       "sha256_at_intake": "59530773f6a366caa0e05b74a7d8579a9df1f3075b53f6cd5fc806741af0bf80",
       "provenance": "Author board references/design/data_collection - red button.jpg; recipe scripts/cut_red_button_board.py. Rectangular key-elements reading illustration. Screen use only."
+    },
+    {
+      "source": "chapters/mot-nguoi-ban-cu/artwork/portal/old-friend-ring-v1.png",
+      "public_path": "assets/old-friend-ring-v1.png",
+      "sha256_at_intake": "ba7d80a75f006c706496edd4a9f8aaee7fd8e6f13cec609142497295805490ca",
+      "provenance": "Author board references/design/data_collection - an old friend.jpg; recipe scripts/cut_old_friend_board.py. Rotating childhood, games, school and diverging paths ring. Screen use only."
+    },
+    {
+      "source": "chapters/mot-nguoi-ban-cu/artwork/portal/old-friend-scene-v1.png",
+      "public_path": "assets/old-friend-scene-v1.png",
+      "sha256_at_intake": "c43a41c54aa8bec96e9cda964f1cb97913d55afba4133143510fbd1e9b69d71a",
+      "provenance": "Author board references/design/data_collection - an old friend.jpg; recipe scripts/cut_old_friend_board.py. Stationary scene of two friends sharing chíp chíp. Screen use only."
+    },
+    {
+      "source": "chapters/mot-nguoi-ban-cu/artwork/portal/old-friend-spread-v1.webp",
+      "public_path": "assets/old-friend-spread-v1.webp",
+      "sha256_at_intake": "92177d9f55a0b2bb4375719a13f2a5762fb8c899c48b9430848ba78de4f38399",
+      "provenance": "Author board references/design/data_collection - an old friend.jpg; recipe scripts/cut_old_friend_board.py. Rectangular childhood key-elements reading illustration. Screen use only."
     }
   ]
 }

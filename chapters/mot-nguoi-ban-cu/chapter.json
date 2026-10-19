@@ -6,23 +6,26 @@
   "short_title": "An Old Friend",
   "part": 2,
   "language": "vi",
-  "publish": false,
-  "release_stage": "outline",
-  "canonical_text": null,
+  "publish": true,
+  "release_stage": "reader-with-digital-portal",
+  "canonical_text": "source/approved.md",
   "canonical_path": "#chapter/07",
-  "summary": "Một món đồ chơi nhỏ từ lớp mẫu giáo mở ra một tình bạn kéo dài rồi thay đổi.",
+  "summary": "Một gói chíp chíp ở lớp mẫu giáo mở đầu tình bạn kéo dài nhiều năm. Những trò chơi, bài kiểm tra và lời xin lỗi vẫn còn trong ký ức, dù hai người không thể quay lại như xưa.",
   "portal": {
-    "scene": "A tiny kindergarten toy sits alone on an enormous classroom floor between two stools.",
+    "scene": "Two children share a packet of chíp chíp on a bench while games, schoolwork, an apology and diverging paths circle them.",
     "objects": [
-      "wind-up toy",
-      "school window",
-      "two stools"
+      "packet of chíp chíp",
+      "childhood game console",
+      "geometry test papers",
+      "apology note",
+      "diverging paths"
     ],
-    "iconKey": "toy",
-    "motif": "The tiny toy"
+    "iconKey": "candy",
+    "motif": "The packet of chíp chíp"
   },
   "original_edition": null,
-  "production_status": "awaiting author manuscript",
+  "production_status": "author-selected full manuscript and board-derived digital portal; print and media pending",
+  "manuscript_sha256": "63440b007aac6d24575d45b72f8912b069a05f5d60370fed1fef1c9100870e1c",
   "outline_title": "Một người bạn cũ",
   "original_title": "Một người bạn cũ"
 }

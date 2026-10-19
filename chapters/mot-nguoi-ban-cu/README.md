@@ -1,7 +1,6 @@
-# Một người bạn cũ
+# An Old Friend
 
-V2 slot: **07**. Stable folder: `mot-nguoi-ban-cu`.
+V2 Chapter **07** in `02_data_collection`. The author's `Bài 8 — Một người bạn cũ` line is retained in the selected Vietnamese manuscript, while the v2 chapter number and `mot-nguoi-ban-cu` slug remain stable.
 
-Edit identity and state in `chapter.json`; keep author prose in `source/` and production recipes in `production.json`. See [the chapter workflow](../../docs/PRODUCTION_WORKFLOW.md) and [product status](docs/PRODUCT_STATUS.json).
+The [selected manuscript](source/approved.md) drives the main reader, desktop cover preview, and [standalone digital chapter](web/index.html). The supplied [design board](../../references/design/data_collection%20-%20an%20old%20friend.jpg) is preserved as reference. [Digital artwork notes](docs/ASSET_SOURCE.md) explain the crops and their screen-only limits. Production states are recorded in [PRODUCTS.json](docs/PRODUCTS.json).
 
-This slot contains the existing editorial outline only. Do not replace the missing author manuscript with invented prose.

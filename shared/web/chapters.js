@@ -1,4 +1,4 @@
-import { chapters, acts } from './chapter-data.js?v=16';
+import { chapters, acts } from './chapter-data.js?v=17';
 export { chapters, acts };
 
 const iconPaths = {
@@ -11,6 +11,7 @@ const iconPaths = {
   key:'M10 9a4 4 0 1 1-8 0 4 4 0 0 1 8 0ZM10 9h12m-4 0v4m-4-4v3',
   phone:'M5 3c-5 10 4 19 14 17l2-4-5-3-3 3-5-5 2-3-3-5z',
   toy:'M5 10h13v9H5zM9 6h5v4m-8 9v3m10-3v3M18 12h4m-1-2v4M7 13h1m5 0h1',
+  candy:'M5 3h14v18H5zM5 8c4 2 10 2 14 0M9 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm6 1a2 2 0 1 0 0 4 2 2 0 0 0 0-4Z',
   pine:'M12 2L5 11h4l-6 7h7v4h4v-4h7l-6-7h4z',
   metro:'M5 3h14v15H5zM8 6h8v6H8zM8 16h1m6 0h1M5 22l3-4m8 0 3 4',
   notebook:'M3 4c4-2 6-2 9 0 3-2 5-2 9 0v16c-4-2-6-2-9 0-3-2-5-2-9 0zM12 4v16M6 8h3m6 0h3',

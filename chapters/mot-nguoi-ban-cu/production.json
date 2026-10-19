@@ -7,5 +7,14 @@
     "heading": "",
     "intro": "",
     "moments": []
+  },
+  "digital_portal": {
+    "recipe": "scripts/cut_old_friend_board.py",
+    "ring": "artwork/portal/old-friend-ring-v1.png",
+    "scene": "artwork/portal/old-friend-scene-v1.png",
+    "homepage_scene": "artwork/portal/old-friend-scene-v1.png",
+    "reader_illustration": "artwork/portal/old-friend-spread-v1.webp",
+    "standalone_portal": "web/assets/old-friend-portal-v1.png",
+    "status": "digital crops from flattened supplied board"
   }
 }

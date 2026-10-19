@@ -2,24 +2,59 @@
   "chapter": "mot-nguoi-ban-cu",
   "files": [
     {
+      "path": "artwork/portal/old-friend-portal-v1.png",
+      "bytes": 1609023,
+      "sha256": "ac5d66f2293cf115ae02602f92733f1877d1d4fa689e37e5135b881d91b7d0e1"
+    },
+    {
+      "path": "artwork/portal/old-friend-ring-v1.png",
+      "bytes": 1943222,
+      "sha256": "ba7d80a75f006c706496edd4a9f8aaee7fd8e6f13cec609142497295805490ca"
+    },
+    {
+      "path": "artwork/portal/old-friend-scene-v1.png",
+      "bytes": 1538405,
+      "sha256": "c43a41c54aa8bec96e9cda964f1cb97913d55afba4133143510fbd1e9b69d71a"
+    },
+    {
+      "path": "artwork/portal/old-friend-spread-v1.webp",
+      "bytes": 162910,
+      "sha256": "92177d9f55a0b2bb4375719a13f2a5762fb8c899c48b9430848ba78de4f38399"
+    },
+    {
       "path": "chapter.json",
-      "bytes": 865,
-      "sha256": "ef19bb93a2f5ec718cda5f9352d2254f26c149018d140be16f0514374ee94b09"
+      "bytes": 1305,
+      "sha256": "0e665058794c9395337a1a3298ba1e2b5b22e81f8321513cdf47d727f609a2a2"
+    },
+    {
+      "path": "docs/ASSET_SOURCE.md",
+      "bytes": 982,
+      "sha256": "61856f24c6cc2a6f102323443eb4e043f9011e14d55bb58bc2d64212a81ed240"
     },
     {
       "path": "docs/PRODUCTS.json",
-      "bytes": 311,
-      "sha256": "0861301e765d7c368357a2290dcddb140820e23f11342496c5f5fd976157678d"
+      "bytes": 1224,
+      "sha256": "757665d138449b25c740f447d052ad96c0cd5e6df7d6525f3c30e8f74679b063"
+    },
+    {
+      "path": "docs/QA.md",
+      "bytes": 1201,
+      "sha256": "1058e02ad626a900c6f140ed9d350390925d7bd547cea7ee337a648c3f08b54a"
     },
     {
       "path": "production.json",
-      "bytes": 158,
-      "sha256": "04cca5cbcb7714947f2e115425c3b36fd58203c853d17184364ed8f229b16d7d"
+      "bytes": 610,
+      "sha256": "078ad856701ed8ff96e9a844f63485c1d3b18aefdb2be4dc0a48e1b5f263b4a3"
     },
     {
       "path": "README.md",
-      "bytes": 440,
-      "sha256": "dbb5e8bbd74115dacfe6fcfc084603f91ccc7b1bd7d8e2cc9e84b02b08ba1c78"
+      "bytes": 678,
+      "sha256": "b91cbbff2c36fce818cfdd4fe7c4d89370cc1825cb809a63e4b9855586157af9"
+    },
+    {
+      "path": "source/approved.md",
+      "bytes": 3951,
+      "sha256": "63440b007aac6d24575d45b72f8912b069a05f5d60370fed1fef1c9100870e1c"
     },
     {
       "path": "source/outline.md",
@@ -28,8 +63,28 @@
     },
     {
       "path": "source/revisions.log",
-      "bytes": 111,
-      "sha256": "e01ec275c2bd0c7128f4545ba1a8339712c2e287d8a0ea329c9ccf3068756f36"
+      "bytes": 344,
+      "sha256": "023ad65a7a4022a2a85799862cb4be3929b0b5d22622e172f74acaeb3b2fbed2"
+    },
+    {
+      "path": "web/assets/old-friend-portal-v1.png",
+      "bytes": 1609023,
+      "sha256": "ac5d66f2293cf115ae02602f92733f1877d1d4fa689e37e5135b881d91b7d0e1"
+    },
+    {
+      "path": "web/assets/old-friend-spread-v1.webp",
+      "bytes": 162910,
+      "sha256": "92177d9f55a0b2bb4375719a13f2a5762fb8c899c48b9430848ba78de4f38399"
+    },
+    {
+      "path": "web/index.html",
+      "bytes": 7067,
+      "sha256": "5d7d824fad813d6d68b6828bba26977bc1aa9e8d3509febb320d964ef55c2ef2"
+    },
+    {
+      "path": "web/old-friend.css",
+      "bytes": 5861,
+      "sha256": "e9b364a4102d649d5a210205aa8ad7bf8c6366803ecd4f2617a8ee88d9d12c35"
     }
   ]
 }

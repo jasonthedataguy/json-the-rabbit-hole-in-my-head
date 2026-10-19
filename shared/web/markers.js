@@ -1,4 +1,4 @@
-import { renderIcon } from './chapters.js?v=19';
+import { renderIcon } from './chapters.js?v=20';
 
 // The chapter's keepsake is printed on a paper tab seated in the portal's rim.
 // Keep this SVG in normal document flow; its owner decides where the tab sits.
@@ -14,6 +14,7 @@ const markerNames = {
   key: 'an apartment key',
   phone: 'a telephone receiver',
   toy: 'a childhood wind-up toy',
+  candy: 'the packet of chíp chíp shared in childhood',
   pine: 'a snow-covered pine',
   metro: 'a Paris metro carriage',
   notebook: 'an open memory notebook',
