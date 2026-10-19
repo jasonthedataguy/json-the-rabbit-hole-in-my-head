@@ -36,8 +36,8 @@ def cut() -> None:
     scene = main.crop((188, 188, 812, 812)).resize(
         (SIZE, SIZE), Image.Resampling.LANCZOS
     )
-    # The shared book-cover frame already includes Jason. Its preview centres
-    # the bookstore and the converging gold paths, without a second figure.
+    # Preserve the earlier close bookstore alternate. The active homepage
+    # uses scene, showing the nested paths as well as the bookshop.
     cover_scene = board.crop((282, 170, 625, 510)).resize(
         (SIZE, SIZE), Image.Resampling.LANCZOS
     )

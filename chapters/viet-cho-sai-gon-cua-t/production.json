@@ -614,7 +614,8 @@
     "recipe": "scripts/cut_saigon_board.py",
     "ring": "artwork/portal/saigon-ring-v1.png",
     "scene": "artwork/portal/saigon-scene-v1.png",
-    "homepage_scene": "artwork/portal/saigon-cover-scene-v1.png",
+    "homepage_scene": "artwork/portal/saigon-scene-v1.png",
+    "homepage_scene_alternate": "artwork/portal/saigon-cover-scene-v1.png",
     "reader_illustration": "artwork/portal/saigon-spread-v1.webp",
     "standalone_portal": "web/assets/saigon-portal-v1.png",
     "status": "digital crops from flattened supplied board; legacy scene/print/media recipes remain historical"

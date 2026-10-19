@@ -198,8 +198,8 @@
     },
     {
       "path": "docs/PRODUCTS.json",
-      "bytes": 5063,
-      "sha256": "af6b2892a5079de8478e5745efa34e1067bde988c5eafcbb59ade15ba9c0557c"
+      "bytes": 5084,
+      "sha256": "1c3928e1009db79be9aa8cef893d014cdbba52f12a55ea9d6e238f50ba07d855"
     },
     {
       "path": "docs/REFERENCE_IMPORT.json",
@@ -248,8 +248,8 @@
     },
     {
       "path": "production.json",
-      "bytes": 28279,
-      "sha256": "508ee586c095b623354f89756da575510805ab9eef337f0cd6dd244e0c49b130"
+      "bytes": 28350,
+      "sha256": "73cbde52eabd898aef36350f7ccfc276621fee0e4778e268cceeca1c2232c755"
     },
     {
       "path": "README.md",

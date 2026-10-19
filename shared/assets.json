@@ -467,13 +467,13 @@
       "source": "chapters/viet-cho-sai-gon-cua-t/artwork/portal/saigon-scene-v1.png",
       "public_path": "assets/saigon-scene-v1.png",
       "sha256_at_intake": "5f368c7bc007e455462c2ce1f15e67a423308bf6f7c1bc21a9f401a81f94dfce",
-      "provenance": "Author board references/design/data_collection - to my saigon (2).png; recipe scripts/cut_saigon_board.py. Aligned stationary couple, dog, Ba Son Bridge and skyline for Chapter 14. Screen use only."
+      "provenance": "Author board references/design/data_collection - to my saigon (2).png; recipe scripts/cut_saigon_board.py. Aligned stationary couple, dog, Ba Son Bridge and skyline for Chapter 14 and its homepage stop. Screen use only."
     },
     {
       "source": "chapters/viet-cho-sai-gon-cua-t/artwork/portal/saigon-cover-scene-v1.png",
       "public_path": "assets/saigon-cover-scene-v1.png",
       "sha256_at_intake": "c7129cf2cbfdefa9289cf0c152af24393f25ff5dd25a238520509a19361d180b",
-      "provenance": "Author board references/design/data_collection - to my saigon (2).png; recipe scripts/cut_saigon_board.py. City-only preview beneath the shared homepage ring, without a second Jason. Screen use only."
+      "provenance": "Author board references/design/data_collection - to my saigon (2).png; recipe scripts/cut_saigon_board.py. Retained tighter city-only homepage alternate. Screen use only."
     },
     {
       "source": "chapters/viet-cho-sai-gon-cua-t/artwork/portal/saigon-spread-v1.webp",
@@ -497,13 +497,13 @@
       "source": "chapters/nhung-su-trung-hop/artwork/portal/coincidence-scene-v1.png",
       "public_path": "assets/coincidence-scene-v1.png",
       "sha256_at_intake": "b1e54ad339f4376ce97e41aa057ffb35f61d2dc825d6b1ffcc670f74f60a774b",
-      "provenance": "Author board references/design/data_collection - coincidence.png; recipe scripts/cut_coincidence_board.py. Aligned stationary bookshop and converging paths. Screen use only."
+      "provenance": "Author board references/design/data_collection - coincidence.png; recipe scripts/cut_coincidence_board.py. Aligned stationary bookshop and converging paths for Chapter 11 and its homepage stop. Screen use only."
     },
     {
       "source": "chapters/nhung-su-trung-hop/artwork/portal/coincidence-cover-scene-v1.png",
       "public_path": "assets/coincidence-cover-scene-v1.png",
       "sha256_at_intake": "328a27b0637cee239aeadcde856aad405aaeaf9ca96f68dbb43cfa9630a266ae",
-      "provenance": "Author board references/design/data_collection - coincidence.png; recipe scripts/cut_coincidence_board.py. Bookshop-only centre beneath the shared homepage cover ring. Screen use only."
+      "provenance": "Author board references/design/data_collection - coincidence.png; recipe scripts/cut_coincidence_board.py. Retained tighter bookshop-only homepage alternate. Screen use only."
     },
     {
       "source": "chapters/nhung-su-trung-hop/artwork/portal/coincidence-spread-v1.webp",

@@ -25,6 +25,8 @@ The Introduction now uses the latest supplied concept board's complete compositi
 | Cold Rice floral lattice ring for the chapter map and reader | `chapters/com-nguoi/artwork/portal/rice-ring-board-v2.png` |
 | Cold Rice wide reading illustration | `chapters/com-nguoi/artwork/portal/rice-family-room-v2.webp` |
 | Quant rectangular reading illustration | `chapters/i-was-born-a-quant/artwork/portal/quant-reading-spread-v2.webp` |
+| Coincidence main homepage centre and closer alternate | `chapters/nhung-su-trung-hop/artwork/portal/coincidence-scene-v1.png`, `coincidence-cover-scene-v1.png` |
+| To My Saigon main homepage centre and city-only alternate | `chapters/viet-cho-sai-gon-cua-t/artwork/portal/saigon-scene-v1.png`, `saigon-cover-scene-v1.png` |
 | Fashion ring, upright centre and wide digital spread | `chapters/fashion/artwork/portal/fashion-ring-v2.png`, `fashion-scene-v2.png`, `fashion-room-v2.webp` |
 | Earlier Fashion Paris portal (inactive reference) | `chapters/fashion/artwork/portal/fashion-portal.png` |
 | Fashion final digital-book board (unchanged) | `references/design/Fashion Chapter Digital Book Board - final.png` |

@@ -40,8 +40,8 @@ def cut() -> None:
     scene = main.crop((188, 188, 812, 812)).resize(
         (SIZE, SIZE), Image.Resampling.LANCZOS
     )
-    # The shared cover ring already carries Jason. Keep his second appearance
-    # out of this preview and foreground Ba Son Bridge and the skyline.
+    # Preserve the earlier city-only homepage alternate. The active homepage
+    # now uses scene so the couple and dog stay with the bridge and skyline.
     cover_scene = board.crop((295, 280, 655, 540)).resize(
         (SIZE, SIZE), Image.Resampling.LANCZOS
     )

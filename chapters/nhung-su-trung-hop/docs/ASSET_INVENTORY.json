@@ -38,18 +38,18 @@
     },
     {
       "path": "docs/ASSET_SOURCE.md",
-      "bytes": 1001,
-      "sha256": "ec35798a147ab84ec280778e00eb2439f3dfb8ba26e4d9b5a96406221d86a4fa"
+      "bytes": 1104,
+      "sha256": "801ce6dcc49e69bec6ff96f6d9ef16b3ad40b1af31d4f715051168966fd32259"
     },
     {
       "path": "docs/PRODUCTS.json",
-      "bytes": 1612,
-      "sha256": "45122ed13705e27a37a991298e01f9d9f941214e199be2fe82704cd4cd0fd6b5"
+      "bytes": 1634,
+      "sha256": "85e89f6ed7f29a88aaae3789a5a197fd64e06c8a674447abd1c3f171a54945b9"
     },
     {
       "path": "production.json",
-      "bytes": 158,
-      "sha256": "04cca5cbcb7714947f2e115425c3b36fd58203c853d17184364ed8f229b16d7d"
+      "bytes": 698,
+      "sha256": "d1ceb71e8248aa322fb96ab4cfbc52f54bf0a06213ff64e19ef58a37892feade"
     },
     {
       "path": "README.md",
