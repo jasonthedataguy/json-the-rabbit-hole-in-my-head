@@ -2,24 +2,64 @@
   "chapter": "the-23-word-nuclear-warhead",
   "files": [
     {
+      "path": "artwork/portal/office-battlefield-portal-v1.png",
+      "bytes": 1415446,
+      "sha256": "e735a1e30c20302ff355e9b412ea5311f1cc7f28d66df575f8f418aa7c02d81c"
+    },
+    {
+      "path": "artwork/portal/office-battlefield-ring-v1.png",
+      "bytes": 1639245,
+      "sha256": "b9d6351cb9fc5a20b725ebc0110a4fc4fcda1cfd7f3dcd3eccd046cbc1ba8ddf"
+    },
+    {
+      "path": "artwork/portal/office-battlefield-scene-v1.png",
+      "bytes": 1313716,
+      "sha256": "6db3d006096bf6d302ce5123283b2b3978b2bcf331ba4532ce3d4d7f037ce954"
+    },
+    {
+      "path": "artwork/portal/office-battlefield-spread-v1.webp",
+      "bytes": 140454,
+      "sha256": "6359053f0cd127a3193747e5f8c47127df407fe488850983b1fd90c1b8e09ef9"
+    },
+    {
       "path": "chapter.json",
-      "bytes": 1045,
-      "sha256": "6f5b8953f92f477ac1c6ef7bb6b4a10337e12bfecf6acf86832b38dca6c44381"
+      "bytes": 1371,
+      "sha256": "5dccfc6b5482dbedd583c9382bfbfb79a99b14fdb3a99038bfa8e6d87b05da6c"
+    },
+    {
+      "path": "docs/ASSET_SOURCE.md",
+      "bytes": 1199,
+      "sha256": "71ffd780491d9eace01cec49f6aca31a7c223a3f1d3779ffe232543c44c5560b"
     },
     {
       "path": "docs/PRODUCTS.json",
-      "bytes": 322,
-      "sha256": "21b2153906dd67ff06b408e152ffc01fe0ca7dae6f520b0e2037959f60def646"
+      "bytes": 1418,
+      "sha256": "0ff02441b378b533e70e59ba0e3612c51edfaeb8a7b1e82e389e653d6adfc2d7"
+    },
+    {
+      "path": "docs/QA.md",
+      "bytes": 1590,
+      "sha256": "84b24d1a87f5d15fad1ca32cb3a82de60c10b0c2056b065e7113056d4099e883"
     },
     {
       "path": "production.json",
-      "bytes": 158,
-      "sha256": "04cca5cbcb7714947f2e115425c3b36fd58203c853d17184364ed8f229b16d7d"
+      "bytes": 658,
+      "sha256": "d27758d8422521ea051705ef48d5539b921f9e2beb18e7795694ec55d8cdec61"
     },
     {
       "path": "README.md",
-      "bytes": 454,
-      "sha256": "d7e5bad1b1e4ac66a14c79cdd298377694fac30a2f5d3ab0cea023e90915d7bd"
+      "bytes": 998,
+      "sha256": "ef8817c298645a97d19f8780faaa53ab851652f4d5f0f4cfe725b7c3dfb993a0"
+    },
+    {
+      "path": "source/approved.md",
+      "bytes": 11267,
+      "sha256": "797c0b28557bc6a858c623e46f48058e5f039ac5f2e47b0f6bea9836dc3f8a1f"
+    },
+    {
+      "path": "source/original.md",
+      "bytes": 11022,
+      "sha256": "81ca20db5dfbc4964d1aa33ac62a8054c602925915e645b22b7282f40807a779"
     },
     {
       "path": "source/outline.md",
@@ -28,8 +68,28 @@
     },
     {
       "path": "source/revisions.log",
-      "bytes": 111,
-      "sha256": "e01ec275c2bd0c7128f4545ba1a8339712c2e287d8a0ea329c9ccf3068756f36"
+      "bytes": 656,
+      "sha256": "eb336ed4953e8fcbebaa2daf3e4b379ee5b52233ce54565194ebcc3e0cb71341"
+    },
+    {
+      "path": "web/assets/office-battlefield-portal-v1.png",
+      "bytes": 1415446,
+      "sha256": "e735a1e30c20302ff355e9b412ea5311f1cc7f28d66df575f8f418aa7c02d81c"
+    },
+    {
+      "path": "web/assets/office-battlefield-spread-v1.webp",
+      "bytes": 140454,
+      "sha256": "6359053f0cd127a3193747e5f8c47127df407fe488850983b1fd90c1b8e09ef9"
+    },
+    {
+      "path": "web/index.html",
+      "bytes": 14622,
+      "sha256": "38ad8479e2fe16cbd191a53b156fd6ba8658e786bb26ddcc6676eb908dc55872"
+    },
+    {
+      "path": "web/office-battlefield.css",
+      "bytes": 5856,
+      "sha256": "43219b48e605643ad965a651c28d43ceac0869c028989839c9025e31308da606"
     }
   ]
 }

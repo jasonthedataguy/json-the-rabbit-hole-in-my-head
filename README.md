@@ -25,9 +25,9 @@ Each chapter has `chapter.json`, `production.json`, `source/`, `artwork/{source,
 
 ## Work here
 
-Edit the website in `shared/web/`. Edit book-level content in `book.json` and chapter identity/summary in `chapters/<slug>/chapter.json`. Keep author-selected prose in the chapter’s `source/`. All 34 slots have a folder; 16 currently contain editorial outlines, not full author manuscripts.
+Edit the website in `shared/web/`. Edit book-level content in `book.json` and chapter identity/summary in `chapters/<slug>/chapter.json`. Keep author-selected prose in the chapter’s `source/`. All 34 slots have a folder; 15 currently contain editorial outlines, not full author manuscripts.
 
-Ten original chapters have their complete tracked asset kits locally: 1,412 preserved file mappings, about 444 MB including existing portal assets and production references. The selected reader retains all 80,917 original manuscript bytes plus the author-supplied Quant, Flow, Red Button, An Old Friend, Coincidence, Asteroid, Run away and Bad Trip chapters. All eighteen full manuscripts now have portal slots. [Migration evidence](docs/MIGRATION.json) and [source provenance](docs/source-provenance.json) record their identities.
+Ten original chapters have their complete tracked asset kits locally: 1,412 preserved file mappings, about 444 MB including existing portal assets and production references. The selected reader retains all 80,917 original manuscript bytes plus the author-supplied Quant, Flow, Red Button, An Old Friend, Coincidence, Asteroid, Run away, Bad Trip and Office Battlefield chapters. All nineteen full manuscripts now have portal slots. [Migration evidence](docs/MIGRATION.json) and [source provenance](docs/source-provenance.json) record their identities.
 
 The reader links to local immersive experiences and inherited print/film files. Their original numbering and proof states remain explicit. Existing assets are available for adaptation; narration, printer-specific work and v2 media/design review are not automatically complete.
 
@@ -53,7 +53,7 @@ Open [localhost:4173](http://localhost:4173). Rebuild after changing sources. To
 python scripts/new_chapter.py --slug another-essay --title "Another essay" --archive
 ```
 
-To work on one of the remaining 16 outline chapters, edit its existing folder. [The workflow](docs/PRODUCTION_WORKFLOW.md) explains manuscript selection, Read / Explore / Revisit, print, narration, films, social packs and release evidence.
+To work on one of the remaining 15 outline chapters, edit its existing folder. [The workflow](docs/PRODUCTION_WORKFLOW.md) explains manuscript selection, Read / Explore / Revisit, print, narration, films, social packs and release evidence.
 
 ## Cold Rice digital design
 
@@ -94,3 +94,7 @@ No release or social upload is performed by the local build. The [original editi
 ## Bad Trip digital design
 
 Bad Trip is the final chapter of `02_data_collection` at editorial Chapter 16. The full author-selected `Badtrip` manuscript remains byte-for-byte in `chapters/bad-trip/source/approved.md`, and the supplied board is preserved in `references/design/`. `scripts/cut_bad_trip_board.py` produces an aligned mirror ring and stationary centre plus a full-width rectangular reading illustration. The chapter map, leaf, desktop cover preview and standalone reader use those digital crops. The homepage retains its shared cover ring and reveals the mirror in the centre. Existing editorial Chapters 16–32 move to 17–33; stable slugs and original-edition numbers do not change. These board crops are screen assets, not print masters.
+
+## Office Battlefield digital design
+
+Office Battlefield - The 23-Word Nuclear Warhead now fills the existing `04_model_failure` Chapter 24 slot. The exact author attachment is retained in `source/original.md`; `source/approved.md` adds paragraph spacing for the digital reader without changing wording. The supplied board stays unchanged in `references/design/`. `scripts/cut_office_battlefield_board.py` produces an aligned office-and-chess ring, stationary paper-message centre and rectangular key-elements illustration. The chapter map, reading leaf, homepage centre and standalone reader use these digital assets. Book order does not change. The board-derived crops are screen assets, not separated print masters.

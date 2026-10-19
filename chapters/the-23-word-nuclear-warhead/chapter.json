@@ -2,26 +2,31 @@
   "schema_version": 2,
   "slug": "the-23-word-nuclear-warhead",
   "number": "24",
-  "title": "The 23-Word Nuclear Warhead",
-  "short_title": "The 23-Word Nuclear Warhead",
+  "title": "Office Battlefield - The 23-Word Nuclear Warhead",
+  "short_title": "Office Battlefield",
   "part": 4,
   "language": "vi",
-  "publish": false,
-  "release_stage": "outline",
-  "canonical_text": null,
+  "publish": true,
+  "release_stage": "reader-with-digital-portal",
+  "canonical_text": "source/approved.md",
   "canonical_path": "#chapter/24",
-  "summary": "Khởi đầu từ tin nhắn, một lời đùa về video Professor Jiang, 4chan meme trong #ai-learning và một ticket từng có tiêu đề thiếu tôn trọng. Jason trả đũa bằng cách nhờ Claude nói hộ và dựng ra năm tầng “sát thương” của một câu nhắn.",
+  "summary": "A colleague's jokes and a Linear ticket become, in Jason's mind, a contest for respect. He calls on Claude to deliver a pointed message in a Slack thread, then breaks down the five layers of strategy he believes it carried.",
   "portal": {
-    "scene": "A tiny message balloon looms at theatrical scale above an office desk and a chess piece.",
+    "scene": "Jason faces a giant paper message above an office chess table; coworkers, a task ticket, an AI agent and everyday work objects circle the room.",
     "objects": [
-      "chat bubble",
-      "ticket",
-      "chess piece"
+      "paper message",
+      "Slack thread",
+      "Linear ticket",
+      "AI agent",
+      "chess table",
+      "office desks"
     ],
     "iconKey": "message",
-    "motif": "The message"
+    "motif": "The message as a move"
   },
   "original_edition": null,
-  "production_status": "awaiting author manuscript",
-  "outline_title": "The 23-Word Nuclear Warhead"
+  "production_status": "author-selected full manuscript and board-derived digital portal; print and media pending",
+  "outline_title": "The 23-Word Nuclear Warhead",
+  "original_title": "01. The 23-Word Nuclear Warhead",
+  "manuscript_sha256": "797c0b28557bc6a858c623e46f48058e5f039ac5f2e47b0f6bea9836dc3f8a1f"
 }

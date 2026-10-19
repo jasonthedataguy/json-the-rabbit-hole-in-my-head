@@ -606,6 +606,24 @@
       "public_path": "assets/bad-trip-spread-v1.webp",
       "sha256_at_intake": "be6e0c8de193740a7d8f1d662d53a297bd42005198b9f64e624f602e85d54935",
       "provenance": "Author board references/design/data_collection - bad-trip.png; recipe scripts/cut_bad_trip_board.py. Rectangular extracted-object reading illustration. Screen use only."
+    },
+    {
+      "source": "chapters/the-23-word-nuclear-warhead/artwork/portal/office-battlefield-ring-v1.png",
+      "public_path": "assets/office-battlefield-ring-v1.png",
+      "sha256_at_intake": "b9d6351cb9fc5a20b725ebc0110a4fc4fcda1cfd7f3dcd3eccd046cbc1ba8ddf",
+      "provenance": "Author board references/design/model_failure -office-battlefield-the-23-word-nuclear-warhead.jpg; recipe scripts/cut_office_battlefield_board.py. Rotating office, team, ticket, AI and chess collage. Screen use only."
+    },
+    {
+      "source": "chapters/the-23-word-nuclear-warhead/artwork/portal/office-battlefield-scene-v1.png",
+      "public_path": "assets/office-battlefield-scene-v1.png",
+      "sha256_at_intake": "6db3d006096bf6d302ce5123283b2b3978b2bcf331ba4532ce3d4d7f037ce954",
+      "provenance": "Author board references/design/model_failure -office-battlefield-the-23-word-nuclear-warhead.jpg; recipe scripts/cut_office_battlefield_board.py. Stationary paper message and chess table centre, aligned to the ring. Screen use only."
+    },
+    {
+      "source": "chapters/the-23-word-nuclear-warhead/artwork/portal/office-battlefield-spread-v1.webp",
+      "public_path": "assets/office-battlefield-spread-v1.webp",
+      "sha256_at_intake": "6359053f0cd127a3193747e5f8c47127df407fe488850983b1fd90c1b8e09ef9",
+      "provenance": "Author board references/design/model_failure -office-battlefield-the-23-word-nuclear-warhead.jpg; recipe scripts/cut_office_battlefield_board.py. Rectangular extracted-object reading illustration. Screen use only."
     }
   ]
 }

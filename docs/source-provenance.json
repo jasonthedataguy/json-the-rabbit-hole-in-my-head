@@ -203,6 +203,17 @@
       "bytes": 16241,
       "archiveUrl": null,
       "sourceUrl": null
+    },
+    {
+      "slug": "the-23-word-nuclear-warhead",
+      "editorialId": "24",
+      "legacyId": null,
+      "originalTitle": "Office Battlefield - The 23-Word Nuclear Warhead",
+      "sourcePath": "chapters/the-23-word-nuclear-warhead/source/approved.md",
+      "sha256": "797c0b28557bc6a858c623e46f48058e5f039ac5f2e47b0f6bea9836dc3f8a1f",
+      "bytes": 11267,
+      "archiveUrl": null,
+      "sourceUrl": null
     }
   ]
 }
