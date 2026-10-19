@@ -14,6 +14,9 @@ from manuscript import render_markdown
 from new_chapter import create_chapter
 
 class ProjectTests(unittest.TestCase):
+    def test_checked_out_project_structure(self):
+        validate_project(ROOT)
+
     def setUp(self):
         self.temp = tempfile.TemporaryDirectory()
         self.addCleanup(self.temp.cleanup)
