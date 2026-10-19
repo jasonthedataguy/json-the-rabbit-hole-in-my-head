@@ -1,4 +1,4 @@
-import { chapters, acts } from './chapter-data.js?v=18';
+import { chapters, acts } from './chapter-data.js?v=19';
 export { chapters, acts };
 
 const iconPaths = {

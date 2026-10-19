@@ -1,7 +1,5 @@
-# Runaway
+# Run away
 
-V2 slot: **20**. Stable folder: `runaway`.
+V2 Chapter **21** in `03_relationship_modeling`. The stable slug is `runaway`; the selected author's manuscript retains its original `# Runaway` heading while the digital display follows the requested **Run away** title.
 
-Edit identity and state in `chapter.json`; keep author prose in `source/` and production recipes in `production.json`. See [the chapter workflow](../../docs/PRODUCTION_WORKFLOW.md) and [product status](docs/PRODUCT_STATUS.json).
-
-This slot contains the existing editorial outline only. Do not replace the missing author manuscript with invented prose.
+The [selected manuscript](source/approved.md) drives the main reader, desktop cover preview and [standalone digital chapter](web/index.html). The supplied [design board](../../references/design/relationship_modelling%20-%20run%20away.jpg) is preserved unchanged. [Digital artwork notes](docs/ASSET_SOURCE.md) describe the cuts and their screen-only limits. [Product states](docs/PRODUCTS.json) record remaining work.

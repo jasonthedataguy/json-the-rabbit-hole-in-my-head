@@ -2,24 +2,59 @@
   "chapter": "runaway",
   "files": [
     {
+      "path": "artwork/portal/runaway-portal-v1.png",
+      "bytes": 1562136,
+      "sha256": "bfaa8c1467de5ddc96ca2062c47f4a136ce1b22855ac0b4a20d6851eb5780008"
+    },
+    {
+      "path": "artwork/portal/runaway-ring-v1.png",
+      "bytes": 1919979,
+      "sha256": "243c9805385b7990e9cf985d21d7bc058b6af18f96da60bc15e2b5cbdcfef98a"
+    },
+    {
+      "path": "artwork/portal/runaway-scene-v1.png",
+      "bytes": 1417833,
+      "sha256": "e93ee2fa6e56c9c1f1ac46baf01b3f2c915b6323334461500c22023a23d485f5"
+    },
+    {
+      "path": "artwork/portal/runaway-spread-v1.webp",
+      "bytes": 148290,
+      "sha256": "8b6425d4a06e010193fe9305c0abde7e169dd5e52c4c1efe8d15f6408b56c968"
+    },
+    {
       "path": "chapter.json",
-      "bytes": 1033,
-      "sha256": "99edfceed54352822d7e3c25c3dbcd7d7a875f8d80ce73674da09bd5ddfcf203"
+      "bytes": 1229,
+      "sha256": "2080e1705bf1f9a08cbd35a460a2850a39f066cde20b223942a388fb22095220"
+    },
+    {
+      "path": "docs/ASSET_SOURCE.md",
+      "bytes": 984,
+      "sha256": "1d5f8f0d8f0874a786d8472dea8cb5cbbe9405ef0291884778761b9a67f287ee"
     },
     {
       "path": "docs/PRODUCTS.json",
-      "bytes": 302,
-      "sha256": "29f50ad88050bf7d3215a73944b99cb789855924103f4b1bef57cc8db906d7d1"
+      "bytes": 1187,
+      "sha256": "76e3c28adc39942ec28fb9d783e5ad1db9c76cd0251fda9918031fc0aeafa675"
+    },
+    {
+      "path": "docs/QA.md",
+      "bytes": 1193,
+      "sha256": "100d94702fd92ced5405339c1b11e1e9ca52be9e773f95adc27a24d55f6e818f"
     },
     {
       "path": "production.json",
-      "bytes": 158,
-      "sha256": "04cca5cbcb7714947f2e115425c3b36fd58203c853d17184364ed8f229b16d7d"
+      "bytes": 592,
+      "sha256": "64fff411455641da9b5a6d048d85a9ca8a641d8d22ffb21393256f4203037eea"
     },
     {
       "path": "README.md",
-      "bytes": 414,
-      "sha256": "b1d3f997fa75251dd8adccdd89289322b8119041ff610cb16043df738f16e7cf"
+      "bytes": 656,
+      "sha256": "f594aa62e874df072466017c237edb4bf340aa9712fecea9898bf43b2c223b50"
+    },
+    {
+      "path": "source/approved.md",
+      "bytes": 16241,
+      "sha256": "cd1f179df1fe9c8cffccbffce7da2f7a58a3a242f557d4fc4fc2e0b7639e8895"
     },
     {
       "path": "source/outline.md",
@@ -28,8 +63,28 @@
     },
     {
       "path": "source/revisions.log",
-      "bytes": 111,
-      "sha256": "e01ec275c2bd0c7128f4545ba1a8339712c2e287d8a0ea329c9ccf3068756f36"
+      "bytes": 297,
+      "sha256": "b88f2fa012e4b82cd03e0923861388b19f7d6815e6b17cd69c009d573a83bea0"
+    },
+    {
+      "path": "web/assets/runaway-portal-v1.png",
+      "bytes": 1562136,
+      "sha256": "bfaa8c1467de5ddc96ca2062c47f4a136ce1b22855ac0b4a20d6851eb5780008"
+    },
+    {
+      "path": "web/assets/runaway-spread-v1.webp",
+      "bytes": 148290,
+      "sha256": "8b6425d4a06e010193fe9305c0abde7e169dd5e52c4c1efe8d15f6408b56c968"
+    },
+    {
+      "path": "web/index.html",
+      "bytes": 19932,
+      "sha256": "b6a3fa460f592c0fa35cd1b33b14feb65e624e7183da683e08ad85d9789198e6"
+    },
+    {
+      "path": "web/runaway.css",
+      "bytes": 5861,
+      "sha256": "e9b364a4102d649d5a210205aa8ad7bf8c6366803ecd4f2617a8ee88d9d12c35"
     }
   ]
 }

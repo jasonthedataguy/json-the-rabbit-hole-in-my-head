@@ -570,6 +570,24 @@
       "public_path": "assets/asteroid-spread-v1.webp",
       "sha256_at_intake": "ef698c32809f7156bd40e1ec17ab1c2bbcce477d5190bf4861465c47ecb4dbd4",
       "provenance": "Author board references/design/relationship_modelling - laughing-asteroid.jpg; recipe scripts/cut_asteroid_board.py. Rectangular relationship key-elements reading illustration. Screen use only."
+    },
+    {
+      "source": "chapters/runaway/artwork/portal/runaway-ring-v1.png",
+      "public_path": "assets/runaway-ring-v1.png",
+      "sha256_at_intake": "243c9805385b7990e9cf985d21d7bc058b6af18f96da60bc15e2b5cbdcfef98a",
+      "provenance": "Author board references/design/relationship_modelling - run away.jpg; recipe scripts/cut_runaway_board.py. Rotating memories of work, drawing, music, illness and the exit. Screen use only."
+    },
+    {
+      "source": "chapters/runaway/artwork/portal/runaway-scene-v1.png",
+      "public_path": "assets/runaway-scene-v1.png",
+      "sha256_at_intake": "e93ee2fa6e56c9c1f1ac46baf01b3f2c915b6323334461500c22023a23d485f5",
+      "provenance": "Author board references/design/relationship_modelling - run away.jpg; recipe scripts/cut_runaway_board.py. Stationary doorway with Jason, a woman and Gấu. Screen use only."
+    },
+    {
+      "source": "chapters/runaway/artwork/portal/runaway-spread-v1.webp",
+      "public_path": "assets/runaway-spread-v1.webp",
+      "sha256_at_intake": "8b6425d4a06e010193fe9305c0abde7e169dd5e52c4c1efe8d15f6408b56c968",
+      "provenance": "Author board references/design/relationship_modelling - run away.jpg; recipe scripts/cut_runaway_board.py. Rectangular extracted-object reading illustration. Screen use only."
     }
   ]
 }

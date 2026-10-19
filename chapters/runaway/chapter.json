@@ -2,26 +2,31 @@
   "schema_version": 2,
   "slug": "runaway",
   "number": "21",
-  "title": "Runaway",
-  "short_title": "Runaway",
+  "title": "Run away",
+  "short_title": "Run away",
   "part": 3,
   "language": "vi",
-  "publish": false,
-  "release_stage": "outline",
-  "canonical_text": null,
+  "publish": true,
+  "release_stage": "reader-with-digital-portal",
+  "canonical_text": "source/approved.md",
   "canonical_path": "#chapter/21",
-  "summary": "Một lần chăm người mình thương lúc ốm, những nét vẽ trên iPad, bài Runaway của Kanye và cảm giác bị người khác nhìn xuyên qua vẻ hào nhoáng. Jason nhận ra anh vừa phán xét những người chạy theo hình ảnh bề ngoài vừa đang tự đuổi theo tiền bạc, status và sự công nhận.",
+  "summary": "A remembers someone who saw past his polished image: the drawings, music, small acts of care and evenings with their dog. He looks back at the moment he chose a clean exit instead of listening to her.",
   "portal": {
-    "scene": "Warm light falls over an unmade bed, a drawing tablet and a glass of water in a familiar bedroom.",
+    "scene": "Jason stands in a warmly lit doorway as a woman and Gấu wait inside; drawing, music, work and memories encircle the room.",
     "objects": [
-      "sketchbook",
-      "playlist",
-      "old shirt from 04"
+      "open doorway",
+      "Jason and a woman",
+      "Gấu",
+      "drawing tablet",
+      "record and headphones",
+      "sickroom sofa",
+      "exit path"
     ],
-    "iconKey": "bed",
-    "motif": "The familiar room"
+    "iconKey": "door",
+    "motif": "The open door and the impulse to leave"
   },
   "original_edition": null,
-  "production_status": "awaiting author manuscript",
-  "outline_title": "Runaway"
+  "production_status": "author-selected full manuscript and board-derived digital portal; print and media pending",
+  "outline_title": "Runaway",
+  "manuscript_sha256": "cd1f179df1fe9c8cffccbffce7da2f7a58a3a242f557d4fc4fc2e0b7639e8895"
 }

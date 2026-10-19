@@ -20,6 +20,8 @@ export const portalPictures = Object.freeze({
   oldFriendCover:{src:'assets/old-friend-scene-v1.png',alt:'Two childhood friends share a packet of candy inside the book-cover ring.',zoom:1,x:0,y:0},
   asteroid:{src:'assets/asteroid-scene-v1.png',alt:'A woman sits on her own luminous little planet while Jason watches from below.',zoom:1,x:0,y:0},
   asteroidCover:{src:'assets/asteroid-scene-v1.png',alt:'A glowing small planet carries a woman through the centre of the book-cover ring.',zoom:1,x:0,y:0},
+  runaway:{src:'assets/runaway-scene-v1.png',alt:'Jason pauses at the open doorway; a woman and Gấu wait in the warmly lit room.',zoom:1,x:0,y:0},
+  runawayCover:{src:'assets/runaway-scene-v1.png',alt:'An open doorway frames Jason, a woman and Gấu inside the book-cover ring.',zoom:1,x:0,y:0},
   motherRussia:{src:'assets/mother-russia-scene-v2.png',alt:'A glowing wooden cabin in snow faces a river and imagined city beneath a winter moon.',zoom:1,x:0,y:0},
   motherRussiaCover:{src:'assets/mother-russia-cover-scene-v2.png',alt:'A glowing cabin beside a snowy river faces an imagined city beneath a winter moon.',zoom:1,x:0,y:0},
   dreamWorld:{src:'assets/dream-world-scene-v2.png',alt:'An imagined family dinner glows through a window amid layered Paris streets.',zoom:1,x:0,y:0},

@@ -181,6 +181,17 @@
       "bytes": 8257,
       "archiveUrl": "https://jasonthedataguy.github.io/json-under-revision/chapters/16/",
       "sourceUrl": "https://github.com/jasonthedataguy/json-under-revision/blob/b41b692b3e3633abea4997b6ac4513a91308f127/chapters/dating-102/source/approved.md"
+    },
+    {
+      "slug": "runaway",
+      "editorialId": "21",
+      "legacyId": null,
+      "originalTitle": "Run away",
+      "sourcePath": "chapters/runaway/source/approved.md",
+      "sha256": "cd1f179df1fe9c8cffccbffce7da2f7a58a3a242f557d4fc4fc2e0b7639e8895",
+      "bytes": 16241,
+      "archiveUrl": null,
+      "sourceUrl": null
     }
   ]
 }
