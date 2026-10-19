@@ -1,4 +1,4 @@
-import { chapters, acts } from './chapter-data.js?v=17';
+import { chapters, acts } from './chapter-data.js?v=18';
 export { chapters, acts };
 
 const iconPaths = {
@@ -20,7 +20,7 @@ const iconPaths = {
   van:'M3 6h14l4 6v7H3zM4 10h12V7M17 11h3M5 19a2 2 0 1 0 4 0m6 0a2 2 0 1 0 4 0',
   bridge:'M2 19h20M6 19V4m12 15V4M2 15l4-9 6 8 6-8 4 9M3 15v4m6-8v8m6-8v8m6-4v4',
   cake:'M3 11h18v10H3zM3 14c3 5 4-3 7 0s4-3 7 0 3 2 4 0M7 11V7m5 4V6m5 5V7M7 4v1m5-3v1m5 1v1',
-  asteroid:'M17 3l-9 7M21 7l-8 8M11 13l-5 7M21 2l-7 7M14 14a5 5 0 1 1-10 0 5 5 0 0 1 10 0ZM7 13h1',
+  asteroid:'M17 12a5 5 0 1 1-10 0 5 5 0 0 1 10 0ZM3 16c2-6 14-11 18-8M3 16c1 2 7 2 12 0 4-2 7-5 6-8M18 3l1 2M5 6l1 1',
   paths:'M3 21 17 3M10 21 5 3M21 21 13 3M9 12h2m5 0h2',
   microphone:'M9 4a3 3 0 0 1 6 0v9a3 3 0 0 1-6 0zM5 11v2a7 7 0 0 0 14 0v-2M12 20v3m-4 0h8',
   heart:'M12 21 3.5 12.5C-1 8 5 1 12 7c7-6 13 1 8.5 5.5Z',

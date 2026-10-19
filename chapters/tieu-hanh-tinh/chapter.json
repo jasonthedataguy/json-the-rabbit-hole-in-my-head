@@ -6,23 +6,27 @@
   "short_title": "Asteroid",
   "part": 3,
   "language": "vi",
-  "publish": false,
-  "release_stage": "outline",
-  "canonical_text": null,
+  "publish": true,
+  "release_stage": "reader-with-digital-portal",
+  "canonical_text": "source/approved.md",
   "canonical_path": "#chapter/16",
-  "summary": "Một bức thư gửi cô gái được ví như ngôi sao nhỏ: non nớt, sáng rực và có con đường riêng.",
+  "summary": "Một cô gái như tiểu hành tinh tỏa sáng bước vào công việc và cuộc sống của Jason. Họ dần thân hơn, nhưng thời gian và những quỹ đạo riêng khiến anh chỉ có thể mong cô tiếp tục rực rỡ.",
   "portal": {
-    "scene": "A luminous asteroid passes a handwritten letter suspended in an evening sky.",
+    "scene": "A woman sits on her own luminous little planet as Jason looks toward her; work, shared conversations, houses and diverging paths orbit around them.",
     "objects": [
-      "asteroid",
-      "envelope",
-      "pencil line"
+      "luminous small planet",
+      "two coworkers",
+      "cafe conversation",
+      "travel suitcase",
+      "distant house",
+      "orbit line"
     ],
     "iconKey": "asteroid",
-    "motif": "The passing asteroid"
+    "motif": "Two briefly intersecting orbits"
   },
   "original_edition": null,
-  "production_status": "awaiting author manuscript",
+  "production_status": "author-selected full manuscript and board-derived digital portal; print and media pending",
+  "manuscript_sha256": "6cb28fbd785d3ce0c44fee93a3c0209f4d32b234af7d4826a3c884e49c6cea29",
   "outline_title": "Tiểu hành tinh",
   "original_title": "Tiểu hành tinh"
 }

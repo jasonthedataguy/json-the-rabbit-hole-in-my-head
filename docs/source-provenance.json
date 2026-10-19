@@ -139,6 +139,17 @@
       "sourceUrl": "https://github.com/jasonthedataguy/json-under-revision/blob/b41b692b3e3633abea4997b6ac4513a91308f127/chapters/viet-cho-sai-gon-cua-t/source/approved.md"
     },
     {
+      "slug": "tieu-hanh-tinh",
+      "editorialId": "16",
+      "legacyId": null,
+      "originalTitle": "Asteroid",
+      "sourcePath": "chapters/tieu-hanh-tinh/source/approved.md",
+      "sha256": "6cb28fbd785d3ce0c44fee93a3c0209f4d32b234af7d4826a3c884e49c6cea29",
+      "bytes": 3022,
+      "archiveUrl": null,
+      "sourceUrl": null
+    },
+    {
       "slug": "three-meeting-theory",
       "editorialId": "17",
       "legacyId": "15",

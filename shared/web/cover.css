@@ -237,3 +237,14 @@
   .old-friend-reader-scene figcaption { margin-top: 8px; color: #927b5d; font: 9px/1.4 var(--sans); letter-spacing: 1px; text-transform: uppercase; }
   .old-friend-reader-page .cover-reader-prose.prose { margin-top: 27px; }
 }
+
+@media screen and (min-width: 1024px) {
+  .asteroid-reader-page .cover-reader-kicker { margin-bottom: 13px; }
+  .asteroid-reader-number { display: block; color: #a1844c; font: 67px/.95 var(--serif); }
+  .asteroid-reader-page h2 { margin: 4px 0 0; color: #183040; font-size: clamp(34px,2.8vw,43px); line-height: 1.08; text-wrap: balance; }
+  .asteroid-reader-subtitle { margin: 13px 0 20px; color: #8b7250; font: 10px/1.6 var(--sans); letter-spacing: 1.5px; text-transform: uppercase; }
+  .asteroid-reader-scene { margin: 0; text-align: center; }
+  .asteroid-reader-scene img { display: block; width: 100%; height: auto; object-fit: contain; }
+  .asteroid-reader-scene figcaption { margin-top: 8px; color: #927b5d; font: 9px/1.4 var(--sans); letter-spacing: 1px; text-transform: uppercase; }
+  .asteroid-reader-page .cover-reader-prose.prose { margin-top: 27px; }
+}

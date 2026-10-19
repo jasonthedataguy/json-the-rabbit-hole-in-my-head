@@ -799,3 +799,22 @@ h1, h2, h3 { font-family: var(--serif); font-weight: 400; line-height: 1.15; }
 .old-friend-spread-banner img{display:block;width:100%;height:auto;margin:auto;object-fit:contain}
 .old-friend-spread-banner figcaption{margin-top:10px;color:#927b5d;font:10px/1.5 var(--sans);letter-spacing:1.3px;text-transform:uppercase}
 @media(max-width:700px){.old-friend-chapter-stage{grid-template-columns:1fr;gap:9px}.old-friend-chapter-stage .chapter-illustration:has(.fitted-portal){width:min(310px,82%);margin:0 auto}.old-friend-chapter-note{margin:0 12px;padding:14px 0 14px 20px}.old-friend-chapter-note p{font-size:21px}.old-friend-spread-banner{margin-top:17px}.old-friend-chapter-numeral{font-size:60px}.old-friend-chapter-heading h1{font-size:clamp(35px,8.4vw,47px)}}
+
+.asteroid-chapter-heading{text-align:center;margin:0 auto;max-width:780px}
+.asteroid-chapter-heading .leaf-kicker{color:#827f78}
+.asteroid-chapter-numeral{display:block;color:#b29857;font:75px/.93 var(--serif)}
+.asteroid-chapter-heading h1{margin:4px 0 0;color:#132c3b;font:clamp(36px,4.3vw,57px)/1.08 var(--serif);letter-spacing:-1px;text-wrap:balance}
+.asteroid-chapter-subtitle{margin:17px 0 8px;color:#946e47;font:10px/1.5 var(--sans);letter-spacing:2.1px;text-transform:uppercase}
+.asteroid-chapter-part{margin:0;color:#667572;font:11px/1.5 var(--sans)}
+.asteroid-chapter-stage{display:grid;grid-template-columns:minmax(0,330px) minmax(0,1fr);gap:24px;align-items:center;margin:24px 0 28px}
+.asteroid-chapter-stage .chapter-illustration:has(.fitted-portal){width:100%;height:auto;margin:0;aspect-ratio:1}
+.asteroid-chapter-stage .portal-page-marker,#map-view[data-chapter="tieu-hanh-tinh"] #portal-marker{display:none}
+.asteroid-chapter-note{padding:20px 0 20px 25px;border-left:1px solid #b29857}
+.asteroid-chapter-note>span{color:#847c6c;font:10px/1.5 var(--sans);letter-spacing:1.7px}
+.asteroid-chapter-note p{margin:19px 0 25px;color:#243b44;font:22px/1.45 var(--body-serif)}
+.asteroid-chapter-note button{display:inline-flex;gap:12px;align-items:center;padding:0 0 6px;border:0;border-bottom:1px solid #b29857;background:none;color:#6a6945;font:11px/1.5 var(--sans);letter-spacing:.7px;cursor:pointer}
+.asteroid-chapter-note button:hover{color:#553d24}
+.asteroid-spread-banner{margin:0 0 34px;text-align:center}
+.asteroid-spread-banner img{display:block;width:100%;height:auto;margin:auto;object-fit:contain}
+.asteroid-spread-banner figcaption{margin-top:10px;color:#927b5d;font:10px/1.5 var(--sans);letter-spacing:1.3px;text-transform:uppercase}
+@media(max-width:700px){.asteroid-chapter-stage{grid-template-columns:1fr;gap:9px}.asteroid-chapter-stage .chapter-illustration:has(.fitted-portal){width:min(310px,82%);margin:0 auto}.asteroid-chapter-note{margin:0 12px;padding:14px 0 14px 20px}.asteroid-chapter-note p{font-size:21px}.asteroid-spread-banner{margin-top:17px}.asteroid-chapter-numeral{font-size:60px}.asteroid-chapter-heading h1{font-size:clamp(35px,8.4vw,47px)}}

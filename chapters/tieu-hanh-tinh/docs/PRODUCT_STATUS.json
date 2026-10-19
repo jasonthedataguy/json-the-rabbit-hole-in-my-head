@@ -2,12 +2,12 @@
   "chapter": "tieu-hanh-tinh",
   "editorial_number": "16",
   "original_number": null,
-  "reader": "outline only",
-  "v2_product_release": "awaiting author manuscript",
+  "reader": "published manuscript",
+  "v2_product_release": "author-selected full manuscript and board-derived digital portal; print and media pending",
   "lanes": [
     {
       "id": "manuscript",
-      "files_present": 2,
+      "files_present": 3,
       "status": "available for review",
       "required_deliverables": [
         "original manuscript",
@@ -17,8 +17,8 @@
     },
     {
       "id": "artwork",
-      "files_present": 0,
-      "status": "not supplied",
+      "files_present": 4,
+      "status": "available for review",
       "required_deliverables": [
         "source and provenance",
         "scene library",
@@ -27,8 +27,8 @@
     },
     {
       "id": "web",
-      "files_present": 0,
-      "status": "not supplied",
+      "files_present": 4,
+      "status": "available for review",
       "required_deliverables": [
         "complete reader",
         "source-grounded interactive experience",
@@ -81,7 +81,7 @@
     },
     {
       "id": "qa",
-      "files_present": 1,
+      "files_present": 3,
       "status": "available for review",
       "required_deliverables": [
         "asset inventory",
@@ -111,15 +111,38 @@
       ]
     }
   ],
-  "products": [],
+  "products": [
+    {
+      "product": "Selected author manuscript",
+      "state": "ready; selected from author-supplied text",
+      "path": "source/approved.md"
+    },
+    {
+      "product": "Asteroid rotating chapter ring",
+      "state": "board-derived digital crop; screen use only",
+      "path": "artwork/portal/asteroid-ring-v1.png"
+    },
+    {
+      "product": "Asteroid stationary small-planet centre",
+      "state": "aligned to chapter ring; screen use only",
+      "path": "artwork/portal/asteroid-scene-v1.png"
+    },
+    {
+      "product": "Asteroid rectangular reading illustration",
+      "state": "key-elements crop; screen use only",
+      "path": "artwork/portal/asteroid-spread-v1.webp"
+    },
+    {
+      "product": "Asteroid standalone digital chapter",
+      "state": "ready for deployment; generated from selected manuscript",
+      "path": "web/index.html"
+    }
+  ],
   "remaining": [
-    "Author manuscript and selection",
-    "Approved scene artwork",
-    "Read / Explore / Revisit experience",
-    "Print proofs",
+    "Printer specifications and high-resolution separated art for certified print production",
     "Author narration and films",
     "Social channel packs",
-    "Visual and release QA"
+    "Physical-device and human screen-reader review"
   ],
   "v2_remaining": [
     "Complete the chapter workflow after the author manuscript is supplied"

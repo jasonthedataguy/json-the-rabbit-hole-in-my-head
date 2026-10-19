@@ -552,6 +552,24 @@
       "public_path": "assets/old-friend-spread-v1.webp",
       "sha256_at_intake": "92177d9f55a0b2bb4375719a13f2a5762fb8c899c48b9430848ba78de4f38399",
       "provenance": "Author board references/design/data_collection - an old friend.jpg; recipe scripts/cut_old_friend_board.py. Rectangular childhood key-elements reading illustration. Screen use only."
+    },
+    {
+      "source": "chapters/tieu-hanh-tinh/artwork/portal/asteroid-ring-v1.png",
+      "public_path": "assets/asteroid-ring-v1.png",
+      "sha256_at_intake": "1bc917d88e4fb6a54a2c463262e4407a7e1f5407dc1b07179e80d3ba1c4842fc",
+      "provenance": "Author board references/design/relationship_modelling - laughing-asteroid.jpg; recipe scripts/cut_asteroid_board.py. Rotating work, conversations, city and orbit ring. Screen use only."
+    },
+    {
+      "source": "chapters/tieu-hanh-tinh/artwork/portal/asteroid-scene-v1.png",
+      "public_path": "assets/asteroid-scene-v1.png",
+      "sha256_at_intake": "c16db476c3960badab0ab7e43861826e4dac97ac4ff67d14f6093a69dfa88f63",
+      "provenance": "Author board references/design/relationship_modelling - laughing-asteroid.jpg; recipe scripts/cut_asteroid_board.py. Stationary luminous small planet and woman. Screen use only."
+    },
+    {
+      "source": "chapters/tieu-hanh-tinh/artwork/portal/asteroid-spread-v1.webp",
+      "public_path": "assets/asteroid-spread-v1.webp",
+      "sha256_at_intake": "ef698c32809f7156bd40e1ec17ab1c2bbcce477d5190bf4861465c47ecb4dbd4",
+      "provenance": "Author board references/design/relationship_modelling - laughing-asteroid.jpg; recipe scripts/cut_asteroid_board.py. Rectangular relationship key-elements reading illustration. Screen use only."
     }
   ]
 }
