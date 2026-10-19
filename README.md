@@ -27,7 +27,7 @@ Each chapter has `chapter.json`, `production.json`, `source/`, `artwork/{source,
 
 Edit the website in `shared/web/`. Edit book-level content in `book.json` and chapter identity/summary in `chapters/<slug>/chapter.json`. Keep author-selected prose in the chapter’s `source/`. All 35 slots have a folder; 14 currently contain editorial outlines, not full author manuscripts.
 
-Ten original chapters have their complete tracked asset kits locally: 1,412 preserved file mappings, about 444 MB including existing portal assets and production references. The selected reader retains all 80,917 original manuscript bytes plus the author-supplied Quant, Flow, Red Button, An Old Friend, Coincidence, Asteroid, Run away, Bad Trip and the four Office Battlefield chapters. All 22 full manuscripts now have portal slots. [Migration evidence](docs/MIGRATION.json) and [source provenance](docs/source-provenance.json) record their identities.
+Ten original chapters have their complete tracked asset kits locally: 1,412 preserved file mappings, about 444 MB including existing portal assets and production references. The selected reader retains all 80,917 original manuscript bytes plus the author-supplied Quant, Flow, Red Button, An Old Friend, Coincidence, Asteroid, Run away, Bad Trip and the five Office Battlefield chapters. All 23 full manuscripts now have portal slots. [Migration evidence](docs/MIGRATION.json) and [source provenance](docs/source-provenance.json) record their identities.
 
 The reader links to local immersive experiences and inherited print/film files. Their original numbering and proof states remain explicit. Existing assets are available for adaptation; narration, printer-specific work and v2 media/design review are not automatically complete.
 
@@ -53,7 +53,7 @@ Open [localhost:4173](http://localhost:4173). Rebuild after changing sources. To
 python scripts/new_chapter.py --slug another-essay --title "Another essay" --archive
 ```
 
-To work on one of the remaining 13 outline chapters, edit its existing folder. [The workflow](docs/PRODUCTION_WORKFLOW.md) explains manuscript selection, Read / Explore / Revisit, print, narration, films, social packs and release evidence.
+To work on one of the remaining 12 outline chapters, edit its existing folder. [The workflow](docs/PRODUCTION_WORKFLOW.md) explains manuscript selection, Read / Explore / Revisit, print, narration, films, social packs and release evidence.
 
 ## Cold Rice digital design
 
@@ -110,3 +110,7 @@ Office Battlefield - Better and Brighter Than Ever now fills the existing Chapte
 ## Masterclass in Record Keeping digital design
 
 Office Battlefield - Masterclass in Record Keeping fills the existing Chapter 27 slot in `04_model_failure`. The exact submitted text is preserved in `chapters/masterclass-in-record-keeping/source/original.txt`; `source/approved.md` adds only Markdown heading and paragraph spacing for the reader. The supplied board is unchanged in `references/design/`. `scripts/cut_record_keeping_board.py` creates an aligned archive-and-magnifying-glass ring, stationary record-log centre, and rectangular key-elements illustration. The chapter map, reading leaf, homepage centre, and standalone reader use the screen assets. Book order and later chapter numbers do not change.
+
+## Good Boy digital design
+
+Office Battlefield - Good Boy fills the existing Chapter 28 slot in `04_model_failure`. The final author manuscript, including its quoted messages, is transcribed in `chapters/good-boy/source/approved.md`; the earlier outline remains for production history. The supplied board is unchanged in `references/design/`. `scripts/cut_good_boy_board.py` creates an aligned office-and-apology ring, stationary stamped-letter centre, and rectangular key-elements illustration. The chapter map, reading leaf, homepage centre, and standalone reader use the screen assets. Book order and later chapter numbers do not change.

@@ -678,6 +678,24 @@
       "public_path": "assets/record-keeping-spread-v1.webp",
       "sha256_at_intake": "eb8c535b97eb9f4ee0a2080e3808c0d7c50d7b8cefc7553221b4f2dc242bef98",
       "provenance": "Author board references/design/model_failure -office-battlefield-masterclass-in-record-keeping.png; recipe scripts/cut_record_keeping_board.py. Rectangular extracted-object reading illustration. Screen use only."
+    },
+    {
+      "source": "chapters/good-boy/artwork/portal/good-boy-ring-v1.png",
+      "public_path": "assets/good-boy-ring-v1.png",
+      "sha256_at_intake": "2810642246e16c8a88c20906e0cdf03d28b6cee5e28b1730aa92b5cae2c66091",
+      "provenance": "Author board references/design/model_failure - office-good-boy.png; recipe scripts/cut_good_boy_board.py. Rotating office conversations, apology, stamp and phone collage. Screen use only."
+    },
+    {
+      "source": "chapters/good-boy/artwork/portal/good-boy-scene-v1.png",
+      "public_path": "assets/good-boy-scene-v1.png",
+      "sha256_at_intake": "d150e9de17af2b9d8509dca756dc10cde270ea1ae0f8c386b4542ed5c07d9224",
+      "provenance": "Author board references/design/model_failure - office-good-boy.png; recipe scripts/cut_good_boy_board.py. Stationary stamped apology and phone with Jason, aligned to the ring. Screen use only."
+    },
+    {
+      "source": "chapters/good-boy/artwork/portal/good-boy-spread-v1.webp",
+      "public_path": "assets/good-boy-spread-v1.webp",
+      "sha256_at_intake": "42b0fd7371c4dad16041f9fe64c0c118a798ebcddac41b3daa6042faeefb2ea1",
+      "provenance": "Author board references/design/model_failure - office-good-boy.png; recipe scripts/cut_good_boy_board.py. Rectangular extracted-object reading illustration. Screen use only."
     }
   ]
 }

@@ -1,13 +1,36 @@
 {
   "chapter": "good-boy",
-  "products": [],
+  "products": [
+    {
+      "product": "Selected author manuscript",
+      "state": "ready; transcribed from author message",
+      "path": "source/approved.md"
+    },
+    {
+      "product": "Office Battlefield Good Boy rotating ring",
+      "state": "board-derived digital crop; screen use only",
+      "path": "artwork/portal/good-boy-ring-v1.png"
+    },
+    {
+      "product": "Good Boy stationary apology centre",
+      "state": "aligned to chapter ring; screen use only",
+      "path": "artwork/portal/good-boy-scene-v1.png"
+    },
+    {
+      "product": "Good Boy rectangular reading illustration",
+      "state": "key-elements crop; screen use only",
+      "path": "artwork/portal/good-boy-spread-v1.webp"
+    },
+    {
+      "product": "Standalone digital chapter",
+      "state": "generated from selected manuscript",
+      "path": "web/index.html"
+    }
+  ],
   "remaining": [
-    "Author manuscript and selection",
-    "Approved scene artwork",
-    "Read / Explore / Revisit experience",
-    "Print proofs",
+    "Separated high-resolution art and printer specifications for certified print production",
     "Author narration and films",
     "Social channel packs",
-    "Visual and release QA"
+    "Physical-device and human screen-reader review"
   ]
 }

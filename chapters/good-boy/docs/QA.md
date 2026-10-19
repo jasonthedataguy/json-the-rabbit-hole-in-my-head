@@ -1,0 +1,7 @@
+# Good Boy digital QA
+
+On 2026-10-19 the 35-chapter site build and link validator passed with 23 selected full manuscripts, and all 11 project unit tests passed. Headless Chrome checked 1440×900 desktop and 390×844 mobile. Chapter 28's reading leaf, map, homepage cover stop and standalone reader load the board-derived art without page-wide horizontal overflow. The rotating ring and stationary centre align; the map reports FULL TEXT and the stamp marker. The selected manuscript renders 58 paragraphs and 12 quoted message blocks across the chapter, desktop homepage reading panel and standalone reader. The desktop cover and reading panel each measure 833 px high. Direct routes for Chapters 24–29 resolve.
+
+Visual evidence: [portal composition](../../../docs/qa/good-boy-board-portal-composition.png), [desktop chapter](../../../docs/qa/good-boy-chapter-desktop.png), [mobile chapter](../../../docs/qa/good-boy-chapter-mobile.png), [desktop map](../../../docs/qa/good-boy-map-desktop.png), [mobile map](../../../docs/qa/good-boy-map-mobile.png), [desktop homepage stop](../../../docs/qa/good-boy-cover-desktop.png), [mobile homepage stop](../../../docs/qa/good-boy-cover-mobile.png) and [mobile standalone reader](../../../docs/qa/good-boy-standalone-mobile.png).
+
+Physical-device and human screen-reader review remain pending. The flattened board supports digital crops, not certified print production.

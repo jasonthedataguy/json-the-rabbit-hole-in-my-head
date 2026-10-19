@@ -20,6 +20,8 @@ export const portalPictures = Object.freeze({
   oldFriendCover:{src:'assets/old-friend-scene-v1.png',alt:'Two childhood friends share a packet of candy inside the book-cover ring.',zoom:1,x:0,y:0},
   officeBattlefield:{src:'assets/office-battlefield-scene-v1.png',alt:'Jason faces a paper message above an office chess table; coworkers and an AI agent circle him.',zoom:1,x:0,y:0},
   payoffMatrix:{src:'assets/payoff-matrix-scene-v1.png',alt:'Jason faces AI scorecards and a payoff matrix above an office chessboard.',zoom:1,x:0,y:0},
+  goodBoy:{src:'assets/good-boy-scene-v1.png',alt:'Jason faces a stamped apology and heavy rubber stamp above an office phone.',zoom:1,x:0,y:0},
+  goodBoyCover:{src:'assets/good-boy-scene-v1.png',alt:'A GOOD BOY stamp and apology letter appear inside the shared book-cover ring.',zoom:1,x:0,y:0},
   recordKeeping:{src:'assets/record-keeping-scene-v1.png',alt:'Jason faces an opened record log and magnifying glass amid files, timestamps and ticket history.',zoom:1,x:0,y:0},
   recordKeepingCover:{src:'assets/record-keeping-scene-v1.png',alt:'An open record log and magnifying glass fill the centre of the shared book-cover ring.',zoom:1,x:0,y:0},
   betterBrighter:{src:'assets/better-brighter-scene-v1.png',alt:'Jason walks toward a bright eye-shaped doorway between two exchanged football jerseys.',zoom:1,x:0,y:0},

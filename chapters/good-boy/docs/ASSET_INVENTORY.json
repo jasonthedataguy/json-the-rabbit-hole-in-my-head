@@ -2,24 +2,59 @@
   "chapter": "good-boy",
   "files": [
     {
+      "path": "artwork/portal/good-boy-portal-v1.png",
+      "bytes": 1569121,
+      "sha256": "b901561c4af52b55d8c4122c65beea95ea411d4c553a113e19f8b094653f85db"
+    },
+    {
+      "path": "artwork/portal/good-boy-ring-v1.png",
+      "bytes": 1949753,
+      "sha256": "2810642246e16c8a88c20906e0cdf03d28b6cee5e28b1730aa92b5cae2c66091"
+    },
+    {
+      "path": "artwork/portal/good-boy-scene-v1.png",
+      "bytes": 1534587,
+      "sha256": "d150e9de17af2b9d8509dca756dc10cde270ea1ae0f8c386b4542ed5c07d9224"
+    },
+    {
+      "path": "artwork/portal/good-boy-spread-v1.webp",
+      "bytes": 164642,
+      "sha256": "42b0fd7371c4dad16041f9fe64c0c118a798ebcddac41b3daa6042faeefb2ea1"
+    },
+    {
       "path": "chapter.json",
-      "bytes": 876,
-      "sha256": "e6734b7e13d38b4a6ce6dde4af44b79805b80b875586a3ac72161ad3abb50de4"
+      "bytes": 1266,
+      "sha256": "4b05a26c6351c2c79cfd58fd9594a6666389f65ab57ce17427987c1e447715fb"
+    },
+    {
+      "path": "docs/ASSET_SOURCE.md",
+      "bytes": 718,
+      "sha256": "4472ebdf84d3e458aab6e502f882f4eca5c74513ed950f3f8eea2fbded05dbe1"
     },
     {
       "path": "docs/PRODUCTS.json",
-      "bytes": 303,
-      "sha256": "0f550be394868822d51dd7bbfc4551fd94b9b2d8ac232de21423c243bdb643f2"
+      "bytes": 1164,
+      "sha256": "33f7d689e1ecdd6617c3989dc20a7a8e4ad1756b2f099504ae4c6203f66fa547"
+    },
+    {
+      "path": "docs/QA.md",
+      "bytes": 1413,
+      "sha256": "e086391e43c9738a8a7a880df40485c2c634730642b1ef43dc44d4c11f5127b1"
     },
     {
       "path": "production.json",
-      "bytes": 158,
-      "sha256": "04cca5cbcb7714947f2e115425c3b36fd58203c853d17184364ed8f229b16d7d"
+      "bytes": 598,
+      "sha256": "192f3e04d6465c7c6c62e0eb19d3bbb20fe68cce0f5eabc25e72e4d7a8f38170"
     },
     {
       "path": "README.md",
-      "bytes": 416,
-      "sha256": "23df289231695566b01aa2afdb8d14c49bb8e6f2972395be88532e31849a5392"
+      "bytes": 907,
+      "sha256": "1266c76976b675899a7c4c12c402b8c0f0b4fedf795f6334cf2ab431332f3691"
+    },
+    {
+      "path": "source/approved.md",
+      "bytes": 4157,
+      "sha256": "002e9474456c897d763d9764f2df1ba791ed7ded435f4c95127c30d42d1a1d8a"
     },
     {
       "path": "source/outline.md",
@@ -28,8 +63,28 @@
     },
     {
       "path": "source/revisions.log",
-      "bytes": 111,
-      "sha256": "e01ec275c2bd0c7128f4545ba1a8339712c2e287d8a0ea329c9ccf3068756f36"
+      "bytes": 483,
+      "sha256": "8065e2af58087a4fa3bf3b66495c86061bfe085b16482e8de1bfd3f15d2e8d9d"
+    },
+    {
+      "path": "web/assets/good-boy-portal-v1.png",
+      "bytes": 1569121,
+      "sha256": "b901561c4af52b55d8c4122c65beea95ea411d4c553a113e19f8b094653f85db"
+    },
+    {
+      "path": "web/assets/good-boy-spread-v1.webp",
+      "bytes": 164642,
+      "sha256": "42b0fd7371c4dad16041f9fe64c0c118a798ebcddac41b3daa6042faeefb2ea1"
+    },
+    {
+      "path": "web/good-boy.css",
+      "bytes": 6022,
+      "sha256": "c31ce995ed7e0f3c2e7d4d0c09fc3acb532f284d5710e9f13ef6546b9a580f0c"
+    },
+    {
+      "path": "web/index.html",
+      "bytes": 7695,
+      "sha256": "532492c75bbec08874a9f2fa192eaf303bfdbf9eae7cbf4411f57011adbde5fb"
     }
   ]
 }
