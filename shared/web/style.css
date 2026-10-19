@@ -715,3 +715,30 @@ h1, h2, h3 { font-family: var(--serif); font-weight: 400; line-height: 1.15; }
 #map-view[data-chapter="the-gioi-trong-mo-cua-toi"] .portal-rim-art{transform-origin:center;transition:transform .48s cubic-bezier(.2,.75,.25,1)}
 #map-view[data-chapter="the-gioi-trong-mo-cua-toi"] .is-dragging .portal-rim-art,#map-view[data-chapter="the-gioi-trong-mo-cua-toi"] .ring-instant .portal-rim-art{transition:none}
 @media(max-width:700px){.dream-chapter-stage{grid-template-columns:1fr;gap:9px}.dream-chapter-stage .chapter-illustration:has(.fitted-portal){width:min(310px,82%);margin:0 auto}.dream-chapter-note{margin:0 12px;padding:14px 0 14px 20px}.dream-chapter-note p{font-size:21px}.dream-spread-banner{margin-top:17px}.dream-chapter-numeral{font-size:60px}.dream-chapter-heading h1{font-size:clamp(40px,10vw,55px)}}
+
+/* To My Saigon: warm river light and a complete couple in the portal centre. */
+.saigon-chapter-heading{text-align:center;margin:0 auto}
+.saigon-chapter-numeral{margin:20px 0 3px;color:#c58b4c;font:68px/.9 var(--serif)}
+.saigon-chapter-heading h1{margin:0;color:#1b3840;font:clamp(43px,5.6vw,62px)/1.05 var(--serif);letter-spacing:-1px;text-wrap:balance}
+.saigon-chapter-subtitle{margin:13px 0 0;color:#858451;font:11px/1.6 var(--sans);letter-spacing:1.7px;text-transform:uppercase}
+.saigon-chapter-part{margin:15px 0 0;color:#797c6b;font:italic 17px/1.5 var(--body-serif)}
+.saigon-chapter-stage{display:grid;grid-template-columns:minmax(0,330px) minmax(0,1fr);gap:24px;align-items:center;margin:23px 0 28px}
+.saigon-chapter-stage .chapter-illustration:has(.fitted-portal){width:100%;height:auto;margin:0;aspect-ratio:1}
+.saigon-chapter-stage .portal-page-marker,#map-view[data-chapter="viet-cho-sai-gon-cua-t"] #portal-marker{display:none}
+.saigon-chapter-note{padding:20px 0 20px 25px;border-left:1px solid #d39d5b}
+.saigon-chapter-note>span{color:#8a826b;font:10px/1.5 var(--sans);letter-spacing:1.7px}
+.saigon-chapter-note p{margin:19px 0 25px;color:#294649;font:22px/1.45 var(--body-serif)}
+.saigon-chapter-note button{display:inline-flex;gap:12px;align-items:center;padding:0 0 6px;border:0;border-bottom:1px solid #bc874c;background:none;color:#8f6136;font:11px/1.5 var(--sans);letter-spacing:.7px;cursor:pointer}
+.saigon-chapter-note button:hover{color:#674324}
+.saigon-spread-banner{margin:0 0 34px;text-align:center}
+.saigon-spread-banner img{display:block;width:100%;height:auto;margin:auto;object-fit:contain}
+.saigon-spread-banner figcaption{margin-top:10px;color:#907b5f;font:10px/1.5 var(--sans);letter-spacing:1.3px;text-transform:uppercase}
+#saigon-chapter-text{scroll-margin-top:80px}
+#saigon-chapter-text .chapter-prose{margin-top:42px}
+#saigon-chapter-text .chapter-prose>p:first-of-type::first-letter{color:#b8783e}
+#map-view[data-chapter="viet-cho-sai-gon-cua-t"] .map-number{color:#efc17c}
+#map-view[data-chapter="viet-cho-sai-gon-cua-t"] .map-enter{border-color:#efc17c88}
+#map-view[data-chapter="viet-cho-sai-gon-cua-t"] #map-summary{font-family:var(--body-serif)}
+#map-view[data-chapter="viet-cho-sai-gon-cua-t"] .portal-rim-art{transform-origin:center;transition:transform .48s cubic-bezier(.2,.75,.25,1)}
+#map-view[data-chapter="viet-cho-sai-gon-cua-t"] .is-dragging .portal-rim-art,#map-view[data-chapter="viet-cho-sai-gon-cua-t"] .ring-instant .portal-rim-art{transition:none}
+@media(max-width:700px){.saigon-chapter-stage{grid-template-columns:1fr;gap:9px}.saigon-chapter-stage .chapter-illustration:has(.fitted-portal){width:min(310px,82%);margin:0 auto}.saigon-chapter-note{margin:0 12px;padding:14px 0 14px 20px}.saigon-chapter-note p{font-size:21px}.saigon-spread-banner{margin-top:17px}.saigon-chapter-numeral{font-size:60px}.saigon-chapter-heading h1{font-size:clamp(42px,10vw,55px)}}

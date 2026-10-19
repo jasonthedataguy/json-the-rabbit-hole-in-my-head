@@ -400,55 +400,55 @@
     }
   ],
   "memory": {
-    "heading": "Nhưng t thì vẫn ở đây.",
+    "heading": "The city I learned to call home.",
     "intro": "Những đoạn trong bài viết, từ cầu Ba Son đến cuộc sống ở Sài Gòn.",
     "moments": [
       {
         "title": "01 / Ba Son, tuổi 26",
-        "image": "artwork/scenes/02-bridge.jpg",
-        "alt": "Góc cắt cây cầu và đường chân trời từ minh họa Sài Gòn.",
+        "image": "web/assets/saigon-memory-01-v1.webp",
+        "alt": "Ba Son Bridge and the Saigon skyline at sunset.",
         "quote": "Lúc chạy qua cầu Ba Son, nhìn thành phố hiện đại nằm dọc bên sông, lòng t rộn ràng một cảm giác rất khó tả. T tự hỏi liệu đây có phải là nơi t thuộc về."
       },
       {
         "title": "02 / Một cơ hội",
-        "image": "artwork/scenes/03-skyline.jpg",
-        "alt": "Những tòa nhà trong minh họa Sài Gòn.",
+        "image": "web/assets/saigon-memory-02-v1.webp",
+        "alt": "A desk, a car and a first opportunity on the Saigon portal ring.",
         "quote": "T mất offer của Grab, phần lớn là vì sự ngu ngốc, trẻ trâu và thiếu hiểu biết của chính t."
       },
       {
         "title": "03 / Phương án backup",
-        "image": "artwork/scenes/03-skyline.jpg",
-        "alt": "Góc cắt đường chân trời Sài Gòn từ cùng hình minh họa.",
+        "image": "web/assets/saigon-memory-03-v1.webp",
+        "alt": "Saigon's skyline beyond the river and winding portal layers.",
         "quote": "T không cảm nhận được mình thuộc về nơi đó."
       },
       {
         "title": "04 / Lời tạm biệt dang dở",
-        "image": "artwork/scenes/02-bridge.jpg",
-        "alt": "Cây cầu trong hình minh họa, diễn giải một chặng của câu chuyện.",
+        "image": "web/assets/saigon-memory-04-v1.webp",
+        "alt": "A letter and laptop in the portal memories of work and goodbyes.",
         "quote": "Đáng ra t có thể cho em một lời giải thích. Đáng ra t có thể làm tốt hơn mà, đúng không."
       },
       {
         "title": "05 / Những người bạn",
-        "image": "artwork/scenes/05-picnic-friends.jpg",
-        "alt": "Những người ngồi trên bãi cỏ trong tranh Landmark; góc cắt minh họa, không phải ảnh tư liệu của nhóm bạn.",
+        "image": "web/assets/saigon-memory-05-v1.webp",
+        "alt": "Friends share a birthday cake around a table.",
         "quote": "T bắt đầu thân với mọi người trong team đó, rồi dần có lại cái cảm giác mà trước đó t thiếu: thích đi làm chỉ vì muốn lên công ty gặp mọi người."
       },
       {
         "title": "06 / Landmark và Gấu",
-        "image": "artwork/scenes/04-gau.jpg",
-        "alt": "Góc cắt Gấu trên tấm khăn picnic trong minh họa.",
+        "image": "web/assets/saigon-memory-06-v1.webp",
+        "alt": "Two people and a dog sit together overlooking the river.",
         "quote": "Đêm Giáng sinh em mang bánh quy qua cho Gấu. Ngày đầu năm t với em chui xuống gầm bàn ăn hết 12 trái nho."
       },
       {
         "title": "07 / Một người ở lại",
-        "image": "artwork/scenes/07-pink-cap.jpg",
-        "alt": "Người đội mũ hồng trong minh họa Landmark.",
+        "image": "web/assets/saigon-memory-07-v1.webp",
+        "alt": "Two people stand together in a Saigon memory.",
         "quote": "T chỉ biết t không muốn đánh mất em, vì em còn hơn thế rất nhiều."
       },
       {
         "title": "08 / Sài Gòn của tôi",
-        "image": "artwork/scenes/01-landmark.jpg",
-        "alt": "Toàn cảnh picnic tại Landmark từ hình minh họa đã chọn.",
+        "image": "web/assets/saigon-memory-08-v1.webp",
+        "alt": "The couple, city streets and river under the evening sky.",
         "quote": "Sài Gòn cho t nhiều thứ quá, chẳng biết nói gì hơn ngoài cảm ơn."
       }
     ]
@@ -608,5 +608,15 @@
   "hero_mobile_size": [
     900,
     675
-  ]
+  ],
+  "digital_reference_board": "references/design/data_collection - to my saigon (2).png",
+  "digital_portal": {
+    "recipe": "scripts/cut_saigon_board.py",
+    "ring": "artwork/portal/saigon-ring-v1.png",
+    "scene": "artwork/portal/saigon-scene-v1.png",
+    "homepage_scene": "artwork/portal/saigon-cover-scene-v1.png",
+    "reader_illustration": "artwork/portal/saigon-spread-v1.webp",
+    "standalone_portal": "web/assets/saigon-portal-v1.png",
+    "status": "digital crops from flattened supplied board; legacy scene/print/media recipes remain historical"
+  }
 }

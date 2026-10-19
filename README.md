@@ -65,7 +65,7 @@ Fashion uses the final supplied digital-book board's wardrobe and sneaker portal
 
 ## Expected Utility digital design
 
-Expected Utility uses the supplied portal-layers board's decision-tree ring, laptop-and-eyes centre and desk scene on its Chapter 02 map and reading views. The homepage keeps the shared cover ring and swaps in the aligned centre. The board labels original-edition Chapter 04; the v2 chapter remains 02. See [the Expected Utility adaptation notes](chapters/expected-utility/docs/DESIGN_ADAPTATION.md).
+Expected Utility uses the revised supplied board's choice-path ring, stationary gaze and wide reading scene on its Chapter 02 map and reading views. The homepage keeps the shared cover ring and swaps in a face-only centre. The board labels original-edition Chapter 04; the v2 chapter remains 02. See [the Expected Utility adaptation notes](chapters/expected-utility/docs/DESIGN_ADAPTATION.md).
 
 ## Play to Win digital design
 
@@ -78,6 +78,10 @@ For Mother Russia now uses the supplied winter-memory board's photographic porta
 ## Three Meeting Theory digital design
 
 Three Meeting Theory uses the supplied romance-and-city board's complete circular collage and rectangular couple/cafe vignette on the chapter map, Chapter 17 reading leaf and desktop book preview. The whole illustrated circle turns together, keeping the original bridge and river free of reconstructed background. The homepage keeps its common cover ring and shows both people in the centre at this stop. Its separate immersive page uses the same art and retains the original essay and Third Intersection explorer. The board's Chapter 15 is an original-edition label; v2 remains Chapter 17. See [the design adaptation notes](chapters/three-meeting-theory/docs/DESIGN_ADAPTATION.md).
+
+## To My Saigon digital design
+
+To My Saigon uses the supplied Saigon board's work-and-home ring and the still view of the couple, dog, Ba Son Bridge and skyline on the map and Chapter 14 leaf. The homepage keeps its shared cover ring and shows a city-only crop at this stop. The desktop preview and standalone chapter use the full couple-and-river reading illustration; the standalone memory selector has eight matching board crops. The English display title and Chapter 14 label leave the 20-paragraph original Vinglish essay unchanged. See [the design adaptation notes](chapters/viet-cho-sai-gon-cua-t/docs/DESIGN_ADAPTATION.md).
 
 ## Deployment
 

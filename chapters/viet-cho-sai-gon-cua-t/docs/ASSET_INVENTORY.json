@@ -27,6 +27,36 @@
       "sha256": "e093d705b595c07e73e38ad2fa62e97f0b03f36027ae6878a7a12d5f0b396765"
     },
     {
+      "path": "artwork/portal/saigon-cover-scene-v1.png",
+      "bytes": 1094451,
+      "sha256": "c7129cf2cbfdefa9289cf0c152af24393f25ff5dd25a238520509a19361d180b"
+    },
+    {
+      "path": "artwork/portal/saigon-elements-v1.webp",
+      "bytes": 122586,
+      "sha256": "71f0a8373af1fa48a6f2b85504bb498f3d091b0ec7a8dc7a68d32f19a5ab0a4e"
+    },
+    {
+      "path": "artwork/portal/saigon-portal-v1.png",
+      "bytes": 1681813,
+      "sha256": "68ea78b2fc4ac7403d7583da3cfe88813e984261753712a8d7c531d7ec39bb5e"
+    },
+    {
+      "path": "artwork/portal/saigon-ring-v1.png",
+      "bytes": 2085116,
+      "sha256": "ebd87aa42ddff133503d738036701381e7cae2ffe13c1497cd11357aa83beec1"
+    },
+    {
+      "path": "artwork/portal/saigon-scene-v1.png",
+      "bytes": 1599021,
+      "sha256": "5f368c7bc007e455462c2ce1f15e67a423308bf6f7c1bc21a9f401a81f94dfce"
+    },
+    {
+      "path": "artwork/portal/saigon-spread-v1.webp",
+      "bytes": 474670,
+      "sha256": "48d59e978189a9ea550e7d0f5019737b6d0d898e10947ddc4d4fd4711058729b"
+    },
+    {
       "path": "artwork/scenes/01-landmark.jpg",
       "bytes": 598719,
       "sha256": "542d46fe97c9a10429a996e892c32e4addc61229046dc3a229ceeb95040d0808"
@@ -123,8 +153,8 @@
     },
     {
       "path": "chapter.json",
-      "bytes": 1545,
-      "sha256": "19952c3454981152f1123b01617acc11b05e952133d6fcd6921f06f7cdf5ec4e"
+      "bytes": 1734,
+      "sha256": "fb29589ed2e3ad7992115f5245c343fd328884dfccc8123d77bd599a62245522"
     },
     {
       "path": "docs/BOARD_REVIEW.md",
@@ -135,6 +165,11 @@
       "path": "docs/BROWSER_QA.json",
       "bytes": 793,
       "sha256": "521b20defbc90dd2f5fc07564833debfe467e23916c8a86efef4f78863619c58"
+    },
+    {
+      "path": "docs/DESIGN_ADAPTATION.md",
+      "bytes": 1143,
+      "sha256": "aa1256f74a2c10a8b21b534a876371c01c4a303aa49e6b73454c6ae18fd0be2c"
     },
     {
       "path": "docs/DESIGN_REVIEW.md",
@@ -163,8 +198,8 @@
     },
     {
       "path": "docs/PRODUCTS.json",
-      "bytes": 3767,
-      "sha256": "f177988db03bc23d5233aecf934f2c706e4a535ada9fa92cfddf5fd9e709583c"
+      "bytes": 5063,
+      "sha256": "af6b2892a5079de8478e5745efa34e1067bde988c5eafcbb59ade15ba9c0557c"
     },
     {
       "path": "docs/REFERENCE_IMPORT.json",
@@ -213,13 +248,13 @@
     },
     {
       "path": "production.json",
-      "bytes": 27808,
-      "sha256": "9e69816211664acab6337667518a3368747d01bb25b4f0e96c543177fba7cb8d"
+      "bytes": 28279,
+      "sha256": "508ee586c095b623354f89756da575510805ab9eef337f0cd6dd244e0c49b130"
     },
     {
       "path": "README.md",
-      "bytes": 545,
-      "sha256": "277b191646788bb17519015643419e929395d45791271dd71e628d5f7a439986"
+      "bytes": 975,
+      "sha256": "623e48e4584b4b88ca2a1de344125e5f2771147127c545902c34889f6709e5fe"
     },
     {
       "path": "references/original-edition/approved.md",
@@ -517,9 +552,64 @@
       "sha256": "254df63b08e1c172d739b4f413db7532b0b2adbb24c67c6d16bbe886e5ee5b6d"
     },
     {
+      "path": "web/assets/saigon-memory-01-v1.webp",
+      "bytes": 169394,
+      "sha256": "c5256ebf777377d7ae0320bcaf10a538dc9fc34d67ee516d63b0d40a4973d60e"
+    },
+    {
+      "path": "web/assets/saigon-memory-02-v1.webp",
+      "bytes": 154938,
+      "sha256": "89db087fef6bb7dd24f3a8b76ec1a074d697518156fcbc4a67fa34c206a88f6e"
+    },
+    {
+      "path": "web/assets/saigon-memory-03-v1.webp",
+      "bytes": 182462,
+      "sha256": "19e1dfa93c7d29f99c30300ef9f4b4a1372aaefbba69b6e7480882fd3e0fdaf8"
+    },
+    {
+      "path": "web/assets/saigon-memory-04-v1.webp",
+      "bytes": 142372,
+      "sha256": "6253e7d151cddadbed2d35b5aecd781293e08bf0502b104eb73e886af06a3a21"
+    },
+    {
+      "path": "web/assets/saigon-memory-05-v1.webp",
+      "bytes": 165790,
+      "sha256": "f6b4d1c46a409e454c40954160ada1ae347740026fe2cab6961c1498726fb646"
+    },
+    {
+      "path": "web/assets/saigon-memory-06-v1.webp",
+      "bytes": 182052,
+      "sha256": "b2cdf3476a350c562645df16fb3b0bd9798579f6e614b5816532078788f41104"
+    },
+    {
+      "path": "web/assets/saigon-memory-07-v1.webp",
+      "bytes": 147506,
+      "sha256": "8274ed2a08f35faa302af27d362f7bb7ed4c2277262a83eb8008cb87c38671a6"
+    },
+    {
+      "path": "web/assets/saigon-memory-08-v1.webp",
+      "bytes": 264032,
+      "sha256": "ee14dd509dbfd827f3422b9a3711cfeea2d6d6624c57784553145d2568846371"
+    },
+    {
+      "path": "web/assets/saigon-portal-v1.png",
+      "bytes": 1681813,
+      "sha256": "68ea78b2fc4ac7403d7583da3cfe88813e984261753712a8d7c531d7ec39bb5e"
+    },
+    {
+      "path": "web/assets/saigon-spread-v1.webp",
+      "bytes": 474670,
+      "sha256": "48d59e978189a9ea550e7d0f5019737b6d0d898e10947ddc4d4fd4711058729b"
+    },
+    {
       "path": "web/index.html",
-      "bytes": 34694,
-      "sha256": "d4327aca2c866977c9a63ad939916169a0a2041ce7e248c97626f499a57db567"
+      "bytes": 34727,
+      "sha256": "955aa810e2f51782d20dad806c634c46c290ef9d05be8290e77d60776376495b"
+    },
+    {
+      "path": "web/saigon-v1.css",
+      "bytes": 1955,
+      "sha256": "a1eba20726bc51add482e90a974e6d307365ba5008fdeee44683d04235923c45"
     },
     {
       "path": "web/template.html",

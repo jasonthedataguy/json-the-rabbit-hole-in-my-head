@@ -456,6 +456,36 @@
       "public_path": "assets/expected-utility-gaze-v3.webp",
       "sha256_at_intake": "1e91337a9f343140083f9785f4956ef4c4db2e8165d47aeff58cf0af39a40f7e",
       "provenance": "Wide gaze and choice-symbol crop from the revised author board; recipe scripts/cut_expected_utility_v3_board.py. Screen use only."
+    },
+    {
+      "source": "chapters/viet-cho-sai-gon-cua-t/artwork/portal/saigon-ring-v1.png",
+      "public_path": "assets/saigon-ring-v1.png",
+      "sha256_at_intake": "ebd87aa42ddff133503d738036701381e7cae2ffe13c1497cd11357aa83beec1",
+      "provenance": "Author board references/design/data_collection - to my saigon (2).png; recipe scripts/cut_saigon_board.py. Transparent rotating collage of work, friends and home from the author-supplied Saigon board. Screen use only."
+    },
+    {
+      "source": "chapters/viet-cho-sai-gon-cua-t/artwork/portal/saigon-scene-v1.png",
+      "public_path": "assets/saigon-scene-v1.png",
+      "sha256_at_intake": "5f368c7bc007e455462c2ce1f15e67a423308bf6f7c1bc21a9f401a81f94dfce",
+      "provenance": "Author board references/design/data_collection - to my saigon (2).png; recipe scripts/cut_saigon_board.py. Aligned stationary couple, dog, Ba Son Bridge and skyline for Chapter 14. Screen use only."
+    },
+    {
+      "source": "chapters/viet-cho-sai-gon-cua-t/artwork/portal/saigon-cover-scene-v1.png",
+      "public_path": "assets/saigon-cover-scene-v1.png",
+      "sha256_at_intake": "c7129cf2cbfdefa9289cf0c152af24393f25ff5dd25a238520509a19361d180b",
+      "provenance": "Author board references/design/data_collection - to my saigon (2).png; recipe scripts/cut_saigon_board.py. City-only preview beneath the shared homepage ring, without a second Jason. Screen use only."
+    },
+    {
+      "source": "chapters/viet-cho-sai-gon-cua-t/artwork/portal/saigon-spread-v1.webp",
+      "public_path": "assets/saigon-spread-v1.webp",
+      "sha256_at_intake": "48d59e978189a9ea550e7d0f5019737b6d0d898e10947ddc4d4fd4711058729b",
+      "provenance": "Author board references/design/data_collection - to my saigon (2).png; recipe scripts/cut_saigon_board.py. Uncut reading rectangle with the full couple, dog, bridge and sunset city. Screen use only."
+    },
+    {
+      "source": "chapters/viet-cho-sai-gon-cua-t/artwork/portal/saigon-elements-v1.webp",
+      "public_path": "assets/saigon-elements-v1.webp",
+      "sha256_at_intake": "71f0a8373af1fa48a6f2b85504bb498f3d091b0ec7a8dc7a68d32f19a5ab0a4e",
+      "provenance": "Author board references/design/data_collection - to my saigon (2).png; recipe scripts/cut_saigon_board.py. Full extracted-elements strip retained for digital reuse. Screen use only."
     }
   ]
 }

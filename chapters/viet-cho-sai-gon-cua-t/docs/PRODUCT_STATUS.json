@@ -3,7 +3,7 @@
   "editorial_number": "14",
   "original_number": "03",
   "reader": "published manuscript",
-  "v2_product_release": "imported proofs; v2 adaptation pending",
+  "v2_product_release": "board-derived digital portal and reader; inherited print and media remain original-edition proofs",
   "lanes": [
     {
       "id": "manuscript",
@@ -17,7 +17,7 @@
     },
     {
       "id": "artwork",
-      "files_present": 15,
+      "files_present": 21,
       "status": "available for review",
       "required_deliverables": [
         "source and provenance",
@@ -27,7 +27,7 @@
     },
     {
       "id": "web",
-      "files_present": 2,
+      "files_present": 13,
       "status": "available for review",
       "required_deliverables": [
         "complete reader",
@@ -81,7 +81,7 @@
     },
     {
       "id": "qa",
-      "files_present": 10,
+      "files_present": 11,
       "status": "available for review",
       "required_deliverables": [
         "asset inventory",
@@ -231,6 +231,41 @@
       "product": "Social launch brief",
       "state": "prepared; posting remains author-managed",
       "path": "social/BRIEF.md"
+    },
+    {
+      "product": "Saigon rotating chapter ring",
+      "state": "board-derived digital crop; screen use only",
+      "path": "artwork/portal/saigon-ring-v1.png"
+    },
+    {
+      "product": "Saigon stationary centre",
+      "state": "aligned couple, dog, bridge and skyline; screen use only",
+      "path": "artwork/portal/saigon-scene-v1.png"
+    },
+    {
+      "product": "Saigon homepage centre",
+      "state": "city-only crop beneath the shared cover ring; screen use only",
+      "path": "artwork/portal/saigon-cover-scene-v1.png"
+    },
+    {
+      "product": "Saigon reading illustration",
+      "state": "complete couple, dog and bridge rectangle; screen use only",
+      "path": "artwork/portal/saigon-spread-v1.webp"
+    },
+    {
+      "product": "Saigon extracted-elements sheet",
+      "state": "reusable digital crop, not a print master",
+      "path": "artwork/portal/saigon-elements-v1.webp"
+    },
+    {
+      "product": "Saigon immersive portal",
+      "state": "chapter 14 hero illustration",
+      "path": "web/assets/saigon-portal-v1.png"
+    },
+    {
+      "product": "Saigon memory vignette set",
+      "state": "eight board-derived crops; original quotations preserved",
+      "path": "web/assets/saigon-memory-01-v1.webp"
     }
   ],
   "remaining": [

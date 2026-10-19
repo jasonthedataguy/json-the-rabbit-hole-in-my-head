@@ -1,0 +1,5 @@
+# To My Saigon digital-book adaptation
+
+The current digital artwork comes from the author's unchanged `references/design/data_collection - to my saigon (2).png`. `scripts/cut_saigon_board.py` cuts a transparent work, friendship and home ring, an aligned stationary view of the couple and dog at Ba Son Bridge, a city-only homepage centre and a complete rectangular reading illustration. Eight memory vignettes refresh the standalone chapter's existing quote selector without rewriting the quotations. The portal composite appears on that chapter's hero. These crops come from a flattened board and are screen assets, not separated print masters.
+
+Chapter **14** in this edition retains the stable slug `viet-cho-sai-gon-cua-t`. The attached board's **01** is a design mockup and the original publication is **03**. The standalone page now uses the English chapter display title while preserving the original title and approved 20-paragraph Vinglish manuscript. The earlier Landmark/Gấu artwork, original product proofs and media remain available as historical work; their original labels do not imply a newly approved print or film release.
