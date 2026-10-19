@@ -18,6 +18,8 @@ export const portalPictures = Object.freeze({
   motherRussiaCover:{src:'assets/mother-russia-cover-scene-v2.png',alt:'A glowing cabin beside a snowy river faces an imagined city beneath a winter moon.',zoom:1,x:0,y:0},
   dreamWorld:{src:'assets/dream-world-scene-v2.png',alt:'An imagined family dinner glows through a window amid layered Paris streets.',zoom:1,x:0,y:0},
   dreamWorldCover:{src:'assets/dream-world-cover-scene-v2.png',alt:'A warm family dinner glows through a Paris window inside the shared book-cover ring.',zoom:1,x:0,y:0},
+  coincidence:{src:'assets/coincidence-scene-v1.png',alt:'Winding gold paths meet at a warmly lit Saratoga bookshop beneath a constellation.',zoom:1,x:0,y:0},
+  coincidenceCover:{src:'assets/coincidence-cover-scene-v1.png',alt:'A warm bookshop and converging paths glow inside the shared book-cover ring.',zoom:1,x:0,y:0},
   saigon:{src:'assets/saigon-scene-v1.png',alt:'Two people and a dog look across the river to Ba Son Bridge and the Saigon skyline.',zoom:1,x:0,y:0},
   saigonCover:{src:'assets/saigon-cover-scene-v1.png',alt:'Ba Son Bridge and the Saigon skyline at sunset inside the shared book-cover ring.',zoom:1,x:0,y:0},
   threeMeeting:{src:'assets/three-meeting-scene-v2.png?v=4',alt:'Two people meet beside a sunset city and bridge in the Three Meeting Theory illustration.',zoom:1,x:0,y:0},

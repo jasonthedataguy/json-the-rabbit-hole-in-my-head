@@ -486,6 +486,36 @@
       "public_path": "assets/saigon-elements-v1.webp",
       "sha256_at_intake": "71f0a8373af1fa48a6f2b85504bb498f3d091b0ec7a8dc7a68d32f19a5ab0a4e",
       "provenance": "Author board references/design/data_collection - to my saigon (2).png; recipe scripts/cut_saigon_board.py. Full extracted-elements strip retained for digital reuse. Screen use only."
+    },
+    {
+      "source": "chapters/nhung-su-trung-hop/artwork/portal/coincidence-ring-v1.png",
+      "public_path": "assets/coincidence-ring-v1.png",
+      "sha256_at_intake": "4cd15d8b242b8264f7ffcfa65636b5f952a916cf503ecd359a400df36b0f007f",
+      "provenance": "Author board references/design/data_collection - coincidence.png; recipe scripts/cut_coincidence_board.py. Transparent rotating star, clock, path and bookshop collage. Screen use only."
+    },
+    {
+      "source": "chapters/nhung-su-trung-hop/artwork/portal/coincidence-scene-v1.png",
+      "public_path": "assets/coincidence-scene-v1.png",
+      "sha256_at_intake": "b1e54ad339f4376ce97e41aa057ffb35f61d2dc825d6b1ffcc670f74f60a774b",
+      "provenance": "Author board references/design/data_collection - coincidence.png; recipe scripts/cut_coincidence_board.py. Aligned stationary bookshop and converging paths. Screen use only."
+    },
+    {
+      "source": "chapters/nhung-su-trung-hop/artwork/portal/coincidence-cover-scene-v1.png",
+      "public_path": "assets/coincidence-cover-scene-v1.png",
+      "sha256_at_intake": "328a27b0637cee239aeadcde856aad405aaeaf9ca96f68dbb43cfa9630a266ae",
+      "provenance": "Author board references/design/data_collection - coincidence.png; recipe scripts/cut_coincidence_board.py. Bookshop-only centre beneath the shared homepage cover ring. Screen use only."
+    },
+    {
+      "source": "chapters/nhung-su-trung-hop/artwork/portal/coincidence-spread-v1.webp",
+      "public_path": "assets/coincidence-spread-v1.webp",
+      "sha256_at_intake": "b7bf9730aa76bbc81f243fa2d11244fe4e2b572025fb8f89bb6f38b3f32bc92a",
+      "provenance": "Author board references/design/data_collection - coincidence.png; recipe scripts/cut_coincidence_board.py. Full rectangular bookshop and winding paths illustration. Screen use only."
+    },
+    {
+      "source": "chapters/nhung-su-trung-hop/artwork/portal/coincidence-elements-v1.webp",
+      "public_path": "assets/coincidence-elements-v1.webp",
+      "sha256_at_intake": "3f00a259c3cf32a53ff76bda46889b7ef14a7d26588f8a4f61515783e5544724",
+      "provenance": "Author board references/design/data_collection - coincidence.png; recipe scripts/cut_coincidence_board.py. Reusable key-elements sheet. Screen use only."
     }
   ]
 }
