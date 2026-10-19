@@ -516,6 +516,24 @@
       "public_path": "assets/coincidence-elements-v1.webp",
       "sha256_at_intake": "3f00a259c3cf32a53ff76bda46889b7ef14a7d26588f8a4f61515783e5544724",
       "provenance": "Author board references/design/data_collection - coincidence.png; recipe scripts/cut_coincidence_board.py. Reusable key-elements sheet. Screen use only."
+    },
+    {
+      "source": "chapters/nut-do/artwork/portal/red-button-ring-v1.png",
+      "public_path": "assets/red-button-ring-v1.png",
+      "sha256_at_intake": "cdee614eda5eaf0f59eb7e8162bafec0d7dc2be680e8e448cba3d3267a7a1629",
+      "provenance": "Author board references/design/data_collection - red button.jpg; recipe scripts/cut_red_button_board.py. Rotating airport, work, family and childhood paper-layer ring. Screen use only."
+    },
+    {
+      "source": "chapters/nut-do/artwork/portal/red-button-scene-v1.png",
+      "public_path": "assets/red-button-scene-v1.png",
+      "sha256_at_intake": "53f072d77aa30695dd7d3bd1a8374725ab052bc1fb43b45b337c2dd1d85ccbe9",
+      "provenance": "Author board references/design/data_collection - red button.jpg; recipe scripts/cut_red_button_board.py. Stationary phone and red end-call centre. Screen use only."
+    },
+    {
+      "source": "chapters/nut-do/artwork/portal/red-button-spread-v1.webp",
+      "public_path": "assets/red-button-spread-v1.webp",
+      "sha256_at_intake": "59530773f6a366caa0e05b74a7d8579a9df1f3075b53f6cd5fc806741af0bf80",
+      "provenance": "Author board references/design/data_collection - red button.jpg; recipe scripts/cut_red_button_board.py. Rectangular key-elements reading illustration. Screen use only."
     }
   ]
 }

@@ -14,6 +14,8 @@ export const portalPictures = Object.freeze({
   fashion:{src:'assets/fashion-scene-v2.png',alt:'A red-and-white sneaker, hanging clothes and shoeboxes in a warm room overlooking the city.',zoom:1,x:0,y:0},
   flow:{src:'assets/flow-scene-v2.png',alt:'A winding river of money runs past a reservoir, waterwheel, houses and young trees inside the Flow portal.',zoom:1,x:0,y:0},
   flowCover:{src:'assets/flow-cover-scene-v2.png',alt:'A golden river of money winds through a terraced landscape inside the shared book-cover ring.',zoom:1,x:0,y:0},
+  redButton:{src:'assets/red-button-scene-v1.png',alt:'A hand reaches for the red end-call button while family and childhood memories surround the phone.',zoom:1,x:0,y:0},
+  redButtonCover:{src:'assets/red-button-scene-v1.png',alt:'A finger touches the red end-call button in the centre of the book-cover ring.',zoom:1,x:0,y:0},
   motherRussia:{src:'assets/mother-russia-scene-v2.png',alt:'A glowing wooden cabin in snow faces a river and imagined city beneath a winter moon.',zoom:1,x:0,y:0},
   motherRussiaCover:{src:'assets/mother-russia-cover-scene-v2.png',alt:'A glowing cabin beside a snowy river faces an imagined city beneath a winter moon.',zoom:1,x:0,y:0},
   dreamWorld:{src:'assets/dream-world-scene-v2.png',alt:'An imagined family dinner glows through a window amid layered Paris streets.',zoom:1,x:0,y:0},

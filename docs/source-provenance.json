@@ -73,6 +73,17 @@
       "sourceUrl": null
     },
     {
+      "slug": "nut-do",
+      "editorialId": "06",
+      "legacyId": null,
+      "originalTitle": "Red Button",
+      "sourcePath": "chapters/nut-do/source/approved.md",
+      "sha256": "fcc49b4b78b3b594b51d603a729d83c8a02cecfd544de3af9d18b0e8bd73e5a1",
+      "bytes": 2540,
+      "archiveUrl": null,
+      "sourceUrl": null
+    },
+    {
       "slug": "for-mother-russia",
       "editorialId": "08",
       "legacyId": "05",

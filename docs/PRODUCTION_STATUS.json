@@ -64,12 +64,12 @@
     {
       "slug": "nut-do",
       "number": "06",
-      "title": "The Red Button",
-      "reader": "outline only",
-      "product_release": "awaiting author manuscript",
-      "files": 6,
-      "bytes": 2174,
-      "products": 0
+      "title": "Red Button",
+      "reader": "published manuscript",
+      "product_release": "author-selected full manuscript and board-derived digital portal; print and media pending",
+      "files": 17,
+      "bytes": 6487258,
+      "products": 5
     },
     {
       "slug": "mot-nguoi-ban-cu",

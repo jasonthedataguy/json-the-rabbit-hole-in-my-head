@@ -7,5 +7,14 @@
     "heading": "",
     "intro": "",
     "moments": []
+  },
+  "digital_portal": {
+    "recipe": "scripts/cut_red_button_board.py",
+    "ring": "artwork/portal/red-button-ring-v1.png",
+    "scene": "artwork/portal/red-button-scene-v1.png",
+    "homepage_scene": "artwork/portal/red-button-scene-v1.png",
+    "reader_illustration": "artwork/portal/red-button-spread-v1.webp",
+    "standalone_portal": "web/assets/red-button-portal-v1.png",
+    "status": "digital crops from flattened supplied board"
   }
 }

@@ -2,27 +2,30 @@
   "schema_version": 2,
   "slug": "nut-do",
   "number": "06",
-  "title": "The Red Button",
-  "short_title": "The Red Button",
+  "title": "Red Button",
+  "short_title": "Red Button",
   "part": 2,
   "language": "vi",
-  "publish": false,
-  "release_stage": "outline",
-  "canonical_text": null,
+  "publish": true,
+  "release_stage": "reader-with-digital-portal",
+  "canonical_text": "source/approved.md",
   "canonical_path": "#chapter/06",
-  "summary": "Trong một cuộc điện thoại với mẹ, Jason bấm ngắt cuộc gọi. Sau nút đỏ là nỗi sợ gắn với những giờ học, bài toán và các lời nói thời thơ ấu.",
+  "summary": "Sau khi đáp máy bay và chạy đua với hạn công việc, Jason dập cuộc gọi với mẹ. Nút đỏ kéo theo những ký ức về áp lực học hành và khoảng cách giữa hai người.",
   "portal": {
-    "scene": "A red end-call button glows over an empty childhood study desk.",
+    "scene": "A hand presses the red end-call button while airport, work, family, a dog and childhood study memories turn around the phone.",
     "objects": [
-      "telephone",
-      "exercise book",
-      "pencil"
+      "phone and red end-call button",
+      "airport and suitcase",
+      "dog",
+      "parents",
+      "childhood exercise book"
     ],
     "iconKey": "phone",
-    "motif": "The red button"
+    "motif": "A call ended; a memory still present"
   },
   "original_edition": null,
-  "production_status": "awaiting author manuscript",
+  "production_status": "author-selected full manuscript and board-derived digital portal; print and media pending",
+  "manuscript_sha256": "fcc49b4b78b3b594b51d603a729d83c8a02cecfd544de3af9d18b0e8bd73e5a1",
   "outline_title": "Nút đỏ",
   "original_title": "Nút đỏ"
 }
