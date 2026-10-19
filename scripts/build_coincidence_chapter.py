@@ -44,6 +44,7 @@ def build() -> None:
   <meta name="theme-color" content="#112637">
   <meta name="description" content="The complete author-selected Chapter 11 essay in the .json digital book.">
   <title>Coincidence · Chapter 11 · .json</title>
+  <link rel="icon" href="../../../assets/favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="coincidence.css">
 </head>
 <body>
