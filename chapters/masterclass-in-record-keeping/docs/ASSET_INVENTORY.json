@@ -2,24 +2,64 @@
   "chapter": "masterclass-in-record-keeping",
   "files": [
     {
+      "path": "artwork/portal/record-keeping-portal-v1.png",
+      "bytes": 1553942,
+      "sha256": "8287cbaa71ffc021b98a06669beff3b8ab6914c364fa76243b788818161bc49f"
+    },
+    {
+      "path": "artwork/portal/record-keeping-ring-v1.png",
+      "bytes": 1910444,
+      "sha256": "17887d2e9b190164bca5891777636337487308e093655ea8abaac5fc1ce5906e"
+    },
+    {
+      "path": "artwork/portal/record-keeping-scene-v1.png",
+      "bytes": 1505318,
+      "sha256": "3b47afcfb43c6ca6ca2cbcda88dcc4c40ea3ab6adb54342de08e62c06c567416"
+    },
+    {
+      "path": "artwork/portal/record-keeping-spread-v1.webp",
+      "bytes": 162196,
+      "sha256": "eb8c535b97eb9f4ee0a2080e3808c0d7c50d7b8cefc7553221b4f2dc242bef98"
+    },
+    {
       "path": "chapter.json",
-      "bytes": 984,
-      "sha256": "dbccd3a06ae6bd26f4f76b9abdcbab2469048600b8a1bfa4801328223e59a81c"
+      "bytes": 1343,
+      "sha256": "510c4d3fd9fba93ff59c0895515d21f72498fe8c67c93dd80f66d228ad490b57"
+    },
+    {
+      "path": "docs/ASSET_SOURCE.md",
+      "bytes": 906,
+      "sha256": "31291f796babfc5f9a40f51e7e0bfe172396b92b9ef94534bbe8053d8eefe9e5"
     },
     {
       "path": "docs/PRODUCTS.json",
-      "bytes": 324,
-      "sha256": "946db0b7008b4ea49c48e09213f3377823c6ba013b58078af7ea838a6b30d617"
+      "bytes": 1247,
+      "sha256": "bc97602ce9815f393c5bab80dfa56e55eb92fd1d2c4119ec72a66df46e5d731f"
+    },
+    {
+      "path": "docs/QA.md",
+      "bytes": 1318,
+      "sha256": "198c33153bf409e45fd59fa4cf7525fe75c292dfd6ae6c40b3f0748bf453acb4"
     },
     {
       "path": "production.json",
-      "bytes": 158,
-      "sha256": "04cca5cbcb7714947f2e115425c3b36fd58203c853d17184364ed8f229b16d7d"
+      "bytes": 634,
+      "sha256": "7e32c588a91dbb7fd87975be837056f29abca74c33474d54ee6060a566abfd35"
     },
     {
       "path": "README.md",
-      "bytes": 458,
-      "sha256": "38c89a9c4a061d89e667ad140ceb26dac0cc5b436728af0a415cde235d3eaaff"
+      "bytes": 1034,
+      "sha256": "3c29ae6b695df7ad52acba8e1441f580642db812ea38da2d25225b1b2832af4d"
+    },
+    {
+      "path": "source/approved.md",
+      "bytes": 8050,
+      "sha256": "7378906037095aa7f894aecf09109932ddff3a25599325a9fabd61134f95f7c1"
+    },
+    {
+      "path": "source/original.txt",
+      "bytes": 7841,
+      "sha256": "6dc76613bf304b4c44bf36f2f52adbc1639569e3e703294b88488f876ae03874"
     },
     {
       "path": "source/outline.md",
@@ -28,8 +68,28 @@
     },
     {
       "path": "source/revisions.log",
-      "bytes": 111,
-      "sha256": "e01ec275c2bd0c7128f4545ba1a8339712c2e287d8a0ea329c9ccf3068756f36"
+      "bytes": 454,
+      "sha256": "892f72b63a0d5ff25196f40b041cd5aacbb0a5c654810d9715f7186c894939a2"
+    },
+    {
+      "path": "web/assets/record-keeping-portal-v1.png",
+      "bytes": 1553942,
+      "sha256": "8287cbaa71ffc021b98a06669beff3b8ab6914c364fa76243b788818161bc49f"
+    },
+    {
+      "path": "web/assets/record-keeping-spread-v1.webp",
+      "bytes": 162196,
+      "sha256": "eb8c535b97eb9f4ee0a2080e3808c0d7c50d7b8cefc7553221b4f2dc242bef98"
+    },
+    {
+      "path": "web/index.html",
+      "bytes": 11324,
+      "sha256": "b37b3e98c70a989d17333ce288c27c08534cac2d7eeb15134c8e9d57084d8cca"
+    },
+    {
+      "path": "web/record-keeping.css",
+      "bytes": 5858,
+      "sha256": "cc31c39704fc62b0f17c379cb7c42e261ad42c0e0fb2ea0b316ff633e1bee7fa"
     }
   ]
 }

@@ -660,6 +660,24 @@
       "public_path": "assets/better-brighter-spread-v1.webp",
       "sha256_at_intake": "03364119ba7c38615b370465d6b6232f1b630c49164a213014819bdc2e821f0c",
       "provenance": "Author board references/design/model_failure - office-battlefield-better-brighter.png; recipe scripts/cut_better_brighter_board.py. Rectangular extracted-object reading illustration. Screen use only."
+    },
+    {
+      "source": "chapters/masterclass-in-record-keeping/artwork/portal/record-keeping-ring-v1.png",
+      "public_path": "assets/record-keeping-ring-v1.png",
+      "sha256_at_intake": "17887d2e9b190164bca5891777636337487308e093655ea8abaac5fc1ce5906e",
+      "provenance": "Author board references/design/model_failure -office-battlefield-masterclass-in-record-keeping.png; recipe scripts/cut_record_keeping_board.py. Rotating files, timestamps and office record collage. Screen use only."
+    },
+    {
+      "source": "chapters/masterclass-in-record-keeping/artwork/portal/record-keeping-scene-v1.png",
+      "public_path": "assets/record-keeping-scene-v1.png",
+      "sha256_at_intake": "3b47afcfb43c6ca6ca2cbcda88dcc4c40ea3ab6adb54342de08e62c06c567416",
+      "provenance": "Author board references/design/model_failure -office-battlefield-masterclass-in-record-keeping.png; recipe scripts/cut_record_keeping_board.py. Stationary open record log and magnifying glass with Jason, aligned to the ring. Screen use only."
+    },
+    {
+      "source": "chapters/masterclass-in-record-keeping/artwork/portal/record-keeping-spread-v1.webp",
+      "public_path": "assets/record-keeping-spread-v1.webp",
+      "sha256_at_intake": "eb8c535b97eb9f4ee0a2080e3808c0d7c50d7b8cefc7553221b4f2dc242bef98",
+      "provenance": "Author board references/design/model_failure -office-battlefield-masterclass-in-record-keeping.png; recipe scripts/cut_record_keeping_board.py. Rectangular extracted-object reading illustration. Screen use only."
     }
   ]
 }

@@ -2,26 +2,31 @@
   "schema_version": 2,
   "slug": "masterclass-in-record-keeping",
   "number": "27",
-  "title": "Masterclass in Record Keeping",
-  "short_title": "Masterclass in Record Keeping",
+  "title": "Office Battlefield - Masterclass in Record Keeping",
+  "short_title": "Office Battlefield",
   "part": 4,
   "language": "vi",
-  "publish": false,
-  "release_stage": "outline",
-  "canonical_text": null,
+  "publish": true,
+  "release_stage": "reader-with-digital-portal",
+  "canonical_text": "source/approved.md",
   "canonical_path": "#chapter/27",
-  "summary": "Người từng bị phê bình về cách ghi chép trên Linear dựng một kho bằng chứng về chính ticket đó: title history, timestamps, activity log, nhiều yêu cầu tìm dữ liệu và các câu trả lời từ AI.",
+  "summary": "Jason turns a disputed Linear ticket into an evidence pipeline, collecting title history and timestamps while overlooking what the record cannot prove and an apology arriving in his DMs.",
   "portal": {
-    "scene": "A wall of documents and timestamps is examined through a magnifying glass.",
+    "scene": "Jason faces an opened record log and magnifying glass amid office files, timestamps, tickets and audit trails.",
     "objects": [
-      "ticket stack",
+      "opened record log",
+      "magnifying glass",
+      "file drawers",
+      "ticket history",
       "timestamp",
-      "search cursor"
+      "locked envelope"
     ],
     "iconKey": "search",
-    "motif": "The record"
+    "motif": "What the record proves, and what it cannot"
   },
   "original_edition": null,
-  "production_status": "awaiting author manuscript",
-  "outline_title": "Masterclass in Record Keeping"
+  "production_status": "author-selected full manuscript and board-derived digital portal; print and media pending",
+  "outline_title": "Masterclass in Record Keeping",
+  "original_title": "04. Masterclass in Record Keeping",
+  "manuscript_sha256": "7378906037095aa7f894aecf09109932ddff3a25599325a9fabd61134f95f7c1"
 }
