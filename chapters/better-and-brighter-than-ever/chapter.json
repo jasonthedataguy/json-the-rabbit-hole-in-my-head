@@ -2,26 +2,31 @@
   "schema_version": 2,
   "slug": "better-and-brighter-than-ever",
   "number": "26",
-  "title": "Better and Brighter Than Ever",
-  "short_title": "Better and Brighter Than Ever",
+  "title": "Office Battlefield - Better and Brighter Than Ever",
+  "short_title": "Office Battlefield",
   "part": 4,
   "language": "vi",
-  "publish": false,
-  "release_stage": "outline",
-  "canonical_text": null,
+  "publish": true,
+  "release_stage": "reader-with-digital-portal",
+  "canonical_text": "source/approved.md",
   "canonical_path": "#chapter/26",
-  "summary": "Từ món quà áo bóng đá từng tượng trưng cho tình bạn tới sự cay nghiệt sau khi mất lòng tin.",
+  "summary": "Two football jerseys once symbolized friendship and mutual respect. After the office conflict, Jason reads every attempt to reconnect as disrespect and insists that he can finally see clearly.",
   "portal": {
-    "scene": "Two football jerseys hang apart beneath fluorescent light with a gift tag and an empty hook.",
+    "scene": "Jason walks toward a bright eye-shaped doorway between two exchanged football jerseys, while office conversations, gifts and missed connections fill the surrounding ring.",
     "objects": [
       "football jerseys",
-      "gift tag",
-      "empty hook"
+      "eye-shaped doorway",
+      "gift",
+      "two mugs",
+      "office desks",
+      "empty chair"
     ],
-    "iconKey": "jersey",
-    "motif": "The empty hook"
+    "iconKey": "vision",
+    "motif": "Seeing clearly or seeing what he expects"
   },
   "original_edition": null,
-  "production_status": "awaiting author manuscript",
-  "outline_title": "Better and Brighter Than Ever"
+  "production_status": "author-selected full manuscript and board-derived digital portal; print and media pending",
+  "outline_title": "Better and Brighter Than Ever",
+  "original_title": "03. Better and Brighter Than Ever",
+  "manuscript_sha256": "72ba8c983f5baa2be3a1ddd48df5cb848368de72d41853cdeaa8d3970c8c71ec"
 }

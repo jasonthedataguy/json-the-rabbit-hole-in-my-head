@@ -642,6 +642,24 @@
       "public_path": "assets/payoff-matrix-spread-v1.webp",
       "sha256_at_intake": "cd55e6c108e7c7e1710c560d5d7b45a047cf6eb2d35a25db1d3f72b0d18647e3",
       "provenance": "Author board references/design/model_failure -office-battlefield-payoff-matrix.png; recipe scripts/cut_payoff_matrix_board.py. Rectangular extracted-object reading illustration. Screen use only."
+    },
+    {
+      "source": "chapters/better-and-brighter-than-ever/artwork/portal/better-brighter-ring-v1.png",
+      "public_path": "assets/better-brighter-ring-v1.png",
+      "sha256_at_intake": "ef31f853a88f96e7adf37b053043c38480f8a8033254ad9ae9729e2d4243a607",
+      "provenance": "Author board references/design/model_failure - office-battlefield-better-brighter.png; recipe scripts/cut_better_brighter_board.py. Rotating office, jerseys, choices and relationships collage. Screen use only."
+    },
+    {
+      "source": "chapters/better-and-brighter-than-ever/artwork/portal/better-brighter-scene-v1.png",
+      "public_path": "assets/better-brighter-scene-v1.png",
+      "sha256_at_intake": "8bff4a7f0580d34da9c0ac03f5928207761379695a31a150286199fdc7d87a41",
+      "provenance": "Author board references/design/model_failure - office-battlefield-better-brighter.png; recipe scripts/cut_better_brighter_board.py. Stationary eye-shaped doorway, two jerseys and Jason, aligned to the ring. Screen use only."
+    },
+    {
+      "source": "chapters/better-and-brighter-than-ever/artwork/portal/better-brighter-spread-v1.webp",
+      "public_path": "assets/better-brighter-spread-v1.webp",
+      "sha256_at_intake": "03364119ba7c38615b370465d6b6232f1b630c49164a213014819bdc2e821f0c",
+      "provenance": "Author board references/design/model_failure - office-battlefield-better-brighter.png; recipe scripts/cut_better_brighter_board.py. Rectangular extracted-object reading illustration. Screen use only."
     }
   ]
 }

@@ -1,4 +1,4 @@
-import { renderIcon } from './chapters.js?v=25';
+import { renderIcon } from './chapters.js?v=26';
 
 // The chapter's keepsake is printed on a paper tab seated in the portal's rim.
 // Keep this SVG in normal document flow; its owner decides where the tab sits.
@@ -37,6 +37,7 @@ const markerNames = {
   dialogue: 'two quiet speech bubbles',
   counters: 'two falling counters',
   eye: 'an eye reflected in a leaf',
+  vision: 'a bright eye and open path',
   door: 'a doorway home',
   dog: 'Gấu, a little white dog',
   mountain: 'the mountains of Patagonia',

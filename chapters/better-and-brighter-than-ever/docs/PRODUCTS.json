@@ -1,13 +1,36 @@
 {
   "chapter": "better-and-brighter-than-ever",
-  "products": [],
+  "products": [
+    {
+      "product": "Selected author manuscript",
+      "state": "ready; transcribed from author message",
+      "path": "source/approved.md"
+    },
+    {
+      "product": "Better and Brighter rotating chapter ring",
+      "state": "board-derived digital crop; screen use only",
+      "path": "artwork/portal/better-brighter-ring-v1.png"
+    },
+    {
+      "product": "Better and Brighter stationary centre",
+      "state": "aligned to chapter ring; screen use only",
+      "path": "artwork/portal/better-brighter-scene-v1.png"
+    },
+    {
+      "product": "Better and Brighter rectangular reading illustration",
+      "state": "key-elements crop; screen use only",
+      "path": "artwork/portal/better-brighter-spread-v1.webp"
+    },
+    {
+      "product": "Better and Brighter standalone digital chapter",
+      "state": "generated from selected manuscript",
+      "path": "web/index.html"
+    }
+  ],
   "remaining": [
-    "Author manuscript and selection",
-    "Approved scene artwork",
-    "Read / Explore / Revisit experience",
-    "Print proofs",
+    "Separated high-resolution art and printer specifications for certified print production",
     "Author narration and films",
     "Social channel packs",
-    "Visual and release QA"
+    "Physical-device and human screen-reader review"
   ]
 }

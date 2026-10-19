@@ -20,6 +20,8 @@ export const portalPictures = Object.freeze({
   oldFriendCover:{src:'assets/old-friend-scene-v1.png',alt:'Two childhood friends share a packet of candy inside the book-cover ring.',zoom:1,x:0,y:0},
   officeBattlefield:{src:'assets/office-battlefield-scene-v1.png',alt:'Jason faces a paper message above an office chess table; coworkers and an AI agent circle him.',zoom:1,x:0,y:0},
   payoffMatrix:{src:'assets/payoff-matrix-scene-v1.png',alt:'Jason faces AI scorecards and a payoff matrix above an office chessboard.',zoom:1,x:0,y:0},
+  betterBrighter:{src:'assets/better-brighter-scene-v1.png',alt:'Jason walks toward a bright eye-shaped doorway between two exchanged football jerseys.',zoom:1,x:0,y:0},
+  betterBrighterCover:{src:'assets/better-brighter-scene-v1.png',alt:'Jason approaches a bright eye-shaped doorway between two jerseys inside the shared cover ring.',zoom:1,x:0,y:0},
   payoffMatrixCover:{src:'assets/payoff-matrix-scene-v1.png',alt:'An AI-scored payoff matrix and chessboard fill the centre of the shared book-cover ring.',zoom:1,x:0,y:0},
   officeBattlefieldCover:{src:'assets/office-battlefield-scene-v1.png',alt:'The paper message and chess table fill the centre of the shared book-cover ring.',zoom:1,x:0,y:0},
   badTrip:{src:'assets/bad-trip-scene-v1.png',alt:'Jason faces a gilded mirror containing another version of himself, surrounded by photographs and old work.',zoom:1,x:0,y:0},

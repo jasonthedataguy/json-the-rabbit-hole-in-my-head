@@ -225,6 +225,17 @@
       "bytes": 5326,
       "archiveUrl": null,
       "sourceUrl": null
+    },
+    {
+      "slug": "better-and-brighter-than-ever",
+      "editorialId": "26",
+      "legacyId": null,
+      "originalTitle": "Office Battlefield - Better and Brighter Than Ever",
+      "sourcePath": "chapters/better-and-brighter-than-ever/source/approved.md",
+      "sha256": "72ba8c983f5baa2be3a1ddd48df5cb848368de72d41853cdeaa8d3970c8c71ec",
+      "bytes": 3201,
+      "archiveUrl": null,
+      "sourceUrl": null
     }
   ]
 }

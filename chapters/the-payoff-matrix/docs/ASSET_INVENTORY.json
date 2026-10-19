@@ -38,8 +38,8 @@
     },
     {
       "path": "docs/QA.md",
-      "bytes": 1410,
-      "sha256": "264a6dc285660387923bdff574381796c864ee0b74cd26116ebbfa5f737f4b9d"
+      "bytes": 1420,
+      "sha256": "f0556c62cda59db8d55771c31df257cd1e9b92538ffb1815eb225d84a36fb00f"
     },
     {
       "path": "production.json",

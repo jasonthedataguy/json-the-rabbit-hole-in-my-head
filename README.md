@@ -25,9 +25,9 @@ Each chapter has `chapter.json`, `production.json`, `source/`, `artwork/{source,
 
 ## Work here
 
-Edit the website in `shared/web/`. Edit book-level content in `book.json` and chapter identity/summary in `chapters/<slug>/chapter.json`. Keep author-selected prose in the chapter’s `source/`. All 35 slots have a folder; 15 currently contain editorial outlines, not full author manuscripts.
+Edit the website in `shared/web/`. Edit book-level content in `book.json` and chapter identity/summary in `chapters/<slug>/chapter.json`. Keep author-selected prose in the chapter’s `source/`. All 35 slots have a folder; 14 currently contain editorial outlines, not full author manuscripts.
 
-Ten original chapters have their complete tracked asset kits locally: 1,412 preserved file mappings, about 444 MB including existing portal assets and production references. The selected reader retains all 80,917 original manuscript bytes plus the author-supplied Quant, Flow, Red Button, An Old Friend, Coincidence, Asteroid, Run away, Bad Trip and the two Office Battlefield chapters. All twenty full manuscripts now have portal slots. [Migration evidence](docs/MIGRATION.json) and [source provenance](docs/source-provenance.json) record their identities.
+Ten original chapters have their complete tracked asset kits locally: 1,412 preserved file mappings, about 444 MB including existing portal assets and production references. The selected reader retains all 80,917 original manuscript bytes plus the author-supplied Quant, Flow, Red Button, An Old Friend, Coincidence, Asteroid, Run away, Bad Trip and the three Office Battlefield chapters. All 21 full manuscripts now have portal slots. [Migration evidence](docs/MIGRATION.json) and [source provenance](docs/source-provenance.json) record their identities.
 
 The reader links to local immersive experiences and inherited print/film files. Their original numbering and proof states remain explicit. Existing assets are available for adaptation; narration, printer-specific work and v2 media/design review are not automatically complete.
 
@@ -53,7 +53,7 @@ Open [localhost:4173](http://localhost:4173). Rebuild after changing sources. To
 python scripts/new_chapter.py --slug another-essay --title "Another essay" --archive
 ```
 
-To work on one of the remaining 15 outline chapters, edit its existing folder. [The workflow](docs/PRODUCTION_WORKFLOW.md) explains manuscript selection, Read / Explore / Revisit, print, narration, films, social packs and release evidence.
+To work on one of the remaining 14 outline chapters, edit its existing folder. [The workflow](docs/PRODUCTION_WORKFLOW.md) explains manuscript selection, Read / Explore / Revisit, print, narration, films, social packs and release evidence.
 
 ## Cold Rice digital design
 
@@ -101,4 +101,8 @@ Office Battlefield - The 23-Word Nuclear Warhead now fills the existing `04_mode
 
 ## The Payoff Matrix digital design
 
-Office Battlefield - The Payoff Matrix is Chapter 25 in `04_model_failure`, immediately after The 23-Word Nuclear Warhead. The final author manuscript is preserved in `chapters/the-payoff-matrix/source/approved.md`, including its three-row payoff table. The unchanged design board is in `references/design/`; `scripts/cut_payoff_matrix_board.py` makes aligned digital ring and centre crops plus a rectangular key-elements spread. The chapter map, reading leaf, homepage centre and standalone reader use these assets. Existing Chapters 25?33 move to 26?34; their stable slugs and original-edition numbers remain unchanged. The flattened board crops are for screens, not separated print masters.
+Office Battlefield - The Payoff Matrix is Chapter 25 in `04_model_failure`, immediately after The 23-Word Nuclear Warhead. The final author manuscript is preserved in `chapters/the-payoff-matrix/source/approved.md`, including its three-row payoff table. The unchanged design board is in `references/design/`; `scripts/cut_payoff_matrix_board.py` makes aligned digital ring and centre crops plus a rectangular key-elements spread. The chapter map, reading leaf, homepage centre and standalone reader use these assets. Existing Chapters 25–33 moved to 26–34; their stable slugs and original-edition numbers remain unchanged. The flattened board crops are for screens, not separated print masters.
+
+## Better and Brighter Than Ever digital design
+
+Office Battlefield - Better and Brighter Than Ever now fills the existing Chapter 26 slot in `04_model_failure`. Its final author manuscript is transcribed in `chapters/better-and-brighter-than-ever/source/approved.md`; the earlier outline remains for production history. The supplied board is unchanged in `references/design/`. `scripts/cut_better_brighter_board.py` centres the main circular artwork and creates an aligned rotating ring, an upright eye-and-jersey scene, and a rectangular key-elements illustration. The chapter map, reading leaf, homepage centre, and standalone reader use these screen assets. Book order and later chapter numbers do not change.
