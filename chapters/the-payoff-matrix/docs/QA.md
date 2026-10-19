@@ -1,0 +1,7 @@
+# Payoff Matrix digital QA
+
+On 2026-10-19 the 35-chapter site build and link validator passed, with 20 selected full manuscripts. Ten unit tests passed, including safe rendering of the four-column Markdown payoff table. Headless Chrome checked 1440×900 desktop and 390×844 mobile layouts. The Chapter 25 leaf, chapter map, homepage cover stop and standalone reader load the board-derived art without document-wide horizontal overflow. The ring and centre align, the map reports FULL TEXT, and the manuscript shows 39 paragraphs and a three-row table. On mobile, the 600 px table scrolls inside its 320 px container. The desktop homepage cover and reading panel both measure 833 px high. Direct routes for Chapters 23–26 resolve.
+
+Visual evidence: [portal composition](../../../docs/qa/payoff-matrix-board-portal-composition.png), [desktop chapter](../../../docs/qa/payoff-matrix-chapter-desktop.png), [mobile chapter](../../../docs/qa/payoff-matrix-chapter-mobile.png), [mobile payoff table](../../../docs/qa/payoff-matrix-table-mobile.png), [desktop map](../../../docs/qa/payoff-matrix-map-desktop.png), [desktop homepage stop](../../../docs/qa/payoff-matrix-cover-desktop.png), and [mobile standalone reader](../../../docs/qa/payoff-matrix-standalone-mobile.png).
+
+Physical-device and human screen-reader review remain pending. The flattened board supports digital crops, not certified print production.

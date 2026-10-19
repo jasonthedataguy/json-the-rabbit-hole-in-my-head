@@ -252,8 +252,18 @@
       "products": 6
     },
     {
-      "slug": "better-and-brighter-than-ever",
+      "slug": "the-payoff-matrix",
       "number": "25",
+      "title": "Office Battlefield - The Payoff Matrix",
+      "reader": "published manuscript",
+      "product_release": "author-selected full manuscript and board-derived digital portal; print and media pending",
+      "files": 16,
+      "bytes": 6677539,
+      "products": 5
+    },
+    {
+      "slug": "better-and-brighter-than-ever",
+      "number": "26",
       "title": "Better and Brighter Than Ever",
       "reader": "outline only",
       "product_release": "awaiting author manuscript",
@@ -263,7 +273,7 @@
     },
     {
       "slug": "masterclass-in-record-keeping",
-      "number": "26",
+      "number": "27",
       "title": "Masterclass in Record Keeping",
       "reader": "outline only",
       "product_release": "awaiting author manuscript",
@@ -273,7 +283,7 @@
     },
     {
       "slug": "good-boy",
-      "number": "27",
+      "number": "28",
       "title": "Good Boy",
       "reader": "outline only",
       "product_release": "awaiting author manuscript",
@@ -283,7 +293,7 @@
     },
     {
       "slug": "negative-sum-game",
-      "number": "28",
+      "number": "29",
       "title": "Negative-Sum Game",
       "reader": "outline only",
       "product_release": "awaiting author manuscript",
@@ -293,7 +303,7 @@
     },
     {
       "slug": "sharingan",
-      "number": "29",
+      "number": "30",
       "title": "Sharingan",
       "reader": "outline only",
       "product_release": "awaiting author manuscript",
@@ -303,7 +313,7 @@
     },
     {
       "slug": "command-respect",
-      "number": "30",
+      "number": "31",
       "title": "Command Respect",
       "reader": "outline only",
       "product_release": "awaiting author manuscript",
@@ -313,7 +323,7 @@
     },
     {
       "slug": "lone-wolf",
-      "number": "31",
+      "number": "32",
       "title": "Lone Wolf",
       "reader": "outline only",
       "product_release": "awaiting author manuscript",
@@ -323,7 +333,7 @@
     },
     {
       "slug": "co-nhung-thu-chi-khi-minh-roi-di-roi-moi-nhin-thay",
-      "number": "32",
+      "number": "33",
       "title": "Things You Only See After Leaving",
       "reader": "outline only",
       "product_release": "awaiting author manuscript",
@@ -333,7 +343,7 @@
     },
     {
       "slug": "loi-xin-loi",
-      "number": "33",
+      "number": "34",
       "title": "An Apology",
       "reader": "outline only",
       "product_release": "awaiting author manuscript",

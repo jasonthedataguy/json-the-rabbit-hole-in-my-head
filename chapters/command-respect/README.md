@@ -1,6 +1,6 @@
 # Command Respect
 
-V2 slot: **30**. Stable folder: `command-respect`.
+V2 slot: **31**. Stable folder: `command-respect`.
 
 Edit identity and state in `chapter.json`; keep author prose in `source/` and production recipes in `production.json`. See [the chapter workflow](../../docs/PRODUCTION_WORKFLOW.md) and [product status](docs/PRODUCT_STATUS.json).
 

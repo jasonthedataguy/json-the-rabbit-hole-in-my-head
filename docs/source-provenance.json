@@ -214,6 +214,17 @@
       "bytes": 11267,
       "archiveUrl": null,
       "sourceUrl": null
+    },
+    {
+      "slug": "the-payoff-matrix",
+      "editorialId": "25",
+      "legacyId": null,
+      "originalTitle": "Office Battlefield - The Payoff Matrix",
+      "sourcePath": "chapters/the-payoff-matrix/source/approved.md",
+      "sha256": "df619212308c5a4b1e1cf843d81245e66d1d186e288cfe8f688ea4cbf9a0c1c4",
+      "bytes": 5326,
+      "archiveUrl": null,
+      "sourceUrl": null
     }
   ]
 }

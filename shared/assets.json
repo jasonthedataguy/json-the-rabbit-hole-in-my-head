@@ -624,6 +624,24 @@
       "public_path": "assets/office-battlefield-spread-v1.webp",
       "sha256_at_intake": "6359053f0cd127a3193747e5f8c47127df407fe488850983b1fd90c1b8e09ef9",
       "provenance": "Author board references/design/model_failure -office-battlefield-the-23-word-nuclear-warhead.jpg; recipe scripts/cut_office_battlefield_board.py. Rectangular extracted-object reading illustration. Screen use only."
+    },
+    {
+      "source": "chapters/the-payoff-matrix/artwork/portal/payoff-matrix-ring-v1.png",
+      "public_path": "assets/payoff-matrix-ring-v1.png",
+      "sha256_at_intake": "536746055426580be53d654e3dc5f0461b89db2caddc43cc856cd708378b250b",
+      "provenance": "Author board references/design/model_failure -office-battlefield-payoff-matrix.png; recipe scripts/cut_payoff_matrix_board.py. Rotating office, strategy and scorecard collage. Screen use only."
+    },
+    {
+      "source": "chapters/the-payoff-matrix/artwork/portal/payoff-matrix-scene-v1.png",
+      "public_path": "assets/payoff-matrix-scene-v1.png",
+      "sha256_at_intake": "c3ead3265d34ff951f9b60d901e065c4c7a5c4f76ce95809e2b64f000a8e99db",
+      "provenance": "Author board references/design/model_failure -office-battlefield-payoff-matrix.png; recipe scripts/cut_payoff_matrix_board.py. Stationary payoff table and chessboard centre, aligned to the ring. Screen use only."
+    },
+    {
+      "source": "chapters/the-payoff-matrix/artwork/portal/payoff-matrix-spread-v1.webp",
+      "public_path": "assets/payoff-matrix-spread-v1.webp",
+      "sha256_at_intake": "cd55e6c108e7c7e1710c560d5d7b45a047cf6eb2d35a25db1d3f72b0d18647e3",
+      "provenance": "Author board references/design/model_failure -office-battlefield-payoff-matrix.png; recipe scripts/cut_payoff_matrix_board.py. Rectangular extracted-object reading illustration. Screen use only."
     }
   ]
 }

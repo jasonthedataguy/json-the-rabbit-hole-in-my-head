@@ -90,5 +90,22 @@ class ProjectTests(unittest.TestCase):
         self.assertNotIn('<script', body)
         self.assertNotIn('href="javascript:', body)
 
+    def test_payoff_table_is_readable_and_escaped(self):
+        source = (
+            '# Matrix\n\n'
+            '| Move | Payoff |\n'
+            '| --- | --- |\n'
+            '| Pokes | −20 |\n'
+            '| <script> | +10 |\n\n'
+            'Game over.'
+        )
+        body, heading, count = render_markdown(source)
+        self.assertEqual((heading, count), ('Matrix', 2))
+        self.assertIn('<th scope="col">Move</th>', body)
+        self.assertIn('<td>−20</td>', body)
+        self.assertIn('&lt;script&gt;', body)
+        self.assertNotIn('<script>', body)
+        self.assertIn('<p>Game over.</p>', body)
+
 if __name__ == '__main__':
     unittest.main()

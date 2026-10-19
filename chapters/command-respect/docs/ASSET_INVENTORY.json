@@ -4,7 +4,7 @@
     {
       "path": "chapter.json",
       "bytes": 1021,
-      "sha256": "4efd83149f29b87322fefada146c8883d11e5ed74ad557f48bc9a21a285c59c1"
+      "sha256": "d39b27b7a52158dea64afb6597ac05231f341d107359a8292dd54601a6f19b90"
     },
     {
       "path": "docs/PRODUCTS.json",
@@ -19,7 +19,7 @@
     {
       "path": "README.md",
       "bytes": 430,
-      "sha256": "dc5e52cfb406aa7dc1c9f9a0773355e6cb5a883ce50083ae47ddf5534d883bff"
+      "sha256": "542704a8cc7576d5ecbcc65dd90c74e9971daccdd5329e04cf9ba045c34d6d0a"
     },
     {
       "path": "source/outline.md",

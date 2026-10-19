@@ -61,6 +61,36 @@ def inline(text: str) -> str:
     return "".join(output)
 
 
+def markdown_table(block: str) -> str | None:
+    """Render a simple pipe table while keeping every cell inert."""
+    lines = block.splitlines()
+    if len(lines) < 3 or not all(line.strip().startswith("|") for line in lines):
+        return None
+
+    def cells(line: str) -> list[str]:
+        return [cell.strip() for cell in line.strip().strip("|").split("|")]
+
+    headers = cells(lines[0])
+    divider = cells(lines[1])
+    if len(headers) < 2 or len(divider) != len(headers):
+        return None
+    if not all(re.fullmatch(r":?-{3,}:?", cell) for cell in divider):
+        return None
+    rows = [cells(line) for line in lines[2:]]
+    if not rows or any(len(row) != len(headers) for row in rows):
+        return None
+
+    head = "".join(f"<th scope=\"col\">{inline(cell)}</th>" for cell in headers)
+    body = "".join(
+        "<tr>" + "".join(f"<td>{inline(cell)}</td>" for cell in row) + "</tr>"
+        for row in rows
+    )
+    return (
+        '<div class="prose-table-scroll" role="region" aria-label="Manuscript table" tabindex="0">'
+        f"<table><thead><tr>{head}</tr></thead><tbody>{body}</tbody></table></div>"
+    )
+
+
 def render_markdown(markdown: str) -> tuple[str, str | None, int]:
     """Return body HTML, the unchanged first heading, and paragraph count.
 
@@ -83,7 +113,11 @@ def render_markdown(markdown: str) -> tuple[str, str | None, int]:
         if not block.strip():
             continue
         heading = re.fullmatch(r"(#{1,6})\s+(.+)", block)
-        if heading:
+        table = markdown_table(block)
+        if table:
+            output.append(table)
+            paragraph_count += 1
+        elif heading:
             level = min(6, len(heading.group(1)) + 1)
             output.append(f"<h{level}>{inline(heading.group(2))}</h{level}>")
         elif re.fullmatch(r"\s*(?:\*\s*){3,}|\s*(?:-\s*){3,}|\s*(?:_\s*){3,}", block):
@@ -116,6 +150,10 @@ class PlainText(HTMLParser):
     def handle_endtag(self, tag: str) -> None:
         if tag in {"p", "blockquote", "h1", "h2", "h3", "h4", "h5", "h6"}:
             self.parts.append("\n\n")
+        elif tag in {"th", "td"}:
+            self.parts.append("\t")
+        elif tag == "tr":
+            self.parts.append("\n")
 
     def result(self) -> str:
         return re.sub(r"\n{3,}", "\n\n", "".join(self.parts)).strip()

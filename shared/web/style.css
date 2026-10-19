@@ -105,6 +105,12 @@ h1, h2, h3 { font-family: var(--serif); font-weight: 400; line-height: 1.15; }
 .prose hr { border: 0; border-top: 1px solid var(--rule); width: 55px; margin: 2em auto; }
 .prose img { height: auto; margin: 1.5em auto; }
 .prose code { font-size: .65em; font-family: 'Courier New', monospace; overflow-wrap: anywhere; }
+.prose-table-scroll { max-width: 100%; margin: 1.6em 0 2em; overflow-x: auto; border: 1px solid #c9b99b; background: #f8f1e4; }
+.prose-table-scroll:focus-visible { outline: 2px solid #a77745; outline-offset: 3px; }
+.prose-table-scroll table { width: 100%; min-width: 600px; border-collapse: collapse; font: 13px/1.5 var(--sans); color: #243b44; }
+.prose-table-scroll th, .prose-table-scroll td { padding: 11px 13px; border-bottom: 1px solid #d8c9ae; text-align: left; white-space: nowrap; }
+.prose-table-scroll th { background: #e8d9bf; font-weight: 700; }
+.prose-table-scroll tr:last-child td { border-bottom: 0; }
 
 /* The Introduction board becomes the digital frontispiece. */
 .introduction-leaf { padding-top: 53px; }
@@ -876,3 +882,23 @@ h1, h2, h3 { font-family: var(--serif); font-weight: 400; line-height: 1.15; }
 .office-spread-banner img{display:block;width:100%;height:auto;margin:auto;object-fit:contain}
 .office-spread-banner figcaption{margin-top:10px;color:#927b5d;font:10px/1.5 var(--sans);letter-spacing:1.3px;text-transform:uppercase}
 @media(max-width:700px){.office-chapter-stage{grid-template-columns:1fr;gap:9px}.office-chapter-stage .chapter-illustration:has(.fitted-portal){width:min(310px,82%);margin:0 auto}.office-chapter-note{margin:0 12px;padding:14px 0 14px 20px}.office-chapter-note p{font-size:21px}.office-spread-banner{margin-top:17px}.office-chapter-numeral{font-size:60px}.office-chapter-heading h1{font-size:clamp(35px,8.4vw,47px)}}
+
+/* Chapter 25: board-derived payoff matrix portal. */
+.payoff-chapter-heading{text-align:center;margin:0 auto;max-width:780px}
+.payoff-chapter-heading .leaf-kicker{color:#827f78}
+.payoff-chapter-numeral{display:block;color:#a77745;font:75px/.93 var(--serif)}
+.payoff-chapter-heading h1{margin:4px 0 0;color:#132c3b;font:clamp(36px,4.3vw,57px)/1.08 var(--serif);letter-spacing:-1px;text-wrap:balance}
+.payoff-chapter-subtitle{margin:17px 0 8px;color:#946e47;font:10px/1.5 var(--sans);letter-spacing:2.1px;text-transform:uppercase}
+.payoff-chapter-part{margin:0;color:#667572;font:11px/1.5 var(--sans)}
+.payoff-chapter-stage{display:grid;grid-template-columns:minmax(0,330px) minmax(0,1fr);gap:24px;align-items:center;margin:24px 0 28px}
+.payoff-chapter-stage .chapter-illustration:has(.fitted-portal){width:100%;height:auto;margin:0;aspect-ratio:1}
+.payoff-chapter-stage .portal-page-marker,#map-view[data-chapter="the-payoff-matrix"] #portal-marker{display:none}
+.payoff-chapter-note{padding:20px 0 20px 25px;border-left:1px solid #a77745}
+.payoff-chapter-note>span{color:#847c6c;font:10px/1.5 var(--sans);letter-spacing:1.7px}
+.payoff-chapter-note p{margin:19px 0 25px;color:#243b44;font:22px/1.45 var(--body-serif)}
+.payoff-chapter-note button{display:inline-flex;gap:12px;align-items:center;padding:0 0 6px;border:0;border-bottom:1px solid #a77745;background:none;color:#795a3c;font:11px/1.5 var(--sans);letter-spacing:.7px;cursor:pointer}
+.payoff-chapter-note button:hover{color:#553d24}
+.payoff-spread-banner{margin:0 0 34px;text-align:center}
+.payoff-spread-banner img{display:block;width:100%;height:auto;margin:auto;object-fit:contain}
+.payoff-spread-banner figcaption{margin-top:10px;color:#927b5d;font:10px/1.5 var(--sans);letter-spacing:1.3px;text-transform:uppercase}
+@media(max-width:700px){.payoff-chapter-stage{grid-template-columns:1fr;gap:9px}.payoff-chapter-stage .chapter-illustration:has(.fitted-portal){width:min(310px,82%);margin:0 auto}.payoff-chapter-note{margin:0 12px;padding:14px 0 14px 20px}.payoff-chapter-note p{font-size:21px}.payoff-spread-banner{margin-top:17px}.payoff-chapter-numeral{font-size:60px}.payoff-chapter-heading h1{font-size:clamp(35px,8.4vw,47px)}}
