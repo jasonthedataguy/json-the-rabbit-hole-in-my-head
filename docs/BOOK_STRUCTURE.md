@@ -1,18 +1,22 @@
-# Reading order and front matter
+# Reading order — current portal v2, reconciled 20 October 2026
 
-The publisher narrative review (`json_publisher_narrative_review.pdf.pdf`, supplied by the author) controls the reading structure of this edition:
+**Authoritative live registry:** [../book.json](../book.json) lists the Introduction as front matter, Prologue `00` (Cold Rice), and **35 numbered chapters `01–35`**, arranged in five acts. There are **36 narrative portal stops**, plus Cover and Introduction in the 38-state cover control. Seven chapters are outline-only per [PRODUCTION_STATUS.md](PRODUCTION_STATUS.md). Do not confuse the current numbers with original blog-post IDs.
 
-1. Title, epigraph, and author-supplied introduction.
-2. Prologue — Cơm nguội (editorial ID 00).
-3. I — model_specification | Những mô hình đầu tiên (01–05).
-4. II — data_collection | Những thứ không thể đo (06–15).
-5. III — relationship_modeling | Mô hình của tình yêu (16–21).
-6. IV — model_failure | Một mô hình tự chứng minh mình đúng (22–26).
-7. V — under_revision | Những thứ bị bỏ sót (27–31).
-8. Lời xin lỗi (31) also serves as the epilogue.
+| Act | Key | Current editorial IDs | Theme |
+|---|---|---|---|
+| Prologue | — | 00 | Cold Rice |
+| I | `model_specification` | 01–05 | Những mô hình đầu tiên |
+| II | `data_collection` | 06–16 | Những thứ không thể đo |
+| III | `relationship_modeling` | 17–23 | Mô hình của tình yêu |
+| IV | `model_failure` | 24–30 | Một mô hình tự chứng minh mình đúng |
+| V | `under_revision` | 31–35 | Những thứ bị bỏ sót |
 
-The review contains no separate author-written preface. On 18 October 2026, the author supplied a full replacement Introduction with a one-sentence premise, content synopsis, and reader promise. `book.json` records that text and its source; the build generates `dist/book.js`. The epigraph retains the author-requested “I like maths” opening. The earlier three-paragraph editorial excerpt remains available in repository history.
+**Significant revisions since the uploaded publisher outline:** `Bad Trip` inserted at 16; `Dating 102` at 20; Office Battlefield expands to include `The Payoff Matrix` (25) and `The Moral Story Schools Don't Teach You` (29); current epilogue slot is `An Apology` (35, outline only). Original author text and its source numbers remain separate. For full order use [book.json](../book.json) and [PRODUCTION_STATUS.md](PRODUCTION_STATUS.md), rather than retyping titles in this file.
 
-Published manuscript bytes and all source provenance remain unchanged. Only rendering omits each manuscript's duplicated first heading; the reader heading uses the new book title and records a different published title when applicable. Missing manuscripts show editorial premises from section II as **Đề cương**, never invented full prose.
+**Historical references:** the attached `json_publisher_narrative_review` and `json_full_chapter_portal_atlas` documented the earlier 31-chapter + prologue edition. They remain useful for editorial intent and chapter visual grammar but not for current route IDs or video labels. Source manuscripts are preserved; omitted headings in the rendered reader are a presentation decision, not edits.
 
-The website homepage is a cloth-bound cover with a layered paper ring and the author’s short “I like maths because…” introduction. The chapter map remains available at `#map`. The introduction remains the first page in the book’s reading sequence and is accessible through `#introduction`. Explicit chapter links use `#chapter/00` through `#chapter/31`, the printed-style contents use `#contents`, and the illustrated chapter wheel uses `#map`. Original published editions remain separately accessible under `#archive`. Physical-book design material lives under `#edition`.
+**Digital routing:** `#cover`, `#introduction`, `#contents`, `#map`, `#chapter/00` through `#chapter/35`; the repository retains stable original-slug redirects. Use exact URL links and a distinct source-original number in all exports.
+
+**Release policy:** full prose must be author-approved; outline-only slots must display `Đề cương`/clear draft labeling and never invented first-person content. Readable digital availability does not certify final physical/video products.
+
+See [PRODUCT_MASTER_2026-10.md](PRODUCT_MASTER_2026-10.md), [VIDEO_STORY_SYSTEM.md](VIDEO_STORY_SYSTEM.md) and [DECISION_LOG_2026-10.md](DECISION_LOG_2026-10.md) for the updated cross-platform plan.
