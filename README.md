@@ -25,9 +25,9 @@ Each chapter has `chapter.json`, `production.json`, `source/`, `artwork/{source,
 
 ## Work here
 
-Edit the website in `shared/web/`. Edit book-level content in `book.json` and chapter identity/summary in `chapters/<slug>/chapter.json`. Keep author-selected prose in the chapter’s `source/`. All 36 slots have a folder; 10 currently contain editorial outlines, not full author manuscripts.
+Edit the website in `shared/web/`. Edit book-level content in `book.json` and chapter identity/summary in `chapters/<slug>/chapter.json`. Keep author-selected prose in the chapter’s `source/`. All 36 slots have a folder; 8 currently contain editorial outlines, not full author manuscripts.
 
-Ten original chapters have their complete tracked asset kits locally: 1,412 preserved file mappings, about 444 MB including existing portal assets and production references. The selected reader retains all 80,917 original manuscript bytes plus the author-supplied Quant, Flow, Red Button, An Old Friend, Coincidence, Asteroid, Run away, Bad Trip and the nine Office Battlefield chapters. All 27 full manuscripts now have portal slots. [Migration evidence](docs/MIGRATION.json) and [source provenance](docs/source-provenance.json) record their identities.
+Ten original chapters have their complete tracked asset kits locally: 1,412 preserved file mappings, about 444 MB including existing portal assets and production references. The selected reader retains all 80,917 original manuscript bytes plus the author-supplied Quant, Flow, Red Button, An Old Friend, Coincidence, Asteroid, Run away, Bad Trip the nine Office Battlefield chapters and Ugly Projections. All 28 full manuscripts now have portal slots. [Migration evidence](docs/MIGRATION.json) and [source provenance](docs/source-provenance.json) record their identities.
 
 The reader links to local immersive experiences and inherited print/film files. Their original numbering and proof states remain explicit. Existing assets are available for adaptation; narration, printer-specific work and v2 media/design review are not automatically complete.
 
@@ -53,7 +53,7 @@ Open [localhost:4173](http://localhost:4173). Rebuild after changing sources. To
 python scripts/new_chapter.py --slug another-essay --title "Another essay" --archive
 ```
 
-To work on one of the remaining 9 outline chapters, edit its existing folder. [The workflow](docs/PRODUCTION_WORKFLOW.md) explains manuscript selection, Read / Explore / Revisit, print, narration, films, social packs and release evidence.
+To work on one of the remaining 8 outline chapters, edit its existing folder. [The workflow](docs/PRODUCTION_WORKFLOW.md) explains manuscript selection, Read / Explore / Revisit, print, narration, films, social packs and release evidence.
 
 ## Cold Rice digital design
 

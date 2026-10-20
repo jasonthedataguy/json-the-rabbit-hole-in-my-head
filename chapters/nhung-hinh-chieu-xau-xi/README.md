@@ -1,7 +1,5 @@
-# Những hình chiếu xấu xí
+# Ugly Projections
 
-V2 slot: **23**. Stable folder: `nhung-hinh-chieu-xau-xi`.
+V2 digital-book slot: Chapter 23. The supplied manuscript opens with Bài 26; that source label is preserved in both source files, while the digital-book navigation retains its existing Chapter 23 number.
 
-Edit identity and state in `chapter.json`; keep author prose in `source/` and production recipes in `production.json`. See [the chapter workflow](../../docs/PRODUCTION_WORKFLOW.md) and [product status](docs/PRODUCT_STATUS.json).
-
-This slot contains the existing editorial outline only. Do not replace the missing author manuscript with invented prose.
+The attachment is preserved byte-for-byte in both source/author-attachment.txt and source/approved.md. Run python scripts/cut_ugly_projections_board.py to rebuild the aligned ring, scene and rectangular reading illustration; run python scripts/build_ugly_projections_chapter.py for the standalone reader. The same board-derived art appears on the chapter leaf, map, homepage preview and digital reader. See docs/ASSET_SOURCE.md and docs/QA.md.

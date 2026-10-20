@@ -768,6 +768,24 @@
       "public_path": "assets/after-leaving-spread-v1.webp",
       "sha256_at_intake": "21d0187f79c45f0396dfda27ab23ea78bdaf4052d472cf4254d8c399046321dd",
       "provenance": "Author board references/design/under_revision - office-battlefield-after-leaving.png; recipe scripts/cut_after_leaving_board.py. Rectangular key-elements reading illustration. Screen use only."
+    },
+    {
+      "source": "chapters/nhung-hinh-chieu-xau-xi/artwork/portal/ugly-projections-ring-v1.png",
+      "public_path": "assets/ugly-projections-ring-v1.png",
+      "sha256_at_intake": "bdb2a924bc3e21cdc58c04d80ef79275af17df0f408ef13d52438909ee27a9c5",
+      "provenance": "Author board references/design/relationship_modelling - ugly-projections.png; recipe scripts/cut_ugly_projections_board.py. Rotating film and projection collage. Screen use only."
+    },
+    {
+      "source": "chapters/nhung-hinh-chieu-xau-xi/artwork/portal/ugly-projections-scene-v1.png",
+      "public_path": "assets/ugly-projections-scene-v1.png",
+      "sha256_at_intake": "d8304d8715ffd3e31346825d829a2c7a97fb5009055bdbfadd899b9172c8b06b",
+      "provenance": "Author board references/design/relationship_modelling - ugly-projections.png; recipe scripts/cut_ugly_projections_board.py. Stationary projector, shadow screen, woman and Jason. Screen use only."
+    },
+    {
+      "source": "chapters/nhung-hinh-chieu-xau-xi/artwork/portal/ugly-projections-spread-v1.webp",
+      "public_path": "assets/ugly-projections-spread-v1.webp",
+      "sha256_at_intake": "913af4fc6f1279751ab64c9c5585269c8908497131a2fb2f0c1d3c20a6b528be",
+      "provenance": "Author board references/design/relationship_modelling - ugly-projections.png; recipe scripts/cut_ugly_projections_board.py. Rectangular key-elements reading illustration. Screen use only."
     }
   ]
 }
