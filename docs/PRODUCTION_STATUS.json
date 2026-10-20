@@ -125,10 +125,10 @@
       "slug": "vo-mong",
       "number": "12",
       "title": "Disillusionment",
-      "reader": "outline only",
-      "product_release": "awaiting author manuscript",
-      "files": 6,
-      "bytes": 2141,
+      "reader": "published manuscript",
+      "product_release": "author-selected full manuscript and digital-book portal; standalone, print and media pending",
+      "files": 7,
+      "bytes": 7780,
       "products": 0
     },
     {
@@ -215,10 +215,10 @@
       "slug": "to-mary-jane",
       "number": "21",
       "title": "To Mary Jane",
-      "reader": "outline only",
-      "product_release": "awaiting author manuscript",
-      "files": 6,
-      "bytes": 2104,
+      "reader": "published manuscript",
+      "product_release": "author-selected full manuscript and digital-book portal; standalone, print and media pending",
+      "files": 7,
+      "bytes": 5138,
       "products": 0
     },
     {
@@ -315,10 +315,10 @@
       "slug": "sharingan",
       "number": "31",
       "title": "Sharingan",
-      "reader": "outline only",
-      "product_release": "awaiting author manuscript",
-      "files": 6,
-      "bytes": 2376,
+      "reader": "published manuscript",
+      "product_release": "author-selected full manuscript and digital-book portal; standalone, print and media pending",
+      "files": 8,
+      "bytes": 34759,
       "products": 0
     },
     {
@@ -335,10 +335,10 @@
       "slug": "lone-wolf",
       "number": "33",
       "title": "Lone Wolf",
-      "reader": "outline only",
-      "product_release": "awaiting author manuscript",
-      "files": 6,
-      "bytes": 2284,
+      "reader": "published manuscript",
+      "product_release": "author-selected full manuscript and digital-book portal; standalone, print and media pending",
+      "files": 8,
+      "bytes": 15835,
       "products": 0
     },
     {
@@ -355,10 +355,10 @@
       "slug": "loi-xin-loi",
       "number": "35",
       "title": "An Apology",
-      "reader": "outline only",
-      "product_release": "awaiting author manuscript",
-      "files": 6,
-      "bytes": 2078,
+      "reader": "published manuscript",
+      "product_release": "author-selected full manuscript and digital-book portal; standalone, print and media pending",
+      "files": 8,
+      "bytes": 18313,
       "products": 0
     }
   ],

@@ -1,5 +1,5 @@
 import { chapters, renderIcon, renderPortal, renderPortalScene } from './chapters.js?v=36';
-import { introduction, parts, chapterNotes } from './book.js?v=28';
+import { introduction, parts, chapterNotes } from './book.js?v=29';
 import { PortalRing } from './ring.js?v=10';
 import { renderPortalPicture, renderPortalFrame, renderFramedPortal } from './portal-art.js?v=59';
 import { digitalArt, digitalCoverPortal, digitalCoverRing, digitalCoverJason } from './digital-art.js?v=3';
@@ -10,7 +10,7 @@ const esc = value => String(value ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;',
 const introInline = value => esc(value).replace(/\*([^*]+)\*/g,'<em>$1</em>');
 const roman = ['','I','II','III','IV','V'];
 const store = {get(key,fallback){try{return JSON.parse(localStorage.getItem(key)) ?? fallback;}catch{return fallback;}},set(key,value){try{localStorage.setItem(key,JSON.stringify(value));}catch{}}};
-const library = await fetch(new URL('./content/manuscripts.json?v=30',import.meta.url)).then(response=>{
+const library = await fetch(new URL('./content/manuscripts.json?v=31',import.meta.url)).then(response=>{
   if(!response.ok)throw new Error('Unable to load the manuscript.');return response.json();
 });
 const publishedById = new Map(library.chapters.filter(c=>c.editorialId!==null).map(c=>[c.editorialId,c]));

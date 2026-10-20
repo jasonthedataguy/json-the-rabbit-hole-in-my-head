@@ -6,9 +6,9 @@
   "short_title": "To Mary Jane",
   "part": 3,
   "language": "vi",
-  "publish": false,
-  "release_stage": "outline",
-  "canonical_text": null,
+  "publish": true,
+  "release_stage": "reader-with-digital-portal",
+  "canonical_text": "source/approved.md",
   "canonical_path": "#chapter/21",
   "summary": "Một lá thư chia tay: anh biết mình đang rời đi, cố giữ sự dịu dàng và đồng thời đặt một cánh cửa đóng lại.",
   "portal": {
@@ -22,6 +22,7 @@
     "motif": "The goodbye letter"
   },
   "original_edition": null,
-  "production_status": "awaiting author manuscript",
-  "outline_title": "To Mary Jane"
+  "production_status": "author-selected full manuscript and digital-book portal; standalone, print and media pending",
+  "outline_title": "To Mary Jane",
+  "manuscript_sha256": "e2386492c3c52d51af9350274ae223515b205e8ccd9e760e80c9b6fc555548d3"
 }

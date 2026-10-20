@@ -49,8 +49,9 @@ python -m unittest discover -s tests -v
 The importer verifies the pack's supplied SHA-256 hashes and that its slug
 set exactly matches this edition. The web build copies the mapped files to
 `dist/assets/digital-book/`. The ZIP's later full manuscript for The Apology
-was outside this asset-only update; the existing editorial outline remains
-until the manuscript is selected through the separate source workflow.
+was outside the asset-only update. The author selected a full manuscript on
+21 October 2026 through the separate source workflow; its earlier outline
+remains in the chapter folder.
 
 Visual QA covered the Introduction, all 36 chapter routes, 36 map stops, and
 37 cover art stops at 1440×900 and 390×844. Representative images were also

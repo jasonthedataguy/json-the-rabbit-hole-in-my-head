@@ -3,13 +3,13 @@
   "files": [
     {
       "path": "chapter.json",
-      "bytes": 851,
-      "sha256": "bae9c4d8e4329762527c0f4021ce93404feeec005a1d108cece7d923227b4c3d"
+      "bytes": 1043,
+      "sha256": "6ffd1e12cb9a4065f8e3c6b51e7bec600cc67488e43650e41c51749826a9ed12"
     },
     {
       "path": "docs/PRODUCTS.json",
-      "bytes": 307,
-      "sha256": "98f38ab93ee0ebb64489b0dfdd97f450bf5ed7751f9bdb8ad8c2a49d3cd518c1"
+      "bytes": 271,
+      "sha256": "6576e02707dec1b3569e12312d3bb01e6872739ba37c59a4d012a0b824392d24"
     },
     {
       "path": "production.json",
@@ -18,8 +18,13 @@
     },
     {
       "path": "README.md",
-      "bytes": 424,
-      "sha256": "ed34bc992fd7a1781f515bae8e1f8364fb73a0ef86c491ebc4a94010dd8f592e"
+      "bytes": 581,
+      "sha256": "7a9b832b05cb59139cd2b59d9bf3e8e3346fc602cb92a9a932ecdec5ebd17a9e"
+    },
+    {
+      "path": "source/approved.md",
+      "bytes": 2455,
+      "sha256": "e2386492c3c52d51af9350274ae223515b205e8ccd9e760e80c9b6fc555548d3"
     },
     {
       "path": "source/outline.md",
@@ -28,8 +33,8 @@
     },
     {
       "path": "source/revisions.log",
-      "bytes": 111,
-      "sha256": "e01ec275c2bd0c7128f4545ba1a8339712c2e287d8a0ea329c9ccf3068756f36"
+      "bytes": 377,
+      "sha256": "09ace0a6c05ea0c6bdda8b51a192691561f59987ddcb185820695848dda6491a"
     }
   ]
 }

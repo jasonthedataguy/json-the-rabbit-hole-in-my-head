@@ -21,7 +21,13 @@ def build_inventory(root=ROOT):
         for lane in contract['lanes']:
             files = [a['path'] for a in assets if a['path'].startswith(lane['folder'] + '/')]
             lanes.append({'id': lane['id'], 'files_present': len(files), 'status': 'available for review' if files else 'not supplied', 'required_deliverables': lane['deliverables']})
-        status = {'chapter': meta['slug'], 'editorial_number': meta['number'], 'original_number': (meta['original_edition'] or {}).get('number'), 'reader': 'published manuscript' if meta['publish'] else 'outline only', 'v2_product_release': meta['production_status'], 'lanes': lanes, 'products': products['products'], 'remaining': products.get('remaining', []), 'v2_remaining': ['Review original chapter numbers, titles and URLs in derivatives before a v2 product release', 'Review chapter experience and media against the v2 design', 'Record new visual QA for changed deliverables'] if meta['original_edition'] else ['Complete the chapter workflow after the author manuscript is supplied']}
+        if meta['original_edition']:
+            v2_remaining = ['Review original chapter numbers, titles and URLs in derivatives before a v2 product release', 'Review chapter experience and media against the v2 design', 'Record new visual QA for changed deliverables']
+        elif meta['publish']:
+            v2_remaining = products.get('remaining', [])
+        else:
+            v2_remaining = ['Complete the chapter workflow after the author manuscript is supplied']
+        status = {'chapter': meta['slug'], 'editorial_number': meta['number'], 'original_number': (meta['original_edition'] or {}).get('number'), 'reader': 'published manuscript' if meta['publish'] else 'outline only', 'v2_product_release': meta['production_status'], 'lanes': lanes, 'products': products['products'], 'remaining': products.get('remaining', []), 'v2_remaining': v2_remaining}
         write_json(folder / 'docs/PRODUCT_STATUS.json', status)
         rows.append({'slug': meta['slug'], 'number': meta['number'], 'title': meta['title'], 'reader': status['reader'], 'product_release': status['v2_product_release'], 'files': len(assets), 'bytes': sum(a['bytes'] for a in assets), 'products': len(products['products'])})
     summary = {'schema_version': 1, 'chapters': rows, 'policy': contract['status_policy']}

@@ -2,12 +2,12 @@
   "chapter": "sharingan",
   "editorial_number": "31",
   "original_number": null,
-  "reader": "outline only",
-  "v2_product_release": "awaiting author manuscript",
+  "reader": "published manuscript",
+  "v2_product_release": "author-selected full manuscript and digital-book portal; standalone, print and media pending",
   "lanes": [
     {
       "id": "manuscript",
-      "files_present": 2,
+      "files_present": 4,
       "status": "available for review",
       "required_deliverables": [
         "original manuscript",
@@ -113,15 +113,19 @@
   ],
   "products": [],
   "remaining": [
-    "Author manuscript and selection",
     "Approved scene artwork",
-    "Read / Explore / Revisit experience",
+    "Standalone Explore / Revisit experience",
     "Print proofs",
     "Author narration and films",
     "Social channel packs",
     "Visual and release QA"
   ],
   "v2_remaining": [
-    "Complete the chapter workflow after the author manuscript is supplied"
+    "Approved scene artwork",
+    "Standalone Explore / Revisit experience",
+    "Print proofs",
+    "Author narration and films",
+    "Social channel packs",
+    "Visual and release QA"
   ]
 }

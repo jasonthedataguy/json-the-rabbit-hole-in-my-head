@@ -139,6 +139,17 @@
       "sourceUrl": null
     },
     {
+      "slug": "vo-mong",
+      "editorialId": "12",
+      "legacyId": null,
+      "originalTitle": "Disillusionment",
+      "sourcePath": "chapters/vo-mong/source/approved.md",
+      "sha256": "51e9003460647c55ca03b16dcdc9cb6d90bdcd13f8f87245410d879ed8b788fd",
+      "bytes": 5015,
+      "archiveUrl": null,
+      "sourceUrl": null
+    },
+    {
       "slug": "nhung-nguoi-anh-em",
       "editorialId": "13",
       "legacyId": null,
@@ -225,6 +236,17 @@
       "bytes": 8257,
       "archiveUrl": "https://jasonthedataguy.github.io/json-under-revision/chapters/16/",
       "sourceUrl": "https://github.com/jasonthedataguy/json-under-revision/blob/b41b692b3e3633abea4997b6ac4513a91308f127/chapters/dating-102/source/approved.md"
+    },
+    {
+      "slug": "to-mary-jane",
+      "editorialId": "21",
+      "legacyId": null,
+      "originalTitle": "To Mary Jane",
+      "sourcePath": "chapters/to-mary-jane/source/approved.md",
+      "sha256": "e2386492c3c52d51af9350274ae223515b205e8ccd9e760e80c9b6fc555548d3",
+      "bytes": 2455,
+      "archiveUrl": null,
+      "sourceUrl": null
     },
     {
       "slug": "runaway",
@@ -326,6 +348,17 @@
       "sourceUrl": null
     },
     {
+      "slug": "sharingan",
+      "editorialId": "31",
+      "legacyId": null,
+      "originalTitle": "Sharingan",
+      "sourcePath": "chapters/sharingan/source/approved.md",
+      "sha256": "3f5c3c163445a539abbcc44e09d7aba3e316f85d7edd3166d166afa242f933da",
+      "bytes": 15721,
+      "archiveUrl": null,
+      "sourceUrl": null
+    },
+    {
       "slug": "command-respect",
       "editorialId": "32",
       "legacyId": null,
@@ -337,6 +370,17 @@
       "sourceUrl": null
     },
     {
+      "slug": "lone-wolf",
+      "editorialId": "33",
+      "legacyId": null,
+      "originalTitle": "Lone Wolf",
+      "sourcePath": "chapters/lone-wolf/source/approved.md",
+      "sha256": "71201c83a0ddd1b5bf98b0a02a4c0aee3fdca1d97596584821495fe23d8c0839",
+      "bytes": 6378,
+      "archiveUrl": null,
+      "sourceUrl": null
+    },
+    {
       "slug": "co-nhung-thu-chi-khi-minh-roi-di-roi-moi-nhin-thay",
       "editorialId": "34",
       "legacyId": null,
@@ -344,6 +388,17 @@
       "sourcePath": "chapters/co-nhung-thu-chi-khi-minh-roi-di-roi-moi-nhin-thay/source/approved.md",
       "sha256": "71fb56af585c9ac5e737e990c4484218367c90bb63454c6c97cf45e637903e48",
       "bytes": 11969,
+      "archiveUrl": null,
+      "sourceUrl": null
+    },
+    {
+      "slug": "loi-xin-loi",
+      "editorialId": "35",
+      "legacyId": null,
+      "originalTitle": "An Apology",
+      "sourcePath": "chapters/loi-xin-loi/source/approved.md",
+      "sha256": "ea424453bffa57163be555f4a55569244210024e23ea1a381fd9bf9a513b3432",
+      "bytes": 7766,
       "archiveUrl": null,
       "sourceUrl": null
     }

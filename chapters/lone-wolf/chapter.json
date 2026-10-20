@@ -6,9 +6,9 @@
   "short_title": "Lone Wolf",
   "part": 5,
   "language": "vi",
-  "publish": false,
-  "release_stage": "outline",
-  "canonical_text": null,
+  "publish": true,
+  "release_stage": "reader-with-digital-portal",
+  "canonical_text": "source/approved.md",
   "canonical_path": "#chapter/33",
   "summary": "Jason mô tả mình lần lượt là golden retriever, con mèo khó gần rồi sói đơn độc. Nhưng các bài hát của NF khiến anh phải thú nhận rằng sự độc lập cực đoan không xóa đi nhu cầu được nắm tay ai đó.",
   "portal": {
@@ -22,6 +22,7 @@
     "motif": "Gấu"
   },
   "original_edition": null,
-  "production_status": "awaiting author manuscript",
-  "outline_title": "Lone Wolf"
+  "production_status": "author-selected full manuscript and digital-book portal; standalone, print and media pending",
+  "outline_title": "Lone Wolf",
+  "manuscript_sha256": "71201c83a0ddd1b5bf98b0a02a4c0aee3fdca1d97596584821495fe23d8c0839"
 }

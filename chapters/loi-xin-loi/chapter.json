@@ -6,9 +6,9 @@
   "short_title": "An Apology",
   "part": 5,
   "language": "vi",
-  "publish": false,
-  "release_stage": "outline",
-  "canonical_text": null,
+  "publish": true,
+  "release_stage": "reader-with-digital-portal",
+  "canonical_text": "source/approved.md",
   "canonical_path": "#chapter/35",
   "summary": "Một thông điệp gửi người từng bị Jason đối xử lạnh lùng hai năm trước.",
   "portal": {
@@ -22,7 +22,8 @@
     "motif": "The unfinished crescent"
   },
   "original_edition": null,
-  "production_status": "awaiting author manuscript",
+  "production_status": "author-selected full manuscript and digital-book portal; standalone, print and media pending",
   "outline_title": "Lời xin lỗi",
-  "original_title": "Lời xin lỗi"
+  "original_title": "Lời xin lỗi",
+  "manuscript_sha256": "ea424453bffa57163be555f4a55569244210024e23ea1a381fd9bf9a513b3432"
 }

@@ -3,13 +3,13 @@
   "files": [
     {
       "path": "chapter.json",
-      "bytes": 933,
-      "sha256": "31499d60e1903846518cd601dbdbafe9b3a8f43d73d51731d072b2c949338838"
+      "bytes": 1125,
+      "sha256": "a905dd3debd978faa6c58c89c6c3387c10f368cf899b7f616eafaa9e6021622b"
     },
     {
       "path": "docs/PRODUCTS.json",
-      "bytes": 304,
-      "sha256": "d988c51b8fd64e5ed6402bdaec37fface20ae442da74bd1ae752032dd4eb0cb6"
+      "bytes": 268,
+      "sha256": "aff112a13e87711b64c200f4a053d25654799261a90b91601180ef3e69dc5feb"
     },
     {
       "path": "production.json",
@@ -18,8 +18,18 @@
     },
     {
       "path": "README.md",
-      "bytes": 418,
-      "sha256": "75e51751897f7bc81739b124a67b57ad5e1f21b9b4cc1ce47b8a8609eda49e5c"
+      "bytes": 575,
+      "sha256": "dad9083cb33a9bd15ac20709e2dec31a0c32f6b2b1b6ed5c33b367aaa3cb4c42"
+    },
+    {
+      "path": "source/approved.md",
+      "bytes": 6378,
+      "sha256": "71201c83a0ddd1b5bf98b0a02a4c0aee3fdca1d97596584821495fe23d8c0839"
+    },
+    {
+      "path": "source/author-submission-2026-10-20.txt",
+      "bytes": 6489,
+      "sha256": "b396fb3ee8c2f5e04dae6c1e2ab78f2fbf614d41a79c5743bc0820c33a4e652e"
     },
     {
       "path": "source/outline.md",
@@ -28,8 +38,8 @@
     },
     {
       "path": "source/revisions.log",
-      "bytes": 111,
-      "sha256": "e01ec275c2bd0c7128f4545ba1a8339712c2e287d8a0ea329c9ccf3068756f36"
+      "bytes": 482,
+      "sha256": "18faf040941ac4e59371007b8d6f703f33709e9fe3ce2bfdc728a75b31d91e19"
     }
   ]
 }
