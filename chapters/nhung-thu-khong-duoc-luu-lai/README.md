@@ -1,7 +1,5 @@
-# Những thứ không được lưu lại
+# Dream Diary — The Things We Never Saved
 
-V2 slot: **10**. Stable folder: `nhung-thu-khong-duoc-luu-lai`.
+V2 digital-book slot: Chapter 10 in data_collection. The stable folder remains `nhung-thu-khong-duoc-luu-lai`.
 
-Edit identity and state in `chapter.json`; keep author prose in `source/` and production recipes in `production.json`. See [the chapter workflow](../../docs/PRODUCTION_WORKFLOW.md) and [product status](docs/PRODUCT_STATUS.json).
-
-This slot contains the existing editorial outline only. Do not replace the missing author manuscript with invented prose.
+The final attachment is retained byte-for-byte in both `source/author-submission.txt` and `source/approved.md`, including its original Vietnamese heading, epigraph and section breaks. Run `python scripts/cut_dream_diary_board.py` to rebuild the ring, centre and rectangular illustration; run `python scripts/build_dream_diary_chapter.py` for the standalone reader. The artwork appears on the chapter leaf, map, homepage preview and digital reader. See `docs/ASSET_SOURCE.md` and `docs/QA.md`.

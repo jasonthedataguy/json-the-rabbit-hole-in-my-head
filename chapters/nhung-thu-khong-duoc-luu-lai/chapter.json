@@ -2,27 +2,30 @@
   "schema_version": 2,
   "slug": "nhung-thu-khong-duoc-luu-lai",
   "number": "10",
-  "title": "The Things We Never Saved",
-  "short_title": "The Things We Never Saved",
+  "title": "Dream Diary — The Things We Never Saved",
+  "short_title": "Dream Diary",
   "part": 2,
   "language": "vi",
-  "publish": false,
-  "release_stage": "outline",
-  "canonical_text": null,
+  "publish": true,
+  "release_stage": "reader-with-digital-portal",
+  "canonical_text": "source/approved.md",
   "canonical_path": "#chapter/10",
-  "summary": "Nhật ký những giấc mơ, ký ức về các nơi chưa hề đặt chân tới và nỗi băn khoăn liệu việc ghi lại có làm chúng trở nên thật.",
+  "summary": "A dream diary holds unfamiliar places, a girl at a metro station, childhood memories and questions that waking life cannot answer. Jason eventually leaves some dreams unwritten.",
   "portal": {
-    "scene": "An open dream notebook dissolves into an unrecorded horizon beside an unlabeled photograph.",
+    "scene": "Two people hold hands beside an approaching yellow metro train; an open dream diary lies in the foreground, surrounded by remembered rooms, sketches and film frames.",
     "objects": [
-      "notebook",
+      "open dream diary",
+      "yellow metro train",
+      "two people holding hands",
       "pencil",
-      "unlabeled photograph"
+      "sketches"
     ],
     "iconKey": "notebook",
-    "motif": "The unrecorded page"
+    "motif": "The open dream diary"
   },
   "original_edition": null,
-  "production_status": "awaiting author manuscript",
+  "production_status": "author-selected full manuscript and board-derived digital portal; print and media pending",
   "outline_title": "Những thứ không được lưu lại",
-  "original_title": "Những thứ không được lưu lại"
+  "original_title": "Những thứ không được lưu lại",
+  "manuscript_sha256": "ad9055193a4632051a18f06b64f4e2c6d90c6bd6b2ba2c3abcedbdfeb0fa1507"
 }

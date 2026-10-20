@@ -822,6 +822,24 @@
       "public_path": "assets/my-brothers-spread-v1.webp",
       "sha256_at_intake": "ad9edf8dfcf6385a58511d9b7515bb1c5d9442427624b84679106c00971cb0a5",
       "provenance": "Author board references/design/data_collection - my-brothers.png; recipe scripts/cut_my_brothers_board.py. Rectangular key-elements reading illustration. Screen use only."
+    },
+    {
+      "source": "chapters/nhung-thu-khong-duoc-luu-lai/artwork/portal/dream-diary-ring-v1.png",
+      "public_path": "assets/dream-diary-ring-v1.png",
+      "sha256_at_intake": "10835fa02a0f47eb9220e5c4110b91ad7ea535a65797bb13554d9b9ce11d0b00",
+      "provenance": "Author board references/design/data_collection - dream-diary.png; recipe scripts/cut_dream_diary_board.py. Rotating dreams, sketches, remembered rooms and train journey. Screen use only."
+    },
+    {
+      "source": "chapters/nhung-thu-khong-duoc-luu-lai/artwork/portal/dream-diary-scene-v1.png",
+      "public_path": "assets/dream-diary-scene-v1.png",
+      "sha256_at_intake": "aa29cf6341bd28348a68f8ac72c3b616182fa9997a65bba2f185109124c372ab",
+      "provenance": "Author board references/design/data_collection - dream-diary.png; recipe scripts/cut_dream_diary_board.py. Stationary couple, yellow metro train and open diary. Screen use only."
+    },
+    {
+      "source": "chapters/nhung-thu-khong-duoc-luu-lai/artwork/portal/dream-diary-spread-v1.webp",
+      "public_path": "assets/dream-diary-spread-v1.webp",
+      "sha256_at_intake": "2a7511a6390730b6bd8f743c1749d2e62a62be22a3251e2f96be47a7fcad9b58",
+      "provenance": "Author board references/design/data_collection - dream-diary.png; recipe scripts/cut_dream_diary_board.py. Rectangular key-elements reading illustration. Screen use only."
     }
   ]
 }

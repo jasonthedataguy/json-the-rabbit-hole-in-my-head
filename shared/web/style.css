@@ -1111,3 +1111,25 @@ h1, h2, h3 { font-family: var(--serif); font-weight: 400; line-height: 1.15; }
 @media(max-width:700px){.my-brothers-chapter-stage{grid-template-columns:1fr;gap:9px}.my-brothers-chapter-stage .chapter-illustration:has(.fitted-portal){width:min(310px,82%);margin:0 auto}.my-brothers-chapter-note{margin:0 12px;padding:14px 0 14px 20px}.my-brothers-chapter-note p{font-size:21px}.my-brothers-spread-banner{margin-top:17px}.my-brothers-chapter-numeral{font-size:60px}.my-brothers-chapter-heading h1{font-size:clamp(35px,8.4vw,47px)}}
 
 .my-brothers-chapter-subtitle{max-width:520px;margin-left:auto;margin-right:auto}
+
+
+.dream-diary-chapter-heading{text-align:center;margin:0 auto;max-width:780px}
+.dream-diary-chapter-heading .leaf-kicker{color:#827f78}
+.dream-diary-chapter-numeral{display:block;color:#a77745;font:75px/.93 var(--serif)}
+.dream-diary-chapter-heading h1{margin:4px 0 0;color:#132c3b;font:clamp(36px,4.3vw,57px)/1.08 var(--serif);letter-spacing:-1px;text-wrap:balance}
+.dream-diary-chapter-subtitle{margin:17px 0 8px;color:#946e47;font:10px/1.5 var(--sans);letter-spacing:2.1px;text-transform:uppercase}
+.dream-diary-chapter-part{margin:0;color:#667572;font:11px/1.5 var(--sans)}
+.dream-diary-chapter-stage{display:grid;grid-template-columns:minmax(0,330px) minmax(0,1fr);gap:24px;align-items:center;margin:24px 0 28px}
+.dream-diary-chapter-stage .chapter-illustration:has(.fitted-portal){width:100%;height:auto;margin:0;aspect-ratio:1}
+.dream-diary-chapter-stage .portal-page-marker{display:none}
+.dream-diary-chapter-note{padding:20px 0 20px 25px;border-left:1px solid #a77745}
+.dream-diary-chapter-note>span{color:#847c6c;font:10px/1.5 var(--sans);letter-spacing:1.7px}
+.dream-diary-chapter-note p{margin:19px 0 25px;color:#243b44;font:22px/1.45 var(--body-serif)}
+.dream-diary-chapter-note button{display:inline-flex;gap:12px;align-items:center;padding:0 0 6px;border:0;border-bottom:1px solid #a77745;background:none;color:#795a3c;font:11px/1.5 var(--sans);letter-spacing:.7px;cursor:pointer}
+.dream-diary-chapter-note button:hover{color:#553d24}
+.dream-diary-spread-banner{margin:0 0 34px;text-align:center}
+.dream-diary-spread-banner img{display:block;width:100%;height:auto;margin:auto;object-fit:contain}
+.dream-diary-spread-banner figcaption{margin-top:10px;color:#927b5d;font:10px/1.5 var(--sans);letter-spacing:1.3px;text-transform:uppercase}
+@media(max-width:700px){.dream-diary-chapter-stage{grid-template-columns:1fr;gap:9px}.dream-diary-chapter-stage .chapter-illustration:has(.fitted-portal){width:min(310px,82%);margin:0 auto}.dream-diary-chapter-note{margin:0 12px;padding:14px 0 14px 20px}.dream-diary-chapter-note p{font-size:21px}.dream-diary-spread-banner{margin-top:17px}.dream-diary-chapter-numeral{font-size:60px}.dream-diary-chapter-heading h1{font-size:clamp(35px,8.4vw,47px)}}
+
+.dream-diary-chapter-subtitle{max-width:520px;margin-left:auto;margin-right:auto}
