@@ -2,27 +2,30 @@
   "schema_version": 2,
   "slug": "nhung-nguoi-anh-em",
   "number": "13",
-  "title": "My Brothers",
-  "short_title": "My Brothers",
+  "title": "My brothers",
+  "short_title": "My brothers",
   "part": 2,
   "language": "vi",
-  "publish": false,
-  "release_stage": "outline",
-  "canonical_text": null,
+  "publish": true,
+  "release_stage": "reader-with-digital-portal",
+  "canonical_text": "source/approved.md",
   "canonical_path": "#chapter/13",
-  "summary": "Cuộc gặp lại ông Tư, ký ức road trip xuyên Việt và nỗi nhớ một tập thể cũ có khả năng nói chuyện đến tận khuya về bất cứ thứ gì.",
+  "summary": "Jason reunites with his old Cốc Cốc data-engineering brothers. Over drinks, the conversation returns to physics, simulation, philosophy and the pleasure of asking questions together.",
   "portal": {
-    "scene": "Road-trip silhouettes gather around shared cups at a late-night table near a waiting van.",
+    "scene": "Four former teammates gather around a glowing model of the universe at a table, surrounded by books, physics diagrams, a globe, a cat and shared drinks.",
     "objects": [
-      "van",
-      "road",
-      "shared cups"
+      "four friends",
+      "glowing universe model",
+      "physics books",
+      "chalkboard",
+      "shared drinks"
     ],
-    "iconKey": "van",
-    "motif": "The shared cups"
+    "iconKey": "orb",
+    "motif": "The glowing universe model on the table"
   },
   "original_edition": null,
-  "production_status": "awaiting author manuscript",
+  "production_status": "author-selected full manuscript and board-derived digital portal; print and media pending",
   "outline_title": "Những người anh em",
-  "original_title": "Những người anh em"
+  "original_title": "Những người anh em",
+  "manuscript_sha256": "e5ae44e51015d8d4a6abf4b7d3626c42bc8136a43dc5a0f8e93a6f785deec19d"
 }

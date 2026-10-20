@@ -128,6 +128,17 @@
       "sourceUrl": null
     },
     {
+      "slug": "nhung-nguoi-anh-em",
+      "editorialId": "13",
+      "legacyId": null,
+      "originalTitle": "My brothers",
+      "sourcePath": "chapters/nhung-nguoi-anh-em/source/approved.md",
+      "sha256": "e5ae44e51015d8d4a6abf4b7d3626c42bc8136a43dc5a0f8e93a6f785deec19d",
+      "bytes": 7531,
+      "archiveUrl": null,
+      "sourceUrl": null
+    },
+    {
       "slug": "viet-cho-sai-gon-cua-t",
       "editorialId": "14",
       "legacyId": "03",

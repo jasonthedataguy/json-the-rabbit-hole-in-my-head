@@ -20,6 +20,8 @@ export const portalPictures = Object.freeze({
   oldFriendCover:{src:'assets/old-friend-scene-v1.png',alt:'Two childhood friends share a packet of candy inside the book-cover ring.',zoom:1,x:0,y:0},
   officeBattlefield:{src:'assets/office-battlefield-scene-v1.png',alt:'Jason faces a paper message above an office chess table; coworkers and an AI agent circle him.',zoom:1,x:0,y:0},
   payoffMatrix:{src:'assets/payoff-matrix-scene-v1.png',alt:'Jason faces AI scorecards and a payoff matrix above an office chessboard.',zoom:1,x:0,y:0},
+  myBrothers:{src:'assets/my-brothers-scene-v1.png',alt:'Four former teammates gather around a glowing universe model at a table.',zoom:1,x:0,y:0},
+  myBrothersCover:{src:'assets/my-brothers-scene-v1.png',alt:'Four friends and a glowing universe model appear inside the shared book-cover ring.',zoom:1,x:0,y:0},
   twentyEightToday:{src:'assets/twenty-eight-today-scene-v1.png',alt:'Jason looks through an open window as friends gather around a 28th-birthday cake.',zoom:1,x:0,y:0},
   twentyEightTodayCover:{src:'assets/twenty-eight-today-scene-v1.png',alt:'Jason, an open window and friends at a birthday table appear inside the shared book-cover ring.',zoom:1,x:0,y:0},
   uglyProjections:{src:'assets/ugly-projections-scene-v1.png',alt:'Jason faces a film projector and shadow screen while a woman stands beyond the silhouette.',zoom:1,x:0,y:0},

@@ -1,4 +1,4 @@
-import { chapters, acts } from './chapter-data.js?v=31';
+import { chapters, acts } from './chapter-data.js?v=32';
 export { chapters, acts };
 
 const iconPaths = {
@@ -19,6 +19,7 @@ const iconPaths = {
   star:'M12 2l3 6 7 1-5 5 1 8-6-4-6 4 1-8-5-5 7-1z',
   van:'M3 6h14l4 6v7H3zM4 10h12V7M17 11h3M5 19a2 2 0 1 0 4 0m6 0a2 2 0 1 0 4 0',
   bridge:'M2 19h20M6 19V4m12 15V4M2 15l4-9 6 8 6-8 4 9M3 15v4m6-8v8m6-8v8m6-4v4',
+  orb:'M12 2a7 7 0 1 0 0 14 7 7 0 0 0 0-14ZM6 12c3 2 9 2 12 0M6 7c4-1 8-1 12 0M12 16v4m-5 0h10M9 4c-2 4-2 7 1 11m5-11c2 4 2 7-1 11',
   cake:'M3 11h18v10H3zM3 14c3 5 4-3 7 0s4-3 7 0 3 2 4 0M7 11V7m5 4V6m5 5V7M7 4v1m5-3v1m5 1v1',
   asteroid:'M17 12a5 5 0 1 1-10 0 5 5 0 0 1 10 0ZM3 16c2-6 14-11 18-8M3 16c1 2 7 2 12 0 4-2 7-5 6-8M18 3l1 2M5 6l1 1',
   paths:'M3 21 17 3M10 21 5 3M21 21 13 3M9 12h2m5 0h2',

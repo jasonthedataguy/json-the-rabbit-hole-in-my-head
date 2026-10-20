@@ -1,7 +1,5 @@
-# Những người anh em
+# My brothers
 
-V2 slot: **13**. Stable folder: `nhung-nguoi-anh-em`.
+V2 digital-book slot: Chapter 13 in data_collection. The stable folder remains `nhung-nguoi-anh-em`.
 
-Edit identity and state in `chapter.json`; keep author prose in `source/` and production recipes in `production.json`. See [the chapter workflow](../../docs/PRODUCTION_WORKFLOW.md) and [product status](docs/PRODUCT_STATUS.json).
-
-This slot contains the existing editorial outline only. Do not replace the missing author manuscript with invented prose.
+The attachment is retained unchanged in `source/author-submission.txt`; `source/approved.md` adds only a reader heading. Run `python scripts/cut_my_brothers_board.py` to rebuild the aligned ring, scene and rectangular illustration; run `python scripts/build_my_brothers_chapter.py` for the standalone reader. The artwork appears on the chapter leaf, map, homepage preview and digital reader. See `docs/ASSET_SOURCE.md` and `docs/QA.md`.

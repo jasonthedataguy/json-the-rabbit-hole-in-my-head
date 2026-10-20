@@ -804,6 +804,24 @@
       "public_path": "assets/twenty-eight-today-spread-v1.webp",
       "sha256_at_intake": "c6b540a94187364cccb9486a0a7d9152754de804f2941349acfdc3b6d283c219",
       "provenance": "Author board references/design/data_collection - twenty-eight-today.png; recipe scripts/cut_twenty_eight_today_board.py. Rectangular key-elements reading illustration. Screen use only."
+    },
+    {
+      "source": "chapters/nhung-nguoi-anh-em/artwork/portal/my-brothers-ring-v1.png",
+      "public_path": "assets/my-brothers-ring-v1.png",
+      "sha256_at_intake": "519cb5a539207ac6dd79e3a840deda05fd79ae4cbfaace306d63f9025cd36cbe",
+      "provenance": "Author board references/design/data_collection - my-brothers.png; recipe scripts/cut_my_brothers_board.py. Rotating memories of science, old teammates and shared curiosity. Screen use only."
+    },
+    {
+      "source": "chapters/nhung-nguoi-anh-em/artwork/portal/my-brothers-scene-v1.png",
+      "public_path": "assets/my-brothers-scene-v1.png",
+      "sha256_at_intake": "52e2b30457c1e484f2550cdd73d42928b5e4f0a80f56bc950ca2464d76b6ad45",
+      "provenance": "Author board references/design/data_collection - my-brothers.png; recipe scripts/cut_my_brothers_board.py. Stationary four friends and glowing universe model. Screen use only."
+    },
+    {
+      "source": "chapters/nhung-nguoi-anh-em/artwork/portal/my-brothers-spread-v1.webp",
+      "public_path": "assets/my-brothers-spread-v1.webp",
+      "sha256_at_intake": "ad9edf8dfcf6385a58511d9b7515bb1c5d9442427624b84679106c00971cb0a5",
+      "provenance": "Author board references/design/data_collection - my-brothers.png; recipe scripts/cut_my_brothers_board.py. Rectangular key-elements reading illustration. Screen use only."
     }
   ]
 }
