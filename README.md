@@ -1,5 +1,9 @@
 # .json — Jason, under revision
 
+The current portal and reading illustrations for the Introduction and all 36
+chapter slots are installed from the [digital-book artwork library](docs/DIGITAL_ASSET_PACK.md).
+Chapter-specific design notes below document the earlier board adaptations.
+
 The portal edition and its immersive chapter production workspace. On desktop, the homepage presents the rotating cover ring beside a paper reading page that loads the selected Introduction or chapter text. The mobile cover keeps its compact layout. The ring retains its changing centre artwork and curved maths/literature quote. The reading order contains 36 editorial slots. Dating 102 is Chapter 20, immediately after Dating Algorithm; its original essay number remains in the source notes.
 
 The Introduction leaf shows the author's latest concept board as a transparent circular portal: its collage ring frames the open book, reader, dusk city and bridge, followed by the six-step story progression and a full rectangular reading illustration. The homepage keeps the shared cover ring as it turns to a centre scene cut from that same board. Chapter 01, I Was Born a Quant, also carries a complete desk-scene spread before its manuscript.

@@ -3,6 +3,7 @@ import { introduction, parts, chapterNotes } from './book.js?v=28';
 import { renderChapterMarker, getChapterMarkerName } from './markers.js?v=31';
 import { PortalRing } from './ring.js?v=10';
 import { renderPortalPicture, renderPortalFrame, renderFramedPortal } from './portal-art.js?v=59';
+import { digitalArt, digitalRing } from './digital-art.js?v=1';
 
 const $ = selector => document.querySelector(selector);
 const $$ = selector => [...document.querySelectorAll(selector)];
@@ -18,6 +19,22 @@ const publishedBySlug = new Map(library.chapters.map(c=>[c.slug,c]));
 const chapterById = id => chapters.find(c=>c.id===id);
 const partById = id => parts.find(part=>part.id===id);
 const partLabel = part => `${part.key} | ${part.title}`;
+const digitalImage = (slug, role, className='', loading='lazy') => {
+  const src=digitalArt[slug]?.[role];
+  return src?`<img class="${className}" src="${esc(src)}" alt="${esc(slug==='introduction'?'Introduction':chapterBySlug(slug)?.title || slug)} — ${role==='opening'?'chapter portal':role==='map'?'chapter map':role==='mainBook'?'book portal':role==='centre'?'centre scene':'reading illustration'}" loading="${loading}" decoding="async">`:'';
+};
+const chapterBySlug = slug => chapters.find(chapter=>chapter.slug===slug);
+function insertBodyArt(prose,slug,cover=false){
+  const art=digitalArt[slug];if(!art||!prose)return;
+  const paragraphs=[...prose.children].filter(node=>node.tagName==='P');
+  const images=[art.inline,...art.extras];
+  for(const [index,src] of images.entries()){
+    const figure=document.createElement('figure');figure.className=cover?'digital-book-inline digital-book-inline-cover':'digital-book-inline';
+    figure.innerHTML=`<img src="${esc(src)}" alt="${esc(chapterBySlug(slug)?.title || 'Introduction')} — supporting illustration ${index+1}" loading="lazy" decoding="async"><figcaption>Story illustration ${index+1}</figcaption>`;
+    const anchor=paragraphs[Math.min(3+index*5,paragraphs.length-1)];
+    if(anchor)anchor.after(figure);else prose.append(figure);
+  }
+}
 const motionMedia = matchMedia('(prefers-reduced-motion: reduce)');
 let reducedMotion = store.get('json-reduced-motion',motionMedia.matches);
 let readingSize = store.get('json-reading-size',22);
@@ -50,6 +67,7 @@ function renderContents(){
   $('#book-table-of-contents').innerHTML=`<div class="toc-frontmatter"><a class="toc-row" href="#introduction"><span class="toc-number">i</span><span class="toc-title">Introduction</span><span class="toc-leader" aria-hidden="true"></span></a><p class="toc-prologue-label">PROLOGUE</p>${tocRow(chapters[0])}</div>${parts.map(part=>`<section class="toc-part"><header><p class="toc-part-number">PART ${String(part.id).padStart(2,'0')}</p><h2>${esc(partLabel(part))}</h2></header><div class="toc-chapters">${chapters.filter(chapter=>chapter.act===part.id).map(tocRow).join('')}</div></section>`).join('')}`;
 }
 function artHTML(chapter){
+  if(digitalArt[chapter.slug])return digitalImage(chapter.slug,'opening','digital-book-opening');
   if(chapter.id==='00')return renderFramedPortal('rice','rice-chapter','assets/rice-ring-board-v2.png');
   if(chapter.id==='01')return renderFramedPortal('quant','quant-chapter','assets/quant-ring.png');
   if(chapter.id==='02')return renderFramedPortal('expectedUtility','expected-utility-chapter','assets/expected-utility-ring-v3.png');
@@ -83,7 +101,7 @@ function artHTML(chapter){
   if(chapter.id==='20')return renderFramedPortal('dating102','dating-102-chapter','assets/dating-102-ring-v2.png');
   return renderPortal(chapter);
 }
-function chapterArtwork(chapter){return `<figure class="chapter-illustration" aria-label="Chapter portal ${chapter.id}: ${esc(chapter.title)}"><div class="portal-scene">${artHTML(chapter)}</div><div class="portal-page-marker">${renderChapterMarker(chapter,{compact:true})}</div></figure>`;}
+function chapterArtwork(chapter){return `<figure class="chapter-illustration${digitalArt[chapter.slug]?' digital-book-chapter-art':''}" aria-label="Chapter portal ${chapter.id}: ${esc(chapter.title)}"><div class="portal-scene">${artHTML(chapter)}</div><div class="portal-page-marker">${renderChapterMarker(chapter,{compact:true})}</div></figure>`;}
 function pageTurn({href,title,label='',direction='next'}){
   const arrow=`<span class="leaf-arrow" aria-hidden="true">${direction==='next'?'→':'←'}</span>`;
   return `<a class="${direction==='next'?'next-leaf':'previous-leaf'}" href="${href}">${direction==='previous'?arrow:''}<span>${label?`<small>${esc(label)}</small>`:''}<strong>${esc(title)}</strong></span>${direction==='next'?arrow:''}</a>`;
@@ -167,6 +185,16 @@ function renderChapter(id){
     :`<header class="chapter-heading"><p class="leaf-kicker">${part?`PART ${roman[part.id]}`:'.JSON / JASON, UNDER REVISION'}</p><p class="chapter-numeral">${headingLabel}</p><h1 id="chapter-heading" class="chapter-title" tabindex="-1">${esc(chapter.title)}</h1>${part?`<p class="chapter-part-title">${esc(partLabel(part))}</p>`:''}${sourceTitle}</header>${chapterArtwork(chapter)}`;
   const quantSpread=id==='01'?`<figure class="quant-reading-spread"><img src="assets/quant-reading-spread-v2.webp" width="540" height="265" alt="Jason studies charts at his desk with a dog beside him and a note about minimizing loss."><figcaption>Same objective. Same potential. Different risk budget.</figcaption></figure>`:'';
   $('#chapter-leaf').innerHTML=`${opening}${quantSpread}${id==='10'?`<div id="dream-diary-chapter-text">${text}</div>`:id==='13'?`<div id="my-brothers-chapter-text">${text}</div>`:id==='15'?`<div id="twenty-eight-today-chapter-text">${text}</div>`:id==='23'?`<div id="ugly-projections-chapter-text">${text}</div>`:id==='34'?`<div id="after-leaving-chapter-text">${text}</div>`:id==='32'?`<div id="command-respect-chapter-text">${text}</div>`:id==='30'?`<div id="negative-sum-chapter-text">${text}</div>`:id==='29'?`<div id="moral-chapter-text">${text}</div>`:id==='28'?`<div id="good-chapter-text">${text}</div>`:id==='27'?`<div id="record-chapter-text">${text}</div>`:id==='26'?`<div id="better-chapter-text">${text}</div>`:id==='25'?`<div id="payoff-chapter-text">${text}</div>`:id==='24'?`<div id="office-chapter-text">${text}</div>`:id==='16'?`<div id="bad-trip-chapter-text">${text}</div>`:id==='22'?`<div id="runaway-chapter-text">${text}</div>`:id==='17'?`<div id="asteroid-chapter-text">${text}</div>`:id==='07'?`<div id="old-friend-chapter-text">${text}</div>`:id==='06'?`<div id="red-button-chapter-text">${text}</div>`:id==='11'?`<div id="coincidence-chapter-text">${text}</div>`:id==='14'?`<div id="saigon-chapter-text">${text}</div>`:id==='20'?`<div id="dating-102-chapter-text">${text}</div>`:id==='19'?`<div id="dating-chapter-text">${text}</div>`:id==='18'?`<div id="meeting-chapter-text">${text}</div>`:id==='09'?`<div id="dream-chapter-text">${text}</div>`:id==='08'?`<div id="russia-chapter-text">${text}</div>`:id==='00'?`<div id="rice-chapter-text">${text}</div>`:id==='02'?`<div id="utility-chapter-text">${text}</div>`:id==='03'?`<div id="play-chapter-text">${text}</div>`:id==='04'?`<div id="fashion-chapter-text">${text}</div>`:id==='05'?`<div id="flow-chapter-text">${text}</div>`:text}${chapterFooter(chapter)}`;
+  if(digitalArt[chapter.slug]){
+    const leaf=$('#chapter-leaf');
+    const prose=leaf.querySelector('.chapter-prose');
+    const banner=[...leaf.querySelectorAll('figure')].find(figure=>!figure.classList.contains('chapter-illustration')&&!prose?.contains(figure));
+    const hero=document.createElement('figure');hero.className='digital-book-hero';
+    hero.innerHTML=`${digitalImage(chapter.slug,'hero')}<figcaption>Opening illustration</figcaption>`;
+    if(banner)banner.replaceWith(hero);
+    else (prose || leaf.querySelector('.outline-prose'))?.before(hero);
+    insertBodyArt(prose || leaf.querySelector('.outline-prose'),chapter.slug);
+  }
   if(id==='10')$('#dream-diary-read').addEventListener('click',()=>$('#dream-diary-chapter-text').scrollIntoView({behavior:reducedMotion?'instant':'smooth'}));
   if(id==='13')$('#my-brothers-read').addEventListener('click',()=>$('#my-brothers-chapter-text').scrollIntoView({behavior:reducedMotion?'instant':'smooth'}));
   if(id==='15')$('#twenty-eight-today-read').addEventListener('click',()=>$('#twenty-eight-today-chapter-text').scrollIntoView({behavior:reducedMotion?'instant':'smooth'}));
@@ -255,6 +283,26 @@ function selectMapChapter(index,{fromRing=false}={}){
   selectedMapChapter=((index%chapters.length)+chapters.length)%chapters.length;
   const chapter=chapters[selectedMapChapter],part=partById(chapter.act);
   $('#map-view').dataset.chapter=chapter.slug;
+  if(digitalArt[chapter.slug]){
+    $('#portal-art').classList.add('digital-book-map');
+    $('#portal-scene').innerHTML=digitalImage(chapter.slug,'map','digital-book-map-image');
+    $('#portal-rim-art').innerHTML='';
+    $('#portal-marker').innerHTML=renderChapterMarker(chapter);
+    $('#portal-marker').setAttribute('aria-label',`Chapter marker ${chapter.id}: ${getChapterMarkerName(chapter)}`);
+    $('#portal-stage').setAttribute('aria-label',`${chapter.id}. ${chapter.title}. Drag to rotate; use arrow keys to choose; Enter to read.`);
+    $('#map-part').textContent=part?`PART ${roman[part.id]} · ${partLabel(part)}`:'PROLOGUE';
+    $('#map-number').textContent=chapter.id;
+    $('#map-title').textContent=['02','03','04','10','24','25','26','27','28','29','30','32','34'].includes(chapter.id)?chapter.shortTitle:chapter.title;
+    $('#map-summary').textContent=chapterNotes[chapter.id].summary;
+    $('#map-enter').href=`#chapter/${chapter.id}`;
+    $('#map-enter').innerHTML=`${publishedById.has(chapter.id)?'Read chapter':'Read outline'} <span aria-hidden="true">→</span>`;
+    $('#map-availability').textContent=publishedById.has(chapter.id)?'FULL TEXT':'OUTLINE';
+    $$('.orbit-mark').forEach((element,i)=>{element.classList.toggle('active',i===selectedMapChapter);element.setAttribute('aria-pressed',i===selectedMapChapter);});
+    $$('.map-part-button').forEach(element=>{const active=Number(element.dataset.mapPart)===chapter.act;element.classList.toggle('active',active);element.setAttribute('aria-pressed',active);});
+    if(!fromRing)ring?.setChapter(selectedMapChapter);
+    positionOrbit();
+    return;
+  }
   const fittedRing={'00':'assets/rice-ring-board-v2.png','01':'assets/quant-ring.png','02':'assets/expected-utility-ring-v3.png','03':'assets/play-to-win-ring-v2.png','04':'assets/fashion-ring-v2.png','05':'assets/flow-ring-v2.png','06':'assets/red-button-ring-v1.png','07':'assets/old-friend-ring-v1.png','08':'assets/mother-russia-ring-v2.png','09':'assets/dream-world-ring-v2.png','11':'assets/coincidence-ring-v1.png','14':'assets/saigon-ring-v1.png','16':'assets/bad-trip-ring-v1.png','24':'assets/office-battlefield-ring-v1.png','25':'assets/payoff-matrix-ring-v1.png','26':'assets/better-brighter-ring-v1.png','27':'assets/record-keeping-ring-v1.png','28':'assets/good-boy-ring-v1.png','29':'assets/moral-story-ring-v1.png','30':'assets/negative-sum-ring-v1.png','32':'assets/command-respect-ring-v1.png','10':'assets/dream-diary-ring-v1.png','13':'assets/my-brothers-ring-v1.png','15':'assets/twenty-eight-today-ring-v1.png','23':'assets/ugly-projections-ring-v1.png','34':'assets/after-leaving-ring-v1.png','17':'assets/asteroid-ring-v1.png','22':'assets/runaway-ring-v1.png','18':'assets/three-meeting-ring-v2.png?v=4','19':'assets/dating-algorithm-ring-v2.png','20':'assets/dating-102-ring-v2.png'}[chapter.id];
   const fitted=Boolean(fittedRing);
   const pictureKey=chapter.id==='01'?'quant':chapter.id==='02'?'expectedUtility':chapter.id==='03'?'playToWin':chapter.id==='04'?'fashion':chapter.id==='05'?'flow':chapter.id==='06'?'redButton':chapter.id==='07'?'oldFriend':chapter.id==='08'?'motherRussia':chapter.id==='09'?'dreamWorld':chapter.id==='11'?'coincidence':chapter.id==='14'?'saigon':chapter.id==='16'?'badTrip':chapter.id==='24'?'officeBattlefield':chapter.id==='25'?'payoffMatrix':chapter.id==='26'?'betterBrighter':chapter.id==='27'?'recordKeeping':chapter.id==='28'?'goodBoy':chapter.id==='10'?'dreamDiary':chapter.id==='13'?'myBrothers':chapter.id==='15'?'twentyEightToday':chapter.id==='23'?'uglyProjections':chapter.id==='34'?'afterLeaving':chapter.id==='32'?'commandRespect':chapter.id==='30'?'negativeSum':chapter.id==='29'?'moralStory':chapter.id==='17'?'asteroid':chapter.id==='22'?'runaway':chapter.id==='18'?'threeMeeting':chapter.id==='19'?'datingAlgorithm':chapter.id==='20'?'dating102':'rice';
@@ -380,6 +428,21 @@ function renderCoverReadingPage(page){
       ?`<div class="cover-reader-page flow-reader-page"><p class="cover-reader-kicker">PART ${roman[part.id]} · CHAPTER ${chapter.id}</p><span class="flow-reader-number">${chapter.id}</span><h2>FLOW</h2><p class="flow-reader-subtitle">The Secret of Wealth</p><figure class="flow-reader-scene"><img src="assets/flow-spread-v2.webp" width="1600" height="480" alt="Jason, coins, reservoir, waterwheel, houses, trees and bridge from the Flow illustration."><figcaption>Money is like water. Cash flow is the river.</figcaption></figure>${body}</div>`
       :`<div class="cover-reader-page"><p class="cover-reader-kicker">${esc(numberLabel)}${part?` · PART ${roman[part.id]}`:''}</p><h2>${esc(chapter.title)}</h2>${part?`<p class="cover-reader-part">${esc(partLabel(part))}</p>`:''}${body}</div>`;
   }
+  if(page.kind!=='cover'){
+    const slug=page.kind==='introduction'?'introduction':page.chapter.slug;
+    const art=digitalArt[slug];
+    if(art){
+      const pageNode=content.querySelector('.cover-reader-page');
+      const existing=pageNode.querySelector('figure');
+      const hero=document.createElement('figure');hero.className='digital-book-cover-hero';
+      hero.innerHTML=`${digitalImage(slug,'hero','','eager')}<figcaption>Opening illustration</figcaption>`;
+      if(existing)existing.replaceWith(hero);else pageNode.querySelector('.cover-reader-prose, .cover-reader-outline')?.before(hero);
+      const portal=document.createElement('figure');portal.className='digital-book-cover-portal';
+      portal.innerHTML=digitalImage(slug,'mainBook','','eager');
+      pageNode.querySelector('h2')?.after(portal);
+      insertBodyArt(pageNode.querySelector('.cover-reader-prose'),slug,true);
+    }
+  }
   content.scrollTop=0;
   $('#cover-reading-folio').textContent=page.kind==='cover'?'COVER':page.kind==='introduction'?'i':page.label;
   const link=$('#cover-reading-link');
@@ -395,9 +458,18 @@ function selectCoverPage(index,{fromRing=false}={}){
   const page=coverPages[selectedCoverPage];
   $('#cover-stage').dataset.page=page.kind;
   $('#cover-stage').dataset.pageIndex=String(selectedCoverPage);
-  $('#cover-scene').innerHTML=page.kind==='chapter'?(page.chapter.id==='00'?renderPortalPicture('rice'):page.chapter.id==='01'?renderPortalPicture('quant'):page.chapter.id==='02'?renderPortalPicture('expectedUtilityCover'):page.chapter.id==='03'?renderPortalPicture('playToWin'):page.chapter.id==='04'?renderPortalPicture('fashion'):page.chapter.id==='05'?renderPortalPicture('flowCover'):page.chapter.id==='06'?renderPortalPicture('redButtonCover'):page.chapter.id==='07'?renderPortalPicture('oldFriendCover'):page.chapter.id==='08'?renderPortalPicture('motherRussiaCover'):page.chapter.id==='09'?renderPortalPicture('dreamWorldCover'):page.chapter.id==='11'?renderPortalPicture('coincidenceCover'):page.chapter.id==='14'?renderPortalPicture('saigonCover'):page.chapter.id==='16'?renderPortalPicture('badTripCover'):page.chapter.id==='24'?renderPortalPicture('officeBattlefieldCover'):page.chapter.id==='25'?renderPortalPicture('payoffMatrixCover'):page.chapter.id==='26'?renderPortalPicture('betterBrighterCover'):page.chapter.id==='27'?renderPortalPicture('recordKeepingCover'):page.chapter.id==='28'?renderPortalPicture('goodBoyCover'):page.chapter.id==='10'?renderPortalPicture('dreamDiaryCover'):page.chapter.id==='13'?renderPortalPicture('myBrothersCover'):page.chapter.id==='15'?renderPortalPicture('twentyEightTodayCover'):page.chapter.id==='23'?renderPortalPicture('uglyProjectionsCover'):page.chapter.id==='34'?renderPortalPicture('afterLeavingCover'):page.chapter.id==='32'?renderPortalPicture('commandRespectCover'):page.chapter.id==='30'?renderPortalPicture('negativeSumCover'):page.chapter.id==='29'?renderPortalPicture('moralStoryCover'):page.chapter.id==='17'?renderPortalPicture('asteroidCover'):page.chapter.id==='22'?renderPortalPicture('runawayCover'):page.chapter.id==='18'?renderPortalPicture('threeMeetingCover'):page.chapter.id==='19'?renderPortalPicture('datingAlgorithmCover'):page.chapter.id==='20'?renderPortalPicture('dating102Cover'):renderPortalScene(page.chapter)):page.kind==='cover'
+  const coverScene=$('#cover-scene');
+  const previousSceneImage=coverScene.querySelector('img')?.currentSrc;
+  coverScene.style.backgroundImage=previousSceneImage?`url("${previousSceneImage}")`:'';
+  $('#cover-scene').innerHTML=page.kind==='chapter'&&digitalArt[page.chapter.slug]?digitalImage(page.chapter.slug,'centre','digital-book-centre','eager'):page.kind==='introduction'?digitalImage('introduction','centre','digital-book-centre','eager'):page.kind==='chapter'?(page.chapter.id==='00'?renderPortalPicture('rice'):page.chapter.id==='01'?renderPortalPicture('quant'):page.chapter.id==='02'?renderPortalPicture('expectedUtilityCover'):page.chapter.id==='03'?renderPortalPicture('playToWin'):page.chapter.id==='04'?renderPortalPicture('fashion'):page.chapter.id==='05'?renderPortalPicture('flowCover'):page.chapter.id==='06'?renderPortalPicture('redButtonCover'):page.chapter.id==='07'?renderPortalPicture('oldFriendCover'):page.chapter.id==='08'?renderPortalPicture('motherRussiaCover'):page.chapter.id==='09'?renderPortalPicture('dreamWorldCover'):page.chapter.id==='11'?renderPortalPicture('coincidenceCover'):page.chapter.id==='14'?renderPortalPicture('saigonCover'):page.chapter.id==='16'?renderPortalPicture('badTripCover'):page.chapter.id==='24'?renderPortalPicture('officeBattlefieldCover'):page.chapter.id==='25'?renderPortalPicture('payoffMatrixCover'):page.chapter.id==='26'?renderPortalPicture('betterBrighterCover'):page.chapter.id==='27'?renderPortalPicture('recordKeepingCover'):page.chapter.id==='28'?renderPortalPicture('goodBoyCover'):page.chapter.id==='10'?renderPortalPicture('dreamDiaryCover'):page.chapter.id==='13'?renderPortalPicture('myBrothersCover'):page.chapter.id==='15'?renderPortalPicture('twentyEightTodayCover'):page.chapter.id==='23'?renderPortalPicture('uglyProjectionsCover'):page.chapter.id==='34'?renderPortalPicture('afterLeavingCover'):page.chapter.id==='32'?renderPortalPicture('commandRespectCover'):page.chapter.id==='30'?renderPortalPicture('negativeSumCover'):page.chapter.id==='29'?renderPortalPicture('moralStoryCover'):page.chapter.id==='17'?renderPortalPicture('asteroidCover'):page.chapter.id==='22'?renderPortalPicture('runawayCover'):page.chapter.id==='18'?renderPortalPicture('threeMeetingCover'):page.chapter.id==='19'?renderPortalPicture('datingAlgorithmCover'):page.chapter.id==='20'?renderPortalPicture('dating102Cover'):renderPortalScene(page.chapter)):page.kind==='cover'
     ?renderPortalPicture('cover')
     :renderPortalPicture('introductionCover');
+  const nextSceneImage=coverScene.querySelector('img');
+  if(nextSceneImage){
+    const clearPreviousScene=()=>{if(coverScene.contains(nextSceneImage))coverScene.style.backgroundImage='';};
+    if(nextSceneImage.complete&&nextSceneImage.naturalWidth)clearPreviousScene();
+    else nextSceneImage.addEventListener('load',clearPreviousScene,{once:true});
+  }else coverScene.style.backgroundImage='';
   $('#cover-marker').innerHTML=page.kind==='chapter'?renderChapterMarker(page.chapter,{compact:true}):`<span class="frontmatter-marker" aria-hidden="true">${page.kind==='cover'?'▯':'i'}</span>`;
   $('#cover-marker').hidden=page.kind==='cover';
   $('#cover-marker').setAttribute('aria-label',page.kind==='chapter'?`Chapter marker ${page.label}: ${getChapterMarkerName(page.chapter)}`:page.kind==='cover'?'Book cover':'Introduction');
@@ -412,7 +484,7 @@ function selectCoverPage(index,{fromRing=false}={}){
   positionCoverOrbit();
 }
 $('#cover-orbit-marks').innerHTML=coverPages.map((page,index)=>`<button class="cover-orbit-mark" data-cover-page="${index}" aria-label="${esc(page.kind==='cover'?'Book cover':page.title)}" title="${esc(page.kind==='cover'?'Book cover':page.title)}"><span>${page.label}</span></button>`).join('');
-$('#cover-rotor').innerHTML=renderPortalFrame('cover-frame','assets/board-cover-ring.png?v=2');
+$('#cover-rotor').innerHTML=`<img src="${esc(digitalRing)}" alt="" fetchpriority="high">`;
 coverRing=new PortalRing({stage:$('#cover-stage'),count:coverPages.length,initialIndex:0,onRotate(rotation,{animate}){
   $('#cover-stage').classList.toggle('ring-instant',!animate);$('#cover-stage').dataset.ringRotation=String(rotation);
   $('#cover-rotor').style.transform=`rotate(${rotation}deg)`;positionCoverOrbit(rotation);
@@ -448,4 +520,5 @@ window.addEventListener('scroll',()=>{clearTimeout(scrollTimer);scrollTimer=setT
 window.addEventListener('pagehide',savePosition);
 $('#book-epigraph').innerHTML=introduction.epigraph.split(/(?<=answer\.)\s+/).map(line=>`<p>${esc(line)}</p>`).join('');
 $('#introduction-text').innerHTML=introduction.sections.map((section,index)=>`<section class="intro-section${index===0?' intro-synopsis':''}"><h2>${esc(section.heading)}</h2>${section.paragraphs.map(paragraph=>`<p>${introInline(paragraph)}</p>`).join('')}</section>`).join('');
+insertBodyArt($('#introduction-text').querySelector('section'),'introduction');
 renderContents();renderArchive();applyReadingSize();applyMotion();renderRoute(parseRoute(),{initial:true});

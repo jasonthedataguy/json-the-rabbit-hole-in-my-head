@@ -1,0 +1,26 @@
+{
+  "status": "pass",
+  "chapter_folders": 37,
+  "complete_sets": 37,
+  "principal_placements": 185,
+  "new_rectangular_masters": 76,
+  "native_portal_size": [
+    2048,
+    2048
+  ],
+  "native_rectangle_size": [
+    2400,
+    1600
+  ],
+  "reusable_content_assets": 1702,
+  "preserved_chapter_reference_files": 4325,
+  "files_checked": 2072,
+  "protected_source_pixels_verified": 142859478,
+  "main_map_files_independent": true,
+  "chapter_opening_sources_preserved": true,
+  "gallery_javascript_valid": true,
+  "errors": [],
+  "scope": "Prepared asset library; not installed or deployed to the book website.",
+  "visual_review": "All original rectangular compositions and 37 entrance repairs were reviewed; The Apology was regenerated from the supplied full chapter and its four new rectangular scenes were individually inspected.",
+  "manuscript_update": "The Apology uses the full author-supplied chapter text received on 20 October 2026; the earlier outline concept is preserved."
+}
