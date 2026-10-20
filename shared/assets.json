@@ -786,6 +786,24 @@
       "public_path": "assets/ugly-projections-spread-v1.webp",
       "sha256_at_intake": "913af4fc6f1279751ab64c9c5585269c8908497131a2fb2f0c1d3c20a6b528be",
       "provenance": "Author board references/design/relationship_modelling - ugly-projections.png; recipe scripts/cut_ugly_projections_board.py. Rectangular key-elements reading illustration. Screen use only."
+    },
+    {
+      "source": "chapters/i-am-28-today/artwork/portal/twenty-eight-today-ring-v1.png",
+      "public_path": "assets/twenty-eight-today-ring-v1.png",
+      "sha256_at_intake": "7c3e8805f0c2bdbf885e68ce05148418a2cc1d12e769f580f5f7372666c43dca",
+      "provenance": "Author board references/design/data_collection - twenty-eight-today.png; recipe scripts/cut_twenty_eight_today_board.py. Rotating memories of friends, work, music and travel. Screen use only."
+    },
+    {
+      "source": "chapters/i-am-28-today/artwork/portal/twenty-eight-today-scene-v1.png",
+      "public_path": "assets/twenty-eight-today-scene-v1.png",
+      "sha256_at_intake": "45db0ce38c78aa36097dff183db30867ec9242298301c69676b9764790c642d0",
+      "provenance": "Author board references/design/data_collection - twenty-eight-today.png; recipe scripts/cut_twenty_eight_today_board.py. Stationary open window, Jason, friends and birthday table. Screen use only."
+    },
+    {
+      "source": "chapters/i-am-28-today/artwork/portal/twenty-eight-today-spread-v1.webp",
+      "public_path": "assets/twenty-eight-today-spread-v1.webp",
+      "sha256_at_intake": "c6b540a94187364cccb9486a0a7d9152754de804f2941349acfdc3b6d283c219",
+      "provenance": "Author board references/design/data_collection - twenty-eight-today.png; recipe scripts/cut_twenty_eight_today_board.py. Rectangular key-elements reading illustration. Screen use only."
     }
   ]
 }

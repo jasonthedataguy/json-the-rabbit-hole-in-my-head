@@ -1,7 +1,5 @@
-# I Am 28 Today
+# I'm 28 today
 
-V2 slot: **15**. Stable folder: `i-am-28-today`.
+V2 digital-book slot: Chapter 15 in data_collection. The display title follows the author's request; the stable folder remains i-am-28-today.
 
-Edit identity and state in `chapter.json`; keep author prose in `source/` and production recipes in `production.json`. See [the chapter workflow](../../docs/PRODUCTION_WORKFLOW.md) and [product status](docs/PRODUCT_STATUS.json).
-
-This slot contains the existing editorial outline only. Do not replace the missing author manuscript with invented prose.
+The text as supplied in the request is retained in source/author-submission.txt. The selected source/approved.md adds only the digital reader's heading. Run python scripts/cut_twenty_eight_today_board.py to rebuild the aligned ring, scene and rectangular reading illustration; run python scripts/build_twenty_eight_today_chapter.py for the standalone reader. The same board-derived art appears on the chapter leaf, map, homepage preview and digital reader. See docs/ASSET_SOURCE.md and docs/QA.md.

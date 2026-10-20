@@ -139,6 +139,17 @@
       "sourceUrl": "https://github.com/jasonthedataguy/json-under-revision/blob/b41b692b3e3633abea4997b6ac4513a91308f127/chapters/viet-cho-sai-gon-cua-t/source/approved.md"
     },
     {
+      "slug": "i-am-28-today",
+      "editorialId": "15",
+      "legacyId": null,
+      "originalTitle": "I'm 28 today",
+      "sourcePath": "chapters/i-am-28-today/source/approved.md",
+      "sha256": "22b4bdbf83adf9d4d7bf03e52f73e13fd7d9e101c834831367b141726c8b9e69",
+      "bytes": 1806,
+      "archiveUrl": null,
+      "sourceUrl": null
+    },
+    {
       "slug": "bad-trip",
       "editorialId": "16",
       "legacyId": null,
