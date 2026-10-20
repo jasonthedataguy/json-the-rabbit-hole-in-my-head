@@ -750,6 +750,24 @@
       "public_path": "assets/command-respect-spread-v1.webp",
       "sha256_at_intake": "2881e2b5777b3ddc194c6c2f027e1ac6da73a178336bc92f6ad47c526bfe0d5f",
       "provenance": "Author board references/design/under_revision - office-command-respect.png; recipe scripts/cut_command_respect_board.py. Rectangular key-elements reading illustration. Screen use only."
+    },
+    {
+      "source": "chapters/co-nhung-thu-chi-khi-minh-roi-di-roi-moi-nhin-thay/artwork/portal/after-leaving-ring-v1.png",
+      "public_path": "assets/after-leaving-ring-v1.png",
+      "sha256_at_intake": "7e24f74e45b0542864c43df86aa09759c1a92ab8efbdf2de40b208b4ebc788d7",
+      "provenance": "Author board references/design/under_revision - office-battlefield-after-leaving.png; recipe scripts/cut_after_leaving_board.py. Rotating office, farewell and whiteboard collage. Screen use only."
+    },
+    {
+      "source": "chapters/co-nhung-thu-chi-khi-minh-roi-di-roi-moi-nhin-thay/artwork/portal/after-leaving-scene-v1.png",
+      "public_path": "assets/after-leaving-scene-v1.png",
+      "sha256_at_intake": "e0787c69adf2a0533051e0b204649581fb268c24bf475beefbb7c58e8d086046",
+      "provenance": "Author board references/design/under_revision - office-battlefield-after-leaving.png; recipe scripts/cut_after_leaving_board.py. Stationary mountain-roadtrip whiteboard and Jason. Screen use only."
+    },
+    {
+      "source": "chapters/co-nhung-thu-chi-khi-minh-roi-di-roi-moi-nhin-thay/artwork/portal/after-leaving-spread-v1.webp",
+      "public_path": "assets/after-leaving-spread-v1.webp",
+      "sha256_at_intake": "21d0187f79c45f0396dfda27ab23ea78bdaf4052d472cf4254d8c399046321dd",
+      "provenance": "Author board references/design/under_revision - office-battlefield-after-leaving.png; recipe scripts/cut_after_leaving_board.py. Rectangular key-elements reading illustration. Screen use only."
     }
   ]
 }

@@ -1,7 +1,5 @@
-# Có những thứ chỉ khi mình rời đi rồi mới nhìn thấy
+# Office Battlefield - Things You Only See After Leaving
 
-V2 slot: **34**. Stable folder: `co-nhung-thu-chi-khi-minh-roi-di-roi-moi-nhin-thay`.
+V2 slot: **34**. Stable folder: \`co-nhung-thu-chi-khi-minh-roi-di-roi-moi-nhin-thay\`.
 
-Edit identity and state in `chapter.json`; keep author prose in `source/` and production recipes in `production.json`. See [the chapter workflow](../../docs/PRODUCTION_WORKFLOW.md) and [product status](docs/PRODUCT_STATUS.json).
-
-This slot contains the existing editorial outline only. Do not replace the missing author manuscript with invented prose.
+The supplied attachment is preserved byte-for-byte in \`source/author-attachment.txt\`. \`source/approved.md\` adds only the reader heading. Run \`python scripts/cut_after_leaving_board.py\` to rebuild the aligned screen art and \`python scripts/build_after_leaving_chapter.py\` for the standalone reader. The same art appears in the chapter leaf, map and homepage preview. See [asset provenance](docs/ASSET_SOURCE.md) and [visual QA](docs/QA.md).

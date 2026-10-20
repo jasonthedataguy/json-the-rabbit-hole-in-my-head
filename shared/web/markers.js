@@ -1,4 +1,4 @@
-import { renderIcon } from './chapters.js?v=31';
+import { renderIcon } from './chapters.js?v=32';
 
 // The chapter's keepsake is printed on a paper tab seated in the portal's rim.
 // Keep this SVG in normal document flow; its owner decides where the tab sits.
@@ -44,6 +44,7 @@ const markerNames = {
   arch: 'an arched childhood mirror',
   door: 'a doorway home',
   dog: 'Gấu, a little white dog',
+  whiteboard: 'a mountain-roadtrip whiteboard',
   mountain: 'the mountains of Patagonia',
   crescent: 'an unfinished crescent',
 };

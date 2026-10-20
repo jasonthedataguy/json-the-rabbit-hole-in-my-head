@@ -291,6 +291,17 @@
       "bytes": 12666,
       "archiveUrl": null,
       "sourceUrl": null
+    },
+    {
+      "slug": "co-nhung-thu-chi-khi-minh-roi-di-roi-moi-nhin-thay",
+      "editorialId": "34",
+      "legacyId": null,
+      "originalTitle": "Office Battlefield - Things You Only See After Leaving",
+      "sourcePath": "chapters/co-nhung-thu-chi-khi-minh-roi-di-roi-moi-nhin-thay/source/approved.md",
+      "sha256": "71fb56af585c9ac5e737e990c4484218367c90bb63454c6c97cf45e637903e48",
+      "bytes": 11969,
+      "archiveUrl": null,
+      "sourceUrl": null
     }
   ]
 }

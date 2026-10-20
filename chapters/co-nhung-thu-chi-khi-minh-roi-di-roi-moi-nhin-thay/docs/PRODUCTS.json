@@ -1,13 +1,36 @@
 {
   "chapter": "co-nhung-thu-chi-khi-minh-roi-di-roi-moi-nhin-thay",
-  "products": [],
+  "products": [
+    {
+      "product": "Selected author manuscript",
+      "state": "ready; exact body from supplied attachment with editorial heading",
+      "path": "source/approved.md"
+    },
+    {
+      "product": "Rotating office and memory ring",
+      "state": "board-derived digital crop; screen use only",
+      "path": "artwork/portal/after-leaving-ring-v1.png"
+    },
+    {
+      "product": "Stationary whiteboard centre",
+      "state": "aligned to chapter ring; screen use only",
+      "path": "artwork/portal/after-leaving-scene-v1.png"
+    },
+    {
+      "product": "Rectangular reading illustration",
+      "state": "key-elements crop; screen use only",
+      "path": "artwork/portal/after-leaving-spread-v1.webp"
+    },
+    {
+      "product": "Standalone digital chapter",
+      "state": "generated from selected manuscript",
+      "path": "web/index.html"
+    }
+  ],
   "remaining": [
-    "Author manuscript and selection",
-    "Approved scene artwork",
-    "Read / Explore / Revisit experience",
-    "Print proofs",
+    "Separated high-resolution art and printer specifications for certified print production",
     "Author narration and films",
     "Social channel packs",
-    "Visual and release QA"
+    "Physical-device and human screen-reader review"
   ]
 }

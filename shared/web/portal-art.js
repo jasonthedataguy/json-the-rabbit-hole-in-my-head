@@ -20,6 +20,8 @@ export const portalPictures = Object.freeze({
   oldFriendCover:{src:'assets/old-friend-scene-v1.png',alt:'Two childhood friends share a packet of candy inside the book-cover ring.',zoom:1,x:0,y:0},
   officeBattlefield:{src:'assets/office-battlefield-scene-v1.png',alt:'Jason faces a paper message above an office chess table; coworkers and an AI agent circle him.',zoom:1,x:0,y:0},
   payoffMatrix:{src:'assets/payoff-matrix-scene-v1.png',alt:'Jason faces AI scorecards and a payoff matrix above an office chessboard.',zoom:1,x:0,y:0},
+  afterLeaving:{src:'assets/after-leaving-scene-v1.png',alt:'Jason faces a mountain-roadtrip drawing still on the office whiteboard, with a phone in his hand.',zoom:1,x:0,y:0},
+  afterLeavingCover:{src:'assets/after-leaving-scene-v1.png',alt:'The office whiteboard and Jason appear inside the shared book-cover ring.',zoom:1,x:0,y:0},
   commandRespect:{src:'assets/command-respect-scene-v1.png',alt:'Jason faces a small boy in a childhood mirror, with an office desk and a note asking him to stop.',zoom:1,x:0,y:0},
   commandRespectCover:{src:'assets/command-respect-scene-v1.png',alt:'The child in the mirror and Jason appear inside the shared book-cover ring.',zoom:1,x:0,y:0},
   negativeSum:{src:'assets/negative-sum-scene-v1.png',alt:'Jason faces a chessboard and a ledger of time, trust and friendship.',zoom:1,x:0,y:0},
