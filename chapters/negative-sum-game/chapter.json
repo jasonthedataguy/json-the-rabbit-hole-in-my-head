@@ -2,26 +2,30 @@
   "schema_version": 2,
   "slug": "negative-sum-game",
   "number": "30",
-  "title": "Negative-Sum Game",
-  "short_title": "Negative-Sum Game",
+  "title": "Office Battlefield - Negative-Sum Game",
+  "short_title": "Office Battlefield",
   "part": 4,
   "language": "vi",
-  "publish": false,
-  "release_stage": "outline",
-  "canonical_text": null,
+  "publish": true,
+  "release_stage": "reader-with-digital-portal",
+  "canonical_text": "source/approved.md",
   "canonical_path": "#chapter/30",
-  "summary": "Jason thử biến sự trả đũa thành một “moral mathematical model”, được AI nhắc về giới hạn dữ liệu, phạm vi phân tích và phép lịch sự tối thiểu. David nhiều lần đề nghị dừng đăng công khai; Jason tiếp tục bảo mình “chỉ làm toán”.",
+  "summary": "Jason calls his workplace feud a negative-sum game, then questions the payoffs he invented. He realizes that anger, not strategy, drove his need to humiliate Jamin, and that trust and friendship were costs his model missed.",
   "portal": {
-    "scene": "Two counters fall below a common baseline with an empty office between them.",
+    "scene": "Jason faces a chess table and a ledger marked time, trust, and friendship, surrounded by office records and unanswered questions.",
     "objects": [
-      "sinking counters",
-      "split zero line",
-      "worn chessboard"
+      "chess table",
+      "black and white pieces",
+      "time, trust, friendship ledger",
+      "empty chair",
+      "office records"
     ],
-    "iconKey": "counters",
-    "motif": "Below zero"
+    "iconKey": "chess",
+    "motif": "The cost of the wrong game"
   },
   "original_edition": null,
-  "production_status": "awaiting author manuscript",
-  "outline_title": "Negative-Sum Game"
+  "production_status": "author-selected full manuscript and board-derived digital portal; print and media pending",
+  "outline_title": "Negative-Sum Game",
+  "original_title": "07. Negative-Sum Game",
+  "manuscript_sha256": "f3480686001371947b838be606ddd8cf68700c2d6f3d68999de0392f8294f308"
 }

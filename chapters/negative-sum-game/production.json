@@ -7,5 +7,14 @@
     "heading": "",
     "intro": "",
     "moments": []
+  },
+  "digital_portal": {
+    "recipe": "scripts/cut_negative_sum_board.py",
+    "ring": "artwork/portal/negative-sum-ring-v1.png",
+    "scene": "artwork/portal/negative-sum-scene-v1.png",
+    "homepage_scene": "artwork/portal/negative-sum-scene-v1.png",
+    "reader_illustration": "artwork/portal/negative-sum-spread-v1.webp",
+    "standalone_portal": "web/assets/negative-sum-portal-v1.png",
+    "status": "digital crops from flattened supplied board"
   }
 }

@@ -25,9 +25,9 @@ Each chapter has `chapter.json`, `production.json`, `source/`, `artwork/{source,
 
 ## Work here
 
-Edit the website in `shared/web/`. Edit book-level content in `book.json` and chapter identity/summary in `chapters/<slug>/chapter.json`. Keep author-selected prose in the chapter’s `source/`. All 36 slots have a folder; 12 currently contain editorial outlines, not full author manuscripts.
+Edit the website in `shared/web/`. Edit book-level content in `book.json` and chapter identity/summary in `chapters/<slug>/chapter.json`. Keep author-selected prose in the chapter’s `source/`. All 36 slots have a folder; 11 currently contain editorial outlines, not full author manuscripts.
 
-Ten original chapters have their complete tracked asset kits locally: 1,412 preserved file mappings, about 444 MB including existing portal assets and production references. The selected reader retains all 80,917 original manuscript bytes plus the author-supplied Quant, Flow, Red Button, An Old Friend, Coincidence, Asteroid, Run away, Bad Trip and the six Office Battlefield chapters. All 24 full manuscripts now have portal slots. [Migration evidence](docs/MIGRATION.json) and [source provenance](docs/source-provenance.json) record their identities.
+Ten original chapters have their complete tracked asset kits locally: 1,412 preserved file mappings, about 444 MB including existing portal assets and production references. The selected reader retains all 80,917 original manuscript bytes plus the author-supplied Quant, Flow, Red Button, An Old Friend, Coincidence, Asteroid, Run away, Bad Trip and the seven Office Battlefield chapters. All 25 full manuscripts now have portal slots. [Migration evidence](docs/MIGRATION.json) and [source provenance](docs/source-provenance.json) record their identities.
 
 The reader links to local immersive experiences and inherited print/film files. Their original numbering and proof states remain explicit. Existing assets are available for adaptation; narration, printer-specific work and v2 media/design review are not automatically complete.
 
@@ -53,7 +53,7 @@ Open [localhost:4173](http://localhost:4173). Rebuild after changing sources. To
 python scripts/new_chapter.py --slug another-essay --title "Another essay" --archive
 ```
 
-To work on one of the remaining 12 outline chapters, edit its existing folder. [The workflow](docs/PRODUCTION_WORKFLOW.md) explains manuscript selection, Read / Explore / Revisit, print, narration, films, social packs and release evidence.
+To work on one of the remaining 11 outline chapters, edit its existing folder. [The workflow](docs/PRODUCTION_WORKFLOW.md) explains manuscript selection, Read / Explore / Revisit, print, narration, films, social packs and release evidence.
 
 ## Cold Rice digital design
 
@@ -118,3 +118,7 @@ Office Battlefield - Good Boy fills the existing Chapter 28 slot in `04_model_fa
 ## Moral Story digital design
 
 Office Battlefield - The Moral Story Schools Don't Teach You is Chapter 29 in `04_model_failure`, immediately after Good Boy. The author's final attached manuscript is selected in `chapters/the-moral-story-schools-dont-teach-you/source/approved.md`; its wording and order are preserved, with direct prompts and replies marked as quotes. The supplied board remains unchanged in `references/design/`. `scripts/cut_moral_story_board.py` makes an aligned office-record ring, stationary open-book centre and rectangular key-elements reading illustration. The chapter leaf, map, homepage centre and standalone reader use these digital crops. Later outline chapters move to 30–35; their stable slugs remain unchanged.
+
+## Negative-Sum Game digital design
+
+Negative-Sum Game fills the existing Chapter 30 Office Battlefield slot with the author's final manuscript. The supplied chess-table board supplies an aligned rotating office ring, stationary chessboard and cost ledger, and a rectangular reading illustration. These appear on the chapter map, reading leaf, homepage preview and standalone reader. The original essay number 07 remains source history; this book's number is 30. See [the asset source and QA](chapters/negative-sum-game/docs/ASSET_SOURCE.md).

@@ -2,24 +2,54 @@
   "chapter": "negative-sum-game",
   "files": [
     {
+      "path": "artwork/portal/negative-sum-portal-v1.png",
+      "bytes": 1720885,
+      "sha256": "5c368360056246f5d9f076bfe22fa690b4e3f08a1d09547a3bd532b157fbfa13"
+    },
+    {
+      "path": "artwork/portal/negative-sum-ring-v1.png",
+      "bytes": 2104010,
+      "sha256": "f94e69d286b5fff0b408a3feb5515131acc6013b05f10f64fd0d6123cc10cfa8"
+    },
+    {
+      "path": "artwork/portal/negative-sum-scene-v1.png",
+      "bytes": 1716056,
+      "sha256": "75734bbbbabd65b9a5b12313c6c3e5bcfd24ee5a044c2d7f61c7545061207328"
+    },
+    {
+      "path": "artwork/portal/negative-sum-spread-v1.webp",
+      "bytes": 151568,
+      "sha256": "a143a9637473f2bdad3feb0c3c3a9e0ede945117f94aeeb6d12571b402439303"
+    },
+    {
       "path": "chapter.json",
-      "bytes": 1021,
-      "sha256": "230b953d4db6f374dedae19c9c288ae78c5e7cf8d2622f3d21a8e515751452b6"
+      "bytes": 1328,
+      "sha256": "aa67742bfdd3116f720e26283fa8477ae56e12852b06a465a30c68cb7e223a86"
+    },
+    {
+      "path": "docs/ASSET_SOURCE.md",
+      "bytes": 824,
+      "sha256": "516509aec52f633c09f658a5dc7b5b3588d6503d5b6ce707825da7c7776c0d84"
     },
     {
       "path": "docs/PRODUCTS.json",
-      "bytes": 312,
-      "sha256": "a7973da53857fb37f1ab881bd2774803ab3264397a2e1055518c88f3db44ff3f"
+      "bytes": 1183,
+      "sha256": "642c99d5265260fec4855a9cf3cade0e20491fb225fa83702f824dc52e2e116b"
     },
     {
       "path": "production.json",
-      "bytes": 158,
-      "sha256": "04cca5cbcb7714947f2e115425c3b36fd58203c853d17184364ed8f229b16d7d"
+      "bytes": 622,
+      "sha256": "0e24e6a328916d91f1de1a81aa2e69d2842e0e6a0eb8f59c6a7a89df8163e64a"
     },
     {
       "path": "README.md",
-      "bytes": 434,
-      "sha256": "743a9f34636d8b85b7b829fd1980c93b10fcc96d52f6795bdda7bae017e5c305"
+      "bytes": 524,
+      "sha256": "69f8396bce83170da306e3dc46d8ac6042efaded9abbf946b3f958ba3bd05fd2"
+    },
+    {
+      "path": "source/approved.md",
+      "bytes": 8564,
+      "sha256": "f3480686001371947b838be606ddd8cf68700c2d6f3d68999de0392f8294f308"
     },
     {
       "path": "source/outline.md",
@@ -28,8 +58,28 @@
     },
     {
       "path": "source/revisions.log",
-      "bytes": 111,
-      "sha256": "e01ec275c2bd0c7128f4545ba1a8339712c2e287d8a0ea329c9ccf3068756f36"
+      "bytes": 279,
+      "sha256": "6a2bbb7936dbbdb31f60b9f3e9ada88e3f0c2c6c8747d3e9010b6fb627a922c5"
+    },
+    {
+      "path": "web/assets/negative-sum-portal-v1.png",
+      "bytes": 1720885,
+      "sha256": "5c368360056246f5d9f076bfe22fa690b4e3f08a1d09547a3bd532b157fbfa13"
+    },
+    {
+      "path": "web/assets/negative-sum-spread-v1.webp",
+      "bytes": 151568,
+      "sha256": "a143a9637473f2bdad3feb0c3c3a9e0ede945117f94aeeb6d12571b402439303"
+    },
+    {
+      "path": "web/index.html",
+      "bytes": 11781,
+      "sha256": "a880150e1409570f7ef73267a0044be0d7938108a0caeceac4b3b2771aa20048"
+    },
+    {
+      "path": "web/negative-sum.css",
+      "bytes": 6022,
+      "sha256": "c31ce995ed7e0f3c2e7d4d0c09fc3acb532f284d5710e9f13ef6546b9a580f0c"
     }
   ]
 }

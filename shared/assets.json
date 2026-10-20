@@ -714,6 +714,24 @@
       "public_path": "assets/moral-story-spread-v1.webp",
       "sha256_at_intake": "61d6654bf03fd3764d5f02ded156303ad2a229c8318835a75c088557e8e2d7a9",
       "provenance": "Author board references/design/model_failure - office-moral-story.png; recipe scripts/cut_moral_story_board.py. Rectangular key-elements reading illustration. Screen use only."
+    },
+    {
+      "source": "chapters/negative-sum-game/artwork/portal/negative-sum-ring-v1.png",
+      "public_path": "assets/negative-sum-ring-v1.png",
+      "sha256_at_intake": "f94e69d286b5fff0b408a3feb5515131acc6013b05f10f64fd0d6123cc10cfa8",
+      "provenance": "Author board references/design/model_failure -office-negative-sum-game.png; recipe scripts/cut_negative_sum_board.py. Rotating office conversation and chess collage. Screen use only."
+    },
+    {
+      "source": "chapters/negative-sum-game/artwork/portal/negative-sum-scene-v1.png",
+      "public_path": "assets/negative-sum-scene-v1.png",
+      "sha256_at_intake": "75734bbbbabd65b9a5b12313c6c3e5bcfd24ee5a044c2d7f61c7545061207328",
+      "provenance": "Author board references/design/model_failure -office-negative-sum-game.png; recipe scripts/cut_negative_sum_board.py. Stationary chessboard and time, trust, friendship cost ledger. Screen use only."
+    },
+    {
+      "source": "chapters/negative-sum-game/artwork/portal/negative-sum-spread-v1.webp",
+      "public_path": "assets/negative-sum-spread-v1.webp",
+      "sha256_at_intake": "a143a9637473f2bdad3feb0c3c3a9e0ede945117f94aeeb6d12571b402439303",
+      "provenance": "Author board references/design/model_failure -office-negative-sum-game.png; recipe scripts/cut_negative_sum_board.py. Rectangular key-elements reading illustration. Screen use only."
     }
   ]
 }

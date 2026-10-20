@@ -20,6 +20,8 @@ export const portalPictures = Object.freeze({
   oldFriendCover:{src:'assets/old-friend-scene-v1.png',alt:'Two childhood friends share a packet of candy inside the book-cover ring.',zoom:1,x:0,y:0},
   officeBattlefield:{src:'assets/office-battlefield-scene-v1.png',alt:'Jason faces a paper message above an office chess table; coworkers and an AI agent circle him.',zoom:1,x:0,y:0},
   payoffMatrix:{src:'assets/payoff-matrix-scene-v1.png',alt:'Jason faces AI scorecards and a payoff matrix above an office chessboard.',zoom:1,x:0,y:0},
+  negativeSum:{src:'assets/negative-sum-scene-v1.png',alt:'Jason faces a chessboard and a ledger of time, trust and friendship.',zoom:1,x:0,y:0},
+  negativeSumCover:{src:'assets/negative-sum-scene-v1.png',alt:'The chess table and cost ledger appear inside the shared book-cover ring.',zoom:1,x:0,y:0},
   moralStory:{src:'assets/moral-story-scene-v1.png',alt:'Jason faces an open book on context, audience, timing and impact beneath a versioned draft.',zoom:1,x:0,y:0},
   moralStoryCover:{src:'assets/moral-story-scene-v1.png',alt:'The open moral-model book and Jason appear inside the shared book-cover ring.',zoom:1,x:0,y:0},
   goodBoy:{src:'assets/good-boy-scene-v1.png',alt:'Jason faces a stamped apology and heavy rubber stamp above an office phone.',zoom:1,x:0,y:0},

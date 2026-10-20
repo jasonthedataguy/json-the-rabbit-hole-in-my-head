@@ -1,4 +1,4 @@
-import { renderIcon } from './chapters.js?v=29';
+import { renderIcon } from './chapters.js?v=30';
 
 // The chapter's keepsake is printed on a paper tab seated in the portal's rim.
 // Keep this SVG in normal document flow; its owner decides where the tab sits.
@@ -38,6 +38,7 @@ const markerNames = {
   search: 'a record-keeper’s magnifying glass',
   dialogue: 'two quiet speech bubbles',
   counters: 'two falling counters',
+  chess: 'a chessboard with opposing pieces',
   eye: 'an eye reflected in a leaf',
   vision: 'a bright eye and open path',
   door: 'a doorway home',

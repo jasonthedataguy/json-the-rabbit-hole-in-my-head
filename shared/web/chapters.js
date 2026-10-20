@@ -1,4 +1,4 @@
-import { chapters, acts } from './chapter-data.js?v=26';
+import { chapters, acts } from './chapter-data.js?v=27';
 export { chapters, acts };
 
 const iconPaths = {
@@ -34,6 +34,7 @@ const iconPaths = {
   stamp:'M7 3h10v4l-2 2v3l5 4v3H4v-3l5-4V9L7 7zM4 21h16M8 17h8',
   search:'M16 10a6 6 0 1 1-12 0 6 6 0 0 1 12 0ZM15 15l7 7M7 7h4m-4 4h4',
   dialogue:'M2 3h13v9H7l-5 4zM18 8h4v14l-5-4H9v-3',
+  chess:'M3 3h18v18H3zM3 12h18M12 3v18M4 4l8 8m1 1 8 8M20 4l-8 8m-1 1-8 8',
   counters:'M2 9h20M6 12v9m12-9v9M3 17l3 4 3-4m6 0 3 4 3-4M9 4h6',
   eye:'M2 12c5-9 15-9 20 0-5 9-15 9-20 0ZM16 12a4 4 0 1 1-8 0 4 4 0 0 1 8 0ZM12 10v4',
   vision:'M2 12c5-8 15-8 20 0-5 8-15 8-20 0ZM16 12a4 4 0 1 1-8 0 4 4 0 0 1 8 0ZM12 10v4M19 3v3M22 6l-2 2',

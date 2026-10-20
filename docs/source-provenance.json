@@ -269,6 +269,17 @@
       "bytes": 18368,
       "archiveUrl": null,
       "sourceUrl": null
+    },
+    {
+      "slug": "negative-sum-game",
+      "editorialId": "30",
+      "legacyId": null,
+      "originalTitle": "Office Battlefield - Negative-Sum Game",
+      "sourcePath": "chapters/negative-sum-game/source/approved.md",
+      "sha256": "f3480686001371947b838be606ddd8cf68700c2d6f3d68999de0392f8294f308",
+      "bytes": 8564,
+      "archiveUrl": null,
+      "sourceUrl": null
     }
   ]
 }
