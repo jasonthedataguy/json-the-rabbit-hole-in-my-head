@@ -399,11 +399,15 @@
   .dream-diary-reader-scene figcaption { margin-top: 8px; color: #927b5d; font: 9px/1.4 var(--sans); letter-spacing: 1px; text-transform: uppercase; }
   .dream-diary-reader-page .cover-reader-prose.prose { margin-top: 27px; }
 
-/* One complete main-book portal supplies both the rotating outer ring and upright middle. */
+/* Chapter stops split their complete portal; the cover uses its separate rotating ring and fixed Jason. */
 .cover-rotor.digital-book-cover-ring{overflow:hidden;mask-image:radial-gradient(circle,transparent 0 31%,#000 32%);-webkit-mask-image:radial-gradient(circle,transparent 0 31%,#000 32%);background-size:contain;background-position:center}
 .cover-rotor.digital-book-cover-ring>img{display:block;width:100%;height:100%;object-fit:contain}
 .cover-scene.digital-book-cover-centre{inset:0;mask-image:radial-gradient(circle,#000 0 33%,transparent 33.1%);-webkit-mask-image:radial-gradient(circle,#000 0 33%,transparent 33.1%);background-size:contain;background-position:center}
 .cover-scene.digital-book-cover-centre>.digital-book-main-portal{display:block;width:100%;height:100%;object-fit:contain;transform:none}
+.cover-rotor.digital-book-cover-ring.shared-cover-ring{mask-image:none;-webkit-mask-image:none}
+.cover-stage.has-fixed-cover-jason .cover-scene.digital-book-cover-centre{mask-image:radial-gradient(circle closest-side,#000 0 64%,transparent 64.1%);-webkit-mask-image:radial-gradient(circle closest-side,#000 0 64%,transparent 64.1%)}
+.cover-jason{display:none;position:absolute;inset:0;z-index:2;width:100%;height:100%;object-fit:contain;pointer-events:none}
+.cover-stage.has-fixed-cover-jason .cover-jason{display:block}
 .digital-book-cover-hero{margin:18px 0 27px}
 .digital-book-cover-hero img,.digital-book-inline-cover img{display:block;width:100%;height:auto;aspect-ratio:3/2;object-fit:contain;border:3px solid #dac3a3}
 .digital-book-cover-hero figcaption,.digital-book-inline-cover figcaption{margin-top:8px;color:#997c66;font:9px/1.4 var(--sans);letter-spacing:1px;text-transform:uppercase}

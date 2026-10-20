@@ -2,7 +2,7 @@ import { chapters, renderIcon, renderPortal, renderPortalScene } from './chapter
 import { introduction, parts, chapterNotes } from './book.js?v=28';
 import { PortalRing } from './ring.js?v=10';
 import { renderPortalPicture, renderPortalFrame, renderFramedPortal } from './portal-art.js?v=59';
-import { digitalArt, digitalCoverPortal } from './digital-art.js?v=2';
+import { digitalArt, digitalCoverPortal, digitalCoverRing, digitalCoverJason } from './digital-art.js?v=3';
 
 const $ = selector => document.querySelector(selector);
 const $$ = selector => [...document.querySelectorAll(selector)];
@@ -454,14 +454,17 @@ function selectCoverPage(index,{fromRing=false}={}){
   const previousSceneImage=coverScene.querySelector('img')?.currentSrc;
   coverScene.style.backgroundImage=previousSceneImage?`url("${previousSceneImage}")`:'';
   const coverRotor=$('#cover-rotor');
+  const isBookCover=page.kind==='cover';
+  $('#cover-stage').classList.toggle('has-fixed-cover-jason',isBookCover);
   coverScene.classList.add('digital-book-cover-centre');
   coverRotor.classList.add('digital-book-cover-ring');
-  const coverPortal=page.kind==='cover'?digitalCoverPortal:digitalArt[page.kind==='introduction'?'introduction':page.chapter.slug]?.mainBook;
+  coverRotor.classList.toggle('shared-cover-ring',isBookCover);
+  const coverPortal=isBookCover?digitalCoverPortal:digitalArt[page.kind==='introduction'?'introduction':page.chapter.slug]?.mainBook;
   if(!coverPortal)throw new Error(`Missing main-book portal for ${page.title}`);
   const previousRotorImage=coverRotor.querySelector('img')?.currentSrc;
   coverRotor.style.backgroundImage=previousRotorImage?`url("${previousRotorImage}")`:'';
   coverScene.innerHTML=`<img class="digital-book-main-portal" src="${esc(coverPortal)}" alt="${esc(page.title)} — main book portal" loading="eager" decoding="async" fetchpriority="high">`;
-  coverRotor.innerHTML=`<img src="${esc(coverPortal)}" alt="" loading="eager" decoding="async" fetchpriority="high">`;
+  coverRotor.innerHTML=`<img src="${esc(isBookCover?digitalCoverRing:coverPortal)}" alt="" loading="eager" decoding="async" fetchpriority="high">`;
   const nextSceneImage=coverScene.querySelector('img');
   const nextRotorImage=coverRotor.querySelector('img');
   Promise.all([nextSceneImage.decode(),nextRotorImage.decode()]).then(()=>{
@@ -480,7 +483,8 @@ function selectCoverPage(index,{fromRing=false}={}){
   positionCoverOrbit();
 }
 $('#cover-orbit-marks').innerHTML=coverPages.map((page,index)=>`<button class="cover-orbit-mark" data-cover-page="${index}" aria-label="${esc(page.kind==='cover'?'Book cover':page.title)}" title="${esc(page.kind==='cover'?'Book cover':page.title)}"><span>${page.label}</span></button>`).join('');
-$('#cover-rotor').innerHTML=`<img src="${esc(digitalCoverPortal)}" alt="" fetchpriority="high">`;
+$('#cover-rotor').innerHTML=`<img src="${esc(digitalCoverRing)}" alt="" fetchpriority="high">`;
+$('#cover-jason').src=digitalCoverJason;
 coverRing=new PortalRing({stage:$('#cover-stage'),count:coverPages.length,initialIndex:0,onRotate(rotation,{animate}){
   $('#cover-stage').classList.toggle('ring-instant',!animate);$('#cover-stage').dataset.ringRotation=String(rotation);
   $('#cover-rotor').style.transform=`rotate(${rotation}deg)`;positionCoverOrbit(rotation);

@@ -338,4 +338,6 @@ export const digitalArt = Object.freeze({
   }
 });
 export const digitalRing = "assets/digital-book/rotating-ring-no-observer.png?v=8479fd4c3f38";
-export const digitalCoverPortal = "assets/digital-book/main-book-cover-portal.webp?v=9531e0e64fb7";
+export const digitalCoverPortal = "assets/digital-book/main-book-cover-portal.webp?v=bb5a13033494";
+export const digitalCoverRing = "assets/digital-book/main-book-cover-ring.webp?v=b88572b1e492";
+export const digitalCoverJason = "assets/digital-book/main-book-cover-jason.webp?v=90ab60352afa";

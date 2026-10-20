@@ -2194,8 +2194,20 @@
     {
       "source": "shared/artwork/digital-book/main-book-cover-portal.webp",
       "public_path": "assets/digital-book/main-book-cover-portal.webp",
-      "sha256_at_intake": "9531e0e64fb762baf158757ef54de92cf91087a3b485775e2bcd303d6d349289",
-      "provenance": "Author asset archive: shared/main-book/main-book-portal.webp. Complete portal for the default book-cover stop."
+      "sha256_at_intake": "bb5a13033494f242c1914cee93bf518ede3fc29db43c569912e284c367ebbff0",
+      "provenance": "Author asset archive: shared/main-book/main-book-portal.webp. Updated complete portal for the default book-cover stop."
+    },
+    {
+      "source": "shared/artwork/digital-book/main-book-cover-ring.webp",
+      "public_path": "assets/digital-book/main-book-cover-ring.webp",
+      "sha256_at_intake": "b88572b1e492e38e91755f607342422a078198ea2ca582d5d7d2edf7a74821f1",
+      "provenance": "Author asset archive: shared/main-book/master-ring/app/portal-empty-center-compatible.webp. Rotating cover ring with Gấu."
+    },
+    {
+      "source": "shared/artwork/digital-book/main-book-cover-jason.webp",
+      "public_path": "assets/digital-book/main-book-cover-jason.webp",
+      "sha256_at_intake": "90ab60352afa62c012b991cb600206e08a4fd09af63402222eaed416161cf550",
+      "provenance": "Author asset archive: shared/main-book/master-ring/app/jason-fixed.webp. Stationary cover foreground."
     }
   ]
 }

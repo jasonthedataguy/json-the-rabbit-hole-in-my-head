@@ -23,10 +23,12 @@ For each of the 37 sets, the website uses the pack's independent web exports:
 | `inline_illustration` | Supporting illustration in the prose |
 | `centre-scene.webp` | Alternate centre for the pack's shared-ring layout; retained as a source asset |
 
-The default cover stop uses the pack's complete shared main-book portal.
+The default cover stop uses the updated shared main-book portal supplied on
+20 October 2026. Its matching transparent ring carries Gấu as it turns; the
+separate Jason silhouette stays fixed in front of the upright city scene.
 The shared observer-free ring remains available for the pack's alternate
 layout; it is not layered over the complete portals. The Apology also
-has two additional inline illustrations. This makes 226 installed screen
+has two additional inline illustrations. This makes 228 installed screen
 assets. Their source-to-public mappings and intake hashes are in
 `shared/assets.json`; `shared/web/digital-art.js` is the runtime placement
 map. The original pack manifest, quality report, and runtime asset map are

@@ -102,6 +102,21 @@ def main():
             'source': cover_local, 'public_path': cover_public, 'sha256_at_intake': cover_digest,
             'provenance': f'Author asset archive: {cover_source}. Complete portal for the default book-cover stop.'
         }
+        cover_layers = []
+        for source, local, public, role in [
+            ('shared/main-book/master-ring/app/portal-empty-center-compatible.webp',
+             'shared/artwork/digital-book/main-book-cover-ring.webp',
+             'assets/digital-book/main-book-cover-ring.webp', 'Rotating cover ring with Gấu'),
+            ('shared/main-book/master-ring/app/jason-fixed.webp',
+             'shared/artwork/digital-book/main-book-cover-jason.webp',
+             'assets/digital-book/main-book-cover-jason.webp', 'Stationary cover foreground'),
+        ]:
+            digest = intake(zf, source, ROOT / local)
+            additions[public] = {
+                'source': local, 'public_path': public, 'sha256_at_intake': digest,
+                'provenance': f'Author asset archive: {source}. {role}.'
+            }
+            cover_layers.append(f'{public}?v={digest[:12]}')
         reference = ROOT / 'references/digital-book-asset-pack'
         for source, target in [
             ('assets-manifest.json', 'assets-manifest.json'),
@@ -118,7 +133,9 @@ def main():
     module.write_text('// Screen exports from the author-supplied digital-book asset library.\n'
                       'export const digitalArt = Object.freeze(' + json.dumps(library, ensure_ascii=False, indent=2) + ');\n'
                       f'export const digitalRing = {json.dumps(ring_public + "?v=" + ring_digest[:12])};\n'
-                      f'export const digitalCoverPortal = {json.dumps(cover_public + "?v=" + cover_digest[:12])};\n', encoding='utf-8')
+                      f'export const digitalCoverPortal = {json.dumps(cover_public + "?v=" + cover_digest[:12])};\n'
+                      f'export const digitalCoverRing = {json.dumps(cover_layers[0])};\n'
+                      f'export const digitalCoverJason = {json.dumps(cover_layers[1])};\n', encoding='utf-8')
     print(f'Installed {len(additions)} screen assets for {len(library)} portal sets; all archive hashes matched.')
 
 
