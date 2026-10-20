@@ -1,6 +1,5 @@
 import { chapters, renderIcon, renderPortal, renderPortalScene } from './chapters.js?v=36';
 import { introduction, parts, chapterNotes } from './book.js?v=28';
-import { renderChapterMarker, getChapterMarkerName } from './markers.js?v=31';
 import { PortalRing } from './ring.js?v=10';
 import { renderPortalPicture, renderPortalFrame, renderFramedPortal } from './portal-art.js?v=59';
 import { digitalArt, digitalCoverPortal } from './digital-art.js?v=2';
@@ -101,7 +100,7 @@ function artHTML(chapter){
   if(chapter.id==='20')return renderFramedPortal('dating102','dating-102-chapter','assets/dating-102-ring-v2.png');
   return renderPortal(chapter);
 }
-function chapterArtwork(chapter){return `<figure class="chapter-illustration${digitalArt[chapter.slug]?' digital-book-chapter-art':''}" aria-label="Chapter portal ${chapter.id}: ${esc(chapter.title)}"><div class="portal-scene">${artHTML(chapter)}</div><div class="portal-page-marker">${renderChapterMarker(chapter,{compact:true})}</div></figure>`;}
+function chapterArtwork(chapter){return `<figure class="chapter-illustration${digitalArt[chapter.slug]?' digital-book-chapter-art':''}" aria-label="Chapter portal ${chapter.id}: ${esc(chapter.title)}"><div class="portal-scene">${artHTML(chapter)}</div></figure>`;}
 function pageTurn({href,title,label='',direction='next'}){
   const arrow=`<span class="leaf-arrow" aria-hidden="true">${direction==='next'?'→':'←'}</span>`;
   return `<a class="${direction==='next'?'next-leaf':'previous-leaf'}" href="${href}">${direction==='previous'?arrow:''}<span>${label?`<small>${esc(label)}</small>`:''}<strong>${esc(title)}</strong></span>${direction==='next'?arrow:''}</a>`;
@@ -287,8 +286,6 @@ function selectMapChapter(index,{fromRing=false}={}){
     $('#portal-art').classList.add('digital-book-map');
     $('#portal-scene').innerHTML=digitalImage(chapter.slug,'map','digital-book-map-image');
     $('#portal-rim-art').innerHTML='';
-    $('#portal-marker').innerHTML=renderChapterMarker(chapter);
-    $('#portal-marker').setAttribute('aria-label',`Chapter marker ${chapter.id}: ${getChapterMarkerName(chapter)}`);
     $('#portal-stage').setAttribute('aria-label',`${chapter.id}. ${chapter.title}. Drag to rotate; use arrow keys to choose; Enter to read.`);
     $('#map-part').textContent=part?`PART ${roman[part.id]} · ${partLabel(part)}`:'PROLOGUE';
     $('#map-number').textContent=chapter.id;
@@ -309,8 +306,6 @@ function selectMapChapter(index,{fromRing=false}={}){
   $('#portal-art').classList.toggle('uses-fitted-picture',fitted);
   $('#portal-scene').innerHTML=fitted?renderPortalPicture(pictureKey):artHTML(chapter);
   $('#portal-rim-art').innerHTML=fitted?renderPortalFrame(`${pictureKey}-map`,fittedRing):artHTML(chapter);
-  $('#portal-marker').innerHTML=renderChapterMarker(chapter);
-  $('#portal-marker').setAttribute('aria-label',`Chapter marker ${chapter.id}: ${getChapterMarkerName(chapter)}`);
   $('#portal-stage').setAttribute('aria-label',`${chapter.id}. ${chapter.title}. Drag to rotate; use arrow keys to choose; Enter to read.`);
   $('#map-part').textContent=part?`PART ${roman[part.id]} · ${partLabel(part)}`:'PROLOGUE';
   $('#map-number').textContent=chapter.id;$('#map-title').textContent=['02','03','04','10','24','25','26','27','28','29','30','32','34'].includes(chapter.id)?chapter.shortTitle:chapter.title;
@@ -474,9 +469,6 @@ function selectCoverPage(index,{fromRing=false}={}){
       coverScene.style.backgroundImage='';coverRotor.style.backgroundImage='';
     }
   }).catch(()=>{});
-  $('#cover-marker').innerHTML=page.kind==='chapter'?renderChapterMarker(page.chapter,{compact:true}):`<span class="frontmatter-marker" aria-hidden="true">${page.kind==='cover'?'▯':'i'}</span>`;
-  $('#cover-marker').hidden=page.kind==='cover';
-  $('#cover-marker').setAttribute('aria-label',page.kind==='chapter'?`Chapter marker ${page.label}: ${getChapterMarkerName(page.chapter)}`:page.kind==='cover'?'Book cover':'Introduction');
   $('#cover-chapter-link').href=page.href;
   $('#cover-chapter-label').textContent=page.kind==='cover'?'Book cover':page.kind==='introduction'?'Introduction':`${page.label} · ${page.title}`;
   $('#cover-chapter-link').title=page.kind==='cover'?'Open the introduction':page.title;

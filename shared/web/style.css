@@ -54,9 +54,9 @@ h1, h2, h3 { font-family: var(--serif); font-weight: 400; line-height: 1.15; }
 .book-sidebar .book-navigation { flex: 1; }
 .frontmatter-nav { padding-bottom: 15px; margin-bottom: 13px; border-bottom: 1px solid #eee4cf1a; }
 .nav-link, .chapter-nav-link { display: flex; align-items: baseline; gap: 8px; padding: 8px 12px; color: #c6ccbf; border-left: 2px solid transparent; font-size: 13px; line-height: 1.45; }
-.nav-chapter-icon { display: inline-grid; place-items: center; width: 22px; height: 22px; flex-shrink: 0; align-self: center; color: #c1a677; }
+.nav-chapter-icon { display: inline-grid; place-items: center; width: 22px; height: 22px; flex-shrink: 0; align-self: center; color: #c9c9c9; }
 .nav-chapter-icon svg { width: 18px; height: 18px; }
-.chapter-nav-link[aria-current='page'] .nav-chapter-icon, .nav-link[aria-current='page'] .nav-chapter-icon { color: #e8c48a; }
+.chapter-nav-link[aria-current='page'] .nav-chapter-icon, .nav-link[aria-current='page'] .nav-chapter-icon { color: #fff; }
 .nav-number { min-width: 18px; flex-shrink: 0; font: 10px/1.6 var(--sans); color: #929e95; font-variant-numeric: tabular-nums; }
 .nav-title { min-width: 0; flex: 1; }
 .nav-title > small { display: block; font-size: 6px; line-height: 1.4; letter-spacing: 1px; color: #9caa9c; margin-bottom: 3px; }
@@ -181,8 +181,6 @@ h1, h2, h3 { font-family: var(--serif); font-weight: 400; line-height: 1.15; }
 .chapter-source-title { font-size: 12px; line-height: 1.7; color: #777968; margin-top: 12px; }
 .chapter-illustration { width: 260px; height: 260px; position: relative; margin: 43px auto 62px; border-radius: 50%; background: var(--navy); box-shadow: 0 9px 22px #31433414; }
 .chapter-illustration .portal-scene { position: absolute; inset: 0; border-radius: 50%; overflow: hidden; }
-.chapter-illustration .portal-page-marker { width: 21%; bottom: -1%; }
-.chapter-illustration .portal-page-marker text { paint-order: stroke fill; stroke: #14232b; stroke-width: .3px; }
 .chapter-prose { margin-top: 48px; }
 .chapter-illustration + .chapter-prose { margin-top: 0; }
 .chapter-prose > p:first-of-type::first-letter { float: left; font: 2.8em/.88 var(--serif); padding: 9px 8px 0 0; color: #826d49; }
@@ -239,8 +237,6 @@ h1, h2, h3 { font-family: var(--serif); font-weight: 400; line-height: 1.15; }
 .portal-scene > img, .portal-rim-art > img { width: 100%; height: 100%; object-fit: cover; transform: scale(1.045); clip-path: circle(48.7% at 50% 49.5%); user-select: none; }
 .portal-scene > .rice-portal-image, .portal-rim-art > .rice-portal-image { transform: scale(1.12) translateY(2.5%); clip-path: circle(44.9% at 49.5% 47.5%); }
 .portal-scene > svg, .portal-rim-art > svg { display: block; width: 100%; height: 100%; transform: scale(1.17); }
-.portal-page-marker { position: absolute; left: 50%; bottom: -.5%; width: 18%; aspect-ratio: 100/116; height: auto; transform: translateX(-50%); z-index: 4; filter: drop-shadow(0 3px 4px #0005); pointer-events: none; }
-.portal-page-marker > .chapter-marker-svg { position: static; display: block; width: 100%; height: 100%; transform: none; overflow: visible; }
 .is-dragging .portal-rim, .is-dragging .orbit-mark, .ring-instant .portal-rim, .ring-instant .orbit-mark { transition: none !important; }
 .portal-tools { display: flex; align-items: center; justify-content: center; gap: 24px; margin-top: 14px; }
 .portal-tools > span { color: #8f9b90; font-size: 7px; letter-spacing: 1.2px; }
@@ -517,7 +513,6 @@ h1, h2, h3 { font-family: var(--serif); font-weight: 400; line-height: 1.15; }
 .utility-chapter-part{margin:18px 0 0;color:#777e74;font:italic 17px/1.5 var(--body-serif)}
 .utility-chapter-stage{display:grid;grid-template-columns:minmax(0,330px) minmax(0,1fr);gap:24px;align-items:center;margin:22px 0 28px}
 .utility-chapter-stage .chapter-illustration:has(.fitted-portal){width:100%;height:auto;margin:0;aspect-ratio:1}
-.utility-chapter-stage .portal-page-marker,#map-view[data-chapter="expected-utility"] #portal-marker{display:none}
 .utility-chapter-note{padding:22px 0 22px 25px;border-left:1px solid #bd8866}
 .utility-chapter-note>span{color:#a47f64;font:10px/1.5 var(--sans);letter-spacing:1.7px}
 .utility-chapter-note p{margin:19px 0 25px;color:#203745;font:24px/1.42 var(--serif)}
@@ -674,7 +669,6 @@ h1, h2, h3 { font-family: var(--serif); font-weight: 400; line-height: 1.15; }
 .flow-chapter-part{margin:15px 0 0;color:#777d76;font:italic 17px/1.5 var(--body-serif)}
 .flow-chapter-stage{display:grid;grid-template-columns:minmax(0,330px) minmax(0,1fr);gap:24px;align-items:center;margin:23px 0 28px}
 .flow-chapter-stage .chapter-illustration:has(.fitted-portal){width:100%;height:auto;margin:0;aspect-ratio:1}
-.flow-chapter-stage .portal-page-marker,#map-view[data-chapter="flow"] #portal-marker{display:none}
 .flow-chapter-note{padding:20px 0 20px 25px;border-left:1px solid #b88a55}
 .flow-chapter-note>span{color:#957d69;font:10px/1.5 var(--sans);letter-spacing:1.7px}
 .flow-chapter-note p{margin:19px 0 25px;color:#203745;font:22px/1.45 var(--serif)}
@@ -703,7 +697,6 @@ h1, h2, h3 { font-family: var(--serif); font-weight: 400; line-height: 1.15; }
 .dream-chapter-part{margin:15px 0 0;color:#777d76;font:italic 17px/1.5 var(--body-serif)}
 .dream-chapter-stage{display:grid;grid-template-columns:minmax(0,330px) minmax(0,1fr);gap:24px;align-items:center;margin:23px 0 28px}
 .dream-chapter-stage .chapter-illustration:has(.fitted-portal){width:100%;height:auto;margin:0;aspect-ratio:1}
-.dream-chapter-stage .portal-page-marker,#map-view[data-chapter="the-gioi-trong-mo-cua-toi"] #portal-marker{display:none}
 .dream-chapter-note{padding:20px 0 20px 25px;border-left:1px solid #b6824e}
 .dream-chapter-note>span{color:#957d69;font:10px/1.5 var(--sans);letter-spacing:1.7px}
 .dream-chapter-note p{margin:19px 0 25px;color:#203745;font:22px/1.45 var(--serif)}
@@ -730,7 +723,6 @@ h1, h2, h3 { font-family: var(--serif); font-weight: 400; line-height: 1.15; }
 .saigon-chapter-part{margin:15px 0 0;color:#797c6b;font:italic 17px/1.5 var(--body-serif)}
 .saigon-chapter-stage{display:grid;grid-template-columns:minmax(0,330px) minmax(0,1fr);gap:24px;align-items:center;margin:23px 0 28px}
 .saigon-chapter-stage .chapter-illustration:has(.fitted-portal){width:100%;height:auto;margin:0;aspect-ratio:1}
-.saigon-chapter-stage .portal-page-marker,#map-view[data-chapter="viet-cho-sai-gon-cua-t"] #portal-marker{display:none}
 .saigon-chapter-note{padding:20px 0 20px 25px;border-left:1px solid #d39d5b}
 .saigon-chapter-note>span{color:#8a826b;font:10px/1.5 var(--sans);letter-spacing:1.7px}
 .saigon-chapter-note p{margin:19px 0 25px;color:#294649;font:22px/1.45 var(--body-serif)}
@@ -757,7 +749,6 @@ h1, h2, h3 { font-family: var(--serif); font-weight: 400; line-height: 1.15; }
 .coincidence-chapter-part{margin:0;color:#667572;font:11px/1.5 var(--sans)}
 .coincidence-chapter-stage{display:grid;grid-template-columns:minmax(0,330px) minmax(0,1fr);gap:24px;align-items:center;margin:24px 0 28px}
 .coincidence-chapter-stage .chapter-illustration:has(.fitted-portal){width:100%;height:auto;margin:0;aspect-ratio:1}
-.coincidence-chapter-stage .portal-page-marker,#map-view[data-chapter="nhung-su-trung-hop"] #portal-marker{display:none}
 .coincidence-chapter-note{padding:20px 0 20px 25px;border-left:1px solid #bc965e}
 .coincidence-chapter-note>span{color:#847c6c;font:10px/1.5 var(--sans);letter-spacing:1.7px}
 .coincidence-chapter-note p{margin:19px 0 25px;color:#243b44;font:22px/1.45 var(--body-serif)}
@@ -776,7 +767,6 @@ h1, h2, h3 { font-family: var(--serif); font-weight: 400; line-height: 1.15; }
 .red-button-chapter-part{margin:0;color:#667572;font:11px/1.5 var(--sans)}
 .red-button-chapter-stage{display:grid;grid-template-columns:minmax(0,330px) minmax(0,1fr);gap:24px;align-items:center;margin:24px 0 28px}
 .red-button-chapter-stage .chapter-illustration:has(.fitted-portal){width:100%;height:auto;margin:0;aspect-ratio:1}
-.red-button-chapter-stage .portal-page-marker,#map-view[data-chapter="nut-do"] #portal-marker{display:none}
 .red-button-chapter-note{padding:20px 0 20px 25px;border-left:1px solid #bc6245}
 .red-button-chapter-note>span{color:#847c6c;font:10px/1.5 var(--sans);letter-spacing:1.7px}
 .red-button-chapter-note p{margin:19px 0 25px;color:#243b44;font:22px/1.45 var(--body-serif)}
@@ -795,7 +785,6 @@ h1, h2, h3 { font-family: var(--serif); font-weight: 400; line-height: 1.15; }
 .old-friend-chapter-part{margin:0;color:#667572;font:11px/1.5 var(--sans)}
 .old-friend-chapter-stage{display:grid;grid-template-columns:minmax(0,330px) minmax(0,1fr);gap:24px;align-items:center;margin:24px 0 28px}
 .old-friend-chapter-stage .chapter-illustration:has(.fitted-portal){width:100%;height:auto;margin:0;aspect-ratio:1}
-.old-friend-chapter-stage .portal-page-marker,#map-view[data-chapter="mot-nguoi-ban-cu"] #portal-marker{display:none}
 .old-friend-chapter-note{padding:20px 0 20px 25px;border-left:1px solid #b29857}
 .old-friend-chapter-note>span{color:#847c6c;font:10px/1.5 var(--sans);letter-spacing:1.7px}
 .old-friend-chapter-note p{margin:19px 0 25px;color:#243b44;font:22px/1.45 var(--body-serif)}
@@ -814,7 +803,6 @@ h1, h2, h3 { font-family: var(--serif); font-weight: 400; line-height: 1.15; }
 .asteroid-chapter-part{margin:0;color:#667572;font:11px/1.5 var(--sans)}
 .asteroid-chapter-stage{display:grid;grid-template-columns:minmax(0,330px) minmax(0,1fr);gap:24px;align-items:center;margin:24px 0 28px}
 .asteroid-chapter-stage .chapter-illustration:has(.fitted-portal){width:100%;height:auto;margin:0;aspect-ratio:1}
-.asteroid-chapter-stage .portal-page-marker,#map-view[data-chapter="tieu-hanh-tinh"] #portal-marker{display:none}
 .asteroid-chapter-note{padding:20px 0 20px 25px;border-left:1px solid #b29857}
 .asteroid-chapter-note>span{color:#847c6c;font:10px/1.5 var(--sans);letter-spacing:1.7px}
 .asteroid-chapter-note p{margin:19px 0 25px;color:#243b44;font:22px/1.45 var(--body-serif)}
@@ -833,7 +821,6 @@ h1, h2, h3 { font-family: var(--serif); font-weight: 400; line-height: 1.15; }
 .runaway-chapter-part{margin:0;color:#667572;font:11px/1.5 var(--sans)}
 .runaway-chapter-stage{display:grid;grid-template-columns:minmax(0,330px) minmax(0,1fr);gap:24px;align-items:center;margin:24px 0 28px}
 .runaway-chapter-stage .chapter-illustration:has(.fitted-portal){width:100%;height:auto;margin:0;aspect-ratio:1}
-.runaway-chapter-stage .portal-page-marker,#map-view[data-chapter="runaway"] #portal-marker{display:none}
 .runaway-chapter-note{padding:20px 0 20px 25px;border-left:1px solid #b88b5b}
 .runaway-chapter-note>span{color:#847c6c;font:10px/1.5 var(--sans);letter-spacing:1.7px}
 .runaway-chapter-note p{margin:19px 0 25px;color:#243b44;font:22px/1.45 var(--body-serif)}
@@ -852,7 +839,6 @@ h1, h2, h3 { font-family: var(--serif); font-weight: 400; line-height: 1.15; }
 .bad-trip-chapter-part{margin:0;color:#667572;font:11px/1.5 var(--sans)}
 .bad-trip-chapter-stage{display:grid;grid-template-columns:minmax(0,330px) minmax(0,1fr);gap:24px;align-items:center;margin:24px 0 28px}
 .bad-trip-chapter-stage .chapter-illustration:has(.fitted-portal){width:100%;height:auto;margin:0;aspect-ratio:1}
-.bad-trip-chapter-stage .portal-page-marker,#map-view[data-chapter="bad-trip"] #portal-marker{display:none}
 .bad-trip-chapter-note{padding:20px 0 20px 25px;border-left:1px solid #a77745}
 .bad-trip-chapter-note>span{color:#847c6c;font:10px/1.5 var(--sans);letter-spacing:1.7px}
 .bad-trip-chapter-note p{margin:19px 0 25px;color:#243b44;font:22px/1.45 var(--body-serif)}
@@ -872,7 +858,6 @@ h1, h2, h3 { font-family: var(--serif); font-weight: 400; line-height: 1.15; }
 .office-chapter-part{margin:0;color:#667572;font:11px/1.5 var(--sans)}
 .office-chapter-stage{display:grid;grid-template-columns:minmax(0,330px) minmax(0,1fr);gap:24px;align-items:center;margin:24px 0 28px}
 .office-chapter-stage .chapter-illustration:has(.fitted-portal){width:100%;height:auto;margin:0;aspect-ratio:1}
-.office-chapter-stage .portal-page-marker,#map-view[data-chapter="the-23-word-nuclear-warhead"] #portal-marker{display:none}
 .office-chapter-note{padding:20px 0 20px 25px;border-left:1px solid #a77745}
 .office-chapter-note>span{color:#847c6c;font:10px/1.5 var(--sans);letter-spacing:1.7px}
 .office-chapter-note p{margin:19px 0 25px;color:#243b44;font:22px/1.45 var(--body-serif)}
@@ -892,7 +877,6 @@ h1, h2, h3 { font-family: var(--serif); font-weight: 400; line-height: 1.15; }
 .payoff-chapter-part{margin:0;color:#667572;font:11px/1.5 var(--sans)}
 .payoff-chapter-stage{display:grid;grid-template-columns:minmax(0,330px) minmax(0,1fr);gap:24px;align-items:center;margin:24px 0 28px}
 .payoff-chapter-stage .chapter-illustration:has(.fitted-portal){width:100%;height:auto;margin:0;aspect-ratio:1}
-.payoff-chapter-stage .portal-page-marker,#map-view[data-chapter="the-payoff-matrix"] #portal-marker{display:none}
 .payoff-chapter-note{padding:20px 0 20px 25px;border-left:1px solid #a77745}
 .payoff-chapter-note>span{color:#847c6c;font:10px/1.5 var(--sans);letter-spacing:1.7px}
 .payoff-chapter-note p{margin:19px 0 25px;color:#243b44;font:22px/1.45 var(--body-serif)}
@@ -912,7 +896,6 @@ h1, h2, h3 { font-family: var(--serif); font-weight: 400; line-height: 1.15; }
 .better-chapter-part{margin:0;color:#667572;font:11px/1.5 var(--sans)}
 .better-chapter-stage{display:grid;grid-template-columns:minmax(0,330px) minmax(0,1fr);gap:24px;align-items:center;margin:24px 0 28px}
 .better-chapter-stage .chapter-illustration:has(.fitted-portal){width:100%;height:auto;margin:0;aspect-ratio:1}
-.better-chapter-stage .portal-page-marker,#map-view[data-chapter="better-and-brighter-than-ever"] #portal-marker{display:none}
 .better-chapter-note{padding:20px 0 20px 25px;border-left:1px solid #a77745}
 .better-chapter-note>span{color:#847c6c;font:10px/1.5 var(--sans);letter-spacing:1.7px}
 .better-chapter-note p{margin:19px 0 25px;color:#243b44;font:22px/1.45 var(--body-serif)}
@@ -932,7 +915,6 @@ h1, h2, h3 { font-family: var(--serif); font-weight: 400; line-height: 1.15; }
 .record-chapter-part{margin:0;color:#667572;font:11px/1.5 var(--sans)}
 .record-chapter-stage{display:grid;grid-template-columns:minmax(0,330px) minmax(0,1fr);gap:24px;align-items:center;margin:24px 0 28px}
 .record-chapter-stage .chapter-illustration:has(.fitted-portal){width:100%;height:auto;margin:0;aspect-ratio:1}
-.record-chapter-stage .portal-page-marker,#map-view[data-chapter="masterclass-in-record-keeping"] #portal-marker{display:none}
 .record-chapter-note{padding:20px 0 20px 25px;border-left:1px solid #a77745}
 .record-chapter-note>span{color:#847c6c;font:10px/1.5 var(--sans);letter-spacing:1.7px}
 .record-chapter-note p{margin:19px 0 25px;color:#243b44;font:22px/1.45 var(--body-serif)}
@@ -952,7 +934,6 @@ h1, h2, h3 { font-family: var(--serif); font-weight: 400; line-height: 1.15; }
 .good-chapter-part{margin:0;color:#667572;font:11px/1.5 var(--sans)}
 .good-chapter-stage{display:grid;grid-template-columns:minmax(0,330px) minmax(0,1fr);gap:24px;align-items:center;margin:24px 0 28px}
 .good-chapter-stage .chapter-illustration:has(.fitted-portal){width:100%;height:auto;margin:0;aspect-ratio:1}
-.good-chapter-stage .portal-page-marker,#map-view[data-chapter="good-boy"] #portal-marker{display:none}
 .good-chapter-note{padding:20px 0 20px 25px;border-left:1px solid #a77745}
 .good-chapter-note>span{color:#847c6c;font:10px/1.5 var(--sans);letter-spacing:1.7px}
 .good-chapter-note p{margin:19px 0 25px;color:#243b44;font:22px/1.45 var(--body-serif)}
@@ -972,7 +953,6 @@ h1, h2, h3 { font-family: var(--serif); font-weight: 400; line-height: 1.15; }
 .moral-chapter-part{margin:0;color:#667572;font:11px/1.5 var(--sans)}
 .moral-chapter-stage{display:grid;grid-template-columns:minmax(0,330px) minmax(0,1fr);gap:24px;align-items:center;margin:24px 0 28px}
 .moral-chapter-stage .chapter-illustration:has(.fitted-portal){width:100%;height:auto;margin:0;aspect-ratio:1}
-.moral-chapter-stage .portal-page-marker,#map-view[data-chapter="moral-boy"] #portal-marker{display:none}
 .moral-chapter-note{padding:20px 0 20px 25px;border-left:1px solid #a77745}
 .moral-chapter-note>span{color:#847c6c;font:10px/1.5 var(--sans);letter-spacing:1.7px}
 .moral-chapter-note p{margin:19px 0 25px;color:#243b44;font:22px/1.45 var(--body-serif)}
@@ -993,7 +973,6 @@ h1, h2, h3 { font-family: var(--serif); font-weight: 400; line-height: 1.15; }
 .negative-sum-chapter-part{margin:0;color:#667572;font:11px/1.5 var(--sans)}
 .negative-sum-chapter-stage{display:grid;grid-template-columns:minmax(0,330px) minmax(0,1fr);gap:24px;align-items:center;margin:24px 0 28px}
 .negative-sum-chapter-stage .chapter-illustration:has(.fitted-portal){width:100%;height:auto;margin:0;aspect-ratio:1}
-.negative-sum-chapter-stage .portal-page-marker,#map-view[data-chapter="negative-sum-game"] #portal-marker{display:none}
 .negative-sum-chapter-note{padding:20px 0 20px 25px;border-left:1px solid #a77745}
 .negative-sum-chapter-note>span{color:#847c6c;font:10px/1.5 var(--sans);letter-spacing:1.7px}
 .negative-sum-chapter-note p{margin:19px 0 25px;color:#243b44;font:22px/1.45 var(--body-serif)}
@@ -1014,7 +993,6 @@ h1, h2, h3 { font-family: var(--serif); font-weight: 400; line-height: 1.15; }
 .command-respect-chapter-part{margin:0;color:#667572;font:11px/1.5 var(--sans)}
 .command-respect-chapter-stage{display:grid;grid-template-columns:minmax(0,330px) minmax(0,1fr);gap:24px;align-items:center;margin:24px 0 28px}
 .command-respect-chapter-stage .chapter-illustration:has(.fitted-portal){width:100%;height:auto;margin:0;aspect-ratio:1}
-.command-respect-chapter-stage .portal-page-marker,#map-view[data-chapter="command-respect-game"] #portal-marker{display:none}
 .command-respect-chapter-note{padding:20px 0 20px 25px;border-left:1px solid #a77745}
 .command-respect-chapter-note>span{color:#847c6c;font:10px/1.5 var(--sans);letter-spacing:1.7px}
 .command-respect-chapter-note p{margin:19px 0 25px;color:#243b44;font:22px/1.45 var(--body-serif)}
@@ -1035,7 +1013,6 @@ h1, h2, h3 { font-family: var(--serif); font-weight: 400; line-height: 1.15; }
 .after-leaving-chapter-part{margin:0;color:#667572;font:11px/1.5 var(--sans)}
 .after-leaving-chapter-stage{display:grid;grid-template-columns:minmax(0,330px) minmax(0,1fr);gap:24px;align-items:center;margin:24px 0 28px}
 .after-leaving-chapter-stage .chapter-illustration:has(.fitted-portal){width:100%;height:auto;margin:0;aspect-ratio:1}
-.after-leaving-chapter-stage .portal-page-marker{display:none}
 .after-leaving-chapter-note{padding:20px 0 20px 25px;border-left:1px solid #a77745}
 .after-leaving-chapter-note>span{color:#847c6c;font:10px/1.5 var(--sans);letter-spacing:1.7px}
 .after-leaving-chapter-note p{margin:19px 0 25px;color:#243b44;font:22px/1.45 var(--body-serif)}
@@ -1056,7 +1033,6 @@ h1, h2, h3 { font-family: var(--serif); font-weight: 400; line-height: 1.15; }
 .ugly-projections-chapter-part{margin:0;color:#667572;font:11px/1.5 var(--sans)}
 .ugly-projections-chapter-stage{display:grid;grid-template-columns:minmax(0,330px) minmax(0,1fr);gap:24px;align-items:center;margin:24px 0 28px}
 .ugly-projections-chapter-stage .chapter-illustration:has(.fitted-portal){width:100%;height:auto;margin:0;aspect-ratio:1}
-.ugly-projections-chapter-stage .portal-page-marker{display:none}
 .ugly-projections-chapter-note{padding:20px 0 20px 25px;border-left:1px solid #a77745}
 .ugly-projections-chapter-note>span{color:#847c6c;font:10px/1.5 var(--sans);letter-spacing:1.7px}
 .ugly-projections-chapter-note p{margin:19px 0 25px;color:#243b44;font:22px/1.45 var(--body-serif)}
@@ -1077,7 +1053,6 @@ h1, h2, h3 { font-family: var(--serif); font-weight: 400; line-height: 1.15; }
 .twenty-eight-today-chapter-part{margin:0;color:#667572;font:11px/1.5 var(--sans)}
 .twenty-eight-today-chapter-stage{display:grid;grid-template-columns:minmax(0,330px) minmax(0,1fr);gap:24px;align-items:center;margin:24px 0 28px}
 .twenty-eight-today-chapter-stage .chapter-illustration:has(.fitted-portal){width:100%;height:auto;margin:0;aspect-ratio:1}
-.twenty-eight-today-chapter-stage .portal-page-marker{display:none}
 .twenty-eight-today-chapter-note{padding:20px 0 20px 25px;border-left:1px solid #a77745}
 .twenty-eight-today-chapter-note>span{color:#847c6c;font:10px/1.5 var(--sans);letter-spacing:1.7px}
 .twenty-eight-today-chapter-note p{margin:19px 0 25px;color:#243b44;font:22px/1.45 var(--body-serif)}
@@ -1099,7 +1074,6 @@ h1, h2, h3 { font-family: var(--serif); font-weight: 400; line-height: 1.15; }
 .my-brothers-chapter-part{margin:0;color:#667572;font:11px/1.5 var(--sans)}
 .my-brothers-chapter-stage{display:grid;grid-template-columns:minmax(0,330px) minmax(0,1fr);gap:24px;align-items:center;margin:24px 0 28px}
 .my-brothers-chapter-stage .chapter-illustration:has(.fitted-portal){width:100%;height:auto;margin:0;aspect-ratio:1}
-.my-brothers-chapter-stage .portal-page-marker{display:none}
 .my-brothers-chapter-note{padding:20px 0 20px 25px;border-left:1px solid #a77745}
 .my-brothers-chapter-note>span{color:#847c6c;font:10px/1.5 var(--sans);letter-spacing:1.7px}
 .my-brothers-chapter-note p{margin:19px 0 25px;color:#243b44;font:22px/1.45 var(--body-serif)}
@@ -1121,7 +1095,6 @@ h1, h2, h3 { font-family: var(--serif); font-weight: 400; line-height: 1.15; }
 .dream-diary-chapter-part{margin:0;color:#667572;font:11px/1.5 var(--sans)}
 .dream-diary-chapter-stage{display:grid;grid-template-columns:minmax(0,330px) minmax(0,1fr);gap:24px;align-items:center;margin:24px 0 28px}
 .dream-diary-chapter-stage .chapter-illustration:has(.fitted-portal){width:100%;height:auto;margin:0;aspect-ratio:1}
-.dream-diary-chapter-stage .portal-page-marker{display:none}
 .dream-diary-chapter-note{padding:20px 0 20px 25px;border-left:1px solid #a77745}
 .dream-diary-chapter-note>span{color:#847c6c;font:10px/1.5 var(--sans);letter-spacing:1.7px}
 .dream-diary-chapter-note p{margin:19px 0 25px;color:#243b44;font:22px/1.45 var(--body-serif)}
@@ -1138,7 +1111,6 @@ h1, h2, h3 { font-family: var(--serif); font-weight: 400; line-height: 1.15; }
 .chapter-leaf .digital-book-chapter-art{width:min(420px,100%);height:auto;aspect-ratio:1;margin:32px auto 35px;background:transparent;box-shadow:none}
 .chapter-leaf .digital-book-chapter-art .portal-scene{inset:0;overflow:visible}
 .chapter-leaf .digital-book-chapter-art .digital-book-opening{display:block;width:100%;height:100%;object-fit:contain;transform:none;clip-path:none}
-.chapter-leaf .digital-book-chapter-art .portal-page-marker{top:1%;bottom:auto;left:87%;width:14%}
 .chapter-leaf [class$="-chapter-stage"] .digital-book-chapter-art{width:100%;height:auto;aspect-ratio:1;margin:0}
 .portal-art.digital-book-map{background:transparent}
 .portal-art.digital-book-map .portal-scene{inset:0;overflow:visible}

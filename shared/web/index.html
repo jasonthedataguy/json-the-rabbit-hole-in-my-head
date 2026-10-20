@@ -7,9 +7,9 @@
   <meta name="description" content=".json — Jason, under revision. An immersive book in five parts, from Cold Rice to An Apology.">
   <title>.json — Jason, under revision</title>
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="style.css?v=56">
-  <script type="module" src="app.js?v=72"></script>
-  <link rel="stylesheet" href="cover.css?v=51">
+  <link rel="stylesheet" href="style.css?v=58">
+  <script type="module" src="app.js?v=74"></script>
+  <link rel="stylesheet" href="cover.css?v=52">
 </head>
 <body class="viewing-cover">
 <a class="skip-link" href="#book-content">Skip to book content</a>
@@ -51,7 +51,6 @@
               <div id="cover-scene" class="cover-scene"></div>
               <div id="cover-rotor" class="cover-rotor" aria-hidden="true"><img src="assets/board-cover-ring.png" alt="" fetchpriority="high"></div>
               <div id="cover-orbit-marks" class="cover-orbit-marks" aria-label="Choose a page from the cover"></div>
-              <div id="cover-marker" class="cover-selected-marker"></div>
             </div>
           </div>
           <p id="cover-page-position" class="cover-page-position">COVER</p>
@@ -87,7 +86,7 @@
     <section id="chapter-view" class="book-view" hidden aria-labelledby="chapter-heading"><article class="reading-leaf chapter-leaf" id="chapter-leaf"></article></section>
     <section id="map-view" class="book-view map-view" hidden aria-labelledby="map-heading">
       <header class="map-heading"><p class="leaf-kicker">ILLUSTRATED CONTENTS</p><h1 id="map-heading" tabindex="-1">Chapter map</h1><p>Turn the memory ring to choose a chapter.</p><nav class="map-reading-links" aria-label="Start reading"><a href="#introduction">Introduction <span aria-hidden="true">→</span></a><a href="#contents">Contents <span aria-hidden="true">→</span></a></nav></header>
-      <div class="map-layout"><div class="portal-column"><div class="portal-stage" id="portal-stage" role="group" tabindex="0" aria-label="Rotate to choose a chapter"><div class="orbit-guide" aria-hidden="true"></div><span class="orbit-top-mark" aria-hidden="true">✦</span><div id="orbit-marks" class="orbit-marks" aria-label="Choose chapter"></div><div id="portal-art" class="portal-art"><div id="portal-scene" class="portal-scene"></div><div id="portal-rim" class="portal-rim" aria-hidden="true"><div id="portal-rim-art" class="portal-rim-art"></div></div><div id="portal-marker" class="portal-page-marker"></div></div></div><div class="portal-tools"><button id="map-prev" class="circle-button" aria-label="Previous chapter">←</button><span>DRAG THE RING TO TURN</span><button id="map-next" class="circle-button" aria-label="Next chapter">→</button></div></div><article class="map-chapter" aria-live="polite" aria-atomic="true"><p id="map-part" class="leaf-kicker"></p><span id="map-number" class="map-number"></span><h2 id="map-title"></h2><p id="map-summary"></p><a id="map-enter" class="map-enter" href="#chapter/00">Read chapter <span aria-hidden="true">→</span></a><span id="map-availability" class="map-availability"></span></article></div>
+      <div class="map-layout"><div class="portal-column"><div class="portal-stage" id="portal-stage" role="group" tabindex="0" aria-label="Rotate to choose a chapter"><div class="orbit-guide" aria-hidden="true"></div><span class="orbit-top-mark" aria-hidden="true">✦</span><div id="orbit-marks" class="orbit-marks" aria-label="Choose chapter"></div><div id="portal-art" class="portal-art"><div id="portal-scene" class="portal-scene"></div><div id="portal-rim" class="portal-rim" aria-hidden="true"><div id="portal-rim-art" class="portal-rim-art"></div></div></div></div><div class="portal-tools"><button id="map-prev" class="circle-button" aria-label="Previous chapter">←</button><span>DRAG THE RING TO TURN</span><button id="map-next" class="circle-button" aria-label="Next chapter">→</button></div></div><article class="map-chapter" aria-live="polite" aria-atomic="true"><p id="map-part" class="leaf-kicker"></p><span id="map-number" class="map-number"></span><h2 id="map-title"></h2><p id="map-summary"></p><a id="map-enter" class="map-enter" href="#chapter/00">Read chapter <span aria-hidden="true">→</span></a><span id="map-availability" class="map-availability"></span></article></div>
       <div class="map-bottom"><div id="map-parts" class="map-parts" role="group" aria-label="The five parts of the book"></div><button id="motion-toggle" class="motion-toggle" aria-pressed="false"><span aria-hidden="true">◌</span><span id="motion-label">Reduce motion</span></button></div>
     </section>
     <section id="archive-view" class="book-view" hidden aria-labelledby="archive-heading"><article class="reading-leaf archive-leaf"><header class="leaf-heading"><p class="leaf-kicker">ARCHIVE</p><h1 id="archive-heading" tabindex="-1">Published essays</h1><p class="archive-introduction">Essays published before the book was arranged. The original titles and numbering are recorded alongside each manuscript.</p></header><div id="archive-list" class="archive-list"></div><footer class="leaf-navigation"><a href="#contents" class="previous-leaf"><span aria-hidden="true">←</span> Book contents</a><span class="folio">Archive</span></footer></article></section>
