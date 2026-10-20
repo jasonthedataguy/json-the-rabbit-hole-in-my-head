@@ -3,7 +3,7 @@ import { introduction, parts, chapterNotes } from './book.js?v=28';
 import { renderChapterMarker, getChapterMarkerName } from './markers.js?v=31';
 import { PortalRing } from './ring.js?v=10';
 import { renderPortalPicture, renderPortalFrame, renderFramedPortal } from './portal-art.js?v=59';
-import { digitalArt, digitalRing } from './digital-art.js?v=1';
+import { digitalArt, digitalCoverPortal } from './digital-art.js?v=2';
 
 const $ = selector => document.querySelector(selector);
 const $$ = selector => [...document.querySelectorAll(selector)];
@@ -437,9 +437,6 @@ function renderCoverReadingPage(page){
       const hero=document.createElement('figure');hero.className='digital-book-cover-hero';
       hero.innerHTML=`${digitalImage(slug,'hero','','eager')}<figcaption>Opening illustration</figcaption>`;
       if(existing)existing.replaceWith(hero);else pageNode.querySelector('.cover-reader-prose, .cover-reader-outline')?.before(hero);
-      const portal=document.createElement('figure');portal.className='digital-book-cover-portal';
-      portal.innerHTML=digitalImage(slug,'mainBook','','eager');
-      pageNode.querySelector('h2')?.after(portal);
       insertBodyArt(pageNode.querySelector('.cover-reader-prose'),slug,true);
     }
   }
@@ -461,15 +458,22 @@ function selectCoverPage(index,{fromRing=false}={}){
   const coverScene=$('#cover-scene');
   const previousSceneImage=coverScene.querySelector('img')?.currentSrc;
   coverScene.style.backgroundImage=previousSceneImage?`url("${previousSceneImage}")`:'';
-  $('#cover-scene').innerHTML=page.kind==='chapter'&&digitalArt[page.chapter.slug]?digitalImage(page.chapter.slug,'centre','digital-book-centre','eager'):page.kind==='introduction'?digitalImage('introduction','centre','digital-book-centre','eager'):page.kind==='chapter'?(page.chapter.id==='00'?renderPortalPicture('rice'):page.chapter.id==='01'?renderPortalPicture('quant'):page.chapter.id==='02'?renderPortalPicture('expectedUtilityCover'):page.chapter.id==='03'?renderPortalPicture('playToWin'):page.chapter.id==='04'?renderPortalPicture('fashion'):page.chapter.id==='05'?renderPortalPicture('flowCover'):page.chapter.id==='06'?renderPortalPicture('redButtonCover'):page.chapter.id==='07'?renderPortalPicture('oldFriendCover'):page.chapter.id==='08'?renderPortalPicture('motherRussiaCover'):page.chapter.id==='09'?renderPortalPicture('dreamWorldCover'):page.chapter.id==='11'?renderPortalPicture('coincidenceCover'):page.chapter.id==='14'?renderPortalPicture('saigonCover'):page.chapter.id==='16'?renderPortalPicture('badTripCover'):page.chapter.id==='24'?renderPortalPicture('officeBattlefieldCover'):page.chapter.id==='25'?renderPortalPicture('payoffMatrixCover'):page.chapter.id==='26'?renderPortalPicture('betterBrighterCover'):page.chapter.id==='27'?renderPortalPicture('recordKeepingCover'):page.chapter.id==='28'?renderPortalPicture('goodBoyCover'):page.chapter.id==='10'?renderPortalPicture('dreamDiaryCover'):page.chapter.id==='13'?renderPortalPicture('myBrothersCover'):page.chapter.id==='15'?renderPortalPicture('twentyEightTodayCover'):page.chapter.id==='23'?renderPortalPicture('uglyProjectionsCover'):page.chapter.id==='34'?renderPortalPicture('afterLeavingCover'):page.chapter.id==='32'?renderPortalPicture('commandRespectCover'):page.chapter.id==='30'?renderPortalPicture('negativeSumCover'):page.chapter.id==='29'?renderPortalPicture('moralStoryCover'):page.chapter.id==='17'?renderPortalPicture('asteroidCover'):page.chapter.id==='22'?renderPortalPicture('runawayCover'):page.chapter.id==='18'?renderPortalPicture('threeMeetingCover'):page.chapter.id==='19'?renderPortalPicture('datingAlgorithmCover'):page.chapter.id==='20'?renderPortalPicture('dating102Cover'):renderPortalScene(page.chapter)):page.kind==='cover'
-    ?renderPortalPicture('cover')
-    :renderPortalPicture('introductionCover');
+  const coverRotor=$('#cover-rotor');
+  coverScene.classList.add('digital-book-cover-centre');
+  coverRotor.classList.add('digital-book-cover-ring');
+  const coverPortal=page.kind==='cover'?digitalCoverPortal:digitalArt[page.kind==='introduction'?'introduction':page.chapter.slug]?.mainBook;
+  if(!coverPortal)throw new Error(`Missing main-book portal for ${page.title}`);
+  const previousRotorImage=coverRotor.querySelector('img')?.currentSrc;
+  coverRotor.style.backgroundImage=previousRotorImage?`url("${previousRotorImage}")`:'';
+  coverScene.innerHTML=`<img class="digital-book-main-portal" src="${esc(coverPortal)}" alt="${esc(page.title)} — main book portal" loading="eager" decoding="async" fetchpriority="high">`;
+  coverRotor.innerHTML=`<img src="${esc(coverPortal)}" alt="" loading="eager" decoding="async" fetchpriority="high">`;
   const nextSceneImage=coverScene.querySelector('img');
-  if(nextSceneImage){
-    const clearPreviousScene=()=>{if(coverScene.contains(nextSceneImage))coverScene.style.backgroundImage='';};
-    if(nextSceneImage.complete&&nextSceneImage.naturalWidth)clearPreviousScene();
-    else nextSceneImage.addEventListener('load',clearPreviousScene,{once:true});
-  }else coverScene.style.backgroundImage='';
+  const nextRotorImage=coverRotor.querySelector('img');
+  Promise.all([nextSceneImage.decode(),nextRotorImage.decode()]).then(()=>{
+    if(coverScene.contains(nextSceneImage)&&coverRotor.contains(nextRotorImage)){
+      coverScene.style.backgroundImage='';coverRotor.style.backgroundImage='';
+    }
+  }).catch(()=>{});
   $('#cover-marker').innerHTML=page.kind==='chapter'?renderChapterMarker(page.chapter,{compact:true}):`<span class="frontmatter-marker" aria-hidden="true">${page.kind==='cover'?'▯':'i'}</span>`;
   $('#cover-marker').hidden=page.kind==='cover';
   $('#cover-marker').setAttribute('aria-label',page.kind==='chapter'?`Chapter marker ${page.label}: ${getChapterMarkerName(page.chapter)}`:page.kind==='cover'?'Book cover':'Introduction');
@@ -484,7 +488,7 @@ function selectCoverPage(index,{fromRing=false}={}){
   positionCoverOrbit();
 }
 $('#cover-orbit-marks').innerHTML=coverPages.map((page,index)=>`<button class="cover-orbit-mark" data-cover-page="${index}" aria-label="${esc(page.kind==='cover'?'Book cover':page.title)}" title="${esc(page.kind==='cover'?'Book cover':page.title)}"><span>${page.label}</span></button>`).join('');
-$('#cover-rotor').innerHTML=`<img src="${esc(digitalRing)}" alt="" fetchpriority="high">`;
+$('#cover-rotor').innerHTML=`<img src="${esc(digitalCoverPortal)}" alt="" fetchpriority="high">`;
 coverRing=new PortalRing({stage:$('#cover-stage'),count:coverPages.length,initialIndex:0,onRotate(rotation,{animate}){
   $('#cover-stage').classList.toggle('ring-instant',!animate);$('#cover-stage').dataset.ringRotation=String(rotation);
   $('#cover-rotor').style.transform=`rotate(${rotation}deg)`;positionCoverOrbit(rotation);

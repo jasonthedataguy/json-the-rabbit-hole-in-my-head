@@ -2188,8 +2188,14 @@
     {
       "source": "shared/artwork/digital-book/rotating-ring-no-observer.png",
       "public_path": "assets/digital-book/rotating-ring-no-observer.png",
-      "sha256_at_intake": "a3ad538b6be364260a1d2dd325edcef27a4b579aeb13b20f7a49f6d9febb8bd6",
+      "sha256_at_intake": "8479fd4c3f384d53c1a1ed52390c3baec3f7f72d0e6ef12696a6eae66fd2ca8a",
       "provenance": "Author asset archive: shared/main-book/rotating-ring-no-observer.png. Observer-free shared rotating book ring."
+    },
+    {
+      "source": "shared/artwork/digital-book/main-book-cover-portal.webp",
+      "public_path": "assets/digital-book/main-book-cover-portal.webp",
+      "sha256_at_intake": "9531e0e64fb762baf158757ef54de92cf91087a3b485775e2bcd303d6d349289",
+      "provenance": "Author asset archive: shared/main-book/main-book-portal.webp. Complete portal for the default book-cover stop."
     }
   ]
 }

@@ -22,5 +22,45 @@
   "errors": [],
   "scope": "Prepared asset library; not installed or deployed to the book website.",
   "visual_review": "All original rectangular compositions and 37 entrance repairs were reviewed; The Apology was regenerated from the supplied full chapter and its four new rectangular scenes were individually inspected.",
-  "manuscript_update": "The Apology uses the full author-supplied chapter text received on 20 October 2026; the earlier outline concept is preserved."
+  "manuscript_update": "The Apology uses the full author-supplied chapter text received on 20 October 2026; the earlier outline concept is preserved.",
+  "shared_main_book_ring": {
+    "status": "pass",
+    "native_canvas": [
+      2880,
+      2880
+    ],
+    "native_city_source": [
+      1536,
+      1536
+    ],
+    "native_character_source": [
+      1536,
+      1536
+    ],
+    "upscaled": false,
+    "physical_cover": "Printed portal illustration",
+    "print_master": "Lossless sRGB TIFF with 300 ppi metadata",
+    "effective_ppi_at_130mm": 540.2,
+    "pdf_pages": 2,
+    "trim_formats_mm": [
+      [
+        148,
+        210
+      ],
+      [
+        152.4,
+        228.6
+      ]
+    ],
+    "bleed_mm": 3.175,
+    "editable_typography": true,
+    "registered_layer_max_channel_error": 0,
+    "digital_current_layout_compatible": true,
+    "foreground_observer": true,
+    "companion": "Gau - white fluffy dog",
+    "foreground_stationary_separate_layer": true,
+    "portal_unchanged_outside_foreground": true,
+    "visual_review": "Updated portal with Jason and Gau, transparent character layers and both physical-size cover rasters inspected.",
+    "errors": []
+  }
 }

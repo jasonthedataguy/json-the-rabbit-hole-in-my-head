@@ -3,7 +3,7 @@
   "book": ".json — Jason, under revision",
   "chapter_count": 37,
   "complete_chapter_sets": 37,
-  "instructions": "Resolve assets by stable chapter slug and placement role. Main book and chapter map omit the foreground observer; chapter opening retains him.",
+  "instructions": "Resolve assets by stable chapter slug and placement role. Main book and chapter map omit the foreground observer; chapter opening retains him. The shared MAIN COVER now includes Jason and Gấu as a separate stationary foreground above its rotating ring.",
   "roles": [
     "main_book",
     "chapter_map",
@@ -19865,7 +19865,15 @@
   ],
   "shared": {
     "rotating_ring": "shared/main-book/rotating-ring-no-observer.png",
-    "geometry": "shared/main-book/ring-geometry.json"
+    "geometry": "shared/main-book/ring-geometry.json",
+    "master_ring_manifest": "shared/main-book/master-ring/assets.json",
+    "master_ring_gallery": "shared/main-book/master-ring/index.html",
+    "printed_cover_proofs": "shared/main-book/master-ring/print/cover-front-proofs.pdf",
+    "complete_main_portal": "shared/main-book/main-book-portal.webp",
+    "stationary_foreground": "shared/main-book/foreground-jason-and-gau.webp",
+    "foreground_master": "shared/main-book/master-ring/foreground/jason-and-gau-registered.png",
+    "jason_cutout": "shared/main-book/master-ring/foreground/jason-back-silhouette.png",
+    "gau_cutout": "shared/main-book/master-ring/foreground/gau-white-fluffy-dog.png"
   },
   "generation": {
     "method": "Previously approved image API fallback; bundled imagegen CLI",

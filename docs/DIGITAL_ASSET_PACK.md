@@ -16,15 +16,17 @@ For each of the 37 sets, the website uses the pack's independent web exports:
 
 | Role in the pack | Website placement |
 | --- | --- |
-| `main_book` | Portal on the cover's paper reading preview |
+| `main_book` | Complete portal on the main book cover, with its outer ring turning and its middle upright |
 | `chapter_map` | Full portal on the chapter map |
 | `chapter_opening` | Circular portal on the chapter-opening leaf |
 | `reader_hero` | Rectangular opening illustration in both reading views |
 | `inline_illustration` | Supporting illustration in the prose |
-| `centre-scene.webp` | Upright, stationary picture inside the rotating cover ring |
+| `centre-scene.webp` | Alternate centre for the pack's shared-ring layout; retained as a source asset |
 
-The shared observer-free ring is the rotating cover layer. The Apology also
-has two additional inline illustrations. This makes 225 installed screen
+The default cover stop uses the pack's complete shared main-book portal.
+The shared observer-free ring remains available for the pack's alternate
+layout; it is not layered over the complete portals. The Apology also
+has two additional inline illustrations. This makes 226 installed screen
 assets. Their source-to-public mappings and intake hashes are in
 `shared/assets.json`; `shared/web/digital-art.js` is the runtime placement
 map. The original pack manifest, quality report, and runtime asset map are

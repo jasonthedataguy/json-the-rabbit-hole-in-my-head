@@ -94,6 +94,14 @@ def main():
             'source': ring_local, 'public_path': ring_public, 'sha256_at_intake': ring_digest,
             'provenance': f'Author asset archive: {ring_source}. Observer-free shared rotating book ring.'
         }
+        cover_source = 'shared/main-book/main-book-portal.webp'
+        cover_local = 'shared/artwork/digital-book/main-book-cover-portal.webp'
+        cover_public = 'assets/digital-book/main-book-cover-portal.webp'
+        cover_digest = intake(zf, cover_source, ROOT / cover_local)
+        additions[cover_public] = {
+            'source': cover_local, 'public_path': cover_public, 'sha256_at_intake': cover_digest,
+            'provenance': f'Author asset archive: {cover_source}. Complete portal for the default book-cover stop.'
+        }
         reference = ROOT / 'references/digital-book-asset-pack'
         for source, target in [
             ('assets-manifest.json', 'assets-manifest.json'),
@@ -109,7 +117,8 @@ def main():
     module = ROOT / 'shared/web/digital-art.js'
     module.write_text('// Screen exports from the author-supplied digital-book asset library.\n'
                       'export const digitalArt = Object.freeze(' + json.dumps(library, ensure_ascii=False, indent=2) + ');\n'
-                      f'export const digitalRing = {json.dumps(ring_public + "?v=" + ring_digest[:12])};\n', encoding='utf-8')
+                      f'export const digitalRing = {json.dumps(ring_public + "?v=" + ring_digest[:12])};\n'
+                      f'export const digitalCoverPortal = {json.dumps(cover_public + "?v=" + cover_digest[:12])};\n', encoding='utf-8')
     print(f'Installed {len(additions)} screen assets for {len(library)} portal sets; all archive hashes matched.')
 
 
