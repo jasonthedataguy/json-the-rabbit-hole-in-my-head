@@ -732,6 +732,24 @@
       "public_path": "assets/negative-sum-spread-v1.webp",
       "sha256_at_intake": "a143a9637473f2bdad3feb0c3c3a9e0ede945117f94aeeb6d12571b402439303",
       "provenance": "Author board references/design/model_failure -office-negative-sum-game.png; recipe scripts/cut_negative_sum_board.py. Rectangular key-elements reading illustration. Screen use only."
+    },
+    {
+      "source": "chapters/command-respect/artwork/portal/command-respect-ring-v1.png",
+      "public_path": "assets/command-respect-ring-v1.png",
+      "sha256_at_intake": "e9e5f7ee8132975762b57be68fab3685d9c98ac941cb7b39411f553769b97f02",
+      "provenance": "Author board references/design/under_revision - office-command-respect.png; recipe scripts/cut_command_respect_board.py. Rotating office, childhood, ticket and conversation collage. Screen use only."
+    },
+    {
+      "source": "chapters/command-respect/artwork/portal/command-respect-scene-v1.png",
+      "public_path": "assets/command-respect-scene-v1.png",
+      "sha256_at_intake": "c3f8e833696bf0c9ab579f494308e70aef5180c320e2f09be470f6ec35eca86e",
+      "provenance": "Author board references/design/under_revision - office-command-respect.png; recipe scripts/cut_command_respect_board.py. Stationary mirror with five-year-old Jason, desk and note. Screen use only."
+    },
+    {
+      "source": "chapters/command-respect/artwork/portal/command-respect-spread-v1.webp",
+      "public_path": "assets/command-respect-spread-v1.webp",
+      "sha256_at_intake": "2881e2b5777b3ddc194c6c2f027e1ac6da73a178336bc92f6ad47c526bfe0d5f",
+      "provenance": "Author board references/design/under_revision - office-command-respect.png; recipe scripts/cut_command_respect_board.py. Rectangular key-elements reading illustration. Screen use only."
     }
   ]
 }

@@ -280,6 +280,17 @@
       "bytes": 8564,
       "archiveUrl": null,
       "sourceUrl": null
+    },
+    {
+      "slug": "command-respect",
+      "editorialId": "32",
+      "legacyId": null,
+      "originalTitle": "Office Battlefield - Command Respect",
+      "sourcePath": "chapters/command-respect/source/approved.md",
+      "sha256": "70baf6a0282dc72851c0bba8bdb612d7d51fbeea37525406e86ffff727cd8037",
+      "bytes": 12666,
+      "archiveUrl": null,
+      "sourceUrl": null
     }
   ]
 }

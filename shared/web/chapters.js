@@ -1,4 +1,4 @@
-import { chapters, acts } from './chapter-data.js?v=27';
+import { chapters, acts } from './chapter-data.js?v=28';
 export { chapters, acts };
 
 const iconPaths = {
@@ -38,6 +38,7 @@ const iconPaths = {
   counters:'M2 9h20M6 12v9m12-9v9M3 17l3 4 3-4m6 0 3 4 3-4M9 4h6',
   eye:'M2 12c5-9 15-9 20 0-5 9-15 9-20 0ZM16 12a4 4 0 1 1-8 0 4 4 0 0 1 8 0ZM12 10v4',
   vision:'M2 12c5-8 15-8 20 0-5 8-15 8-20 0ZM16 12a4 4 0 1 1-8 0 4 4 0 0 1 8 0ZM12 10v4M19 3v3M22 6l-2 2',
+  arch:'M3 22V10a9 9 0 0 1 18 0v12H3zM6 22V10a6 6 0 0 1 12 0v12H6zM12 9v7m-2 4h4',
   door:'M5 22V2h14v20M9 3l7 3v16M12 13h1M3 22h18',
   dog:'M6 10 3 6l-1 9 5 2 1 5m9 0 1-6 4-5-4-5-4 3-5-2M10 11h1m6 0h1M9 17h8',
   mountain:'M2 21 9 7l4 7 3-11 6 18zM6 13l3 2 3-2m2-3 2 2 2-2',

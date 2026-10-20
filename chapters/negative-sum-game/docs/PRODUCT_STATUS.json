@@ -81,7 +81,7 @@
     },
     {
       "id": "qa",
-      "files_present": 2,
+      "files_present": 3,
       "status": "available for review",
       "required_deliverables": [
         "asset inventory",

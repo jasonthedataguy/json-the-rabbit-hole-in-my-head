@@ -37,6 +37,11 @@
       "sha256": "642c99d5265260fec4855a9cf3cade0e20491fb225fa83702f824dc52e2e116b"
     },
     {
+      "path": "docs/QA.md",
+      "bytes": 1532,
+      "sha256": "a042c727994bfead6ccc6d67e7d443fa9f5d7c6b0be130dde788429da4dc2582"
+    },
+    {
       "path": "production.json",
       "bytes": 622,
       "sha256": "0e24e6a328916d91f1de1a81aa2e69d2842e0e6a0eb8f59c6a7a89df8163e64a"

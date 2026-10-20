@@ -2,24 +2,59 @@
   "chapter": "command-respect",
   "files": [
     {
+      "path": "artwork/portal/command-respect-portal-v1.png",
+      "bytes": 1734155,
+      "sha256": "70ecaa291528dc5f76f9518a001157fe0dfa3bb63ca3ec9b05dedaa9c21246c3"
+    },
+    {
+      "path": "artwork/portal/command-respect-ring-v1.png",
+      "bytes": 2086469,
+      "sha256": "e9e5f7ee8132975762b57be68fab3685d9c98ac941cb7b39411f553769b97f02"
+    },
+    {
+      "path": "artwork/portal/command-respect-scene-v1.png",
+      "bytes": 1705903,
+      "sha256": "c3f8e833696bf0c9ab579f494308e70aef5180c320e2f09be470f6ec35eca86e"
+    },
+    {
+      "path": "artwork/portal/command-respect-spread-v1.webp",
+      "bytes": 156944,
+      "sha256": "2881e2b5777b3ddc194c6c2f027e1ac6da73a178336bc92f6ad47c526bfe0d5f"
+    },
+    {
       "path": "chapter.json",
-      "bytes": 1021,
-      "sha256": "78d84c8554aeb4c0cadc1f543ba8a5379be4b0ccc8340c074022c91bb5e677f3"
+      "bytes": 1333,
+      "sha256": "8be09256d47f7439bce59cd1f18fdc485bfe2777a03cda6e65654b09fea0d6d6"
+    },
+    {
+      "path": "docs/ASSET_SOURCE.md",
+      "bytes": 830,
+      "sha256": "7bc8f7026ce12d4b8607ffc74d5e8a0de23a7864f6b51aa4a8c066088273d3ad"
     },
     {
       "path": "docs/PRODUCTS.json",
-      "bytes": 310,
-      "sha256": "bc7e25bf5c1ae86ca64e656cc632b1fe9678cbc78b60ddb36fa4f0415ded1a7b"
+      "bytes": 1193,
+      "sha256": "2444a8c4792cb63c26f81ceb31f3b4a1fd6b3c12ea7395e947c2e37e78b9553e"
+    },
+    {
+      "path": "docs/QA.md",
+      "bytes": 1557,
+      "sha256": "60a50439efd9edbdf6ec2d6236da0e07aaa980a59137d3e6b4a8243eff7297e9"
     },
     {
       "path": "production.json",
-      "bytes": 158,
-      "sha256": "04cca5cbcb7714947f2e115425c3b36fd58203c853d17184364ed8f229b16d7d"
+      "bytes": 640,
+      "sha256": "7429766b0972ea94e36e88b3681c358d76ccb73581156d676285ef5f05b5f131"
     },
     {
       "path": "README.md",
-      "bytes": 430,
-      "sha256": "560498c166ecbda2f82ae0b842484c0c15c96f91d211a55d113869b6f6ab1bb6"
+      "bytes": 526,
+      "sha256": "070ad96c82ee9c9b1127ea178b6757cc7714861f2889b6e9f13ffe8af18862d0"
+    },
+    {
+      "path": "source/approved.md",
+      "bytes": 12666,
+      "sha256": "70baf6a0282dc72851c0bba8bdb612d7d51fbeea37525406e86ffff727cd8037"
     },
     {
       "path": "source/outline.md",
@@ -28,8 +63,28 @@
     },
     {
       "path": "source/revisions.log",
-      "bytes": 111,
-      "sha256": "e01ec275c2bd0c7128f4545ba1a8339712c2e287d8a0ea329c9ccf3068756f36"
+      "bytes": 279,
+      "sha256": "1f6f885163b1c2446d52888a9d4afbc83f31add15e5872c738389b33f627914b"
+    },
+    {
+      "path": "web/assets/command-respect-portal-v1.png",
+      "bytes": 1734155,
+      "sha256": "70ecaa291528dc5f76f9518a001157fe0dfa3bb63ca3ec9b05dedaa9c21246c3"
+    },
+    {
+      "path": "web/assets/command-respect-spread-v1.webp",
+      "bytes": 156944,
+      "sha256": "2881e2b5777b3ddc194c6c2f027e1ac6da73a178336bc92f6ad47c526bfe0d5f"
+    },
+    {
+      "path": "web/command-respect.css",
+      "bytes": 6022,
+      "sha256": "c31ce995ed7e0f3c2e7d4d0c09fc3acb532f284d5710e9f13ef6546b9a580f0c"
+    },
+    {
+      "path": "web/index.html",
+      "bytes": 15956,
+      "sha256": "02a7baa2be7b93c5db218764c8de3c1c298abce44bceb9447e66144e35df9075"
     }
   ]
 }
