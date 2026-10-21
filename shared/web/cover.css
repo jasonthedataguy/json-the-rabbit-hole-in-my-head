@@ -21,8 +21,8 @@
 /* Readable cover typography and a clear front-matter sequence. */
 .cover-top-nav{font-size:13px;gap:28px}
 .cover-titling>p{font-size:12px;letter-spacing:2px}
-.cover-ring-quote text{font-family:Georgia,'Times New Roman',serif;font-size:22px;font-style:italic;letter-spacing:0}
-.cover-ring-quote text.cover-quote-literature{font-size:19px}
+.cover-ring-quote text{font-family:Georgia,'Times New Roman',serif;font-size:20px;font-style:italic;letter-spacing:0}
+.cover-ring-quote text.cover-quote-literature{font-size:22px}
 .cover-page-position{margin:10px 0 0;color:#b7a78b;font:10px/1.5 var(--sans);letter-spacing:1.6px}
 .cover-chapter-link{font:24px/1.3 var(--serif);letter-spacing:0;margin-top:4px;max-width:94%;min-height:34px}
 .cover-chapter-link>span:first-child{white-space:normal;overflow:visible;text-overflow:clip;text-wrap:balance}
@@ -41,9 +41,7 @@
 @media(max-width:350px){.cover-top-nav{font-size:11px;gap:14px}.cover-chapter-link{font-size:20px}.cover-page-controls{font-size:9px}}
 @media print{.cover-page-controls,.cover-page-position{display:none}}
 
-.cover-tagline{max-width:40ch;margin:17px auto 0;color:#c9b79b;font:italic 14px/1.5 var(--serif);text-wrap:balance}
 .cover-reader-tagline{max-width:37ch;margin:26px auto 0;color:#57645d;font:italic 21px/1.45 var(--serif);text-wrap:balance}
-@media(max-width:640px){.cover-tagline{max-width:36ch;margin-top:12px;font-size:12px}}
 
 /* On a wide screen the ring turns the page beside it. Narrow screens keep the cover. */
 .cover-reading-panel { display: none; }
