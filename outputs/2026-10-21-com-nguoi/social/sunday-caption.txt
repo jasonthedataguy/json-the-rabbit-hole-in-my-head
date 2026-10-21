@@ -1,0 +1,6 @@
+Cho đến tận bây giờ.
+
+“Con thích ăn cơm nguội.”
+
+Cơm nguội / .json
+Đọc trọn chương qua liên kết ở hồ sơ.

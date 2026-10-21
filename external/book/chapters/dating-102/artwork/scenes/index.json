@@ -1,0 +1,115 @@
+[
+  {
+    "id": "lecture",
+    "path": "artwork/scenes/01-lecture.jpg",
+    "source": "artwork/source/CHAPTER16_VISUAL_PROJECT_BOARD.png",
+    "raster": "artwork/source/CHAPTER16_VISUAL_PROJECT_BOARD.png",
+    "source_crop_pixels": [
+      300,
+      0,
+      1005,
+      340
+    ],
+    "native_size": [
+      705,
+      340
+    ],
+    "kind": "crop of supplied concept board; enlarged derivatives do not add native detail"
+  },
+  {
+    "id": "curiosity",
+    "path": "artwork/scenes/02-curiosity.jpg",
+    "source": "artwork/source/CHAPTER16_VISUAL_PROJECT_BOARD.png",
+    "raster": "artwork/source/CHAPTER16_VISUAL_PROJECT_BOARD.png",
+    "source_crop_pixels": [
+      716,
+      80,
+      1003,
+      287
+    ],
+    "native_size": [
+      287,
+      207
+    ],
+    "kind": "crop of supplied concept board; enlarged derivatives do not add native detail"
+  },
+  {
+    "id": "sketchbook",
+    "path": "artwork/scenes/03-sketchbook.jpg",
+    "source": "artwork/source/CHAPTER16_VISUAL_PROJECT_BOARD.png",
+    "raster": "artwork/source/CHAPTER16_VISUAL_PROJECT_BOARD.png",
+    "source_crop_pixels": [
+      1228,
+      35,
+      1440,
+      258
+    ],
+    "native_size": [
+      212,
+      223
+    ],
+    "kind": "crop of supplied concept board; enlarged derivatives do not add native detail"
+  },
+  {
+    "id": "football",
+    "path": "artwork/scenes/04-football.jpg",
+    "source": "artwork/source/CHAPTER16_VISUAL_PROJECT_BOARD.png",
+    "raster": "artwork/source/CHAPTER16_VISUAL_PROJECT_BOARD.png",
+    "source_crop_pixels": [
+      1088,
+      673,
+      1205,
+      776
+    ],
+    "native_size": [
+      117,
+      103
+    ],
+    "kind": "crop of supplied concept board; enlarged derivatives do not add native detail"
+  },
+  {
+    "id": "picnic",
+    "path": "artwork/scenes/05-picnic.jpg",
+    "source": "artwork/source/CHAPTER16_VISUAL_PROJECT_BOARD.png",
+    "raster": "artwork/source/CHAPTER16_VISUAL_PROJECT_BOARD.png",
+    "source_crop_pixels": [
+      1036,
+      5,
+      1216,
+      257
+    ],
+    "native_size": [
+      180,
+      252
+    ],
+    "kind": "crop of supplied concept board; enlarged derivatives do not add native detail"
+  },
+  {
+    "id": "status",
+    "path": "artwork/scenes/06-status.jpg",
+    "source": "artwork/source/CHAPTER16_VISUAL_PROJECT_BOARD.png",
+    "raster": "artwork/source/CHAPTER16_VISUAL_PROJECT_BOARD.png",
+    "source_crop_pixels": [
+      1245,
+      426,
+      1337,
+      568
+    ],
+    "native_size": [
+      92,
+      142
+    ],
+    "kind": "crop of supplied concept board; enlarged derivatives do not add native detail"
+  },
+  {
+    "id": "current-digital-portal",
+    "path": "artwork/portal/dating-102-portal-v2.png",
+    "source": "references/design/relationshio_modelling - dating 102.png",
+    "recipe": "scripts/cut_dating_102_board.py",
+    "scene": "artwork/portal/dating-102-scene-v2.png",
+    "ring": "artwork/portal/dating-102-ring-v2.png",
+    "homepage_centre": "artwork/portal/dating-102-cover-scene-v2.png",
+    "reading_spread": "artwork/portal/dating-102-spread-v2.webp",
+    "kind": "aligned screen crops of the author's flattened board; original scene and media proofs remain historical"
+  }
+]

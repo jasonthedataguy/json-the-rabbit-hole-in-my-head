@@ -1,0 +1,11 @@
+{
+  "video": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\video\\exports\\com-nguoi-v3-portal-entry-silent-review-1080x1920.mp4",
+  "video_sha256": "a4280b872b8f586a7fce483f80c56f00550a40e318cf9eb5d3cbe7c79c7fb11b",
+  "rendered_from": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\video\\previews\\master-vertical-cb5e9de111b6-REVIEW.mp4",
+  "mode": "copy_for_render_cache",
+  "verification": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\video\\review\\v3-portal-entry\\verification.json",
+  "verification_sha256": "33b87b25eda1e1230d40411df805b7c57382944e85f3b75cb7f45d68aa03a258",
+  "review_only": true,
+  "public_release_approved": false,
+  "revision": "Author requested missing chapter-title/portal-center introduction; script unchanged."
+}

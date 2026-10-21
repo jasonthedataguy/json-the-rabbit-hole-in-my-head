@@ -1,0 +1,44 @@
+[
+  {
+    "step": 1,
+    "name": "01 · THE DROP",
+    "title": "Dreaming of sneakers",
+    "description": "A new season felt like a new identity.",
+    "image": "scene_01.webp"
+  },
+  {
+    "step": 2,
+    "name": "02 · THE CYCLE",
+    "title": "Always another collection",
+    "description": "Fashion is a business, but Jason is describing a personal interpretation—not a causal research claim.",
+    "image": "scene_02.webp"
+  },
+  {
+    "step": 3,
+    "name": "03 · RULEBOOK",
+    "title": "Learning the rules",
+    "description": "Imitating others can be the beginning of a style, not its conclusion.",
+    "image": "scene_03.webp"
+  },
+  {
+    "step": 4,
+    "name": "04 · REMIX",
+    "title": "Finding what fits",
+    "description": "Observe, adopt, remove and keep what is yours.",
+    "image": "scene_04.webp"
+  },
+  {
+    "step": 5,
+    "name": "05 · PATINA",
+    "title": "A garment lived in",
+    "description": "Marks and repairs carry more meaning than a loudly repeated logo.",
+    "image": "scene_05.webp"
+  },
+  {
+    "step": 6,
+    "name": "06 · HIDDEN GEM",
+    "title": "A father's wardrobe",
+    "description": "A garment that still fits decades later is more surprising than another new drop.",
+    "image": "scene_06.webp"
+  }
+]

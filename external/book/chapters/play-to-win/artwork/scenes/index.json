@@ -1,0 +1,104 @@
+[
+  {
+    "id": "eight-bamboo",
+    "path": "artwork/scenes/01-eight-bamboo.jpg",
+    "source": "artwork/source/01-eight-bamboo.svg",
+    "raster": "artwork/exports/scene-01-master.jpg",
+    "source_crop_pixels": [
+      0,
+      0,
+      2400,
+      1700
+    ],
+    "native_size": [
+      2400,
+      1700
+    ],
+    "kind": "raster export of approved vector illustration"
+  },
+  {
+    "id": "poker",
+    "path": "artwork/scenes/02-poker.jpg",
+    "source": "artwork/source/02-poker.svg",
+    "raster": "artwork/exports/scene-02-master.jpg",
+    "source_crop_pixels": [
+      0,
+      0,
+      2400,
+      1700
+    ],
+    "native_size": [
+      2400,
+      1700
+    ],
+    "kind": "raster export of approved vector illustration"
+  },
+  {
+    "id": "two-seats",
+    "path": "artwork/scenes/03-two-seats.jpg",
+    "source": "artwork/source/03-two-seats.svg",
+    "raster": "artwork/exports/scene-03-master.jpg",
+    "source_crop_pixels": [
+      0,
+      0,
+      2400,
+      1700
+    ],
+    "native_size": [
+      2400,
+      1700
+    ],
+    "kind": "raster export of approved vector illustration"
+  },
+  {
+    "id": "beliefs",
+    "path": "artwork/scenes/04-beliefs.jpg",
+    "source": "artwork/source/04-beliefs.svg",
+    "raster": "artwork/exports/scene-04-master.jpg",
+    "source_crop_pixels": [
+      0,
+      0,
+      2400,
+      1700
+    ],
+    "native_size": [
+      2400,
+      1700
+    ],
+    "kind": "raster export of approved vector illustration"
+  },
+  {
+    "id": "meeting",
+    "path": "artwork/scenes/05-meeting.jpg",
+    "source": "artwork/source/05-meeting.svg",
+    "raster": "artwork/exports/scene-05-master.jpg",
+    "source_crop_pixels": [
+      0,
+      0,
+      2400,
+      1700
+    ],
+    "native_size": [
+      2400,
+      1700
+    ],
+    "kind": "raster export of approved vector illustration"
+  },
+  {
+    "id": "open-book",
+    "path": "artwork/scenes/06-open-book.jpg",
+    "source": "artwork/source/06-open-book.svg",
+    "raster": "artwork/exports/scene-06-master.jpg",
+    "source_crop_pixels": [
+      0,
+      0,
+      2400,
+      1700
+    ],
+    "native_size": [
+      2400,
+      1700
+    ],
+    "kind": "raster export of approved vector illustration"
+  }
+]

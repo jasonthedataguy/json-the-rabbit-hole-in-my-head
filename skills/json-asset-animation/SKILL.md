@@ -1,0 +1,32 @@
+---
+name: json-asset-animation
+description: Animate .json chapter artwork into living illustrations, looping GIFs and films using existing assets, object motion and atmosphere. Use when artwork should feel alive through steam, flowing light or local changes beyond camera/text motion. Includes the standard portal opening; does not authorize release.
+---
+
+# .json Asset Animation
+
+Make the artwork perform through time. A whole-image push, crossfade, moving subtitle or title reveal is a reading cut; it does not fulfill a request for dynamic animation.
+
+## Studio connection
+
+This skill belongs to the studio at `E:\json-story-to-business-skill-v1\json-story-to-business`. Read its `studio/studio.json`, selected `studio/projects/<stable-slug>/project.json` and single controlling run. The book remains narrative authority and `E:\books\.json` remains art authority. If these paths are unavailable, locate the moved studio or ask for its location; do not silently create another library or run.
+
+Read the studio's `studio/docs/VIDEO_OPENING.md` for **every video**: exact title with the chapter portal → camera enters center → center scene reveals → story begins. Recuts retain a compact opening unless the author explicitly requests an exception. Silent title cues stand in for a future real author title take, never synthetic personal narration.
+
+## Produce the animation
+
+1. Inspect the selected source and existing art roles before making new derivatives. Run [scripts/motion_assets.py](scripts/motion_assets.py) `inspect` on only the relevant images. Review actual alpha edges, cropped bounds, perspective, sharpness and duplicates; RGBA alone does not prove a usable separated layer. Read [asset preparation](references/ASSET_PREPARATION.md) when layers need repair or separation.
+2. Design scene actions grounded in the source: independent foreground/background motion, object articulation around credible anchors, plant/paper movement, light and atmospheric behavior. For “alive”, “like a GIF” or looping-illustration requests, read [living illustrations](references/LIVING_ILLUSTRATIONS.md): include a visible local process such as curling, rising and fading vapor rather than relying on tiny rigid-layer sway. Use the restrained .json visual language. Preserve faces and people; do not invent first-person events, lip-sync or new family gestures to fill a motion slot. Read [production and motion schema](references/PRODUCTION.md).
+3. Select an actual scene base and compatible layers. Avoid putting another copy of an object on top of the same object already baked into the base. Use a clean plate or mask for any moved baked object. Keep complete family groups still when there are no approved body-part/character rigs; animate their environment. Create only missing local extraction/mask/repair derivatives and record source hash, bounds, parent alignment and provenance. New generated reconstruction is a separate creative choice.
+4. Write a versioned motion manifest and shot list linked to the source hash. Identify title/portal/reveal assets, story start, layer order, placement, pivots, tracks, shadows/occlusion, source citations, audio state and known gaps. The provided [AssetScene.tsx](assets/AssetScene.tsx), with its sibling [LivingSteam.tsx](assets/LivingSteam.tsx), is a deterministic Remotion scene component for images and procedural light/steam effects. Copy the required components into the existing app when needed; these are not a complete film or an automatic character rig.
+5. Run `motion_assets.py check <manifest>`, then `stage <manifest> --output <private-cache>` to validate and stage explicit images. Keyframes and changing opacity must affect visible content. Camera-only or identical lockstep movement is rejected as the dynamic-scene proof. Expand the engine when the approved shot needs capabilities it does not yet implement; do not quietly fall back to slideshow output.
+6. Render an opening-plus-scene motion study that shows the title, entry, landing and representative independent animation. Inspect motion across time and first/middle/last frames for contact, anchors, masks, edges, depth, collisions, shadows and subtitle safety. This is internal drafting; continue authorized work while public gates are pending. Present a concrete look/scene preview for the author's artistic decision when needed, rather than asking them to approve an abstract plan.
+7. Build the requested full cut after the scene behavior is concrete. Keep animation driven by frame/time, not wall clock or unseeded randomness. Use genuine author audio only when supplied; otherwise retain the selected silent-review mode. Retime narration/captions to the actual take. Run the app's typecheck, check the final encoded streams/frame count/duration, inspect the complete sequence and register file hashes/QA in the existing run. Preserve earlier reviews.
+
+## Acceptance and gates
+
+- Meaningful independent scene motion must be visible beyond camera, text and cuts. A practical proof has at least two differently animated scene elements, including an object or environment element; use the source to decide how much each shot needs. Do not add movement to every object or impose a motion quota on a deliberately still emotional beat.
+- For living illustrations, inspect a locked-camera, caption-free loop at its intended viewing size. Confirm that the subject itself changes shape/state, the loop boundary is continuous, and the localized effect belongs to the depicted object. Deliver actual looping GIFs when requested, alongside the video; use the same scene engine for both. Keep cold food cold when that distinction carries the story.
+- Call a result `layer_animation`, `articulated_animation`, `camera_only` or `reading_cut` accurately. Flat boards, exploded sheets and raster cutouts are not original 3D assets. Pseudo-depth from separately composited planes is 2.5D; call it that.
+- Source/wording approval, artistic look and final media quality, family/public disclosure, posting and paid use remain separate exact decisions. Render success, the asset registry's `complete` flag and an old `approved` value do not clear a release gate. No uploading personal art to external generators or paid API jobs without the user's authorization for that action.
+- Return the actual motion preview/full cut requested, manifest, source/asset lineage, measured checks and specific remaining decisions. For a skill-construction task, return the reusable skill and its tested proof without claiming the chapter itself was converted.

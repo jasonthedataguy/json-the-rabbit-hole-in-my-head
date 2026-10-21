@@ -1,0 +1,30 @@
+{
+  "schema_version": 2,
+  "slug": "flow",
+  "number": "05",
+  "title": "FLOW — The Secret of Wealth",
+  "short_title": "FLOW",
+  "part": 1,
+  "language": "vi",
+  "publish": true,
+  "release_stage": "reader-with-portal-art",
+  "canonical_text": "source/approved.md",
+  "canonical_path": "#chapter/05",
+  "summary": "Jason bắt đầu từ câu hỏi vì sao kiếm được tiền mà vẫn không tích lũy được. Từ căn hộ, lạm phát và đầu tư đến một lý thuyết về dòng sông, anh nhìn lại cả thói quen tiêu dùng của chính mình.",
+  "portal": {
+    "scene": "Jason looks through nested paper-cut bands at a winding river of money, reservoirs, waterwheels, houses and trees.",
+    "objects": [
+      "reservoir",
+      "river",
+      "waterwheel",
+      "coins",
+      "seedling"
+    ],
+    "iconKey": "chart",
+    "motif": "The river of cash flow"
+  },
+  "original_edition": null,
+  "production_status": "author manuscript and board-derived digital portal; print, audio and social products pending",
+  "outline_title": "FLOW",
+  "manuscript_sha256": "157011474797f6a424c954f8dc45c2efe460d7a2dd6310df43af6743d5ba8e5f"
+}

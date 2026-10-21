@@ -1,0 +1,32 @@
+{
+  "chapter": "i-was-born-a-quant",
+  "products": [
+    {
+      "product": "Selected prose",
+      "state": "ready",
+      "path": "source/approved.md"
+    },
+    {
+      "product": "Expected Value portal ring",
+      "state": "ready for digital reader",
+      "path": "artwork/portal/quant-ring.png"
+    },
+    {
+      "product": "Quant portal scene",
+      "state": "ready for digital reader",
+      "path": "artwork/portal/quant-scene.png"
+    },
+    {
+      "product": "Quant rectangular reading illustration",
+      "state": "screen artwork ready for review",
+      "path": "artwork/portal/quant-reading-spread-v2.webp"
+    }
+  ],
+  "remaining": [
+    "Source-grounded Explore / Revisit interaction",
+    "Print proofs",
+    "Author narration and films",
+    "Social channel packs",
+    "Visual and release QA"
+  ]
+}

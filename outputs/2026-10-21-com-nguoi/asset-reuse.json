@@ -1,0 +1,875 @@
+{
+  "date": "2026-10-21",
+  "chapter_slug": "com-nguoi",
+  "library_root": "E:\\books\\.json\\outputs\\json-digital-book-assets",
+  "catalog_sha256": "8bbb92310ca7ce129ca63c86544a7bfecf6f40ec34d70365f04d274f1831f1c4",
+  "assets_checked": [
+    {
+      "role": "main_book/web",
+      "path": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\com-nguoi\\artwork\\main-book\\portal.webp",
+      "sha256": "3c373a8c14bfae34d6c5ed03581464b396c6921478430d7448789313a6f2376e",
+      "catalog_sha256": "3c373a8c14bfae34d6c5ed03581464b396c6921478430d7448789313a6f2376e",
+      "matches_catalog": true,
+      "width_catalog": 1600,
+      "height_catalog": 1600
+    },
+    {
+      "role": "main_book/master",
+      "path": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\com-nguoi\\artwork\\main-book\\portal-master.png",
+      "sha256": "d2f91547c6cdbbce971f3b72373fc71b4d03e16d95fc19b2b2eab3d9a0e8bc67",
+      "catalog_sha256": "d2f91547c6cdbbce971f3b72373fc71b4d03e16d95fc19b2b2eab3d9a0e8bc67",
+      "matches_catalog": true,
+      "width_catalog": 2048,
+      "height_catalog": 2048
+    },
+    {
+      "role": "chapter_map/web",
+      "path": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\com-nguoi\\artwork\\chapter-map\\portal.webp",
+      "sha256": "6b206ba8a69da0c86d1e28aa7747bca6c4edc087f294e297daf8cb20fbb9cb8f",
+      "catalog_sha256": "6b206ba8a69da0c86d1e28aa7747bca6c4edc087f294e297daf8cb20fbb9cb8f",
+      "matches_catalog": true,
+      "width_catalog": 1200,
+      "height_catalog": 1200
+    },
+    {
+      "role": "chapter_map/master",
+      "path": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\com-nguoi\\artwork\\chapter-map\\portal-master.png",
+      "sha256": "d2f91547c6cdbbce971f3b72373fc71b4d03e16d95fc19b2b2eab3d9a0e8bc67",
+      "catalog_sha256": "d2f91547c6cdbbce971f3b72373fc71b4d03e16d95fc19b2b2eab3d9a0e8bc67",
+      "matches_catalog": true,
+      "width_catalog": 2048,
+      "height_catalog": 2048
+    },
+    {
+      "role": "chapter_opening/web",
+      "path": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\com-nguoi\\artwork\\chapter-page\\portal.webp",
+      "sha256": "79b61b71d689bd27bd5cab1679c2a875aff7a8b660619afad9d1ed39d4a3587a",
+      "catalog_sha256": "79b61b71d689bd27bd5cab1679c2a875aff7a8b660619afad9d1ed39d4a3587a",
+      "matches_catalog": true,
+      "width_catalog": 1600,
+      "height_catalog": 1600
+    },
+    {
+      "role": "chapter_opening/master",
+      "path": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\com-nguoi\\artwork\\chapter-page\\portal-master.png",
+      "sha256": "29582f4167efab4113efeedd9448829fb4a0cc065bd092b491eef191f350e6f9",
+      "catalog_sha256": "29582f4167efab4113efeedd9448829fb4a0cc065bd092b491eef191f350e6f9",
+      "matches_catalog": true,
+      "width_catalog": 2048,
+      "height_catalog": 2048
+    },
+    {
+      "role": "reader_hero/web",
+      "path": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\com-nguoi\\artwork\\chapter-page\\hero.webp",
+      "sha256": "317e9cfb33874f3ee417c09a6b43ca07de16fa69e63e93a4503e7352e93c4f84",
+      "catalog_sha256": "317e9cfb33874f3ee417c09a6b43ca07de16fa69e63e93a4503e7352e93c4f84",
+      "matches_catalog": true,
+      "width_catalog": 1920,
+      "height_catalog": 1280
+    },
+    {
+      "role": "reader_hero/master",
+      "path": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\com-nguoi\\artwork\\chapter-page\\hero-master.png",
+      "sha256": "4e857a37ff3b3b81581306cc6c0fe3431e1fff993efa80ffe00d0a6922de0ded",
+      "catalog_sha256": "4e857a37ff3b3b81581306cc6c0fe3431e1fff993efa80ffe00d0a6922de0ded",
+      "matches_catalog": true,
+      "width_catalog": 2400,
+      "height_catalog": 1600
+    },
+    {
+      "role": "inline_illustration/web",
+      "path": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\com-nguoi\\artwork\\content\\illustrations\\01-story-detail.webp",
+      "sha256": "ce4f7fd4c2e46725139dc97f04bdd2b4fcfb8f00cef3313331063a608dfe0342",
+      "catalog_sha256": "ce4f7fd4c2e46725139dc97f04bdd2b4fcfb8f00cef3313331063a608dfe0342",
+      "matches_catalog": true,
+      "width_catalog": 1920,
+      "height_catalog": 1280
+    },
+    {
+      "role": "inline_illustration/master",
+      "path": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\com-nguoi\\artwork\\content\\illustrations\\01-story-detail-master.png",
+      "sha256": "087041ac902b51eabb1ce905845ee883f97316a89cf837729cf0a9b867c569cb",
+      "catalog_sha256": "087041ac902b51eabb1ce905845ee883f97316a89cf837729cf0a9b867c569cb",
+      "matches_catalog": true,
+      "width_catalog": 2400,
+      "height_catalog": 1600
+    },
+    {
+      "role": "content/icons",
+      "path": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\com-nguoi\\artwork\\content\\icons\\01-rice-bowl.png",
+      "sha256": "fbf2bf1387b4dc59167bf4f6970212f93beee16da04e3ab35f7dd159688a5853",
+      "catalog_sha256": "fbf2bf1387b4dc59167bf4f6970212f93beee16da04e3ab35f7dd159688a5853",
+      "matches_catalog": true,
+      "width_catalog": 440,
+      "height_catalog": 376
+    },
+    {
+      "role": "content/icons",
+      "path": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\com-nguoi\\artwork\\content\\icons\\02-chopsticks.png",
+      "sha256": "d36bf133c2c363cecb4decc5e9ada2ee8eb3628c62cd5d16ff76339c92afc068",
+      "catalog_sha256": "d36bf133c2c363cecb4decc5e9ada2ee8eb3628c62cd5d16ff76339c92afc068",
+      "matches_catalog": true,
+      "width_catalog": 352,
+      "height_catalog": 376
+    },
+    {
+      "role": "content/icons",
+      "path": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\com-nguoi\\artwork\\content\\icons\\03-steaming-bowl.png",
+      "sha256": "4b2c3f72c6c6e286ae624eb3d4ab5482f92cf5f3b0db3e4a1479a315d09c10ad",
+      "catalog_sha256": "4b2c3f72c6c6e286ae624eb3d4ab5482f92cf5f3b0db3e4a1479a315d09c10ad",
+      "matches_catalog": true,
+      "width_catalog": 432,
+      "height_catalog": 456
+    },
+    {
+      "role": "content/icons",
+      "path": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\com-nguoi\\artwork\\content\\icons\\04-warm-home.png",
+      "sha256": "d9cc3a4928569004d72b4eee1307b0eb38457bff0fc70e9320f0df7b4c396ff7",
+      "catalog_sha256": "d9cc3a4928569004d72b4eee1307b0eb38457bff0fc70e9320f0df7b4c396ff7",
+      "matches_catalog": true,
+      "width_catalog": 400,
+      "height_catalog": 400
+    },
+    {
+      "role": "content/icons",
+      "path": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\com-nguoi\\artwork\\content\\icons\\05-city-skyline.png",
+      "sha256": "793cc28ccdad8ec033535fdfbc06630ecf4c45851f6959fe950d50f6b60861bc",
+      "catalog_sha256": "793cc28ccdad8ec033535fdfbc06630ecf4c45851f6959fe950d50f6b60861bc",
+      "matches_catalog": true,
+      "width_catalog": 408,
+      "height_catalog": 424
+    },
+    {
+      "role": "content/icons",
+      "path": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\com-nguoi\\artwork\\content\\icons\\06-pendant-lamp.png",
+      "sha256": "1809b4461f6eae03c85ca1509f88ab7c51d7528d11d46baf9d61aae1fb38ba45",
+      "catalog_sha256": "1809b4461f6eae03c85ca1509f88ab7c51d7528d11d46baf9d61aae1fb38ba45",
+      "matches_catalog": true,
+      "width_catalog": 392,
+      "height_catalog": 456
+    },
+    {
+      "role": "content/icons",
+      "path": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\com-nguoi\\artwork\\content\\icons\\07-bookshelf.png",
+      "sha256": "72f296ca59fd43519dd8a18ed2c95cada13b76cd71e4eface4829cfaa66e7066",
+      "catalog_sha256": "72f296ca59fd43519dd8a18ed2c95cada13b76cd71e4eface4829cfaa66e7066",
+      "matches_catalog": true,
+      "width_catalog": 392,
+      "height_catalog": 440
+    },
+    {
+      "role": "content/icons",
+      "path": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\com-nguoi\\artwork\\content\\icons\\08-flower-vase.png",
+      "sha256": "dbb9775f798fac1a7d2936c7dd58a1a1b222868a16e34278c63c2a8d165734b0",
+      "catalog_sha256": "dbb9775f798fac1a7d2936c7dd58a1a1b222868a16e34278c63c2a8d165734b0",
+      "matches_catalog": true,
+      "width_catalog": 376,
+      "height_catalog": 464
+    },
+    {
+      "role": "content/icons",
+      "path": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\com-nguoi\\artwork\\content\\icons\\09-potted-plant.png",
+      "sha256": "d3038efe918f7723e1dcbe6f793c05f7bd7d7c623cd895a9106660fa1612ace5",
+      "catalog_sha256": "d3038efe918f7723e1dcbe6f793c05f7bd7d7c623cd895a9106660fa1612ace5",
+      "matches_catalog": true,
+      "width_catalog": 376,
+      "height_catalog": 480
+    },
+    {
+      "role": "content/icons",
+      "path": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\com-nguoi\\artwork\\content\\icons\\10-wooden-chair.png",
+      "sha256": "b551799fdb4ba1cee0d1c7992e873fef4ab5c3c80a7d894f24d6b6223cdf12bd",
+      "catalog_sha256": "b551799fdb4ba1cee0d1c7992e873fef4ab5c3c80a7d894f24d6b6223cdf12bd",
+      "matches_catalog": true,
+      "width_catalog": 368,
+      "height_catalog": 432
+    },
+    {
+      "role": "content/icons",
+      "path": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\com-nguoi\\artwork\\content\\icons\\11-sunset-window.png",
+      "sha256": "5fbcbe1dea9c9bd0fcc741a29b06f1bee8f5458d85d9e42e765e253c4be45042",
+      "catalog_sha256": "5fbcbe1dea9c9bd0fcc741a29b06f1bee8f5458d85d9e42e765e253c4be45042",
+      "matches_catalog": true,
+      "width_catalog": 384,
+      "height_catalog": 440
+    },
+    {
+      "role": "content/icons",
+      "path": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\com-nguoi\\artwork\\content\\icons\\12-open-book.png",
+      "sha256": "74d15c76027c2da4e4ce65bcfbfeafbb28a34892c28f8571cfcb0e0a9685529c",
+      "catalog_sha256": "74d15c76027c2da4e4ce65bcfbfeafbb28a34892c28f8571cfcb0e0a9685529c",
+      "matches_catalog": true,
+      "width_catalog": 392,
+      "height_catalog": 400
+    },
+    {
+      "role": "content/icons",
+      "path": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\com-nguoi\\artwork\\content\\icons\\13-boy-from-behind.png",
+      "sha256": "c9849209ebfa8246b4de6047f7a7bb023bc3e7c04a35b3bf57affc825a4071f6",
+      "catalog_sha256": "c9849209ebfa8246b4de6047f7a7bb023bc3e7c04a35b3bf57affc825a4071f6",
+      "matches_catalog": true,
+      "width_catalog": 384,
+      "height_catalog": 464
+    },
+    {
+      "role": "content/icons",
+      "path": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\com-nguoi\\artwork\\content\\icons\\14-mother-from-behind.png",
+      "sha256": "d67019c3e850a091d7d21834e4feb31a1bea8f7623095343b07a3dbabd2d8d85",
+      "catalog_sha256": "d67019c3e850a091d7d21834e4feb31a1bea8f7623095343b07a3dbabd2d8d85",
+      "matches_catalog": true,
+      "width_catalog": 384,
+      "height_catalog": 472
+    },
+    {
+      "role": "content/icons",
+      "path": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\com-nguoi\\artwork\\content\\icons\\15-father-from-behind.png",
+      "sha256": "f8a4c35ea3846ebc6306a108ee887e9cd4b6e346fd47a0cfe7276b2c2c250897",
+      "catalog_sha256": "f8a4c35ea3846ebc6306a108ee887e9cd4b6e346fd47a0cfe7276b2c2c250897",
+      "matches_catalog": true,
+      "width_catalog": 392,
+      "height_catalog": 464
+    },
+    {
+      "role": "content/icons",
+      "path": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\com-nguoi\\artwork\\content\\icons\\16-family-together.png",
+      "sha256": "d54c2af43f134ee0effdac056452cbd79f00ef0b260ea528cb7600208eabf7a7",
+      "catalog_sha256": "d54c2af43f134ee0effdac056452cbd79f00ef0b260ea528cb7600208eabf7a7",
+      "matches_catalog": true,
+      "width_catalog": 432,
+      "height_catalog": 472
+    },
+    {
+      "role": "content/icons",
+      "path": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\com-nguoi\\artwork\\content\\icons\\17-botanical-frame.png",
+      "sha256": "4f246b96d2f44f78ea0c10a27123cbb3161848c2eef8d76f51700c71b242e7f1",
+      "catalog_sha256": "4f246b96d2f44f78ea0c10a27123cbb3161848c2eef8d76f51700c71b242e7f1",
+      "matches_catalog": true,
+      "width_catalog": 360,
+      "height_catalog": 472
+    },
+    {
+      "role": "content/icons",
+      "path": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\com-nguoi\\artwork\\content\\icons\\18-leaf-sprig.png",
+      "sha256": "e04e934f61d4f080841fdc0babf283c2d5f16b2fdfd2e76b6b3425d7e6b9a786",
+      "catalog_sha256": "e04e934f61d4f080841fdc0babf283c2d5f16b2fdfd2e76b6b3425d7e6b9a786",
+      "matches_catalog": true,
+      "width_catalog": 384,
+      "height_catalog": 480
+    },
+    {
+      "role": "content/icons",
+      "path": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\com-nguoi\\artwork\\content\\icons\\19-stockpot.png",
+      "sha256": "ca8311a2a75285888b343c635d4cf90e239c4d742ca7f606a5bee7680e2ce195",
+      "catalog_sha256": "ca8311a2a75285888b343c635d4cf90e239c4d742ca7f606a5bee7680e2ce195",
+      "matches_catalog": true,
+      "width_catalog": 440,
+      "height_catalog": 416
+    },
+    {
+      "role": "content/icons",
+      "path": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\com-nguoi\\artwork\\content\\icons\\20-blue-kettle.png",
+      "sha256": "b5137e174ed439ceb38a427157c630da387b441d48df1529aca253717a500d9b",
+      "catalog_sha256": "b5137e174ed439ceb38a427157c630da387b441d48df1529aca253717a500d9b",
+      "matches_catalog": true,
+      "width_catalog": 384,
+      "height_catalog": 440
+    },
+    {
+      "role": "content/icons",
+      "path": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\com-nguoi\\artwork\\content\\icons\\21-condiment-bottle.png",
+      "sha256": "7a750834f925d7e247c941c4f84d3f2c32d12cbbcb9cf867144353e6bf0793a0",
+      "catalog_sha256": "7a750834f925d7e247c941c4f84d3f2c32d12cbbcb9cf867144353e6bf0793a0",
+      "matches_catalog": true,
+      "width_catalog": 352,
+      "height_catalog": 424
+    },
+    {
+      "role": "content/icons",
+      "path": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\com-nguoi\\artwork\\content\\icons\\22-porcelain-mug.png",
+      "sha256": "88271c0c22c5f51f03f7c3ed24df70868e34623f41795a9ecae89363a2ba0f95",
+      "catalog_sha256": "88271c0c22c5f51f03f7c3ed24df70868e34623f41795a9ecae89363a2ba0f95",
+      "matches_catalog": true,
+      "width_catalog": 392,
+      "height_catalog": 400
+    },
+    {
+      "role": "content/icons",
+      "path": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\com-nguoi\\artwork\\content\\icons\\23-rice-cooker.png",
+      "sha256": "e4f3241fea82a13271336b39361d85722cf7a2c48c303dfa9e0e6eb019ed29b9",
+      "catalog_sha256": "e4f3241fea82a13271336b39361d85722cf7a2c48c303dfa9e0e6eb019ed29b9",
+      "matches_catalog": true,
+      "width_catalog": 416,
+      "height_catalog": 464
+    },
+    {
+      "role": "content/icons",
+      "path": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\com-nguoi\\artwork\\content\\icons\\24-tea-tin.png",
+      "sha256": "15a7be1195834cdaa937ab6be78710078be69914f973c5af9eb430e8980fdf07",
+      "catalog_sha256": "15a7be1195834cdaa937ab6be78710078be69914f973c5af9eb430e8980fdf07",
+      "matches_catalog": true,
+      "width_catalog": 384,
+      "height_catalog": 448
+    },
+    {
+      "role": "content/icons",
+      "path": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\com-nguoi\\artwork\\content\\icons\\25-sleeping-dog.png",
+      "sha256": "9bddacd0db576638705c51774f547cbd2b136232a2f60bd09b269b44da92235d",
+      "catalog_sha256": "9bddacd0db576638705c51774f547cbd2b136232a2f60bd09b269b44da92235d",
+      "matches_catalog": true,
+      "width_catalog": 456,
+      "height_catalog": 400
+    },
+    {
+      "role": "content/icons",
+      "path": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\com-nguoi\\artwork\\content\\icons\\26-terracotta-potted-plant.png",
+      "sha256": "db1862f7e6d090b432df4386964689a50931971f48570d2196140807a38b4db5",
+      "catalog_sha256": "db1862f7e6d090b432df4386964689a50931971f48570d2196140807a38b4db5",
+      "matches_catalog": true,
+      "width_catalog": 360,
+      "height_catalog": 480
+    },
+    {
+      "role": "content/icons",
+      "path": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\com-nguoi\\artwork\\content\\icons\\27-framed-portrait.png",
+      "sha256": "8c055684c26191de65c83eb779a3840c415b89b7887b34df6aa188b888c0156c",
+      "catalog_sha256": "8c055684c26191de65c83eb779a3840c415b89b7887b34df6aa188b888c0156c",
+      "matches_catalog": true,
+      "width_catalog": 344,
+      "height_catalog": 416
+    },
+    {
+      "role": "content/icons",
+      "path": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\com-nguoi\\artwork\\content\\icons\\28-notebook.png",
+      "sha256": "665ea367ea7d94f4c284e315142db3ec07ba7177fd6b0c8be9ff496d94a6aae4",
+      "catalog_sha256": "665ea367ea7d94f4c284e315142db3ec07ba7177fd6b0c8be9ff496d94a6aae4",
+      "matches_catalog": true,
+      "width_catalog": 392,
+      "height_catalog": 472
+    },
+    {
+      "role": "content/icons",
+      "path": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\com-nguoi\\artwork\\content\\icons\\29-dining-table.png",
+      "sha256": "4d6b22a7b8c05ab6aa190d1a9258859cebc777a38015711bbcfd8a191b867b86",
+      "catalog_sha256": "4d6b22a7b8c05ab6aa190d1a9258859cebc777a38015711bbcfd8a191b867b86",
+      "matches_catalog": true,
+      "width_catalog": 408,
+      "height_catalog": 400
+    },
+    {
+      "role": "content/icons",
+      "path": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\com-nguoi\\artwork\\content\\icons\\30-lattice-door.png",
+      "sha256": "38df9372ce02b470f6892b5368c2baf9e772a1e5500ce8ec651c1de28f68bf17",
+      "catalog_sha256": "38df9372ce02b470f6892b5368c2baf9e772a1e5500ce8ec651c1de28f68bf17",
+      "matches_catalog": true,
+      "width_catalog": 368,
+      "height_catalog": 496
+    },
+    {
+      "role": "content/icons",
+      "path": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\com-nguoi\\artwork\\content\\icons\\31-rice-stalk.png",
+      "sha256": "707c13f0deda4b3659feba7dfc46cbafaa42b1226047e94fedf2ee955f9a658a",
+      "catalog_sha256": "707c13f0deda4b3659feba7dfc46cbafaa42b1226047e94fedf2ee955f9a658a",
+      "matches_catalog": true,
+      "width_catalog": 408,
+      "height_catalog": 448
+    },
+    {
+      "role": "content/icons",
+      "path": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\com-nguoi\\artwork\\content\\icons\\32-porcelain-tile.png",
+      "sha256": "454d2475fef09b500953d6e906a0928105aae521e552cd32219471935c12c916",
+      "catalog_sha256": "454d2475fef09b500953d6e906a0928105aae521e552cd32219471935c12c916",
+      "matches_catalog": true,
+      "width_catalog": 392,
+      "height_catalog": 456
+    },
+    {
+      "role": "content/icons",
+      "path": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\com-nguoi\\artwork\\content\\icons\\33-cream-flower.png",
+      "sha256": "e35792644a9beec50bf39558f5e571e85406703f9035a71f1fc56c225871cc82",
+      "catalog_sha256": "e35792644a9beec50bf39558f5e571e85406703f9035a71f1fc56c225871cc82",
+      "matches_catalog": true,
+      "width_catalog": 400,
+      "height_catalog": 456
+    },
+    {
+      "role": "content/icons",
+      "path": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\com-nguoi\\artwork\\content\\icons\\34-green-leaves.png",
+      "sha256": "b330d0a64bc5eb5f560c846a5b7a3170571079d03913c728f968addb34ffa231",
+      "catalog_sha256": "b330d0a64bc5eb5f560c846a5b7a3170571079d03913c728f968addb34ffa231",
+      "matches_catalog": true,
+      "width_catalog": 416,
+      "height_catalog": 472
+    },
+    {
+      "role": "content/icons",
+      "path": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\com-nguoi\\artwork\\content\\icons\\35-patterned-bowl-detail.png",
+      "sha256": "364913d0e8976e2e8510ffa1fb3a504e1585ed1698ea912b2797139fa3ff568c",
+      "catalog_sha256": "364913d0e8976e2e8510ffa1fb3a504e1585ed1698ea912b2797139fa3ff568c",
+      "matches_catalog": true,
+      "width_catalog": 408,
+      "height_catalog": 448
+    },
+    {
+      "role": "content/icons",
+      "path": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\com-nguoi\\artwork\\content\\icons\\36-city-buildings.png",
+      "sha256": "dbd2b75fda5a266039c47faa34ec78b9e7fcbde345ce13c3557ba6ac5268fee5",
+      "catalog_sha256": "dbd2b75fda5a266039c47faa34ec78b9e7fcbde345ce13c3557ba6ac5268fee5",
+      "matches_catalog": true,
+      "width_catalog": 376,
+      "height_catalog": 472
+    },
+    {
+      "role": "content/elements",
+      "path": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\com-nguoi\\artwork\\content\\elements\\01-boy.png",
+      "sha256": "85c8c88e098c7a9ecddc06ec9bb6bad081987e4aeb39b90b7b25f71c277c431a",
+      "catalog_sha256": "85c8c88e098c7a9ecddc06ec9bb6bad081987e4aeb39b90b7b25f71c277c431a",
+      "matches_catalog": true,
+      "width_catalog": 688,
+      "height_catalog": 1064
+    },
+    {
+      "role": "content/elements",
+      "path": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\com-nguoi\\artwork\\content\\elements\\02-family-at-table.png",
+      "sha256": "85cf4ed993b2a9776f283c004b4fe2bb85910aeedf37462b5a3f0d4da85a258a",
+      "catalog_sha256": "85cf4ed993b2a9776f283c004b4fe2bb85910aeedf37462b5a3f0d4da85a258a",
+      "matches_catalog": true,
+      "width_catalog": 2344,
+      "height_catalog": 1072
+    },
+    {
+      "role": "content/elements",
+      "path": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\com-nguoi\\artwork\\content\\elements\\03-rice-bowl-and-steam.png",
+      "sha256": "a78ec2f1175c1bc96e52b09a0ff1907ea31b545b04c5e99a125ea21773ab3762",
+      "catalog_sha256": "a78ec2f1175c1bc96e52b09a0ff1907ea31b545b04c5e99a125ea21773ab3762",
+      "matches_catalog": true,
+      "width_catalog": 600,
+      "height_catalog": 1112
+    },
+    {
+      "role": "content/elements",
+      "path": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\com-nguoi\\artwork\\content\\elements\\04-sunset-window.png",
+      "sha256": "6ab54e47a96b94d8618380dec64613df26fbf5c54bbf561cfe943c2cd5820f29",
+      "catalog_sha256": "6ab54e47a96b94d8618380dec64613df26fbf5c54bbf561cfe943c2cd5820f29",
+      "matches_catalog": true,
+      "width_catalog": 792,
+      "height_catalog": 1120
+    },
+    {
+      "role": "content/elements",
+      "path": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\com-nguoi\\artwork\\content\\elements\\05-hanging-lamp.png",
+      "sha256": "74a0591fa49af6d60cd04a3ede3af0383a6713df314e5be37dff81f309e1a08f",
+      "catalog_sha256": "74a0591fa49af6d60cd04a3ede3af0383a6713df314e5be37dff81f309e1a08f",
+      "matches_catalog": true,
+      "width_catalog": 712,
+      "height_catalog": 824
+    },
+    {
+      "role": "content/elements",
+      "path": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\com-nguoi\\artwork\\content\\elements\\06-bookshelf.png",
+      "sha256": "05af55f30c3fca47868b4a18f6885017c9f46ca0c8d4783f40a73634f799eef9",
+      "catalog_sha256": "05af55f30c3fca47868b4a18f6885017c9f46ca0c8d4783f40a73634f799eef9",
+      "matches_catalog": true,
+      "width_catalog": 696,
+      "height_catalog": 1072
+    },
+    {
+      "role": "content/elements",
+      "path": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\com-nguoi\\artwork\\content\\elements\\07-flower-vase.png",
+      "sha256": "59784d239e3c8a548a240a4127cb794a390a1122f4302093ff7db50e245ffd16",
+      "catalog_sha256": "59784d239e3c8a548a240a4127cb794a390a1122f4302093ff7db50e245ffd16",
+      "matches_catalog": true,
+      "width_catalog": 504,
+      "height_catalog": 976
+    },
+    {
+      "role": "content/elements",
+      "path": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\com-nguoi\\artwork\\content\\elements\\08-stacked-books.png",
+      "sha256": "bc5c9d983ba6b18c00781ef9a5b772af975d995d58be4c9a72b2dae6471d9454",
+      "catalog_sha256": "bc5c9d983ba6b18c00781ef9a5b772af975d995d58be4c9a72b2dae6471d9454",
+      "matches_catalog": true,
+      "width_catalog": 632,
+      "height_catalog": 472
+    },
+    {
+      "role": "content/elements",
+      "path": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\com-nguoi\\artwork\\content\\elements\\09-botanical-frame.png",
+      "sha256": "1aee3c126425f5340309d53d1413fe171c250b9037c80f5735aa8271c6ce42d9",
+      "catalog_sha256": "1aee3c126425f5340309d53d1413fe171c250b9037c80f5735aa8271c6ce42d9",
+      "matches_catalog": true,
+      "width_catalog": 336,
+      "height_catalog": 568
+    },
+    {
+      "role": "content/elements",
+      "path": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\com-nguoi\\artwork\\content\\elements\\10-broadleaf-houseplant.png",
+      "sha256": "0b9c3ab3318acd4c3e2556fbc1afbf39a29d333dac0a1c8c1e5c7c6c49ab5c33",
+      "catalog_sha256": "0b9c3ab3318acd4c3e2556fbc1afbf39a29d333dac0a1c8c1e5c7c6c49ab5c33",
+      "matches_catalog": true,
+      "width_catalog": 800,
+      "height_catalog": 1056
+    },
+    {
+      "role": "content/elements",
+      "path": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\com-nguoi\\artwork\\content\\elements\\11-navy-rice-stalk-panel.png",
+      "sha256": "53d206bf5f3b64e4ed1c25af345ff1c20edd97aeb9711ae2ffab28c3af2dc6b9",
+      "catalog_sha256": "53d206bf5f3b64e4ed1c25af345ff1c20edd97aeb9711ae2ffab28c3af2dc6b9",
+      "matches_catalog": true,
+      "width_catalog": 376,
+      "height_catalog": 1120
+    },
+    {
+      "role": "content/elements",
+      "path": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\com-nguoi\\artwork\\content\\elements\\12-porcelain-and-river-panel.png",
+      "sha256": "6d6bf20632e6b9347c8441a287dc95314e7d713c82f568c36cf5517752050583",
+      "catalog_sha256": "6d6bf20632e6b9347c8441a287dc95314e7d713c82f568c36cf5517752050583",
+      "matches_catalog": true,
+      "width_catalog": 448,
+      "height_catalog": 1120
+    },
+    {
+      "role": "content/elements",
+      "path": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\com-nguoi\\artwork\\content\\elements\\13-wood-lattice-panel.png",
+      "sha256": "3712041f005c92eda7a71966e29dc7779dec8c24f5080cdfce56d716d6b2e30f",
+      "catalog_sha256": "3712041f005c92eda7a71966e29dc7779dec8c24f5080cdfce56d716d6b2e30f",
+      "matches_catalog": true,
+      "width_catalog": 504,
+      "height_catalog": 1120
+    },
+    {
+      "role": "content/textures",
+      "path": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\com-nguoi\\artwork\\content\\textures\\01-navy-cloth.png",
+      "sha256": "5ae7bb7465345cc2ed0e31b32974b1d411052138da498fdedfa35bf389e4a8ac",
+      "catalog_sha256": "5ae7bb7465345cc2ed0e31b32974b1d411052138da498fdedfa35bf389e4a8ac",
+      "matches_catalog": true,
+      "width_catalog": 544,
+      "height_catalog": 1000
+    },
+    {
+      "role": "content/textures",
+      "path": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\com-nguoi\\artwork\\content\\textures\\02-cream-paper.png",
+      "sha256": "709684412a09f36216f99441c3e7d383a6e366899673ba654093272f69b5515f",
+      "catalog_sha256": "709684412a09f36216f99441c3e7d383a6e366899673ba654093272f69b5515f",
+      "matches_catalog": true,
+      "width_catalog": 552,
+      "height_catalog": 1000
+    },
+    {
+      "role": "content/textures",
+      "path": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\com-nguoi\\artwork\\content\\textures\\03-sunset-city.png",
+      "sha256": "109891b4820df78801c484774a4543d48175073a797ca0720fffb06be60a579c",
+      "catalog_sha256": "109891b4820df78801c484774a4543d48175073a797ca0720fffb06be60a579c",
+      "matches_catalog": true,
+      "width_catalog": 600,
+      "height_catalog": 1000
+    },
+    {
+      "role": "content/details",
+      "path": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\com-nguoi\\artwork\\content\\details\\01-main-family-memory.png",
+      "sha256": "0d112a46e522ee60f487822928b45eac52263b46e62b22a05c72e90866437c8d",
+      "catalog_sha256": "0d112a46e522ee60f487822928b45eac52263b46e62b22a05c72e90866437c8d",
+      "matches_catalog": true,
+      "width_catalog": 1576,
+      "height_catalog": 1776
+    },
+    {
+      "role": "content/details",
+      "path": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\com-nguoi\\artwork\\content\\details\\02-back-cover-cityscape.png",
+      "sha256": "96ae0999dd56b09cfc939316150895f947082efdcdf77e4855fbe8f21a09796f",
+      "catalog_sha256": "96ae0999dd56b09cfc939316150895f947082efdcdf77e4855fbe8f21a09796f",
+      "matches_catalog": true,
+      "width_catalog": 2008,
+      "height_catalog": 1016
+    },
+    {
+      "role": "content/details",
+      "path": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\com-nguoi\\artwork\\content\\details\\03-chapter-heading-and-pot.png",
+      "sha256": "9d421dae4fcabc1828f18999bc3bd720e835e62cfd6e122683c412d97c96dd0e",
+      "catalog_sha256": "9d421dae4fcabc1828f18999bc3bd720e835e62cfd6e122683c412d97c96dd0e",
+      "matches_catalog": true,
+      "width_catalog": 320,
+      "height_catalog": 408
+    }
+  ],
+  "shared_references": [
+    {
+      "role": "rotating_ring",
+      "path": "E:\\books\\.json\\outputs\\json-digital-book-assets\\shared\\main-book\\rotating-ring-with-gau.png",
+      "exists": true,
+      "sha256": "45b76ea7e8105cf42e0b1a14a4ea6bc34a96d56b5b3aea269225eda631edc751"
+    },
+    {
+      "role": "geometry",
+      "path": "E:\\books\\.json\\outputs\\json-digital-book-assets\\shared\\main-book\\ring-geometry.json",
+      "exists": true,
+      "sha256": "74e3cb6917d6b153c32b425476c418fede122294cbd8628ed7616c4a9d4d69f7"
+    },
+    {
+      "role": "master_ring_manifest",
+      "path": "E:\\books\\.json\\outputs\\json-digital-book-assets\\shared\\main-book\\master-ring\\assets.json",
+      "exists": true,
+      "sha256": "46285212bade4e11d43bfd8d3d8f80ea63a58873f427f1174100e9ebaea92f0d"
+    },
+    {
+      "role": "master_ring_gallery",
+      "path": "E:\\books\\.json\\outputs\\json-digital-book-assets\\shared\\main-book\\master-ring\\index.html",
+      "exists": true,
+      "sha256": "a92b044821b42311cf19b6b702287e27e087b8a068a135e0bb3dc3048a681a6c"
+    },
+    {
+      "role": "printed_cover_proofs",
+      "path": "E:\\books\\.json\\outputs\\json-digital-book-assets\\shared\\main-book\\master-ring\\print\\cover-front-proofs.pdf",
+      "exists": true,
+      "sha256": "de4bb4e0e8146aef1a0ca9a2afe29475a6fd8c4feff6d3d6d2b73769dc824162"
+    },
+    {
+      "role": "complete_main_portal",
+      "path": "E:\\books\\.json\\outputs\\json-digital-book-assets\\shared\\main-book\\main-book-portal.webp",
+      "exists": true,
+      "sha256": "bb5a13033494f242c1914cee93bf518ede3fc29db43c569912e284c367ebbff0"
+    },
+    {
+      "role": "stationary_foreground",
+      "path": "E:\\books\\.json\\outputs\\json-digital-book-assets\\shared\\main-book\\foreground-jason-anchor.webp",
+      "exists": true,
+      "sha256": "f3e9d5d410bc8bb5da349a1898d7041d5fa78d218954891672fcb95dcc65fa73"
+    },
+    {
+      "role": "foreground_master",
+      "path": "E:\\books\\.json\\outputs\\json-digital-book-assets\\shared\\main-book\\master-ring\\foreground\\jason-anchor-registered.png",
+      "exists": true,
+      "sha256": "c6d18ce2f02a4cded650a4ffa26493d5498fd0f35eee2accaeb5e1e337d27238"
+    },
+    {
+      "role": "jason_cutout",
+      "path": "E:\\books\\.json\\outputs\\json-digital-book-assets\\shared\\main-book\\master-ring\\foreground\\jason-shadow-cutout.png",
+      "exists": true,
+      "sha256": "f353434763f413ef09f1576b8fca4b5b11017ff87587eda26a77c684e706f810"
+    },
+    {
+      "role": "gau_cutout",
+      "path": "E:\\books\\.json\\outputs\\json-digital-book-assets\\shared\\main-book\\master-ring\\foreground\\gau-white-fluffy-dog.png",
+      "exists": true,
+      "sha256": "c8e1fc23d3492566db3750291d4aec915675d3c0e3b033a65d09bdd9d31cb2a7"
+    },
+    {
+      "role": "rotating_ring_web",
+      "path": "E:\\books\\.json\\outputs\\json-digital-book-assets\\shared\\main-book\\rotating-ring-with-gau.webp",
+      "exists": true,
+      "sha256": "972ed7e6a78e914efdabd6a8c7ef3bdaa9e01f6b9ed4677b0609854dd24e20cd"
+    },
+    {
+      "role": "physical_mechanism",
+      "path": "E:\\books\\.json\\outputs\\json-digital-book-assets\\shared\\main-book\\master-ring\\print\\mechanism\\movable-cover-prototype.pdf",
+      "exists": true,
+      "sha256": "014b2b1309278520c53f67489ac5ee60f8a3cea032e28bf478f3a633ed719f1c"
+    },
+    {
+      "role": "book_copy",
+      "path": "E:\\books\\.json\\outputs\\json-digital-book-assets\\shared\\main-book\\master-ring\\book-copy.json",
+      "exists": true,
+      "sha256": "a61f6c257618e3b990bed379b3dbdcf98c15debfef5e2a816d7ed3d2ac97adc6"
+    },
+    {
+      "role": "empty_center_ring",
+      "path": "E:\\books\\.json\\outputs\\json-digital-book-assets\\shared\\main-book\\master-ring\\app\\portal-empty-center-deep.webp",
+      "exists": true,
+      "sha256": "2a0a953b15ced812af2d5c38e77d5719fc1651eef8d49fd08d04dd96146e8ec8"
+    },
+    {
+      "role": "empty_center_ring_compatible",
+      "path": "E:\\books\\.json\\outputs\\json-digital-book-assets\\shared\\main-book\\master-ring\\app\\portal-empty-center-compatible.webp",
+      "exists": true,
+      "sha256": "b88572b1e492e38e91755f607342422a078198ea2ca582d5d7d2edf7a74821f1"
+    },
+    {
+      "role": "empty_center_portal_static",
+      "path": "E:\\books\\.json\\outputs\\json-digital-book-assets\\shared\\main-book\\master-ring\\app\\portal-empty-center-deep-with-fixed-jason.webp",
+      "exists": true,
+      "sha256": "5ae408be70e7f40baaf66c8a750a8afbb75151514bfdac7deb7c0130d4662a33"
+    },
+    {
+      "role": "introduction_proof",
+      "path": "E:\\books\\.json\\outputs\\json-digital-book-assets\\shared\\main-book\\master-ring\\print\\cover-front-proofs.pdf",
+      "exists": true,
+      "sha256": "de4bb4e0e8146aef1a0ca9a2afe29475a6fd8c4feff6d3d6d2b73769dc824162"
+    }
+  ],
+  "existing_products": [
+    {
+      "path": "C:\\Users\\Administrator\\OneDrive\\Desktop\\.json book\\json_under_revision_v2\\chapters\\com-nguoi\\audio\\NARRATION.md",
+      "exists": true,
+      "sha256": "d889704a7127dd48e9111c25ac83286fe8d0e67e928516d2941f971ff2e11379",
+      "status": "existing reference/proof; not newly release-approved"
+    },
+    {
+      "path": "C:\\Users\\Administrator\\OneDrive\\Desktop\\.json book\\json_under_revision_v2\\chapters\\com-nguoi\\audio\\HANDOFF.md",
+      "exists": true,
+      "sha256": "449ddc582657302b9e606019969f4191a28120fb81790220edd487796de8a811",
+      "status": "existing reference/proof; not newly release-approved"
+    },
+    {
+      "path": "C:\\Users\\Administrator\\OneDrive\\Desktop\\.json book\\json_under_revision_v2\\chapters\\com-nguoi\\audio\\reading-script.md",
+      "exists": true,
+      "sha256": "cf4c625334674fdac0fa1718acd97549382603d4958e263e17a99b8db982e5d4",
+      "status": "existing reference/proof; not newly release-approved"
+    },
+    {
+      "path": "C:\\Users\\Administrator\\OneDrive\\Desktop\\.json book\\json_under_revision_v2\\chapters\\com-nguoi\\audio\\ambience.wav",
+      "exists": true,
+      "sha256": "c2160520920b12612de76c63c1a90b52dd04d9c9c412199923d585f3e0a6d119",
+      "status": "existing reference/proof; not newly release-approved"
+    },
+    {
+      "path": "C:\\Users\\Administrator\\OneDrive\\Desktop\\.json book\\json_under_revision_v2\\chapters\\com-nguoi\\video\\timeline.json",
+      "exists": true,
+      "sha256": "50108822913a91f38f420fb953e527f66b7c0f17e791f592b99fa118b58f7493",
+      "status": "existing reference/proof; not newly release-approved"
+    },
+    {
+      "path": "C:\\Users\\Administrator\\OneDrive\\Desktop\\.json book\\json_under_revision_v2\\chapters\\com-nguoi\\video\\STORYBOARD.md",
+      "exists": true,
+      "sha256": "1d8f9eca0464e7768bdc65eff0056fa01fc685b9c4ee9e2b347d5605aaca502e",
+      "status": "existing reference/proof; not newly release-approved"
+    },
+    {
+      "path": "C:\\Users\\Administrator\\OneDrive\\Desktop\\.json book\\json_under_revision_v2\\chapters\\com-nguoi\\video\\discovery-9x16.mp4",
+      "exists": true,
+      "sha256": "5f19c292ada72e8d473e67f3c9c1f5b748654cab576a646bcbdac4ba2fb47ad8",
+      "status": "existing reference/proof; not newly release-approved"
+    },
+    {
+      "path": "C:\\Users\\Administrator\\OneDrive\\Desktop\\.json book\\json_under_revision_v2\\chapters\\com-nguoi\\video\\feed-3x4.mp4",
+      "exists": true,
+      "sha256": "a9c8c9eddfe99ef5655f6c5e8b223d5744353928bd5ba601ebb6f3db05387d23",
+      "status": "existing reference/proof; not newly release-approved"
+    },
+    {
+      "path": "C:\\Users\\Administrator\\OneDrive\\Desktop\\.json book\\json_under_revision_v2\\chapters\\com-nguoi\\video\\youtube-9x16.mp4",
+      "exists": true,
+      "sha256": "4ee110cf9ed10e3a32be6993f13d3616f038f2568fc4a2b1918ff54c1cb1ee47",
+      "status": "existing reference/proof; not newly release-approved"
+    },
+    {
+      "path": "C:\\Users\\Administrator\\OneDrive\\Desktop\\.json book\\json_under_revision_v2\\chapters\\com-nguoi\\book\\chapter-A5-proof.pdf",
+      "exists": true,
+      "sha256": "6ff6213ca58f98db1487b2fab55ee82b9b9f4d85ac5f204a1e2198d6841fac24",
+      "status": "existing reference/proof; not newly release-approved"
+    },
+    {
+      "path": "C:\\Users\\Administrator\\OneDrive\\Desktop\\.json book\\json_under_revision_v2\\chapters\\com-nguoi\\web\\index.html",
+      "exists": true,
+      "sha256": "681f491d4f46bee1e62f13055dfd63a558c22906da01316e6e0a776e61a0e4fb",
+      "status": "existing reference/proof; not newly release-approved"
+    },
+    {
+      "path": "C:\\Users\\Administrator\\OneDrive\\Desktop\\.json book\\json_under_revision_v2\\chapters\\com-nguoi\\social\\instagram\\slide-01.jpg",
+      "exists": true,
+      "sha256": "d5ff1f499bbc8170c1a404ad5fa26a725d68c69e44202e06eb108c147aeb0ea9",
+      "status": "existing reference/proof; not newly release-approved"
+    },
+    {
+      "path": "C:\\Users\\Administrator\\OneDrive\\Desktop\\.json book\\json_under_revision_v2\\chapters\\com-nguoi\\social\\instagram\\slide-02.jpg",
+      "exists": true,
+      "sha256": "5d31da2802e4668d34afa3ed4eec77385e25608578736d25fe52d019cac41ae6",
+      "status": "existing reference/proof; not newly release-approved"
+    },
+    {
+      "path": "C:\\Users\\Administrator\\OneDrive\\Desktop\\.json book\\json_under_revision_v2\\chapters\\com-nguoi\\social\\instagram\\slide-03.jpg",
+      "exists": true,
+      "sha256": "e5e62163ff6829f778a2700de522213f2b155d3c5331f4bc1a572e9ae37e3981",
+      "status": "existing reference/proof; not newly release-approved"
+    },
+    {
+      "path": "C:\\Users\\Administrator\\OneDrive\\Desktop\\.json book\\json_under_revision_v2\\chapters\\com-nguoi\\social\\instagram\\slide-04.jpg",
+      "exists": true,
+      "sha256": "54cc2686b52f986214c7cc4d803b5e6b162462ca9f1cae48cb06c318d841ec83",
+      "status": "existing reference/proof; not newly release-approved"
+    },
+    {
+      "path": "C:\\Users\\Administrator\\OneDrive\\Desktop\\.json book\\json_under_revision_v2\\chapters\\com-nguoi\\social\\instagram\\slide-05.jpg",
+      "exists": true,
+      "sha256": "921fb91caffd23e7d4849fbbdb17ba70a2c77e06aece6a55c54a45c2733ae9b4",
+      "status": "existing reference/proof; not newly release-approved"
+    }
+  ],
+  "local_reader_mappings": [
+    {
+      "source": "chapters/com-nguoi/artwork/portal/rice-portal.png",
+      "public_path": "assets/rice-portal.png",
+      "sha256_at_intake": "ddadcd45d41920aea71ea03b515e063c6e3879c53d5f692460936aea641f619b",
+      "provenance": "Preserved from the v2 portal edition; fonts retain their supplied OFL licenses."
+    },
+    {
+      "source": "chapters/com-nguoi/artwork/portal/rice-scene-v2.png",
+      "public_path": "assets/rice-scene-v2.png",
+      "sha256_at_intake": "6c9859ee3574ed85f5acd404f558a3ed00667968c3685fe66d81c46544b015ef",
+      "provenance": "Earlier full-bleed Cold Rice family-meal scene; retained as a digital alternate after the author's new board was adopted. The original supplied rice portal remains preserved."
+    },
+    {
+      "source": "chapters/com-nguoi/artwork/portal/rice-ring.png",
+      "public_path": "assets/rice-ring.png",
+      "sha256_at_intake": "b27d09261705044a72f15a4d1bfb4364d2ab7f8b285ca9c6a22fa324d4e854fb",
+      "provenance": "Earlier Cold Rice ring cut from the preserved author-supplied rice-portal.png by scripts/cut_rice_ring.py; retained as a digital alternate."
+    },
+    {
+      "source": "chapters/com-nguoi/artwork/portal/rice-ring-board-v2.png",
+      "public_path": "assets/rice-ring-board-v2.png",
+      "sha256_at_intake": "506d51ad8ee7074b2a4ff1f184313dfc8af5b611ab957d136b9bfc052d1dc206",
+      "provenance": "Cold Rice floral lattice ring, cut from the author's unchanged prologue - cold rice.png design board by scripts/cut_cold_rice_board.py; active on the chapter map and prologue leaf."
+    },
+    {
+      "source": "chapters/com-nguoi/artwork/portal/rice-scene-board-v2.png",
+      "public_path": "assets/rice-scene-board-v2.png",
+      "sha256_at_intake": "0f8e8cbca1a028646ccf7405611cd6e9d9c60f20ae5c4c4470b66009621b32fe",
+      "provenance": "Aligned family-dinner centre from the Cold Rice design board; active under its chapter ring and the shared homepage ring."
+    },
+    {
+      "source": "chapters/com-nguoi/artwork/portal/rice-family-room-v2.webp",
+      "public_path": "assets/rice-family-room-v2.webp",
+      "sha256_at_intake": "a655596054dede9293ab26a4dd154d6f6060e8aad3e78b51f948239f386c0fdd",
+      "provenance": "Uncropped 3:2 family dinner view from the Cold Rice design board for digital reading previews. Screen-only artwork."
+    },
+    {
+      "source": "shared/artwork/digital-book/com-nguoi/mainBook.webp",
+      "public_path": "assets/digital-book/com-nguoi/mainBook.webp",
+      "sha256_at_intake": "3c373a8c14bfae34d6c5ed03581464b396c6921478430d7448789313a6f2376e",
+      "provenance": "Author asset archive: chapters/com-nguoi/artwork/main-book/portal.webp. Placement: main_book; native master retained in the supplied ZIP."
+    },
+    {
+      "source": "shared/artwork/digital-book/com-nguoi/map.webp",
+      "public_path": "assets/digital-book/com-nguoi/map.webp",
+      "sha256_at_intake": "6b206ba8a69da0c86d1e28aa7747bca6c4edc087f294e297daf8cb20fbb9cb8f",
+      "provenance": "Author asset archive: chapters/com-nguoi/artwork/chapter-map/portal.webp. Placement: chapter_map; native master retained in the supplied ZIP."
+    },
+    {
+      "source": "shared/artwork/digital-book/com-nguoi/opening.webp",
+      "public_path": "assets/digital-book/com-nguoi/opening.webp",
+      "sha256_at_intake": "79b61b71d689bd27bd5cab1679c2a875aff7a8b660619afad9d1ed39d4a3587a",
+      "provenance": "Author asset archive: chapters/com-nguoi/artwork/chapter-page/portal.webp. Placement: chapter_opening; native master retained in the supplied ZIP."
+    },
+    {
+      "source": "shared/artwork/digital-book/com-nguoi/hero.webp",
+      "public_path": "assets/digital-book/com-nguoi/hero.webp",
+      "sha256_at_intake": "317e9cfb33874f3ee417c09a6b43ca07de16fa69e63e93a4503e7352e93c4f84",
+      "provenance": "Author asset archive: chapters/com-nguoi/artwork/chapter-page/hero.webp. Placement: reader_hero; native master retained in the supplied ZIP."
+    },
+    {
+      "source": "shared/artwork/digital-book/com-nguoi/inline.webp",
+      "public_path": "assets/digital-book/com-nguoi/inline.webp",
+      "sha256_at_intake": "ce4f7fd4c2e46725139dc97f04bdd2b4fcfb8f00cef3313331063a608dfe0342",
+      "provenance": "Author asset archive: chapters/com-nguoi/artwork/content/illustrations/01-story-detail.webp. Placement: inline_illustration; native master retained in the supplied ZIP."
+    },
+    {
+      "source": "shared/artwork/digital-book/com-nguoi/centre.webp",
+      "public_path": "assets/digital-book/com-nguoi/centre.webp",
+      "sha256_at_intake": "d64ca99c1eca03a343f505939db8148444440e756339e1fd4da2f239ca15d8c4",
+      "provenance": "Author asset archive: chapters/com-nguoi/artwork/main-book/centre-scene.webp. Stationary centre for the rotating main-book ring."
+    }
+  ],
+  "issues": [],
+  "assets_copied": 0,
+  "images_generated": 0,
+  "new_layout_exports": "v2 review adaptations only",
+  "rights_approval": "pending",
+  "verification_scope": "Catalog existence/bytes/SHA plus principal runtime versions; separate fresh visual review of chapter proof and new exports; not deployment or full library QA"
+}

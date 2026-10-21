@@ -1,0 +1,151 @@
+{
+  "chapter": "dating-102",
+  "products": [
+    {
+      "product": "Selected prose",
+      "state": "ready",
+      "path": "source/approved.md"
+    },
+    {
+      "product": "Source illustration and scene crops",
+      "state": "original-edition scene library retained; current digital board provenance added",
+      "path": "artwork/scenes/index.json"
+    },
+    {
+      "product": "Chapter 19 digital portal",
+      "state": "board-derived screen crop; both readers held in the stationary centre",
+      "path": "artwork/portal/dating-102-portal-v2.png"
+    },
+    {
+      "product": "Chapter 19 rectangular reading illustration",
+      "state": "complete board-derived night-room vignette for digital reading",
+      "path": "artwork/portal/dating-102-spread-v2.webp"
+    },
+    {
+      "product": "Illustrated A5 chapter",
+      "state": "editorial proof",
+      "path": "book/chapter-A5-proof.pdf"
+    },
+    {
+      "product": "Interactive website",
+      "state": "v2 portal and reading spread; original Currency Exchange interaction retained",
+      "path": "web/index.html"
+    },
+    {
+      "product": "Instagram carousel (five 3:4 cards)",
+      "state": "ready",
+      "path": "social/instagram/slide-01.jpg"
+    },
+    {
+      "product": "Facebook image and copy",
+      "state": "ready",
+      "path": "social/facebook/post.jpg"
+    },
+    {
+      "product": "YouTube thumbnail and description",
+      "state": "ready",
+      "path": "social/youtube/thumbnail.jpg"
+    },
+    {
+      "product": "TikTok cover and caption",
+      "state": "ready",
+      "path": "social/tiktok/cover.jpg"
+    },
+    {
+      "product": "9:16 discovery cut",
+      "state": "edit preview; author narration pending",
+      "path": "video/discovery-9x16.mp4"
+    },
+    {
+      "product": "9:16 YouTube cut",
+      "state": "edit preview; author narration pending",
+      "path": "video/youtube-9x16.mp4"
+    },
+    {
+      "product": "3:4 feed cut",
+      "state": "edit preview; author narration pending",
+      "path": "video/feed-3x4.mp4"
+    },
+    {
+      "product": "SRT/VTT text timings",
+      "state": "provisional; retime to recorded narration",
+      "path": "video/timeline.json"
+    },
+    {
+      "product": "Author reading script",
+      "state": "ready for recording",
+      "path": "audio/reading-script.md"
+    },
+    {
+      "path": "artwork/exports/cover-a5.svg",
+      "product": "Editable cover typography",
+      "state": "concept-art derivative"
+    },
+    {
+      "path": "book/poster-A4-proof.pdf",
+      "product": "A4 poster",
+      "state": "editorial proof"
+    },
+    {
+      "path": "book/bookmark-proof.pdf",
+      "product": "Bookmark",
+      "state": "editorial proof"
+    },
+    {
+      "path": "audio/ambience.wav",
+      "product": "Ambient audio",
+      "state": "original synthetic bed; no speech"
+    },
+    {
+      "path": "audio/RECORDING_HANDOFF.md",
+      "product": "Recording handoff",
+      "state": "ready"
+    },
+    {
+      "path": "source/NARRATIVE_MAP.md",
+      "product": "Manuscript analysis",
+      "state": "ten paragraphs mapped to seven beats"
+    },
+    {
+      "path": "previews/product-board.jpg",
+      "product": "Actual product board",
+      "state": "delivered artifacts"
+    },
+    {
+      "path": "previews/PROJECT_BOARD.pdf",
+      "product": "Project board PDF",
+      "state": "design and production review"
+    },
+    {
+      "path": "video/teaser-9x16.mp4",
+      "product": "teaser-9x16 film",
+      "state": "edit preview; author narration pending"
+    },
+    {
+      "path": "video/essay-16x9.mp4",
+      "product": "essay-16x9 film",
+      "state": "edit preview; author narration pending"
+    },
+    {
+      "path": "social/instagram/story-01.jpg",
+      "product": "Instagram story 1",
+      "state": "ready"
+    },
+    {
+      "path": "social/instagram/story-02.jpg",
+      "product": "Instagram story 2",
+      "state": "ready"
+    },
+    {
+      "path": "social/instagram/story-03.jpg",
+      "product": "Instagram story 3",
+      "state": "ready"
+    }
+  ],
+  "remaining": [
+    "Jason recorded narration and final timing/mix",
+    "Printer specifications and final print production",
+    "Physical-device and human screen-reader review",
+    "Author-managed social uploads; QR remains deferred"
+  ]
+}

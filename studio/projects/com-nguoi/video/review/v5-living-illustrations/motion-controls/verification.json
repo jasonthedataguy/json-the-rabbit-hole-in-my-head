@@ -1,0 +1,33 @@
+{
+  "status": "pass",
+  "method": "Matched frames differ only by vapor enabled/disabled; exact loop end pose rendered separately.",
+  "checks": [
+    {
+      "scene": "dinner",
+      "frame": 390,
+      "steam_region_mean_pixel_change": 3.886425396825397,
+      "protected_cold_bowl_or_child_region_change": 0.0,
+      "caption_change": 0.0
+    },
+    {
+      "scene": "child",
+      "frame": 2340,
+      "steam_region_mean_pixel_change": 4.806241404845022,
+      "protected_cold_bowl_or_child_region_change": 0.0,
+      "caption_change": 0.0
+    }
+  ],
+  "loop_boundaries": [
+    {
+      "scene": "dinner",
+      "zero_and_eight_second_pixels_identical": true
+    },
+    {
+      "scene": "child",
+      "zero_and_eight_second_pixels_identical": true
+    }
+  ],
+  "renderer_sha256": "973a9a78488857118f34502e35884a436f0db5afe47c0d15b6dbefbbb2de4566",
+  "steam_component_sha256": "908129d5b74a5fedab1eca6443cf3ece3e69ac5ba360315c585b0bd725abc61d",
+  "author_quality_approved": false
+}

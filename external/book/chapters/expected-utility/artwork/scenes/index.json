@@ -1,0 +1,66 @@
+[
+  {
+    "id": "desk",
+    "path": "artwork/scenes/01-desk.jpg",
+    "source": "artwork/source/approved-illustration.png",
+    "source_crop_pixels": [
+      45,
+      393,
+      1088,
+      1108
+    ],
+    "native_size": [
+      1043,
+      715
+    ],
+    "kind": "crop of supplied illustration"
+  },
+  {
+    "id": "eyes",
+    "path": "artwork/scenes/02-eyes.jpg",
+    "source": "artwork/source/approved-illustration.png",
+    "source_crop_pixels": [
+      673,
+      266,
+      1043,
+      603
+    ],
+    "native_size": [
+      370,
+      337
+    ],
+    "kind": "crop of supplied illustration"
+  },
+  {
+    "id": "unobserved-window",
+    "path": "artwork/scenes/03-unobserved-window.jpg",
+    "source": "artwork/source/approved-illustration.png",
+    "source_crop_pixels": [
+      785,
+      336,
+      1088,
+      673
+    ],
+    "native_size": [
+      303,
+      337
+    ],
+    "kind": "crop of supplied illustration"
+  },
+  {
+    "id": "coffee",
+    "path": "artwork/scenes/04-coffee.jpg",
+    "source": "artwork/source/approved-illustration.png",
+    "source_crop_pixels": [
+      785,
+      813,
+      1055,
+      1122
+    ],
+    "native_size": [
+      270,
+      309
+    ],
+    "kind": "crop of supplied illustration"
+  }
+]

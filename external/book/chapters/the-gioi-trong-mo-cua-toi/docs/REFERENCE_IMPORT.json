@@ -1,0 +1,389 @@
+{
+  "source_package": "CH06_The_Gioi_Trong_Mo_FULL_Production_Kit_v01",
+  "archive": "CH06_The_Gioi_Trong_Mo_FULL_Production_Kit_v01.zip",
+  "zip_crc": "passed",
+  "zip_folder_bytes_match": true,
+  "zip_sha256": "cb247e3e5248dcc5f579b1836f3cd814466882c90fa783ded33d5b352f403e2c",
+  "files": [
+    {
+      "path": "references/dream-world-v01/art/00_approved_storyboard.jpg",
+      "bytes": 658194,
+      "sha256": "7ee62fe9f87973315475b2194f813bd079f8bdf9986ddae544f991a71c2711f3"
+    },
+    {
+      "path": "references/dream-world-v01/art/01_rooftop_skyline.jpg",
+      "bytes": 319402,
+      "sha256": "801b8cb4d9a9287dabbc147b89361b89c40e5b8d636173f4b7b9ea7d3a45307f"
+    },
+    {
+      "path": "references/dream-world-v01/art/02_metro_children.jpg",
+      "bytes": 350939,
+      "sha256": "5be1cea139572f849b0ca835b7c0840a887d60162395506555384ab4998fc3f0"
+    },
+    {
+      "path": "references/dream-world-v01/art/03_bastille_station.jpg",
+      "bytes": 167282,
+      "sha256": "63a6bbb9d932ba995fe669dc8e3c2c68cd29c671626a89cf77944c9aa2d134ea"
+    },
+    {
+      "path": "references/dream-world-v01/art/04_telephone.jpg",
+      "bytes": 107628,
+      "sha256": "5492c9ee0570f1900415c28f0ec1b557e1c47ba00c9ee02e18d292669f62d3d5"
+    },
+    {
+      "path": "references/dream-world-v01/art/05_imagined_kitchen.jpg",
+      "bytes": 127244,
+      "sha256": "c9916264a9e3d0a6570b4d754c88c456a9211970dba7e283fd0057895f9ea986"
+    },
+    {
+      "path": "references/dream-world-v01/art/06_rooftop_afterimage.jpg",
+      "bytes": 118606,
+      "sha256": "7277a285a0c25e01890727a16a37eba00c7e4380e4dd817b3924c77512a45cfe"
+    },
+    {
+      "path": "references/dream-world-v01/art/07_old_photographs.jpg",
+      "bytes": 128406,
+      "sha256": "c52b7eb8e89f2661cc4b9061cd9c4fa1f28879c5ea8efd4e0a1206b2cc893fbd"
+    },
+    {
+      "path": "references/dream-world-v01/art/08_both_children.jpg",
+      "bytes": 132245,
+      "sha256": "c9c0cdcb10de07a7ebb9f801b631483e6b50bdd850aa9794ea2bafd88f7d06e7"
+    },
+    {
+      "path": "references/dream-world-v01/art/09_paper_print_detail.jpg",
+      "bytes": 310684,
+      "sha256": "9d90e1f1abe50fbe152a5afb4ff94414483cccca90eff69ce4d8e69c529eb516"
+    },
+    {
+      "path": "references/dream-world-v01/art/10_poster_reference.jpg",
+      "bytes": 186171,
+      "sha256": "8d5e095dcfad13429db9ab52182739d228fa07b39ff03b6052479918e96be9c8"
+    },
+    {
+      "path": "references/dream-world-v01/art/11_web_reference.jpg",
+      "bytes": 592393,
+      "sha256": "9c70332ca692ce8a192b93ceb18d466e3e7d953610a51077ffd3bbef18708c98"
+    },
+    {
+      "path": "references/dream-world-v01/art/12_social_reference.jpg",
+      "bytes": 699057,
+      "sha256": "fb4b8e60518d12b2cbcbb53daafa1a3f85fa112b4fec9b35509a890787eb77ca"
+    },
+    {
+      "path": "references/dream-world-v01/art/13_main_book_cover.jpg",
+      "bytes": 347514,
+      "sha256": "b92266bb2fb29a7476e7e694ec6f4cda2c733c128ea14dc65488e909a17a2383"
+    },
+    {
+      "path": "references/dream-world-v01/art/14_A4_poster_master_proof.jpg",
+      "bytes": 452905,
+      "sha256": "6efecc7f2c2831189243dccd3245c7e1cbf15af597b017abafb443d6067e7987"
+    },
+    {
+      "path": "references/dream-world-v01/book/06_The_Gioi_Trong_Mo_A4_POSTER_PROOF.pdf",
+      "bytes": 567786,
+      "sha256": "ba8da9749f658b41976e6292b6a6428f961188f273fec096a417c3ec9fa70616"
+    },
+    {
+      "path": "references/dream-world-v01/book/06_The_Gioi_Trong_Mo_A5_EDITORIAL_PROOF.pdf",
+      "bytes": 1242596,
+      "sha256": "704b7ca8e120abdd83b904c91cf231a13061b85025e9a0ddc460b10589621154"
+    },
+    {
+      "path": "references/dream-world-v01/docs/assets/visual_board.jpg",
+      "bytes": 658194,
+      "sha256": "7ee62fe9f87973315475b2194f813bd079f8bdf9986ddae544f991a71c2711f3"
+    },
+    {
+      "path": "references/dream-world-v01/docs/CHECKLIST.csv",
+      "bytes": 15592,
+      "sha256": "8ae4fa138311cbbd1f60bc1d23982dd38ba044051d870bd2af00195c1601465f"
+    },
+    {
+      "path": "references/dream-world-v01/docs/DELIVERY_MANIFEST.json",
+      "bytes": 1083,
+      "sha256": "151be9a392b99097ebf53efb9724a3051229f7529420f4a40f847605b7fdf51f"
+    },
+    {
+      "path": "references/dream-world-v01/docs/FULL_PROJECT_BOARD.md",
+      "bytes": 5624,
+      "sha256": "24889fee4e15859a78de4967c2894e6335729e2398a313fedeb4dad95c780249"
+    },
+    {
+      "path": "references/dream-world-v01/docs/METADATA.json",
+      "bytes": 823,
+      "sha256": "f0aea048356ea8c8cdf31983d715ccba0438ca87ee50020886d02e10322c4db1"
+    },
+    {
+      "path": "references/dream-world-v01/docs/PROJECT_BOARD.html",
+      "bytes": 27753,
+      "sha256": "4632a8269bbcdd5a0fd36451b01777107838a4b4e03844056e5cfb58fc64716a"
+    },
+    {
+      "path": "references/dream-world-v01/docs/QA_REPORT.json",
+      "bytes": 1327,
+      "sha256": "2dfd721ec9db2c9dd2a339cb89538e5b3196bb9a7e4586f5b5c976d0cd2498ba"
+    },
+    {
+      "path": "references/dream-world-v01/docs/TASKS.json",
+      "bytes": 24454,
+      "sha256": "ed6f5bc83ee0d185e1498c71ca4ff4c2a6e75699558d767ccba30467927d4897"
+    },
+    {
+      "path": "references/dream-world-v01/manuscript/EDITORIAL_NOTES.md",
+      "bytes": 1392,
+      "sha256": "2e2a2ef85d952c03bd18cf69ced35abaf7dccba8e9fdfae2148835abea06ce13"
+    },
+    {
+      "path": "references/dream-world-v01/manuscript/ORIGINAL_UNCHANGED.md",
+      "bytes": 5060,
+      "sha256": "4382f452fa05b61baceed66a86b0510882f9a5b7329a44bf9fa3e831b830c3d9"
+    },
+    {
+      "path": "references/dream-world-v01/previews/A5_CONTACT_SHEET.jpg",
+      "bytes": 370983,
+      "sha256": "f273f128771c45943f47d70b9ca207d3814aa3f24843c7767f4f839eacada4e5"
+    },
+    {
+      "path": "references/dream-world-v01/previews/a5_page_1.jpg",
+      "bytes": 56920,
+      "sha256": "180bd3dab78ece18bb5d1069d6b600b3452c561ccbef0c3142aa920dd1fb604c"
+    },
+    {
+      "path": "references/dream-world-v01/previews/a5_page_2.jpg",
+      "bytes": 59118,
+      "sha256": "d5a28ab02d1b35fc85aac083b43f044a1a4ebaee8fb69f1f36435829d150acbd"
+    },
+    {
+      "path": "references/dream-world-v01/previews/a5_page_3.jpg",
+      "bytes": 72321,
+      "sha256": "9900dbcd341b7f42fa6d331c3c71a2f9515244bf132629b5533b8dc0598ab1d7"
+    },
+    {
+      "path": "references/dream-world-v01/previews/a5_page_4.jpg",
+      "bytes": 62289,
+      "sha256": "fe5f850c2422eca28112c4091d6b820bd8e9e7b5b0ca8bf8d2347fb4a652f234"
+    },
+    {
+      "path": "references/dream-world-v01/previews/a5_page_5.jpg",
+      "bytes": 57649,
+      "sha256": "b499514042a03a82560e3434d0ac2b23b96bf1e1de1883c5ba70d50a0d259e70"
+    },
+    {
+      "path": "references/dream-world-v01/previews/a5_page_6.jpg",
+      "bytes": 11760,
+      "sha256": "ae2be0bfde641d35999f04b134a3266959e37375af3bb84caa4e919c3f334fa7"
+    },
+    {
+      "path": "references/dream-world-v01/previews/board_desktop.png",
+      "bytes": 744386,
+      "sha256": "a213f648db9d5f7846c3958c4e6488ef63f67a46caddbda8a1e009ef93ffc482"
+    },
+    {
+      "path": "references/dream-world-v01/previews/board_mobile.png",
+      "bytes": 46630,
+      "sha256": "071968b7768fa1dc80a3c4c163e70c6a5ffcb290bf2c00c4c65a9dcb09eea2fd"
+    },
+    {
+      "path": "references/dream-world-v01/previews/VIDEO_STORYBOARD.jpg",
+      "bytes": 216248,
+      "sha256": "ee755e0ee6030e1f3a727312697e9fff65b6fbf697840a18b28cebbd209c30cf"
+    },
+    {
+      "path": "references/dream-world-v01/previews/website_desktop.png",
+      "bytes": 342868,
+      "sha256": "2a534a01363f37b1fc4c23c33c89e36dc0e0969670c5b2b0ee9ff397b677ee91"
+    },
+    {
+      "path": "references/dream-world-v01/previews/website_mobile.png",
+      "bytes": 157278,
+      "sha256": "86d9ad1dab32fc1acb31a883b75c9180ffe49f6efb61b21a238f85c5f68abd87"
+    },
+    {
+      "path": "references/dream-world-v01/README.md",
+      "bytes": 2230,
+      "sha256": "ab6a7871757e752d2e4e443016f9e78a6a6297c2b321f83d7a958b33453e7240"
+    },
+    {
+      "path": "references/dream-world-v01/social/facebook_1600x900.jpg",
+      "bytes": 184283,
+      "sha256": "b4ccbb9fd4e682682536bfbda6e54c345acfc3b28ddc6265962348ceef2ebd13"
+    },
+    {
+      "path": "references/dream-world-v01/social/instagram/slide_01_3x4.jpg",
+      "bytes": 211930,
+      "sha256": "ce689768186aa21442d988c82dcf26cd94ba9e15785a158883030e9ea0d7347d"
+    },
+    {
+      "path": "references/dream-world-v01/social/instagram/slide_02_3x4.jpg",
+      "bytes": 244875,
+      "sha256": "4f5a46e79bba9d754eecb939650376139a806f5d17e8574c20a54690b8318cf6"
+    },
+    {
+      "path": "references/dream-world-v01/social/instagram/slide_03_3x4.jpg",
+      "bytes": 149849,
+      "sha256": "9f47dcd0c2f7ba5b03a5b69bc4f1916890baf10ed56b0de79ab53f4b7d9be5ce"
+    },
+    {
+      "path": "references/dream-world-v01/social/instagram/slide_04_3x4.jpg",
+      "bytes": 159055,
+      "sha256": "1505d48f48cbbc199d87764f4143b3ff250c70740ddb38eda759af940a26eac8"
+    },
+    {
+      "path": "references/dream-world-v01/social/instagram/slide_05_3x4.jpg",
+      "bytes": 165383,
+      "sha256": "724316a6a4317d6cfe7dda96b723a4f8e3e6513b5d4ca5d4b8749bcac8bbc1bb"
+    },
+    {
+      "path": "references/dream-world-v01/social/POSTS_DRAFT.md",
+      "bytes": 1248,
+      "sha256": "d9799173afecdd60219fb9ce5678f62a1e8306c452057a5ef238c762842d04a8"
+    },
+    {
+      "path": "references/dream-world-v01/social/youtube_thumbnail_1280x720.jpg",
+      "bytes": 136592,
+      "sha256": "44138f8ac77cfaef5f086548094e68ef289c1b7ce0d14227d7886b925d035d3f"
+    },
+    {
+      "path": "references/dream-world-v01/source/build_chapter.py",
+      "bytes": 48524,
+      "sha256": "5e562175f2105018d86b3c004dcad9a86fa5954498fa78a57f66ab5c20d1cf0a"
+    },
+    {
+      "path": "references/dream-world-v01/source/inputs/chapter_06_a_dream_in_paris.png",
+      "bytes": 3177120,
+      "sha256": "6de2d538c219cf89418d580efa1cde20ad91e75a2f93dd25fa68ccbc7e92fc2b"
+    },
+    {
+      "path": "references/dream-world-v01/source/inputs/dream_worlds_in_paris_moodboard.png",
+      "bytes": 3454126,
+      "sha256": "dd60afdab0cfc34de4db295ae055a8da0fb52466810ec9d5e6b3b229cc9a2e16"
+    },
+    {
+      "path": "references/dream-world-v01/source/inputs/paris_dreamworld_editorial_storyboard.png",
+      "bytes": 3226725,
+      "sha256": "2eba32a772c9feb7e2c665df7ef5b9a173f6daaf9b427d97298d7365abc8685b"
+    },
+    {
+      "path": "references/dream-world-v01/source/inputs/paris_twilight_storyboard_ui.png",
+      "bytes": 3098917,
+      "sha256": "1372bffd798305e07ac81bacc0c04614de47e981ca7c62027c2139203e63579b"
+    },
+    {
+      "path": "references/dream-world-v01/source/package_chapter.py",
+      "bytes": 2263,
+      "sha256": "533309ecccc575d5ad4962081797e7aa7223a7b58e1230f66cd737a6a1bb972f"
+    },
+    {
+      "path": "references/dream-world-v01/source/validate_chapter.py",
+      "bytes": 4535,
+      "sha256": "7b74c7228b4ce52d9192bc03e28224c2ac60e6407f49598222b51d624169f22f"
+    },
+    {
+      "path": "references/dream-world-v01/video/06_The_Gioi_Trong_Mo_ANIMATIC_9x16.mp4",
+      "bytes": 491284,
+      "sha256": "5842a569ea03c2c581fdf0d569415234a6ff6175fba21fccc1f7f939ea66730e"
+    },
+    {
+      "path": "references/dream-world-v01/video/NARRATION_DRAFT.md",
+      "bytes": 819,
+      "sha256": "ffe2c8a2cfae3ba6e9cb553079955a0d2a009c5e4a39e313b3092fc2e467fd1e"
+    },
+    {
+      "path": "references/dream-world-v01/video/original_synthetic_ambience.wav",
+      "bytes": 1058444,
+      "sha256": "4fb2791229659a0ad2b77596b27d08c632bf1c65a497eb1ae1321872ae704ab8"
+    },
+    {
+      "path": "references/dream-world-v01/video/stills/beat_01.jpg",
+      "bytes": 111039,
+      "sha256": "3180f93ae2e2754c5913418c6e07fc747e23b59c8037b8fc589b3030827da0c6"
+    },
+    {
+      "path": "references/dream-world-v01/video/stills/beat_02.jpg",
+      "bytes": 131046,
+      "sha256": "7f696f6a2b9dfca6bc197052bb31689f96abf83f902bc9f0e448d1d37a2a32f7"
+    },
+    {
+      "path": "references/dream-world-v01/video/stills/beat_03.jpg",
+      "bytes": 67197,
+      "sha256": "a1c17f22daf6a5d2bc203ebdc56a4af652dde38bf114691a7a41b133925c17cb"
+    },
+    {
+      "path": "references/dream-world-v01/video/stills/beat_04.jpg",
+      "bytes": 85992,
+      "sha256": "56a74fd9ca67b9fef18b07c58e5595a286b6f6292f4acc9c14af506626dce267"
+    },
+    {
+      "path": "references/dream-world-v01/video/stills/beat_05.jpg",
+      "bytes": 79331,
+      "sha256": "0919344fa047927b38b7557f807912af83b0c25f00cfb71852fb1b4feaf9501b"
+    },
+    {
+      "path": "references/dream-world-v01/video/stills/beat_06.jpg",
+      "bytes": 84642,
+      "sha256": "dd3be7a24badf63466f003c378f328f08a98d370e3a79febf0046703e4d04b4a"
+    },
+    {
+      "path": "references/dream-world-v01/video/STORYBOARD.md",
+      "bytes": 942,
+      "sha256": "9de80020b2401f4005d0554c1ae631d23a671cd8248ba7f58f79885f2c2443d1"
+    },
+    {
+      "path": "references/dream-world-v01/video/VISUAL_BEAT_CAPTIONS_NOT_SYNCED_TO_VOICE.srt",
+      "bytes": 428,
+      "sha256": "1ef2b8ff05fe8a070812e6a5c5d2736262eebe325458199c17260edd69cbfe41"
+    },
+    {
+      "path": "references/dream-world-v01/web/app.js",
+      "bytes": 7784,
+      "sha256": "6a9f37601e021c726fbdb40007f35632a10ae8e52a9048a6a3704505f928bb75"
+    },
+    {
+      "path": "references/dream-world-v01/web/assets/03_bastille_station.jpg",
+      "bytes": 167282,
+      "sha256": "63a6bbb9d932ba995fe669dc8e3c2c68cd29c671626a89cf77944c9aa2d134ea"
+    },
+    {
+      "path": "references/dream-world-v01/web/assets/04_telephone.jpg",
+      "bytes": 107628,
+      "sha256": "5492c9ee0570f1900415c28f0ec1b557e1c47ba00c9ee02e18d292669f62d3d5"
+    },
+    {
+      "path": "references/dream-world-v01/web/assets/07_old_photographs.jpg",
+      "bytes": 128406,
+      "sha256": "c52b7eb8e89f2661cc4b9061cd9c4fa1f28879c5ea8efd4e0a1206b2cc893fbd"
+    },
+    {
+      "path": "references/dream-world-v01/web/assets/afterimage.jpg",
+      "bytes": 118606,
+      "sha256": "7277a285a0c25e01890727a16a37eba00c7e4380e4dd817b3924c77512a45cfe"
+    },
+    {
+      "path": "references/dream-world-v01/web/assets/hero.jpg",
+      "bytes": 319402,
+      "sha256": "801b8cb4d9a9287dabbc147b89361b89c40e5b8d636173f4b7b9ea7d3a45307f"
+    },
+    {
+      "path": "references/dream-world-v01/web/assets/imagined.jpg",
+      "bytes": 127244,
+      "sha256": "c9916264a9e3d0a6570b4d754c88c456a9211970dba7e283fd0057895f9ea986"
+    },
+    {
+      "path": "references/dream-world-v01/web/assets/observed.jpg",
+      "bytes": 350939,
+      "sha256": "5be1cea139572f849b0ca835b7c0840a887d60162395506555384ab4998fc3f0"
+    },
+    {
+      "path": "references/dream-world-v01/web/index.html",
+      "bytes": 2966,
+      "sha256": "0a618c40256f3e1d156317539e40d3a292569e802e9f24e544290dd0bffc6445"
+    },
+    {
+      "path": "references/dream-world-v01/web/styles.css",
+      "bytes": 3517,
+      "sha256": "cb24921e6a00496ec9e975eba693b325c1e3a211ab1337ec52fefa17bd08736e"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "slug": "fashion",
+  "number": "02",
+  "title": "Fashion",
+  "subtitle": "Không chỉ để mặc. Có khi quần áo đang kể hộ mình một câu chuyện.",
+  "publish": true,
+  "language": "vi",
+  "theme": [
+    "fashion",
+    "streetwear",
+    "identity",
+    "patina",
+    "family"
+  ],
+  "palette": {
+    "dark": "#062F26",
+    "paper": "#F5EBD8",
+    "accent": "#F47EAC",
+    "ink": "#0F1E1A"
+  },
+  "artifact": "wardrobe",
+  "release_stage": "supplied",
+  "web_template": "web/template.html",
+  "canonical_text": "source/approved.md",
+  "canonical_path": "chapters/02/",
+  "aliases": [
+    "chapters/fashion/"
+  ],
+  "hero_alt": "Fashion — căn phòng xanh và hồng, tủ quần áo và những món đồ đã sống cùng một người.",
+  "illustration": "artwork/source/05_WIDE_HERO.png",
+  "illustration_provenance": "Supplied Fashion v02 artwork; only a homepage crop was derived for this release.",
+  "narration": {
+    "status": "awaiting-author-recording",
+    "file": null,
+    "synthetic_voice": false
+  },
+  "video_mode": "edit cuts awaiting author-recorded narration",
+  "print_status": "current A5 illustrated, A4 ink-saving and A4 imposed booklet PDFs; home/office printable; commercial press specifications pending",
+  "qr_status": "deferred",
+  "source_status": "Author revision received 2026-10-17; wording preserved with paragraph-spacing normalization only",
+  "text_policy": "verbatim-author-original",
+  "manuscript_source": {
+    "path": "source/revision-2026-10-17.md",
+    "received_on": "2026-10-17",
+    "bytes": 6643,
+    "sha256": "fa6d61a045a5c160a45ecd541382077c46a4581b00de6ffd027bf1674ac78c9e"
+  },
+  "reference_manifest": "docs/REFERENCE_IMPORT.json",
+  "revision_note": "Bản đang đọc được tác giả cập nhật ngày 17/10/2026. Giữ nguyên câu chữ và chữ ký Jason; chỉ thêm dòng trống để tách đoạn. Bản trước được lưu bên dưới.",
+  "history_text": "source/original.md",
+  "history_label": "Bản trước — 16/10/2026",
+  "publication_authorization": "2026-10-17: author requested Git deployment and review/completion of Fashion posts and books, including a printable edition."
+}

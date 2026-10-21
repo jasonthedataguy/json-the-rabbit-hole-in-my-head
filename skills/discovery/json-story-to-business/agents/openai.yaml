@@ -1,0 +1,4 @@
+interface:
+  display_name: ".json Story to Business"
+  short_description: "Turn stories into a complete .json studio release"
+  default_prompt: "Use $json-story-to-business to continue the selected story through the studio, preserving my voice, the standard video opening and release approval gates."

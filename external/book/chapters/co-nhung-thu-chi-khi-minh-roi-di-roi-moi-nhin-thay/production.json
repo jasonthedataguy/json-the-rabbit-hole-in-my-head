@@ -1,0 +1,20 @@
+{
+  "scenes": [],
+  "carousel": [],
+  "print_scenes": [],
+  "films": [],
+  "memory": {
+    "heading": "",
+    "intro": "",
+    "moments": []
+  },
+  "digital_portal": {
+    "recipe": "scripts/cut_after_leaving_board.py",
+    "ring": "artwork/portal/after-leaving-ring-v1.png",
+    "scene": "artwork/portal/after-leaving-scene-v1.png",
+    "homepage_scene": "artwork/portal/after-leaving-scene-v1.png",
+    "reader_illustration": "artwork/portal/after-leaving-spread-v1.webp",
+    "standalone_portal": "web/assets/after-leaving-portal-v1.png",
+    "status": "digital crops from flattened supplied board"
+  }
+}

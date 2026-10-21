@@ -1,0 +1,32 @@
+{
+  "schema_version": 2,
+  "slug": "tieu-hanh-tinh",
+  "number": "17",
+  "title": "Asteroid",
+  "short_title": "Asteroid",
+  "part": 3,
+  "language": "vi",
+  "publish": true,
+  "release_stage": "reader-with-digital-portal",
+  "canonical_text": "source/approved.md",
+  "canonical_path": "#chapter/17",
+  "summary": "Một cô gái như tiểu hành tinh tỏa sáng bước vào công việc và cuộc sống của Jason. Họ dần thân hơn, nhưng thời gian và những quỹ đạo riêng khiến anh chỉ có thể mong cô tiếp tục rực rỡ.",
+  "portal": {
+    "scene": "A woman sits on her own luminous little planet as Jason looks toward her; work, shared conversations, houses and diverging paths orbit around them.",
+    "objects": [
+      "luminous small planet",
+      "two coworkers",
+      "cafe conversation",
+      "travel suitcase",
+      "distant house",
+      "orbit line"
+    ],
+    "iconKey": "asteroid",
+    "motif": "Two briefly intersecting orbits"
+  },
+  "original_edition": null,
+  "production_status": "author-selected full manuscript and board-derived digital portal; print and media pending",
+  "manuscript_sha256": "6cb28fbd785d3ce0c44fee93a3c0209f4d32b234af7d4826a3c884e49c6cea29",
+  "outline_title": "Tiểu hành tinh",
+  "original_title": "Tiểu hành tinh"
+}

@@ -1,0 +1,71 @@
+{
+  "brand": ".json - the rabbit hole in my head",
+  "palette": {
+    "midnight": "#101F31",
+    "navy": "#1C3247",
+    "cream": "#F4EEE3",
+    "sage": "#56736B",
+    "terracotta": "#C46D59",
+    "gold": "#DFA569",
+    "plum": "#59455E"
+  },
+  "direction": [
+    "quiet luxury",
+    "editorial paper grain",
+    "parallax layered circles",
+    "restrained light / movement",
+    "organic voiceover",
+    "no cartoon facial animation"
+  ],
+  "formats": [
+    {
+      "name": "vertical",
+      "width": 1080,
+      "height": 1920,
+      "fps": 30
+    },
+    {
+      "name": "landscape",
+      "width": 1920,
+      "height": 1080,
+      "fps": 30
+    },
+    {
+      "name": "square",
+      "width": 1080,
+      "height": 1080,
+      "fps": 30
+    },
+    {
+      "name": "feed",
+      "width": 1080,
+      "height": 1440,
+      "fps": 30
+    }
+  ],
+  "motion": {
+    "maxZoom": 1.05,
+    "transition": "soft dissolve",
+    "suggestedScaleChangePercent": [
+      2,
+      5
+    ],
+    "suggestedMoveDurationSeconds": [
+      5,
+      8
+    ],
+    "durationRule": "timeline/actual VO; 45s is a planning pattern, not a forced runtime",
+    "parallax": "requires reviewed separated layers; current renderer is flat illustration"
+  },
+  "schema_version": "1.0",
+  "source_deck": "json_video_design_strategy_deck.pptx",
+  "type": {
+    "vietnamese": "Existing Noto Serif + OFL from book repository; verify glyphs before new fonts"
+  },
+  "content_mix_hypothesis": {
+    "illustration": 75,
+    "consent_cleared_archive": 20,
+    "contextualized_reconstruction": 5,
+    "status": "unvalidated creative hypothesis; no quota or evidence claim"
+  }
+}

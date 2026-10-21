@@ -1,0 +1,24 @@
+{
+  "source_path": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\com-nguoi\\artwork\\chapter-page\\hero.webp",
+  "source_sha256": "317e9cfb33874f3ee417c09a6b43ca07de16fa69e63e93a4503e7352e93c4f84",
+  "previous_version": "v4-layer-animation",
+  "changed_asset": {
+    "id": "dinner-base",
+    "path": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\animation\\v5\\assets\\dinner-base-living.png",
+    "sha256": "a9c95700838856c2ee8834f5b5ec85201c3c29066501f32a7cfa035218062fb9",
+    "role": "base",
+    "provenance": {
+      "source_path": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\com-nguoi\\artwork\\chapter-page\\hero.webp",
+      "source_sha256": "317e9cfb33874f3ee417c09a6b43ca07de16fa69e63e93a4503e7352e93c4f84",
+      "operation": "Reuse v4 environmental clean plate and remove the frozen painted steam locally. Per-row neighboring surface interpolation with source-sampled texture, feathered mask; no people, rice or bowl edited.",
+      "intermediate_path": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\animation\\v4\\assets\\dinner-base.png",
+      "intermediate_sha256": "c598de964a81992f860830b02b1a83c73244036b211ccbe7a9f0cc378ba30d85",
+      "mask_path": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\animation\\v5\\assets\\dinner-frozen-steam-mask.png",
+      "mask_sha256": "f739a8f65cbd78aea0fb5e96a9b0f9a9a299c45f9c68b45e60439f9e2c8d2ca2"
+    }
+  },
+  "reuse": "Other source and extracted assets referenced in place, not duplicated.",
+  "procedural_effect": "Animated vapor is a local illustrative effect, not archival footage or character animation.",
+  "protected_region": "Cold child bowl and all family faces/poses are unchanged.",
+  "author_quality_approved": false
+}

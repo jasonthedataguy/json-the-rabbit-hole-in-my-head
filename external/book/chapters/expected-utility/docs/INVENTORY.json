@@ -1,0 +1,257 @@
+[
+  {
+    "path": "source/approved.md",
+    "bytes_at_build": 10070,
+    "sha256_normalized_text_lf": "9ede9cdc721416cbc1f625d7a0df5f2ce1329a1050f8c7e6dab32785c595e5d4"
+  },
+  {
+    "path": "source/edit-notes.md",
+    "bytes_at_build": 1655,
+    "sha256_normalized_text_lf": "6997afcbb2da0fcf2e20da9974b25e727da75e8fb96b082cea2de3965b3b68cc"
+  },
+  {
+    "path": "source/original.md",
+    "bytes_at_build": 9959,
+    "sha256_normalized_text_lf": "807cd926f9b7b9f03386f6d2811c93f35a9cff6504021751fc9e45c73d16812d"
+  },
+  {
+    "path": "source/revisions.log",
+    "bytes_at_build": 122,
+    "sha256_normalized_text_lf": "d6a89e80e78f8be1cda4f7e54ca6d2d7c355fe8b3e8064e3e51c832784f24467"
+  },
+  {
+    "path": "artwork/exports/cover-a5.jpg",
+    "bytes_at_build": 665111,
+    "sha256_normalized_text_lf": "aef1a96637a0684bd9d5fa59cdea6f620551e37471ce29f1dd46e1b13e7464c8"
+  },
+  {
+    "path": "artwork/exports/hero-mobile.jpg",
+    "bytes_at_build": 390633,
+    "sha256_normalized_text_lf": "a7b42177c6346253880f20c6caa4d9ba6f60b9dd3ddb24e03ef803ae092f7d6b"
+  },
+  {
+    "path": "artwork/exports/hero.jpg",
+    "bytes_at_build": 621768,
+    "sha256_normalized_text_lf": "ef1b8b2dc666da041c8b158e374dc8f42cea0c9aa3327db803d0d31137443142"
+  },
+  {
+    "path": "artwork/exports/poster-9x16.jpg",
+    "bytes_at_build": 516640,
+    "sha256_normalized_text_lf": "17668edee7a4c80fc9d2a260953df3442507b54133f499e2ecffe5cedb8ca131"
+  },
+  {
+    "path": "artwork/scenes/01-desk.jpg",
+    "bytes_at_build": 391582,
+    "sha256_normalized_text_lf": "05f5fe62daa5a5d7e681afb1b760765295025c8ae4d71244765ad9c1ef94e1e6"
+  },
+  {
+    "path": "artwork/scenes/02-eyes.jpg",
+    "bytes_at_build": 62547,
+    "sha256_normalized_text_lf": "0528e5d9a96a0febbcbd80c9b62d458ed7891bc124e94e41731d13018574639e"
+  },
+  {
+    "path": "artwork/scenes/03-unobserved-window.jpg",
+    "bytes_at_build": 58099,
+    "sha256_normalized_text_lf": "9531fd3b4fc3a642ccb78d18386a7d23ec888a34c8ef5f252095f05421474488"
+  },
+  {
+    "path": "artwork/scenes/04-coffee.jpg",
+    "bytes_at_build": 45375,
+    "sha256_normalized_text_lf": "2f77f259c0a7542bfdcde3f58c1ac06c439f6fc208eef48660de0d703628ceb1"
+  },
+  {
+    "path": "artwork/scenes/index.json",
+    "bytes_at_build": 1297,
+    "sha256_normalized_text_lf": "a4e2abe2cb9c3b7d429566a395dfd695fa4d6b7b50190853aa90cd975750238f"
+  },
+  {
+    "path": "artwork/source/approved-illustration.png",
+    "bytes_at_build": 3100306,
+    "sha256_normalized_text_lf": "746ee8d4404db90737afec37ca52905eb9bb5aa77c7cec0ffa9b147916e4862f"
+  },
+  {
+    "path": "book/chapter-A5-proof.pdf",
+    "bytes_at_build": 1095975,
+    "sha256_normalized_text_lf": "2d015a5e8d7aca2a1ec8c65481a3611b7696501f8f962c8db719ef5877f6ca46"
+  },
+  {
+    "path": "audio/ambience.wav",
+    "bytes_at_build": 1152044,
+    "sha256_normalized_text_lf": "5cce7e20d35a4aff43a5f8845cda1068610cc2e5684cb19f1dcb79cb7e2449b4"
+  },
+  {
+    "path": "audio/HANDOFF.md",
+    "bytes_at_build": 800,
+    "sha256_normalized_text_lf": "e14e8c36959dc5e8240004399178cfaa7454c5f30466e48baa2541d37dfb3867"
+  },
+  {
+    "path": "audio/NARRATION.md",
+    "bytes_at_build": 360,
+    "sha256_normalized_text_lf": "bfd566a1ab90ce3e74723d777d59bffe3b3ef5b3af161b8504bb72a71c88f351"
+  },
+  {
+    "path": "audio/reading-script.md",
+    "bytes_at_build": 10070,
+    "sha256_normalized_text_lf": "9ede9cdc721416cbc1f625d7a0df5f2ce1329a1050f8c7e6dab32785c595e5d4"
+  },
+  {
+    "path": "video/discovery-9x16.mp4",
+    "bytes_at_build": 2072884,
+    "sha256_normalized_text_lf": "a5ace43a447dc9e355914060bddbd005dcb3b9555baaa13caf7d31f3fac278d4"
+  },
+  {
+    "path": "video/discovery-9x16.srt",
+    "bytes_at_build": 656,
+    "sha256_normalized_text_lf": "8f6c718cb6ffe6d97b4dfe4e7e1cecd02e3695266ad124a0e171db4f20e279c8"
+  },
+  {
+    "path": "video/discovery-9x16.vtt",
+    "bytes_at_build": 645,
+    "sha256_normalized_text_lf": "0c0d49030fc3f5fb7d95d3cd0e76b8baba7198160f1095ac82f445d043fda6fb"
+  },
+  {
+    "path": "video/feed-3x4.mp4",
+    "bytes_at_build": 1832802,
+    "sha256_normalized_text_lf": "b4ece9dc87732af19928a71306d1098d4a0c44ab21b0534ce3c023d2f9f0cefb"
+  },
+  {
+    "path": "video/feed-3x4.srt",
+    "bytes_at_build": 656,
+    "sha256_normalized_text_lf": "8f6c718cb6ffe6d97b4dfe4e7e1cecd02e3695266ad124a0e171db4f20e279c8"
+  },
+  {
+    "path": "video/feed-3x4.vtt",
+    "bytes_at_build": 645,
+    "sha256_normalized_text_lf": "0c0d49030fc3f5fb7d95d3cd0e76b8baba7198160f1095ac82f445d043fda6fb"
+  },
+  {
+    "path": "video/STORYBOARD.md",
+    "bytes_at_build": 3059,
+    "sha256_normalized_text_lf": "831b13678870fbc07cd5426cb81bf2ecf6c680424c425d696b936ec2e071d7b1"
+  },
+  {
+    "path": "video/timeline.json",
+    "bytes_at_build": 6982,
+    "sha256_normalized_text_lf": "87ce12d769eca483f6fa471933c2192e5720bdd7364a9646fb9496306cc95fde"
+  },
+  {
+    "path": "video/youtube-9x16.mp4",
+    "bytes_at_build": 6680562,
+    "sha256_normalized_text_lf": "4c1a713c7f8dfecb678455e4c0451a97cd047baae3ef625e795738e6385a445c"
+  },
+  {
+    "path": "video/youtube-9x16.srt",
+    "bytes_at_build": 1880,
+    "sha256_normalized_text_lf": "15ad7971147d1f3866663df5f61f040fce855b203608855e01852c064d97cd9e"
+  },
+  {
+    "path": "video/youtube-9x16.vtt",
+    "bytes_at_build": 1847,
+    "sha256_normalized_text_lf": "75643f214277ded992f39495e9cfc0451006b99cad679eeadb900110993aae05"
+  },
+  {
+    "path": "social/facebook/post.jpg",
+    "bytes_at_build": 259842,
+    "sha256_normalized_text_lf": "6d7aa3c0785c03a30a0d681b632afc42d870285e6c7d22aa4d64102b0e035924"
+  },
+  {
+    "path": "social/facebook/post.md",
+    "bytes_at_build": 309,
+    "sha256_normalized_text_lf": "96e78791d4cf53a02520ea952f4994d8aa5c2ae9d5eff3e46231f3c7542be974"
+  },
+  {
+    "path": "social/instagram/alt-text.json",
+    "bytes_at_build": 956,
+    "sha256_normalized_text_lf": "3cae944481664c7698ded0ca957875cefa12c7dcfcc4649d526614d0b8d4fa29"
+  },
+  {
+    "path": "social/instagram/caption.md",
+    "bytes_at_build": 234,
+    "sha256_normalized_text_lf": "f86f3d4f68d4d5db456136f996d1b82058983aacd41fb45f3978a59d0ed21754"
+  },
+  {
+    "path": "social/instagram/slide-01.jpg",
+    "bytes_at_build": 437360,
+    "sha256_normalized_text_lf": "1f7237f9f9d38aad5c76d84ba0b881e72646e7150c83c72724e97044caf6d8c2"
+  },
+  {
+    "path": "social/instagram/slide-02.jpg",
+    "bytes_at_build": 275261,
+    "sha256_normalized_text_lf": "b63bf53800eaef48e07d04170fbcaa1dba5fd9d74660f2f8e018ba332b852ec3"
+  },
+  {
+    "path": "social/instagram/slide-03.jpg",
+    "bytes_at_build": 267409,
+    "sha256_normalized_text_lf": "73132a51662bbe6a49ef9a48e4440ac83437b8b252328fc0af996ab86534ce20"
+  },
+  {
+    "path": "social/instagram/slide-04.jpg",
+    "bytes_at_build": 457180,
+    "sha256_normalized_text_lf": "0c5acc7c4ec78279b7b8ba5aa27347d206b0e3c197e3fc027b13ccc9ad97cb01"
+  },
+  {
+    "path": "social/instagram/slide-05.jpg",
+    "bytes_at_build": 276091,
+    "sha256_normalized_text_lf": "b36f643c8e7bbc86bb1caf08597003444b3034eaf81bf95dcd83a35c45148276"
+  },
+  {
+    "path": "social/tiktok/caption.md",
+    "bytes_at_build": 344,
+    "sha256_normalized_text_lf": "3ae3b54dafbb31dafdac0e7dd6788cb6b70f70ca8fb9208584a60f7611ab768e"
+  },
+  {
+    "path": "social/tiktok/cover.jpg",
+    "bytes_at_build": 516640,
+    "sha256_normalized_text_lf": "17668edee7a4c80fc9d2a260953df3442507b54133f499e2ecffe5cedb8ca131"
+  },
+  {
+    "path": "social/youtube/description.md",
+    "bytes_at_build": 560,
+    "sha256_normalized_text_lf": "dc267694dfbf28cf360a587a59e816ac4e69eaa8950ade157b0c7dd4b003b0eb"
+  },
+  {
+    "path": "social/youtube/thumbnail.jpg",
+    "bytes_at_build": 292522,
+    "sha256_normalized_text_lf": "783bb474a061b12f5972108c11fafa155fb933545ed9bbca5d253231237ff4e9"
+  },
+  {
+    "path": "web/index.html",
+    "bytes_at_build": 30128,
+    "sha256_normalized_text_lf": "67fd98b06360e501bbb3b7cb7530048307bf9496739b85363167a7eba1aff6e8"
+  },
+  {
+    "path": "previews/artwork.jpg",
+    "bytes_at_build": 149498,
+    "sha256_normalized_text_lf": "dbd5244d5d5004b2f6acda80c82a3e4da3991543626ac31dcc21a77125df3139"
+  },
+  {
+    "path": "previews/book.jpg",
+    "bytes_at_build": 273412,
+    "sha256_normalized_text_lf": "2fd59c9fb24df5e24b4529f195d0c09ab020af6dd70a4a1cf0d7026dcee926ba"
+  },
+  {
+    "path": "previews/carousel.jpg",
+    "bytes_at_build": 208646,
+    "sha256_normalized_text_lf": "29bc8e22ff70ffe1cd3f79dbed95ab19bb0639dcc3f727a9522c799ca359e4a8"
+  },
+  {
+    "path": "previews/product-board.jpg",
+    "bytes_at_build": 982701,
+    "sha256_normalized_text_lf": "d40a1a5ff5980d9ee5509f837d8f2d2deb51ad881584348133277f1aa34393d0"
+  },
+  {
+    "path": "previews/video-frame.jpg",
+    "bytes_at_build": 84074,
+    "sha256_normalized_text_lf": "1313665c018d0aba20efb12ff8564f2d0a6517c1159ac39b4a181086c97e25d4"
+  },
+  {
+    "path": "previews/web-1440.png",
+    "bytes_at_build": 1260686,
+    "sha256_normalized_text_lf": "1c0afed0fa2da3c02e183c779cba1cbe083e043153f6dce2d62ca0f77c03fb68"
+  },
+  {
+    "path": "previews/web-390.png",
+    "bytes_at_build": 393323,
+    "sha256_normalized_text_lf": "f44d6e3820a4c542419edb3e6fec69e77ec743f78fdd3e0de4fcb8ceadf7aa22"
+  }
+]

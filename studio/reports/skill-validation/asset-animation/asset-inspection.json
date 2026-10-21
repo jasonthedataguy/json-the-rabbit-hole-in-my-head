@@ -1,0 +1,57 @@
+{
+  "assets": [
+    {
+      "path": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\com-nguoi\\artwork\\chapter-page\\portal.webp",
+      "sha256": "79b61b71d689bd27bd5cab1679c2a875aff7a8b660619afad9d1ed39d4a3587a",
+      "width": 1600,
+      "height": 1600,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "visible_bbox": [
+        10,
+        10,
+        1591,
+        1591
+      ],
+      "transparent_fraction": 0.2351640625,
+      "warning": "Inspect actual edges, internal holes, sharpness and baked objects; alpha is not proof of a clean layer."
+    },
+    {
+      "path": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\com-nguoi\\artwork\\chapter-page\\hero.webp",
+      "sha256": "317e9cfb33874f3ee417c09a6b43ca07de16fa69e63e93a4503e7352e93c4f84",
+      "width": 1920,
+      "height": 1280,
+      "mode": "RGB",
+      "alpha_extrema": null,
+      "visible_bbox": null,
+      "transparent_fraction": 0,
+      "warning": "Opaque plane/base; not a separated object cutout."
+    },
+    {
+      "path": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\com-nguoi\\artwork\\content\\elements\\11-navy-rice-stalk-panel.png",
+      "sha256": "53d206bf5f3b64e4ed1c25af345ff1c20edd97aeb9711ae2ffab28c3af2dc6b9",
+      "width": 376,
+      "height": 1120,
+      "mode": "RGB",
+      "alpha_extrema": null,
+      "visible_bbox": null,
+      "transparent_fraction": 0,
+      "warning": "Opaque plane/base; not a separated object cutout."
+    },
+    {
+      "path": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\com-nguoi\\artwork\\content\\elements\\13-wood-lattice-panel.png",
+      "sha256": "3712041f005c92eda7a71966e29dc7779dec8c24f5080cdfce56d716d6b2e30f",
+      "width": 504,
+      "height": 1120,
+      "mode": "RGB",
+      "alpha_extrema": null,
+      "visible_bbox": null,
+      "transparent_fraction": 0,
+      "warning": "Opaque plane/base; not a separated object cutout."
+    }
+  ],
+  "cutout_readiness_note": "Legacy lamp, plant and family cutouts were visually inspected and show background residue/softness. Proof intentionally uses opaque decorative paper planes, not those untreated cutouts. No character gesture or clean-layer claim."
+}

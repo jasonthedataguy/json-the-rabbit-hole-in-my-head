@@ -1,0 +1,122 @@
+﻿id,stream,task,status,priority,acceptance,owner
+CH06-001,Editorial & provenance,Preserve verbatim source,READY,P0,"File/task is present in production kit and checked, or retained as an explicit TODO.
+No scene is represented as documentary evidence beyond the manuscript.",Jason + production
+CH06-002,Editorial & provenance,Annotate observed / imagined scenes,TODO,P0,"File/task is present in production kit and checked, or retained as an explicit TODO.
+No scene is represented as documentary evidence beyond the manuscript.",Jason + production
+CH06-003,Editorial & provenance,Keep ending unmodified,TODO,P0,"File/task is present in production kit and checked, or retained as an explicit TODO.
+No scene is represented as documentary evidence beyond the manuscript.",Jason + production
+CH06-004,Editorial & provenance,Review date/setting wording,TODO,P1,"File/task is present in production kit and checked, or retained as an explicit TODO.
+No scene is represented as documentary evidence beyond the manuscript.",Jason + production
+CH06-005,Editorial & provenance,Check use of old film reference,TODO,P1,"File/task is present in production kit and checked, or retained as an explicit TODO.
+No scene is represented as documentary evidence beyond the manuscript.",Jason + production
+CH06-006,Editorial & provenance,Review all scene captions,TODO,P1,"File/task is present in production kit and checked, or retained as an explicit TODO.
+No scene is represented as documentary evidence beyond the manuscript.",Jason + production
+CH06-007,Editorial & provenance,Approve print text,BLOCKED,P1,Author explicitly approves release scope and related third-party rights.,Jason + production
+CH06-008,Editorial & provenance,Privacy scope,TODO,P1,"File/task is present in production kit and checked, or retained as an explicit TODO.
+No scene is represented as documentary evidence beyond the manuscript.",Jason + production
+CH06-009,Editorial & provenance,Approve cover tagline,BLOCKED,P1,Author explicitly approves release scope and related third-party rights.,Jason + production
+CH06-010,Editorial & provenance,Translation accuracy,TODO,P1,"File/task is present in production kit and checked, or retained as an explicit TODO.
+No scene is represented as documentary evidence beyond the manuscript.",Jason + production
+CH06-011,Editorial & provenance,Approve canonical manuscript,BLOCKED,P1,Author explicitly approves release scope and related third-party rights.,Jason + production
+CH06-012,Art direction & illustration,Lock color palette,PROOF,P0,"File/task is present in production kit and checked, or retained as an explicit TODO.
+No scene is represented as documentary evidence beyond the manuscript.",Jason + production
+CH06-013,Art direction & illustration,Approve symbolic rat rooftop,BLOCKED,P0,Author explicitly approves release scope and related third-party rights.,Jason + production
+CH06-014,Art direction & illustration,Approve blonde/brunette design,BLOCKED,P0,Author explicitly approves release scope and related third-party rights.,Jason + production
+CH06-015,Art direction & illustration,Create cover concept,PROOF,P1,"File/task is present in production kit and checked, or retained as an explicit TODO.
+No scene is represented as documentary evidence beyond the manuscript.",Jason + production
+CH06-016,Art direction & illustration,Create Line 5 scene,PROOF,P1,"File/task is present in production kit and checked, or retained as an explicit TODO.
+No scene is represented as documentary evidence beyond the manuscript.",Jason + production
+CH06-017,Art direction & illustration,Create phone scene,PROOF,P1,"File/task is present in production kit and checked, or retained as an explicit TODO.
+No scene is represented as documentary evidence beyond the manuscript.",Jason + production
+CH06-018,Art direction & illustration,Create fictional kitchen scene,PROOF,P1,"File/task is present in production kit and checked, or retained as an explicit TODO.
+No scene is represented as documentary evidence beyond the manuscript.",Jason + production
+CH06-019,Art direction & illustration,Create afterimage scene,PROOF,P1,"File/task is present in production kit and checked, or retained as an explicit TODO.
+No scene is represented as documentary evidence beyond the manuscript.",Jason + production
+CH06-020,Art direction & illustration,Create Bastille environment,PROOF,P1,"File/task is present in production kit and checked, or retained as an explicit TODO.
+No scene is represented as documentary evidence beyond the manuscript.",Jason + production
+CH06-021,Art direction & illustration,Export gallery plates,PROOF,P1,"File/task is present in production kit and checked, or retained as an explicit TODO.
+No scene is represented as documentary evidence beyond the manuscript.",Jason + production
+CH06-022,Art direction & illustration,Create independent high-resolution art,BLOCKED,P1,Author explicitly approves release scope and related third-party rights.,Jason + production
+CH06-023,Art direction & illustration,Commercial artwork/likeness review,TODO,P1,"File/task is present in production kit and checked, or retained as an explicit TODO.
+No scene is represented as documentary evidence beyond the manuscript.",Jason + production
+CH06-024,"A5 print, A4 poster",Typeset entire A5 essay,READY,P0,"File/task is present in production kit and checked, or retained as an explicit TODO.
+No scene is represented as documentary evidence beyond the manuscript.",Jason + production
+CH06-025,"A5 print, A4 poster",Create A5 cover,READY,P0,"File/task is present in production kit and checked, or retained as an explicit TODO.
+No scene is represented as documentary evidence beyond the manuscript.",Jason + production
+CH06-026,"A5 print, A4 poster",Illustrate body pages,READY,P0,"File/task is present in production kit and checked, or retained as an explicit TODO.
+No scene is represented as documentary evidence beyond the manuscript.",Jason + production
+CH06-027,"A5 print, A4 poster",Export A5 editorial PDF,READY,P1,"File/task is present in production kit and checked, or retained as an explicit TODO.
+No scene is represented as documentary evidence beyond the manuscript.",Jason + production
+CH06-028,"A5 print, A4 poster",Create A4 print poster,READY,P1,"File/task is present in production kit and checked, or retained as an explicit TODO.
+No scene is represented as documentary evidence beyond the manuscript.",Jason + production
+CH06-029,"A5 print, A4 poster",Inspect every PDF page,READY,P1,"File/task is present in production kit and checked, or retained as an explicit TODO.
+No scene is represented as documentary evidence beyond the manuscript.",Jason + production
+CH06-030,"A5 print, A4 poster",Printer bleed / trim / PDF-X,BLOCKED,P1,Author explicitly approves release scope and related third-party rights.,Jason + production
+CH06-031,"A5 print, A4 poster",Proof-print A5 book,BLOCKED,P1,Author explicitly approves release scope and related third-party rights.,Jason + production
+CH06-032,"A5 print, A4 poster",Sign off physical print,BLOCKED,P1,Author explicitly approves release scope and related third-party rights.,Jason + production
+CH06-033,Website & interactive reel,Implement offline reader,READY,P0,"File/task is present in production kit and checked, or retained as an explicit TODO.
+No scene is represented as documentary evidence beyond the manuscript.",Jason + production
+CH06-034,Website & interactive reel,Load complete original chapter,READY,P0,"File/task is present in production kit and checked, or retained as an explicit TODO.
+No scene is represented as documentary evidence beyond the manuscript.",Jason + production
+CH06-035,Website & interactive reel,Observed / Imagined toggle,READY,P0,"File/task is present in production kit and checked, or retained as an explicit TODO.
+No scene is represented as documentary evidence beyond the manuscript.",Jason + production
+CH06-036,Website & interactive reel,Afterimage mode,READY,P1,"File/task is present in production kit and checked, or retained as an explicit TODO.
+No scene is represented as documentary evidence beyond the manuscript.",Jason + production
+CH06-037,Website & interactive reel,Working film-grade slider,READY,P1,"File/task is present in production kit and checked, or retained as an explicit TODO.
+No scene is represented as documentary evidence beyond the manuscript.",Jason + production
+CH06-038,Website & interactive reel,Mobile breakpoints,READY,P1,"File/task is present in production kit and checked, or retained as an explicit TODO.
+No scene is represented as documentary evidence beyond the manuscript.",Jason + production
+CH06-039,Website & interactive reel,Keyboard focus / aria,READY,P1,"File/task is present in production kit and checked, or retained as an explicit TODO.
+No scene is represented as documentary evidence beyond the manuscript.",Jason + production
+CH06-040,Website & interactive reel,Gallery assets,READY,P1,"File/task is present in production kit and checked, or retained as an explicit TODO.
+No scene is represented as documentary evidence beyond the manuscript.",Jason + production
+CH06-041,Website & interactive reel,Browser functional QA,READY,P1,"File/task is present in production kit and checked, or retained as an explicit TODO.
+No scene is represented as documentary evidence beyond the manuscript.",Jason + production
+CH06-042,Website & interactive reel,Public host staging,BLOCKED,P1,Author explicitly approves release scope and related third-party rights.,Jason + production
+CH06-043,Website & interactive reel,Live URL + QR verification,BLOCKED,P1,Author explicitly approves release scope and related third-party rights.,Jason + production
+CH06-044,Website & interactive reel,Production web accessibility,BLOCKED,P1,Author explicitly approves release scope and related third-party rights.,Jason + production
+CH06-045,Video & audio,Draft storyboard,READY,P0,"File/task is present in production kit and checked, or retained as an explicit TODO.
+No scene is represented as documentary evidence beyond the manuscript.",Jason + production
+CH06-046,Video & audio,Render 9:16 animatic proof,READY,P0,"File/task is present in production kit and checked, or retained as an explicit TODO.
+No scene is represented as documentary evidence beyond the manuscript.",Jason + production
+CH06-047,Video & audio,Original ambient audio,READY,P0,"File/task is present in production kit and checked, or retained as an explicit TODO.
+No scene is represented as documentary evidence beyond the manuscript.",Jason + production
+CH06-048,Video & audio,Create beat-caption SRT,READY,P1,"File/task is present in production kit and checked, or retained as an explicit TODO.
+No scene is represented as documentary evidence beyond the manuscript.",Jason + production
+CH06-049,Video & audio,Write narration draft,READY,P1,"File/task is present in production kit and checked, or retained as an explicit TODO.
+No scene is represented as documentary evidence beyond the manuscript.",Jason + production
+CH06-050,Video & audio,Record authorized voice,BLOCKED,P1,Author explicitly approves release scope and related third-party rights.,Jason + production
+CH06-051,Video & audio,Sync actual speech subtitles,BLOCKED,P1,Author explicitly approves release scope and related third-party rights.,Jason + production
+CH06-052,Video & audio,Final 1080x1920 master,BLOCKED,P1,Author explicitly approves release scope and related third-party rights.,Jason + production
+CH06-053,Video & audio,Phone video QA,BLOCKED,P1,Author explicitly approves release scope and related third-party rights.,Jason + production
+CH06-054,Social channels,Five Instagram 3:4 cards,READY,P0,"File/task is present in production kit and checked, or retained as an explicit TODO.
+No scene is represented as documentary evidence beyond the manuscript.",Jason + production
+CH06-055,Social channels,Facebook 16:9 art,READY,P0,"File/task is present in production kit and checked, or retained as an explicit TODO.
+No scene is represented as documentary evidence beyond the manuscript.",Jason + production
+CH06-056,Social channels,YouTube thumbnail,READY,P0,"File/task is present in production kit and checked, or retained as an explicit TODO.
+No scene is represented as documentary evidence beyond the manuscript.",Jason + production
+CH06-057,Social channels,Draft IG caption,READY,P1,"File/task is present in production kit and checked, or retained as an explicit TODO.
+No scene is represented as documentary evidence beyond the manuscript.",Jason + production
+CH06-058,Social channels,Draft Facebook post,READY,P1,"File/task is present in production kit and checked, or retained as an explicit TODO.
+No scene is represented as documentary evidence beyond the manuscript.",Jason + production
+CH06-059,Social channels,Draft video captions,READY,P1,"File/task is present in production kit and checked, or retained as an explicit TODO.
+No scene is represented as documentary evidence beyond the manuscript.",Jason + production
+CH06-060,Social channels,Approve public posting,BLOCKED,P1,Author explicitly approves release scope and related third-party rights.,Jason + production
+CH06-061,Social channels,Publish on owned accounts,BLOCKED,P1,Author explicitly approves release scope and related third-party rights.,Jason + production
+CH06-062,"QA, rights & release",Build source manifest,READY,P0,"File/task is present in production kit and checked, or retained as an explicit TODO.
+No scene is represented as documentary evidence beyond the manuscript.",Jason + production
+CH06-063,"QA, rights & release",Package editable files,READY,P0,"File/task is present in production kit and checked, or retained as an explicit TODO.
+No scene is represented as documentary evidence beyond the manuscript.",Jason + production
+CH06-064,"QA, rights & release",Split into small downloads,READY,P0,"File/task is present in production kit and checked, or retained as an explicit TODO.
+No scene is represented as documentary evidence beyond the manuscript.",Jason + production
+CH06-065,"QA, rights & release",Verify ZIPs,READY,P1,"File/task is present in production kit and checked, or retained as an explicit TODO.
+No scene is represented as documentary evidence beyond the manuscript.",Jason + production
+CH06-066,"QA, rights & release",Check master source text,READY,P1,"File/task is present in production kit and checked, or retained as an explicit TODO.
+No scene is represented as documentary evidence beyond the manuscript.",Jason + production
+CH06-067,"QA, rights & release",Document proof-only status,READY,P1,"File/task is present in production kit and checked, or retained as an explicit TODO.
+No scene is represented as documentary evidence beyond the manuscript.",Jason + production
+CH06-068,"QA, rights & release",License/provenance audit,BLOCKED,P1,Author explicitly approves release scope and related third-party rights.,Jason + production
+CH06-069,"QA, rights & release",Final author release approval,BLOCKED,P1,Author explicitly approves release scope and related third-party rights.,Jason + production
+CH06-070,"QA, rights & release",Upload vetted binaries to repo,BLOCKED,P1,Author explicitly approves release scope and related third-party rights.,Jason + production
+CH06-071,"QA, rights & release",Deploy publicly,BLOCKED,P1,Author explicitly approves release scope and related third-party rights.,Jason + production
+CH06-072,"QA, rights & release",Post-publication link audit,BLOCKED,P1,Author explicitly approves release scope and related third-party rights.,Jason + production

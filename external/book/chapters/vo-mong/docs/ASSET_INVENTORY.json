@@ -1,0 +1,40 @@
+{
+  "chapter": "vo-mong",
+  "files": [
+    {
+      "path": "chapter.json",
+      "bytes": 1125,
+      "sha256": "b1191c9272d90d76fdf2e93718f0f6033473deace564e6f9679e248bcab4bfee"
+    },
+    {
+      "path": "docs/PRODUCTS.json",
+      "bytes": 266,
+      "sha256": "0d7aa84c1d58f039091c9b22528a3b858897ec90a2373024d459ea1e6200b49d"
+    },
+    {
+      "path": "production.json",
+      "bytes": 158,
+      "sha256": "04cca5cbcb7714947f2e115425c3b36fd58203c853d17184364ed8f229b16d7d"
+    },
+    {
+      "path": "README.md",
+      "bytes": 575,
+      "sha256": "bbde68fac9009284744dc636c498c5d1595ce3a1f0029667629ca50800cb63d1"
+    },
+    {
+      "path": "source/approved.md",
+      "bytes": 5015,
+      "sha256": "51e9003460647c55ca03b16dcdc9cb6d90bdcd13f8f87245410d879ed8b788fd"
+    },
+    {
+      "path": "source/outline.md",
+      "bytes": 264,
+      "sha256": "f42511d93f24645fbdd74c59764b20d2c44eac30072173c3351b9b71020496fc"
+    },
+    {
+      "path": "source/revisions.log",
+      "bytes": 377,
+      "sha256": "ec4a66ceb2787f7fdd47c5de699c353d3c051710c077414744239f4af519fbca"
+    }
+  ]
+}

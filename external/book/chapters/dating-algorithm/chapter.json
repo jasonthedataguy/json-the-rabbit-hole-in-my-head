@@ -1,0 +1,36 @@
+{
+  "schema_version": 2,
+  "slug": "dating-algorithm",
+  "number": "19",
+  "title": "Dating Algorithm",
+  "short_title": "Dating Algorithm",
+  "part": 3,
+  "language": "vi",
+  "publish": true,
+  "release_stage": "reader-with-original-products",
+  "canonical_text": "source/approved.md",
+  "canonical_path": "#chapter/19",
+  "summary": "Jason biến dating thành một bài toán về matching, signals và strategy, rồi nhận ra mô hình ấy không đo được điều anh thực sự muốn trong một mối quan hệ.",
+  "portal": {
+    "scene": "Two people share a lamplit date before a moonlit city while profile cards, hearts, charts and clocks surround their table.",
+    "objects": [
+      "date table",
+      "profile cards",
+      "compatibility graph",
+      "city at night"
+    ],
+    "iconKey": "dialogue",
+    "motif": "The date table and the model"
+  },
+  "original_edition": {
+    "number": "08",
+    "title": "Dating Algorithm",
+    "repo": "https://github.com/jasonthedataguy/json-under-revision",
+    "commit": "b41b692b3e3633abea4997b6ac4513a91308f127",
+    "metadata": "references/original-edition/chapter.json",
+    "archive_url": "https://jasonthedataguy.github.io/json-under-revision/chapters/08/"
+  },
+  "production_status": "author-final reader and board-derived digital portal; inherited print and media remain original-edition proofs",
+  "manuscript_sha256": "304dad35f472e6ab17729d6867f8f8db958c75ed9d50ff5170ccad7d75f0f23e",
+  "outline_title": "Dating Algorithm"
+}

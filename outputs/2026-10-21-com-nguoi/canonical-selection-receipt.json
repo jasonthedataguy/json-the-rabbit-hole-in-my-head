@@ -1,0 +1,14 @@
+{
+  "date": "2026-10-21",
+  "status": "applied_locally",
+  "canonical_path": "C:\\Users\\Administrator\\OneDrive\\Desktop\\.json book\\json_under_revision_v2\\chapters\\com-nguoi\\source\\approved.md",
+  "canonical_sha256": "b4319bf9abb463148f590c773c14f12732e3524a612936fd2edddcaebecdfd3a",
+  "previous_selection_archive": "C:\\Users\\Administrator\\OneDrive\\Desktop\\.json book\\json_under_revision_v2\\chapters\\com-nguoi\\source\\history\\approved-d957b592dc2317aa.md",
+  "previous_sha256": "d957b592dc2317aa34196dd25ab42a3fe4a7938d3aee5a1121ab173214bf76f9",
+  "original_manuscript_unchanged": true,
+  "registry_sha256": "563d11ed3b86a6644bdadf537adff5423b1737940241e27e547b7ed2d353a284",
+  "revision_log_path": "C:\\Users\\Administrator\\OneDrive\\Desktop\\.json book\\json_under_revision_v2\\chapters\\com-nguoi\\source\\revisions.log",
+  "git_commit_created": false,
+  "pushed": false,
+  "deployed": false
+}

@@ -1,0 +1,80 @@
+{
+  "chapter": "flow",
+  "files": [
+    {
+      "path": "artwork/portal/flow-cover-scene-v2.png",
+      "bytes": 1705362,
+      "sha256": "3a3e575aec3e590b9e1184c57bc7f7dd3c995bcda76ace81735f069c91cc0f45"
+    },
+    {
+      "path": "artwork/portal/flow-portal-v2.png",
+      "bytes": 1826470,
+      "sha256": "4694f866ce8e6ab1e302990b8cb277ee130855a25657afd7f665b9c7065e4a5d"
+    },
+    {
+      "path": "artwork/portal/flow-ring-v2.png",
+      "bytes": 2151611,
+      "sha256": "defec2fccf6f41284deba2057aa544a3cfb61315b17c41fb47924dc0fc283395"
+    },
+    {
+      "path": "artwork/portal/flow-scene-v2.png",
+      "bytes": 1801813,
+      "sha256": "f4740db791d88e8ba2656dfd7daa17dc50d5aa6b76f9368ae9900a91440080f9"
+    },
+    {
+      "path": "artwork/portal/flow-spread-v2.webp",
+      "bytes": 163296,
+      "sha256": "c5007023b4f4a93954dd3c32466c26ac8964f253cb74b946648e2f408e240a22"
+    },
+    {
+      "path": "chapter.json",
+      "bytes": 1193,
+      "sha256": "28d30737d4a1540cce1eaa30376de8af589025cedc19533dade3995f1d730533"
+    },
+    {
+      "path": "docs/EDITORIAL_FACT_CHECK.md",
+      "bytes": 2457,
+      "sha256": "21579fa60b8406207b40f84183c1785ae96ef765d42ea0c1cde4ae2881029ea3"
+    },
+    {
+      "path": "docs/PRODUCTS.json",
+      "bytes": 1114,
+      "sha256": "2fafe3050061b506473e7053618c3dbecc32dabeb4c092c63c16baf8b8beef14"
+    },
+    {
+      "path": "production.json",
+      "bytes": 158,
+      "sha256": "04cca5cbcb7714947f2e115425c3b36fd58203c853d17184364ed8f229b16d7d"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1173,
+      "sha256": "e500fbd0a38727df859e20d7665fd7fc89230af873aeb0183c4ab6a69eb8c0c7"
+    },
+    {
+      "path": "source/approved.md",
+      "bytes": 36836,
+      "sha256": "157011474797f6a424c954f8dc45c2efe460d7a2dd6310df43af6743d5ba8e5f"
+    },
+    {
+      "path": "source/outline.md",
+      "bytes": 250,
+      "sha256": "1a27203db39f542dbea57329ca006ff226803c2989d8515717c5aacf5de072b0"
+    },
+    {
+      "path": "source/revisions.log",
+      "bytes": 313,
+      "sha256": "d79b2b8f1044cd93c2898d65e89b0ce4e99077c21dc9c8f747aa04d7be70ef27"
+    },
+    {
+      "path": "web/flow.css",
+      "bytes": 5298,
+      "sha256": "e191a122aee0fa48959c60900170f1deca231f2ad40f90b21d08c8303d53075d"
+    },
+    {
+      "path": "web/index.html",
+      "bytes": 42407,
+      "sha256": "72c5acad2dd81e176c4a2a22f4f9de2cffc17ceddb39799c0d20c3571e7d8572"
+    }
+  ]
+}

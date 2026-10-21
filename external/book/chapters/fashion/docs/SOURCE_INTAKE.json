@@ -1,0 +1,30 @@
+{
+  "received_on": "2026-10-17",
+  "channel": "Author attachment: Pasted text.txt; request: update",
+  "raw_attachment": {
+    "path": "source/submitted-2026-10-17.txt",
+    "bytes": 6644,
+    "sha256": "ac5712f3a3427f340594a02323ef716f4f453196e0f5fdf9ed94cd3c8608cd64"
+  },
+  "selected_manuscript": {
+    "path": "source/revision-2026-10-17.md",
+    "received_on": "2026-10-17",
+    "bytes": 6643,
+    "sha256": "fa6d61a045a5c160a45ecd541382077c46a4581b00de6ffd027bf1674ac78c9e"
+  },
+  "previous_manuscript": {
+    "path": "source/original.md",
+    "bytes": 7758,
+    "sha256": "b80511a10f1823fe67549e0ae596e677893edc6664c7bad3f5650eb26b3c0486"
+  },
+  "normalization": [
+    "Saved UTF-8 with LF newlines and one terminal newline.",
+    "Inserted a blank line between the heading and each nonempty source line; no words, punctuation, capitalization or internal spacing changed."
+  ],
+  "body_paragraphs": 9,
+  "closing_lines": [
+    "Peace and love!",
+    "Jason"
+  ],
+  "unchanged_products": "Supplied PDFs, video, social artwork and reference packages retain their previous proof state."
+}

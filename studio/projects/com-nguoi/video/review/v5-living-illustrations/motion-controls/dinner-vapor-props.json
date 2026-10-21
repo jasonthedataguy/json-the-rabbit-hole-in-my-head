@@ -1,0 +1,3109 @@
+{
+  "schema_version": "1.0",
+  "story_slug": "com-nguoi",
+  "classification": "layer_animation",
+  "source": {
+    "path": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\script\\final-script-v2.md",
+    "sha256": "d957b592dc2317aa34196dd25ab42a3fe4a7938d3aee5a1121ab173214bf76f9"
+  },
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "duration_s": 120,
+  "background": "#101F31",
+  "opening": {
+    "title": "Cơm nguội",
+    "portal_asset": "portal",
+    "reveal_asset": "hero-original",
+    "focus_x": 0.5,
+    "focus_y": 0.565,
+    "title_hold_s": 2.6,
+    "entry_end_s": 7.7,
+    "story_start_s": 10.5
+  },
+  "assets": [
+    {
+      "id": "dinner-base",
+      "path": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\animation\\v5\\assets\\dinner-base-living.png",
+      "sha256": "a9c95700838856c2ee8834f5b5ec85201c3c29066501f32a7cfa035218062fb9",
+      "role": "base",
+      "provenance": {
+        "source_path": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\com-nguoi\\artwork\\chapter-page\\hero.webp",
+        "source_sha256": "317e9cfb33874f3ee417c09a6b43ca07de16fa69e63e93a4503e7352e93c4f84",
+        "operation": "Reuse v4 environmental clean plate and remove the frozen painted steam locally. Per-row neighboring surface interpolation with source-sampled texture, feathered mask; no people, rice or bowl edited.",
+        "intermediate_path": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\animation\\v4\\assets\\dinner-base.png",
+        "intermediate_sha256": "c598de964a81992f860830b02b1a83c73244036b211ccbe7a9f0cc378ba30d85",
+        "mask_path": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\animation\\v5\\assets\\dinner-frozen-steam-mask.png",
+        "mask_sha256": "f739a8f65cbd78aea0fb5e96a9b0f9a9a299c45f9c68b45e60439f9e2c8d2ca2"
+      },
+      "imageSrc": "a9c95700838856c2ee88.png"
+    },
+    {
+      "id": "dinner-lamp",
+      "path": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\animation\\v4\\assets\\dinner-lamp.png",
+      "sha256": "e15a2c476679d8f5fa5b0e9f6d68821fedef6ad123e208e5020d759e0a3b8070",
+      "role": "cutout",
+      "provenance": {
+        "source_path": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\com-nguoi\\artwork\\chapter-page\\hero.webp",
+        "source_sha256": "317e9cfb33874f3ee417c09a6b43ca07de16fa69e63e93a4503e7352e93c4f84",
+        "operation": "Aligned polygon/foliage-hue matte and cropped alpha; no new artwork or character pose.",
+        "crop_px": [
+          920,
+          0,
+          1170,
+          465
+        ],
+        "pivot_source_px": [
+          1046,
+          0
+        ]
+      },
+      "imageSrc": "e15a2c476679d8f5fa5b.png"
+    },
+    {
+      "id": "dinner-foreground-left",
+      "path": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\animation\\v4\\assets\\dinner-foreground-left.png",
+      "sha256": "416be5b0207e9600a90b0bc8d2a8991447b1a62b02ce3f2e944d8be434f2eb5c",
+      "role": "cutout",
+      "provenance": {
+        "source_path": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\com-nguoi\\artwork\\chapter-page\\hero.webp",
+        "source_sha256": "317e9cfb33874f3ee417c09a6b43ca07de16fa69e63e93a4503e7352e93c4f84",
+        "operation": "Aligned polygon/foliage-hue matte and cropped alpha; no new artwork or character pose.",
+        "crop_px": [
+          0,
+          428,
+          858,
+          1280
+        ],
+        "pivot_source_px": [
+          230,
+          1265
+        ]
+      },
+      "imageSrc": "416be5b0207e9600a90b.png"
+    },
+    {
+      "id": "dinner-plant-crown",
+      "path": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\animation\\v4\\assets\\dinner-plant-crown.png",
+      "sha256": "74d046f42576e2783df049f0e2b110af67d534cb1ec8782b96db58a1493b1bea",
+      "role": "cutout",
+      "provenance": {
+        "source_path": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\com-nguoi\\artwork\\chapter-page\\hero.webp",
+        "source_sha256": "317e9cfb33874f3ee417c09a6b43ca07de16fa69e63e93a4503e7352e93c4f84",
+        "operation": "Aligned polygon/foliage-hue matte and cropped alpha; no new artwork or character pose.",
+        "crop_px": [
+          1310,
+          578,
+          1695,
+          897
+        ],
+        "pivot_source_px": [
+          1490,
+          887
+        ]
+      },
+      "imageSrc": "74d046f42576e2783df0.png"
+    },
+    {
+      "id": "child-base",
+      "path": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\animation\\v4\\assets\\child-base.png",
+      "sha256": "ffc9979fa1f9e6a586cc3577c175a6d64fc4d318f0ae75e174d9f51004de946c",
+      "role": "base",
+      "provenance": {
+        "source_path": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\com-nguoi\\artwork\\content\\illustrations\\01-story-detail.webp",
+        "source_sha256": "ce4f7fd4c2e46725139dc97f04bdd2b4fcfb8f00cef3313331063a608dfe0342",
+        "operation": "Source-aligned clean plate: nearest existing surface colors fill only masked environmental areas, hidden behind their extracted layers. No people retouched."
+      },
+      "imageSrc": "ffc9979fa1f9e6a586cc.png"
+    },
+    {
+      "id": "child-lamp",
+      "path": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\animation\\v4\\assets\\child-lamp.png",
+      "sha256": "275d6f6467cdee961fa0f934e4e036f515ea27e70f6c9b786c7de12552c95127",
+      "role": "cutout",
+      "provenance": {
+        "source_path": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\com-nguoi\\artwork\\content\\illustrations\\01-story-detail.webp",
+        "source_sha256": "ce4f7fd4c2e46725139dc97f04bdd2b4fcfb8f00cef3313331063a608dfe0342",
+        "operation": "Aligned polygon/foliage-hue matte and cropped alpha; no new artwork or character pose.",
+        "crop_px": [
+          1169,
+          0,
+          1381,
+          198
+        ],
+        "pivot_source_px": [
+          1282,
+          0
+        ]
+      },
+      "imageSrc": "275d6f6467cdee961fa0.png"
+    },
+    {
+      "id": "child-foreground-left",
+      "path": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\animation\\v4\\assets\\child-foreground-left.png",
+      "sha256": "7726736a182e1eb711553682ba94cbf030cacbb409f54c2a3dcc395607d3a5d9",
+      "role": "cutout",
+      "provenance": {
+        "source_path": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\com-nguoi\\artwork\\content\\illustrations\\01-story-detail.webp",
+        "source_sha256": "ce4f7fd4c2e46725139dc97f04bdd2b4fcfb8f00cef3313331063a608dfe0342",
+        "operation": "Aligned polygon/foliage-hue matte and cropped alpha; no new artwork or character pose.",
+        "crop_px": [
+          0,
+          339,
+          561,
+          1280
+        ],
+        "pivot_source_px": [
+          115,
+          1240
+        ]
+      },
+      "imageSrc": "7726736a182e1eb71155.png"
+    },
+    {
+      "id": "child-foreground-right",
+      "path": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\animation\\v4\\assets\\child-foreground-right.png",
+      "sha256": "8a967d53988b49ca8c121a4d0bfba37154016cd83ca6895171bf7088c583348e",
+      "role": "cutout",
+      "provenance": {
+        "source_path": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\com-nguoi\\artwork\\content\\illustrations\\01-story-detail.webp",
+        "source_sha256": "ce4f7fd4c2e46725139dc97f04bdd2b4fcfb8f00cef3313331063a608dfe0342",
+        "operation": "Aligned polygon/foliage-hue matte and cropped alpha; no new artwork or character pose.",
+        "crop_px": [
+          1330,
+          390,
+          1920,
+          1280
+        ],
+        "pivot_source_px": [
+          1780,
+          1260
+        ]
+      },
+      "imageSrc": "8a967d53988b49ca8c12.png"
+    },
+    {
+      "id": "portal",
+      "path": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\com-nguoi\\artwork\\chapter-page\\portal.webp",
+      "sha256": "79b61b71d689bd27bd5cab1679c2a875aff7a8b660619afad9d1ed39d4a3587a",
+      "role": "portal",
+      "imageSrc": "79b61b71d689bd27bd5c.webp"
+    },
+    {
+      "id": "hero-original",
+      "path": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\com-nguoi\\artwork\\chapter-page\\hero.webp",
+      "sha256": "317e9cfb33874f3ee417c09a6b43ca07de16fa69e63e93a4503e7352e93c4f84",
+      "role": "base",
+      "imageSrc": "317e9cfb33874f3ee417.webp"
+    }
+  ],
+  "layers": [
+    {
+      "id": "dinner-base",
+      "asset_id": "dinner-base",
+      "x": 24,
+      "y": 396,
+      "width": 1032,
+      "height": 688,
+      "z": 0,
+      "tracks": {},
+      "scene_id": "dinner",
+      "crop_px": [
+        0,
+        0,
+        1920,
+        1280
+      ],
+      "pivot_x": 0.5,
+      "pivot_y": 0.5
+    },
+    {
+      "id": "dinner-lamp",
+      "asset_id": "dinner-lamp",
+      "x": 518.5,
+      "y": 396.0,
+      "width": 134.375,
+      "height": 249.938,
+      "z": 2,
+      "scene_id": "dinner",
+      "pivot_x": 0.504,
+      "pivot_y": 0.0,
+      "tracks": {
+        "rotation": [
+          {
+            "t": 0.0,
+            "value": 0.0
+          },
+          {
+            "t": 0.125,
+            "value": 0.083315
+          },
+          {
+            "t": 0.25,
+            "value": 0.165827
+          },
+          {
+            "t": 0.375,
+            "value": 0.246742
+          },
+          {
+            "t": 0.5,
+            "value": 0.325281
+          },
+          {
+            "t": 0.625,
+            "value": 0.400687
+          },
+          {
+            "t": 0.75,
+            "value": 0.472235
+          },
+          {
+            "t": 0.875,
+            "value": 0.539234
+          },
+          {
+            "t": 1.0,
+            "value": 0.601041
+          },
+          {
+            "t": 1.125,
+            "value": 0.657059
+          },
+          {
+            "t": 1.25,
+            "value": 0.706749
+          },
+          {
+            "t": 1.375,
+            "value": 0.749633
+          },
+          {
+            "t": 1.5,
+            "value": 0.785298
+          },
+          {
+            "t": 1.625,
+            "value": 0.813399
+          },
+          {
+            "t": 1.75,
+            "value": 0.833667
+          },
+          {
+            "t": 1.875,
+            "value": 0.845907
+          },
+          {
+            "t": 2.0,
+            "value": 0.85
+          },
+          {
+            "t": 2.125,
+            "value": 0.845907
+          },
+          {
+            "t": 2.25,
+            "value": 0.833667
+          },
+          {
+            "t": 2.375,
+            "value": 0.813399
+          },
+          {
+            "t": 2.5,
+            "value": 0.785298
+          },
+          {
+            "t": 2.625,
+            "value": 0.749633
+          },
+          {
+            "t": 2.75,
+            "value": 0.706749
+          },
+          {
+            "t": 2.875,
+            "value": 0.657059
+          },
+          {
+            "t": 3.0,
+            "value": 0.601041
+          },
+          {
+            "t": 3.125,
+            "value": 0.539234
+          },
+          {
+            "t": 3.25,
+            "value": 0.472235
+          },
+          {
+            "t": 3.375,
+            "value": 0.400687
+          },
+          {
+            "t": 3.5,
+            "value": 0.325281
+          },
+          {
+            "t": 3.625,
+            "value": 0.246742
+          },
+          {
+            "t": 3.75,
+            "value": 0.165827
+          },
+          {
+            "t": 3.875,
+            "value": 0.083315
+          },
+          {
+            "t": 4.0,
+            "value": 0.0
+          },
+          {
+            "t": 4.125,
+            "value": -0.083315
+          },
+          {
+            "t": 4.25,
+            "value": -0.165827
+          },
+          {
+            "t": 4.375,
+            "value": -0.246742
+          },
+          {
+            "t": 4.5,
+            "value": -0.325281
+          },
+          {
+            "t": 4.625,
+            "value": -0.400687
+          },
+          {
+            "t": 4.75,
+            "value": -0.472235
+          },
+          {
+            "t": 4.875,
+            "value": -0.539234
+          },
+          {
+            "t": 5.0,
+            "value": -0.601041
+          },
+          {
+            "t": 5.125,
+            "value": -0.657059
+          },
+          {
+            "t": 5.25,
+            "value": -0.706749
+          },
+          {
+            "t": 5.375,
+            "value": -0.749633
+          },
+          {
+            "t": 5.5,
+            "value": -0.785298
+          },
+          {
+            "t": 5.625,
+            "value": -0.813399
+          },
+          {
+            "t": 5.75,
+            "value": -0.833667
+          },
+          {
+            "t": 5.875,
+            "value": -0.845907
+          },
+          {
+            "t": 6.0,
+            "value": -0.85
+          },
+          {
+            "t": 6.125,
+            "value": -0.845907
+          },
+          {
+            "t": 6.25,
+            "value": -0.833667
+          },
+          {
+            "t": 6.375,
+            "value": -0.813399
+          },
+          {
+            "t": 6.5,
+            "value": -0.785298
+          },
+          {
+            "t": 6.625,
+            "value": -0.749633
+          },
+          {
+            "t": 6.75,
+            "value": -0.706749
+          },
+          {
+            "t": 6.875,
+            "value": -0.657059
+          },
+          {
+            "t": 7.0,
+            "value": -0.601041
+          },
+          {
+            "t": 7.125,
+            "value": -0.539234
+          },
+          {
+            "t": 7.25,
+            "value": -0.472235
+          },
+          {
+            "t": 7.375,
+            "value": -0.400687
+          },
+          {
+            "t": 7.5,
+            "value": -0.325281
+          },
+          {
+            "t": 7.625,
+            "value": -0.246742
+          },
+          {
+            "t": 7.75,
+            "value": -0.165827
+          },
+          {
+            "t": 7.875,
+            "value": -0.083315
+          },
+          {
+            "t": 8.0,
+            "value": -0.0
+          }
+        ]
+      },
+      "crop_px": [
+        920,
+        0,
+        1170,
+        465
+      ],
+      "native_pivot": [
+        1046,
+        0
+      ]
+    },
+    {
+      "id": "dinner-foreground-left",
+      "asset_id": "dinner-foreground-left",
+      "x": 24.0,
+      "y": 626.05,
+      "width": 461.175,
+      "height": 457.95,
+      "z": 3,
+      "scene_id": "dinner",
+      "pivot_x": 0.2680652680652681,
+      "pivot_y": 0.9823943661971831,
+      "tracks": {
+        "rotation": [
+          {
+            "t": 0.0,
+            "value": 1.211651
+          },
+          {
+            "t": 0.125,
+            "value": 1.251989
+          },
+          {
+            "t": 0.25,
+            "value": 1.28027
+          },
+          {
+            "t": 0.375,
+            "value": 1.296221
+          },
+          {
+            "t": 0.5,
+            "value": 1.299688
+          },
+          {
+            "t": 0.625,
+            "value": 1.290639
+          },
+          {
+            "t": 0.75,
+            "value": 1.269161
+          },
+          {
+            "t": 0.875,
+            "value": 1.235459
+          },
+          {
+            "t": 1.0,
+            "value": 1.18986
+          },
+          {
+            "t": 1.125,
+            "value": 1.132801
+          },
+          {
+            "t": 1.25,
+            "value": 1.064833
+          },
+          {
+            "t": 1.375,
+            "value": 0.986611
+          },
+          {
+            "t": 1.5,
+            "value": 0.898886
+          },
+          {
+            "t": 1.625,
+            "value": 0.802505
+          },
+          {
+            "t": 1.75,
+            "value": 0.698395
+          },
+          {
+            "t": 1.875,
+            "value": 0.587559
+          },
+          {
+            "t": 2.0,
+            "value": 0.471065
+          },
+          {
+            "t": 2.125,
+            "value": 0.350034
+          },
+          {
+            "t": 2.25,
+            "value": 0.225632
+          },
+          {
+            "t": 2.375,
+            "value": 0.099058
+          },
+          {
+            "t": 2.5,
+            "value": -0.028471
+          },
+          {
+            "t": 2.625,
+            "value": -0.155726
+          },
+          {
+            "t": 2.75,
+            "value": -0.281481
+          },
+          {
+            "t": 2.875,
+            "value": -0.404525
+          },
+          {
+            "t": 3.0,
+            "value": -0.523673
+          },
+          {
+            "t": 3.125,
+            "value": -0.637778
+          },
+          {
+            "t": 3.25,
+            "value": -0.745741
+          },
+          {
+            "t": 3.375,
+            "value": -0.846522
+          },
+          {
+            "t": 3.5,
+            "value": -0.939151
+          },
+          {
+            "t": 3.625,
+            "value": -1.022735
+          },
+          {
+            "t": 3.75,
+            "value": -1.096469
+          },
+          {
+            "t": 3.875,
+            "value": -1.159644
+          },
+          {
+            "t": 4.0,
+            "value": -1.211651
+          },
+          {
+            "t": 4.125,
+            "value": -1.251989
+          },
+          {
+            "t": 4.25,
+            "value": -1.28027
+          },
+          {
+            "t": 4.375,
+            "value": -1.296221
+          },
+          {
+            "t": 4.5,
+            "value": -1.299688
+          },
+          {
+            "t": 4.625,
+            "value": -1.290639
+          },
+          {
+            "t": 4.75,
+            "value": -1.269161
+          },
+          {
+            "t": 4.875,
+            "value": -1.235459
+          },
+          {
+            "t": 5.0,
+            "value": -1.18986
+          },
+          {
+            "t": 5.125,
+            "value": -1.132801
+          },
+          {
+            "t": 5.25,
+            "value": -1.064833
+          },
+          {
+            "t": 5.375,
+            "value": -0.986611
+          },
+          {
+            "t": 5.5,
+            "value": -0.898886
+          },
+          {
+            "t": 5.625,
+            "value": -0.802505
+          },
+          {
+            "t": 5.75,
+            "value": -0.698395
+          },
+          {
+            "t": 5.875,
+            "value": -0.587559
+          },
+          {
+            "t": 6.0,
+            "value": -0.471065
+          },
+          {
+            "t": 6.125,
+            "value": -0.350034
+          },
+          {
+            "t": 6.25,
+            "value": -0.225632
+          },
+          {
+            "t": 6.375,
+            "value": -0.099058
+          },
+          {
+            "t": 6.5,
+            "value": 0.028471
+          },
+          {
+            "t": 6.625,
+            "value": 0.155726
+          },
+          {
+            "t": 6.75,
+            "value": 0.281481
+          },
+          {
+            "t": 6.875,
+            "value": 0.404525
+          },
+          {
+            "t": 7.0,
+            "value": 0.523673
+          },
+          {
+            "t": 7.125,
+            "value": 0.637778
+          },
+          {
+            "t": 7.25,
+            "value": 0.745741
+          },
+          {
+            "t": 7.375,
+            "value": 0.846522
+          },
+          {
+            "t": 7.5,
+            "value": 0.939151
+          },
+          {
+            "t": 7.625,
+            "value": 1.022735
+          },
+          {
+            "t": 7.75,
+            "value": 1.096469
+          },
+          {
+            "t": 7.875,
+            "value": 1.159644
+          },
+          {
+            "t": 8.0,
+            "value": 1.211651
+          }
+        ]
+      },
+      "crop_px": [
+        0,
+        428,
+        858,
+        1280
+      ],
+      "native_pivot": [
+        230,
+        1265
+      ]
+    },
+    {
+      "id": "dinner-plant-crown",
+      "asset_id": "dinner-plant-crown",
+      "x": 728.125,
+      "y": 706.675,
+      "width": 206.938,
+      "height": 171.463,
+      "z": 4,
+      "scene_id": "dinner",
+      "pivot_x": 0.4675324675324675,
+      "pivot_y": 0.9686520376175548,
+      "tracks": {
+        "rotation": [
+          {
+            "t": 0.0,
+            "value": 1.07725
+          },
+          {
+            "t": 0.125,
+            "value": 0.930716
+          },
+          {
+            "t": 0.25,
+            "value": 0.775219
+          },
+          {
+            "t": 0.375,
+            "value": 0.612256
+          },
+          {
+            "t": 0.5,
+            "value": 0.443397
+          },
+          {
+            "t": 0.625,
+            "value": 0.270268
+          },
+          {
+            "t": 0.75,
+            "value": 0.094536
+          },
+          {
+            "t": 0.875,
+            "value": -0.082107
+          },
+          {
+            "t": 1.0,
+            "value": -0.257959
+          },
+          {
+            "t": 1.125,
+            "value": -0.431326
+          },
+          {
+            "t": 1.25,
+            "value": -0.60054
+          },
+          {
+            "t": 1.375,
+            "value": -0.76397
+          },
+          {
+            "t": 1.5,
+            "value": -0.920043
+          },
+          {
+            "t": 1.625,
+            "value": -1.067255
+          },
+          {
+            "t": 1.75,
+            "value": -1.204189
+          },
+          {
+            "t": 1.875,
+            "value": -1.329526
+          },
+          {
+            "t": 2.0,
+            "value": -1.442059
+          },
+          {
+            "t": 2.125,
+            "value": -1.540704
+          },
+          {
+            "t": 2.25,
+            "value": -1.624511
+          },
+          {
+            "t": 2.375,
+            "value": -1.692673
+          },
+          {
+            "t": 2.5,
+            "value": -1.744534
+          },
+          {
+            "t": 2.625,
+            "value": -1.779594
+          },
+          {
+            "t": 2.75,
+            "value": -1.797516
+          },
+          {
+            "t": 2.875,
+            "value": -1.798126
+          },
+          {
+            "t": 3.0,
+            "value": -1.78142
+          },
+          {
+            "t": 3.125,
+            "value": -1.747558
+          },
+          {
+            "t": 3.25,
+            "value": -1.696865
+          },
+          {
+            "t": 3.375,
+            "value": -1.629831
+          },
+          {
+            "t": 3.5,
+            "value": -1.547101
+          },
+          {
+            "t": 3.625,
+            "value": -1.449471
+          },
+          {
+            "t": 3.75,
+            "value": -1.337882
+          },
+          {
+            "t": 3.875,
+            "value": -1.213409
+          },
+          {
+            "t": 4.0,
+            "value": -1.07725
+          },
+          {
+            "t": 4.125,
+            "value": -0.930716
+          },
+          {
+            "t": 4.25,
+            "value": -0.775219
+          },
+          {
+            "t": 4.375,
+            "value": -0.612256
+          },
+          {
+            "t": 4.5,
+            "value": -0.443397
+          },
+          {
+            "t": 4.625,
+            "value": -0.270268
+          },
+          {
+            "t": 4.75,
+            "value": -0.094536
+          },
+          {
+            "t": 4.875,
+            "value": 0.082107
+          },
+          {
+            "t": 5.0,
+            "value": 0.257959
+          },
+          {
+            "t": 5.125,
+            "value": 0.431326
+          },
+          {
+            "t": 5.25,
+            "value": 0.60054
+          },
+          {
+            "t": 5.375,
+            "value": 0.76397
+          },
+          {
+            "t": 5.5,
+            "value": 0.920043
+          },
+          {
+            "t": 5.625,
+            "value": 1.067255
+          },
+          {
+            "t": 5.75,
+            "value": 1.204189
+          },
+          {
+            "t": 5.875,
+            "value": 1.329526
+          },
+          {
+            "t": 6.0,
+            "value": 1.442059
+          },
+          {
+            "t": 6.125,
+            "value": 1.540704
+          },
+          {
+            "t": 6.25,
+            "value": 1.624511
+          },
+          {
+            "t": 6.375,
+            "value": 1.692673
+          },
+          {
+            "t": 6.5,
+            "value": 1.744534
+          },
+          {
+            "t": 6.625,
+            "value": 1.779594
+          },
+          {
+            "t": 6.75,
+            "value": 1.797516
+          },
+          {
+            "t": 6.875,
+            "value": 1.798126
+          },
+          {
+            "t": 7.0,
+            "value": 1.78142
+          },
+          {
+            "t": 7.125,
+            "value": 1.747558
+          },
+          {
+            "t": 7.25,
+            "value": 1.696865
+          },
+          {
+            "t": 7.375,
+            "value": 1.629831
+          },
+          {
+            "t": 7.5,
+            "value": 1.547101
+          },
+          {
+            "t": 7.625,
+            "value": 1.449471
+          },
+          {
+            "t": 7.75,
+            "value": 1.337882
+          },
+          {
+            "t": 7.875,
+            "value": 1.213409
+          },
+          {
+            "t": 8.0,
+            "value": 1.07725
+          }
+        ]
+      },
+      "crop_px": [
+        1310,
+        578,
+        1695,
+        897
+      ],
+      "native_pivot": [
+        1490,
+        887
+      ]
+    },
+    {
+      "id": "child-base",
+      "asset_id": "child-base",
+      "x": 24,
+      "y": 396,
+      "width": 1032,
+      "height": 688,
+      "z": 0,
+      "tracks": {},
+      "scene_id": "child",
+      "crop_px": [
+        0,
+        0,
+        1920,
+        1280
+      ],
+      "pivot_x": 0.5,
+      "pivot_y": 0.5
+    },
+    {
+      "id": "child-lamp",
+      "asset_id": "child-lamp",
+      "x": 652.337,
+      "y": 396.0,
+      "width": 113.95,
+      "height": 106.425,
+      "z": 2,
+      "scene_id": "child",
+      "pivot_x": 0.5330188679245284,
+      "pivot_y": 0.0,
+      "tracks": {
+        "rotation": [
+          {
+            "t": 0.0,
+            "value": 0.0
+          },
+          {
+            "t": 0.125,
+            "value": 0.083315
+          },
+          {
+            "t": 0.25,
+            "value": 0.165827
+          },
+          {
+            "t": 0.375,
+            "value": 0.246742
+          },
+          {
+            "t": 0.5,
+            "value": 0.325281
+          },
+          {
+            "t": 0.625,
+            "value": 0.400687
+          },
+          {
+            "t": 0.75,
+            "value": 0.472235
+          },
+          {
+            "t": 0.875,
+            "value": 0.539234
+          },
+          {
+            "t": 1.0,
+            "value": 0.601041
+          },
+          {
+            "t": 1.125,
+            "value": 0.657059
+          },
+          {
+            "t": 1.25,
+            "value": 0.706749
+          },
+          {
+            "t": 1.375,
+            "value": 0.749633
+          },
+          {
+            "t": 1.5,
+            "value": 0.785298
+          },
+          {
+            "t": 1.625,
+            "value": 0.813399
+          },
+          {
+            "t": 1.75,
+            "value": 0.833667
+          },
+          {
+            "t": 1.875,
+            "value": 0.845907
+          },
+          {
+            "t": 2.0,
+            "value": 0.85
+          },
+          {
+            "t": 2.125,
+            "value": 0.845907
+          },
+          {
+            "t": 2.25,
+            "value": 0.833667
+          },
+          {
+            "t": 2.375,
+            "value": 0.813399
+          },
+          {
+            "t": 2.5,
+            "value": 0.785298
+          },
+          {
+            "t": 2.625,
+            "value": 0.749633
+          },
+          {
+            "t": 2.75,
+            "value": 0.706749
+          },
+          {
+            "t": 2.875,
+            "value": 0.657059
+          },
+          {
+            "t": 3.0,
+            "value": 0.601041
+          },
+          {
+            "t": 3.125,
+            "value": 0.539234
+          },
+          {
+            "t": 3.25,
+            "value": 0.472235
+          },
+          {
+            "t": 3.375,
+            "value": 0.400687
+          },
+          {
+            "t": 3.5,
+            "value": 0.325281
+          },
+          {
+            "t": 3.625,
+            "value": 0.246742
+          },
+          {
+            "t": 3.75,
+            "value": 0.165827
+          },
+          {
+            "t": 3.875,
+            "value": 0.083315
+          },
+          {
+            "t": 4.0,
+            "value": 0.0
+          },
+          {
+            "t": 4.125,
+            "value": -0.083315
+          },
+          {
+            "t": 4.25,
+            "value": -0.165827
+          },
+          {
+            "t": 4.375,
+            "value": -0.246742
+          },
+          {
+            "t": 4.5,
+            "value": -0.325281
+          },
+          {
+            "t": 4.625,
+            "value": -0.400687
+          },
+          {
+            "t": 4.75,
+            "value": -0.472235
+          },
+          {
+            "t": 4.875,
+            "value": -0.539234
+          },
+          {
+            "t": 5.0,
+            "value": -0.601041
+          },
+          {
+            "t": 5.125,
+            "value": -0.657059
+          },
+          {
+            "t": 5.25,
+            "value": -0.706749
+          },
+          {
+            "t": 5.375,
+            "value": -0.749633
+          },
+          {
+            "t": 5.5,
+            "value": -0.785298
+          },
+          {
+            "t": 5.625,
+            "value": -0.813399
+          },
+          {
+            "t": 5.75,
+            "value": -0.833667
+          },
+          {
+            "t": 5.875,
+            "value": -0.845907
+          },
+          {
+            "t": 6.0,
+            "value": -0.85
+          },
+          {
+            "t": 6.125,
+            "value": -0.845907
+          },
+          {
+            "t": 6.25,
+            "value": -0.833667
+          },
+          {
+            "t": 6.375,
+            "value": -0.813399
+          },
+          {
+            "t": 6.5,
+            "value": -0.785298
+          },
+          {
+            "t": 6.625,
+            "value": -0.749633
+          },
+          {
+            "t": 6.75,
+            "value": -0.706749
+          },
+          {
+            "t": 6.875,
+            "value": -0.657059
+          },
+          {
+            "t": 7.0,
+            "value": -0.601041
+          },
+          {
+            "t": 7.125,
+            "value": -0.539234
+          },
+          {
+            "t": 7.25,
+            "value": -0.472235
+          },
+          {
+            "t": 7.375,
+            "value": -0.400687
+          },
+          {
+            "t": 7.5,
+            "value": -0.325281
+          },
+          {
+            "t": 7.625,
+            "value": -0.246742
+          },
+          {
+            "t": 7.75,
+            "value": -0.165827
+          },
+          {
+            "t": 7.875,
+            "value": -0.083315
+          },
+          {
+            "t": 8.0,
+            "value": -0.0
+          }
+        ]
+      },
+      "crop_px": [
+        1169,
+        0,
+        1381,
+        198
+      ],
+      "native_pivot": [
+        1282,
+        0
+      ]
+    },
+    {
+      "id": "child-foreground-left",
+      "asset_id": "child-foreground-left",
+      "x": 24.0,
+      "y": 578.212,
+      "width": 301.537,
+      "height": 505.787,
+      "z": 3,
+      "scene_id": "child",
+      "pivot_x": 0.20499108734402852,
+      "pivot_y": 0.9574920297555791,
+      "tracks": {
+        "rotation": [
+          {
+            "t": 0.0,
+            "value": 1.211651
+          },
+          {
+            "t": 0.125,
+            "value": 1.251989
+          },
+          {
+            "t": 0.25,
+            "value": 1.28027
+          },
+          {
+            "t": 0.375,
+            "value": 1.296221
+          },
+          {
+            "t": 0.5,
+            "value": 1.299688
+          },
+          {
+            "t": 0.625,
+            "value": 1.290639
+          },
+          {
+            "t": 0.75,
+            "value": 1.269161
+          },
+          {
+            "t": 0.875,
+            "value": 1.235459
+          },
+          {
+            "t": 1.0,
+            "value": 1.18986
+          },
+          {
+            "t": 1.125,
+            "value": 1.132801
+          },
+          {
+            "t": 1.25,
+            "value": 1.064833
+          },
+          {
+            "t": 1.375,
+            "value": 0.986611
+          },
+          {
+            "t": 1.5,
+            "value": 0.898886
+          },
+          {
+            "t": 1.625,
+            "value": 0.802505
+          },
+          {
+            "t": 1.75,
+            "value": 0.698395
+          },
+          {
+            "t": 1.875,
+            "value": 0.587559
+          },
+          {
+            "t": 2.0,
+            "value": 0.471065
+          },
+          {
+            "t": 2.125,
+            "value": 0.350034
+          },
+          {
+            "t": 2.25,
+            "value": 0.225632
+          },
+          {
+            "t": 2.375,
+            "value": 0.099058
+          },
+          {
+            "t": 2.5,
+            "value": -0.028471
+          },
+          {
+            "t": 2.625,
+            "value": -0.155726
+          },
+          {
+            "t": 2.75,
+            "value": -0.281481
+          },
+          {
+            "t": 2.875,
+            "value": -0.404525
+          },
+          {
+            "t": 3.0,
+            "value": -0.523673
+          },
+          {
+            "t": 3.125,
+            "value": -0.637778
+          },
+          {
+            "t": 3.25,
+            "value": -0.745741
+          },
+          {
+            "t": 3.375,
+            "value": -0.846522
+          },
+          {
+            "t": 3.5,
+            "value": -0.939151
+          },
+          {
+            "t": 3.625,
+            "value": -1.022735
+          },
+          {
+            "t": 3.75,
+            "value": -1.096469
+          },
+          {
+            "t": 3.875,
+            "value": -1.159644
+          },
+          {
+            "t": 4.0,
+            "value": -1.211651
+          },
+          {
+            "t": 4.125,
+            "value": -1.251989
+          },
+          {
+            "t": 4.25,
+            "value": -1.28027
+          },
+          {
+            "t": 4.375,
+            "value": -1.296221
+          },
+          {
+            "t": 4.5,
+            "value": -1.299688
+          },
+          {
+            "t": 4.625,
+            "value": -1.290639
+          },
+          {
+            "t": 4.75,
+            "value": -1.269161
+          },
+          {
+            "t": 4.875,
+            "value": -1.235459
+          },
+          {
+            "t": 5.0,
+            "value": -1.18986
+          },
+          {
+            "t": 5.125,
+            "value": -1.132801
+          },
+          {
+            "t": 5.25,
+            "value": -1.064833
+          },
+          {
+            "t": 5.375,
+            "value": -0.986611
+          },
+          {
+            "t": 5.5,
+            "value": -0.898886
+          },
+          {
+            "t": 5.625,
+            "value": -0.802505
+          },
+          {
+            "t": 5.75,
+            "value": -0.698395
+          },
+          {
+            "t": 5.875,
+            "value": -0.587559
+          },
+          {
+            "t": 6.0,
+            "value": -0.471065
+          },
+          {
+            "t": 6.125,
+            "value": -0.350034
+          },
+          {
+            "t": 6.25,
+            "value": -0.225632
+          },
+          {
+            "t": 6.375,
+            "value": -0.099058
+          },
+          {
+            "t": 6.5,
+            "value": 0.028471
+          },
+          {
+            "t": 6.625,
+            "value": 0.155726
+          },
+          {
+            "t": 6.75,
+            "value": 0.281481
+          },
+          {
+            "t": 6.875,
+            "value": 0.404525
+          },
+          {
+            "t": 7.0,
+            "value": 0.523673
+          },
+          {
+            "t": 7.125,
+            "value": 0.637778
+          },
+          {
+            "t": 7.25,
+            "value": 0.745741
+          },
+          {
+            "t": 7.375,
+            "value": 0.846522
+          },
+          {
+            "t": 7.5,
+            "value": 0.939151
+          },
+          {
+            "t": 7.625,
+            "value": 1.022735
+          },
+          {
+            "t": 7.75,
+            "value": 1.096469
+          },
+          {
+            "t": 7.875,
+            "value": 1.159644
+          },
+          {
+            "t": 8.0,
+            "value": 1.211651
+          }
+        ]
+      },
+      "crop_px": [
+        0,
+        339,
+        561,
+        1280
+      ],
+      "native_pivot": [
+        115,
+        1240
+      ]
+    },
+    {
+      "id": "child-foreground-right",
+      "asset_id": "child-foreground-right",
+      "x": 738.875,
+      "y": 605.625,
+      "width": 317.125,
+      "height": 478.375,
+      "z": 4,
+      "scene_id": "child",
+      "pivot_x": 0.7627118644067796,
+      "pivot_y": 0.9775280898876404,
+      "tracks": {
+        "rotation": [
+          {
+            "t": 0.0,
+            "value": 0.778014
+          },
+          {
+            "t": 0.125,
+            "value": 0.672184
+          },
+          {
+            "t": 0.25,
+            "value": 0.55988
+          },
+          {
+            "t": 0.375,
+            "value": 0.442185
+          },
+          {
+            "t": 0.5,
+            "value": 0.320231
+          },
+          {
+            "t": 0.625,
+            "value": 0.195193
+          },
+          {
+            "t": 0.75,
+            "value": 0.068276
+          },
+          {
+            "t": 0.875,
+            "value": -0.059299
+          },
+          {
+            "t": 1.0,
+            "value": -0.186303
+          },
+          {
+            "t": 1.125,
+            "value": -0.311513
+          },
+          {
+            "t": 1.25,
+            "value": -0.433723
+          },
+          {
+            "t": 1.375,
+            "value": -0.551756
+          },
+          {
+            "t": 1.5,
+            "value": -0.664475
+          },
+          {
+            "t": 1.625,
+            "value": -0.770795
+          },
+          {
+            "t": 1.75,
+            "value": -0.869692
+          },
+          {
+            "t": 1.875,
+            "value": -0.960213
+          },
+          {
+            "t": 2.0,
+            "value": -1.041487
+          },
+          {
+            "t": 2.125,
+            "value": -1.11273
+          },
+          {
+            "t": 2.25,
+            "value": -1.173258
+          },
+          {
+            "t": 2.375,
+            "value": -1.222486
+          },
+          {
+            "t": 2.5,
+            "value": -1.259941
+          },
+          {
+            "t": 2.625,
+            "value": -1.285262
+          },
+          {
+            "t": 2.75,
+            "value": -1.298206
+          },
+          {
+            "t": 2.875,
+            "value": -1.298647
+          },
+          {
+            "t": 3.0,
+            "value": -1.286581
+          },
+          {
+            "t": 3.125,
+            "value": -1.262125
+          },
+          {
+            "t": 3.25,
+            "value": -1.225514
+          },
+          {
+            "t": 3.375,
+            "value": -1.1771
+          },
+          {
+            "t": 3.5,
+            "value": -1.117351
+          },
+          {
+            "t": 3.625,
+            "value": -1.04684
+          },
+          {
+            "t": 3.75,
+            "value": -0.966248
+          },
+          {
+            "t": 3.875,
+            "value": -0.876351
+          },
+          {
+            "t": 4.0,
+            "value": -0.778014
+          },
+          {
+            "t": 4.125,
+            "value": -0.672184
+          },
+          {
+            "t": 4.25,
+            "value": -0.55988
+          },
+          {
+            "t": 4.375,
+            "value": -0.442185
+          },
+          {
+            "t": 4.5,
+            "value": -0.320231
+          },
+          {
+            "t": 4.625,
+            "value": -0.195193
+          },
+          {
+            "t": 4.75,
+            "value": -0.068276
+          },
+          {
+            "t": 4.875,
+            "value": 0.059299
+          },
+          {
+            "t": 5.0,
+            "value": 0.186303
+          },
+          {
+            "t": 5.125,
+            "value": 0.311513
+          },
+          {
+            "t": 5.25,
+            "value": 0.433723
+          },
+          {
+            "t": 5.375,
+            "value": 0.551756
+          },
+          {
+            "t": 5.5,
+            "value": 0.664475
+          },
+          {
+            "t": 5.625,
+            "value": 0.770795
+          },
+          {
+            "t": 5.75,
+            "value": 0.869692
+          },
+          {
+            "t": 5.875,
+            "value": 0.960213
+          },
+          {
+            "t": 6.0,
+            "value": 1.041487
+          },
+          {
+            "t": 6.125,
+            "value": 1.11273
+          },
+          {
+            "t": 6.25,
+            "value": 1.173258
+          },
+          {
+            "t": 6.375,
+            "value": 1.222486
+          },
+          {
+            "t": 6.5,
+            "value": 1.259941
+          },
+          {
+            "t": 6.625,
+            "value": 1.285262
+          },
+          {
+            "t": 6.75,
+            "value": 1.298206
+          },
+          {
+            "t": 6.875,
+            "value": 1.298647
+          },
+          {
+            "t": 7.0,
+            "value": 1.286581
+          },
+          {
+            "t": 7.125,
+            "value": 1.262125
+          },
+          {
+            "t": 7.25,
+            "value": 1.225514
+          },
+          {
+            "t": 7.375,
+            "value": 1.1771
+          },
+          {
+            "t": 7.5,
+            "value": 1.117351
+          },
+          {
+            "t": 7.625,
+            "value": 1.04684
+          },
+          {
+            "t": 7.75,
+            "value": 0.966248
+          },
+          {
+            "t": 7.875,
+            "value": 0.876351
+          },
+          {
+            "t": 8.0,
+            "value": 0.778014
+          }
+        ]
+      },
+      "crop_px": [
+        1330,
+        390,
+        1920,
+        1280
+      ],
+      "native_pivot": [
+        1780,
+        1260
+      ]
+    },
+    {
+      "id": "dinner-light",
+      "kind": "glow",
+      "x": 440,
+      "y": 560,
+      "width": 300,
+      "height": 270,
+      "z": 1,
+      "scene_id": "dinner",
+      "color": "#F4B353",
+      "tracks": {
+        "opacity": [
+          {
+            "t": 0.0,
+            "value": 0.12728
+          },
+          {
+            "t": 0.125,
+            "value": 0.128284
+          },
+          {
+            "t": 0.25,
+            "value": 0.129064
+          },
+          {
+            "t": 0.375,
+            "value": 0.129613
+          },
+          {
+            "t": 0.5,
+            "value": 0.129924
+          },
+          {
+            "t": 0.625,
+            "value": 0.129995
+          },
+          {
+            "t": 0.75,
+            "value": 0.129825
+          },
+          {
+            "t": 0.875,
+            "value": 0.129417
+          },
+          {
+            "t": 1.0,
+            "value": 0.128773
+          },
+          {
+            "t": 1.125,
+            "value": 0.1279
+          },
+          {
+            "t": 1.25,
+            "value": 0.126807
+          },
+          {
+            "t": 1.375,
+            "value": 0.125504
+          },
+          {
+            "t": 1.5,
+            "value": 0.124003
+          },
+          {
+            "t": 1.625,
+            "value": 0.122319
+          },
+          {
+            "t": 1.75,
+            "value": 0.120469
+          },
+          {
+            "t": 1.875,
+            "value": 0.118469
+          },
+          {
+            "t": 2.0,
+            "value": 0.11634
+          },
+          {
+            "t": 2.125,
+            "value": 0.114101
+          },
+          {
+            "t": 2.25,
+            "value": 0.111775
+          },
+          {
+            "t": 2.375,
+            "value": 0.109384
+          },
+          {
+            "t": 2.5,
+            "value": 0.10695
+          },
+          {
+            "t": 2.625,
+            "value": 0.104498
+          },
+          {
+            "t": 2.75,
+            "value": 0.102051
+          },
+          {
+            "t": 2.875,
+            "value": 0.099631
+          },
+          {
+            "t": 3.0,
+            "value": 0.097264
+          },
+          {
+            "t": 3.125,
+            "value": 0.094971
+          },
+          {
+            "t": 3.25,
+            "value": 0.092775
+          },
+          {
+            "t": 3.375,
+            "value": 0.090696
+          },
+          {
+            "t": 3.5,
+            "value": 0.088755
+          },
+          {
+            "t": 3.625,
+            "value": 0.086971
+          },
+          {
+            "t": 3.75,
+            "value": 0.08536
+          },
+          {
+            "t": 3.875,
+            "value": 0.083939
+          },
+          {
+            "t": 4.0,
+            "value": 0.08272
+          },
+          {
+            "t": 4.125,
+            "value": 0.081716
+          },
+          {
+            "t": 4.25,
+            "value": 0.080936
+          },
+          {
+            "t": 4.375,
+            "value": 0.080387
+          },
+          {
+            "t": 4.5,
+            "value": 0.080076
+          },
+          {
+            "t": 4.625,
+            "value": 0.080005
+          },
+          {
+            "t": 4.75,
+            "value": 0.080175
+          },
+          {
+            "t": 4.875,
+            "value": 0.080583
+          },
+          {
+            "t": 5.0,
+            "value": 0.081227
+          },
+          {
+            "t": 5.125,
+            "value": 0.0821
+          },
+          {
+            "t": 5.25,
+            "value": 0.083193
+          },
+          {
+            "t": 5.375,
+            "value": 0.084496
+          },
+          {
+            "t": 5.5,
+            "value": 0.085997
+          },
+          {
+            "t": 5.625,
+            "value": 0.087681
+          },
+          {
+            "t": 5.75,
+            "value": 0.089531
+          },
+          {
+            "t": 5.875,
+            "value": 0.091531
+          },
+          {
+            "t": 6.0,
+            "value": 0.09366
+          },
+          {
+            "t": 6.125,
+            "value": 0.095899
+          },
+          {
+            "t": 6.25,
+            "value": 0.098225
+          },
+          {
+            "t": 6.375,
+            "value": 0.100616
+          },
+          {
+            "t": 6.5,
+            "value": 0.10305
+          },
+          {
+            "t": 6.625,
+            "value": 0.105502
+          },
+          {
+            "t": 6.75,
+            "value": 0.107949
+          },
+          {
+            "t": 6.875,
+            "value": 0.110369
+          },
+          {
+            "t": 7.0,
+            "value": 0.112736
+          },
+          {
+            "t": 7.125,
+            "value": 0.115029
+          },
+          {
+            "t": 7.25,
+            "value": 0.117225
+          },
+          {
+            "t": 7.375,
+            "value": 0.119304
+          },
+          {
+            "t": 7.5,
+            "value": 0.121245
+          },
+          {
+            "t": 7.625,
+            "value": 0.123029
+          },
+          {
+            "t": 7.75,
+            "value": 0.12464
+          },
+          {
+            "t": 7.875,
+            "value": 0.126061
+          },
+          {
+            "t": 8.0,
+            "value": 0.12728
+          }
+        ]
+      }
+    },
+    {
+      "id": "child-light",
+      "kind": "glow",
+      "x": 500,
+      "y": 440,
+      "width": 350,
+      "height": 270,
+      "z": 1,
+      "scene_id": "child",
+      "color": "#F4B353",
+      "tracks": {
+        "opacity": [
+          {
+            "t": 0.0,
+            "value": 0.12728
+          },
+          {
+            "t": 0.125,
+            "value": 0.128284
+          },
+          {
+            "t": 0.25,
+            "value": 0.129064
+          },
+          {
+            "t": 0.375,
+            "value": 0.129613
+          },
+          {
+            "t": 0.5,
+            "value": 0.129924
+          },
+          {
+            "t": 0.625,
+            "value": 0.129995
+          },
+          {
+            "t": 0.75,
+            "value": 0.129825
+          },
+          {
+            "t": 0.875,
+            "value": 0.129417
+          },
+          {
+            "t": 1.0,
+            "value": 0.128773
+          },
+          {
+            "t": 1.125,
+            "value": 0.1279
+          },
+          {
+            "t": 1.25,
+            "value": 0.126807
+          },
+          {
+            "t": 1.375,
+            "value": 0.125504
+          },
+          {
+            "t": 1.5,
+            "value": 0.124003
+          },
+          {
+            "t": 1.625,
+            "value": 0.122319
+          },
+          {
+            "t": 1.75,
+            "value": 0.120469
+          },
+          {
+            "t": 1.875,
+            "value": 0.118469
+          },
+          {
+            "t": 2.0,
+            "value": 0.11634
+          },
+          {
+            "t": 2.125,
+            "value": 0.114101
+          },
+          {
+            "t": 2.25,
+            "value": 0.111775
+          },
+          {
+            "t": 2.375,
+            "value": 0.109384
+          },
+          {
+            "t": 2.5,
+            "value": 0.10695
+          },
+          {
+            "t": 2.625,
+            "value": 0.104498
+          },
+          {
+            "t": 2.75,
+            "value": 0.102051
+          },
+          {
+            "t": 2.875,
+            "value": 0.099631
+          },
+          {
+            "t": 3.0,
+            "value": 0.097264
+          },
+          {
+            "t": 3.125,
+            "value": 0.094971
+          },
+          {
+            "t": 3.25,
+            "value": 0.092775
+          },
+          {
+            "t": 3.375,
+            "value": 0.090696
+          },
+          {
+            "t": 3.5,
+            "value": 0.088755
+          },
+          {
+            "t": 3.625,
+            "value": 0.086971
+          },
+          {
+            "t": 3.75,
+            "value": 0.08536
+          },
+          {
+            "t": 3.875,
+            "value": 0.083939
+          },
+          {
+            "t": 4.0,
+            "value": 0.08272
+          },
+          {
+            "t": 4.125,
+            "value": 0.081716
+          },
+          {
+            "t": 4.25,
+            "value": 0.080936
+          },
+          {
+            "t": 4.375,
+            "value": 0.080387
+          },
+          {
+            "t": 4.5,
+            "value": 0.080076
+          },
+          {
+            "t": 4.625,
+            "value": 0.080005
+          },
+          {
+            "t": 4.75,
+            "value": 0.080175
+          },
+          {
+            "t": 4.875,
+            "value": 0.080583
+          },
+          {
+            "t": 5.0,
+            "value": 0.081227
+          },
+          {
+            "t": 5.125,
+            "value": 0.0821
+          },
+          {
+            "t": 5.25,
+            "value": 0.083193
+          },
+          {
+            "t": 5.375,
+            "value": 0.084496
+          },
+          {
+            "t": 5.5,
+            "value": 0.085997
+          },
+          {
+            "t": 5.625,
+            "value": 0.087681
+          },
+          {
+            "t": 5.75,
+            "value": 0.089531
+          },
+          {
+            "t": 5.875,
+            "value": 0.091531
+          },
+          {
+            "t": 6.0,
+            "value": 0.09366
+          },
+          {
+            "t": 6.125,
+            "value": 0.095899
+          },
+          {
+            "t": 6.25,
+            "value": 0.098225
+          },
+          {
+            "t": 6.375,
+            "value": 0.100616
+          },
+          {
+            "t": 6.5,
+            "value": 0.10305
+          },
+          {
+            "t": 6.625,
+            "value": 0.105502
+          },
+          {
+            "t": 6.75,
+            "value": 0.107949
+          },
+          {
+            "t": 6.875,
+            "value": 0.110369
+          },
+          {
+            "t": 7.0,
+            "value": 0.112736
+          },
+          {
+            "t": 7.125,
+            "value": 0.115029
+          },
+          {
+            "t": 7.25,
+            "value": 0.117225
+          },
+          {
+            "t": 7.375,
+            "value": 0.119304
+          },
+          {
+            "t": 7.5,
+            "value": 0.121245
+          },
+          {
+            "t": 7.625,
+            "value": 0.123029
+          },
+          {
+            "t": 7.75,
+            "value": 0.12464
+          },
+          {
+            "t": 7.875,
+            "value": 0.126061
+          },
+          {
+            "t": 8.0,
+            "value": 0.12728
+          }
+        ]
+      }
+    },
+    {
+      "id": "dinner-living-steam",
+      "scene_id": "dinner",
+      "kind": "steam",
+      "x": 530.325,
+      "y": 748.5999999999999,
+      "width": 80.625,
+      "height": 102.125,
+      "z": 8,
+      "color": "#F8DFB1",
+      "source_anchor_px": [
+        1017,
+        846
+      ],
+      "source_region_px": [
+        942.0,
+        656,
+        150,
+        190
+      ],
+      "narrative_basis": "Existing steam over the shared hot serving bowl; not the child’s cold bowl.",
+      "tracks": {
+        "opacity": [
+          {
+            "t": 0,
+            "value": 0.92
+          },
+          {
+            "t": 4,
+            "value": 1
+          },
+          {
+            "t": 8,
+            "value": 0.92
+          }
+        ]
+      }
+    },
+    {
+      "id": "child-living-steam",
+      "scene_id": "child",
+      "kind": "steam",
+      "x": 834.55,
+      "y": 660.9875,
+      "width": 88.14999999999999,
+      "height": 109.64999999999999,
+      "z": 8,
+      "color": "#F8DFB1",
+      "source_anchor_px": [
+        1590,
+        697
+      ],
+      "source_region_px": [
+        1508.0,
+        493,
+        164,
+        204
+      ],
+      "narrative_basis": "Hot cooking pot at right; child’s foreground bowl intentionally has no steam.",
+      "tracks": {
+        "opacity": [
+          {
+            "t": 0,
+            "value": 0.92
+          },
+          {
+            "t": 4,
+            "value": 1
+          },
+          {
+            "t": 8,
+            "value": 0.92
+          }
+        ]
+      }
+    }
+  ],
+  "audio": {
+    "mode": "silent"
+  },
+  "status": "internal_review",
+  "author_quality_approved": false,
+  "public_release_approved": false,
+  "paid_release_approved": false,
+  "timeline": {
+    "schema_version": "1.1",
+    "story_slug": "com-nguoi",
+    "version": "v5-living-illustrations",
+    "display_title": "Cơm nguội",
+    "source": {
+      "path": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\script\\final-script-v2.md",
+      "sha256": "d957b592dc2317aa34196dd25ab42a3fe4a7938d3aee5a1121ab173214bf76f9"
+    },
+    "canonical_narrative_source": {
+      "path": "C:\\Users\\Administrator\\OneDrive\\Desktop\\.json book\\json_under_revision_v2\\chapters\\com-nguoi\\source\\approved.md",
+      "sha256": "b4319bf9abb463148f590c773c14f12732e3524a612936fd2edddcaebecdfd3a"
+    },
+    "script_reference": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\script\\final-script-v2.md",
+    "script_approval_reference": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\script\\final-script-v2-approval.json",
+    "status": "ready_for_review",
+    "timing": "estimated_for_silent_reading; author requested a silent review cut",
+    "visual_mode": "layer_animation",
+    "author_audio": null,
+    "music": null,
+    "cuts": {
+      "master": {
+        "duration_estimate_s": 120.0,
+        "full_source_reading": true,
+        "shots": [
+          {
+            "id": "OPEN",
+            "start_s": 0.0,
+            "duration_s": 10.5,
+            "vo_text": "",
+            "source_reference": null,
+            "asset_path": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\com-nguoi\\artwork\\chapter-page\\portal.webp",
+            "asset_sha256": "79b61b71d689bd27bd5cab1679c2a875aff7a8b660619afad9d1ed39d4a3587a",
+            "kind": "portal_entry",
+            "on_screen_text": "Cơm nguội",
+            "visual": "Title hold, focused camera entry into center artwork, sharp family-table reveal, then first source paragraph.",
+            "subtitle_status": "silent reading text; timings estimated, not aligned to speech",
+            "motion": {
+              "scale_from": 1.0,
+              "scale_to": 1.025,
+              "pan_x_px": 0,
+              "pan_y_px": 0
+            },
+            "portal_entry": {
+              "focus_x": 0.5,
+              "focus_y": 0.565,
+              "max_scale": 5.5,
+              "reveal_asset_path": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\com-nguoi\\artwork\\chapter-page\\hero.webp",
+              "reveal_asset_sha256": "317e9cfb33874f3ee417c09a6b43ca07de16fa69e63e93a4503e7352e93c4f84"
+            },
+            "scene_id": "dinner"
+          },
+          {
+            "id": "P01",
+            "start_s": 10.5,
+            "duration_s": 15.5,
+            "vo_text": "Nếu đây là lần đầu tiên các cậu ăn cơm với tớ, chắc hẳn các cậu sẽ hơi ngạc nhiên khi thấy tớ luôn chọn cơm nguội, dù trên bàn vẫn có một nồi cơm mới nấu nóng hổi.",
+            "source_reference": {
+              "text": "Nếu đây là lần đầu tiên các cậu ăn cơm với tớ, chắc hẳn các cậu sẽ hơi ngạc nhiên khi thấy tớ luôn chọn cơm nguội, dù trên bàn vẫn có một nồi cơm mới nấu nóng hổi.",
+              "line": 3,
+              "path": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\script\\final-script-v2.md",
+              "source_sha256": "d957b592dc2317aa34196dd25ab42a3fe4a7938d3aee5a1121ab173214bf76f9"
+            },
+            "asset_path": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\com-nguoi\\artwork\\chapter-page\\hero.webp",
+            "asset_sha256": "317e9cfb33874f3ee417c09a6b43ca07de16fa69e63e93a4503e7352e93c4f84",
+            "kind": "story",
+            "on_screen_text": "",
+            "visual": "Living illustration: curling vapor rises from the hot serving bowl/pot, leaves sway and warm light breathes. Cold bowl, faces and family poses remain still.",
+            "subtitle_status": "silent reading text; timings estimated, not aligned to speech",
+            "motion": {
+              "scale_from": 1.0,
+              "scale_to": 1.025,
+              "pan_x_px": 0,
+              "pan_y_px": 0
+            },
+            "caption_cues": [
+              {
+                "start_s": 0.0,
+                "duration_s": 4.5,
+                "text": "Nếu đây là lần đầu tiên\ncác cậu ăn cơm với tớ,"
+              },
+              {
+                "start_s": 4.5,
+                "duration_s": 3.5,
+                "text": "chắc hẳn các cậu\nsẽ hơi ngạc nhiên"
+              },
+              {
+                "start_s": 8.0,
+                "duration_s": 3.0,
+                "text": "khi thấy tớ luôn chọn cơm nguội,"
+              },
+              {
+                "start_s": 11.0,
+                "duration_s": 4.5,
+                "text": "dù trên bàn vẫn có một\nnồi cơm mới nấu nóng hổi."
+              }
+            ],
+            "scene_id": "dinner"
+          },
+          {
+            "id": "P02",
+            "start_s": 26.0,
+            "duration_s": 17.5,
+            "vo_text": "Nó không phải sở thích. Chẳng ai có cái sở thích kỳ quái vậy cả. Ăn cơm nóng rõ ràng ngon hơn chứ. Với tớ, nó chỉ là một thói quen, mà thói quen thì thường rất khó bỏ.",
+            "source_reference": {
+              "text": "Nó không phải sở thích. Chẳng ai có cái sở thích kỳ quái vậy cả. Ăn cơm nóng rõ ràng ngon hơn chứ. Với tớ, nó chỉ là một thói quen, mà thói quen thì thường rất khó bỏ.",
+              "line": 5,
+              "path": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\script\\final-script-v2.md",
+              "source_sha256": "d957b592dc2317aa34196dd25ab42a3fe4a7938d3aee5a1121ab173214bf76f9"
+            },
+            "asset_path": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\com-nguoi\\artwork\\chapter-page\\hero.webp",
+            "asset_sha256": "317e9cfb33874f3ee417c09a6b43ca07de16fa69e63e93a4503e7352e93c4f84",
+            "kind": "story",
+            "on_screen_text": "",
+            "visual": "Living illustration: curling vapor rises from the hot serving bowl/pot, leaves sway and warm light breathes. Cold bowl, faces and family poses remain still.",
+            "subtitle_status": "silent reading text; timings estimated, not aligned to speech",
+            "motion": {
+              "scale_from": 1.0,
+              "scale_to": 1.025,
+              "pan_x_px": 0,
+              "pan_y_px": 0
+            },
+            "caption_cues": [
+              {
+                "start_s": 0.0,
+                "duration_s": 3.0,
+                "text": "Nó không phải sở thích."
+              },
+              {
+                "start_s": 3.0,
+                "duration_s": 4.0,
+                "text": "Chẳng ai có cái sở\nthích kỳ quái vậy cả."
+              },
+              {
+                "start_s": 7.0,
+                "duration_s": 3.5,
+                "text": "Ăn cơm nóng rõ\nràng ngon hơn chứ."
+              },
+              {
+                "start_s": 10.5,
+                "duration_s": 3.5,
+                "text": "Với tớ, nó chỉ là một thói quen,"
+              },
+              {
+                "start_s": 14.0,
+                "duration_s": 3.5,
+                "text": "mà thói quen thì\nthường rất khó bỏ."
+              }
+            ],
+            "scene_id": "dinner"
+          },
+          {
+            "id": "P03",
+            "start_s": 43.5,
+            "duration_s": 4.0,
+            "vo_text": "Cơm nguội gắn liền với thời thơ ấu của tớ.",
+            "source_reference": {
+              "text": "Cơm nguội gắn liền với thời thơ ấu của tớ.",
+              "line": 7,
+              "path": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\script\\final-script-v2.md",
+              "source_sha256": "d957b592dc2317aa34196dd25ab42a3fe4a7938d3aee5a1121ab173214bf76f9"
+            },
+            "asset_path": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\com-nguoi\\artwork\\content\\illustrations\\01-story-detail.webp",
+            "asset_sha256": "ce4f7fd4c2e46725139dc97f04bdd2b4fcfb8f00cef3313331063a608dfe0342",
+            "kind": "story",
+            "on_screen_text": "",
+            "visual": "Living illustration: curling vapor rises from the hot serving bowl/pot, leaves sway and warm light breathes. Cold bowl, faces and family poses remain still.",
+            "subtitle_status": "silent reading text; timings estimated, not aligned to speech",
+            "motion": {
+              "scale_from": 1.0,
+              "scale_to": 1.025,
+              "pan_x_px": 0,
+              "pan_y_px": 0
+            },
+            "caption_cues": [
+              {
+                "start_s": 0.0,
+                "duration_s": 4.0,
+                "text": "Cơm nguội gắn liền\nvới thời thơ ấu của tớ."
+              }
+            ],
+            "scene_id": "child"
+          },
+          {
+            "id": "P04",
+            "start_s": 47.5,
+            "duration_s": 22.0,
+            "vo_text": "Ngày bé, cái thời mà lò vi sóng hay bất cứ thứ gì dùng để hâm nóng thức ăn vẫn còn xa lạ, tô cơm nguội luôn xuất hiện trong những bữa ăn nhà tớ. Tớ để ý bố luôn là người ăn hết tô cơm ấy, còn phần cơm nóng thì để mẹ và tớ ăn.",
+            "source_reference": {
+              "text": "Ngày bé, cái thời mà lò vi sóng hay bất cứ thứ gì dùng để hâm nóng thức ăn vẫn còn xa lạ, tô cơm nguội luôn xuất hiện trong những bữa ăn nhà tớ. Tớ để ý bố luôn là người ăn hết tô cơm ấy, còn phần cơm nóng thì để mẹ và tớ ăn.",
+              "line": 9,
+              "path": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\script\\final-script-v2.md",
+              "source_sha256": "d957b592dc2317aa34196dd25ab42a3fe4a7938d3aee5a1121ab173214bf76f9"
+            },
+            "asset_path": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\com-nguoi\\artwork\\chapter-page\\hero.webp",
+            "asset_sha256": "317e9cfb33874f3ee417c09a6b43ca07de16fa69e63e93a4503e7352e93c4f84",
+            "kind": "story",
+            "on_screen_text": "",
+            "visual": "Living illustration: curling vapor rises from the hot serving bowl/pot, leaves sway and warm light breathes. Cold bowl, faces and family poses remain still.",
+            "subtitle_status": "silent reading text; timings estimated, not aligned to speech",
+            "motion": {
+              "scale_from": 1.0,
+              "scale_to": 1.025,
+              "pan_x_px": 0,
+              "pan_y_px": 0
+            },
+            "caption_cues": [
+              {
+                "start_s": 0.0,
+                "duration_s": 3.5,
+                "text": "Ngày bé, cái thời mà lò vi sóng"
+              },
+              {
+                "start_s": 3.5,
+                "duration_s": 5.5,
+                "text": "hay bất cứ thứ gì dùng để hâm\nnóng thức ăn vẫn còn xa lạ,"
+              },
+              {
+                "start_s": 9.0,
+                "duration_s": 4.5,
+                "text": "tô cơm nguội luôn xuất hiện\ntrong những bữa ăn nhà tớ."
+              },
+              {
+                "start_s": 13.5,
+                "duration_s": 4.5,
+                "text": "Tớ để ý bố luôn là\nngười ăn hết tô cơm ấy,"
+              },
+              {
+                "start_s": 18.0,
+                "duration_s": 4.0,
+                "text": "còn phần cơm nóng\nthì để mẹ và tớ ăn."
+              }
+            ],
+            "scene_id": "dinner"
+          },
+          {
+            "id": "P05",
+            "start_s": 69.5,
+            "duration_s": 5.0,
+            "vo_text": "Tớ không muốn bố phải ăn cơm nguội.",
+            "source_reference": {
+              "text": "Tớ không muốn bố phải ăn cơm nguội.",
+              "line": 11,
+              "path": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\script\\final-script-v2.md",
+              "source_sha256": "d957b592dc2317aa34196dd25ab42a3fe4a7938d3aee5a1121ab173214bf76f9"
+            },
+            "asset_path": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\com-nguoi\\artwork\\content\\illustrations\\01-story-detail.webp",
+            "asset_sha256": "ce4f7fd4c2e46725139dc97f04bdd2b4fcfb8f00cef3313331063a608dfe0342",
+            "kind": "story",
+            "on_screen_text": "",
+            "visual": "Living illustration: curling vapor rises from the hot serving bowl/pot, leaves sway and warm light breathes. Cold bowl, faces and family poses remain still.",
+            "subtitle_status": "silent reading text; timings estimated, not aligned to speech",
+            "motion": {
+              "scale_from": 1.0,
+              "scale_to": 1.025,
+              "pan_x_px": 0,
+              "pan_y_px": 0
+            },
+            "caption_cues": [
+              {
+                "start_s": 0.0,
+                "duration_s": 5.0,
+                "text": "Tớ không muốn bố\nphải ăn cơm nguội."
+              }
+            ],
+            "scene_id": "child"
+          },
+          {
+            "id": "P06",
+            "start_s": 74.5,
+            "duration_s": 21.5,
+            "vo_text": "Thế nên cứ mỗi bữa, tớ lại giành lấy phần cơm ấy, bảo rằng tớ thích ăn cơm nguội hơn. Ban đầu chỉ đơn giản là không muốn bố phải ăn phần cơm còn lại từ bữa trước. Nhưng cứ thế, bữa này qua bữa khác, nó dần trở thành thói quen.",
+            "source_reference": {
+              "text": "Thế nên cứ mỗi bữa, tớ lại giành lấy phần cơm ấy, bảo rằng tớ thích ăn cơm nguội hơn. Ban đầu chỉ đơn giản là không muốn bố phải ăn phần cơm còn lại từ bữa trước. Nhưng cứ thế, bữa này qua bữa khác, nó dần trở thành thói quen.",
+              "line": 13,
+              "path": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\script\\final-script-v2.md",
+              "source_sha256": "d957b592dc2317aa34196dd25ab42a3fe4a7938d3aee5a1121ab173214bf76f9"
+            },
+            "asset_path": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\com-nguoi\\artwork\\content\\illustrations\\01-story-detail.webp",
+            "asset_sha256": "ce4f7fd4c2e46725139dc97f04bdd2b4fcfb8f00cef3313331063a608dfe0342",
+            "kind": "story",
+            "on_screen_text": "",
+            "visual": "Living illustration: curling vapor rises from the hot serving bowl/pot, leaves sway and warm light breathes. Cold bowl, faces and family poses remain still.",
+            "subtitle_status": "silent reading text; timings estimated, not aligned to speech",
+            "motion": {
+              "scale_from": 1.0,
+              "scale_to": 1.025,
+              "pan_x_px": 0,
+              "pan_y_px": 0
+            },
+            "caption_cues": [
+              {
+                "start_s": 0.0,
+                "duration_s": 4.5,
+                "text": "Thế nên cứ mỗi bữa, tớ lại\ngiành lấy phần cơm ấy,"
+              },
+              {
+                "start_s": 4.5,
+                "duration_s": 3.5,
+                "text": "bảo rằng tớ thích\năn cơm nguội hơn."
+              },
+              {
+                "start_s": 8.0,
+                "duration_s": 3.5,
+                "text": "Ban đầu chỉ đơn giản\nlà không muốn bố"
+              },
+              {
+                "start_s": 11.5,
+                "duration_s": 3.5,
+                "text": "phải ăn phần cơm\ncòn lại từ bữa trước."
+              },
+              {
+                "start_s": 15.0,
+                "duration_s": 3.5,
+                "text": "Nhưng cứ thế, bữa\nnày qua bữa khác,"
+              },
+              {
+                "start_s": 18.5,
+                "duration_s": 3.0,
+                "text": "nó dần trở thành thói quen."
+              }
+            ],
+            "scene_id": "child"
+          },
+          {
+            "id": "P07",
+            "start_s": 96.0,
+            "duration_s": 5.0,
+            "vo_text": "Cho đến tận bây giờ.",
+            "source_reference": {
+              "text": "Cho đến tận bây giờ.",
+              "line": 15,
+              "path": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\script\\final-script-v2.md",
+              "source_sha256": "d957b592dc2317aa34196dd25ab42a3fe4a7938d3aee5a1121ab173214bf76f9"
+            },
+            "asset_path": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\com-nguoi\\artwork\\chapter-page\\hero.webp",
+            "asset_sha256": "317e9cfb33874f3ee417c09a6b43ca07de16fa69e63e93a4503e7352e93c4f84",
+            "kind": "story",
+            "on_screen_text": "",
+            "visual": "Living illustration: curling vapor rises from the hot serving bowl/pot, leaves sway and warm light breathes. Cold bowl, faces and family poses remain still.",
+            "subtitle_status": "silent reading text; timings estimated, not aligned to speech",
+            "motion": {
+              "scale_from": 1.0,
+              "scale_to": 1.025,
+              "pan_x_px": 0,
+              "pan_y_px": 0
+            },
+            "caption_cues": [
+              {
+                "start_s": 0.0,
+                "duration_s": 5.0,
+                "text": "Cho đến tận bây giờ."
+              }
+            ],
+            "scene_id": "dinner"
+          },
+          {
+            "id": "P08",
+            "start_s": 101.0,
+            "duration_s": 4.0,
+            "vo_text": "Thỉnh thoảng trong những bữa cơm, bố mẹ vẫn bảo:",
+            "source_reference": {
+              "text": "Thỉnh thoảng trong những bữa cơm, bố mẹ vẫn bảo:",
+              "line": 17,
+              "path": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\script\\final-script-v2.md",
+              "source_sha256": "d957b592dc2317aa34196dd25ab42a3fe4a7938d3aee5a1121ab173214bf76f9"
+            },
+            "asset_path": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\com-nguoi\\artwork\\chapter-page\\hero.webp",
+            "asset_sha256": "317e9cfb33874f3ee417c09a6b43ca07de16fa69e63e93a4503e7352e93c4f84",
+            "kind": "story",
+            "on_screen_text": "",
+            "visual": "Living illustration: curling vapor rises from the hot serving bowl/pot, leaves sway and warm light breathes. Cold bowl, faces and family poses remain still.",
+            "subtitle_status": "silent reading text; timings estimated, not aligned to speech",
+            "motion": {
+              "scale_from": 1.0,
+              "scale_to": 1.025,
+              "pan_x_px": 0,
+              "pan_y_px": 0
+            },
+            "caption_cues": [
+              {
+                "start_s": 0.0,
+                "duration_s": 4.0,
+                "text": "Thỉnh thoảng trong những\nbữa cơm, bố mẹ vẫn bảo:"
+              }
+            ],
+            "scene_id": "dinner"
+          },
+          {
+            "id": "P09",
+            "start_s": 105.0,
+            "duration_s": 6.0,
+            "vo_text": "“Sao không ăn cơm nóng kia con, ăn cơm nguội đau dạ dày.”",
+            "source_reference": {
+              "text": "“Sao không ăn cơm nóng kia con, ăn cơm nguội đau dạ dày.”",
+              "line": 19,
+              "path": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\script\\final-script-v2.md",
+              "source_sha256": "d957b592dc2317aa34196dd25ab42a3fe4a7938d3aee5a1121ab173214bf76f9"
+            },
+            "asset_path": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\com-nguoi\\artwork\\chapter-page\\hero.webp",
+            "asset_sha256": "317e9cfb33874f3ee417c09a6b43ca07de16fa69e63e93a4503e7352e93c4f84",
+            "kind": "story",
+            "on_screen_text": "",
+            "visual": "Living illustration: curling vapor rises from the hot serving bowl/pot, leaves sway and warm light breathes. Cold bowl, faces and family poses remain still.",
+            "subtitle_status": "silent reading text; timings estimated, not aligned to speech",
+            "motion": {
+              "scale_from": 1.0,
+              "scale_to": 1.025,
+              "pan_x_px": 0,
+              "pan_y_px": 0
+            },
+            "caption_cues": [
+              {
+                "start_s": 0.0,
+                "duration_s": 3.0,
+                "text": "“Sao không ăn cơm nóng kia con,"
+              },
+              {
+                "start_s": 3.0,
+                "duration_s": 3.0,
+                "text": "ăn cơm nguội đau dạ dày.”"
+              }
+            ],
+            "scene_id": "dinner"
+          },
+          {
+            "id": "P10",
+            "start_s": 111.0,
+            "duration_s": 5.0,
+            "vo_text": "“Con thích ăn cơm nguội.”",
+            "source_reference": {
+              "text": "“Con thích ăn cơm nguội.”",
+              "line": 21,
+              "path": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\script\\final-script-v2.md",
+              "source_sha256": "d957b592dc2317aa34196dd25ab42a3fe4a7938d3aee5a1121ab173214bf76f9"
+            },
+            "asset_path": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\com-nguoi\\artwork\\chapter-page\\hero.webp",
+            "asset_sha256": "317e9cfb33874f3ee417c09a6b43ca07de16fa69e63e93a4503e7352e93c4f84",
+            "kind": "story",
+            "on_screen_text": "",
+            "visual": "Living illustration: curling vapor rises from the hot serving bowl/pot, leaves sway and warm light breathes. Cold bowl, faces and family poses remain still.",
+            "subtitle_status": "silent reading text; timings estimated, not aligned to speech",
+            "motion": {
+              "scale_from": 1.0,
+              "scale_to": 1.025,
+              "pan_x_px": 0,
+              "pan_y_px": 0
+            },
+            "caption_cues": [
+              {
+                "start_s": 0.0,
+                "duration_s": 5.0,
+                "text": "“Con thích ăn cơm nguội.”"
+              }
+            ],
+            "scene_id": "dinner"
+          },
+          {
+            "id": "CLOSE",
+            "start_s": 116.0,
+            "duration_s": 4,
+            "vo_text": "",
+            "source_reference": null,
+            "asset_path": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\com-nguoi\\artwork\\chapter-page\\portal.webp",
+            "asset_sha256": "79b61b71d689bd27bd5cab1679c2a875aff7a8b660619afad9d1ed39d4a3587a",
+            "kind": "end",
+            "on_screen_text": "Cơm nguội",
+            "visual": "Existing complete illustration; contained, slow push and dissolve. No archival claim.",
+            "subtitle_status": "silent reading text; timings estimated, not aligned to speech",
+            "motion": {
+              "scale_from": 1.0,
+              "scale_to": 1.025,
+              "pan_x_px": 0,
+              "pan_y_px": 0
+            },
+            "scene_id": "dinner"
+          }
+        ]
+      }
+    },
+    "creative_revision": {
+      "request": "you miss the introduction part, i need the transition to go into the center art with the narrative of the chapter title then it comes to the story",
+      "date": "2026-10-21",
+      "scope": "internal silent opening revision; public release unapproved",
+      "sequence": "Hold chapter title; camera enters the portal's family-table center; dissolve to sharp existing center-scene art; settle into story before its first paragraph.",
+      "title_narration": "Cơm nguội is the title reading beat; intentionally text-only in the authorized silent review format. No new narrative or synthetic speech."
+    },
+    "animation_manifest": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\animation\\v5\\motion-manifest.json"
+  },
+  "scene_art_box": {
+    "x": 24,
+    "y": 396,
+    "width": 1032,
+    "height": 688
+  },
+  "intent": "Full story with source-anchored curling, rising and fading vapor; GIF loops use the same scene engine. Family poses, cold bowl and exact words preserved.",
+  "outputPath": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\video\\exports\\com-nguoi-v5-living-illustrations-silent-review-1080x1920.mp4",
+  "loop_period_s": 8,
+  "rendering_mode": "living_illustration",
+  "gif_exports": [
+    {
+      "scene_id": "dinner",
+      "path": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\animation\\v5\\exports\\com-nguoi-v5-dinner-living.gif",
+      "width": 960,
+      "height": 640,
+      "fps": 12.5,
+      "duration_s": 8,
+      "loop": 0
+    },
+    {
+      "scene_id": "child",
+      "path": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\animation\\v5\\exports\\com-nguoi-v5-child-living.gif",
+      "width": 960,
+      "height": 640,
+      "fps": 12.5,
+      "duration_s": 8,
+      "loop": 0
+    }
+  ],
+  "fontSrc": "noto-serif-4d8e67614246.ttf"
+}

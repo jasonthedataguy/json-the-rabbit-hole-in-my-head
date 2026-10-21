@@ -1,0 +1,36 @@
+{
+  "schema_version": 2,
+  "slug": "com-nguoi",
+  "number": "00",
+  "title": "Cold Rice",
+  "short_title": "Cold Rice",
+  "part": 0,
+  "language": "vi",
+  "publish": true,
+  "release_stage": "reader-with-original-products",
+  "canonical_text": "source/approved.md",
+  "canonical_path": "#chapter/00",
+  "summary": "Một người trẻ vẫn ăn cơm nguội dù luôn có cơm mới nấu. Lý do dẫn về ký ức đứa trẻ giành phần cơm nguội từ bố.",
+  "portal": {
+    "scene": "A family meal glows beneath an amber lamp, with the shared bowl of rice at the heart of the table.",
+    "objects": [
+      "porcelain bowl of rice",
+      "family table",
+      "amber hanging lamp"
+    ],
+    "iconKey": "bowl",
+    "motif": "The bowl"
+  },
+  "original_edition": {
+    "number": "07",
+    "title": "Cơm nguội",
+    "repo": "https://github.com/jasonthedataguy/json-under-revision",
+    "commit": "b41b692b3e3633abea4997b6ac4513a91308f127",
+    "metadata": "references/original-edition/chapter.json",
+    "archive_url": "https://jasonthedataguy.github.io/json-under-revision/chapters/07/"
+  },
+  "production_status": "digital portal adapted from author board; imported print and media remain original-edition proofs",
+  "manuscript_sha256": "b4319bf9abb463148f590c773c14f12732e3524a612936fd2edddcaebecdfd3a",
+  "outline_title": "Cơm nguội",
+  "original_title": "Cơm nguội"
+}

@@ -1,0 +1,29 @@
+{
+  "name": "json-video-studio",
+  "version": "0.2.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "studio": "node scripts/run.mjs studio",
+    "render": "node scripts/run.mjs render",
+    "still": "node scripts/run.mjs still",
+    "studio:v4": "node scripts/run-v4.mjs studio",
+    "render:v4": "node scripts/run-v4.mjs render",
+    "still:v4": "node scripts/run-v4.mjs still",
+    "studio:v5": "node scripts/run-v5.mjs studio",
+    "render:v5": "node scripts/run-v5.mjs render",
+    "still:v5": "node scripts/run-v5.mjs still",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.332",
+    "remotion": "4.0.332",
+    "react": "19.0.0",
+    "react-dom": "19.0.0"
+  },
+  "devDependencies": {
+    "typescript": "5.8.2",
+    "@types/react": "19.0.0",
+    "@types/react-dom": "19.0.0"
+  }
+}

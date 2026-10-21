@@ -1,0 +1,86 @@
+{
+  "chapter": "for-mother-russia",
+  "release_stage": "supplied",
+  "products": [
+    {
+      "product": "Original manuscript",
+      "state": "published verbatim",
+      "path": "source/approved.md"
+    },
+    {
+      "product": "Responsive winter website and Memory Graph",
+      "state": "ready",
+      "path": "web/index.html"
+    },
+    {
+      "product": "Illustration collection",
+      "state": "supplied concept artwork and crops",
+      "path": "artwork/source/01_HERO_beanie_Gau_blue_winter.jpg"
+    },
+    {
+      "product": "For Mother Russia digital portal",
+      "state": "screen artwork ready for review",
+      "path": "artwork/portal/mother-russia-portal-v2.png"
+    },
+    {
+      "product": "Winter cabin rectangular reading illustration",
+      "state": "screen artwork ready for review",
+      "path": "artwork/portal/mother-russia-cabin-v2.webp"
+    },
+    {
+      "product": "A5 illustrated book",
+      "state": "supplied proposed-edit editorial proof; working label 03",
+      "path": "book/03_For_Mother_Russia_A5_EDITORIAL_PROOF.pdf"
+    },
+    {
+      "product": "A4 chapter poster",
+      "state": "supplied poster proof; working label 03",
+      "path": "book/03_For_Mother_Russia_A4_POSTER_PROOF.pdf"
+    },
+    {
+      "product": "Vertical film",
+      "state": "24-second ambient edit awaiting author narration",
+      "path": "video/03_Mother_Russia_ANIMATIC_9x16.mp4"
+    },
+    {
+      "product": "SRT text-card timings",
+      "state": "not speech subtitles",
+      "path": "video/BEAT_CAPTIONS_NOT_VOICE.srt"
+    },
+    {
+      "product": "Narration draft",
+      "state": "supplied recording preparation",
+      "path": "video/NARRATION_DRAFT.md"
+    },
+    {
+      "product": "Instagram carousel",
+      "state": "five supplied 1080 × 1440 cards",
+      "path": "social/instagram/01_card_3x4.jpg"
+    },
+    {
+      "product": "Facebook image",
+      "state": "supplied social artwork",
+      "path": "social/facebook_1600x900.jpg"
+    },
+    {
+      "product": "YouTube thumbnail",
+      "state": "supplied social artwork",
+      "path": "social/youtube_thumbnail_1280x720.jpg"
+    },
+    {
+      "product": "Platform copy",
+      "state": "supplied draft; not posted",
+      "path": "social/POSTS_DRAFT.md"
+    },
+    {
+      "product": "Production board",
+      "state": "preserved reference",
+      "path": "references/mother-russia-v01/docs/PROJECT_BOARD.html"
+    }
+  ],
+  "remaining": [
+    "Author-recorded narration and synchronized speech subtitles",
+    "Final printer production",
+    "Author-managed social posting; QR deferred"
+  ]
+}

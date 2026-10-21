@@ -1,0 +1,84 @@
+{
+  "date": "2026-10-21",
+  "status": "pass",
+  "errors": [],
+  "local_file_links_checked": 123,
+  "derivative_hashes_checked": 23,
+  "stage_evidence_hashes_checked": 12,
+  "source_quotes_checked": 10,
+  "timing_sums": {
+    "master_estimate_s": 54,
+    "alternate_estimate_s": 18
+  },
+  "images": [
+    {
+      "path": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\outputs\\2026-10-21-com-nguoi\\social\\carousel-01.jpg",
+      "size": [
+        1080,
+        1440
+      ],
+      "decoded": true
+    },
+    {
+      "path": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\outputs\\2026-10-21-com-nguoi\\social\\carousel-02.jpg",
+      "size": [
+        1080,
+        1440
+      ],
+      "decoded": true
+    },
+    {
+      "path": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\outputs\\2026-10-21-com-nguoi\\social\\carousel-03.jpg",
+      "size": [
+        1080,
+        1440
+      ],
+      "decoded": true
+    },
+    {
+      "path": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\outputs\\2026-10-21-com-nguoi\\social\\carousel-04.jpg",
+      "size": [
+        1080,
+        1440
+      ],
+      "decoded": true
+    },
+    {
+      "path": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\outputs\\2026-10-21-com-nguoi\\social\\carousel-05.jpg",
+      "size": [
+        1080,
+        1440
+      ],
+      "decoded": true
+    },
+    {
+      "path": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\outputs\\2026-10-21-com-nguoi\\social\\facebook-image-v1.jpg",
+      "size": [
+        1200,
+        630
+      ],
+      "decoded": true
+    },
+    {
+      "path": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\outputs\\2026-10-21-com-nguoi\\social\\story-image-v1.jpg",
+      "size": [
+        1080,
+        1920
+      ],
+      "decoded": true
+    }
+  ],
+  "visual_review": {
+    "performed": true,
+    "scope": "All five carousel cards via contact sheet, Facebook image, story image, existing chapter placement proof",
+    "finding": "Vietnamese label glyphs corrected using Noto Serif; corrected exports visually inspected",
+    "founder_visual_approval": false
+  },
+  "original_source_unchanged": true,
+  "manifest_validator": "0 errors, 0 warnings; public-ready NO",
+  "live_reader_verified": false,
+  "final_vo_film_produced": false,
+  "jira_updated": false,
+  "historical_scope": "Initial pre-approval review checks; current canonical approval/build validation is in approval-verification.json",
+  "superseded_by": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\outputs\\2026-10-21-com-nguoi\\approval-verification.json"
+}

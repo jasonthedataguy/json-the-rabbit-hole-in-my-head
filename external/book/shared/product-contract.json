@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "reading_flow": ["read", "explore", "revisit"],
+  "lanes": [
+    {"id": "manuscript", "folder": "source", "deliverables": ["original manuscript", "author-selected manuscript", "revision history"]},
+    {"id": "artwork", "folder": "artwork", "deliverables": ["source and provenance", "scene library", "web/print/social exports"]},
+    {"id": "web", "folder": "web", "deliverables": ["complete reader", "source-grounded interactive experience", "version history", "accessible controls"]},
+    {"id": "print", "folder": "book", "deliverables": ["complete illustrated A5 proof", "print settings and QA", "optional poster/bookmark"]},
+    {"id": "audio", "folder": "audio", "deliverables": ["author reading script", "author recording", "final mix or documented ambience"]},
+    {"id": "video", "folder": "video", "deliverables": ["discovery cut", "feed cut", "long-form cut where appropriate", "timeline", "SRT/VTT retimed to actual recording"]},
+    {"id": "social", "folder": "social", "deliverables": ["Instagram carousel and alt text", "Facebook image and copy", "TikTok cover and caption", "YouTube thumbnail and description"]},
+    {"id": "qa", "folder": "docs", "deliverables": ["asset inventory", "product status", "manuscript/media checks", "browser and visual review"]},
+    {"id": "preview", "folder": "previews", "deliverables": ["actual product board", "desktop/mobile screenshots", "print contact sheets"]},
+    {"id": "references", "folder": "references", "deliverables": ["unchanged supplied boards", "original edition metadata", "intake provenance"]}
+  ],
+  "release_gates": ["author-approved prose", "verified assets and provenance", "accessible Read / Explore / Revisit", "proof labels match inspected files", "narration/caption state is explicit", "v2 numbering and URLs reviewed", "release QA"],
+  "status_policy": "Files present means available for review, not final production. Imported proofs keep their original labels; no synthetic author voice, invented manuscript, automatic social posting or assumed print certification."
+}

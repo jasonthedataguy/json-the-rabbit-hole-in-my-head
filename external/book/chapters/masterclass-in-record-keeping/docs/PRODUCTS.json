@@ -1,0 +1,36 @@
+{
+  "chapter": "masterclass-in-record-keeping",
+  "products": [
+    {
+      "product": "Selected author manuscript",
+      "state": "ready; paragraph spacing adapted from exact attached text",
+      "path": "source/approved.md"
+    },
+    {
+      "product": "Office Battlefield record-keeping rotating ring",
+      "state": "board-derived digital crop; screen use only",
+      "path": "artwork/portal/record-keeping-ring-v1.png"
+    },
+    {
+      "product": "Office Battlefield stationary record-log centre",
+      "state": "aligned to chapter ring; screen use only",
+      "path": "artwork/portal/record-keeping-scene-v1.png"
+    },
+    {
+      "product": "Record-keeping rectangular reading illustration",
+      "state": "key-elements crop; screen use only",
+      "path": "artwork/portal/record-keeping-spread-v1.webp"
+    },
+    {
+      "product": "Standalone digital chapter",
+      "state": "generated from selected manuscript",
+      "path": "web/index.html"
+    }
+  ],
+  "remaining": [
+    "Separated high-resolution art and printer specifications for certified print production",
+    "Author narration and films",
+    "Social channel packs",
+    "Physical-device and human screen-reader review"
+  ]
+}

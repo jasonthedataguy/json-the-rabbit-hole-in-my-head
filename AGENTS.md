@@ -1,0 +1,12 @@
+# .json Studio
+
+- Start with `studio/START_HERE.md`, `studio/studio.json`, and the relevant project pointer. The root `SKILL.md` and `references/PIPELINE.md` define the shared publishing contract.
+- Keep the external book repository as manuscript/reader authority and the existing E: library as artwork authority. This workspace is production control plus the video app. Reference existing files before making new derivatives.
+- Use stable slugs. V2 numbers, original-edition numbers and legacy video IDs are separate. The starter's `approved:false` is historical and must not erase a later real approval.
+- Each project has one controlling run manifest. Do not copy it into another state file or infer consent from `publish:true`, file presence, render success or a matching hash. Record exact author decisions by artifact/version and scope.
+- In the private portable checkout, read `cloud/README.md` and run `cloud/bootstrap.py`. Original Windows references in signed JSON are resolved through the ignored `cloud/local-paths.json` by `scripts/portable_paths.py`; do not rewrite approvals or create a replacement library because those literal drive paths are unavailable.
+- Preserve Vietnamese/Vinglish voice and originals. Editorial approval does not grant script, public disclosure, narration, posting, payment or paid-offer approval. New source selection requires prior-version history and downstream impact review.
+- Personal/reference imagery in `studio/references/video-starter` stays private. Render staging is limited to explicit timeline assets; never use the whole reference folder as a public directory. Never edit hardlinked cache inputs.
+- Every video and recut follows `studio/docs/VIDEO_OPENING.md`: title/portal, enter center, reveal scene, then story; only an explicit scoped author request creates an exception. Dynamic animation requests use `skills/json-asset-animation/SKILL.md`; camera/text motion alone is a reading cut. Keep technical skill proofs separate from a selected chapter's current production cut.
+- For changes to control scripts, run `python -m unittest discover -s tests -v` and `python scripts/studio.py audit`. For video-app changes, run its `npm run typecheck` and inspect a relevant local preview. For skill changes, run the installed skill-creator quick validator. Keep expected release-blocked results distinct from validation failures.
+- Do not edit or deploy the external book as a side effect of studio setup. Follow that repository's AGENTS.md and approval/permission requirements when a task explicitly involves it.

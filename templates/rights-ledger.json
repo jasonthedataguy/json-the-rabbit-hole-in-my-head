@@ -1,0 +1,7 @@
+{
+  "schema_version": "1.0",
+  "story_slug": null,
+  "assets": [],
+  "asset_fields": ["asset_id", "path", "sha256", "kind", "creator", "source", "illustration_or_documentary", "license_evidence", "people_consent_evidence", "allowed_surfaces", "allowed_commercial_use", "approval_status"],
+  "notes": "Record only real assets. Null/unknown rights block the affected public/commercial use; they do not prevent private planning. No permission is implied by file presence."
+}

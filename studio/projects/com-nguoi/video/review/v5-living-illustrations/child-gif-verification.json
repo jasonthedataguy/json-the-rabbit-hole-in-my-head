@@ -1,0 +1,22 @@
+{
+  "status": "pass",
+  "video": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\animation\\v5\\exports\\com-nguoi-v5-child-living.mp4",
+  "video_sha256": "75b16028963d0e2b56ec72a63d8aec63237f356b84cd87161c7ffbfa2aa4bedb",
+  "gif": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\animation\\v5\\exports\\com-nguoi-v5-child-living.gif",
+  "gif_sha256": "90658f12f2fb1c6942dc7e159f502ff559a5a8a0ec8ddba01555440681e76c23",
+  "frames": 100,
+  "resolution": [
+    960,
+    640
+  ],
+  "duration_ms": 8000,
+  "frame_duration_ms": 80,
+  "infinite_loop": true,
+  "fixed_palette": true,
+  "minimum_adjacent_frame_difference": 0.2054806857638889,
+  "median_adjacent_frame_difference": 0.3080490451388889,
+  "maximum_adjacent_frame_difference": 0.45897786458333334,
+  "last_to_first_frame_difference": 0.7285069444444444,
+  "author_quality_approved": false,
+  "public_release_approved": false
+}

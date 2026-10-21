@@ -1,0 +1,35 @@
+{
+  "status": "technical_and_visual_proof_checked_author_artistic_review_pending",
+  "video": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\reports\\skill-validation\\asset-animation\\dynamic-motion-proof.mp4",
+  "video_sha256": "7e0d0f638e3fd4dcc2b159c0c5bbf10bd50db93dbb1a4256bae2d87afd2c8bc3",
+  "frames": 360,
+  "duration_s": 12,
+  "resolution": [
+    540,
+    960
+  ],
+  "audio_tracks": 0,
+  "moving_region_mean_absolute_pixel_change": {
+    "left_paper": 38.59532695374801,
+    "right_paper": 30.208846153846153,
+    "lamp_light": 2.0990625
+  },
+  "source_assets_unchanged": true,
+  "classification": "technical independent-layer/environment-motion proof; not a completed chapter film",
+  "author_quality_approved": false,
+  "public_release_approved": false,
+  "paid_release_approved": false,
+  "visual_inspection": {
+    "reviewer": "Codex",
+    "method": "Six decoded frames: title, portal entry, reveal, and three scene times; region-difference checks exclude metadata/text.",
+    "observations": "Existing opaque decorative paper planes translate/rotate independently, with a separate warm-light track. Visible movement is not supplied by text/camera alone. This is a technical 2.5D proof, not character animation or a new complete chapter film.",
+    "real_time_playback_review_claimed": false
+  },
+  "validation": {
+    "unit_tests_passed": 37,
+    "skill_frontmatter": "parent, animation and installed discovery entries valid",
+    "component_typecheck": "pass",
+    "existing_video_app_typecheck": "pass",
+    "studio_audit": "pass"
+  }
+}

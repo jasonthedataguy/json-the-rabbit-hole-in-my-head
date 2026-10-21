@@ -1,0 +1,26 @@
+/* V2 art direction for the preserved original-edition Fashion experience. */
+:root{--pine:#102333;--pink:#d85551;--paper:#f3e7d3;--char:#1d3038;--peach:#e8aa74}
+body{background:var(--pine)}
+.top{height:76px;background:#0c1d2b;border-bottom:1px solid #d9ae793b;color:#f5e8ce}
+.top b{color:#e48369}
+.hero{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(290px,.9fr);grid-template-rows:1fr auto auto 1fr;align-items:center;column-gap:clamp(22px,5vw,90px);min-height:680px;padding:40px max(5vw,24px);background:radial-gradient(circle at 36% 47%,#294456 0,#152b3b 40%,#0c1d2b 74%);isolation:isolate}
+.hero::before{content:"";display:block;grid-column:1;grid-row:1/5;width:min(100%,600px);aspect-ratio:1;justify-self:center;background:url('assets/fashion-portal-v2.png') center/contain no-repeat;filter:drop-shadow(0 20px 24px #0009)}
+.hero .eyebrow{grid-column:2;grid-row:1;align-self:end;margin-bottom:13px;color:#dab98c}
+.hero h1{position:static;grid-column:2;grid-row:2;width:auto;height:auto;clip:auto;overflow:visible;white-space:normal;margin:0;color:#f26963;font:clamp(56px,7vw,100px)/.95 Georgia,serif;letter-spacing:-2px}
+.hero p{grid-column:2;grid-row:3;margin:22px 0 0;max-width:440px;color:#f0e2cb;font:clamp(19px,2vw,27px)/1.45 Georgia,serif}
+.hero .nav{grid-column:2;grid-row:4;align-self:start;margin-top:30px}
+.nav a{background:#d85551;color:#fff4e3}
+.nav a.alt{border-color:#b99673;color:#f0e2cb}
+.reel{background:#0b1b28;border-color:#b7936559;color:#d7aa82}
+.reader{background:var(--paper);color:var(--char)}
+.reader::before{content:"";display:block;width:min(100%,960px);height:clamp(170px,23vw,290px);margin:0 auto 44px;background:url('assets/fashion-room-v2.webp') center/cover;border:4px solid #d8b991;box-shadow:0 12px 28px #34392b30}
+.reader .textbody{color:#26383c}
+.reader .textbody p:first-child::first-letter{color:#c14b46}
+.explore{color:#f0e2cb}
+.picks button{background:#203c4b;border-color:#c99c744d}
+.picks button[aria-pressed=true]{background:#d85551;color:#fff4e3}
+.memory{background:#1b3443;border-color:#b98168}
+.revisit{background:#f3e7d3;color:#1d3038}
+.foot{background:#0b1b28;color:#c7bba6}
+@media(max-width:800px){.hero{grid-template-columns:1fr;grid-template-rows:auto;min-height:0;padding:28px 24px 58px;gap:0}.hero::before{grid-column:1;grid-row:1;width:min(100%,480px);margin:0 auto 16px}.hero .eyebrow{grid-column:1;grid-row:2;margin:0 0 11px}.hero h1{grid-column:1;grid-row:3;font-size:clamp(55px,13vw,82px)}.hero p{grid-column:1;grid-row:4;margin-top:18px}.hero .nav{grid-column:1;grid-row:5;margin-top:24px}.reader::before{height:clamp(130px,31vw,210px);margin-bottom:34px}}
+@media(prefers-reduced-motion:reduce){.hero::before{filter:none}}

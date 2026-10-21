@@ -1,0 +1,102 @@
+{
+  "schema_version": "1.0",
+  "aliases": [
+    {
+      "legacy_working_id": "00",
+      "legacy_slug": "introduction",
+      "legacy_directory": "00-introduction",
+      "canonical_slug": "introduction",
+      "legacy_hook_status": "unapproved ideation; never automatically used as memoir",
+      "board_reference": "studio/references/video-starter/chapters/00-introduction/source-boards/introduction_portal_ring_concept_board.png"
+    },
+    {
+      "legacy_working_id": "01",
+      "legacy_slug": "quant",
+      "legacy_directory": "01-quant",
+      "canonical_slug": "i-was-born-a-quant",
+      "legacy_hook_status": "unapproved ideation; never automatically used as memoir",
+      "board_reference": "studio/references/video-starter/chapters/01-quant/source-boards/i_was_born_a_quant.png"
+    },
+    {
+      "legacy_working_id": "02",
+      "legacy_slug": "fashion",
+      "legacy_directory": "02-fashion",
+      "canonical_slug": "fashion",
+      "legacy_hook_status": "unapproved ideation; never automatically used as memoir",
+      "board_reference": "studio/references/video-starter/chapters/02-fashion/source-boards/fashion_chapter_editorial_moodboard.png"
+    },
+    {
+      "legacy_working_id": "03",
+      "legacy_slug": "russia",
+      "legacy_directory": "03-russia",
+      "canonical_slug": "for-mother-russia",
+      "legacy_hook_status": "unapproved ideation; never automatically used as memoir",
+      "board_reference": "studio/references/video-starter/chapters/03-russia/source-boards/for_mother_russia_a_nostalgic_winter_editorial_bo.png"
+    },
+    {
+      "legacy_working_id": "04",
+      "legacy_slug": "expected-utility",
+      "legacy_directory": "04-expected-utility",
+      "canonical_slug": "expected-utility",
+      "legacy_hook_status": "unapproved ideation; never automatically used as memoir",
+      "board_reference": "studio/references/video-starter/chapters/04-expected-utility/source-boards/expected_utility_editorial_design_board.png"
+    },
+    {
+      "legacy_working_id": "06",
+      "legacy_slug": "play-to-win",
+      "legacy_directory": "06-play-to-win",
+      "canonical_slug": "play-to-win",
+      "legacy_hook_status": "unapproved ideation; never automatically used as memoir",
+      "board_reference": "studio/references/video-starter/chapters/06-play-to-win/source-boards/poker_and_mahjong_editorial_moodboard.png"
+    },
+    {
+      "legacy_working_id": "07",
+      "legacy_slug": "cold-rice",
+      "legacy_directory": "07-cold-rice",
+      "canonical_slug": "com-nguoi",
+      "legacy_hook_status": "unapproved ideation; never automatically used as memoir",
+      "board_reference": "studio/references/video-starter/chapters/07-cold-rice/source-boards/cold_rice_layered_portal_design_board.png"
+    },
+    {
+      "legacy_working_id": "14",
+      "legacy_slug": "little-planet",
+      "legacy_directory": "14-little-planet",
+      "canonical_slug": "tieu-hanh-tinh",
+      "legacy_hook_status": "unapproved ideation; never automatically used as memoir",
+      "board_reference": null,
+      "missing_legacy_board_is_not_missing_current_art": true
+    },
+    {
+      "legacy_working_id": "15",
+      "legacy_slug": "three-meetings",
+      "legacy_directory": "15-three-meetings",
+      "canonical_slug": "three-meeting-theory",
+      "legacy_hook_status": "unapproved ideation; never automatically used as memoir",
+      "board_reference": "studio/references/video-starter/chapters/15-three-meetings/source-boards/editorial_romance_travel_brand_board.png"
+    },
+    {
+      "legacy_working_id": "16",
+      "legacy_slug": "dating-algorithm",
+      "legacy_directory": "16-dating-algorithm",
+      "canonical_slug": "dating-algorithm",
+      "legacy_hook_status": "unapproved ideation; never automatically used as memoir",
+      "board_reference": "studio/references/video-starter/chapters/16-dating-algorithm/source-boards/dating_algorithm_editorial_design_board.png"
+    },
+    {
+      "legacy_working_id": "17",
+      "legacy_slug": "dating-102",
+      "legacy_directory": "17-dating-102",
+      "canonical_slug": "dating-102",
+      "legacy_hook_status": "unapproved ideation; never automatically used as memoir",
+      "board_reference": "studio/references/video-starter/chapters/17-dating-102/source-boards/dating_102_editorial_concept_board.png"
+    },
+    {
+      "legacy_working_id": "18",
+      "legacy_slug": "to-saigon",
+      "legacy_directory": "18-to-saigon",
+      "canonical_slug": "viet-cho-sai-gon-cua-t",
+      "legacy_hook_status": "unapproved ideation; never automatically used as memoir",
+      "board_reference": "studio/references/video-starter/chapters/18-to-saigon/source-boards/saigon_sunset_storyboard_design_board.png"
+    }
+  ]
+}

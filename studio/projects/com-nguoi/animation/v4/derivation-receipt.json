@@ -1,0 +1,176 @@
+{
+  "method": "Aligned extracted environmental layers with small local nearest-existing-surface clean plates. All original family pixels outside environment masks remain unchanged.",
+  "sources": [
+    {
+      "path": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\com-nguoi\\artwork\\chapter-page\\hero.webp",
+      "sha256": "317e9cfb33874f3ee417c09a6b43ca07de16fa69e63e93a4503e7352e93c4f84"
+    },
+    {
+      "path": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\com-nguoi\\artwork\\content\\illustrations\\01-story-detail.webp",
+      "sha256": "ce4f7fd4c2e46725139dc97f04bdd2b4fcfb8f00cef3313331063a608dfe0342"
+    }
+  ],
+  "assets": [
+    {
+      "id": "dinner-base",
+      "path": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\animation\\v4\\assets\\dinner-base.png",
+      "sha256": "c598de964a81992f860830b02b1a83c73244036b211ccbe7a9f0cc378ba30d85",
+      "role": "base",
+      "provenance": {
+        "source_path": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\com-nguoi\\artwork\\chapter-page\\hero.webp",
+        "source_sha256": "317e9cfb33874f3ee417c09a6b43ca07de16fa69e63e93a4503e7352e93c4f84",
+        "operation": "Source-aligned clean plate: nearest existing surface colors fill only masked environmental areas, hidden behind their extracted layers. No people retouched."
+      }
+    },
+    {
+      "id": "dinner-lamp",
+      "path": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\animation\\v4\\assets\\dinner-lamp.png",
+      "sha256": "e15a2c476679d8f5fa5b0e9f6d68821fedef6ad123e208e5020d759e0a3b8070",
+      "role": "cutout",
+      "provenance": {
+        "source_path": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\com-nguoi\\artwork\\chapter-page\\hero.webp",
+        "source_sha256": "317e9cfb33874f3ee417c09a6b43ca07de16fa69e63e93a4503e7352e93c4f84",
+        "operation": "Aligned polygon/foliage-hue matte and cropped alpha; no new artwork or character pose.",
+        "crop_px": [
+          920,
+          0,
+          1170,
+          465
+        ],
+        "pivot_source_px": [
+          1046,
+          0
+        ]
+      }
+    },
+    {
+      "id": "dinner-foreground-left",
+      "path": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\animation\\v4\\assets\\dinner-foreground-left.png",
+      "sha256": "416be5b0207e9600a90b0bc8d2a8991447b1a62b02ce3f2e944d8be434f2eb5c",
+      "role": "cutout",
+      "provenance": {
+        "source_path": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\com-nguoi\\artwork\\chapter-page\\hero.webp",
+        "source_sha256": "317e9cfb33874f3ee417c09a6b43ca07de16fa69e63e93a4503e7352e93c4f84",
+        "operation": "Aligned polygon/foliage-hue matte and cropped alpha; no new artwork or character pose.",
+        "crop_px": [
+          0,
+          428,
+          858,
+          1280
+        ],
+        "pivot_source_px": [
+          230,
+          1265
+        ]
+      }
+    },
+    {
+      "id": "dinner-plant-crown",
+      "path": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\animation\\v4\\assets\\dinner-plant-crown.png",
+      "sha256": "74d046f42576e2783df049f0e2b110af67d534cb1ec8782b96db58a1493b1bea",
+      "role": "cutout",
+      "provenance": {
+        "source_path": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\com-nguoi\\artwork\\chapter-page\\hero.webp",
+        "source_sha256": "317e9cfb33874f3ee417c09a6b43ca07de16fa69e63e93a4503e7352e93c4f84",
+        "operation": "Aligned polygon/foliage-hue matte and cropped alpha; no new artwork or character pose.",
+        "crop_px": [
+          1310,
+          578,
+          1695,
+          897
+        ],
+        "pivot_source_px": [
+          1490,
+          887
+        ]
+      }
+    },
+    {
+      "id": "child-base",
+      "path": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\animation\\v4\\assets\\child-base.png",
+      "sha256": "ffc9979fa1f9e6a586cc3577c175a6d64fc4d318f0ae75e174d9f51004de946c",
+      "role": "base",
+      "provenance": {
+        "source_path": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\com-nguoi\\artwork\\content\\illustrations\\01-story-detail.webp",
+        "source_sha256": "ce4f7fd4c2e46725139dc97f04bdd2b4fcfb8f00cef3313331063a608dfe0342",
+        "operation": "Source-aligned clean plate: nearest existing surface colors fill only masked environmental areas, hidden behind their extracted layers. No people retouched."
+      }
+    },
+    {
+      "id": "child-lamp",
+      "path": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\animation\\v4\\assets\\child-lamp.png",
+      "sha256": "275d6f6467cdee961fa0f934e4e036f515ea27e70f6c9b786c7de12552c95127",
+      "role": "cutout",
+      "provenance": {
+        "source_path": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\com-nguoi\\artwork\\content\\illustrations\\01-story-detail.webp",
+        "source_sha256": "ce4f7fd4c2e46725139dc97f04bdd2b4fcfb8f00cef3313331063a608dfe0342",
+        "operation": "Aligned polygon/foliage-hue matte and cropped alpha; no new artwork or character pose.",
+        "crop_px": [
+          1169,
+          0,
+          1381,
+          198
+        ],
+        "pivot_source_px": [
+          1282,
+          0
+        ]
+      }
+    },
+    {
+      "id": "child-foreground-left",
+      "path": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\animation\\v4\\assets\\child-foreground-left.png",
+      "sha256": "7726736a182e1eb711553682ba94cbf030cacbb409f54c2a3dcc395607d3a5d9",
+      "role": "cutout",
+      "provenance": {
+        "source_path": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\com-nguoi\\artwork\\content\\illustrations\\01-story-detail.webp",
+        "source_sha256": "ce4f7fd4c2e46725139dc97f04bdd2b4fcfb8f00cef3313331063a608dfe0342",
+        "operation": "Aligned polygon/foliage-hue matte and cropped alpha; no new artwork or character pose.",
+        "crop_px": [
+          0,
+          339,
+          561,
+          1280
+        ],
+        "pivot_source_px": [
+          115,
+          1240
+        ]
+      }
+    },
+    {
+      "id": "child-foreground-right",
+      "path": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\animation\\v4\\assets\\child-foreground-right.png",
+      "sha256": "8a967d53988b49ca8c121a4d0bfba37154016cd83ca6895171bf7088c583348e",
+      "role": "cutout",
+      "provenance": {
+        "source_path": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\com-nguoi\\artwork\\content\\illustrations\\01-story-detail.webp",
+        "source_sha256": "ce4f7fd4c2e46725139dc97f04bdd2b4fcfb8f00cef3313331063a608dfe0342",
+        "operation": "Aligned polygon/foliage-hue matte and cropped alpha; no new artwork or character pose.",
+        "crop_px": [
+          1330,
+          390,
+          1920,
+          1280
+        ],
+        "pivot_source_px": [
+          1780,
+          1260
+        ]
+      }
+    },
+    {
+      "id": "portal",
+      "path": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\com-nguoi\\artwork\\chapter-page\\portal.webp",
+      "sha256": "79b61b71d689bd27bd5cab1679c2a875aff7a8b660619afad9d1ed39d4a3587a",
+      "role": "portal"
+    },
+    {
+      "id": "hero-original",
+      "path": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\com-nguoi\\artwork\\chapter-page\\hero.webp",
+      "sha256": "317e9cfb33874f3ee417c09a6b43ca07de16fa69e63e93a4503e7352e93c4f84",
+      "role": "base"
+    }
+  ],
+  "author_quality_approved": false
+}

@@ -1,0 +1,55 @@
+{
+  "version": "v5-living-illustrations",
+  "status": "ready_for_review",
+  "classification": "2.5D living illustrations with source-anchored procedural vapor; no character-body/facial animation",
+  "video": {
+    "path": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\video\\exports\\com-nguoi-v5-living-illustrations-silent-review-1080x1920.mp4",
+    "sha256": "17e7cfe9c0efd402f9f29c17f2a4ff6bb1be2c4e7f1234bab24862d11a0b6a22",
+    "bytes": 71945330
+  },
+  "gifs": [
+    {
+      "path": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\animation\\v5\\exports\\com-nguoi-v5-dinner-living.gif",
+      "sha256": "0b47f6e422a7b08b798b2337443f736df7ea6294baf748d989380d261a7b0ff9",
+      "duration_s": 8,
+      "frames": 100,
+      "infinite_loop": true
+    },
+    {
+      "path": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\animation\\v5\\exports\\com-nguoi-v5-child-living.gif",
+      "sha256": "90658f12f2fb1c6942dc7e159f502ff559a5a8a0ec8ddba01555440681e76c23",
+      "duration_s": 8,
+      "frames": 100,
+      "infinite_loop": true
+    }
+  ],
+  "script_source": {
+    "path": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\script\\final-script-v2.md",
+    "sha256": "d957b592dc2317aa34196dd25ab42a3fe4a7938d3aee5a1121ab173214bf76f9"
+  },
+  "canonical_source": {
+    "path": "C:\\Users\\Administrator\\OneDrive\\Desktop\\.json book\\json_under_revision_v2\\chapters\\com-nguoi\\source\\approved.md",
+    "sha256": "b4319bf9abb463148f590c773c14f12732e3524a612936fd2edddcaebecdfd3a"
+  },
+  "timeline": {
+    "path": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\video\\timeline-v5.json",
+    "sha256": "b1569745ca76238dff27d33a8aa51e3bee0449070ef3f85ea14d399f780965f1"
+  },
+  "motion_manifest": {
+    "path": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\animation\\v5\\motion-manifest.json",
+    "sha256": "4c19f85ef5cb91b42eca387b3476f4826c12b338aa5459bf2fa6617702971d76"
+  },
+  "verification": {
+    "path": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\video\\review\\v5-living-illustrations\\verification.json",
+    "sha256": "1758f8f28e11a59a81da5d37c563ea00987ac3144dd62efac96324b3cb5f1cf2"
+  },
+  "motion_verification": {
+    "path": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\video\\review\\v5-living-illustrations\\motion-controls\\verification.json",
+    "sha256": "0c1d9c320c58257b2e82f6812a523663a079941f3dfbda566779a47f4bd13eb3"
+  },
+  "sources_unchanged": true,
+  "v4_and_earlier_reviews_preserved": true,
+  "author_quality_approved": false,
+  "public_release_approved": false,
+  "paid_release_approved": false
+}

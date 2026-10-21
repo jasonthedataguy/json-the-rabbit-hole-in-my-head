@@ -1,0 +1,14 @@
+{
+  "schema_version": "1.0",
+  "approved": false,
+  "approver": null,
+  "approval_date": null,
+  "author_response_verbatim": null,
+  "approved_source_sha256": null,
+  "surfaces": [],
+  "approved_artifacts": [],
+  "live_reader_url": null,
+  "reader_cta_qa_evidence": null,
+  "privacy_rights_evidence": null,
+  "notes": "For an actual author decision only. Each artifact needs surface, path and exact sha256. Attach this record by path/hash to founder_public_release_evidence; a blank template cannot clear a release."
+}

@@ -1,0 +1,7 @@
+# Dream Diary digital QA
+
+On 2026-10-20 the site build and link validator passed with 36 editorial chapters and 31 full manuscripts; all 11 project unit tests passed. Headless Chrome checked 1440 × 900 desktop and 390 × 844 mobile. Chapter 10's reading leaf, map, homepage cover stop and standalone reader load the board-derived art without page-wide horizontal overflow. The rotating memory ring and stationary metro-and-diary centre align. The map reports FULL TEXT and displays the notebook marker. All 135 manuscript text blocks, including the epigraph, and four section breaks render in the digital reader. The desktop cover and reading panel each measure 833 px high. The direct Chapter 10 route resolves.
+
+Visual evidence: [portal composition](../../../docs/qa/dream-diary-board-portal-composition.png), [desktop chapter](../../../docs/qa/dream-diary-chapter-desktop.png), [mobile chapter](../../../docs/qa/dream-diary-chapter-mobile.png), [desktop map](../../../docs/qa/dream-diary-map-desktop.png), [mobile map](../../../docs/qa/dream-diary-map-mobile.png), [desktop homepage stop](../../../docs/qa/dream-diary-cover-desktop.png), [mobile homepage stop](../../../docs/qa/dream-diary-cover-mobile.png), [desktop standalone reader](../../../docs/qa/dream-diary-standalone-desktop.png) and [mobile standalone reader](../../../docs/qa/dream-diary-standalone-mobile.png).
+
+Physical-device and human screen-reader review remain pending. The flattened board supports digital crops, not certified print production.

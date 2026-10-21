@@ -1,0 +1,37 @@
+{
+  "date": "2026-10-21",
+  "opening_standard": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\docs\\VIDEO_OPENING.md",
+  "parent_skill": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\SKILL.md",
+  "animation_skill": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\skills\\json-asset-animation\\SKILL.md",
+  "installed": [
+    {
+      "name": "json-story-to-business",
+      "discovery_path": "C:\\Users\\Administrator\\.agents\\skills\\json-story-to-business",
+      "authoritative_source": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\skills\\discovery\\json-story-to-business",
+      "mode": "directory_junction",
+      "skill_sha256": "76e64a6c98a1ff45adc1cfb4c10b42cb414974af3816b67f7ea503a516748de7"
+    },
+    {
+      "name": "json-asset-animation",
+      "discovery_path": "C:\\Users\\Administrator\\.agents\\skills\\json-asset-animation",
+      "authoritative_source": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\skills\\json-asset-animation",
+      "mode": "directory_junction",
+      "skill_sha256": "c434eefdb5438447f93fc52e102b070aadbdfe0a05940e9dda645ce99174d2a6"
+    }
+  ],
+  "checks": {
+    "unit_tests_passed": 37,
+    "skill_frontmatter": "parent, animation and installed discovery entries valid",
+    "component_typecheck": "pass",
+    "existing_video_app_typecheck": "pass",
+    "studio_audit": "pass"
+  },
+  "component_sha256": "e055c806dd14a0c8a3f60dbc7f7cb630bbe630d7844e28f2a154ec512aee00cb",
+  "proof": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\reports\\skill-validation\\asset-animation\\dynamic-motion-proof.mp4",
+  "proof_sha256": "7e0d0f638e3fd4dcc2b159c0c5bbf10bd50db93dbb1a4256bae2d87afd2c8bc3",
+  "proof_verification": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\reports\\skill-validation\\asset-animation\\verification.json",
+  "selected_chapter_cut_changed": false,
+  "source_artwork_modified": false,
+  "public_or_paid_release_performed": false,
+  "official_skill_discovery_reference": "https://learn.chatgpt.com/docs/build-skills"
+}

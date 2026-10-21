@@ -1,0 +1,35 @@
+{
+  "schema_version": 2,
+  "slug": "dating-102",
+  "number": "20",
+  "title": "Dating 102",
+  "short_title": "Dating 102",
+  "part": 3,
+  "language": "vi",
+  "publish": true,
+  "release_stage": "reader-with-original-products",
+  "canonical_text": "source/approved.md",
+  "canonical_path": "#chapter/20",
+  "summary": "Jason nhìn lại cách mình từng biến tình yêu thành cuộc đấu giá địa vị, rồi nhận ra sự tò mò về một con người đáng giá hơn những tín hiệu hào nhoáng.",
+  "portal": {
+    "scene": "Two people lean over a shared notebook in a warm room overlooking the night city, while profiles, signals, clocks and questions fill the paper ring.",
+    "objects": [
+      "shared notebook",
+      "two people",
+      "profile cards",
+      "night city"
+    ],
+    "iconKey": "heart",
+    "motif": "Better questions beyond the model"
+  },
+  "original_edition": {
+    "number": "16",
+    "title": "Dating 102",
+    "repo": "https://github.com/jasonthedataguy/json-under-revision",
+    "commit": "b41b692b3e3633abea4997b6ac4513a91308f127",
+    "metadata": "references/original-edition/chapter.json",
+    "archive_url": "https://jasonthedataguy.github.io/json-under-revision/chapters/16/"
+  },
+  "production_status": "board-derived digital portal and reader; inherited print and media remain original-edition proofs",
+  "manuscript_sha256": "9e06a356af02fbd37adae316a8bcda767c367e724638e8e1884dc143a105c652"
+}

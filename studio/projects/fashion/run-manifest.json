@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0",
+  "story_id": "fashion",
+  "chapter_slug": "fashion",
+  "chapter_slot": "04",
+  "title": "Fashion — Be Your Own Label",
+  "run_mode": "audit",
+  "repository": "jasonthedataguy/json-under-revision-v2",
+  "canonical_source_path": "C:\\Users\\Administrator\\OneDrive\\Desktop\\.json book\\json_under_revision_v2\\chapters\\fashion\\source\\approved.md",
+  "canonical_sha256": "fa6d61a045a5c160a45ecd541382077c46a4581b00de6ffd027bf1674ac78c9e",
+  "author_approved": false,
+  "source_facts_approval_evidence": null,
+  "public_visibility_policy": "undecided",
+  "founder_public_release_approved": false,
+  "founder_paid_release_approved": false,
+  "reader_verified_live": false,
+  "reader_live_url": null,
+  "website_cta_verified": false,
+  "privacy_rights_approved": false,
+  "script_facts_approved": false,
+  "narration_recorded_by_author": false,
+  "marketing_assets_qa_passed": false,
+  "commerce_checkout_and_fulfillment_tested": false,
+  "selected_revenue_offer": null,
+  "stages": {
+    "S00_intake": "in_progress",
+    "S01_editorial_diagnosis": "not_started",
+    "S02_canonical": "not_started",
+    "S03_narration_script": "not_started",
+    "S04_digital_reader": "not_started",
+    "S05_design": "not_started",
+    "S06_audio_film": "not_started",
+    "S07_campaign_assets": "not_started",
+    "S08_product_strategy": "not_started",
+    "S09_commerce": "skipped",
+    "S10_release": "not_started",
+    "S11_learning": "not_started"
+  },
+  "stage_evidence": {
+    "S09_commerce": {
+      "reason": "No paid experiment selected; optional lane deferred."
+    }
+  },
+  "derivatives": [],
+  "jira_issue_keys": [],
+  "blockers": [],
+  "offer_hypotheses": [],
+  "observed_metrics": {},
+  "next_actions": [],
+  "notes": "Pilot queue only. Selected source exists in registry; no author approval inferred. No new prose/script/media produced.",
+  "release_scope": {
+    "surfaces": [
+      "reader",
+      "film",
+      "social"
+    ]
+  }
+}

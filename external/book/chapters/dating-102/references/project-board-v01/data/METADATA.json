@@ -1,0 +1,29 @@
+{
+  "series": ".json — Jason, under revision",
+  "working_chapter": "16",
+  "working_title": "Dating 102: The Wrong Currency",
+  "source": "user-submitted Bài 16",
+  "publication_approved": false,
+  "original_edited": false,
+  "narrator_age": null,
+  "primary_visual": "consultant lecture contrasted with intimate curiosity",
+  "palette": {
+    "Midnight Teal": "#0B2B32",
+    "Sunset Coral": "#F18B69",
+    "Warm Cream": "#F4E8CE",
+    "Soft Sage": "#C7DCA5",
+    "Ink Blue": "#667A8D",
+    "Golden Hour": "#D3B36E"
+  },
+  "tagline": "Rituals are not intimacy.",
+  "central_motif": "Questions as an alternative currency",
+  "project_status": "projectboard_only",
+  "task_count": 78,
+  "status_counts": {
+    "READY": 9,
+    "TODO": 52,
+    "BLOCKED": 15,
+    "PROOF": 2
+  },
+  "caveat": "The data/demography section is a narrator hypothesis, not an established scientific causal model."
+}

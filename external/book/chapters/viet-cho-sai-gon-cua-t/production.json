@@ -1,0 +1,623 @@
+{
+  "scenes": [
+    {
+      "id": "landmark",
+      "box": [
+        0.03,
+        0.36,
+        0.97,
+        0.97
+      ]
+    },
+    {
+      "id": "bridge",
+      "box": [
+        0.03,
+        0.35,
+        0.38,
+        0.63
+      ]
+    },
+    {
+      "id": "skyline",
+      "box": [
+        0.29,
+        0.35,
+        0.95,
+        0.6
+      ]
+    },
+    {
+      "id": "gau",
+      "box": [
+        0.38,
+        0.59,
+        0.78,
+        0.97
+      ]
+    },
+    {
+      "id": "picnic-friends",
+      "box": [
+        0.03,
+        0.48,
+        0.47,
+        0.68
+      ]
+    },
+    {
+      "id": "gingham",
+      "box": [
+        0.03,
+        0.72,
+        0.42,
+        0.97
+      ]
+    },
+    {
+      "id": "pink-cap",
+      "box": [
+        0.58,
+        0.39,
+        0.8,
+        0.62
+      ]
+    },
+    {
+      "id": "river-city",
+      "box": [
+        0.04,
+        0.36,
+        0.95,
+        0.58
+      ]
+    }
+  ],
+  "carousel": [
+    {
+      "text": "T tự hỏi liệu đây có phải là nơi t thuộc về.",
+      "scene": 0
+    },
+    {
+      "text": "Lúc chạy qua cầu Ba Son, nhìn thành phố hiện đại nằm dọc bên sông, lòng t rộn ràng một cảm giác rất khó tả.",
+      "scene": 1
+    },
+    {
+      "text": "T không cảm nhận được mình thuộc về nơi đó.",
+      "scene": 2
+    },
+    {
+      "text": "T bắt đầu thân với mọi người trong team đó, rồi dần có lại cái cảm giác mà trước đó t thiếu: thích đi làm chỉ vì muốn lên công ty gặp mọi người.",
+      "scene": 4
+    },
+    {
+      "text": "Sài Gòn cho t nhiều thứ quá, chẳng biết nói gì hơn ngoài cảm ơn.",
+      "scene": 0
+    }
+  ],
+  "print_scenes": [
+    {
+      "after_paragraph": 0,
+      "scene": 1
+    },
+    {
+      "after_paragraph": 3,
+      "scene": 2
+    },
+    {
+      "after_paragraph": 9,
+      "scene": 4
+    },
+    {
+      "after_paragraph": 12,
+      "scene": 3
+    },
+    {
+      "after_paragraph": 17,
+      "scene": 7
+    }
+  ],
+  "films": [
+    {
+      "name": "discovery-9x16",
+      "size": [
+        1080,
+        1920
+      ],
+      "segments": [
+        {
+          "text": "Lúc chạy qua cầu Ba Son, nhìn thành phố hiện đại nằm dọc bên sông, lòng t rộn ràng một cảm giác rất khó tả.",
+          "scene": "artwork/scenes/02-bridge.jpg",
+          "duration": 10
+        },
+        {
+          "text": "T tự hỏi liệu đây có phải là nơi t thuộc về.",
+          "scene": "artwork/scenes/08-river-city.jpg",
+          "duration": 5
+        },
+        {
+          "text": "T không cảm nhận được mình thuộc về nơi đó.",
+          "scene": "artwork/scenes/03-skyline.jpg",
+          "duration": 5
+        },
+        {
+          "text": "T bắt đầu thân với mọi người trong team đó, rồi dần có lại cái cảm giác mà trước đó t thiếu: thích đi làm chỉ vì muốn lên công ty gặp mọi người.",
+          "scene": "artwork/scenes/05-picnic-friends.jpg",
+          "duration": 13
+        },
+        {
+          "text": "Bọn mình ngồi trên bãi cỏ ở Landmark, trông em thật bình yên.",
+          "scene": "artwork/scenes/01-landmark.jpg",
+          "duration": 6
+        },
+        {
+          "text": "Đêm Giáng sinh em mang bánh quy qua cho Gấu.",
+          "scene": "artwork/scenes/04-gau.jpg",
+          "duration": 5
+        },
+        {
+          "text": "Nhưng t thì vẫn ở đây.",
+          "scene": "artwork/scenes/07-pink-cap.jpg",
+          "duration": 5
+        },
+        {
+          "text": "Sài Gòn cho t nhiều thứ quá, chẳng biết nói gì hơn ngoài cảm ơn.",
+          "scene": "artwork/scenes/01-landmark.jpg",
+          "duration": 11
+        }
+      ]
+    },
+    {
+      "name": "youtube-9x16",
+      "size": [
+        1080,
+        1920
+      ],
+      "segments": [
+        {
+          "text": "T đặt chân tới thành phố này vào đúng ngày sinh nhật 26 tuổi, với hành trang là vỏn vẹn 50 triệu trong tài khoản, một khoản nợ trên đầu và một cái thẻ tín dụng hạn mức 100 triệu.",
+          "scene": "artwork/scenes/02-bridge.jpg",
+          "duration": 12.9
+        },
+        {
+          "text": "Lúc chạy qua cầu Ba Son, nhìn thành phố hiện đại nằm dọc bên sông, lòng t rộn ràng một cảm giác rất khó tả. T tự hỏi liệu đây có phải là nơi t thuộc về.",
+          "scene": "artwork/scenes/08-river-city.jpg",
+          "duration": 11.9
+        },
+        {
+          "text": "Mục tiêu đầu tiên của t ở Sài Gòn lúc đó là Grab. Với đủ nhiệt huyết, đam mê và công sức hơn một tháng trời, cuối cùng t cũng chinh phục được nó. T vui lắm.",
+          "scene": "artwork/scenes/03-skyline.jpg",
+          "duration": 11.9
+        },
+        {
+          "text": "T mất offer của Grab, phần lớn là vì sự ngu ngốc, trẻ trâu và thiếu hiểu biết của chính t.",
+          "scene": "artwork/scenes/03-skyline.jpg",
+          "duration": 7
+        },
+        {
+          "text": "Nhưng t cứ thấy sao sao. T không cảm nhận được mình thuộc về nơi đó. Cảm xúc càng ngày càng tiêu cực, t mất dần động lực rồi bắt đầu ghét chính những thứ mình đang làm. Cuối cùng t quyết định nghỉ việc.",
+          "scene": "artwork/scenes/08-river-city.jpg",
+          "duration": 14.5
+        },
+        {
+          "text": "Đáng ra t có thể cho em một lời giải thích. Đáng ra t có thể làm tốt hơn mà, đúng không.",
+          "scene": "artwork/scenes/02-bridge.jpg",
+          "duration": 7.1
+        },
+        {
+          "text": "T bắt đầu thân với mọi người trong team đó, rồi dần có lại cái cảm giác mà trước đó t thiếu: thích đi làm chỉ vì muốn lên công ty gặp mọi người.",
+          "scene": "artwork/scenes/05-picnic-friends.jpg",
+          "duration": 11.0
+        },
+        {
+          "text": "T gặp em vào một ngày gần Giáng sinh. Em xuất hiện đúng kiểu một món quà của ông Santa vậy. Bọn mình ngồi trên bãi cỏ ở Landmark, trông em thật bình yên.",
+          "scene": "artwork/scenes/01-landmark.jpg",
+          "duration": 11.0
+        },
+        {
+          "text": "T kể với em gần như tất cả mọi thứ, chuyện t đang chán chường ra sao, chuyện t từng phũ thế nào, những thứ bình thường t sẽ chẳng biết phải kể cho ai. Với em t không có cảm giác phải giấu gì cả. Tâm sự với em thật thoải mái.",
+          "scene": "artwork/scenes/07-pink-cap.jpg",
+          "duration": 17.1
+        },
+        {
+          "text": "Đêm Giáng sinh em mang bánh quy qua cho Gấu. Ngày đầu năm t với em chui xuống gầm bàn ăn hết 12 trái nho.",
+          "scene": "artwork/scenes/04-gau.jpg",
+          "duration": 8.1
+        },
+        {
+          "text": "T không biết điều đó chứng minh được gì, và lúc ấy chắc t cũng chẳng quan tâm. T chỉ biết t không muốn đánh mất em, vì em còn hơn thế rất nhiều.",
+          "scene": "artwork/scenes/07-pink-cap.jpg",
+          "duration": 11.0
+        },
+        {
+          "text": "Ngày đầu tiên đi qua cầu Ba Son, t từng nhìn thành phố bên sông rồi tự hỏi liệu đây có phải nơi mình thuộc về không. Mấy năm trôi qua, t vẫn chẳng biết “thuộc về” chính xác là cái gì.",
+          "scene": "artwork/scenes/02-bridge.jpg",
+          "duration": 13.5
+        },
+        {
+          "text": "T từng nghĩ nó là một công việc mình muốn có, rồi một nơi mình nổi tiếng, một team hợp cạ, một người mình thích, một người mình yêu. Có những thứ t có được rồi lại mất, có những thứ t từng tưởng rất quan trọng sau này lại chẳng còn quan trọng đến thế.",
+          "scene": "artwork/scenes/08-river-city.jpg",
+          "duration": 18.1
+        },
+        {
+          "text": "Nhưng t thì vẫn ở đây.",
+          "scene": "artwork/scenes/01-landmark.jpg",
+          "duration": 7
+        },
+        {
+          "text": "Sài Gòn cho t nhiều thứ quá, chẳng biết nói gì hơn ngoài cảm ơn.",
+          "scene": "artwork/scenes/01-landmark.jpg",
+          "duration": 7
+        }
+      ]
+    },
+    {
+      "name": "feed-3x4",
+      "size": [
+        1080,
+        1440
+      ],
+      "segments": [
+        {
+          "text": "T tự hỏi liệu đây có phải là nơi t thuộc về.",
+          "scene": "artwork/scenes/02-bridge.jpg",
+          "duration": 6
+        },
+        {
+          "text": "T không cảm nhận được mình thuộc về nơi đó.",
+          "scene": "artwork/scenes/03-skyline.jpg",
+          "duration": 6
+        },
+        {
+          "text": "T bắt đầu thân với mọi người trong team đó, rồi dần có lại cái cảm giác mà trước đó t thiếu: thích đi làm chỉ vì muốn lên công ty gặp mọi người.",
+          "scene": "artwork/scenes/05-picnic-friends.jpg",
+          "duration": 14
+        },
+        {
+          "text": "Bọn mình ngồi trên bãi cỏ ở Landmark, trông em thật bình yên.",
+          "scene": "artwork/scenes/01-landmark.jpg",
+          "duration": 7
+        },
+        {
+          "text": "Nhưng t thì vẫn ở đây.",
+          "scene": "artwork/scenes/07-pink-cap.jpg",
+          "duration": 5
+        },
+        {
+          "text": "Sài Gòn cho t nhiều thứ quá, chẳng biết nói gì hơn ngoài cảm ơn.",
+          "scene": "artwork/scenes/01-landmark.jpg",
+          "duration": 7
+        }
+      ]
+    },
+    {
+      "name": "teaser-9x16",
+      "size": [
+        1080,
+        1920
+      ],
+      "segments": [
+        {
+          "text": "T tự hỏi liệu đây có phải là nơi t thuộc về.",
+          "scene": "artwork/scenes/02-bridge.jpg",
+          "duration": 5
+        },
+        {
+          "text": "Nhưng t thì vẫn ở đây.",
+          "scene": "artwork/scenes/01-landmark.jpg",
+          "duration": 4
+        },
+        {
+          "text": "Sài Gòn cho t nhiều thứ quá, chẳng biết nói gì hơn ngoài cảm ơn.",
+          "scene": "artwork/scenes/04-gau.jpg",
+          "duration": 6
+        }
+      ]
+    },
+    {
+      "name": "essay-16x9",
+      "size": [
+        1920,
+        1080
+      ],
+      "segments": [
+        {
+          "text": "T đặt chân tới thành phố này vào đúng ngày sinh nhật 26 tuổi, với hành trang là vỏn vẹn 50 triệu trong tài khoản, một khoản nợ trên đầu và một cái thẻ tín dụng hạn mức 100 triệu.",
+          "scene": "artwork/scenes/02-bridge.jpg",
+          "duration": 12.9
+        },
+        {
+          "text": "Lúc chạy qua cầu Ba Son, nhìn thành phố hiện đại nằm dọc bên sông, lòng t rộn ràng một cảm giác rất khó tả. T tự hỏi liệu đây có phải là nơi t thuộc về.",
+          "scene": "artwork/scenes/08-river-city.jpg",
+          "duration": 11.9
+        },
+        {
+          "text": "Mục tiêu đầu tiên của t ở Sài Gòn lúc đó là Grab. Với đủ nhiệt huyết, đam mê và công sức hơn một tháng trời, cuối cùng t cũng chinh phục được nó. T vui lắm.",
+          "scene": "artwork/scenes/03-skyline.jpg",
+          "duration": 11.9
+        },
+        {
+          "text": "T mất offer của Grab, phần lớn là vì sự ngu ngốc, trẻ trâu và thiếu hiểu biết của chính t.",
+          "scene": "artwork/scenes/03-skyline.jpg",
+          "duration": 7
+        },
+        {
+          "text": "Nhưng t cứ thấy sao sao. T không cảm nhận được mình thuộc về nơi đó. Cảm xúc càng ngày càng tiêu cực, t mất dần động lực rồi bắt đầu ghét chính những thứ mình đang làm. Cuối cùng t quyết định nghỉ việc.",
+          "scene": "artwork/scenes/08-river-city.jpg",
+          "duration": 14.5
+        },
+        {
+          "text": "Đáng ra t có thể cho em một lời giải thích. Đáng ra t có thể làm tốt hơn mà, đúng không.",
+          "scene": "artwork/scenes/02-bridge.jpg",
+          "duration": 7.1
+        },
+        {
+          "text": "T bắt đầu thân với mọi người trong team đó, rồi dần có lại cái cảm giác mà trước đó t thiếu: thích đi làm chỉ vì muốn lên công ty gặp mọi người.",
+          "scene": "artwork/scenes/05-picnic-friends.jpg",
+          "duration": 11.0
+        },
+        {
+          "text": "T gặp em vào một ngày gần Giáng sinh. Em xuất hiện đúng kiểu một món quà của ông Santa vậy. Bọn mình ngồi trên bãi cỏ ở Landmark, trông em thật bình yên.",
+          "scene": "artwork/scenes/01-landmark.jpg",
+          "duration": 11.0
+        },
+        {
+          "text": "T kể với em gần như tất cả mọi thứ, chuyện t đang chán chường ra sao, chuyện t từng phũ thế nào, những thứ bình thường t sẽ chẳng biết phải kể cho ai. Với em t không có cảm giác phải giấu gì cả. Tâm sự với em thật thoải mái.",
+          "scene": "artwork/scenes/07-pink-cap.jpg",
+          "duration": 17.1
+        },
+        {
+          "text": "Đêm Giáng sinh em mang bánh quy qua cho Gấu. Ngày đầu năm t với em chui xuống gầm bàn ăn hết 12 trái nho.",
+          "scene": "artwork/scenes/04-gau.jpg",
+          "duration": 8.1
+        },
+        {
+          "text": "T không biết điều đó chứng minh được gì, và lúc ấy chắc t cũng chẳng quan tâm. T chỉ biết t không muốn đánh mất em, vì em còn hơn thế rất nhiều.",
+          "scene": "artwork/scenes/07-pink-cap.jpg",
+          "duration": 11.0
+        },
+        {
+          "text": "Ngày đầu tiên đi qua cầu Ba Son, t từng nhìn thành phố bên sông rồi tự hỏi liệu đây có phải nơi mình thuộc về không. Mấy năm trôi qua, t vẫn chẳng biết “thuộc về” chính xác là cái gì.",
+          "scene": "artwork/scenes/02-bridge.jpg",
+          "duration": 13.5
+        },
+        {
+          "text": "T từng nghĩ nó là một công việc mình muốn có, rồi một nơi mình nổi tiếng, một team hợp cạ, một người mình thích, một người mình yêu. Có những thứ t có được rồi lại mất, có những thứ t từng tưởng rất quan trọng sau này lại chẳng còn quan trọng đến thế.",
+          "scene": "artwork/scenes/08-river-city.jpg",
+          "duration": 18.1
+        },
+        {
+          "text": "Nhưng t thì vẫn ở đây.",
+          "scene": "artwork/scenes/01-landmark.jpg",
+          "duration": 7
+        },
+        {
+          "text": "Sài Gòn cho t nhiều thứ quá, chẳng biết nói gì hơn ngoài cảm ơn.",
+          "scene": "artwork/scenes/01-landmark.jpg",
+          "duration": 7
+        }
+      ]
+    }
+  ],
+  "memory": {
+    "heading": "The city I learned to call home.",
+    "intro": "Những đoạn trong bài viết, từ cầu Ba Son đến cuộc sống ở Sài Gòn.",
+    "moments": [
+      {
+        "title": "01 / Ba Son, tuổi 26",
+        "image": "web/assets/saigon-memory-01-v1.webp",
+        "alt": "Ba Son Bridge and the Saigon skyline at sunset.",
+        "quote": "Lúc chạy qua cầu Ba Son, nhìn thành phố hiện đại nằm dọc bên sông, lòng t rộn ràng một cảm giác rất khó tả. T tự hỏi liệu đây có phải là nơi t thuộc về."
+      },
+      {
+        "title": "02 / Một cơ hội",
+        "image": "web/assets/saigon-memory-02-v1.webp",
+        "alt": "A desk, a car and a first opportunity on the Saigon portal ring.",
+        "quote": "T mất offer của Grab, phần lớn là vì sự ngu ngốc, trẻ trâu và thiếu hiểu biết của chính t."
+      },
+      {
+        "title": "03 / Phương án backup",
+        "image": "web/assets/saigon-memory-03-v1.webp",
+        "alt": "Saigon's skyline beyond the river and winding portal layers.",
+        "quote": "T không cảm nhận được mình thuộc về nơi đó."
+      },
+      {
+        "title": "04 / Lời tạm biệt dang dở",
+        "image": "web/assets/saigon-memory-04-v1.webp",
+        "alt": "A letter and laptop in the portal memories of work and goodbyes.",
+        "quote": "Đáng ra t có thể cho em một lời giải thích. Đáng ra t có thể làm tốt hơn mà, đúng không."
+      },
+      {
+        "title": "05 / Những người bạn",
+        "image": "web/assets/saigon-memory-05-v1.webp",
+        "alt": "Friends share a birthday cake around a table.",
+        "quote": "T bắt đầu thân với mọi người trong team đó, rồi dần có lại cái cảm giác mà trước đó t thiếu: thích đi làm chỉ vì muốn lên công ty gặp mọi người."
+      },
+      {
+        "title": "06 / Landmark và Gấu",
+        "image": "web/assets/saigon-memory-06-v1.webp",
+        "alt": "Two people and a dog sit together overlooking the river.",
+        "quote": "Đêm Giáng sinh em mang bánh quy qua cho Gấu. Ngày đầu năm t với em chui xuống gầm bàn ăn hết 12 trái nho."
+      },
+      {
+        "title": "07 / Một người ở lại",
+        "image": "web/assets/saigon-memory-07-v1.webp",
+        "alt": "Two people stand together in a Saigon memory.",
+        "quote": "T chỉ biết t không muốn đánh mất em, vì em còn hơn thế rất nhiều."
+      },
+      {
+        "title": "08 / Sài Gòn của tôi",
+        "image": "web/assets/saigon-memory-08-v1.webp",
+        "alt": "The couple, city streets and river under the evening sky.",
+        "quote": "Sài Gòn cho t nhiều thứ quá, chẳng biết nói gì hơn ngoài cảm ơn."
+      }
+    ]
+  },
+  "status": "multimedia-products; author-recorded narration and printer production pending",
+  "reference_board": "references/project-board-v01/PROJECT_BOARD.html",
+  "reader_artwork": {
+    "hero.jpg": {
+      "scene": 0,
+      "size": [
+        1600,
+        960
+      ]
+    },
+    "hero-mobile.jpg": {
+      "scene": 0,
+      "size": [
+        900,
+        675
+      ]
+    }
+  },
+  "print_layout": {
+    "font_size": 10.5,
+    "leading": 15.2,
+    "paragraph_space": 8,
+    "image_height": 98
+  },
+  "excerpts_verbatim": true,
+  "supplemental": {
+    "editable_cover": true,
+    "cards": [
+      {
+        "path": "social/instagram/story-01.jpg",
+        "size": [
+          1080,
+          1920
+        ],
+        "text": "T tự hỏi liệu đây có phải là nơi t thuộc về.",
+        "scene": 1,
+        "label": "STORY 01",
+        "alt": "Minh họa Sài Gòn từ tranh đã cung cấp. Chữ trên thẻ: T tự hỏi liệu đây có phải là nơi t thuộc về."
+      },
+      {
+        "path": "social/instagram/story-02.jpg",
+        "size": [
+          1080,
+          1920
+        ],
+        "text": "Nhưng t thì vẫn ở đây.",
+        "scene": 3,
+        "label": "STORY 02",
+        "alt": "Minh họa Sài Gòn từ tranh đã cung cấp. Chữ trên thẻ: Nhưng t thì vẫn ở đây."
+      },
+      {
+        "path": "social/instagram/story-03.jpg",
+        "size": [
+          1080,
+          1920
+        ],
+        "text": "Sài Gòn cho t nhiều thứ quá, chẳng biết nói gì hơn ngoài cảm ơn.",
+        "scene": 0,
+        "label": "STORY 03",
+        "alt": "Minh họa Sài Gòn từ tranh đã cung cấp. Chữ trên thẻ: Sài Gòn cho t nhiều thứ quá, chẳng biết nói gì hơn ngoài cảm ơn."
+      },
+      {
+        "path": "social/instagram/highlight.jpg",
+        "size": [
+          1080,
+          1080
+        ],
+        "text": "Sài Gòn",
+        "scene": 0,
+        "label": "03",
+        "alt": "Ảnh bìa highlight Sài Gòn: góc cắt người đội mũ hồng và Gấu trong tranh Landmark."
+      }
+    ],
+    "copy": {
+      "source/TIMELINE.md": "# Narrative timeline — source-grounded\n\nOrder follows the original essay, not invented calendar dates. Paragraph numbers below are one-based. Arrival age 26 is explicit; later ages and dates are not inferred. The supplied board mentions a date/signature absent from the received manuscript, so neither is inserted.\n\n| Stop | Original paragraphs | Note |\n|---|---|---|\n| 01 / Ba Son, tuổi 26 | 1 | Birthday arrival and Ba Son |\n| 02 / Một cơ hội | 2 | Grab offer and loss |\n| 03 / Phương án backup | 3–4 | Masan and leaving |\n| 04 / Lời tạm biệt dang dở | 5–8 | An unfinished goodbye |\n| 05 / Những người bạn | 9–10 | New team and friendship |\n| 06 / Landmark và Gấu | 11–13 | Landmark, Christmas and New Year |\n| 07 / Một người ở lại | 14–16 | Care and uncertain expectations |\n| 08 / Sài Gòn của tôi | 17–20 | Weather, belonging and gratitude |\n",
+      "social/instagram/stories.md": "# Three stories and a highlight\n\nUse story-01.jpg → story-02.jpg → story-03.jpg. Add the platform link sticker to https://jasonthedataguy.github.io/json-under-revision/chapters/03/. Highlight cover: highlight.jpg. These cards quote the original; the art is a crop of the supplied illustration. No post has been scheduled.\n",
+      "social/BRIEF.md": "# Sài Gòn social release pack\n\nLead with the question of belonging, the city and the Landmark image. Use the five-card carousel in numerical order. The supporting post copy quotes the original; it adds no events, dates or relationship conclusions.\n\nPublic chapter: https://jasonthedataguy.github.io/json-under-revision/chapters/03/\n\nIdentity: .json / Jason, under revision. Suggested bio: “Những câu chuyện, những ký ức, và những điều chưa thể biết.” No account handle or availability is asserted.\n\nReels/TikTok: discovery-9x16.mp4 (60 seconds); alternate teaser-9x16.mp4 (15 seconds). Feed: feed-3x4.mp4 (45 seconds). YouTube: youtube-9x16.mp4 or the separately composed essay-16x9.mp4. Every cut awaits the author’s narration; caption files currently time on-screen text only.\n",
+      "artwork/source/README.md": "# Artwork provenance\n\nAll eight scene files are documented crops of the supplied 1254 × 1254 poster at `references/project-board-v01/assets/saigon_landmark_poster_proof.png`. The upper lettering, including its provisional Chapter 01, is excluded from the scene artwork. No source photograph, new scene or generated likeness has been added.\n\nThe cover SVG keeps typography editable and references the landscape crop separately. Its raster image is an existing flattened supplied illustration, not a layered illustration master. Close crops and print enlargements remain limited by native resolution. See `artwork/scenes/index.json`.\n",
+      "docs/DESIGN_REVIEW.md": "# Sài Gòn — production board implementation\n\nThe Landmark picnic, Gấu, pink cap, gingham blanket, bridge and skyline come from the supplied poster. Eight documented crops provide visual continuity across the A5 book, social pack, five film edits and eight-stop memory journey. No invented Christmas or workplace scene is presented as a new illustration.\n\nThe original essay remains byte-identical. Carousel, film and story-card excerpts are checked against it. The complete A5 proof retains all 20 paragraphs and Vietnamese diacritics. Its 03 numbering follows the registry; the original source heading and historical board are untouched.\n\nThe reader keeps its existing split hero and memory journey, adding actual PDF, media, social and bundle downloads. Audio is synthetic ambience without speech. The 60-second discovery cut, 45-second feed, 15-second teaser, longer vertical cut and separately laid-out landscape essay are prepared for the author’s recorded narration. SRT/VTT timing is provisional.\n\nThe supplied art is 1254 × 1254 pixels, so cropped details are proof-quality. The editable cover separates type from a raster illustration; it does not claim new illustration layers. Certified print production needs printer specifications and higher-resolution artwork. QR remains deferred. Social pack files are prepared, not posted.\n"
+    },
+    "products": [
+      {
+        "product": "Editable cover layout",
+        "state": "editable SVG type with separate supplied-art crop",
+        "path": "artwork/exports/cover-a5.svg"
+      },
+      {
+        "product": "15-second vertical teaser",
+        "state": "edit preview; author narration pending",
+        "path": "video/teaser-9x16.mp4"
+      },
+      {
+        "product": "Landscape essay film",
+        "state": "edit preview; author narration pending",
+        "path": "video/essay-16x9.mp4"
+      },
+      {
+        "product": "Instagram story 1",
+        "state": "ready",
+        "path": "social/instagram/story-01.jpg"
+      },
+      {
+        "product": "Instagram story 2",
+        "state": "ready",
+        "path": "social/instagram/story-02.jpg"
+      },
+      {
+        "product": "Instagram story 3",
+        "state": "ready",
+        "path": "social/instagram/story-03.jpg"
+      },
+      {
+        "product": "Instagram highlight",
+        "state": "ready",
+        "path": "social/instagram/highlight.jpg"
+      },
+      {
+        "product": "Source-grounded timeline",
+        "state": "ready",
+        "path": "source/TIMELINE.md"
+      },
+      {
+        "product": "Recording script for the discovery cut",
+        "state": "verbatim excerpt sequence",
+        "path": "audio/discovery-9x16-script.md"
+      },
+      {
+        "product": "Recording script for the landscape essay",
+        "state": "verbatim excerpt sequence",
+        "path": "audio/essay-16x9-script.md"
+      },
+      {
+        "product": "Social launch brief",
+        "state": "prepared; posting remains author-managed",
+        "path": "social/BRIEF.md"
+      }
+    ],
+    "alt_text": [
+      {
+        "file": "social/facebook/post.jpg",
+        "alt": "Minh họa người đội mũ hồng và Gấu trên khăn picnic tại Landmark; bên cạnh là tên chương Viết cho Sài Gòn của t và câu Nhưng t thì vẫn ở đây."
+      },
+      {
+        "file": "social/youtube/thumbnail.jpg",
+        "alt": "Thumbnail chương 03: góc tranh picnic Landmark, Gấu và đường chân trời Sài Gòn; chữ Viết cho Sài Gòn của t."
+      },
+      {
+        "file": "social/tiktok/cover.jpg",
+        "alt": "Poster dọc chương 03, minh họa Landmark và Gấu trên nền giấy kem; chữ Nhưng t thì vẫn ở đây."
+      }
+    ]
+  },
+  "hero_mobile_size": [
+    900,
+    675
+  ],
+  "digital_reference_board": "references/design/data_collection - to my saigon (2).png",
+  "digital_portal": {
+    "recipe": "scripts/cut_saigon_board.py",
+    "ring": "artwork/portal/saigon-ring-v1.png",
+    "scene": "artwork/portal/saigon-scene-v1.png",
+    "homepage_scene": "artwork/portal/saigon-scene-v1.png",
+    "homepage_scene_alternate": "artwork/portal/saigon-cover-scene-v1.png",
+    "reader_illustration": "artwork/portal/saigon-spread-v1.webp",
+    "standalone_portal": "web/assets/saigon-portal-v1.png",
+    "status": "digital crops from flattened supplied board; legacy scene/print/media recipes remain historical"
+  }
+}

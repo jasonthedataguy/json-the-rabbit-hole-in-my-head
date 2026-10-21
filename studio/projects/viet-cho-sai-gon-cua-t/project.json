@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "story_slug": "viet-cho-sai-gon-cua-t",
+  "title": "To My Saigon",
+  "edition_number": "14",
+  "original_edition_number": "03",
+  "source": {
+    "path": "C:\\Users\\Administrator\\OneDrive\\Desktop\\.json book\\json_under_revision_v2\\chapters\\viet-cho-sai-gon-cua-t\\source\\approved.md",
+    "sha256": "911b174411dced9668dffd01c6860c079cc17e231c5235f5153666c6021d8b26"
+  },
+  "run_manifest": "studio/projects/viet-cho-sai-gon-cua-t/run-manifest.json",
+  "asset_record": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\viet-cho-sai-gon-cua-t\\assets.json",
+  "timeline": null,
+  "lanes": {
+    "editorial": "C:\\Users\\Administrator\\OneDrive\\Desktop\\.json book\\json_under_revision_v2\\chapters\\viet-cho-sai-gon-cua-t\\source",
+    "reader": "C:\\Users\\Administrator\\OneDrive\\Desktop\\.json book\\json_under_revision_v2\\chapters\\viet-cho-sai-gon-cua-t\\web",
+    "design": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\viet-cho-sai-gon-cua-t\\assets.json",
+    "audio": "C:\\Users\\Administrator\\OneDrive\\Desktop\\.json book\\json_under_revision_v2\\chapters\\viet-cho-sai-gon-cua-t\\audio",
+    "video": null,
+    "social": null,
+    "commerce": null,
+    "release": null,
+    "learning": null
+  },
+  "state_authority": "run_manifest; project.json contains pointers, not a second set of gate flags"
+}

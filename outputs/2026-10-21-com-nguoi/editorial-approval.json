@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-21",
+  "timezone": "Asia/Bangkok",
+  "chapter_slug": "com-nguoi",
+  "approver": "Author, via direct reply in this Codex chat",
+  "response_verbatim": "Approve proposed v1",
+  "question_scope": "Editorial text selection only; choice explicitly excluded posting and paid release",
+  "approved_artifact_path": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\outputs\\2026-10-21-com-nguoi\\chapter-proposed-v1.md",
+  "approved_sha256": "b4319bf9abb463148f590c773c14f12732e3524a612936fd2edddcaebecdfd3a",
+  "previous_source_sha256": "d957b592dc2317aa34196dd25ab42a3fe4a7938d3aee5a1121ab173214bf76f9",
+  "approved_changes": [
+    "Split opening sentence",
+    "Paragraph break before Nhưng cứ thế"
+  ],
+  "ending_unchanged": true,
+  "script_approved": false,
+  "family_public_scope_approved": false,
+  "public_release_approved": false,
+  "paid_release_approved": false
+}

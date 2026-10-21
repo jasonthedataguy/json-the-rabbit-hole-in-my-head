@@ -1,0 +1,85 @@
+{
+  "chapter": "the-payoff-matrix",
+  "files": [
+    {
+      "path": "artwork/portal/payoff-matrix-portal-v1.png",
+      "bytes": 1522506,
+      "sha256": "75636006c8998c8789739677cd1fa154849b1ef0e28b1d39b78fa366ba6f7748"
+    },
+    {
+      "path": "artwork/portal/payoff-matrix-ring-v1.png",
+      "bytes": 1851500,
+      "sha256": "536746055426580be53d654e3dc5f0461b89db2caddc43cc856cd708378b250b"
+    },
+    {
+      "path": "artwork/portal/payoff-matrix-scene-v1.png",
+      "bytes": 1466560,
+      "sha256": "c3ead3265d34ff951f9b60d901e065c4c7a5c4f76ce95809e2b64f000a8e99db"
+    },
+    {
+      "path": "artwork/portal/payoff-matrix-spread-v1.webp",
+      "bytes": 143738,
+      "sha256": "cd55e6c108e7c7e1710c560d5d7b45a047cf6eb2d35a25db1d3f72b0d18647e3"
+    },
+    {
+      "path": "chapter.json",
+      "bytes": 1274,
+      "sha256": "d23aad9ea603419e3408cc5babcbd2372f540b56d936433279e59e55cd77d0dc"
+    },
+    {
+      "path": "docs/ASSET_SOURCE.md",
+      "bytes": 849,
+      "sha256": "9abf3897628790c7208086767139f198cd5e39a77116de52969867cba5aa86f6"
+    },
+    {
+      "path": "docs/PRODUCTS.json",
+      "bytes": 1205,
+      "sha256": "cfffe462756d68f90aeb9fa6123c8eec3abb6e196113643594f72753a18c0679"
+    },
+    {
+      "path": "docs/QA.md",
+      "bytes": 1420,
+      "sha256": "f0556c62cda59db8d55771c31df257cd1e9b92538ffb1815eb225d84a36fb00f"
+    },
+    {
+      "path": "production.json",
+      "bytes": 628,
+      "sha256": "1926ebb1bbb900b8bc3f597f848dd6aa3b31264e8128fcd198a38a64534f3a05"
+    },
+    {
+      "path": "README.md",
+      "bytes": 772,
+      "sha256": "504d20bae44939bdf6d335d8f48994b0e479ea88cf7391c343a6993a41524b7d"
+    },
+    {
+      "path": "source/approved.md",
+      "bytes": 5326,
+      "sha256": "df619212308c5a4b1e1cf843d81245e66d1d186e288cfe8f688ea4cbf9a0c1c4"
+    },
+    {
+      "path": "source/revisions.log",
+      "bytes": 342,
+      "sha256": "07c10c117afd19e7021c232489d986b65add4ae5790b3583f605c75f4d4dd8da"
+    },
+    {
+      "path": "web/assets/payoff-matrix-portal-v1.png",
+      "bytes": 1522506,
+      "sha256": "75636006c8998c8789739677cd1fa154849b1ef0e28b1d39b78fa366ba6f7748"
+    },
+    {
+      "path": "web/assets/payoff-matrix-spread-v1.webp",
+      "bytes": 143738,
+      "sha256": "cd55e6c108e7c7e1710c560d5d7b45a047cf6eb2d35a25db1d3f72b0d18647e3"
+    },
+    {
+      "path": "web/index.html",
+      "bytes": 8691,
+      "sha256": "b946c4e605f7edd3523c5b6ff16d6256f3b252faeb7091c70ddef44df66f1bb5"
+    },
+    {
+      "path": "web/payoff-matrix.css",
+      "bytes": 6494,
+      "sha256": "6274018d3ef9bb9839a0eae97a91f30bdce7bcebe13bbe0c530be1c9bd6f38a9"
+    }
+  ]
+}

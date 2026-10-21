@@ -1,0 +1,207 @@
+{
+  "version": "v1",
+  "source_sha256": "b4319bf9abb463148f590c773c14f12732e3524a612936fd2edddcaebecdfd3a",
+  "campaign": "com-nguoi-20261021",
+  "status": "ready_for_review",
+  "author_approval": false,
+  "carousel": [
+    {
+      "id": "carousel-01",
+      "quote": {
+        "text": "Nó không phải sở thích.",
+        "line": 5,
+        "path": "C:\\Users\\Administrator\\OneDrive\\Desktop\\.json book\\json_under_revision_v2\\chapters\\com-nguoi\\source\\approved.md",
+        "source_sha256": "b4319bf9abb463148f590c773c14f12732e3524a612936fd2edddcaebecdfd3a"
+      },
+      "source_art_path": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\com-nguoi\\artwork\\main-book\\portal.webp",
+      "source_art_sha256": "3c373a8c14bfae34d6c5ed03581464b396c6921478430d7448789313a6f2376e",
+      "output": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\outputs\\2026-10-21-com-nguoi\\social\\carousel-01.jpg",
+      "sha256": "61f906a7abaf361f82c3e3bb4afccbc781d934cf142295f8fcc88f5b9a29031a",
+      "dimensions": [
+        1080,
+        1440
+      ],
+      "alt_text": "Minh họa cổng giấy nhiều lớp dẫn vào bàn ăn gia đình. Chữ: Nó không phải sở thích.",
+      "status": "ready_for_review"
+    },
+    {
+      "id": "carousel-02",
+      "quote": {
+        "text": "Cơm nguội gắn liền với thời thơ ấu của tớ.",
+        "line": 7,
+        "path": "C:\\Users\\Administrator\\OneDrive\\Desktop\\.json book\\json_under_revision_v2\\chapters\\com-nguoi\\source\\approved.md",
+        "source_sha256": "b4319bf9abb463148f590c773c14f12732e3524a612936fd2edddcaebecdfd3a"
+      },
+      "source_art_path": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\com-nguoi\\artwork\\chapter-page\\hero.webp",
+      "source_art_sha256": "317e9cfb33874f3ee417c09a6b43ca07de16fa69e63e93a4503e7352e93c4f84",
+      "output": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\outputs\\2026-10-21-com-nguoi\\social\\carousel-02.jpg",
+      "sha256": "f85a0b0829c9b0db21ffbe282b156109eb7c6d57550ce8f3203a545e764d38be",
+      "dimensions": [
+        1080,
+        1440
+      ],
+      "alt_text": "Minh họa ba người bên bàn ăn dưới đèn vàng, nhìn từ phía sau. Chữ: Cơm nguội gắn liền với thời thơ ấu của tớ.",
+      "status": "ready_for_review"
+    },
+    {
+      "id": "carousel-03",
+      "quote": {
+        "text": "Tớ không muốn bố phải ăn cơm nguội.",
+        "line": 11,
+        "path": "C:\\Users\\Administrator\\OneDrive\\Desktop\\.json book\\json_under_revision_v2\\chapters\\com-nguoi\\source\\approved.md",
+        "source_sha256": "b4319bf9abb463148f590c773c14f12732e3524a612936fd2edddcaebecdfd3a"
+      },
+      "source_art_path": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\com-nguoi\\artwork\\content\\illustrations\\01-story-detail.webp",
+      "source_art_sha256": "ce4f7fd4c2e46725139dc97f04bdd2b4fcfb8f00cef3313331063a608dfe0342",
+      "output": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\outputs\\2026-10-21-com-nguoi\\social\\carousel-03.jpg",
+      "sha256": "e9b199f026c3c962364521fdd6a0c30b065f4da03b3c2077668a027cbef8a8c4",
+      "dimensions": [
+        1080,
+        1440
+      ],
+      "alt_text": "Minh họa đứa trẻ và bố mẹ bên bàn ăn có tô cơm. Chữ: Tớ không muốn bố phải ăn cơm nguội.",
+      "status": "ready_for_review"
+    },
+    {
+      "id": "carousel-04",
+      "quote": {
+        "text": "Cho đến tận bây giờ.",
+        "line": 17,
+        "path": "C:\\Users\\Administrator\\OneDrive\\Desktop\\.json book\\json_under_revision_v2\\chapters\\com-nguoi\\source\\approved.md",
+        "source_sha256": "b4319bf9abb463148f590c773c14f12732e3524a612936fd2edddcaebecdfd3a"
+      },
+      "source_art_path": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\com-nguoi\\artwork\\chapter-page\\hero.webp",
+      "source_art_sha256": "317e9cfb33874f3ee417c09a6b43ca07de16fa69e63e93a4503e7352e93c4f84",
+      "output": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\outputs\\2026-10-21-com-nguoi\\social\\carousel-04.jpg",
+      "sha256": "71a7f241a68530ab6416badeb281b754e56b198e576a2b60c8cf67b7565ef1c8",
+      "dimensions": [
+        1080,
+        1440
+      ],
+      "alt_text": "Minh họa gia đình quanh bàn ăn. Chữ: Cho đến tận bây giờ.",
+      "status": "ready_for_review"
+    },
+    {
+      "id": "carousel-05",
+      "quote": {
+        "text": "“Con thích ăn cơm nguội.”",
+        "line": 23,
+        "path": "C:\\Users\\Administrator\\OneDrive\\Desktop\\.json book\\json_under_revision_v2\\chapters\\com-nguoi\\source\\approved.md",
+        "source_sha256": "b4319bf9abb463148f590c773c14f12732e3524a612936fd2edddcaebecdfd3a"
+      },
+      "source_art_path": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\com-nguoi\\artwork\\chapter-page\\portal.webp",
+      "source_art_sha256": "79b61b71d689bd27bd5cab1679c2a875aff7a8b660619afad9d1ed39d4a3587a",
+      "output": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\outputs\\2026-10-21-com-nguoi\\social\\carousel-05.jpg",
+      "sha256": "e7845f77773b502b49d2c0c21b0ee9fdb770016e1ee321f0f67b4c8cd28548bc",
+      "dimensions": [
+        1080,
+        1440
+      ],
+      "alt_text": "Minh họa Jason đứng ở ngưỡng cổng giấy, bàn ăn gia đình ở phía trong. Chữ: “Con thích ăn cơm nguội.” CTA: Đọc trọn Cơm nguội.",
+      "status": "ready_for_review"
+    }
+  ],
+  "channels": [
+    {
+      "channel": "instagram",
+      "creative_id": "carousel-v1",
+      "caption": "Nó không phải sở thích.\n\nCơm nguội gắn liền với thời thơ ấu của tớ.\n\nCơm nguội — prologue 00 trong .json.\nĐọc trọn chương qua liên kết ở hồ sơ.\n\n#ComNguoi #json #HoiUc",
+      "candidate_destination": "https://jasonthedataguy.github.io/json-the-rabbit-hole-in-my-head/?utm_source=instagram&utm_medium=organic_social&utm_campaign=com-nguoi-20261021&utm_content=carousel-v1#chapter/00",
+      "destination_live_verified": false,
+      "profile_link_verified": false,
+      "schedule": null,
+      "published_url": null,
+      "owner": "Jason",
+      "status": "ready_for_review",
+      "source_sha256": "b4319bf9abb463148f590c773c14f12732e3524a612936fd2edddcaebecdfd3a",
+      "cta_dependency": "Use profile CTA only after actual channel link is configured and verified; all destinations need G3",
+      "metrics": {
+        "views": null,
+        "clicks": null,
+        "reads": null
+      }
+    },
+    {
+      "channel": "facebook",
+      "creative_id": "image-v1",
+      "caption": "Cơm nguội gắn liền với thời thơ ấu của tớ.\n\nTớ không muốn bố phải ăn cơm nguội.\n\nThế nên cứ mỗi bữa, tớ lại giành lấy phần cơm ấy, bảo rằng tớ thích ăn cơm nguội hơn.\n\nCơm nguội / .json\nĐọc trọn chương: https://jasonthedataguy.github.io/json-the-rabbit-hole-in-my-head/?utm_source=facebook&utm_medium=organic_social&utm_campaign=com-nguoi-20261021&utm_content=image-v1#chapter/00",
+      "candidate_destination": "https://jasonthedataguy.github.io/json-the-rabbit-hole-in-my-head/?utm_source=facebook&utm_medium=organic_social&utm_campaign=com-nguoi-20261021&utm_content=image-v1#chapter/00",
+      "destination_live_verified": false,
+      "profile_link_verified": false,
+      "schedule": null,
+      "published_url": null,
+      "owner": "Jason",
+      "status": "ready_for_review",
+      "source_sha256": "b4319bf9abb463148f590c773c14f12732e3524a612936fd2edddcaebecdfd3a",
+      "cta_dependency": "Use profile CTA only after actual channel link is configured and verified; all destinations need G3",
+      "metrics": {
+        "views": null,
+        "clicks": null,
+        "reads": null
+      }
+    },
+    {
+      "channel": "tiktok",
+      "creative_id": "master-v1",
+      "caption": "Nó không phải sở thích.\n\nCơm nguội / .json\nĐọc trọn chương qua liên kết ở hồ sơ.\n\n#ComNguoi #json #HoiUc",
+      "candidate_destination": "https://jasonthedataguy.github.io/json-the-rabbit-hole-in-my-head/?utm_source=tiktok&utm_medium=organic_social&utm_campaign=com-nguoi-20261021&utm_content=master-v1#chapter/00",
+      "destination_live_verified": false,
+      "profile_link_verified": false,
+      "schedule": null,
+      "published_url": null,
+      "owner": "Jason",
+      "status": "ready_for_review",
+      "source_sha256": "b4319bf9abb463148f590c773c14f12732e3524a612936fd2edddcaebecdfd3a",
+      "cta_dependency": "Use profile CTA only after actual channel link is configured and verified; all destinations need G3",
+      "metrics": {
+        "views": null,
+        "clicks": null,
+        "reads": null
+      }
+    },
+    {
+      "channel": "youtube",
+      "creative_id": "master-v1",
+      "caption": "Nó không phải sở thích.\n\nMột trích đoạn từ Cơm nguội, prologue 00 trong .json.\nBản đầy đủ của chương ở liên kết hồ sơ kênh.\n\n#ComNguoi #json",
+      "candidate_destination": "https://jasonthedataguy.github.io/json-the-rabbit-hole-in-my-head/?utm_source=youtube&utm_medium=organic_social&utm_campaign=com-nguoi-20261021&utm_content=master-v1#chapter/00",
+      "destination_live_verified": false,
+      "profile_link_verified": false,
+      "schedule": null,
+      "published_url": null,
+      "owner": "Jason",
+      "status": "ready_for_review",
+      "source_sha256": "b4319bf9abb463148f590c773c14f12732e3524a612936fd2edddcaebecdfd3a",
+      "cta_dependency": "Use profile CTA only after actual channel link is configured and verified; all destinations need G3",
+      "metrics": {
+        "views": null,
+        "clicks": null,
+        "reads": null
+      }
+    },
+    {
+      "channel": "sunday",
+      "creative_id": "alternate-v1",
+      "caption": "Cho đến tận bây giờ.\n\n“Con thích ăn cơm nguội.”\n\nCơm nguội / .json\nĐọc trọn chương qua liên kết ở hồ sơ.",
+      "candidate_destination": "https://jasonthedataguy.github.io/json-the-rabbit-hole-in-my-head/?utm_source=sunday&utm_medium=organic_social&utm_campaign=com-nguoi-20261021&utm_content=alternate-v1#chapter/00",
+      "destination_live_verified": false,
+      "profile_link_verified": false,
+      "schedule": null,
+      "published_url": null,
+      "owner": "Jason",
+      "status": "ready_for_review",
+      "source_sha256": "b4319bf9abb463148f590c773c14f12732e3524a612936fd2edddcaebecdfd3a",
+      "cta_dependency": "Use profile CTA only after actual channel link is configured and verified; all destinations need G3",
+      "metrics": {
+        "views": null,
+        "clicks": null,
+        "reads": null
+      }
+    }
+  ],
+  "youtube_link_policy_source": "https://support.google.com/youtube/answer/13748639?hl=en",
+  "illustration_provenance": "Existing author asset library; AI illustration, not archival photograph",
+  "music_rights": "no new music selected",
+  "published": false,
+  "manuscript_text_approval_evidence": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\outputs\\2026-10-21-com-nguoi\\editorial-approval.json",
+  "source_rebase_note": "Exact quoted words unchanged; original art/layouts retained; social approval still pending."
+}

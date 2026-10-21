@@ -1,0 +1,22 @@
+/* Digital-book adaptation of the author's Three Meeting Theory concept board. */
+@font-face{font-family:'Noto Serif Three';src:url('../../../assets/noto-serif.ttf') format('truetype');font-display:swap}
+:root{--dark:#102331;--blue:#203c53;--gold:#e7b480;--paper:#f2eadb;--ink:#19313e}
+body{font-family:'Noto Serif Three',Georgia,serif}
+header{background:#102331;border-bottom:1px solid #b9937450}
+header a{color:inherit;text-decoration:none}
+.hero{display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1fr);gap:24px;min-height:650px;background:radial-gradient(circle at 75% 48%,#3b4c61 0,#152c3e 48%,#0c1e2e 100%)}
+.hero-inner{grid-column:1;grid-row:1;align-self:center;max-width:none;padding:60px 2vw 60px 6vw}
+.hero .label{color:#e9b593}
+.hero h1{font-size:clamp(63px,7.5vw,112px);color:#f7e9d4}
+.hero h1 em{color:#e9b593}
+.hero p{max-width:570px;color:#f4e6d9}
+.hero-portal{grid-column:2;grid-row:1;align-self:center;justify-self:center;display:block;width:min(100%,620px);height:auto;filter:drop-shadow(0 18px 25px #0006)}
+.reading{max-width:900px;background:var(--paper)}
+.reading-spread{margin:0 auto 60px;text-align:center}
+.reading-spread img{display:block;width:100%;height:auto}
+.reading-spread figcaption{margin-top:10px;font:11px/1.5 monospace;letter-spacing:.13em;text-transform:uppercase;color:#846e64}
+.reading h2{color:#19313e}
+.reading article{max-width:760px;margin:auto}
+.reading article p:first-child:first-letter{color:#b96e61}
+@media(max-width:800px){.hero{grid-template-columns:1fr;gap:0;min-height:0}.hero-portal{grid-column:1;grid-row:1;width:min(90%,500px);margin:25px auto 0}.hero-inner{grid-column:1;grid-row:2;padding:12px 24px 48px}.hero h1{font-size:clamp(60px,13vw,95px)}.reading-spread{margin-bottom:36px}}
+@media(prefers-reduced-motion:reduce){.hero-portal{filter:none}}

@@ -1,0 +1,476 @@
+{
+  "schema_version": "1.1",
+  "story_slug": "com-nguoi",
+  "version": "v3-portal-entry",
+  "display_title": "Cơm nguội",
+  "source": {
+    "path": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\script\\final-script-v2.md",
+    "sha256": "d957b592dc2317aa34196dd25ab42a3fe4a7938d3aee5a1121ab173214bf76f9"
+  },
+  "canonical_narrative_source": {
+    "path": "C:\\Users\\Administrator\\OneDrive\\Desktop\\.json book\\json_under_revision_v2\\chapters\\com-nguoi\\source\\approved.md",
+    "sha256": "b4319bf9abb463148f590c773c14f12732e3524a612936fd2edddcaebecdfd3a"
+  },
+  "script_reference": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\script\\final-script-v2.md",
+  "script_approval_reference": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\script\\final-script-v2-approval.json",
+  "status": "ready_for_review",
+  "timing": "estimated_for_silent_reading; author requested a silent review cut",
+  "visual_mode": "flat_illustration",
+  "author_audio": null,
+  "music": null,
+  "cuts": {
+    "master": {
+      "duration_estimate_s": 120.0,
+      "full_source_reading": true,
+      "shots": [
+        {
+          "id": "OPEN",
+          "start_s": 0.0,
+          "duration_s": 10.5,
+          "vo_text": "",
+          "source_reference": null,
+          "asset_path": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\com-nguoi\\artwork\\chapter-page\\portal.webp",
+          "asset_sha256": "79b61b71d689bd27bd5cab1679c2a875aff7a8b660619afad9d1ed39d4a3587a",
+          "kind": "portal_entry",
+          "on_screen_text": "Cơm nguội",
+          "visual": "Title hold, focused camera entry into center artwork, sharp family-table reveal, then first source paragraph.",
+          "subtitle_status": "silent reading text; timings estimated, not aligned to speech",
+          "motion": {
+            "scale_from": 1.0,
+            "scale_to": 1.025,
+            "pan_x_px": 0,
+            "pan_y_px": 0
+          },
+          "portal_entry": {
+            "focus_x": 0.5,
+            "focus_y": 0.565,
+            "max_scale": 5.5,
+            "reveal_asset_path": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\com-nguoi\\artwork\\chapter-page\\hero.webp",
+            "reveal_asset_sha256": "317e9cfb33874f3ee417c09a6b43ca07de16fa69e63e93a4503e7352e93c4f84"
+          }
+        },
+        {
+          "id": "P01",
+          "start_s": 10.5,
+          "duration_s": 15.5,
+          "vo_text": "Nếu đây là lần đầu tiên các cậu ăn cơm với tớ, chắc hẳn các cậu sẽ hơi ngạc nhiên khi thấy tớ luôn chọn cơm nguội, dù trên bàn vẫn có một nồi cơm mới nấu nóng hổi.",
+          "source_reference": {
+            "text": "Nếu đây là lần đầu tiên các cậu ăn cơm với tớ, chắc hẳn các cậu sẽ hơi ngạc nhiên khi thấy tớ luôn chọn cơm nguội, dù trên bàn vẫn có một nồi cơm mới nấu nóng hổi.",
+            "line": 3,
+            "path": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\script\\final-script-v2.md",
+            "source_sha256": "d957b592dc2317aa34196dd25ab42a3fe4a7938d3aee5a1121ab173214bf76f9"
+          },
+          "asset_path": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\com-nguoi\\artwork\\chapter-page\\hero.webp",
+          "asset_sha256": "317e9cfb33874f3ee417c09a6b43ca07de16fa69e63e93a4503e7352e93c4f84",
+          "kind": "story",
+          "on_screen_text": "",
+          "visual": "Continue inside the family-table scene revealed by the opening; no return to the exterior portal.",
+          "subtitle_status": "silent reading text; timings estimated, not aligned to speech",
+          "motion": {
+            "scale_from": 1.0,
+            "scale_to": 1.025,
+            "pan_x_px": 0,
+            "pan_y_px": 0
+          },
+          "caption_cues": [
+            {
+              "start_s": 0.0,
+              "duration_s": 4.5,
+              "text": "Nếu đây là lần đầu tiên\ncác cậu ăn cơm với tớ,"
+            },
+            {
+              "start_s": 4.5,
+              "duration_s": 3.5,
+              "text": "chắc hẳn các cậu\nsẽ hơi ngạc nhiên"
+            },
+            {
+              "start_s": 8.0,
+              "duration_s": 3.0,
+              "text": "khi thấy tớ luôn chọn cơm nguội,"
+            },
+            {
+              "start_s": 11.0,
+              "duration_s": 4.5,
+              "text": "dù trên bàn vẫn có một\nnồi cơm mới nấu nóng hổi."
+            }
+          ]
+        },
+        {
+          "id": "P02",
+          "start_s": 26.0,
+          "duration_s": 17.5,
+          "vo_text": "Nó không phải sở thích. Chẳng ai có cái sở thích kỳ quái vậy cả. Ăn cơm nóng rõ ràng ngon hơn chứ. Với tớ, nó chỉ là một thói quen, mà thói quen thì thường rất khó bỏ.",
+          "source_reference": {
+            "text": "Nó không phải sở thích. Chẳng ai có cái sở thích kỳ quái vậy cả. Ăn cơm nóng rõ ràng ngon hơn chứ. Với tớ, nó chỉ là một thói quen, mà thói quen thì thường rất khó bỏ.",
+            "line": 5,
+            "path": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\script\\final-script-v2.md",
+            "source_sha256": "d957b592dc2317aa34196dd25ab42a3fe4a7938d3aee5a1121ab173214bf76f9"
+          },
+          "asset_path": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\com-nguoi\\artwork\\chapter-page\\hero.webp",
+          "asset_sha256": "317e9cfb33874f3ee417c09a6b43ca07de16fa69e63e93a4503e7352e93c4f84",
+          "kind": "story",
+          "on_screen_text": "",
+          "visual": "Continue inside the family-table scene revealed by the opening; no return to the exterior portal.",
+          "subtitle_status": "silent reading text; timings estimated, not aligned to speech",
+          "motion": {
+            "scale_from": 1.0,
+            "scale_to": 1.025,
+            "pan_x_px": 0,
+            "pan_y_px": 0
+          },
+          "caption_cues": [
+            {
+              "start_s": 0.0,
+              "duration_s": 3.0,
+              "text": "Nó không phải sở thích."
+            },
+            {
+              "start_s": 3.0,
+              "duration_s": 4.0,
+              "text": "Chẳng ai có cái sở\nthích kỳ quái vậy cả."
+            },
+            {
+              "start_s": 7.0,
+              "duration_s": 3.5,
+              "text": "Ăn cơm nóng rõ\nràng ngon hơn chứ."
+            },
+            {
+              "start_s": 10.5,
+              "duration_s": 3.5,
+              "text": "Với tớ, nó chỉ là một thói quen,"
+            },
+            {
+              "start_s": 14.0,
+              "duration_s": 3.5,
+              "text": "mà thói quen thì\nthường rất khó bỏ."
+            }
+          ]
+        },
+        {
+          "id": "P03",
+          "start_s": 43.5,
+          "duration_s": 4.0,
+          "vo_text": "Cơm nguội gắn liền với thời thơ ấu của tớ.",
+          "source_reference": {
+            "text": "Cơm nguội gắn liền với thời thơ ấu của tớ.",
+            "line": 7,
+            "path": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\script\\final-script-v2.md",
+            "source_sha256": "d957b592dc2317aa34196dd25ab42a3fe4a7938d3aee5a1121ab173214bf76f9"
+          },
+          "asset_path": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\com-nguoi\\artwork\\content\\illustrations\\01-story-detail.webp",
+          "asset_sha256": "ce4f7fd4c2e46725139dc97f04bdd2b4fcfb8f00cef3313331063a608dfe0342",
+          "kind": "story",
+          "on_screen_text": "",
+          "visual": "Existing complete illustration; contained, slow push and dissolve. No archival claim.",
+          "subtitle_status": "silent reading text; timings estimated, not aligned to speech",
+          "motion": {
+            "scale_from": 1.0,
+            "scale_to": 1.025,
+            "pan_x_px": 0,
+            "pan_y_px": 0
+          },
+          "caption_cues": [
+            {
+              "start_s": 0.0,
+              "duration_s": 4.0,
+              "text": "Cơm nguội gắn liền\nvới thời thơ ấu của tớ."
+            }
+          ]
+        },
+        {
+          "id": "P04",
+          "start_s": 47.5,
+          "duration_s": 22.0,
+          "vo_text": "Ngày bé, cái thời mà lò vi sóng hay bất cứ thứ gì dùng để hâm nóng thức ăn vẫn còn xa lạ, tô cơm nguội luôn xuất hiện trong những bữa ăn nhà tớ. Tớ để ý bố luôn là người ăn hết tô cơm ấy, còn phần cơm nóng thì để mẹ và tớ ăn.",
+          "source_reference": {
+            "text": "Ngày bé, cái thời mà lò vi sóng hay bất cứ thứ gì dùng để hâm nóng thức ăn vẫn còn xa lạ, tô cơm nguội luôn xuất hiện trong những bữa ăn nhà tớ. Tớ để ý bố luôn là người ăn hết tô cơm ấy, còn phần cơm nóng thì để mẹ và tớ ăn.",
+            "line": 9,
+            "path": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\script\\final-script-v2.md",
+            "source_sha256": "d957b592dc2317aa34196dd25ab42a3fe4a7938d3aee5a1121ab173214bf76f9"
+          },
+          "asset_path": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\com-nguoi\\artwork\\chapter-page\\hero.webp",
+          "asset_sha256": "317e9cfb33874f3ee417c09a6b43ca07de16fa69e63e93a4503e7352e93c4f84",
+          "kind": "story",
+          "on_screen_text": "",
+          "visual": "Existing complete illustration; contained, slow push and dissolve. No archival claim.",
+          "subtitle_status": "silent reading text; timings estimated, not aligned to speech",
+          "motion": {
+            "scale_from": 1.0,
+            "scale_to": 1.025,
+            "pan_x_px": 0,
+            "pan_y_px": 0
+          },
+          "caption_cues": [
+            {
+              "start_s": 0.0,
+              "duration_s": 3.5,
+              "text": "Ngày bé, cái thời mà lò vi sóng"
+            },
+            {
+              "start_s": 3.5,
+              "duration_s": 5.5,
+              "text": "hay bất cứ thứ gì dùng để hâm\nnóng thức ăn vẫn còn xa lạ,"
+            },
+            {
+              "start_s": 9.0,
+              "duration_s": 4.5,
+              "text": "tô cơm nguội luôn xuất hiện\ntrong những bữa ăn nhà tớ."
+            },
+            {
+              "start_s": 13.5,
+              "duration_s": 4.5,
+              "text": "Tớ để ý bố luôn là\nngười ăn hết tô cơm ấy,"
+            },
+            {
+              "start_s": 18.0,
+              "duration_s": 4.0,
+              "text": "còn phần cơm nóng\nthì để mẹ và tớ ăn."
+            }
+          ]
+        },
+        {
+          "id": "P05",
+          "start_s": 69.5,
+          "duration_s": 5.0,
+          "vo_text": "Tớ không muốn bố phải ăn cơm nguội.",
+          "source_reference": {
+            "text": "Tớ không muốn bố phải ăn cơm nguội.",
+            "line": 11,
+            "path": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\script\\final-script-v2.md",
+            "source_sha256": "d957b592dc2317aa34196dd25ab42a3fe4a7938d3aee5a1121ab173214bf76f9"
+          },
+          "asset_path": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\com-nguoi\\artwork\\content\\illustrations\\01-story-detail.webp",
+          "asset_sha256": "ce4f7fd4c2e46725139dc97f04bdd2b4fcfb8f00cef3313331063a608dfe0342",
+          "kind": "story",
+          "on_screen_text": "",
+          "visual": "Existing complete illustration; contained, slow push and dissolve. No archival claim.",
+          "subtitle_status": "silent reading text; timings estimated, not aligned to speech",
+          "motion": {
+            "scale_from": 1.0,
+            "scale_to": 1.025,
+            "pan_x_px": 0,
+            "pan_y_px": 0
+          },
+          "caption_cues": [
+            {
+              "start_s": 0.0,
+              "duration_s": 5.0,
+              "text": "Tớ không muốn bố\nphải ăn cơm nguội."
+            }
+          ]
+        },
+        {
+          "id": "P06",
+          "start_s": 74.5,
+          "duration_s": 21.5,
+          "vo_text": "Thế nên cứ mỗi bữa, tớ lại giành lấy phần cơm ấy, bảo rằng tớ thích ăn cơm nguội hơn. Ban đầu chỉ đơn giản là không muốn bố phải ăn phần cơm còn lại từ bữa trước. Nhưng cứ thế, bữa này qua bữa khác, nó dần trở thành thói quen.",
+          "source_reference": {
+            "text": "Thế nên cứ mỗi bữa, tớ lại giành lấy phần cơm ấy, bảo rằng tớ thích ăn cơm nguội hơn. Ban đầu chỉ đơn giản là không muốn bố phải ăn phần cơm còn lại từ bữa trước. Nhưng cứ thế, bữa này qua bữa khác, nó dần trở thành thói quen.",
+            "line": 13,
+            "path": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\script\\final-script-v2.md",
+            "source_sha256": "d957b592dc2317aa34196dd25ab42a3fe4a7938d3aee5a1121ab173214bf76f9"
+          },
+          "asset_path": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\com-nguoi\\artwork\\content\\illustrations\\01-story-detail.webp",
+          "asset_sha256": "ce4f7fd4c2e46725139dc97f04bdd2b4fcfb8f00cef3313331063a608dfe0342",
+          "kind": "story",
+          "on_screen_text": "",
+          "visual": "Existing complete illustration; contained, slow push and dissolve. No archival claim.",
+          "subtitle_status": "silent reading text; timings estimated, not aligned to speech",
+          "motion": {
+            "scale_from": 1.0,
+            "scale_to": 1.025,
+            "pan_x_px": 0,
+            "pan_y_px": 0
+          },
+          "caption_cues": [
+            {
+              "start_s": 0.0,
+              "duration_s": 4.5,
+              "text": "Thế nên cứ mỗi bữa, tớ lại\ngiành lấy phần cơm ấy,"
+            },
+            {
+              "start_s": 4.5,
+              "duration_s": 3.5,
+              "text": "bảo rằng tớ thích\năn cơm nguội hơn."
+            },
+            {
+              "start_s": 8.0,
+              "duration_s": 3.5,
+              "text": "Ban đầu chỉ đơn giản\nlà không muốn bố"
+            },
+            {
+              "start_s": 11.5,
+              "duration_s": 3.5,
+              "text": "phải ăn phần cơm\ncòn lại từ bữa trước."
+            },
+            {
+              "start_s": 15.0,
+              "duration_s": 3.5,
+              "text": "Nhưng cứ thế, bữa\nnày qua bữa khác,"
+            },
+            {
+              "start_s": 18.5,
+              "duration_s": 3.0,
+              "text": "nó dần trở thành thói quen."
+            }
+          ]
+        },
+        {
+          "id": "P07",
+          "start_s": 96.0,
+          "duration_s": 5.0,
+          "vo_text": "Cho đến tận bây giờ.",
+          "source_reference": {
+            "text": "Cho đến tận bây giờ.",
+            "line": 15,
+            "path": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\script\\final-script-v2.md",
+            "source_sha256": "d957b592dc2317aa34196dd25ab42a3fe4a7938d3aee5a1121ab173214bf76f9"
+          },
+          "asset_path": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\com-nguoi\\artwork\\chapter-page\\portal.webp",
+          "asset_sha256": "79b61b71d689bd27bd5cab1679c2a875aff7a8b660619afad9d1ed39d4a3587a",
+          "kind": "story",
+          "on_screen_text": "",
+          "visual": "Existing complete illustration; contained, slow push and dissolve. No archival claim.",
+          "subtitle_status": "silent reading text; timings estimated, not aligned to speech",
+          "motion": {
+            "scale_from": 1.0,
+            "scale_to": 1.025,
+            "pan_x_px": 0,
+            "pan_y_px": 0
+          },
+          "caption_cues": [
+            {
+              "start_s": 0.0,
+              "duration_s": 5.0,
+              "text": "Cho đến tận bây giờ."
+            }
+          ]
+        },
+        {
+          "id": "P08",
+          "start_s": 101.0,
+          "duration_s": 4.0,
+          "vo_text": "Thỉnh thoảng trong những bữa cơm, bố mẹ vẫn bảo:",
+          "source_reference": {
+            "text": "Thỉnh thoảng trong những bữa cơm, bố mẹ vẫn bảo:",
+            "line": 17,
+            "path": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\script\\final-script-v2.md",
+            "source_sha256": "d957b592dc2317aa34196dd25ab42a3fe4a7938d3aee5a1121ab173214bf76f9"
+          },
+          "asset_path": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\com-nguoi\\artwork\\chapter-page\\hero.webp",
+          "asset_sha256": "317e9cfb33874f3ee417c09a6b43ca07de16fa69e63e93a4503e7352e93c4f84",
+          "kind": "story",
+          "on_screen_text": "",
+          "visual": "Existing complete illustration; contained, slow push and dissolve. No archival claim.",
+          "subtitle_status": "silent reading text; timings estimated, not aligned to speech",
+          "motion": {
+            "scale_from": 1.0,
+            "scale_to": 1.025,
+            "pan_x_px": 0,
+            "pan_y_px": 0
+          },
+          "caption_cues": [
+            {
+              "start_s": 0.0,
+              "duration_s": 4.0,
+              "text": "Thỉnh thoảng trong những\nbữa cơm, bố mẹ vẫn bảo:"
+            }
+          ]
+        },
+        {
+          "id": "P09",
+          "start_s": 105.0,
+          "duration_s": 6.0,
+          "vo_text": "“Sao không ăn cơm nóng kia con, ăn cơm nguội đau dạ dày.”",
+          "source_reference": {
+            "text": "“Sao không ăn cơm nóng kia con, ăn cơm nguội đau dạ dày.”",
+            "line": 19,
+            "path": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\script\\final-script-v2.md",
+            "source_sha256": "d957b592dc2317aa34196dd25ab42a3fe4a7938d3aee5a1121ab173214bf76f9"
+          },
+          "asset_path": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\com-nguoi\\artwork\\chapter-page\\hero.webp",
+          "asset_sha256": "317e9cfb33874f3ee417c09a6b43ca07de16fa69e63e93a4503e7352e93c4f84",
+          "kind": "story",
+          "on_screen_text": "",
+          "visual": "Existing complete illustration; contained, slow push and dissolve. No archival claim.",
+          "subtitle_status": "silent reading text; timings estimated, not aligned to speech",
+          "motion": {
+            "scale_from": 1.0,
+            "scale_to": 1.025,
+            "pan_x_px": 0,
+            "pan_y_px": 0
+          },
+          "caption_cues": [
+            {
+              "start_s": 0.0,
+              "duration_s": 3.0,
+              "text": "“Sao không ăn cơm nóng kia con,"
+            },
+            {
+              "start_s": 3.0,
+              "duration_s": 3.0,
+              "text": "ăn cơm nguội đau dạ dày.”"
+            }
+          ]
+        },
+        {
+          "id": "P10",
+          "start_s": 111.0,
+          "duration_s": 5.0,
+          "vo_text": "“Con thích ăn cơm nguội.”",
+          "source_reference": {
+            "text": "“Con thích ăn cơm nguội.”",
+            "line": 21,
+            "path": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\script\\final-script-v2.md",
+            "source_sha256": "d957b592dc2317aa34196dd25ab42a3fe4a7938d3aee5a1121ab173214bf76f9"
+          },
+          "asset_path": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\com-nguoi\\artwork\\chapter-page\\hero.webp",
+          "asset_sha256": "317e9cfb33874f3ee417c09a6b43ca07de16fa69e63e93a4503e7352e93c4f84",
+          "kind": "story",
+          "on_screen_text": "",
+          "visual": "Existing complete illustration; contained, slow push and dissolve. No archival claim.",
+          "subtitle_status": "silent reading text; timings estimated, not aligned to speech",
+          "motion": {
+            "scale_from": 1.0,
+            "scale_to": 1.025,
+            "pan_x_px": 0,
+            "pan_y_px": 0
+          },
+          "caption_cues": [
+            {
+              "start_s": 0.0,
+              "duration_s": 5.0,
+              "text": "“Con thích ăn cơm nguội.”"
+            }
+          ]
+        },
+        {
+          "id": "CLOSE",
+          "start_s": 116.0,
+          "duration_s": 4,
+          "vo_text": "",
+          "source_reference": null,
+          "asset_path": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\com-nguoi\\artwork\\chapter-page\\portal.webp",
+          "asset_sha256": "79b61b71d689bd27bd5cab1679c2a875aff7a8b660619afad9d1ed39d4a3587a",
+          "kind": "end",
+          "on_screen_text": "Cơm nguội",
+          "visual": "Existing complete illustration; contained, slow push and dissolve. No archival claim.",
+          "subtitle_status": "silent reading text; timings estimated, not aligned to speech",
+          "motion": {
+            "scale_from": 1.0,
+            "scale_to": 1.025,
+            "pan_x_px": 0,
+            "pan_y_px": 0
+          }
+        }
+      ]
+    }
+  },
+  "creative_revision": {
+    "request": "you miss the introduction part, i need the transition to go into the center art with the narrative of the chapter title then it comes to the story",
+    "date": "2026-10-21",
+    "scope": "internal silent opening revision; public release unapproved",
+    "sequence": "Hold chapter title; camera enters the portal's family-table center; dissolve to sharp existing center-scene art; settle into story before its first paragraph.",
+    "title_narration": "Cơm nguội is the title reading beat; intentionally text-only in the authorized silent review format. No new narrative or synthetic speech."
+  }
+}

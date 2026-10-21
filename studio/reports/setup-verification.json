@@ -1,0 +1,140 @@
+{
+  "date": "2026-10-21",
+  "timezone": "Asia/Bangkok",
+  "status": "pass",
+  "scope": "Studio setup and internal-preview pipeline; not public/paid release readiness",
+  "deck_slides_read": 12,
+  "deck_sha256": "09c420f00476ef143c1fe43af0fe0268bdf6bbb97d14a3ba313b27dee8603a48",
+  "catalog_counts": {
+    "front_matter": 1,
+    "chapter_slots": 36,
+    "total": 37
+  },
+  "active_and_queued_projects": 3,
+  "reference_images_preserved": 31,
+  "reference_image_hash_check": true,
+  "external_book_or_artwork_modified_by_setup": false,
+  "local_doc_links_checked": 16,
+  "missing_links": [],
+  "control_tests": {
+    "passed": 17,
+    "failed": 0,
+    "command": "python -m unittest discover -s tests -v"
+  },
+  "skill_validation": "Skill is valid!",
+  "typescript": "npm run typecheck passed",
+  "workspace_audit": {
+    "status": "pass",
+    "projects": [
+      {
+        "slug": "com-nguoi",
+        "status": "pass",
+        "errors": [],
+        "warnings": [],
+        "source_sha256": "b4319bf9abb463148f590c773c14f12732e3524a612936fd2edddcaebecdfd3a",
+        "run_manifest": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\outputs\\2026-10-21-com-nguoi\\run-manifest.json",
+        "manuscript_approved": true,
+        "script_approved": false,
+        "release_approved": false,
+        "interpretation": "pass means references/logic are consistent, not ready to release"
+      },
+      {
+        "slug": "fashion",
+        "status": "pass",
+        "errors": [],
+        "warnings": [],
+        "source_sha256": "fa6d61a045a5c160a45ecd541382077c46a4581b00de6ffd027bf1674ac78c9e",
+        "run_manifest": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\fashion\\run-manifest.json",
+        "manuscript_approved": false,
+        "script_approved": false,
+        "release_approved": false,
+        "interpretation": "pass means references/logic are consistent, not ready to release"
+      },
+      {
+        "slug": "viet-cho-sai-gon-cua-t",
+        "status": "pass",
+        "errors": [],
+        "warnings": [],
+        "source_sha256": "911b174411dced9668dffd01c6860c079cc17e231c5235f5153666c6021d8b26",
+        "run_manifest": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\viet-cho-sai-gon-cua-t\\run-manifest.json",
+        "manuscript_approved": false,
+        "script_approved": false,
+        "release_approved": false,
+        "interpretation": "pass means references/logic are consistent, not ready to release"
+      }
+    ]
+  },
+  "internal_video_smoke": {
+    "path": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\video\\previews\\alternate-vertical-7443795276c9-REVIEW.mp4",
+    "sha256": "60b39afd7272e4d41173a35ffc16324a4943c8f5fac96a6c8f8b1470832c451a",
+    "purpose": "quarter-resolution 18-second silent pipeline smoke test; not a final narrated export",
+    "metadata": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_type": "video",
+          "width": 270,
+          "height": 480,
+          "r_frame_rate": "30/1",
+          "side_data_list": [
+            {}
+          ]
+        },
+        {
+          "codec_type": "audio",
+          "r_frame_rate": "0/0"
+        }
+      ],
+      "format": {
+        "duration": "18.048000"
+      }
+    },
+    "decoded_audio_max_absolute_pcm_sample": 0,
+    "author_narration": false,
+    "playback_frame_inspection": "first still and middle video frame inspected; native-size limit retains existing cutout quality, not new detail"
+  },
+  "layout_reviews": {
+    "vertical": "full-size still and 270x480 video frame inspected",
+    "square": "1080x1080 long-excerpt frame inspected, no text/footer overlap",
+    "landscape": "1920x1080 long-excerpt frame inspected, full illustration and readable text",
+    "feed": "configured only; full upload/phone QA remains a release task"
+  },
+  "release_check": {
+    "ready": false,
+    "surfaces": [
+      "reader",
+      "film",
+      "social"
+    ],
+    "blockers": [
+      "exact_public_release_evidence",
+      "founder_public_release_approved",
+      "marketing_assets_qa_passed",
+      "narration_recorded_by_author",
+      "privacy_rights_approved",
+      "public_visibility_policy",
+      "reader_live_url",
+      "reader_verified_live",
+      "script_facts_approved",
+      "website_cta_verified"
+    ],
+    "warnings": [],
+    "publishing_performed": false
+  },
+  "remaining": [
+    "Author script, visual and public family scope approval",
+    "Real author narration, retiming, final audio/caption/playback QA",
+    "True parallax if selected: separated layers and layer-aware renderer",
+    "Actual live reader/CTA/accessibility and G3",
+    "Optional tested offer and separate G4",
+    "Actual release metrics and next decision"
+  ],
+  "outward_actions": {
+    "published": false,
+    "scheduled": false,
+    "deployed": false,
+    "jira_updated": false,
+    "payments_or_inventory": false
+  }
+}

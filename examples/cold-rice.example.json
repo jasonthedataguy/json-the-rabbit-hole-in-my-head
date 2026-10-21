@@ -1,0 +1,62 @@
+{
+  "schema_version": "1.0",
+  "story_id": "com-nguoi",
+  "chapter_slug": "com-nguoi",
+  "chapter_slot": "00",
+  "title": "Cold Rice",
+  "run_mode": "audit",
+  "repository": "jasonthedataguy/json-under-revision-v2",
+  "canonical_source_path": "chapters/com-nguoi/source/approved.md",
+  "canonical_sha256": "d957b592dc2317aa34196dd25ab42a3fe4a7938d3aee5a1121ab173214bf76f9",
+  "author_approved": false,
+  "source_facts_approval_evidence": null,
+  "public_visibility_policy": "undecided",
+  "founder_public_release_approved": false,
+  "founder_paid_release_approved": false,
+  "reader_verified_live": false,
+  "reader_live_url": null,
+  "website_cta_verified": false,
+  "privacy_rights_approved": false,
+  "script_facts_approved": false,
+  "narration_recorded_by_author": false,
+  "marketing_assets_qa_passed": false,
+  "commerce_checkout_and_fulfillment_tested": false,
+  "selected_revenue_offer": null,
+  "stages": {
+    "S00_intake": "approved",
+    "S01_editorial_diagnosis": "in_progress",
+    "S02_canonical": "ready_for_review",
+    "S03_narration_script": "in_progress",
+    "S04_digital_reader": "in_progress",
+    "S05_design": "in_progress",
+    "S06_audio_film": "in_progress",
+    "S07_campaign_assets": "in_progress",
+    "S08_product_strategy": "not_started",
+    "S09_commerce": "skipped",
+    "S10_release": "blocked",
+    "S11_learning": "not_started"
+  },
+  "stage_evidence": {
+    "S00_intake": "Existing chapter 00 and preserved author-selected source in repository; author release rights approval still pending.",
+    "S09_commerce": "No commerce release committed for Cold Rice pilot; prioritize free reader acquisition first."
+  },
+  "derivatives": [],
+  "jira_issue_keys": ["JSON-18", "JSON-44", "JSON-81", "JSON-102", "JSON-103", "JSON-105"],
+  "blockers": [
+    "Author-signoff evidence for canonical facts and first-person script must be checked (JSON-18)",
+    "Public chapter visibility policy pending (JSON-103)",
+    "Live mobile reader/CTA gates not assumed passed (JSON-102, JSON-105)",
+    "Real founder narration and film QA required before public video release"
+  ],
+  "offer_hypotheses": [
+    {"idea":"Illustrated Cold Rice postcard / mini-print", "evidence":"hypothesis", "readiness":"not evaluated"},
+    {"idea":".json collector anthology bundle including family essays", "evidence":"hypothesis", "readiness":"not evaluated"}
+  ],
+  "observed_metrics": {},
+  "next_actions": [
+    "Resolve G1: confirm actual author approval on selected text and family facts",
+    "Resolve G3: decide public visibility policy, verify live mobile reader and working post-read CTA",
+    "Prepare approved script for real narration, produce final film and channel assets"
+  ],
+  "notes": "EXAMPLE from 2026-10-21 repo/Jira observations. Statuses may change; conservative flags are NOT assertions of failed work. Refresh before execution."
+}

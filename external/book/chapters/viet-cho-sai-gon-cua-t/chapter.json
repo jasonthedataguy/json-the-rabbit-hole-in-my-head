@@ -1,0 +1,39 @@
+{
+  "schema_version": 2,
+  "slug": "viet-cho-sai-gon-cua-t",
+  "number": "14",
+  "title": "To My Saigon",
+  "short_title": "To My Saigon",
+  "part": 2,
+  "language": "vi",
+  "publish": true,
+  "release_stage": "reader-with-original-products",
+  "canonical_text": "source/approved.md",
+  "canonical_path": "#chapter/14",
+  "summary": "Jason đến thành phố vào sinh nhật 26 tuổi, với ít tiền, khoản nợ và chưa có công việc. Grab, Masan, cầu Ba Son, những người bạn, sự thăng tiến và các cuộc chia tay tạo ra chương địa lý quan trọng nhất của cuốn sách.",
+  "portal": {
+    "scene": "Two people and a small dog look across the river to Ba Son Bridge and the Saigon skyline, encircled by memories of work, friends and home.",
+    "objects": [
+      "Ba Son Bridge",
+      "Saigon skyline",
+      "birthday cake",
+      "friends",
+      "letter",
+      "dog"
+    ],
+    "iconKey": "bridge",
+    "motif": "The river and the city that became home"
+  },
+  "original_edition": {
+    "number": "03",
+    "title": "Viết cho Sài Gòn của t",
+    "repo": "https://github.com/jasonthedataguy/json-under-revision",
+    "commit": "b41b692b3e3633abea4997b6ac4513a91308f127",
+    "metadata": "references/original-edition/chapter.json",
+    "archive_url": "https://jasonthedataguy.github.io/json-under-revision/chapters/03/"
+  },
+  "production_status": "board-derived digital portal and reader; inherited print and media remain original-edition proofs",
+  "manuscript_sha256": "911b174411dced9668dffd01c6860c079cc17e231c5235f5153666c6021d8b26",
+  "outline_title": "Viết cho Sài Gòn của t",
+  "original_title": "Viết cho Sài Gòn của t"
+}

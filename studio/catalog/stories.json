@@ -1,0 +1,640 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-10-21",
+  "generated": true,
+  "book_source": "C:\\Users\\Administrator\\OneDrive\\Desktop\\.json book\\json_under_revision_v2\\book.json",
+  "book_sha256": "5172abc41ccaf658ea78b2a75548a8f12c627fdad257344c8e5617fd4d368549",
+  "counts": {
+    "front_matter": 1,
+    "chapter_slots": 36,
+    "total": 37
+  },
+  "stories": [
+    {
+      "slug": "introduction",
+      "title": "Introduction",
+      "edition_number": "intro",
+      "original_edition_number": null,
+      "source": {
+        "path": "C:\\Users\\Administrator\\OneDrive\\Desktop\\.json book\\json_under_revision_v2\\book.json",
+        "selector": "introduction",
+        "sha256": "5172abc41ccaf658ea78b2a75548a8f12c627fdad257344c8e5617fd4d368549"
+      },
+      "asset_record": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\introduction\\assets.json",
+      "approval": "unknown; not inferred from registry availability",
+      "active_project": false
+    },
+    {
+      "slug": "com-nguoi",
+      "title": "Cold Rice",
+      "edition_number": "00",
+      "original_edition_number": "07",
+      "source": {
+        "path": "C:\\Users\\Administrator\\OneDrive\\Desktop\\.json book\\json_under_revision_v2\\chapters\\com-nguoi\\source\\approved.md",
+        "sha256": "b4319bf9abb463148f590c773c14f12732e3524a612936fd2edddcaebecdfd3a"
+      },
+      "registry_path": "C:\\Users\\Administrator\\OneDrive\\Desktop\\.json book\\json_under_revision_v2\\chapters\\com-nguoi\\chapter.json",
+      "asset_record": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\com-nguoi\\assets.json",
+      "configured_route": "https://jasonthedataguy.github.io/json-the-rabbit-hole-in-my-head/#chapter/00",
+      "live_verified": false,
+      "approval": "consult project run manifest; never inferred from publish:true",
+      "active_project": true,
+      "project": "studio\\projects\\com-nguoi\\project.json"
+    },
+    {
+      "slug": "i-was-born-a-quant",
+      "title": "I Was Born a Quant",
+      "edition_number": "01",
+      "original_edition_number": null,
+      "source": {
+        "path": "C:\\Users\\Administrator\\OneDrive\\Desktop\\.json book\\json_under_revision_v2\\chapters\\i-was-born-a-quant\\source\\approved.md",
+        "sha256": "9f41b35e58610640618ed793b079eda6dd8f7a47bb5dd434677f1b56b7ac0380"
+      },
+      "registry_path": "C:\\Users\\Administrator\\OneDrive\\Desktop\\.json book\\json_under_revision_v2\\chapters\\i-was-born-a-quant\\chapter.json",
+      "asset_record": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\i-was-born-a-quant\\assets.json",
+      "configured_route": "https://jasonthedataguy.github.io/json-the-rabbit-hole-in-my-head/#chapter/01",
+      "live_verified": false,
+      "approval": "consult project run manifest; never inferred from publish:true",
+      "active_project": false,
+      "project": null
+    },
+    {
+      "slug": "expected-utility",
+      "title": "Expected Utility",
+      "edition_number": "02",
+      "original_edition_number": "04",
+      "source": {
+        "path": "C:\\Users\\Administrator\\OneDrive\\Desktop\\.json book\\json_under_revision_v2\\chapters\\expected-utility\\source\\approved.md",
+        "sha256": "9ede9cdc721416cbc1f625d7a0df5f2ce1329a1050f8c7e6dab32785c595e5d4"
+      },
+      "registry_path": "C:\\Users\\Administrator\\OneDrive\\Desktop\\.json book\\json_under_revision_v2\\chapters\\expected-utility\\chapter.json",
+      "asset_record": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\expected-utility\\assets.json",
+      "configured_route": "https://jasonthedataguy.github.io/json-the-rabbit-hole-in-my-head/#chapter/02",
+      "live_verified": false,
+      "approval": "consult project run manifest; never inferred from publish:true",
+      "active_project": false,
+      "project": null
+    },
+    {
+      "slug": "play-to-win",
+      "title": "Play to Win, Don’t Play Not to Lose",
+      "edition_number": "03",
+      "original_edition_number": "06",
+      "source": {
+        "path": "C:\\Users\\Administrator\\OneDrive\\Desktop\\.json book\\json_under_revision_v2\\chapters\\play-to-win\\source\\approved.md",
+        "sha256": "116573a7d6778968bdde5be030d9fb764346a992cd263d83efb94c6e2727e42b"
+      },
+      "registry_path": "C:\\Users\\Administrator\\OneDrive\\Desktop\\.json book\\json_under_revision_v2\\chapters\\play-to-win\\chapter.json",
+      "asset_record": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\play-to-win\\assets.json",
+      "configured_route": "https://jasonthedataguy.github.io/json-the-rabbit-hole-in-my-head/#chapter/03",
+      "live_verified": false,
+      "approval": "consult project run manifest; never inferred from publish:true",
+      "active_project": false,
+      "project": null
+    },
+    {
+      "slug": "fashion",
+      "title": "Fashion — Be Your Own Label",
+      "edition_number": "04",
+      "original_edition_number": "02",
+      "source": {
+        "path": "C:\\Users\\Administrator\\OneDrive\\Desktop\\.json book\\json_under_revision_v2\\chapters\\fashion\\source\\approved.md",
+        "sha256": "fa6d61a045a5c160a45ecd541382077c46a4581b00de6ffd027bf1674ac78c9e"
+      },
+      "registry_path": "C:\\Users\\Administrator\\OneDrive\\Desktop\\.json book\\json_under_revision_v2\\chapters\\fashion\\chapter.json",
+      "asset_record": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\fashion\\assets.json",
+      "configured_route": "https://jasonthedataguy.github.io/json-the-rabbit-hole-in-my-head/#chapter/04",
+      "live_verified": false,
+      "approval": "consult project run manifest; never inferred from publish:true",
+      "active_project": true,
+      "project": "studio\\projects\\fashion\\project.json"
+    },
+    {
+      "slug": "flow",
+      "title": "FLOW — The Secret of Wealth",
+      "edition_number": "05",
+      "original_edition_number": null,
+      "source": {
+        "path": "C:\\Users\\Administrator\\OneDrive\\Desktop\\.json book\\json_under_revision_v2\\chapters\\flow\\source\\approved.md",
+        "sha256": "157011474797f6a424c954f8dc45c2efe460d7a2dd6310df43af6743d5ba8e5f"
+      },
+      "registry_path": "C:\\Users\\Administrator\\OneDrive\\Desktop\\.json book\\json_under_revision_v2\\chapters\\flow\\chapter.json",
+      "asset_record": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\flow\\assets.json",
+      "configured_route": "https://jasonthedataguy.github.io/json-the-rabbit-hole-in-my-head/#chapter/05",
+      "live_verified": false,
+      "approval": "consult project run manifest; never inferred from publish:true",
+      "active_project": false,
+      "project": null
+    },
+    {
+      "slug": "nut-do",
+      "title": "Red Button",
+      "edition_number": "06",
+      "original_edition_number": null,
+      "source": {
+        "path": "C:\\Users\\Administrator\\OneDrive\\Desktop\\.json book\\json_under_revision_v2\\chapters\\nut-do\\source\\approved.md",
+        "sha256": "fcc49b4b78b3b594b51d603a729d83c8a02cecfd544de3af9d18b0e8bd73e5a1"
+      },
+      "registry_path": "C:\\Users\\Administrator\\OneDrive\\Desktop\\.json book\\json_under_revision_v2\\chapters\\nut-do\\chapter.json",
+      "asset_record": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\nut-do\\assets.json",
+      "configured_route": "https://jasonthedataguy.github.io/json-the-rabbit-hole-in-my-head/#chapter/06",
+      "live_verified": false,
+      "approval": "consult project run manifest; never inferred from publish:true",
+      "active_project": false,
+      "project": null
+    },
+    {
+      "slug": "mot-nguoi-ban-cu",
+      "title": "An Old Friend",
+      "edition_number": "07",
+      "original_edition_number": null,
+      "source": {
+        "path": "C:\\Users\\Administrator\\OneDrive\\Desktop\\.json book\\json_under_revision_v2\\chapters\\mot-nguoi-ban-cu\\source\\approved.md",
+        "sha256": "63440b007aac6d24575d45b72f8912b069a05f5d60370fed1fef1c9100870e1c"
+      },
+      "registry_path": "C:\\Users\\Administrator\\OneDrive\\Desktop\\.json book\\json_under_revision_v2\\chapters\\mot-nguoi-ban-cu\\chapter.json",
+      "asset_record": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\mot-nguoi-ban-cu\\assets.json",
+      "configured_route": "https://jasonthedataguy.github.io/json-the-rabbit-hole-in-my-head/#chapter/07",
+      "live_verified": false,
+      "approval": "consult project run manifest; never inferred from publish:true",
+      "active_project": false,
+      "project": null
+    },
+    {
+      "slug": "for-mother-russia",
+      "title": "For Mother Russia",
+      "edition_number": "08",
+      "original_edition_number": "05",
+      "source": {
+        "path": "C:\\Users\\Administrator\\OneDrive\\Desktop\\.json book\\json_under_revision_v2\\chapters\\for-mother-russia\\source\\approved.md",
+        "sha256": "0ef9d0379a64c2d7229a4bcec11fe85b1f57518865581a121a935e9923b90b3a"
+      },
+      "registry_path": "C:\\Users\\Administrator\\OneDrive\\Desktop\\.json book\\json_under_revision_v2\\chapters\\for-mother-russia\\chapter.json",
+      "asset_record": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\for-mother-russia\\assets.json",
+      "configured_route": "https://jasonthedataguy.github.io/json-the-rabbit-hole-in-my-head/#chapter/08",
+      "live_verified": false,
+      "approval": "consult project run manifest; never inferred from publish:true",
+      "active_project": false,
+      "project": null
+    },
+    {
+      "slug": "the-gioi-trong-mo-cua-toi",
+      "title": "The World in My Dreams",
+      "edition_number": "09",
+      "original_edition_number": "09",
+      "source": {
+        "path": "C:\\Users\\Administrator\\OneDrive\\Desktop\\.json book\\json_under_revision_v2\\chapters\\the-gioi-trong-mo-cua-toi\\source\\approved.md",
+        "sha256": "4382f452fa05b61baceed66a86b0510882f9a5b7329a44bf9fa3e831b830c3d9"
+      },
+      "registry_path": "C:\\Users\\Administrator\\OneDrive\\Desktop\\.json book\\json_under_revision_v2\\chapters\\the-gioi-trong-mo-cua-toi\\chapter.json",
+      "asset_record": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\the-gioi-trong-mo-cua-toi\\assets.json",
+      "configured_route": "https://jasonthedataguy.github.io/json-the-rabbit-hole-in-my-head/#chapter/09",
+      "live_verified": false,
+      "approval": "consult project run manifest; never inferred from publish:true",
+      "active_project": false,
+      "project": null
+    },
+    {
+      "slug": "nhung-thu-khong-duoc-luu-lai",
+      "title": "Dream Diary — The Things We Never Saved",
+      "edition_number": "10",
+      "original_edition_number": null,
+      "source": {
+        "path": "C:\\Users\\Administrator\\OneDrive\\Desktop\\.json book\\json_under_revision_v2\\chapters\\nhung-thu-khong-duoc-luu-lai\\source\\approved.md",
+        "sha256": "ad9055193a4632051a18f06b64f4e2c6d90c6bd6b2ba2c3abcedbdfeb0fa1507"
+      },
+      "registry_path": "C:\\Users\\Administrator\\OneDrive\\Desktop\\.json book\\json_under_revision_v2\\chapters\\nhung-thu-khong-duoc-luu-lai\\chapter.json",
+      "asset_record": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\nhung-thu-khong-duoc-luu-lai\\assets.json",
+      "configured_route": "https://jasonthedataguy.github.io/json-the-rabbit-hole-in-my-head/#chapter/10",
+      "live_verified": false,
+      "approval": "consult project run manifest; never inferred from publish:true",
+      "active_project": false,
+      "project": null
+    },
+    {
+      "slug": "nhung-su-trung-hop",
+      "title": "Coincidence - Or the arrangement of the universe",
+      "edition_number": "11",
+      "original_edition_number": null,
+      "source": {
+        "path": "C:\\Users\\Administrator\\OneDrive\\Desktop\\.json book\\json_under_revision_v2\\chapters\\nhung-su-trung-hop\\source\\approved.md",
+        "sha256": "e07f63a241743c69b782eb25d5fb5259237f64187e2fedd6b3d496d5b4994c92"
+      },
+      "registry_path": "C:\\Users\\Administrator\\OneDrive\\Desktop\\.json book\\json_under_revision_v2\\chapters\\nhung-su-trung-hop\\chapter.json",
+      "asset_record": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\nhung-su-trung-hop\\assets.json",
+      "configured_route": "https://jasonthedataguy.github.io/json-the-rabbit-hole-in-my-head/#chapter/11",
+      "live_verified": false,
+      "approval": "consult project run manifest; never inferred from publish:true",
+      "active_project": false,
+      "project": null
+    },
+    {
+      "slug": "vo-mong",
+      "title": "Disillusionment",
+      "edition_number": "12",
+      "original_edition_number": null,
+      "source": {
+        "path": "C:\\Users\\Administrator\\OneDrive\\Desktop\\.json book\\json_under_revision_v2\\chapters\\vo-mong\\source\\approved.md",
+        "sha256": "51e9003460647c55ca03b16dcdc9cb6d90bdcd13f8f87245410d879ed8b788fd"
+      },
+      "registry_path": "C:\\Users\\Administrator\\OneDrive\\Desktop\\.json book\\json_under_revision_v2\\chapters\\vo-mong\\chapter.json",
+      "asset_record": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\vo-mong\\assets.json",
+      "configured_route": "https://jasonthedataguy.github.io/json-the-rabbit-hole-in-my-head/#chapter/12",
+      "live_verified": false,
+      "approval": "consult project run manifest; never inferred from publish:true",
+      "active_project": false,
+      "project": null
+    },
+    {
+      "slug": "nhung-nguoi-anh-em",
+      "title": "My brothers",
+      "edition_number": "13",
+      "original_edition_number": null,
+      "source": {
+        "path": "C:\\Users\\Administrator\\OneDrive\\Desktop\\.json book\\json_under_revision_v2\\chapters\\nhung-nguoi-anh-em\\source\\approved.md",
+        "sha256": "e5ae44e51015d8d4a6abf4b7d3626c42bc8136a43dc5a0f8e93a6f785deec19d"
+      },
+      "registry_path": "C:\\Users\\Administrator\\OneDrive\\Desktop\\.json book\\json_under_revision_v2\\chapters\\nhung-nguoi-anh-em\\chapter.json",
+      "asset_record": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\nhung-nguoi-anh-em\\assets.json",
+      "configured_route": "https://jasonthedataguy.github.io/json-the-rabbit-hole-in-my-head/#chapter/13",
+      "live_verified": false,
+      "approval": "consult project run manifest; never inferred from publish:true",
+      "active_project": false,
+      "project": null
+    },
+    {
+      "slug": "viet-cho-sai-gon-cua-t",
+      "title": "To My Saigon",
+      "edition_number": "14",
+      "original_edition_number": "03",
+      "source": {
+        "path": "C:\\Users\\Administrator\\OneDrive\\Desktop\\.json book\\json_under_revision_v2\\chapters\\viet-cho-sai-gon-cua-t\\source\\approved.md",
+        "sha256": "911b174411dced9668dffd01c6860c079cc17e231c5235f5153666c6021d8b26"
+      },
+      "registry_path": "C:\\Users\\Administrator\\OneDrive\\Desktop\\.json book\\json_under_revision_v2\\chapters\\viet-cho-sai-gon-cua-t\\chapter.json",
+      "asset_record": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\viet-cho-sai-gon-cua-t\\assets.json",
+      "configured_route": "https://jasonthedataguy.github.io/json-the-rabbit-hole-in-my-head/#chapter/14",
+      "live_verified": false,
+      "approval": "consult project run manifest; never inferred from publish:true",
+      "active_project": true,
+      "project": "studio\\projects\\viet-cho-sai-gon-cua-t\\project.json"
+    },
+    {
+      "slug": "i-am-28-today",
+      "title": "I'm 28 today",
+      "edition_number": "15",
+      "original_edition_number": null,
+      "source": {
+        "path": "C:\\Users\\Administrator\\OneDrive\\Desktop\\.json book\\json_under_revision_v2\\chapters\\i-am-28-today\\source\\approved.md",
+        "sha256": "22b4bdbf83adf9d4d7bf03e52f73e13fd7d9e101c834831367b141726c8b9e69"
+      },
+      "registry_path": "C:\\Users\\Administrator\\OneDrive\\Desktop\\.json book\\json_under_revision_v2\\chapters\\i-am-28-today\\chapter.json",
+      "asset_record": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\i-am-28-today\\assets.json",
+      "configured_route": "https://jasonthedataguy.github.io/json-the-rabbit-hole-in-my-head/#chapter/15",
+      "live_verified": false,
+      "approval": "consult project run manifest; never inferred from publish:true",
+      "active_project": false,
+      "project": null
+    },
+    {
+      "slug": "bad-trip",
+      "title": "Bad Trip",
+      "edition_number": "16",
+      "original_edition_number": null,
+      "source": {
+        "path": "C:\\Users\\Administrator\\OneDrive\\Desktop\\.json book\\json_under_revision_v2\\chapters\\bad-trip\\source\\approved.md",
+        "sha256": "e2dc5468139375a302940dafb0fc4120d8e1e67902056599a025caa4c2407e91"
+      },
+      "registry_path": "C:\\Users\\Administrator\\OneDrive\\Desktop\\.json book\\json_under_revision_v2\\chapters\\bad-trip\\chapter.json",
+      "asset_record": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\bad-trip\\assets.json",
+      "configured_route": "https://jasonthedataguy.github.io/json-the-rabbit-hole-in-my-head/#chapter/16",
+      "live_verified": false,
+      "approval": "consult project run manifest; never inferred from publish:true",
+      "active_project": false,
+      "project": null
+    },
+    {
+      "slug": "tieu-hanh-tinh",
+      "title": "Asteroid",
+      "edition_number": "17",
+      "original_edition_number": null,
+      "source": {
+        "path": "C:\\Users\\Administrator\\OneDrive\\Desktop\\.json book\\json_under_revision_v2\\chapters\\tieu-hanh-tinh\\source\\approved.md",
+        "sha256": "6cb28fbd785d3ce0c44fee93a3c0209f4d32b234af7d4826a3c884e49c6cea29"
+      },
+      "registry_path": "C:\\Users\\Administrator\\OneDrive\\Desktop\\.json book\\json_under_revision_v2\\chapters\\tieu-hanh-tinh\\chapter.json",
+      "asset_record": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\tieu-hanh-tinh\\assets.json",
+      "configured_route": "https://jasonthedataguy.github.io/json-the-rabbit-hole-in-my-head/#chapter/17",
+      "live_verified": false,
+      "approval": "consult project run manifest; never inferred from publish:true",
+      "active_project": false,
+      "project": null
+    },
+    {
+      "slug": "three-meeting-theory",
+      "title": "Three Meeting Theory",
+      "edition_number": "18",
+      "original_edition_number": "15",
+      "source": {
+        "path": "C:\\Users\\Administrator\\OneDrive\\Desktop\\.json book\\json_under_revision_v2\\chapters\\three-meeting-theory\\source\\approved.md",
+        "sha256": "b5b27a3d38118db90eb440f12b095a44fc66a73e631e7ca1f5f232b4c65651c2"
+      },
+      "registry_path": "C:\\Users\\Administrator\\OneDrive\\Desktop\\.json book\\json_under_revision_v2\\chapters\\three-meeting-theory\\chapter.json",
+      "asset_record": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\three-meeting-theory\\assets.json",
+      "configured_route": "https://jasonthedataguy.github.io/json-the-rabbit-hole-in-my-head/#chapter/18",
+      "live_verified": false,
+      "approval": "consult project run manifest; never inferred from publish:true",
+      "active_project": false,
+      "project": null
+    },
+    {
+      "slug": "dating-algorithm",
+      "title": "Dating Algorithm",
+      "edition_number": "19",
+      "original_edition_number": "08",
+      "source": {
+        "path": "C:\\Users\\Administrator\\OneDrive\\Desktop\\.json book\\json_under_revision_v2\\chapters\\dating-algorithm\\source\\approved.md",
+        "sha256": "304dad35f472e6ab17729d6867f8f8db958c75ed9d50ff5170ccad7d75f0f23e"
+      },
+      "registry_path": "C:\\Users\\Administrator\\OneDrive\\Desktop\\.json book\\json_under_revision_v2\\chapters\\dating-algorithm\\chapter.json",
+      "asset_record": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\dating-algorithm\\assets.json",
+      "configured_route": "https://jasonthedataguy.github.io/json-the-rabbit-hole-in-my-head/#chapter/19",
+      "live_verified": false,
+      "approval": "consult project run manifest; never inferred from publish:true",
+      "active_project": false,
+      "project": null
+    },
+    {
+      "slug": "dating-102",
+      "title": "Dating 102",
+      "edition_number": "20",
+      "original_edition_number": "16",
+      "source": {
+        "path": "C:\\Users\\Administrator\\OneDrive\\Desktop\\.json book\\json_under_revision_v2\\chapters\\dating-102\\source\\approved.md",
+        "sha256": "9e06a356af02fbd37adae316a8bcda767c367e724638e8e1884dc143a105c652"
+      },
+      "registry_path": "C:\\Users\\Administrator\\OneDrive\\Desktop\\.json book\\json_under_revision_v2\\chapters\\dating-102\\chapter.json",
+      "asset_record": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\dating-102\\assets.json",
+      "configured_route": "https://jasonthedataguy.github.io/json-the-rabbit-hole-in-my-head/#chapter/20",
+      "live_verified": false,
+      "approval": "consult project run manifest; never inferred from publish:true",
+      "active_project": false,
+      "project": null
+    },
+    {
+      "slug": "to-mary-jane",
+      "title": "To Mary Jane",
+      "edition_number": "21",
+      "original_edition_number": null,
+      "source": {
+        "path": "C:\\Users\\Administrator\\OneDrive\\Desktop\\.json book\\json_under_revision_v2\\chapters\\to-mary-jane\\source\\approved.md",
+        "sha256": "e2386492c3c52d51af9350274ae223515b205e8ccd9e760e80c9b6fc555548d3"
+      },
+      "registry_path": "C:\\Users\\Administrator\\OneDrive\\Desktop\\.json book\\json_under_revision_v2\\chapters\\to-mary-jane\\chapter.json",
+      "asset_record": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\to-mary-jane\\assets.json",
+      "configured_route": "https://jasonthedataguy.github.io/json-the-rabbit-hole-in-my-head/#chapter/21",
+      "live_verified": false,
+      "approval": "consult project run manifest; never inferred from publish:true",
+      "active_project": false,
+      "project": null
+    },
+    {
+      "slug": "runaway",
+      "title": "Run away",
+      "edition_number": "22",
+      "original_edition_number": null,
+      "source": {
+        "path": "C:\\Users\\Administrator\\OneDrive\\Desktop\\.json book\\json_under_revision_v2\\chapters\\runaway\\source\\approved.md",
+        "sha256": "cd1f179df1fe9c8cffccbffce7da2f7a58a3a242f557d4fc4fc2e0b7639e8895"
+      },
+      "registry_path": "C:\\Users\\Administrator\\OneDrive\\Desktop\\.json book\\json_under_revision_v2\\chapters\\runaway\\chapter.json",
+      "asset_record": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\runaway\\assets.json",
+      "configured_route": "https://jasonthedataguy.github.io/json-the-rabbit-hole-in-my-head/#chapter/22",
+      "live_verified": false,
+      "approval": "consult project run manifest; never inferred from publish:true",
+      "active_project": false,
+      "project": null
+    },
+    {
+      "slug": "nhung-hinh-chieu-xau-xi",
+      "title": "Ugly Projections",
+      "edition_number": "23",
+      "original_edition_number": null,
+      "source": {
+        "path": "C:\\Users\\Administrator\\OneDrive\\Desktop\\.json book\\json_under_revision_v2\\chapters\\nhung-hinh-chieu-xau-xi\\source\\approved.md",
+        "sha256": "58f6e94d5fc49023a50366bfc6e2efc2737e8e7db85a6f1009fd7d32894b3a06"
+      },
+      "registry_path": "C:\\Users\\Administrator\\OneDrive\\Desktop\\.json book\\json_under_revision_v2\\chapters\\nhung-hinh-chieu-xau-xi\\chapter.json",
+      "asset_record": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\nhung-hinh-chieu-xau-xi\\assets.json",
+      "configured_route": "https://jasonthedataguy.github.io/json-the-rabbit-hole-in-my-head/#chapter/23",
+      "live_verified": false,
+      "approval": "consult project run manifest; never inferred from publish:true",
+      "active_project": false,
+      "project": null
+    },
+    {
+      "slug": "the-23-word-nuclear-warhead",
+      "title": "Office Battlefield - The 23-Word Nuclear Warhead",
+      "edition_number": "24",
+      "original_edition_number": null,
+      "source": {
+        "path": "C:\\Users\\Administrator\\OneDrive\\Desktop\\.json book\\json_under_revision_v2\\chapters\\the-23-word-nuclear-warhead\\source\\approved.md",
+        "sha256": "797c0b28557bc6a858c623e46f48058e5f039ac5f2e47b0f6bea9836dc3f8a1f"
+      },
+      "registry_path": "C:\\Users\\Administrator\\OneDrive\\Desktop\\.json book\\json_under_revision_v2\\chapters\\the-23-word-nuclear-warhead\\chapter.json",
+      "asset_record": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\the-23-word-nuclear-warhead\\assets.json",
+      "configured_route": "https://jasonthedataguy.github.io/json-the-rabbit-hole-in-my-head/#chapter/24",
+      "live_verified": false,
+      "approval": "consult project run manifest; never inferred from publish:true",
+      "active_project": false,
+      "project": null
+    },
+    {
+      "slug": "the-payoff-matrix",
+      "title": "Office Battlefield - The Payoff Matrix",
+      "edition_number": "25",
+      "original_edition_number": null,
+      "source": {
+        "path": "C:\\Users\\Administrator\\OneDrive\\Desktop\\.json book\\json_under_revision_v2\\chapters\\the-payoff-matrix\\source\\approved.md",
+        "sha256": "df619212308c5a4b1e1cf843d81245e66d1d186e288cfe8f688ea4cbf9a0c1c4"
+      },
+      "registry_path": "C:\\Users\\Administrator\\OneDrive\\Desktop\\.json book\\json_under_revision_v2\\chapters\\the-payoff-matrix\\chapter.json",
+      "asset_record": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\the-payoff-matrix\\assets.json",
+      "configured_route": "https://jasonthedataguy.github.io/json-the-rabbit-hole-in-my-head/#chapter/25",
+      "live_verified": false,
+      "approval": "consult project run manifest; never inferred from publish:true",
+      "active_project": false,
+      "project": null
+    },
+    {
+      "slug": "better-and-brighter-than-ever",
+      "title": "Office Battlefield - Better and Brighter Than Ever",
+      "edition_number": "26",
+      "original_edition_number": null,
+      "source": {
+        "path": "C:\\Users\\Administrator\\OneDrive\\Desktop\\.json book\\json_under_revision_v2\\chapters\\better-and-brighter-than-ever\\source\\approved.md",
+        "sha256": "72ba8c983f5baa2be3a1ddd48df5cb848368de72d41853cdeaa8d3970c8c71ec"
+      },
+      "registry_path": "C:\\Users\\Administrator\\OneDrive\\Desktop\\.json book\\json_under_revision_v2\\chapters\\better-and-brighter-than-ever\\chapter.json",
+      "asset_record": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\better-and-brighter-than-ever\\assets.json",
+      "configured_route": "https://jasonthedataguy.github.io/json-the-rabbit-hole-in-my-head/#chapter/26",
+      "live_verified": false,
+      "approval": "consult project run manifest; never inferred from publish:true",
+      "active_project": false,
+      "project": null
+    },
+    {
+      "slug": "masterclass-in-record-keeping",
+      "title": "Office Battlefield - Masterclass in Record Keeping",
+      "edition_number": "27",
+      "original_edition_number": null,
+      "source": {
+        "path": "C:\\Users\\Administrator\\OneDrive\\Desktop\\.json book\\json_under_revision_v2\\chapters\\masterclass-in-record-keeping\\source\\approved.md",
+        "sha256": "7378906037095aa7f894aecf09109932ddff3a25599325a9fabd61134f95f7c1"
+      },
+      "registry_path": "C:\\Users\\Administrator\\OneDrive\\Desktop\\.json book\\json_under_revision_v2\\chapters\\masterclass-in-record-keeping\\chapter.json",
+      "asset_record": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\masterclass-in-record-keeping\\assets.json",
+      "configured_route": "https://jasonthedataguy.github.io/json-the-rabbit-hole-in-my-head/#chapter/27",
+      "live_verified": false,
+      "approval": "consult project run manifest; never inferred from publish:true",
+      "active_project": false,
+      "project": null
+    },
+    {
+      "slug": "good-boy",
+      "title": "Office Battlefield - Good Boy",
+      "edition_number": "28",
+      "original_edition_number": null,
+      "source": {
+        "path": "C:\\Users\\Administrator\\OneDrive\\Desktop\\.json book\\json_under_revision_v2\\chapters\\good-boy\\source\\approved.md",
+        "sha256": "002e9474456c897d763d9764f2df1ba791ed7ded435f4c95127c30d42d1a1d8a"
+      },
+      "registry_path": "C:\\Users\\Administrator\\OneDrive\\Desktop\\.json book\\json_under_revision_v2\\chapters\\good-boy\\chapter.json",
+      "asset_record": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\good-boy\\assets.json",
+      "configured_route": "https://jasonthedataguy.github.io/json-the-rabbit-hole-in-my-head/#chapter/28",
+      "live_verified": false,
+      "approval": "consult project run manifest; never inferred from publish:true",
+      "active_project": false,
+      "project": null
+    },
+    {
+      "slug": "the-moral-story-schools-dont-teach-you",
+      "title": "Office Battlefield - The Moral Story Schools Don't Teach You",
+      "edition_number": "29",
+      "original_edition_number": null,
+      "source": {
+        "path": "C:\\Users\\Administrator\\OneDrive\\Desktop\\.json book\\json_under_revision_v2\\chapters\\the-moral-story-schools-dont-teach-you\\source\\approved.md",
+        "sha256": "c880c7ad50924592b25b3f728abadcbfa5227e3a4ecc756c4a206c6ccc6b0189"
+      },
+      "registry_path": "C:\\Users\\Administrator\\OneDrive\\Desktop\\.json book\\json_under_revision_v2\\chapters\\the-moral-story-schools-dont-teach-you\\chapter.json",
+      "asset_record": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\the-moral-story-schools-dont-teach-you\\assets.json",
+      "configured_route": "https://jasonthedataguy.github.io/json-the-rabbit-hole-in-my-head/#chapter/29",
+      "live_verified": false,
+      "approval": "consult project run manifest; never inferred from publish:true",
+      "active_project": false,
+      "project": null
+    },
+    {
+      "slug": "negative-sum-game",
+      "title": "Office Battlefield - Negative-Sum Game",
+      "edition_number": "30",
+      "original_edition_number": null,
+      "source": {
+        "path": "C:\\Users\\Administrator\\OneDrive\\Desktop\\.json book\\json_under_revision_v2\\chapters\\negative-sum-game\\source\\approved.md",
+        "sha256": "f3480686001371947b838be606ddd8cf68700c2d6f3d68999de0392f8294f308"
+      },
+      "registry_path": "C:\\Users\\Administrator\\OneDrive\\Desktop\\.json book\\json_under_revision_v2\\chapters\\negative-sum-game\\chapter.json",
+      "asset_record": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\negative-sum-game\\assets.json",
+      "configured_route": "https://jasonthedataguy.github.io/json-the-rabbit-hole-in-my-head/#chapter/30",
+      "live_verified": false,
+      "approval": "consult project run manifest; never inferred from publish:true",
+      "active_project": false,
+      "project": null
+    },
+    {
+      "slug": "sharingan",
+      "title": "Sharingan",
+      "edition_number": "31",
+      "original_edition_number": null,
+      "source": {
+        "path": "C:\\Users\\Administrator\\OneDrive\\Desktop\\.json book\\json_under_revision_v2\\chapters\\sharingan\\source\\approved.md",
+        "sha256": "3f5c3c163445a539abbcc44e09d7aba3e316f85d7edd3166d166afa242f933da"
+      },
+      "registry_path": "C:\\Users\\Administrator\\OneDrive\\Desktop\\.json book\\json_under_revision_v2\\chapters\\sharingan\\chapter.json",
+      "asset_record": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\sharingan\\assets.json",
+      "configured_route": "https://jasonthedataguy.github.io/json-the-rabbit-hole-in-my-head/#chapter/31",
+      "live_verified": false,
+      "approval": "consult project run manifest; never inferred from publish:true",
+      "active_project": false,
+      "project": null
+    },
+    {
+      "slug": "command-respect",
+      "title": "Office Battlefield - Command Respect",
+      "edition_number": "32",
+      "original_edition_number": null,
+      "source": {
+        "path": "C:\\Users\\Administrator\\OneDrive\\Desktop\\.json book\\json_under_revision_v2\\chapters\\command-respect\\source\\approved.md",
+        "sha256": "70baf6a0282dc72851c0bba8bdb612d7d51fbeea37525406e86ffff727cd8037"
+      },
+      "registry_path": "C:\\Users\\Administrator\\OneDrive\\Desktop\\.json book\\json_under_revision_v2\\chapters\\command-respect\\chapter.json",
+      "asset_record": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\command-respect\\assets.json",
+      "configured_route": "https://jasonthedataguy.github.io/json-the-rabbit-hole-in-my-head/#chapter/32",
+      "live_verified": false,
+      "approval": "consult project run manifest; never inferred from publish:true",
+      "active_project": false,
+      "project": null
+    },
+    {
+      "slug": "lone-wolf",
+      "title": "Lone Wolf",
+      "edition_number": "33",
+      "original_edition_number": null,
+      "source": {
+        "path": "C:\\Users\\Administrator\\OneDrive\\Desktop\\.json book\\json_under_revision_v2\\chapters\\lone-wolf\\source\\approved.md",
+        "sha256": "71201c83a0ddd1b5bf98b0a02a4c0aee3fdca1d97596584821495fe23d8c0839"
+      },
+      "registry_path": "C:\\Users\\Administrator\\OneDrive\\Desktop\\.json book\\json_under_revision_v2\\chapters\\lone-wolf\\chapter.json",
+      "asset_record": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\lone-wolf\\assets.json",
+      "configured_route": "https://jasonthedataguy.github.io/json-the-rabbit-hole-in-my-head/#chapter/33",
+      "live_verified": false,
+      "approval": "consult project run manifest; never inferred from publish:true",
+      "active_project": false,
+      "project": null
+    },
+    {
+      "slug": "co-nhung-thu-chi-khi-minh-roi-di-roi-moi-nhin-thay",
+      "title": "Office Battlefield - Things You Only See After Leaving",
+      "edition_number": "34",
+      "original_edition_number": null,
+      "source": {
+        "path": "C:\\Users\\Administrator\\OneDrive\\Desktop\\.json book\\json_under_revision_v2\\chapters\\co-nhung-thu-chi-khi-minh-roi-di-roi-moi-nhin-thay\\source\\approved.md",
+        "sha256": "71fb56af585c9ac5e737e990c4484218367c90bb63454c6c97cf45e637903e48"
+      },
+      "registry_path": "C:\\Users\\Administrator\\OneDrive\\Desktop\\.json book\\json_under_revision_v2\\chapters\\co-nhung-thu-chi-khi-minh-roi-di-roi-moi-nhin-thay\\chapter.json",
+      "asset_record": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\co-nhung-thu-chi-khi-minh-roi-di-roi-moi-nhin-thay\\assets.json",
+      "configured_route": "https://jasonthedataguy.github.io/json-the-rabbit-hole-in-my-head/#chapter/34",
+      "live_verified": false,
+      "approval": "consult project run manifest; never inferred from publish:true",
+      "active_project": false,
+      "project": null
+    },
+    {
+      "slug": "loi-xin-loi",
+      "title": "An Apology",
+      "edition_number": "35",
+      "original_edition_number": null,
+      "source": {
+        "path": "C:\\Users\\Administrator\\OneDrive\\Desktop\\.json book\\json_under_revision_v2\\chapters\\loi-xin-loi\\source\\approved.md",
+        "sha256": "ea424453bffa57163be555f4a55569244210024e23ea1a381fd9bf9a513b3432"
+      },
+      "registry_path": "C:\\Users\\Administrator\\OneDrive\\Desktop\\.json book\\json_under_revision_v2\\chapters\\loi-xin-loi\\chapter.json",
+      "asset_record": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\loi-xin-loi\\assets.json",
+      "configured_route": "https://jasonthedataguy.github.io/json-the-rabbit-hole-in-my-head/#chapter/35",
+      "live_verified": false,
+      "approval": "consult project run manifest; never inferred from publish:true",
+      "active_project": false,
+      "project": null
+    }
+  ]
+}

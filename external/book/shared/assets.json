@@ -1,0 +1,2213 @@
+{
+  "schema_version": 1,
+  "assets": [
+    {
+      "source": "shared/artwork/cover-ring.png",
+      "public_path": "assets/cover-ring.png",
+      "sha256_at_intake": "aff08a4a19a7d490aa45799a75b8fea29632eab5c2c08c8b7fc3eb7e6970b8a4",
+      "provenance": "Preserved from the v2 portal edition; fonts retain their supplied OFL licenses."
+    },
+    {
+      "source": "shared/artwork/bowl-reference.jpg",
+      "public_path": "assets/bowl-reference.jpg",
+      "sha256_at_intake": "2940241dc07d7e221205d4c01b5676e7919995b9afdfdfd771946bc631778ccf",
+      "provenance": "Preserved from the v2 portal edition; fonts retain their supplied OFL licenses."
+    },
+    {
+      "source": "shared/artwork/favicon.svg",
+      "public_path": "assets/favicon.svg",
+      "sha256_at_intake": "9ab12f0ee018507bc2097c72511e2c9e9564bb16b48df7c18c24e3968b8a64d9",
+      "provenance": "Preserved from the v2 portal edition; fonts retain their supplied OFL licenses."
+    },
+    {
+      "source": "references/design/book-concept.jpg",
+      "public_path": "assets/book-concept.jpg",
+      "sha256_at_intake": "5d5cdbb18f477523b8063b61e06b44b340842ce466f925d70e6f11e0c662bdfb",
+      "provenance": "Preserved from the v2 portal edition; fonts retain their supplied OFL licenses."
+    },
+    {
+      "source": "chapters/com-nguoi/artwork/portal/rice-portal.png",
+      "public_path": "assets/rice-portal.png",
+      "sha256_at_intake": "ddadcd45d41920aea71ea03b515e063c6e3879c53d5f692460936aea641f619b",
+      "provenance": "Preserved from the v2 portal edition; fonts retain their supplied OFL licenses."
+    },
+    {
+      "source": "chapters/fashion/artwork/portal/fashion-portal.png",
+      "public_path": "assets/fashion-portal.png",
+      "sha256_at_intake": "7f7eefa879ec3e896b226626afda01f96a821aab5bc981bed8908abd0afdcd68",
+      "provenance": "Preserved from the v2 portal edition; fonts retain their supplied OFL licenses."
+    },
+    {
+      "source": "chapters/fashion/artwork/portal/fashion-ring-v2.png",
+      "public_path": "assets/fashion-ring-v2.png",
+      "sha256_at_intake": "52742da172205da90de993e5a2851be6c2e5e035dcff9b3819367b1d5f87e532",
+      "provenance": "Fashion chapter ring cut from the author's final digital-book board by scripts/cut_fashion_board.py. Digital use only; the earlier Paris portal remains preserved."
+    },
+    {
+      "source": "chapters/fashion/artwork/portal/fashion-scene-v2.png",
+      "public_path": "assets/fashion-scene-v2.png",
+      "sha256_at_intake": "47db82ba77ae7d1548e414d40f62d20f788e4d7f14c4f91f264b3553268bf515",
+      "provenance": "Upright wardrobe, skyline and sneaker centre cut from the same Fashion board; aligned with the chapter ring by scripts/cut_fashion_board.py. Digital use only."
+    },
+    {
+      "source": "chapters/fashion/artwork/portal/fashion-room-v2.webp",
+      "public_path": "assets/fashion-room-v2.webp",
+      "sha256_at_intake": "6128874137c6e72e0c037b4ea9375983279a5f0f6118680e7d4aed5edfc14e00",
+      "provenance": "Wide Fashion reading-spread illustration cropped from the author's final digital-book board by scripts/cut_fashion_board.py. Digital use only."
+    },
+    {
+      "source": "chapters/expected-utility/artwork/portal/expected-utility-ring-v2.png",
+      "public_path": "assets/expected-utility-ring-v2.png",
+      "sha256_at_intake": "9defa77000667ad87f15a9db1f41b9ca8c56483bca5a4e4450fbe7a007143cff",
+      "provenance": "Transparent chapter ring cut from the author's Expected Utility portal-layers board by scripts/cut_expected_utility_board.py. Digital use only."
+    },
+    {
+      "source": "chapters/expected-utility/artwork/portal/expected-utility-scene-v2.png",
+      "public_path": "assets/expected-utility-scene-v2.png",
+      "sha256_at_intake": "6c1a31f23b08736b9756050fb768cb543b3607d1453f9ee28776f91c419ffe4f",
+      "provenance": "Laptop, eyes and desk centre aligned to the Expected Utility ring by scripts/cut_expected_utility_board.py. Digital use only."
+    },
+    {
+      "source": "chapters/expected-utility/artwork/portal/expected-utility-desk-v2.webp",
+      "public_path": "assets/expected-utility-desk-v2.webp",
+      "sha256_at_intake": "7790edb00f1c3be429734ea95f52ea62e17bfa74aca3f92801a53dd7ca56d9fd",
+      "provenance": "Wide desk reading image cropped from the same Expected Utility board by scripts/cut_expected_utility_board.py. Digital use only."
+    },
+    {
+      "source": "chapters/play-to-win/artwork/portal/play-to-win-ring-v2.png",
+      "public_path": "assets/play-to-win-ring-v2.png",
+      "sha256_at_intake": "e0757f72f3c9a74f78e5d56e9ea667fce7f0239cca0ee76a6a67f888d3fa7f37",
+      "provenance": "Transparent game-table chapter ring cut from the author's Play to Win board by scripts/cut_play_to_win_board.py. Digital use only."
+    },
+    {
+      "source": "chapters/play-to-win/artwork/portal/play-to-win-scene-v2.png",
+      "public_path": "assets/play-to-win-scene-v2.png",
+      "sha256_at_intake": "360ce397fbadfde4e2f704d9ca66a32b287c9c905df75ac8560564753dc0b970",
+      "provenance": "Game table, lamp, cards and mahjong centre aligned with the Play to Win ring by scripts/cut_play_to_win_board.py. Digital use only."
+    },
+    {
+      "source": "chapters/play-to-win/artwork/portal/play-to-win-table-v2.webp",
+      "public_path": "assets/play-to-win-table-v2.webp",
+      "sha256_at_intake": "73f22810fe06b88d71625fa242869dbf6024c4c9b795bcaa016603f8f7ae4daa",
+      "provenance": "Wide game-table reading illustration cropped from the same Play to Win board by scripts/cut_play_to_win_board.py. Digital use only."
+    },
+    {
+      "source": "shared/fonts/DM-Sans-Regular.ttf",
+      "public_path": "assets/font-0.ttf",
+      "sha256_at_intake": "b0ae3e89a7d3ef2b1838bb4b1ceb0b17cc3435af061eee809d76aa623ff116e9",
+      "provenance": "Preserved from the v2 portal edition; fonts retain their supplied OFL licenses."
+    },
+    {
+      "source": "shared/fonts/DM-Sans-Medium.ttf",
+      "public_path": "assets/font-1.ttf",
+      "sha256_at_intake": "376427b5322148d8de1e03f263bcca4935a2d60ba71d9f94f4947ab664c711ae",
+      "provenance": "Preserved from the v2 portal edition; fonts retain their supplied OFL licenses."
+    },
+    {
+      "source": "shared/fonts/DM-Sans-Semibold.ttf",
+      "public_path": "assets/font-2.ttf",
+      "sha256_at_intake": "b79a2ea7a38f33fd96a282fadb9ce97626bb0724a44d21075859f0e50239993a",
+      "provenance": "Preserved from the v2 portal edition; fonts retain their supplied OFL licenses."
+    },
+    {
+      "source": "shared/fonts/DM-Sans-Bold.ttf",
+      "public_path": "assets/font-3.ttf",
+      "sha256_at_intake": "2a8e7f713ee79fbccdef3cef5c787aff47580299f7da60144961e7db2ec08211",
+      "provenance": "Preserved from the v2 portal edition; fonts retain their supplied OFL licenses."
+    },
+    {
+      "source": "shared/fonts/Libre-Caslon-Display-Regular.ttf",
+      "public_path": "assets/font-4.ttf",
+      "sha256_at_intake": "199b2a7deefd8d7d9bae05d34902c4c6486bd11b8e5d1a22c0cea8862943a5a1",
+      "provenance": "Preserved from the v2 portal edition; fonts retain their supplied OFL licenses."
+    },
+    {
+      "source": "shared/fonts/DM-Sans-OFL.txt",
+      "public_path": "assets/DM-Sans-OFL.txt",
+      "sha256_at_intake": "9af36190332437f5ecd09974de43c1f7c77a310a996cdd8ceb25628b458840e1",
+      "provenance": "Preserved from the v2 portal edition; fonts retain their supplied OFL licenses."
+    },
+    {
+      "source": "shared/fonts/Libre-Caslon-Display-OFL.txt",
+      "public_path": "assets/Libre-Caslon-Display-OFL.txt",
+      "sha256_at_intake": "c364cbca78d55436dd98e379f362c302a7b09dcc16dc7aa501af03459a2ae961",
+      "provenance": "Preserved from the v2 portal edition; fonts retain their supplied OFL licenses."
+    },
+    {
+      "source": "shared/artwork/book-cover/cover_portal_circle.png",
+      "public_path": "assets/cover_portal_circle.png",
+      "sha256_at_intake": "7b2c9807301de658a018e3fad599371942e0ef5a86c4458e4e19e303884dca71",
+      "provenance": "Author-supplied json_assets_book_cover/cover_portal_circle.png; unchanged raster reference crop, used for the cover/front matter."
+    },
+    {
+      "source": "shared/artwork/book-cover/original_portal_circle.png",
+      "public_path": "assets/original_portal_circle.png",
+      "sha256_at_intake": "db4e3fd4619d3f7020ca578ba3189d35ecd5693faaa7559631e4b964905c02db",
+      "provenance": "Author-supplied json_assets_book_cover/original_portal_circle.png; unchanged raster reference crop, used for the cover/front matter."
+    },
+    {
+      "source": "shared/fonts/Noto-Serif.ttf",
+      "public_path": "assets/noto-serif.ttf",
+      "sha256_at_intake": "4d8e6761424656867019081a1a01336f3cb086982682698714054fc33f782713",
+      "provenance": "Google Fonts / google/fonts / ofl/notoserif; SIL Open Font License 1.1 in shared/fonts/Noto-Serif-OFL.txt."
+    },
+    {
+      "source": "shared/fonts/Noto-Serif-Italic.ttf",
+      "public_path": "assets/noto-serif-italic.ttf",
+      "sha256_at_intake": "e87acbc6c0efd0d9a20d6a8cbbda2b266c14be3a3a6f5af8ec9d7b2460570ad1",
+      "provenance": "Google Fonts / google/fonts / ofl/notoserif; SIL Open Font License 1.1 in shared/fonts/Noto-Serif-OFL.txt."
+    },
+    {
+      "source": "shared/fonts/Noto-Serif-OFL.txt",
+      "public_path": "assets/Noto-Serif-OFL.txt",
+      "sha256_at_intake": "cee9892f9f0cc8fe882c9e9537ee6a89621d86ee7ceaf70b02e2b2b1c25c061a",
+      "provenance": "SIL Open Font License 1.1 distributed with both Noto Serif font faces."
+    },
+    {
+      "source": "chapters/com-nguoi/artwork/portal/rice-scene-v2.png",
+      "public_path": "assets/rice-scene-v2.png",
+      "sha256_at_intake": "6c9859ee3574ed85f5acd404f558a3ed00667968c3685fe66d81c46544b015ef",
+      "provenance": "Earlier full-bleed Cold Rice family-meal scene; retained as a digital alternate after the author's new board was adopted. The original supplied rice portal remains preserved."
+    },
+    {
+      "source": "chapters/com-nguoi/artwork/portal/rice-ring.png",
+      "public_path": "assets/rice-ring.png",
+      "sha256_at_intake": "b27d09261705044a72f15a4d1bfb4364d2ab7f8b285ca9c6a22fa324d4e854fb",
+      "provenance": "Earlier Cold Rice ring cut from the preserved author-supplied rice-portal.png by scripts/cut_rice_ring.py; retained as a digital alternate."
+    },
+    {
+      "source": "chapters/com-nguoi/artwork/portal/rice-ring-board-v2.png",
+      "public_path": "assets/rice-ring-board-v2.png",
+      "sha256_at_intake": "506d51ad8ee7074b2a4ff1f184313dfc8af5b611ab957d136b9bfc052d1dc206",
+      "provenance": "Cold Rice floral lattice ring, cut from the author's unchanged prologue - cold rice.png design board by scripts/cut_cold_rice_board.py; active on the chapter map and prologue leaf."
+    },
+    {
+      "source": "chapters/com-nguoi/artwork/portal/rice-scene-board-v2.png",
+      "public_path": "assets/rice-scene-board-v2.png",
+      "sha256_at_intake": "0f8e8cbca1a028646ccf7405611cd6e9d9c60f20ae5c4c4470b66009621b32fe",
+      "provenance": "Aligned family-dinner centre from the Cold Rice design board; active under its chapter ring and the shared homepage ring."
+    },
+    {
+      "source": "chapters/com-nguoi/artwork/portal/rice-family-room-v2.webp",
+      "public_path": "assets/rice-family-room-v2.webp",
+      "sha256_at_intake": "a655596054dede9293ab26a4dd154d6f6060e8aad3e78b51f948239f386c0fdd",
+      "provenance": "Uncropped 3:2 family dinner view from the Cold Rice design board for digital reading previews. Screen-only artwork."
+    },
+    {
+      "source": "shared/artwork/book-cover/cover-scene-landscape.png",
+      "public_path": "assets/cover-scene-landscape.png",
+      "sha256_at_intake": "bb33e582593231fa778040804fb0141532b346053cf058d09c5118e887305422",
+      "provenance": "Earlier landscape-only crop of the supplied design board, restored as the active web cover picture at the author's request. The original board remains preserved."
+    },
+    {
+      "source": "shared/artwork/portal/introduction-scene.png",
+      "public_path": "assets/introduction-scene.png",
+      "sha256_at_intake": "c92e2e4671205a9445d412cfe7ef61157ab8143eccf9a07fc62442ba94dbe43f",
+      "provenance": "Earlier open-book Introduction scene generated locally by scripts/paint_intro_portal.py; retained as an inactive alternate."
+    },
+    {
+      "source": "shared/artwork/portal/introduction-scene-board.png",
+      "public_path": "assets/introduction-scene-board.png",
+      "sha256_at_intake": "b20a254f4f0c3ae20b0b384a48d2f14431fefdc191a686d3824e9bb3b1c12417",
+      "provenance": "Earlier Introduction centre scene composed from the author-supplied concept board's illustrated city page, with crisp paper-cut skyline and bridge layers; retained as an alternate. Recipe scripts/compose_intro_board_scene.py."
+    },
+    {
+      "source": "shared/artwork/portal/introduction-ring.png",
+      "public_path": "assets/introduction-ring.png",
+      "sha256_at_intake": "88fe9880d4e4793d44f931a4ca37ff3cd234a6579c8ef81f718738eec552f669",
+      "provenance": "Earlier Introduction portal ring cropped from the author-supplied Jason, Under Revision Concept Board - introduction.png; retained as an alternate and reproducible with scripts/cut_intro_artboard.py. Digital use only."
+    },
+    {
+      "source": "shared/artwork/portal/introduction-ring-v2.png",
+      "public_path": "assets/introduction-ring-v2.png",
+      "sha256_at_intake": "367e36d2a51047fd8864551fd23e2bd770e1a548e80bbda602e26772d277eead",
+      "provenance": "Active Introduction ring cut from the unchanged author-supplied Introduction Portal Ring Concept Board.png; recipe scripts/cut_intro_concept_board.py. Digital use only."
+    },
+    {
+      "source": "shared/artwork/portal/introduction-portal-v2.png",
+      "public_path": "assets/introduction-portal-v2.png",
+      "sha256_at_intake": "a396e35ccb2cd4c3c14a847169a7875d2134c42a9d03de19363904dfc8833eff",
+      "provenance": "Active transparent circular Introduction page composition from the author's concept board; ring and aligned scene stay separately available. Recipe scripts/cut_intro_concept_board.py. Digital use only."
+    },
+    {
+      "source": "shared/artwork/portal/introduction-scene-v2.png",
+      "public_path": "assets/introduction-scene-v2.png",
+      "sha256_at_intake": "17aa8909133f36779dc7d898d8d7f12e8cab088264730f7f0d958b45f0e04c63",
+      "provenance": "Active Introduction leaf scene, cut from the new concept board to align exactly with its ring; recipe scripts/cut_intro_concept_board.py. Digital use only."
+    },
+    {
+      "source": "shared/artwork/portal/introduction-cover-scene-v2.png",
+      "public_path": "assets/introduction-cover-scene-v2.png",
+      "sha256_at_intake": "b26b35325af4e24add29bb602b3f20246cb6145bec629af6ad8bfa6844a1d60a",
+      "provenance": "Introduction homepage-stop centre from the same new concept board; keeps the book-cover ring unchanged. Recipe scripts/cut_intro_concept_board.py. Digital use only."
+    },
+    {
+      "source": "shared/artwork/portal/introduction-reading-spread-v2.webp",
+      "public_path": "assets/introduction-reading-spread-v2.webp",
+      "sha256_at_intake": "7b83eb92e80537cf4948c3213ba323be33d0ed4ff2018380b88cd34d29651a5e",
+      "provenance": "Uncropped 3:2 Introduction reading illustration of the open book, reader, city and bridge from the preserved concept board. Recipe scripts/cut_intro_quant_spreads.py; digital use only."
+    },
+    {
+      "source": "shared/artwork/portal/placeholder.svg",
+      "public_path": "assets/portal-placeholder.svg",
+      "sha256_at_intake": "b93b827674b562d71b0550a7660391c1b3baf8038368cff9dc23fb58bd2ed19c",
+      "provenance": "New centred portal system; source, generation prompts and placement documented in docs/PORTAL_ARTWORK.md."
+    },
+    {
+      "source": "shared/artwork/portal/board-cover-ring.png",
+      "public_path": "assets/board-cover-ring.png",
+      "sha256_at_intake": "2b42f3d616a74df74ce17fbf5a6003570c0ccd5a37267f2cf662c7b2bc7fca6e",
+      "provenance": "Annular crop of the user-supplied design board with the complete foreground figure carried across the aperture. The same frame is used at all homepage ring stops."
+    },
+    {
+      "source": "shared/artwork/portal/board-ring-cut.png",
+      "public_path": "assets/board-ring-cut.png",
+      "sha256_at_intake": "42528d8490a400f23dbd66a6b44a8d1ce5adbc09f07c7bc4aa0040a5d12d54f0",
+      "provenance": "Paper-band crop of the user-supplied design board, with lower bands mirrored to remove the foreground figure. Used by the chapter map and reader."
+    },
+    {
+      "source": "chapters/i-was-born-a-quant/artwork/portal/quant-ring.png",
+      "public_path": "assets/quant-ring.png",
+      "sha256_at_intake": "44c8b502f4fc5b1b6ece8042f440ac353aec6bd961485e75027ee3640cabe996",
+      "provenance": "Web crop of Alternative A / Expected Value from the author-supplied I Was Born a Quant editorial artboard; reproducible with scripts/cut_quant_artboard.py."
+    },
+    {
+      "source": "chapters/i-was-born-a-quant/artwork/portal/quant-scene.png",
+      "public_path": "assets/quant-scene.png",
+      "sha256_at_intake": "d5ac9a12fedd4202a99a7bb72fc13384b2ff35a6b1a0e924d8ffcd1e41ed8308",
+      "provenance": "Web crop of the Jason, city and chart digital-icon vignette from the author-supplied I Was Born a Quant editorial artboard; reproducible with scripts/cut_quant_artboard.py."
+    },
+    {
+      "source": "chapters/i-was-born-a-quant/artwork/portal/quant-reading-spread-v2.webp",
+      "public_path": "assets/quant-reading-spread-v2.webp",
+      "sha256_at_intake": "8938ba272e35e9e00c98750b7895667ff7d3b3b2bb1e66817c784e098b50d154",
+      "provenance": "Full-height Quant reading illustration of Jason, charts, risk-budget note and dog from the preserved editorial artboard. Recipe scripts/cut_intro_quant_spreads.py; digital use only."
+    },
+    {
+      "source": "chapters/for-mother-russia/artwork/portal/mother-russia-ring-v2.png",
+      "public_path": "assets/mother-russia-ring-v2.png",
+      "sha256_at_intake": "dca2095363a044081d41e28f5b528893d5841ab0786e0389b72005a8085b9258",
+      "provenance": "Transparent annular collage from the author-supplied For Mother Russia concept board; recipe scripts/cut_mother_russia_board.py. Screen use only."
+    },
+    {
+      "source": "chapters/for-mother-russia/artwork/portal/mother-russia-scene-v2.png",
+      "public_path": "assets/mother-russia-scene-v2.png",
+      "sha256_at_intake": "e1ee047427f9de1d65125c1a2d62ed9a660cdaff1b00e95cbcdc1ef5cc911d9c",
+      "provenance": "Aligned snowy cabin, river and imagined city centre from the preserved For Mother Russia board; recipe scripts/cut_mother_russia_board.py. Screen use only."
+    },
+    {
+      "source": "chapters/for-mother-russia/artwork/portal/mother-russia-cover-scene-v2.png",
+      "public_path": "assets/mother-russia-cover-scene-v2.png",
+      "sha256_at_intake": "1cad35554bda31e3a05040ab7379c276a10dd04e044ce648ea542018539264d7",
+      "provenance": "Child-free winter cabin and imagined city crop for the stationary homepage scene; the child stays wholly on the rotating chapter ring. Recipe scripts/cut_mother_russia_board.py. Screen use only."
+    },
+    {
+      "source": "chapters/for-mother-russia/artwork/portal/mother-russia-cabin-v2.webp",
+      "public_path": "assets/mother-russia-cabin-v2.webp",
+      "sha256_at_intake": "ac3d565b6571b3fc784d7a1555b9e9d5f7bf698bce89107608994d6cfdcf105c",
+      "provenance": "Complete snowy cabin vignette extracted from the For Mother Russia board for the rectangular digital reading pages; recipe scripts/cut_mother_russia_board.py. Screen use only."
+    },
+    {
+      "source": "chapters/three-meeting-theory/artwork/portal/three-meeting-ring-v2.png",
+      "public_path": "assets/three-meeting-ring-v2.png",
+      "sha256_at_intake": "76b0b7d72149c8fc7c2f08b67344c2fdbd60f8530698c137bffb2175d56ed5a8",
+      "provenance": "Complete circular chapter illustration cut from the author's Three Meeting Theory concept board; the river and both figures turn as one without a synthetic fill. Recipe scripts/cut_three_meeting_board.py. Screen use only."
+    },
+    {
+      "source": "chapters/three-meeting-theory/artwork/portal/three-meeting-scene-v2.png",
+      "public_path": "assets/three-meeting-scene-v2.png",
+      "sha256_at_intake": "98e160fa3684d8db2dd28104631364fbd3c72727b13471e7192b8615baa367e4",
+      "provenance": "Aligned centre crop retained as a reusable derivative of the complete Three Meeting Theory board illustration; the chapter portal itself uses the intact circular image above it. Recipe scripts/cut_three_meeting_board.py. Screen use only."
+    },
+    {
+      "source": "chapters/three-meeting-theory/artwork/portal/three-meeting-cover-scene-v2.png",
+      "public_path": "assets/three-meeting-cover-scene-v2.png",
+      "sha256_at_intake": "3518ae13e3c8d68d844c12e322123e60ba9b7fa694a5a8356ac1595cff1e6cae",
+      "provenance": "Homepage centre showing the complete meeting pair before the sunset bridge, under the unchanged shared book ring at the Three Meeting Theory stop. Recipe scripts/cut_three_meeting_board.py. Screen use only."
+    },
+    {
+      "source": "chapters/three-meeting-theory/artwork/portal/three-meeting-spread-v2.webp",
+      "public_path": "assets/three-meeting-spread-v2.webp",
+      "sha256_at_intake": "73be9ccef0b7b11ed05fbccac7c1341f7af5717e478eaaf0775d75d8ad76758d",
+      "provenance": "Full rectangular reading panorama of the couple, cafe, bridge and skyline from the unchanged concept board. Recipe scripts/cut_three_meeting_board.py. Screen use only."
+    },
+    {
+      "source": "chapters/dating-algorithm/artwork/portal/dating-algorithm-ring-v2.png",
+      "public_path": "assets/dating-algorithm-ring-v2.png",
+      "sha256_at_intake": "5b0427cc915bc523e2436eb9a44d470a4d8181bb2c0d550695e4b5df05e5f582",
+      "provenance": "Transparent rotating collage cut from the author-supplied Dating Algorithm concept board. Recipe scripts/cut_dating_algorithm_board.py; screen use only."
+    },
+    {
+      "source": "chapters/dating-algorithm/artwork/portal/dating-algorithm-scene-v2.png",
+      "public_path": "assets/dating-algorithm-scene-v2.png",
+      "sha256_at_intake": "482d681cacb177f47c113ee982a6c448e81f0c526da1ff86d306bebfe2c92ba4",
+      "provenance": "Aligned stationary date-table scene from the same board; both people remain whole in the portal centre. Recipe scripts/cut_dating_algorithm_board.py; screen use only."
+    },
+    {
+      "source": "chapters/dating-algorithm/artwork/portal/dating-algorithm-cover-scene-v2.png",
+      "public_path": "assets/dating-algorithm-cover-scene-v2.png",
+      "sha256_at_intake": "caa0efa2bf021f42094248351c48fc0cf834751cef08b970d642cfd2f74b9fb1",
+      "provenance": "Complete date-table couple under the unchanged homepage book ring at Chapter 18. Recipe scripts/cut_dating_algorithm_board.py; screen use only."
+    },
+    {
+      "source": "chapters/dating-algorithm/artwork/portal/dating-algorithm-spread-v2.webp",
+      "public_path": "assets/dating-algorithm-spread-v2.webp",
+      "sha256_at_intake": "1b28a2c29dc4306717c8d84968edd24bc6dc8f92111fc8ead31204cc53abc99e",
+      "provenance": "Complete date/profile/compatibility object strip from the author's board, with baked labels removed for a readable HTML caption. Recipe scripts/cut_dating_algorithm_board.py; screen use only."
+    },
+    {
+      "source": "chapters/dating-102/artwork/portal/dating-102-ring-v2.png",
+      "public_path": "assets/dating-102-ring-v2.png",
+      "sha256_at_intake": "8e8000fea488b460ba543edf88ddd59c89a53e4f0126037f661723541915738a",
+      "provenance": "Transparent rotating collage from the supplied Dating 102 board. Recipe scripts/cut_dating_102_board.py; screen use only."
+    },
+    {
+      "source": "chapters/dating-102/artwork/portal/dating-102-scene-v2.png",
+      "public_path": "assets/dating-102-scene-v2.png",
+      "sha256_at_intake": "2818b721e21992ded597120491a3c309138a31c14ed8891ce19a204ec1651d5c",
+      "provenance": "Aligned stationary illustration of two people sharing a sketch before the night city. Recipe scripts/cut_dating_102_board.py; screen use only."
+    },
+    {
+      "source": "chapters/dating-102/artwork/portal/dating-102-cover-scene-v2.png",
+      "public_path": "assets/dating-102-cover-scene-v2.png",
+      "sha256_at_intake": "7f9b6b9826924ae3030fc7aa8643dcaf605066c54d14070af4ec4d1f8a9d6ee4",
+      "provenance": "Both people and the shared notebook under the unchanged homepage book ring at Chapter 19. Recipe scripts/cut_dating_102_board.py; screen use only."
+    },
+    {
+      "source": "chapters/dating-102/artwork/portal/dating-102-spread-v2.webp",
+      "public_path": "assets/dating-102-spread-v2.webp",
+      "sha256_at_intake": "391d08cd18e9aee6ac7845ad7b1043c77ef0db2acbe241bd18c420ebf5e6018f",
+      "provenance": "Full rectangular night-room vignette from the supplied board, including both people and their shared notebook. Recipe scripts/cut_dating_102_board.py; screen use only."
+    },
+    {
+      "source": "chapters/flow/artwork/portal/flow-ring-v2.png",
+      "public_path": "assets/flow-ring-v2.png",
+      "sha256_at_intake": "defec2fccf6f41284deba2057aa544a3cfb61315b17c41fb47924dc0fc283395",
+      "provenance": "Rotating collage with Jason intact, cut from the author's unchanged Flow concept board by scripts/cut_flow_board.py; screen use only."
+    },
+    {
+      "source": "chapters/flow/artwork/portal/flow-scene-v2.png",
+      "public_path": "assets/flow-scene-v2.png",
+      "sha256_at_intake": "f4740db791d88e8ba2656dfd7daa17dc50d5aa6b76f9368ae9900a91440080f9",
+      "provenance": "Aligned river and reservoir centre from the Flow board, stationary beneath its rotating chapter ring; screen use only."
+    },
+    {
+      "source": "chapters/flow/artwork/portal/flow-cover-scene-v2.png",
+      "public_path": "assets/flow-cover-scene-v2.png",
+      "sha256_at_intake": "3a3e575aec3e590b9e1184c57bc7f7dd3c995bcda76ace81735f069c91cc0f45",
+      "provenance": "Winding river under the unchanged shared book-cover ring at Chapter 05; recipe scripts/cut_flow_board.py; screen use only."
+    },
+    {
+      "source": "chapters/flow/artwork/portal/flow-spread-v2.webp",
+      "public_path": "assets/flow-spread-v2.webp",
+      "sha256_at_intake": "c5007023b4f4a93954dd3c32466c26ac8964f253cb74b946648e2f408e240a22",
+      "provenance": "Full rectangular extracted-elements strip for the Flow reading page and desktop preview; recipe scripts/cut_flow_board.py; screen use only."
+    },
+    {
+      "source": "chapters/the-gioi-trong-mo-cua-toi/artwork/portal/dream-world-ring-v2.png",
+      "public_path": "assets/dream-world-ring-v2.png",
+      "sha256_at_intake": "1b58afd7fd00167f9b9ea0420b3406f8acf395c41a41dc809f37d312fd468f34",
+      "provenance": "Author-supplied Dream World board in references/design/, cut by scripts/cut_dream_world_board.py. Transparent Metro-memory ring retaining Jason, his head, body and two suitcases on the same rotating layer. Screen use only."
+    },
+    {
+      "source": "chapters/the-gioi-trong-mo-cua-toi/artwork/portal/dream-world-scene-v2.png",
+      "public_path": "assets/dream-world-scene-v2.png",
+      "sha256_at_intake": "afb2166864ec39196146e372de03fd5916e5f060d53963bb0fa16d96b1e57c97",
+      "provenance": "Author-supplied Dream World board in references/design/, cut by scripts/cut_dream_world_board.py. Aligned stationary imagined family dinner beneath the chapter ring. Screen use only."
+    },
+    {
+      "source": "chapters/the-gioi-trong-mo-cua-toi/artwork/portal/dream-world-cover-scene-v2.png",
+      "public_path": "assets/dream-world-cover-scene-v2.png",
+      "sha256_at_intake": "055e595d70cdcb672d31b8c79576adcdf8a17941bdd254faa3f97288338536ea",
+      "provenance": "Author-supplied Dream World board in references/design/, cut by scripts/cut_dream_world_board.py. Tight family-window scene for the unchanged shared homepage book ring at Chapter 09; no duplicated Jason. Screen use only."
+    },
+    {
+      "source": "chapters/the-gioi-trong-mo-cua-toi/artwork/portal/dream-world-spread-v2.webp",
+      "public_path": "assets/dream-world-spread-v2.webp",
+      "sha256_at_intake": "553fa84c8dd78156d091bacca88f6cf287aa3ee1814e7624b0adb138d98eb3aa",
+      "provenance": "Author-supplied Dream World board in references/design/, cut by scripts/cut_dream_world_board.py. Full rectangular extracted-elements illustration for Chapter 09 reading leaf and desktop preview. Screen use only."
+    },
+    {
+      "source": "chapters/expected-utility/artwork/portal/expected-utility-ring-v3.png",
+      "public_path": "assets/expected-utility-ring-v3.png",
+      "sha256_at_intake": "17f7d161058ff95dcfc2dcedaafb21a47e2bd2d2331678709a4e3240941330bd",
+      "provenance": "Revised author board references/design/model_specification - expected utility.png; recipe scripts/cut_expected_utility_v3_board.py. Rotating paths, heart and scale; Jason's head and body stay together on the ring. Screen use only."
+    },
+    {
+      "source": "chapters/expected-utility/artwork/portal/expected-utility-scene-v3.png",
+      "public_path": "assets/expected-utility-scene-v3.png",
+      "sha256_at_intake": "d74cc6d46f027ec5978f0af99cf43dc2d65b17cdd5400d17bbfd25dc08d555dc",
+      "provenance": "Revised author board references/design/model_specification - expected utility.png; recipe scripts/cut_expected_utility_v3_board.py. Stationary woman's eyes aligned with the revised chapter ring. Screen use only."
+    },
+    {
+      "source": "chapters/expected-utility/artwork/portal/expected-utility-cover-scene-v3.png",
+      "public_path": "assets/expected-utility-cover-scene-v3.png",
+      "sha256_at_intake": "a76a7dfedbe01822ccbd219a7e25360744bdd9843438c16702549f9cc2f02125",
+      "provenance": "Revised author board references/design/model_specification - expected utility.png; recipe scripts/cut_expected_utility_v3_board.py. Face-only preview under the unchanged shared homepage ring. Screen use only."
+    },
+    {
+      "source": "chapters/expected-utility/artwork/portal/expected-utility-spread-v3.webp",
+      "public_path": "assets/expected-utility-spread-v3.webp",
+      "sha256_at_intake": "7e81460b67b7076ba77d1809e88aa93bec0daad0efb65bc645188b87076d1482",
+      "provenance": "Revised author board references/design/model_specification - expected utility.png; recipe scripts/cut_expected_utility_v3_board.py. Complete rectangular extracted-elements art for the reading leaf and desktop preview. Screen use only."
+    },
+    {
+      "source": "chapters/expected-utility/artwork/portal/expected-utility-gaze-v3.webp",
+      "public_path": "assets/expected-utility-gaze-v3.webp",
+      "sha256_at_intake": "1e91337a9f343140083f9785f4956ef4c4db2e8165d47aeff58cf0af39a40f7e",
+      "provenance": "Wide gaze and choice-symbol crop from the revised author board; recipe scripts/cut_expected_utility_v3_board.py. Screen use only."
+    },
+    {
+      "source": "chapters/viet-cho-sai-gon-cua-t/artwork/portal/saigon-ring-v1.png",
+      "public_path": "assets/saigon-ring-v1.png",
+      "sha256_at_intake": "ebd87aa42ddff133503d738036701381e7cae2ffe13c1497cd11357aa83beec1",
+      "provenance": "Author board references/design/data_collection - to my saigon (2).png; recipe scripts/cut_saigon_board.py. Transparent rotating collage of work, friends and home from the author-supplied Saigon board. Screen use only."
+    },
+    {
+      "source": "chapters/viet-cho-sai-gon-cua-t/artwork/portal/saigon-scene-v1.png",
+      "public_path": "assets/saigon-scene-v1.png",
+      "sha256_at_intake": "5f368c7bc007e455462c2ce1f15e67a423308bf6f7c1bc21a9f401a81f94dfce",
+      "provenance": "Author board references/design/data_collection - to my saigon (2).png; recipe scripts/cut_saigon_board.py. Aligned stationary couple, dog, Ba Son Bridge and skyline for Chapter 14 and its homepage stop. Screen use only."
+    },
+    {
+      "source": "chapters/viet-cho-sai-gon-cua-t/artwork/portal/saigon-cover-scene-v1.png",
+      "public_path": "assets/saigon-cover-scene-v1.png",
+      "sha256_at_intake": "c7129cf2cbfdefa9289cf0c152af24393f25ff5dd25a238520509a19361d180b",
+      "provenance": "Author board references/design/data_collection - to my saigon (2).png; recipe scripts/cut_saigon_board.py. Retained tighter city-only homepage alternate. Screen use only."
+    },
+    {
+      "source": "chapters/viet-cho-sai-gon-cua-t/artwork/portal/saigon-spread-v1.webp",
+      "public_path": "assets/saigon-spread-v1.webp",
+      "sha256_at_intake": "48d59e978189a9ea550e7d0f5019737b6d0d898e10947ddc4d4fd4711058729b",
+      "provenance": "Author board references/design/data_collection - to my saigon (2).png; recipe scripts/cut_saigon_board.py. Uncut reading rectangle with the full couple, dog, bridge and sunset city. Screen use only."
+    },
+    {
+      "source": "chapters/viet-cho-sai-gon-cua-t/artwork/portal/saigon-elements-v1.webp",
+      "public_path": "assets/saigon-elements-v1.webp",
+      "sha256_at_intake": "71f0a8373af1fa48a6f2b85504bb498f3d091b0ec7a8dc7a68d32f19a5ab0a4e",
+      "provenance": "Author board references/design/data_collection - to my saigon (2).png; recipe scripts/cut_saigon_board.py. Full extracted-elements strip retained for digital reuse. Screen use only."
+    },
+    {
+      "source": "chapters/nhung-su-trung-hop/artwork/portal/coincidence-ring-v1.png",
+      "public_path": "assets/coincidence-ring-v1.png",
+      "sha256_at_intake": "4cd15d8b242b8264f7ffcfa65636b5f952a916cf503ecd359a400df36b0f007f",
+      "provenance": "Author board references/design/data_collection - coincidence.png; recipe scripts/cut_coincidence_board.py. Transparent rotating star, clock, path and bookshop collage. Screen use only."
+    },
+    {
+      "source": "chapters/nhung-su-trung-hop/artwork/portal/coincidence-scene-v1.png",
+      "public_path": "assets/coincidence-scene-v1.png",
+      "sha256_at_intake": "b1e54ad339f4376ce97e41aa057ffb35f61d2dc825d6b1ffcc670f74f60a774b",
+      "provenance": "Author board references/design/data_collection - coincidence.png; recipe scripts/cut_coincidence_board.py. Aligned stationary bookshop and converging paths for Chapter 11 and its homepage stop. Screen use only."
+    },
+    {
+      "source": "chapters/nhung-su-trung-hop/artwork/portal/coincidence-cover-scene-v1.png",
+      "public_path": "assets/coincidence-cover-scene-v1.png",
+      "sha256_at_intake": "328a27b0637cee239aeadcde856aad405aaeaf9ca96f68dbb43cfa9630a266ae",
+      "provenance": "Author board references/design/data_collection - coincidence.png; recipe scripts/cut_coincidence_board.py. Retained tighter bookshop-only homepage alternate. Screen use only."
+    },
+    {
+      "source": "chapters/nhung-su-trung-hop/artwork/portal/coincidence-spread-v1.webp",
+      "public_path": "assets/coincidence-spread-v1.webp",
+      "sha256_at_intake": "b7bf9730aa76bbc81f243fa2d11244fe4e2b572025fb8f89bb6f38b3f32bc92a",
+      "provenance": "Author board references/design/data_collection - coincidence.png; recipe scripts/cut_coincidence_board.py. Full rectangular bookshop and winding paths illustration. Screen use only."
+    },
+    {
+      "source": "chapters/nhung-su-trung-hop/artwork/portal/coincidence-elements-v1.webp",
+      "public_path": "assets/coincidence-elements-v1.webp",
+      "sha256_at_intake": "3f00a259c3cf32a53ff76bda46889b7ef14a7d26588f8a4f61515783e5544724",
+      "provenance": "Author board references/design/data_collection - coincidence.png; recipe scripts/cut_coincidence_board.py. Reusable key-elements sheet. Screen use only."
+    },
+    {
+      "source": "chapters/nut-do/artwork/portal/red-button-ring-v1.png",
+      "public_path": "assets/red-button-ring-v1.png",
+      "sha256_at_intake": "cdee614eda5eaf0f59eb7e8162bafec0d7dc2be680e8e448cba3d3267a7a1629",
+      "provenance": "Author board references/design/data_collection - red button.jpg; recipe scripts/cut_red_button_board.py. Rotating airport, work, family and childhood paper-layer ring. Screen use only."
+    },
+    {
+      "source": "chapters/nut-do/artwork/portal/red-button-scene-v1.png",
+      "public_path": "assets/red-button-scene-v1.png",
+      "sha256_at_intake": "53f072d77aa30695dd7d3bd1a8374725ab052bc1fb43b45b337c2dd1d85ccbe9",
+      "provenance": "Author board references/design/data_collection - red button.jpg; recipe scripts/cut_red_button_board.py. Stationary phone and red end-call centre. Screen use only."
+    },
+    {
+      "source": "chapters/nut-do/artwork/portal/red-button-spread-v1.webp",
+      "public_path": "assets/red-button-spread-v1.webp",
+      "sha256_at_intake": "59530773f6a366caa0e05b74a7d8579a9df1f3075b53f6cd5fc806741af0bf80",
+      "provenance": "Author board references/design/data_collection - red button.jpg; recipe scripts/cut_red_button_board.py. Rectangular key-elements reading illustration. Screen use only."
+    },
+    {
+      "source": "chapters/mot-nguoi-ban-cu/artwork/portal/old-friend-ring-v1.png",
+      "public_path": "assets/old-friend-ring-v1.png",
+      "sha256_at_intake": "ba7d80a75f006c706496edd4a9f8aaee7fd8e6f13cec609142497295805490ca",
+      "provenance": "Author board references/design/data_collection - an old friend.jpg; recipe scripts/cut_old_friend_board.py. Rotating childhood, games, school and diverging paths ring. Screen use only."
+    },
+    {
+      "source": "chapters/mot-nguoi-ban-cu/artwork/portal/old-friend-scene-v1.png",
+      "public_path": "assets/old-friend-scene-v1.png",
+      "sha256_at_intake": "c43a41c54aa8bec96e9cda964f1cb97913d55afba4133143510fbd1e9b69d71a",
+      "provenance": "Author board references/design/data_collection - an old friend.jpg; recipe scripts/cut_old_friend_board.py. Stationary scene of two friends sharing chíp chíp. Screen use only."
+    },
+    {
+      "source": "chapters/mot-nguoi-ban-cu/artwork/portal/old-friend-spread-v1.webp",
+      "public_path": "assets/old-friend-spread-v1.webp",
+      "sha256_at_intake": "92177d9f55a0b2bb4375719a13f2a5762fb8c899c48b9430848ba78de4f38399",
+      "provenance": "Author board references/design/data_collection - an old friend.jpg; recipe scripts/cut_old_friend_board.py. Rectangular childhood key-elements reading illustration. Screen use only."
+    },
+    {
+      "source": "chapters/tieu-hanh-tinh/artwork/portal/asteroid-ring-v1.png",
+      "public_path": "assets/asteroid-ring-v1.png",
+      "sha256_at_intake": "1bc917d88e4fb6a54a2c463262e4407a7e1f5407dc1b07179e80d3ba1c4842fc",
+      "provenance": "Author board references/design/relationship_modelling - laughing-asteroid.jpg; recipe scripts/cut_asteroid_board.py. Rotating work, conversations, city and orbit ring. Screen use only."
+    },
+    {
+      "source": "chapters/tieu-hanh-tinh/artwork/portal/asteroid-scene-v1.png",
+      "public_path": "assets/asteroid-scene-v1.png",
+      "sha256_at_intake": "c16db476c3960badab0ab7e43861826e4dac97ac4ff67d14f6093a69dfa88f63",
+      "provenance": "Author board references/design/relationship_modelling - laughing-asteroid.jpg; recipe scripts/cut_asteroid_board.py. Stationary luminous small planet and woman. Screen use only."
+    },
+    {
+      "source": "chapters/tieu-hanh-tinh/artwork/portal/asteroid-spread-v1.webp",
+      "public_path": "assets/asteroid-spread-v1.webp",
+      "sha256_at_intake": "ef698c32809f7156bd40e1ec17ab1c2bbcce477d5190bf4861465c47ecb4dbd4",
+      "provenance": "Author board references/design/relationship_modelling - laughing-asteroid.jpg; recipe scripts/cut_asteroid_board.py. Rectangular relationship key-elements reading illustration. Screen use only."
+    },
+    {
+      "source": "chapters/runaway/artwork/portal/runaway-ring-v1.png",
+      "public_path": "assets/runaway-ring-v1.png",
+      "sha256_at_intake": "243c9805385b7990e9cf985d21d7bc058b6af18f96da60bc15e2b5cbdcfef98a",
+      "provenance": "Author board references/design/relationship_modelling - run away.jpg; recipe scripts/cut_runaway_board.py. Rotating memories of work, drawing, music, illness and the exit. Screen use only."
+    },
+    {
+      "source": "chapters/runaway/artwork/portal/runaway-scene-v1.png",
+      "public_path": "assets/runaway-scene-v1.png",
+      "sha256_at_intake": "e93ee2fa6e56c9c1f1ac46baf01b3f2c915b6323334461500c22023a23d485f5",
+      "provenance": "Author board references/design/relationship_modelling - run away.jpg; recipe scripts/cut_runaway_board.py. Stationary doorway with Jason, a woman and Gấu. Screen use only."
+    },
+    {
+      "source": "chapters/runaway/artwork/portal/runaway-spread-v1.webp",
+      "public_path": "assets/runaway-spread-v1.webp",
+      "sha256_at_intake": "8b6425d4a06e010193fe9305c0abde7e169dd5e52c4c1efe8d15f6408b56c968",
+      "provenance": "Author board references/design/relationship_modelling - run away.jpg; recipe scripts/cut_runaway_board.py. Rectangular extracted-object reading illustration. Screen use only."
+    },
+    {
+      "source": "chapters/bad-trip/artwork/portal/bad-trip-ring-v1.png",
+      "public_path": "assets/bad-trip-ring-v1.png",
+      "sha256_at_intake": "05677dd6acf2c06bb675cbeb5bce881b28f689b7c1a45425440041cede0bb098",
+      "provenance": "Author board references/design/data_collection - bad-trip.png; recipe scripts/cut_bad_trip_board.py. Rotating memory, work, travel and mirror collage. Screen use only."
+    },
+    {
+      "source": "chapters/bad-trip/artwork/portal/bad-trip-scene-v1.png",
+      "public_path": "assets/bad-trip-scene-v1.png",
+      "sha256_at_intake": "25a78a0302f14a3352ffbb47e4e5ec36a32aac05db26f2d9a614aca0e910e139",
+      "provenance": "Author board references/design/data_collection - bad-trip.png; recipe scripts/cut_bad_trip_board.py. Stationary gilded mirror with two versions of Jason. Screen use only."
+    },
+    {
+      "source": "chapters/bad-trip/artwork/portal/bad-trip-spread-v1.webp",
+      "public_path": "assets/bad-trip-spread-v1.webp",
+      "sha256_at_intake": "be6e0c8de193740a7d8f1d662d53a297bd42005198b9f64e624f602e85d54935",
+      "provenance": "Author board references/design/data_collection - bad-trip.png; recipe scripts/cut_bad_trip_board.py. Rectangular extracted-object reading illustration. Screen use only."
+    },
+    {
+      "source": "chapters/the-23-word-nuclear-warhead/artwork/portal/office-battlefield-ring-v1.png",
+      "public_path": "assets/office-battlefield-ring-v1.png",
+      "sha256_at_intake": "b9d6351cb9fc5a20b725ebc0110a4fc4fcda1cfd7f3dcd3eccd046cbc1ba8ddf",
+      "provenance": "Author board references/design/model_failure -office-battlefield-the-23-word-nuclear-warhead.jpg; recipe scripts/cut_office_battlefield_board.py. Rotating office, team, ticket, AI and chess collage. Screen use only."
+    },
+    {
+      "source": "chapters/the-23-word-nuclear-warhead/artwork/portal/office-battlefield-scene-v1.png",
+      "public_path": "assets/office-battlefield-scene-v1.png",
+      "sha256_at_intake": "6db3d006096bf6d302ce5123283b2b3978b2bcf331ba4532ce3d4d7f037ce954",
+      "provenance": "Author board references/design/model_failure -office-battlefield-the-23-word-nuclear-warhead.jpg; recipe scripts/cut_office_battlefield_board.py. Stationary paper message and chess table centre, aligned to the ring. Screen use only."
+    },
+    {
+      "source": "chapters/the-23-word-nuclear-warhead/artwork/portal/office-battlefield-spread-v1.webp",
+      "public_path": "assets/office-battlefield-spread-v1.webp",
+      "sha256_at_intake": "6359053f0cd127a3193747e5f8c47127df407fe488850983b1fd90c1b8e09ef9",
+      "provenance": "Author board references/design/model_failure -office-battlefield-the-23-word-nuclear-warhead.jpg; recipe scripts/cut_office_battlefield_board.py. Rectangular extracted-object reading illustration. Screen use only."
+    },
+    {
+      "source": "chapters/the-payoff-matrix/artwork/portal/payoff-matrix-ring-v1.png",
+      "public_path": "assets/payoff-matrix-ring-v1.png",
+      "sha256_at_intake": "536746055426580be53d654e3dc5f0461b89db2caddc43cc856cd708378b250b",
+      "provenance": "Author board references/design/model_failure -office-battlefield-payoff-matrix.png; recipe scripts/cut_payoff_matrix_board.py. Rotating office, strategy and scorecard collage. Screen use only."
+    },
+    {
+      "source": "chapters/the-payoff-matrix/artwork/portal/payoff-matrix-scene-v1.png",
+      "public_path": "assets/payoff-matrix-scene-v1.png",
+      "sha256_at_intake": "c3ead3265d34ff951f9b60d901e065c4c7a5c4f76ce95809e2b64f000a8e99db",
+      "provenance": "Author board references/design/model_failure -office-battlefield-payoff-matrix.png; recipe scripts/cut_payoff_matrix_board.py. Stationary payoff table and chessboard centre, aligned to the ring. Screen use only."
+    },
+    {
+      "source": "chapters/the-payoff-matrix/artwork/portal/payoff-matrix-spread-v1.webp",
+      "public_path": "assets/payoff-matrix-spread-v1.webp",
+      "sha256_at_intake": "cd55e6c108e7c7e1710c560d5d7b45a047cf6eb2d35a25db1d3f72b0d18647e3",
+      "provenance": "Author board references/design/model_failure -office-battlefield-payoff-matrix.png; recipe scripts/cut_payoff_matrix_board.py. Rectangular extracted-object reading illustration. Screen use only."
+    },
+    {
+      "source": "chapters/better-and-brighter-than-ever/artwork/portal/better-brighter-ring-v1.png",
+      "public_path": "assets/better-brighter-ring-v1.png",
+      "sha256_at_intake": "ef31f853a88f96e7adf37b053043c38480f8a8033254ad9ae9729e2d4243a607",
+      "provenance": "Author board references/design/model_failure - office-battlefield-better-brighter.png; recipe scripts/cut_better_brighter_board.py. Rotating office, jerseys, choices and relationships collage. Screen use only."
+    },
+    {
+      "source": "chapters/better-and-brighter-than-ever/artwork/portal/better-brighter-scene-v1.png",
+      "public_path": "assets/better-brighter-scene-v1.png",
+      "sha256_at_intake": "8bff4a7f0580d34da9c0ac03f5928207761379695a31a150286199fdc7d87a41",
+      "provenance": "Author board references/design/model_failure - office-battlefield-better-brighter.png; recipe scripts/cut_better_brighter_board.py. Stationary eye-shaped doorway, two jerseys and Jason, aligned to the ring. Screen use only."
+    },
+    {
+      "source": "chapters/better-and-brighter-than-ever/artwork/portal/better-brighter-spread-v1.webp",
+      "public_path": "assets/better-brighter-spread-v1.webp",
+      "sha256_at_intake": "03364119ba7c38615b370465d6b6232f1b630c49164a213014819bdc2e821f0c",
+      "provenance": "Author board references/design/model_failure - office-battlefield-better-brighter.png; recipe scripts/cut_better_brighter_board.py. Rectangular extracted-object reading illustration. Screen use only."
+    },
+    {
+      "source": "chapters/masterclass-in-record-keeping/artwork/portal/record-keeping-ring-v1.png",
+      "public_path": "assets/record-keeping-ring-v1.png",
+      "sha256_at_intake": "17887d2e9b190164bca5891777636337487308e093655ea8abaac5fc1ce5906e",
+      "provenance": "Author board references/design/model_failure -office-battlefield-masterclass-in-record-keeping.png; recipe scripts/cut_record_keeping_board.py. Rotating files, timestamps and office record collage. Screen use only."
+    },
+    {
+      "source": "chapters/masterclass-in-record-keeping/artwork/portal/record-keeping-scene-v1.png",
+      "public_path": "assets/record-keeping-scene-v1.png",
+      "sha256_at_intake": "3b47afcfb43c6ca6ca2cbcda88dcc4c40ea3ab6adb54342de08e62c06c567416",
+      "provenance": "Author board references/design/model_failure -office-battlefield-masterclass-in-record-keeping.png; recipe scripts/cut_record_keeping_board.py. Stationary open record log and magnifying glass with Jason, aligned to the ring. Screen use only."
+    },
+    {
+      "source": "chapters/masterclass-in-record-keeping/artwork/portal/record-keeping-spread-v1.webp",
+      "public_path": "assets/record-keeping-spread-v1.webp",
+      "sha256_at_intake": "eb8c535b97eb9f4ee0a2080e3808c0d7c50d7b8cefc7553221b4f2dc242bef98",
+      "provenance": "Author board references/design/model_failure -office-battlefield-masterclass-in-record-keeping.png; recipe scripts/cut_record_keeping_board.py. Rectangular extracted-object reading illustration. Screen use only."
+    },
+    {
+      "source": "chapters/good-boy/artwork/portal/good-boy-ring-v1.png",
+      "public_path": "assets/good-boy-ring-v1.png",
+      "sha256_at_intake": "2810642246e16c8a88c20906e0cdf03d28b6cee5e28b1730aa92b5cae2c66091",
+      "provenance": "Author board references/design/model_failure - office-good-boy.png; recipe scripts/cut_good_boy_board.py. Rotating office conversations, apology, stamp and phone collage. Screen use only."
+    },
+    {
+      "source": "chapters/good-boy/artwork/portal/good-boy-scene-v1.png",
+      "public_path": "assets/good-boy-scene-v1.png",
+      "sha256_at_intake": "d150e9de17af2b9d8509dca756dc10cde270ea1ae0f8c386b4542ed5c07d9224",
+      "provenance": "Author board references/design/model_failure - office-good-boy.png; recipe scripts/cut_good_boy_board.py. Stationary stamped apology and phone with Jason, aligned to the ring. Screen use only."
+    },
+    {
+      "source": "chapters/good-boy/artwork/portal/good-boy-spread-v1.webp",
+      "public_path": "assets/good-boy-spread-v1.webp",
+      "sha256_at_intake": "42b0fd7371c4dad16041f9fe64c0c118a798ebcddac41b3daa6042faeefb2ea1",
+      "provenance": "Author board references/design/model_failure - office-good-boy.png; recipe scripts/cut_good_boy_board.py. Rectangular extracted-object reading illustration. Screen use only."
+    },
+    {
+      "source": "chapters/the-moral-story-schools-dont-teach-you/artwork/portal/moral-story-ring-v1.png",
+      "public_path": "assets/moral-story-ring-v1.png",
+      "sha256_at_intake": "9f2617b951a4f2ab1b06a837d7a73386d30ca7269827bef0d7580ea74231da87",
+      "provenance": "Author board references/design/model_failure - office-moral-story.png; recipe scripts/cut_moral_story_board.py. Rotating office records, draft versions, moral-model diagram and mirror collage. Screen use only."
+    },
+    {
+      "source": "chapters/the-moral-story-schools-dont-teach-you/artwork/portal/moral-story-scene-v1.png",
+      "public_path": "assets/moral-story-scene-v1.png",
+      "sha256_at_intake": "dd27d0a4cf99a970b91d99378eccacc1791ecc49c5321493d069d69ba774a444",
+      "provenance": "Author board references/design/model_failure - office-moral-story.png; recipe scripts/cut_moral_story_board.py. Stationary open book on context, audience, timing, impact, with Jason and his reflection aligned to the ring. Screen use only."
+    },
+    {
+      "source": "chapters/the-moral-story-schools-dont-teach-you/artwork/portal/moral-story-spread-v1.webp",
+      "public_path": "assets/moral-story-spread-v1.webp",
+      "sha256_at_intake": "61d6654bf03fd3764d5f02ded156303ad2a229c8318835a75c088557e8e2d7a9",
+      "provenance": "Author board references/design/model_failure - office-moral-story.png; recipe scripts/cut_moral_story_board.py. Rectangular key-elements reading illustration. Screen use only."
+    },
+    {
+      "source": "chapters/negative-sum-game/artwork/portal/negative-sum-ring-v1.png",
+      "public_path": "assets/negative-sum-ring-v1.png",
+      "sha256_at_intake": "f94e69d286b5fff0b408a3feb5515131acc6013b05f10f64fd0d6123cc10cfa8",
+      "provenance": "Author board references/design/model_failure -office-negative-sum-game.png; recipe scripts/cut_negative_sum_board.py. Rotating office conversation and chess collage. Screen use only."
+    },
+    {
+      "source": "chapters/negative-sum-game/artwork/portal/negative-sum-scene-v1.png",
+      "public_path": "assets/negative-sum-scene-v1.png",
+      "sha256_at_intake": "75734bbbbabd65b9a5b12313c6c3e5bcfd24ee5a044c2d7f61c7545061207328",
+      "provenance": "Author board references/design/model_failure -office-negative-sum-game.png; recipe scripts/cut_negative_sum_board.py. Stationary chessboard and time, trust, friendship cost ledger. Screen use only."
+    },
+    {
+      "source": "chapters/negative-sum-game/artwork/portal/negative-sum-spread-v1.webp",
+      "public_path": "assets/negative-sum-spread-v1.webp",
+      "sha256_at_intake": "a143a9637473f2bdad3feb0c3c3a9e0ede945117f94aeeb6d12571b402439303",
+      "provenance": "Author board references/design/model_failure -office-negative-sum-game.png; recipe scripts/cut_negative_sum_board.py. Rectangular key-elements reading illustration. Screen use only."
+    },
+    {
+      "source": "chapters/command-respect/artwork/portal/command-respect-ring-v1.png",
+      "public_path": "assets/command-respect-ring-v1.png",
+      "sha256_at_intake": "e9e5f7ee8132975762b57be68fab3685d9c98ac941cb7b39411f553769b97f02",
+      "provenance": "Author board references/design/under_revision - office-command-respect.png; recipe scripts/cut_command_respect_board.py. Rotating office, childhood, ticket and conversation collage. Screen use only."
+    },
+    {
+      "source": "chapters/command-respect/artwork/portal/command-respect-scene-v1.png",
+      "public_path": "assets/command-respect-scene-v1.png",
+      "sha256_at_intake": "c3f8e833696bf0c9ab579f494308e70aef5180c320e2f09be470f6ec35eca86e",
+      "provenance": "Author board references/design/under_revision - office-command-respect.png; recipe scripts/cut_command_respect_board.py. Stationary mirror with five-year-old Jason, desk and note. Screen use only."
+    },
+    {
+      "source": "chapters/command-respect/artwork/portal/command-respect-spread-v1.webp",
+      "public_path": "assets/command-respect-spread-v1.webp",
+      "sha256_at_intake": "2881e2b5777b3ddc194c6c2f027e1ac6da73a178336bc92f6ad47c526bfe0d5f",
+      "provenance": "Author board references/design/under_revision - office-command-respect.png; recipe scripts/cut_command_respect_board.py. Rectangular key-elements reading illustration. Screen use only."
+    },
+    {
+      "source": "chapters/co-nhung-thu-chi-khi-minh-roi-di-roi-moi-nhin-thay/artwork/portal/after-leaving-ring-v1.png",
+      "public_path": "assets/after-leaving-ring-v1.png",
+      "sha256_at_intake": "7e24f74e45b0542864c43df86aa09759c1a92ab8efbdf2de40b208b4ebc788d7",
+      "provenance": "Author board references/design/under_revision - office-battlefield-after-leaving.png; recipe scripts/cut_after_leaving_board.py. Rotating office, farewell and whiteboard collage. Screen use only."
+    },
+    {
+      "source": "chapters/co-nhung-thu-chi-khi-minh-roi-di-roi-moi-nhin-thay/artwork/portal/after-leaving-scene-v1.png",
+      "public_path": "assets/after-leaving-scene-v1.png",
+      "sha256_at_intake": "e0787c69adf2a0533051e0b204649581fb268c24bf475beefbb7c58e8d086046",
+      "provenance": "Author board references/design/under_revision - office-battlefield-after-leaving.png; recipe scripts/cut_after_leaving_board.py. Stationary mountain-roadtrip whiteboard and Jason. Screen use only."
+    },
+    {
+      "source": "chapters/co-nhung-thu-chi-khi-minh-roi-di-roi-moi-nhin-thay/artwork/portal/after-leaving-spread-v1.webp",
+      "public_path": "assets/after-leaving-spread-v1.webp",
+      "sha256_at_intake": "21d0187f79c45f0396dfda27ab23ea78bdaf4052d472cf4254d8c399046321dd",
+      "provenance": "Author board references/design/under_revision - office-battlefield-after-leaving.png; recipe scripts/cut_after_leaving_board.py. Rectangular key-elements reading illustration. Screen use only."
+    },
+    {
+      "source": "chapters/nhung-hinh-chieu-xau-xi/artwork/portal/ugly-projections-ring-v1.png",
+      "public_path": "assets/ugly-projections-ring-v1.png",
+      "sha256_at_intake": "bdb2a924bc3e21cdc58c04d80ef79275af17df0f408ef13d52438909ee27a9c5",
+      "provenance": "Author board references/design/relationship_modelling - ugly-projections.png; recipe scripts/cut_ugly_projections_board.py. Rotating film and projection collage. Screen use only."
+    },
+    {
+      "source": "chapters/nhung-hinh-chieu-xau-xi/artwork/portal/ugly-projections-scene-v1.png",
+      "public_path": "assets/ugly-projections-scene-v1.png",
+      "sha256_at_intake": "d8304d8715ffd3e31346825d829a2c7a97fb5009055bdbfadd899b9172c8b06b",
+      "provenance": "Author board references/design/relationship_modelling - ugly-projections.png; recipe scripts/cut_ugly_projections_board.py. Stationary projector, shadow screen, woman and Jason. Screen use only."
+    },
+    {
+      "source": "chapters/nhung-hinh-chieu-xau-xi/artwork/portal/ugly-projections-spread-v1.webp",
+      "public_path": "assets/ugly-projections-spread-v1.webp",
+      "sha256_at_intake": "913af4fc6f1279751ab64c9c5585269c8908497131a2fb2f0c1d3c20a6b528be",
+      "provenance": "Author board references/design/relationship_modelling - ugly-projections.png; recipe scripts/cut_ugly_projections_board.py. Rectangular key-elements reading illustration. Screen use only."
+    },
+    {
+      "source": "chapters/i-am-28-today/artwork/portal/twenty-eight-today-ring-v1.png",
+      "public_path": "assets/twenty-eight-today-ring-v1.png",
+      "sha256_at_intake": "7c3e8805f0c2bdbf885e68ce05148418a2cc1d12e769f580f5f7372666c43dca",
+      "provenance": "Author board references/design/data_collection - twenty-eight-today.png; recipe scripts/cut_twenty_eight_today_board.py. Rotating memories of friends, work, music and travel. Screen use only."
+    },
+    {
+      "source": "chapters/i-am-28-today/artwork/portal/twenty-eight-today-scene-v1.png",
+      "public_path": "assets/twenty-eight-today-scene-v1.png",
+      "sha256_at_intake": "45db0ce38c78aa36097dff183db30867ec9242298301c69676b9764790c642d0",
+      "provenance": "Author board references/design/data_collection - twenty-eight-today.png; recipe scripts/cut_twenty_eight_today_board.py. Stationary open window, Jason, friends and birthday table. Screen use only."
+    },
+    {
+      "source": "chapters/i-am-28-today/artwork/portal/twenty-eight-today-spread-v1.webp",
+      "public_path": "assets/twenty-eight-today-spread-v1.webp",
+      "sha256_at_intake": "c6b540a94187364cccb9486a0a7d9152754de804f2941349acfdc3b6d283c219",
+      "provenance": "Author board references/design/data_collection - twenty-eight-today.png; recipe scripts/cut_twenty_eight_today_board.py. Rectangular key-elements reading illustration. Screen use only."
+    },
+    {
+      "source": "chapters/nhung-nguoi-anh-em/artwork/portal/my-brothers-ring-v1.png",
+      "public_path": "assets/my-brothers-ring-v1.png",
+      "sha256_at_intake": "519cb5a539207ac6dd79e3a840deda05fd79ae4cbfaace306d63f9025cd36cbe",
+      "provenance": "Author board references/design/data_collection - my-brothers.png; recipe scripts/cut_my_brothers_board.py. Rotating memories of science, old teammates and shared curiosity. Screen use only."
+    },
+    {
+      "source": "chapters/nhung-nguoi-anh-em/artwork/portal/my-brothers-scene-v1.png",
+      "public_path": "assets/my-brothers-scene-v1.png",
+      "sha256_at_intake": "52e2b30457c1e484f2550cdd73d42928b5e4f0a80f56bc950ca2464d76b6ad45",
+      "provenance": "Author board references/design/data_collection - my-brothers.png; recipe scripts/cut_my_brothers_board.py. Stationary four friends and glowing universe model. Screen use only."
+    },
+    {
+      "source": "chapters/nhung-nguoi-anh-em/artwork/portal/my-brothers-spread-v1.webp",
+      "public_path": "assets/my-brothers-spread-v1.webp",
+      "sha256_at_intake": "ad9edf8dfcf6385a58511d9b7515bb1c5d9442427624b84679106c00971cb0a5",
+      "provenance": "Author board references/design/data_collection - my-brothers.png; recipe scripts/cut_my_brothers_board.py. Rectangular key-elements reading illustration. Screen use only."
+    },
+    {
+      "source": "chapters/nhung-thu-khong-duoc-luu-lai/artwork/portal/dream-diary-ring-v1.png",
+      "public_path": "assets/dream-diary-ring-v1.png",
+      "sha256_at_intake": "10835fa02a0f47eb9220e5c4110b91ad7ea535a65797bb13554d9b9ce11d0b00",
+      "provenance": "Author board references/design/data_collection - dream-diary.png; recipe scripts/cut_dream_diary_board.py. Rotating dreams, sketches, remembered rooms and train journey. Screen use only."
+    },
+    {
+      "source": "chapters/nhung-thu-khong-duoc-luu-lai/artwork/portal/dream-diary-scene-v1.png",
+      "public_path": "assets/dream-diary-scene-v1.png",
+      "sha256_at_intake": "aa29cf6341bd28348a68f8ac72c3b616182fa9997a65bba2f185109124c372ab",
+      "provenance": "Author board references/design/data_collection - dream-diary.png; recipe scripts/cut_dream_diary_board.py. Stationary couple, yellow metro train and open diary. Screen use only."
+    },
+    {
+      "source": "chapters/nhung-thu-khong-duoc-luu-lai/artwork/portal/dream-diary-spread-v1.webp",
+      "public_path": "assets/dream-diary-spread-v1.webp",
+      "sha256_at_intake": "2a7511a6390730b6bd8f743c1749d2e62a62be22a3251e2f96be47a7fcad9b58",
+      "provenance": "Author board references/design/data_collection - dream-diary.png; recipe scripts/cut_dream_diary_board.py. Rectangular key-elements reading illustration. Screen use only."
+    },
+    {
+      "source": "shared/artwork/digital-book/introduction/mainBook.webp",
+      "public_path": "assets/digital-book/introduction/mainBook.webp",
+      "sha256_at_intake": "b1b2efab337eae1cf77b637416139d02cb1b60710585777632396752e90c295b",
+      "provenance": "Author asset archive: chapters/introduction/artwork/main-book/portal.webp. Placement: main_book; native master retained in the supplied ZIP."
+    },
+    {
+      "source": "shared/artwork/digital-book/introduction/map.webp",
+      "public_path": "assets/digital-book/introduction/map.webp",
+      "sha256_at_intake": "db4b013c6ebef5470408188e949555e87d6a13b602c118d9f09ae12092b17d96",
+      "provenance": "Author asset archive: chapters/introduction/artwork/chapter-map/portal.webp. Placement: chapter_map; native master retained in the supplied ZIP."
+    },
+    {
+      "source": "shared/artwork/digital-book/introduction/opening.webp",
+      "public_path": "assets/digital-book/introduction/opening.webp",
+      "sha256_at_intake": "d0af6cadd6750afd84712798cabd37d56f4bb6e7446ec6bec36575318f5f3bc5",
+      "provenance": "Author asset archive: chapters/introduction/artwork/chapter-page/portal.webp. Placement: chapter_opening; native master retained in the supplied ZIP."
+    },
+    {
+      "source": "shared/artwork/digital-book/introduction/hero.webp",
+      "public_path": "assets/digital-book/introduction/hero.webp",
+      "sha256_at_intake": "96f238ce6c6ad5e16e23344906a4b8fabed8b7876e802038641185d85c4bab00",
+      "provenance": "Author asset archive: chapters/introduction/artwork/chapter-page/hero.webp. Placement: reader_hero; native master retained in the supplied ZIP."
+    },
+    {
+      "source": "shared/artwork/digital-book/introduction/inline.webp",
+      "public_path": "assets/digital-book/introduction/inline.webp",
+      "sha256_at_intake": "809e15778994e86d2efe951c593836bc20b37391b68c1b8cec666bbb182cdaeb",
+      "provenance": "Author asset archive: chapters/introduction/artwork/content/illustrations/01-story-detail.webp. Placement: inline_illustration; native master retained in the supplied ZIP."
+    },
+    {
+      "source": "shared/artwork/digital-book/introduction/centre.webp",
+      "public_path": "assets/digital-book/introduction/centre.webp",
+      "sha256_at_intake": "90f3f0588d12ba0afc69429a69186f055a45936bb1e53f637aa766d91a6cb088",
+      "provenance": "Author asset archive: chapters/introduction/artwork/main-book/centre-scene.webp. Stationary centre for the rotating main-book ring."
+    },
+    {
+      "source": "shared/artwork/digital-book/com-nguoi/mainBook.webp",
+      "public_path": "assets/digital-book/com-nguoi/mainBook.webp",
+      "sha256_at_intake": "3c373a8c14bfae34d6c5ed03581464b396c6921478430d7448789313a6f2376e",
+      "provenance": "Author asset archive: chapters/com-nguoi/artwork/main-book/portal.webp. Placement: main_book; native master retained in the supplied ZIP."
+    },
+    {
+      "source": "shared/artwork/digital-book/com-nguoi/map.webp",
+      "public_path": "assets/digital-book/com-nguoi/map.webp",
+      "sha256_at_intake": "6b206ba8a69da0c86d1e28aa7747bca6c4edc087f294e297daf8cb20fbb9cb8f",
+      "provenance": "Author asset archive: chapters/com-nguoi/artwork/chapter-map/portal.webp. Placement: chapter_map; native master retained in the supplied ZIP."
+    },
+    {
+      "source": "shared/artwork/digital-book/com-nguoi/opening.webp",
+      "public_path": "assets/digital-book/com-nguoi/opening.webp",
+      "sha256_at_intake": "79b61b71d689bd27bd5cab1679c2a875aff7a8b660619afad9d1ed39d4a3587a",
+      "provenance": "Author asset archive: chapters/com-nguoi/artwork/chapter-page/portal.webp. Placement: chapter_opening; native master retained in the supplied ZIP."
+    },
+    {
+      "source": "shared/artwork/digital-book/com-nguoi/hero.webp",
+      "public_path": "assets/digital-book/com-nguoi/hero.webp",
+      "sha256_at_intake": "317e9cfb33874f3ee417c09a6b43ca07de16fa69e63e93a4503e7352e93c4f84",
+      "provenance": "Author asset archive: chapters/com-nguoi/artwork/chapter-page/hero.webp. Placement: reader_hero; native master retained in the supplied ZIP."
+    },
+    {
+      "source": "shared/artwork/digital-book/com-nguoi/inline.webp",
+      "public_path": "assets/digital-book/com-nguoi/inline.webp",
+      "sha256_at_intake": "ce4f7fd4c2e46725139dc97f04bdd2b4fcfb8f00cef3313331063a608dfe0342",
+      "provenance": "Author asset archive: chapters/com-nguoi/artwork/content/illustrations/01-story-detail.webp. Placement: inline_illustration; native master retained in the supplied ZIP."
+    },
+    {
+      "source": "shared/artwork/digital-book/com-nguoi/centre.webp",
+      "public_path": "assets/digital-book/com-nguoi/centre.webp",
+      "sha256_at_intake": "d64ca99c1eca03a343f505939db8148444440e756339e1fd4da2f239ca15d8c4",
+      "provenance": "Author asset archive: chapters/com-nguoi/artwork/main-book/centre-scene.webp. Stationary centre for the rotating main-book ring."
+    },
+    {
+      "source": "shared/artwork/digital-book/i-was-born-a-quant/mainBook.webp",
+      "public_path": "assets/digital-book/i-was-born-a-quant/mainBook.webp",
+      "sha256_at_intake": "9983d3c86ff5d917b88fdbb1840c0098dca7174fde724227a1916c61c8957646",
+      "provenance": "Author asset archive: chapters/i-was-born-a-quant/artwork/main-book/portal.webp. Placement: main_book; native master retained in the supplied ZIP."
+    },
+    {
+      "source": "shared/artwork/digital-book/i-was-born-a-quant/map.webp",
+      "public_path": "assets/digital-book/i-was-born-a-quant/map.webp",
+      "sha256_at_intake": "88f9e12a7288b5ab6a62579fe12cd99b064babf9bceb28ce17f4e9c7b0655646",
+      "provenance": "Author asset archive: chapters/i-was-born-a-quant/artwork/chapter-map/portal.webp. Placement: chapter_map; native master retained in the supplied ZIP."
+    },
+    {
+      "source": "shared/artwork/digital-book/i-was-born-a-quant/opening.webp",
+      "public_path": "assets/digital-book/i-was-born-a-quant/opening.webp",
+      "sha256_at_intake": "8f07bf1b0e1915dfc7c589cf8dca349341ec5cc4b8f3f0a006e89a139ab980d2",
+      "provenance": "Author asset archive: chapters/i-was-born-a-quant/artwork/chapter-page/portal.webp. Placement: chapter_opening; native master retained in the supplied ZIP."
+    },
+    {
+      "source": "shared/artwork/digital-book/i-was-born-a-quant/hero.webp",
+      "public_path": "assets/digital-book/i-was-born-a-quant/hero.webp",
+      "sha256_at_intake": "1d3a013fc23b197e971093155fc3db9cba5c72aaad8bebfc13b32a0c085e8daf",
+      "provenance": "Author asset archive: chapters/i-was-born-a-quant/artwork/chapter-page/hero.webp. Placement: reader_hero; native master retained in the supplied ZIP."
+    },
+    {
+      "source": "shared/artwork/digital-book/i-was-born-a-quant/inline.webp",
+      "public_path": "assets/digital-book/i-was-born-a-quant/inline.webp",
+      "sha256_at_intake": "20cbd777c31287cd004c7db7cbc19d3412b8dfe39bda66d62ce0fe4305fefb6b",
+      "provenance": "Author asset archive: chapters/i-was-born-a-quant/artwork/content/illustrations/01-story-detail.webp. Placement: inline_illustration; native master retained in the supplied ZIP."
+    },
+    {
+      "source": "shared/artwork/digital-book/i-was-born-a-quant/centre.webp",
+      "public_path": "assets/digital-book/i-was-born-a-quant/centre.webp",
+      "sha256_at_intake": "7b917e120f26d9c64b2be5f2959e27f877dfb6e65340aba797fcd8b3dc65c3ad",
+      "provenance": "Author asset archive: chapters/i-was-born-a-quant/artwork/main-book/centre-scene.webp. Stationary centre for the rotating main-book ring."
+    },
+    {
+      "source": "shared/artwork/digital-book/expected-utility/mainBook.webp",
+      "public_path": "assets/digital-book/expected-utility/mainBook.webp",
+      "sha256_at_intake": "c19278aa715d65840b1d16c01f03d625eb86b2edc32520f6d88ca78690e09866",
+      "provenance": "Author asset archive: chapters/expected-utility/artwork/main-book/portal.webp. Placement: main_book; native master retained in the supplied ZIP."
+    },
+    {
+      "source": "shared/artwork/digital-book/expected-utility/map.webp",
+      "public_path": "assets/digital-book/expected-utility/map.webp",
+      "sha256_at_intake": "8b843cb2cbc42567269cb048841a7bafd7b51d6522f4735d350b64bd9505a3cd",
+      "provenance": "Author asset archive: chapters/expected-utility/artwork/chapter-map/portal.webp. Placement: chapter_map; native master retained in the supplied ZIP."
+    },
+    {
+      "source": "shared/artwork/digital-book/expected-utility/opening.webp",
+      "public_path": "assets/digital-book/expected-utility/opening.webp",
+      "sha256_at_intake": "7ca252b062389ea939de80ecf2ca2e7b343dad9f3f71c08ca6653251b94c758f",
+      "provenance": "Author asset archive: chapters/expected-utility/artwork/chapter-page/portal.webp. Placement: chapter_opening; native master retained in the supplied ZIP."
+    },
+    {
+      "source": "shared/artwork/digital-book/expected-utility/hero.webp",
+      "public_path": "assets/digital-book/expected-utility/hero.webp",
+      "sha256_at_intake": "ca30b179bfaace48711975e8d52b89b4529a50b8e711957921c9dc840747d56e",
+      "provenance": "Author asset archive: chapters/expected-utility/artwork/chapter-page/hero.webp. Placement: reader_hero; native master retained in the supplied ZIP."
+    },
+    {
+      "source": "shared/artwork/digital-book/expected-utility/inline.webp",
+      "public_path": "assets/digital-book/expected-utility/inline.webp",
+      "sha256_at_intake": "86157c3aff4203d5aae0caedc13c9859b4bcb987508bd0840388f687f3174aef",
+      "provenance": "Author asset archive: chapters/expected-utility/artwork/content/illustrations/01-story-detail.webp. Placement: inline_illustration; native master retained in the supplied ZIP."
+    },
+    {
+      "source": "shared/artwork/digital-book/expected-utility/centre.webp",
+      "public_path": "assets/digital-book/expected-utility/centre.webp",
+      "sha256_at_intake": "5ad0c2a9d0726c898f26d476ab7135b1765709cc19bfcda025af9cb0ae4e251d",
+      "provenance": "Author asset archive: chapters/expected-utility/artwork/main-book/centre-scene.webp. Stationary centre for the rotating main-book ring."
+    },
+    {
+      "source": "shared/artwork/digital-book/play-to-win/mainBook.webp",
+      "public_path": "assets/digital-book/play-to-win/mainBook.webp",
+      "sha256_at_intake": "4a9ac2d92731d956e0432314d0f38aa116017d974ab0f72ac97b377eefa0a62e",
+      "provenance": "Author asset archive: chapters/play-to-win/artwork/main-book/portal.webp. Placement: main_book; native master retained in the supplied ZIP."
+    },
+    {
+      "source": "shared/artwork/digital-book/play-to-win/map.webp",
+      "public_path": "assets/digital-book/play-to-win/map.webp",
+      "sha256_at_intake": "767b10308f824aed8feca30c035b74731a0a188e7df844a68b90710296727637",
+      "provenance": "Author asset archive: chapters/play-to-win/artwork/chapter-map/portal.webp. Placement: chapter_map; native master retained in the supplied ZIP."
+    },
+    {
+      "source": "shared/artwork/digital-book/play-to-win/opening.webp",
+      "public_path": "assets/digital-book/play-to-win/opening.webp",
+      "sha256_at_intake": "12153bb4ca341456925519fe7e4572176857d8cfc227b0861244112ae9b31f47",
+      "provenance": "Author asset archive: chapters/play-to-win/artwork/chapter-page/portal.webp. Placement: chapter_opening; native master retained in the supplied ZIP."
+    },
+    {
+      "source": "shared/artwork/digital-book/play-to-win/hero.webp",
+      "public_path": "assets/digital-book/play-to-win/hero.webp",
+      "sha256_at_intake": "feb99e02eb4cee479697675ac954feff88d25929e10d4f69540879120897a5c0",
+      "provenance": "Author asset archive: chapters/play-to-win/artwork/chapter-page/hero.webp. Placement: reader_hero; native master retained in the supplied ZIP."
+    },
+    {
+      "source": "shared/artwork/digital-book/play-to-win/inline.webp",
+      "public_path": "assets/digital-book/play-to-win/inline.webp",
+      "sha256_at_intake": "e6bb5ecf511947178e9b0e5e457d3f1014fc335aeee9addb5c0c8d46e48e64a3",
+      "provenance": "Author asset archive: chapters/play-to-win/artwork/content/illustrations/01-story-detail.webp. Placement: inline_illustration; native master retained in the supplied ZIP."
+    },
+    {
+      "source": "shared/artwork/digital-book/play-to-win/centre.webp",
+      "public_path": "assets/digital-book/play-to-win/centre.webp",
+      "sha256_at_intake": "ca4be21e1834ef0c6daab69ae1661f6dafc193837113210697ad639f06d72c32",
+      "provenance": "Author asset archive: chapters/play-to-win/artwork/main-book/centre-scene.webp. Stationary centre for the rotating main-book ring."
+    },
+    {
+      "source": "shared/artwork/digital-book/fashion/mainBook.webp",
+      "public_path": "assets/digital-book/fashion/mainBook.webp",
+      "sha256_at_intake": "89148e69654a5c44676ef409071a17fad5317c9416ca05179013673d7ff6a239",
+      "provenance": "Author asset archive: chapters/fashion/artwork/main-book/portal.webp. Placement: main_book; native master retained in the supplied ZIP."
+    },
+    {
+      "source": "shared/artwork/digital-book/fashion/map.webp",
+      "public_path": "assets/digital-book/fashion/map.webp",
+      "sha256_at_intake": "604f50a52e2ab2b22f851f47fe35b63e0fa5d3cc2beba1b8b64ef191df37bf40",
+      "provenance": "Author asset archive: chapters/fashion/artwork/chapter-map/portal.webp. Placement: chapter_map; native master retained in the supplied ZIP."
+    },
+    {
+      "source": "shared/artwork/digital-book/fashion/opening.webp",
+      "public_path": "assets/digital-book/fashion/opening.webp",
+      "sha256_at_intake": "b32e9c883c362884660fb22689b99103956afb169e2af5f049f674c895037e96",
+      "provenance": "Author asset archive: chapters/fashion/artwork/chapter-page/portal.webp. Placement: chapter_opening; native master retained in the supplied ZIP."
+    },
+    {
+      "source": "shared/artwork/digital-book/fashion/hero.webp",
+      "public_path": "assets/digital-book/fashion/hero.webp",
+      "sha256_at_intake": "9c302ee18e3e6cd02d9d57a238ab4870f23819d1f1f3e202b0a22a47cc8c4253",
+      "provenance": "Author asset archive: chapters/fashion/artwork/chapter-page/hero.webp. Placement: reader_hero; native master retained in the supplied ZIP."
+    },
+    {
+      "source": "shared/artwork/digital-book/fashion/inline.webp",
+      "public_path": "assets/digital-book/fashion/inline.webp",
+      "sha256_at_intake": "7ccd2040f3d64af7bee5322a978dd62da5294499130c310201c6d400d498cbf8",
+      "provenance": "Author asset archive: chapters/fashion/artwork/content/illustrations/01-story-detail.webp. Placement: inline_illustration; native master retained in the supplied ZIP."
+    },
+    {
+      "source": "shared/artwork/digital-book/fashion/centre.webp",
+      "public_path": "assets/digital-book/fashion/centre.webp",
+      "sha256_at_intake": "669a0dfc2332f0f9bcd7ac66d4e0879bf024b3e55dce3fda57346a13e4880eee",
+      "provenance": "Author asset archive: chapters/fashion/artwork/main-book/centre-scene.webp. Stationary centre for the rotating main-book ring."
+    },
+    {
+      "source": "shared/artwork/digital-book/flow/mainBook.webp",
+      "public_path": "assets/digital-book/flow/mainBook.webp",
+      "sha256_at_intake": "681f7a3ed00b1fd87a87cf7ac239790116306354affb17e5a999381dd0af9c89",
+      "provenance": "Author asset archive: chapters/flow/artwork/main-book/portal.webp. Placement: main_book; native master retained in the supplied ZIP."
+    },
+    {
+      "source": "shared/artwork/digital-book/flow/map.webp",
+      "public_path": "assets/digital-book/flow/map.webp",
+      "sha256_at_intake": "0a8518589a71e2e83f43f49a139fedbac9e40a4ee1d4c1895da4700c745e4fcd",
+      "provenance": "Author asset archive: chapters/flow/artwork/chapter-map/portal.webp. Placement: chapter_map; native master retained in the supplied ZIP."
+    },
+    {
+      "source": "shared/artwork/digital-book/flow/opening.webp",
+      "public_path": "assets/digital-book/flow/opening.webp",
+      "sha256_at_intake": "c79aed6d58e3625193e040c3c0a0f8773a803c5352c490dd10c0f10428b6a1c8",
+      "provenance": "Author asset archive: chapters/flow/artwork/chapter-page/portal.webp. Placement: chapter_opening; native master retained in the supplied ZIP."
+    },
+    {
+      "source": "shared/artwork/digital-book/flow/hero.webp",
+      "public_path": "assets/digital-book/flow/hero.webp",
+      "sha256_at_intake": "68cdafbb23c8e861ae8a497c1f0493b9b0a468b0fffc0a9cb6b86bc82e867234",
+      "provenance": "Author asset archive: chapters/flow/artwork/chapter-page/hero.webp. Placement: reader_hero; native master retained in the supplied ZIP."
+    },
+    {
+      "source": "shared/artwork/digital-book/flow/inline.webp",
+      "public_path": "assets/digital-book/flow/inline.webp",
+      "sha256_at_intake": "15f008c97955eb0061dcc52bf51ce28c59be756a43b46275c86d47e0d70fd3a4",
+      "provenance": "Author asset archive: chapters/flow/artwork/content/illustrations/01-story-detail.webp. Placement: inline_illustration; native master retained in the supplied ZIP."
+    },
+    {
+      "source": "shared/artwork/digital-book/flow/centre.webp",
+      "public_path": "assets/digital-book/flow/centre.webp",
+      "sha256_at_intake": "84069db5751f3dfe85c590b2847acea18787e1585ab5f510dffabf3b692c8764",
+      "provenance": "Author asset archive: chapters/flow/artwork/main-book/centre-scene.webp. Stationary centre for the rotating main-book ring."
+    },
+    {
+      "source": "shared/artwork/digital-book/nut-do/mainBook.webp",
+      "public_path": "assets/digital-book/nut-do/mainBook.webp",
+      "sha256_at_intake": "d78c4f6e7346f398f7b4636e90b53934467e7217e57ff767f48d2babdf74496c",
+      "provenance": "Author asset archive: chapters/nut-do/artwork/main-book/portal.webp. Placement: main_book; native master retained in the supplied ZIP."
+    },
+    {
+      "source": "shared/artwork/digital-book/nut-do/map.webp",
+      "public_path": "assets/digital-book/nut-do/map.webp",
+      "sha256_at_intake": "5f34e7d6cf62764feb352d0ae41bfcea7d60fea0bdbc88cc33206405f9a2fdca",
+      "provenance": "Author asset archive: chapters/nut-do/artwork/chapter-map/portal.webp. Placement: chapter_map; native master retained in the supplied ZIP."
+    },
+    {
+      "source": "shared/artwork/digital-book/nut-do/opening.webp",
+      "public_path": "assets/digital-book/nut-do/opening.webp",
+      "sha256_at_intake": "e98a9a36b566d9d76fa29e164dd52cc843f2d4c05e45924864459eae1a354ef4",
+      "provenance": "Author asset archive: chapters/nut-do/artwork/chapter-page/portal.webp. Placement: chapter_opening; native master retained in the supplied ZIP."
+    },
+    {
+      "source": "shared/artwork/digital-book/nut-do/hero.webp",
+      "public_path": "assets/digital-book/nut-do/hero.webp",
+      "sha256_at_intake": "8801a2231dc09ef0722d4afa4716a1700e789a1b34332cf17bdd65b3204cf7c8",
+      "provenance": "Author asset archive: chapters/nut-do/artwork/chapter-page/hero.webp. Placement: reader_hero; native master retained in the supplied ZIP."
+    },
+    {
+      "source": "shared/artwork/digital-book/nut-do/inline.webp",
+      "public_path": "assets/digital-book/nut-do/inline.webp",
+      "sha256_at_intake": "6232bd00a1d8d0b8001bf8bfdc760c4c4a0581d3da43bfe06bf944efb4ce2121",
+      "provenance": "Author asset archive: chapters/nut-do/artwork/content/illustrations/01-story-detail.webp. Placement: inline_illustration; native master retained in the supplied ZIP."
+    },
+    {
+      "source": "shared/artwork/digital-book/nut-do/centre.webp",
+      "public_path": "assets/digital-book/nut-do/centre.webp",
+      "sha256_at_intake": "ab4091bcf06073a9d4621fe28edbff3719eccfd48917e17d388ed982e29b80ff",
+      "provenance": "Author asset archive: chapters/nut-do/artwork/main-book/centre-scene.webp. Stationary centre for the rotating main-book ring."
+    },
+    {
+      "source": "shared/artwork/digital-book/mot-nguoi-ban-cu/mainBook.webp",
+      "public_path": "assets/digital-book/mot-nguoi-ban-cu/mainBook.webp",
+      "sha256_at_intake": "0d60fe78c5e2a6b24e6a7e8fce58558828b0ba0337348ee7338e615ccdd451c7",
+      "provenance": "Author asset archive: chapters/mot-nguoi-ban-cu/artwork/main-book/portal.webp. Placement: main_book; native master retained in the supplied ZIP."
+    },
+    {
+      "source": "shared/artwork/digital-book/mot-nguoi-ban-cu/map.webp",
+      "public_path": "assets/digital-book/mot-nguoi-ban-cu/map.webp",
+      "sha256_at_intake": "7669298cb9a5dda7f6a4beb684e3a513e9ec8ce1610f4eba209eac1e89d320cf",
+      "provenance": "Author asset archive: chapters/mot-nguoi-ban-cu/artwork/chapter-map/portal.webp. Placement: chapter_map; native master retained in the supplied ZIP."
+    },
+    {
+      "source": "shared/artwork/digital-book/mot-nguoi-ban-cu/opening.webp",
+      "public_path": "assets/digital-book/mot-nguoi-ban-cu/opening.webp",
+      "sha256_at_intake": "a817415e5c18066a70054c2dbb865cc926bda817f23417ec57033146bc5c5f9c",
+      "provenance": "Author asset archive: chapters/mot-nguoi-ban-cu/artwork/chapter-page/portal.webp. Placement: chapter_opening; native master retained in the supplied ZIP."
+    },
+    {
+      "source": "shared/artwork/digital-book/mot-nguoi-ban-cu/hero.webp",
+      "public_path": "assets/digital-book/mot-nguoi-ban-cu/hero.webp",
+      "sha256_at_intake": "0d1fa41b6a7dc4016477d429b82ccc3f4e73329db715dca7fd6b73591186b1a8",
+      "provenance": "Author asset archive: chapters/mot-nguoi-ban-cu/artwork/chapter-page/hero.webp. Placement: reader_hero; native master retained in the supplied ZIP."
+    },
+    {
+      "source": "shared/artwork/digital-book/mot-nguoi-ban-cu/inline.webp",
+      "public_path": "assets/digital-book/mot-nguoi-ban-cu/inline.webp",
+      "sha256_at_intake": "6804fa3f30ef19be260118e0d6531876c1cf9b5dc7828eed142ba91265b8da75",
+      "provenance": "Author asset archive: chapters/mot-nguoi-ban-cu/artwork/content/illustrations/01-story-detail.webp. Placement: inline_illustration; native master retained in the supplied ZIP."
+    },
+    {
+      "source": "shared/artwork/digital-book/mot-nguoi-ban-cu/centre.webp",
+      "public_path": "assets/digital-book/mot-nguoi-ban-cu/centre.webp",
+      "sha256_at_intake": "e10e59eb4e3f974dc40be3bede80417dc268ecce0d5e5f9ee2182ffc6f4ea82a",
+      "provenance": "Author asset archive: chapters/mot-nguoi-ban-cu/artwork/main-book/centre-scene.webp. Stationary centre for the rotating main-book ring."
+    },
+    {
+      "source": "shared/artwork/digital-book/for-mother-russia/mainBook.webp",
+      "public_path": "assets/digital-book/for-mother-russia/mainBook.webp",
+      "sha256_at_intake": "6d72c20dcc2d4cdd8cd1bd27001add800e9baccb10d7764759ac14dd3589fe87",
+      "provenance": "Author asset archive: chapters/for-mother-russia/artwork/main-book/portal.webp. Placement: main_book; native master retained in the supplied ZIP."
+    },
+    {
+      "source": "shared/artwork/digital-book/for-mother-russia/map.webp",
+      "public_path": "assets/digital-book/for-mother-russia/map.webp",
+      "sha256_at_intake": "9f328eefc092a773e850daf943ddc8a602abe27d8d4fe707bd6b25b779f3a4d5",
+      "provenance": "Author asset archive: chapters/for-mother-russia/artwork/chapter-map/portal.webp. Placement: chapter_map; native master retained in the supplied ZIP."
+    },
+    {
+      "source": "shared/artwork/digital-book/for-mother-russia/opening.webp",
+      "public_path": "assets/digital-book/for-mother-russia/opening.webp",
+      "sha256_at_intake": "7fd2d48dda21b25ff095c2cdcbff3aa8acfa43cb992000ec8e631eb199e57d45",
+      "provenance": "Author asset archive: chapters/for-mother-russia/artwork/chapter-page/portal.webp. Placement: chapter_opening; native master retained in the supplied ZIP."
+    },
+    {
+      "source": "shared/artwork/digital-book/for-mother-russia/hero.webp",
+      "public_path": "assets/digital-book/for-mother-russia/hero.webp",
+      "sha256_at_intake": "9ae88e3765c7f1fa592f0e9ff52ec07bd9867cfffa7c0b625dfc92c9458c3ae3",
+      "provenance": "Author asset archive: chapters/for-mother-russia/artwork/chapter-page/hero.webp. Placement: reader_hero; native master retained in the supplied ZIP."
+    },
+    {
+      "source": "shared/artwork/digital-book/for-mother-russia/inline.webp",
+      "public_path": "assets/digital-book/for-mother-russia/inline.webp",
+      "sha256_at_intake": "33bec6f23b38b3d512177d2a650d6e2d10e2d100df88caac36a42260f141c9e3",
+      "provenance": "Author asset archive: chapters/for-mother-russia/artwork/content/illustrations/01-story-detail.webp. Placement: inline_illustration; native master retained in the supplied ZIP."
+    },
+    {
+      "source": "shared/artwork/digital-book/for-mother-russia/centre.webp",
+      "public_path": "assets/digital-book/for-mother-russia/centre.webp",
+      "sha256_at_intake": "1e08671a3ea738bbf3a897b420072411b7a48a3b764f6e6b860668eadbacef4d",
+      "provenance": "Author asset archive: chapters/for-mother-russia/artwork/main-book/centre-scene.webp. Stationary centre for the rotating main-book ring."
+    },
+    {
+      "source": "shared/artwork/digital-book/the-gioi-trong-mo-cua-toi/mainBook.webp",
+      "public_path": "assets/digital-book/the-gioi-trong-mo-cua-toi/mainBook.webp",
+      "sha256_at_intake": "0c95253c2f1488db58bed6801fec54c143c89c2ef8e3fb539277491360ae19d0",
+      "provenance": "Author asset archive: chapters/the-gioi-trong-mo-cua-toi/artwork/main-book/portal.webp. Placement: main_book; native master retained in the supplied ZIP."
+    },
+    {
+      "source": "shared/artwork/digital-book/the-gioi-trong-mo-cua-toi/map.webp",
+      "public_path": "assets/digital-book/the-gioi-trong-mo-cua-toi/map.webp",
+      "sha256_at_intake": "30c0ad735f97c6487a2b19508f55e2032b93b9242a3140938ba084c48e34d25b",
+      "provenance": "Author asset archive: chapters/the-gioi-trong-mo-cua-toi/artwork/chapter-map/portal.webp. Placement: chapter_map; native master retained in the supplied ZIP."
+    },
+    {
+      "source": "shared/artwork/digital-book/the-gioi-trong-mo-cua-toi/opening.webp",
+      "public_path": "assets/digital-book/the-gioi-trong-mo-cua-toi/opening.webp",
+      "sha256_at_intake": "41d8724b9735d3c7ae4e043774761753d8b195b094db01f92f60cb9e27a40c10",
+      "provenance": "Author asset archive: chapters/the-gioi-trong-mo-cua-toi/artwork/chapter-page/portal.webp. Placement: chapter_opening; native master retained in the supplied ZIP."
+    },
+    {
+      "source": "shared/artwork/digital-book/the-gioi-trong-mo-cua-toi/hero.webp",
+      "public_path": "assets/digital-book/the-gioi-trong-mo-cua-toi/hero.webp",
+      "sha256_at_intake": "aece4b843345bcae091d31f49fed82331f984787459122c41072f10e4e43b043",
+      "provenance": "Author asset archive: chapters/the-gioi-trong-mo-cua-toi/artwork/chapter-page/hero.webp. Placement: reader_hero; native master retained in the supplied ZIP."
+    },
+    {
+      "source": "shared/artwork/digital-book/the-gioi-trong-mo-cua-toi/inline.webp",
+      "public_path": "assets/digital-book/the-gioi-trong-mo-cua-toi/inline.webp",
+      "sha256_at_intake": "4704699ce454c24611fd34c68b8e40c4bff350b632750a060b903b8f0d3c4fab",
+      "provenance": "Author asset archive: chapters/the-gioi-trong-mo-cua-toi/artwork/content/illustrations/01-story-detail.webp. Placement: inline_illustration; native master retained in the supplied ZIP."
+    },
+    {
+      "source": "shared/artwork/digital-book/the-gioi-trong-mo-cua-toi/centre.webp",
+      "public_path": "assets/digital-book/the-gioi-trong-mo-cua-toi/centre.webp",
+      "sha256_at_intake": "f830502261b8544b3f3b47e288a7276d990979692a1f9878d619636ad4190231",
+      "provenance": "Author asset archive: chapters/the-gioi-trong-mo-cua-toi/artwork/main-book/centre-scene.webp. Stationary centre for the rotating main-book ring."
+    },
+    {
+      "source": "shared/artwork/digital-book/nhung-thu-khong-duoc-luu-lai/mainBook.webp",
+      "public_path": "assets/digital-book/nhung-thu-khong-duoc-luu-lai/mainBook.webp",
+      "sha256_at_intake": "8829ff5318bd5702c6a1e0ce8159b3c8841195fd33c29441e4157397004492b9",
+      "provenance": "Author asset archive: chapters/nhung-thu-khong-duoc-luu-lai/artwork/main-book/portal.webp. Placement: main_book; native master retained in the supplied ZIP."
+    },
+    {
+      "source": "shared/artwork/digital-book/nhung-thu-khong-duoc-luu-lai/map.webp",
+      "public_path": "assets/digital-book/nhung-thu-khong-duoc-luu-lai/map.webp",
+      "sha256_at_intake": "9fde699c778cfd854c641dc50eea523cf992788d031845c91c32389dbc9a6b2c",
+      "provenance": "Author asset archive: chapters/nhung-thu-khong-duoc-luu-lai/artwork/chapter-map/portal.webp. Placement: chapter_map; native master retained in the supplied ZIP."
+    },
+    {
+      "source": "shared/artwork/digital-book/nhung-thu-khong-duoc-luu-lai/opening.webp",
+      "public_path": "assets/digital-book/nhung-thu-khong-duoc-luu-lai/opening.webp",
+      "sha256_at_intake": "657e5c5cb5431f9616a5d42b602c6bea55626f43f4802d37e90b3c309bbeb6aa",
+      "provenance": "Author asset archive: chapters/nhung-thu-khong-duoc-luu-lai/artwork/chapter-page/portal.webp. Placement: chapter_opening; native master retained in the supplied ZIP."
+    },
+    {
+      "source": "shared/artwork/digital-book/nhung-thu-khong-duoc-luu-lai/hero.webp",
+      "public_path": "assets/digital-book/nhung-thu-khong-duoc-luu-lai/hero.webp",
+      "sha256_at_intake": "8a2f6b9a6333466cb9faa0add4f3324f630ab5d55333b86ce3cf237f576101a7",
+      "provenance": "Author asset archive: chapters/nhung-thu-khong-duoc-luu-lai/artwork/chapter-page/hero.webp. Placement: reader_hero; native master retained in the supplied ZIP."
+    },
+    {
+      "source": "shared/artwork/digital-book/nhung-thu-khong-duoc-luu-lai/inline.webp",
+      "public_path": "assets/digital-book/nhung-thu-khong-duoc-luu-lai/inline.webp",
+      "sha256_at_intake": "032e9509ac884f00d44ef0d89d5a073f666743c5fc9e3a176f7f145cdfb9952a",
+      "provenance": "Author asset archive: chapters/nhung-thu-khong-duoc-luu-lai/artwork/content/illustrations/01-story-detail.webp. Placement: inline_illustration; native master retained in the supplied ZIP."
+    },
+    {
+      "source": "shared/artwork/digital-book/nhung-thu-khong-duoc-luu-lai/centre.webp",
+      "public_path": "assets/digital-book/nhung-thu-khong-duoc-luu-lai/centre.webp",
+      "sha256_at_intake": "602ee3d09b5259efd88da97704269772ac69bc5e112465bbf317781ada23221f",
+      "provenance": "Author asset archive: chapters/nhung-thu-khong-duoc-luu-lai/artwork/main-book/centre-scene.webp. Stationary centre for the rotating main-book ring."
+    },
+    {
+      "source": "shared/artwork/digital-book/nhung-su-trung-hop/mainBook.webp",
+      "public_path": "assets/digital-book/nhung-su-trung-hop/mainBook.webp",
+      "sha256_at_intake": "43d1aee4047e90b63984055cc5b2d71984ba4e308784a129c62c7fb2e5301166",
+      "provenance": "Author asset archive: chapters/nhung-su-trung-hop/artwork/main-book/portal.webp. Placement: main_book; native master retained in the supplied ZIP."
+    },
+    {
+      "source": "shared/artwork/digital-book/nhung-su-trung-hop/map.webp",
+      "public_path": "assets/digital-book/nhung-su-trung-hop/map.webp",
+      "sha256_at_intake": "6c422449474e50bd484c1417355be975ff7148deef6af88b349a857974d53bb6",
+      "provenance": "Author asset archive: chapters/nhung-su-trung-hop/artwork/chapter-map/portal.webp. Placement: chapter_map; native master retained in the supplied ZIP."
+    },
+    {
+      "source": "shared/artwork/digital-book/nhung-su-trung-hop/opening.webp",
+      "public_path": "assets/digital-book/nhung-su-trung-hop/opening.webp",
+      "sha256_at_intake": "c805e4cdc66ea482f6dfdb17dfebd0e811e96f0610fe95a3861fdbbe87e989f6",
+      "provenance": "Author asset archive: chapters/nhung-su-trung-hop/artwork/chapter-page/portal.webp. Placement: chapter_opening; native master retained in the supplied ZIP."
+    },
+    {
+      "source": "shared/artwork/digital-book/nhung-su-trung-hop/hero.webp",
+      "public_path": "assets/digital-book/nhung-su-trung-hop/hero.webp",
+      "sha256_at_intake": "9b4f4931f309aca67870da99e439a91b19dc723d9099777a22a0e52796dfe52a",
+      "provenance": "Author asset archive: chapters/nhung-su-trung-hop/artwork/chapter-page/hero.webp. Placement: reader_hero; native master retained in the supplied ZIP."
+    },
+    {
+      "source": "shared/artwork/digital-book/nhung-su-trung-hop/inline.webp",
+      "public_path": "assets/digital-book/nhung-su-trung-hop/inline.webp",
+      "sha256_at_intake": "a0b9eba00a22040e6e116b751adc2ae39b2ffba8a9436ca49f39827f16a6d1c1",
+      "provenance": "Author asset archive: chapters/nhung-su-trung-hop/artwork/content/illustrations/01-story-detail.webp. Placement: inline_illustration; native master retained in the supplied ZIP."
+    },
+    {
+      "source": "shared/artwork/digital-book/nhung-su-trung-hop/centre.webp",
+      "public_path": "assets/digital-book/nhung-su-trung-hop/centre.webp",
+      "sha256_at_intake": "ab2ea7cdbc40beb09ae73e3337c64d2aba9dd0d3ceddaf9a703c5c9d53361012",
+      "provenance": "Author asset archive: chapters/nhung-su-trung-hop/artwork/main-book/centre-scene.webp. Stationary centre for the rotating main-book ring."
+    },
+    {
+      "source": "shared/artwork/digital-book/vo-mong/mainBook.webp",
+      "public_path": "assets/digital-book/vo-mong/mainBook.webp",
+      "sha256_at_intake": "5bf4afd1f13a210a633c1834dd2ce0ff98b87d863b080f47b418a842282f7c21",
+      "provenance": "Author asset archive: chapters/vo-mong/artwork/main-book/portal.webp. Placement: main_book; native master retained in the supplied ZIP."
+    },
+    {
+      "source": "shared/artwork/digital-book/vo-mong/map.webp",
+      "public_path": "assets/digital-book/vo-mong/map.webp",
+      "sha256_at_intake": "0ff4f536268f1edcb72eaa76da07852ba8347948a2031d55629311f4a14ff1c1",
+      "provenance": "Author asset archive: chapters/vo-mong/artwork/chapter-map/portal.webp. Placement: chapter_map; native master retained in the supplied ZIP."
+    },
+    {
+      "source": "shared/artwork/digital-book/vo-mong/opening.webp",
+      "public_path": "assets/digital-book/vo-mong/opening.webp",
+      "sha256_at_intake": "996f53d56cb757772417e0ac81b305f9b5b39ada457ca7916cd7d064929335b1",
+      "provenance": "Author asset archive: chapters/vo-mong/artwork/chapter-page/portal.webp. Placement: chapter_opening; native master retained in the supplied ZIP."
+    },
+    {
+      "source": "shared/artwork/digital-book/vo-mong/hero.webp",
+      "public_path": "assets/digital-book/vo-mong/hero.webp",
+      "sha256_at_intake": "408dda03758452e0f3b752e7dfb58985a2c148a5a077a797a2530b4fbf125108",
+      "provenance": "Author asset archive: chapters/vo-mong/artwork/chapter-page/hero.webp. Placement: reader_hero; native master retained in the supplied ZIP."
+    },
+    {
+      "source": "shared/artwork/digital-book/vo-mong/inline.webp",
+      "public_path": "assets/digital-book/vo-mong/inline.webp",
+      "sha256_at_intake": "0cbbf24686abcc3f408eae7031374f8d4826f01e7b070cc4e194e80e1628a808",
+      "provenance": "Author asset archive: chapters/vo-mong/artwork/content/illustrations/01-story-detail.webp. Placement: inline_illustration; native master retained in the supplied ZIP."
+    },
+    {
+      "source": "shared/artwork/digital-book/vo-mong/centre.webp",
+      "public_path": "assets/digital-book/vo-mong/centre.webp",
+      "sha256_at_intake": "16baa602c76130c60dac61aca3471b533bcd5135fc9eef0cabc99340de695034",
+      "provenance": "Author asset archive: chapters/vo-mong/artwork/main-book/centre-scene.webp. Stationary centre for the rotating main-book ring."
+    },
+    {
+      "source": "shared/artwork/digital-book/nhung-nguoi-anh-em/mainBook.webp",
+      "public_path": "assets/digital-book/nhung-nguoi-anh-em/mainBook.webp",
+      "sha256_at_intake": "5fb830f3ac9a2c6bbe382f350ac6e310aaa18df104047e88c9fcca2924aa0e2f",
+      "provenance": "Author asset archive: chapters/nhung-nguoi-anh-em/artwork/main-book/portal.webp. Placement: main_book; native master retained in the supplied ZIP."
+    },
+    {
+      "source": "shared/artwork/digital-book/nhung-nguoi-anh-em/map.webp",
+      "public_path": "assets/digital-book/nhung-nguoi-anh-em/map.webp",
+      "sha256_at_intake": "2d7f82958b3783c6d18d93a60ce88aaa6db8a3abac47d5e4448343e3ffcd207f",
+      "provenance": "Author asset archive: chapters/nhung-nguoi-anh-em/artwork/chapter-map/portal.webp. Placement: chapter_map; native master retained in the supplied ZIP."
+    },
+    {
+      "source": "shared/artwork/digital-book/nhung-nguoi-anh-em/opening.webp",
+      "public_path": "assets/digital-book/nhung-nguoi-anh-em/opening.webp",
+      "sha256_at_intake": "f3f178018a1fe0fbadc1fca3adea73d78f8bff68c4b15cec9be350754bfeca36",
+      "provenance": "Author asset archive: chapters/nhung-nguoi-anh-em/artwork/chapter-page/portal.webp. Placement: chapter_opening; native master retained in the supplied ZIP."
+    },
+    {
+      "source": "shared/artwork/digital-book/nhung-nguoi-anh-em/hero.webp",
+      "public_path": "assets/digital-book/nhung-nguoi-anh-em/hero.webp",
+      "sha256_at_intake": "76164a6b5af980bc2d03c321486b60627f542de6142253e847a7e55187a45db1",
+      "provenance": "Author asset archive: chapters/nhung-nguoi-anh-em/artwork/chapter-page/hero.webp. Placement: reader_hero; native master retained in the supplied ZIP."
+    },
+    {
+      "source": "shared/artwork/digital-book/nhung-nguoi-anh-em/inline.webp",
+      "public_path": "assets/digital-book/nhung-nguoi-anh-em/inline.webp",
+      "sha256_at_intake": "709bcd742a3858ff3fc92fea8dcba3655929fce7bdd2151716668173cfe65c98",
+      "provenance": "Author asset archive: chapters/nhung-nguoi-anh-em/artwork/content/illustrations/01-story-detail.webp. Placement: inline_illustration; native master retained in the supplied ZIP."
+    },
+    {
+      "source": "shared/artwork/digital-book/nhung-nguoi-anh-em/centre.webp",
+      "public_path": "assets/digital-book/nhung-nguoi-anh-em/centre.webp",
+      "sha256_at_intake": "846fa269f7fda48f095456c61bef9d62e9841ef6437d50a8b7087dc83c67486e",
+      "provenance": "Author asset archive: chapters/nhung-nguoi-anh-em/artwork/main-book/centre-scene.webp. Stationary centre for the rotating main-book ring."
+    },
+    {
+      "source": "shared/artwork/digital-book/viet-cho-sai-gon-cua-t/mainBook.webp",
+      "public_path": "assets/digital-book/viet-cho-sai-gon-cua-t/mainBook.webp",
+      "sha256_at_intake": "73f2581cc0eceb5cc0427bcfe907a6244ebc9faca2167969d9c2ce35c753a0e3",
+      "provenance": "Author asset archive: chapters/viet-cho-sai-gon-cua-t/artwork/main-book/portal.webp. Placement: main_book; native master retained in the supplied ZIP."
+    },
+    {
+      "source": "shared/artwork/digital-book/viet-cho-sai-gon-cua-t/map.webp",
+      "public_path": "assets/digital-book/viet-cho-sai-gon-cua-t/map.webp",
+      "sha256_at_intake": "fdbaf15b9072b0f2c130e6c93b7288ed515d3ba9a56cff5a89b7004b3c6bb8af",
+      "provenance": "Author asset archive: chapters/viet-cho-sai-gon-cua-t/artwork/chapter-map/portal.webp. Placement: chapter_map; native master retained in the supplied ZIP."
+    },
+    {
+      "source": "shared/artwork/digital-book/viet-cho-sai-gon-cua-t/opening.webp",
+      "public_path": "assets/digital-book/viet-cho-sai-gon-cua-t/opening.webp",
+      "sha256_at_intake": "4b7250eb6f9cb0c362338d4eb58164aa4d420bf36319b53b892f01888b1e9cbc",
+      "provenance": "Author asset archive: chapters/viet-cho-sai-gon-cua-t/artwork/chapter-page/portal.webp. Placement: chapter_opening; native master retained in the supplied ZIP."
+    },
+    {
+      "source": "shared/artwork/digital-book/viet-cho-sai-gon-cua-t/hero.webp",
+      "public_path": "assets/digital-book/viet-cho-sai-gon-cua-t/hero.webp",
+      "sha256_at_intake": "2340b7bdd9b52d27bce0671e3ef44b2ce5e4cb5bc659ee6c99eac04a453f0ffe",
+      "provenance": "Author asset archive: chapters/viet-cho-sai-gon-cua-t/artwork/chapter-page/hero.webp. Placement: reader_hero; native master retained in the supplied ZIP."
+    },
+    {
+      "source": "shared/artwork/digital-book/viet-cho-sai-gon-cua-t/inline.webp",
+      "public_path": "assets/digital-book/viet-cho-sai-gon-cua-t/inline.webp",
+      "sha256_at_intake": "c6c0cd220a8eba3412d4aef0ea458f7563df64e3e105cb3a12889e9c5ccaef60",
+      "provenance": "Author asset archive: chapters/viet-cho-sai-gon-cua-t/artwork/content/illustrations/01-story-detail.webp. Placement: inline_illustration; native master retained in the supplied ZIP."
+    },
+    {
+      "source": "shared/artwork/digital-book/viet-cho-sai-gon-cua-t/centre.webp",
+      "public_path": "assets/digital-book/viet-cho-sai-gon-cua-t/centre.webp",
+      "sha256_at_intake": "51d71c606ab62e8d5eef0d24c6e9c1401243b73370cb161732887f4b8554947d",
+      "provenance": "Author asset archive: chapters/viet-cho-sai-gon-cua-t/artwork/main-book/centre-scene.webp. Stationary centre for the rotating main-book ring."
+    },
+    {
+      "source": "shared/artwork/digital-book/i-am-28-today/mainBook.webp",
+      "public_path": "assets/digital-book/i-am-28-today/mainBook.webp",
+      "sha256_at_intake": "3f087db4883d321b3240e5b016bc9874cbd9c2cc2af28cfa26aa58ed5399cc1f",
+      "provenance": "Author asset archive: chapters/i-am-28-today/artwork/main-book/portal.webp. Placement: main_book; native master retained in the supplied ZIP."
+    },
+    {
+      "source": "shared/artwork/digital-book/i-am-28-today/map.webp",
+      "public_path": "assets/digital-book/i-am-28-today/map.webp",
+      "sha256_at_intake": "a275a7ce44d497fe32181aefc5099f19dd626f2302235a2ac6280e11fcc73896",
+      "provenance": "Author asset archive: chapters/i-am-28-today/artwork/chapter-map/portal.webp. Placement: chapter_map; native master retained in the supplied ZIP."
+    },
+    {
+      "source": "shared/artwork/digital-book/i-am-28-today/opening.webp",
+      "public_path": "assets/digital-book/i-am-28-today/opening.webp",
+      "sha256_at_intake": "0cb1506d21add07b924bd519ccc0e25f1bc0c85fdb907dd40e9eae8a9cce3498",
+      "provenance": "Author asset archive: chapters/i-am-28-today/artwork/chapter-page/portal.webp. Placement: chapter_opening; native master retained in the supplied ZIP."
+    },
+    {
+      "source": "shared/artwork/digital-book/i-am-28-today/hero.webp",
+      "public_path": "assets/digital-book/i-am-28-today/hero.webp",
+      "sha256_at_intake": "cf98ee84e0992c6d3b329e21e6d05234aec93075e9e3c9c0efcfc3115ba089b1",
+      "provenance": "Author asset archive: chapters/i-am-28-today/artwork/chapter-page/hero.webp. Placement: reader_hero; native master retained in the supplied ZIP."
+    },
+    {
+      "source": "shared/artwork/digital-book/i-am-28-today/inline.webp",
+      "public_path": "assets/digital-book/i-am-28-today/inline.webp",
+      "sha256_at_intake": "c9585200bf961fb018c6d65aa9ba7a1d84c86fd824cb2cd0ace07603eaf15923",
+      "provenance": "Author asset archive: chapters/i-am-28-today/artwork/content/illustrations/01-story-detail.webp. Placement: inline_illustration; native master retained in the supplied ZIP."
+    },
+    {
+      "source": "shared/artwork/digital-book/i-am-28-today/centre.webp",
+      "public_path": "assets/digital-book/i-am-28-today/centre.webp",
+      "sha256_at_intake": "6b2f044a0979340d2effa33a6c26c3d11c911a364dbdf30cf37181086f7d2924",
+      "provenance": "Author asset archive: chapters/i-am-28-today/artwork/main-book/centre-scene.webp. Stationary centre for the rotating main-book ring."
+    },
+    {
+      "source": "shared/artwork/digital-book/bad-trip/mainBook.webp",
+      "public_path": "assets/digital-book/bad-trip/mainBook.webp",
+      "sha256_at_intake": "1de58f10e1e1dedd3a756689a94a69919e215e9a1a4efcaaaea8b96fdec130d4",
+      "provenance": "Author asset archive: chapters/bad-trip/artwork/main-book/portal.webp. Placement: main_book; native master retained in the supplied ZIP."
+    },
+    {
+      "source": "shared/artwork/digital-book/bad-trip/map.webp",
+      "public_path": "assets/digital-book/bad-trip/map.webp",
+      "sha256_at_intake": "0722a451884452d1e68bfe75ea9216b5839ed84af528b02204427f2798552379",
+      "provenance": "Author asset archive: chapters/bad-trip/artwork/chapter-map/portal.webp. Placement: chapter_map; native master retained in the supplied ZIP."
+    },
+    {
+      "source": "shared/artwork/digital-book/bad-trip/opening.webp",
+      "public_path": "assets/digital-book/bad-trip/opening.webp",
+      "sha256_at_intake": "fd29d876863a1513c2c657f36bd7a3ac3c63bd67808f1708cab3a9ff98d49cf9",
+      "provenance": "Author asset archive: chapters/bad-trip/artwork/chapter-page/portal.webp. Placement: chapter_opening; native master retained in the supplied ZIP."
+    },
+    {
+      "source": "shared/artwork/digital-book/bad-trip/hero.webp",
+      "public_path": "assets/digital-book/bad-trip/hero.webp",
+      "sha256_at_intake": "a00f5b38c9eefe3231c28b2423aa142b5ac2f6f54325371eee0e42ecee9bf398",
+      "provenance": "Author asset archive: chapters/bad-trip/artwork/chapter-page/hero.webp. Placement: reader_hero; native master retained in the supplied ZIP."
+    },
+    {
+      "source": "shared/artwork/digital-book/bad-trip/inline.webp",
+      "public_path": "assets/digital-book/bad-trip/inline.webp",
+      "sha256_at_intake": "cf03d89911f58cea639298e988f944928e3943ec46c75fa9ab569591edfe4509",
+      "provenance": "Author asset archive: chapters/bad-trip/artwork/content/illustrations/01-story-detail.webp. Placement: inline_illustration; native master retained in the supplied ZIP."
+    },
+    {
+      "source": "shared/artwork/digital-book/bad-trip/centre.webp",
+      "public_path": "assets/digital-book/bad-trip/centre.webp",
+      "sha256_at_intake": "ddf15f6c2067be2e604128f83a8c2996461f3ec358edc4314fea19c2e215e0fc",
+      "provenance": "Author asset archive: chapters/bad-trip/artwork/main-book/centre-scene.webp. Stationary centre for the rotating main-book ring."
+    },
+    {
+      "source": "shared/artwork/digital-book/tieu-hanh-tinh/mainBook.webp",
+      "public_path": "assets/digital-book/tieu-hanh-tinh/mainBook.webp",
+      "sha256_at_intake": "a83c721668c74d0ecb7eecf20b0c8f7ab9708bc98b288f8096c020dd4a1240b7",
+      "provenance": "Author asset archive: chapters/tieu-hanh-tinh/artwork/main-book/portal.webp. Placement: main_book; native master retained in the supplied ZIP."
+    },
+    {
+      "source": "shared/artwork/digital-book/tieu-hanh-tinh/map.webp",
+      "public_path": "assets/digital-book/tieu-hanh-tinh/map.webp",
+      "sha256_at_intake": "ba94e6260f068830509aab630b7ea2d13934bde2fd05034a42cccf392efaf2bc",
+      "provenance": "Author asset archive: chapters/tieu-hanh-tinh/artwork/chapter-map/portal.webp. Placement: chapter_map; native master retained in the supplied ZIP."
+    },
+    {
+      "source": "shared/artwork/digital-book/tieu-hanh-tinh/opening.webp",
+      "public_path": "assets/digital-book/tieu-hanh-tinh/opening.webp",
+      "sha256_at_intake": "d5836de701b5fa762c3daded22e85285c8c3de297fcbf76f98ddf739e2968453",
+      "provenance": "Author asset archive: chapters/tieu-hanh-tinh/artwork/chapter-page/portal.webp. Placement: chapter_opening; native master retained in the supplied ZIP."
+    },
+    {
+      "source": "shared/artwork/digital-book/tieu-hanh-tinh/hero.webp",
+      "public_path": "assets/digital-book/tieu-hanh-tinh/hero.webp",
+      "sha256_at_intake": "66c6db6531c73801dadd4afc706f4149504ae007298612bb71dcae9f73f8e9a0",
+      "provenance": "Author asset archive: chapters/tieu-hanh-tinh/artwork/chapter-page/hero.webp. Placement: reader_hero; native master retained in the supplied ZIP."
+    },
+    {
+      "source": "shared/artwork/digital-book/tieu-hanh-tinh/inline.webp",
+      "public_path": "assets/digital-book/tieu-hanh-tinh/inline.webp",
+      "sha256_at_intake": "8fa185ee8bb3b5536fd6f70e6e4ed21454db1283852beb095c4f8d3fe186d8b5",
+      "provenance": "Author asset archive: chapters/tieu-hanh-tinh/artwork/content/illustrations/01-story-detail.webp. Placement: inline_illustration; native master retained in the supplied ZIP."
+    },
+    {
+      "source": "shared/artwork/digital-book/tieu-hanh-tinh/centre.webp",
+      "public_path": "assets/digital-book/tieu-hanh-tinh/centre.webp",
+      "sha256_at_intake": "4a9de55fce7957e783b0aee2f3a504460d453717fb463c05b3f17dbc7ff41f3b",
+      "provenance": "Author asset archive: chapters/tieu-hanh-tinh/artwork/main-book/centre-scene.webp. Stationary centre for the rotating main-book ring."
+    },
+    {
+      "source": "shared/artwork/digital-book/three-meeting-theory/mainBook.webp",
+      "public_path": "assets/digital-book/three-meeting-theory/mainBook.webp",
+      "sha256_at_intake": "486273a870b1baac50d4f0f8dcd78dcc74c620b78d571cdafe5b357a97810b74",
+      "provenance": "Author asset archive: chapters/three-meeting-theory/artwork/main-book/portal.webp. Placement: main_book; native master retained in the supplied ZIP."
+    },
+    {
+      "source": "shared/artwork/digital-book/three-meeting-theory/map.webp",
+      "public_path": "assets/digital-book/three-meeting-theory/map.webp",
+      "sha256_at_intake": "bd606a107dff1178daea391fe6d74f2747da70de3071d1f80c38efb4c76f004d",
+      "provenance": "Author asset archive: chapters/three-meeting-theory/artwork/chapter-map/portal.webp. Placement: chapter_map; native master retained in the supplied ZIP."
+    },
+    {
+      "source": "shared/artwork/digital-book/three-meeting-theory/opening.webp",
+      "public_path": "assets/digital-book/three-meeting-theory/opening.webp",
+      "sha256_at_intake": "2de3cf2d019837a17dabbc7470ee4189c16f7b6acfe16cc525ec58bf1b8e1df4",
+      "provenance": "Author asset archive: chapters/three-meeting-theory/artwork/chapter-page/portal.webp. Placement: chapter_opening; native master retained in the supplied ZIP."
+    },
+    {
+      "source": "shared/artwork/digital-book/three-meeting-theory/hero.webp",
+      "public_path": "assets/digital-book/three-meeting-theory/hero.webp",
+      "sha256_at_intake": "19c7af3842bd6df2dec064395846d8412af62535f4ef568490bb7c1c7afbfdba",
+      "provenance": "Author asset archive: chapters/three-meeting-theory/artwork/chapter-page/hero.webp. Placement: reader_hero; native master retained in the supplied ZIP."
+    },
+    {
+      "source": "shared/artwork/digital-book/three-meeting-theory/inline.webp",
+      "public_path": "assets/digital-book/three-meeting-theory/inline.webp",
+      "sha256_at_intake": "86ed3eafa549d806ea92dac019d0ae4056bc795f0fb7f0a7b50dff9a8d014ebc",
+      "provenance": "Author asset archive: chapters/three-meeting-theory/artwork/content/illustrations/01-story-detail.webp. Placement: inline_illustration; native master retained in the supplied ZIP."
+    },
+    {
+      "source": "shared/artwork/digital-book/three-meeting-theory/centre.webp",
+      "public_path": "assets/digital-book/three-meeting-theory/centre.webp",
+      "sha256_at_intake": "37a0a022daaffc19a749c103f2356eefa4b0f787cc46a5f736fd83e795b754ad",
+      "provenance": "Author asset archive: chapters/three-meeting-theory/artwork/main-book/centre-scene.webp. Stationary centre for the rotating main-book ring."
+    },
+    {
+      "source": "shared/artwork/digital-book/dating-algorithm/mainBook.webp",
+      "public_path": "assets/digital-book/dating-algorithm/mainBook.webp",
+      "sha256_at_intake": "efb4fe90f32b53021ca6944a4d869245d9a1a98dad8f7ae6892f247824d53745",
+      "provenance": "Author asset archive: chapters/dating-algorithm/artwork/main-book/portal.webp. Placement: main_book; native master retained in the supplied ZIP."
+    },
+    {
+      "source": "shared/artwork/digital-book/dating-algorithm/map.webp",
+      "public_path": "assets/digital-book/dating-algorithm/map.webp",
+      "sha256_at_intake": "c69a9817788f56c85a42b4c5dcb2e5bc00ed67e27a17a4f4d19e38235401df66",
+      "provenance": "Author asset archive: chapters/dating-algorithm/artwork/chapter-map/portal.webp. Placement: chapter_map; native master retained in the supplied ZIP."
+    },
+    {
+      "source": "shared/artwork/digital-book/dating-algorithm/opening.webp",
+      "public_path": "assets/digital-book/dating-algorithm/opening.webp",
+      "sha256_at_intake": "a79092406469eee3ffa9ed41c37fb64379cad2b28e3201e098764746df1a0786",
+      "provenance": "Author asset archive: chapters/dating-algorithm/artwork/chapter-page/portal.webp. Placement: chapter_opening; native master retained in the supplied ZIP."
+    },
+    {
+      "source": "shared/artwork/digital-book/dating-algorithm/hero.webp",
+      "public_path": "assets/digital-book/dating-algorithm/hero.webp",
+      "sha256_at_intake": "c072273a2637732d4b95f12c81687cbe88e2a024434dfc88ae2fe4514c2ee17f",
+      "provenance": "Author asset archive: chapters/dating-algorithm/artwork/chapter-page/hero.webp. Placement: reader_hero; native master retained in the supplied ZIP."
+    },
+    {
+      "source": "shared/artwork/digital-book/dating-algorithm/inline.webp",
+      "public_path": "assets/digital-book/dating-algorithm/inline.webp",
+      "sha256_at_intake": "b2ff59a9463bd2297c95b724b8dfc6c24e275c721d77c036ecd3222ccfea733a",
+      "provenance": "Author asset archive: chapters/dating-algorithm/artwork/content/illustrations/01-story-detail.webp. Placement: inline_illustration; native master retained in the supplied ZIP."
+    },
+    {
+      "source": "shared/artwork/digital-book/dating-algorithm/centre.webp",
+      "public_path": "assets/digital-book/dating-algorithm/centre.webp",
+      "sha256_at_intake": "6bac055f172c70706efafb4a24aa01d0908485f86af0a091f01bfcf0797dc69a",
+      "provenance": "Author asset archive: chapters/dating-algorithm/artwork/main-book/centre-scene.webp. Stationary centre for the rotating main-book ring."
+    },
+    {
+      "source": "shared/artwork/digital-book/dating-102/mainBook.webp",
+      "public_path": "assets/digital-book/dating-102/mainBook.webp",
+      "sha256_at_intake": "2fa4767d96cde2a6456a02925bab50a4493db12ae2d3ad29edb10429f534be31",
+      "provenance": "Author asset archive: chapters/dating-102/artwork/main-book/portal.webp. Placement: main_book; native master retained in the supplied ZIP."
+    },
+    {
+      "source": "shared/artwork/digital-book/dating-102/map.webp",
+      "public_path": "assets/digital-book/dating-102/map.webp",
+      "sha256_at_intake": "cf8dd919b37f034f1a5fabd575d28951e0cf385ac6f9616d1d3483fcdebb9224",
+      "provenance": "Author asset archive: chapters/dating-102/artwork/chapter-map/portal.webp. Placement: chapter_map; native master retained in the supplied ZIP."
+    },
+    {
+      "source": "shared/artwork/digital-book/dating-102/opening.webp",
+      "public_path": "assets/digital-book/dating-102/opening.webp",
+      "sha256_at_intake": "44e5de01346dd64b7c6c34ac478e39d5d8dc2afeee661b59836ca9874dd18190",
+      "provenance": "Author asset archive: chapters/dating-102/artwork/chapter-page/portal.webp. Placement: chapter_opening; native master retained in the supplied ZIP."
+    },
+    {
+      "source": "shared/artwork/digital-book/dating-102/hero.webp",
+      "public_path": "assets/digital-book/dating-102/hero.webp",
+      "sha256_at_intake": "3c1e4d80a377de47d6e097fa27e1d097e33a36d3c5f1ea5e7fea05ff3122c857",
+      "provenance": "Author asset archive: chapters/dating-102/artwork/chapter-page/hero.webp. Placement: reader_hero; native master retained in the supplied ZIP."
+    },
+    {
+      "source": "shared/artwork/digital-book/dating-102/inline.webp",
+      "public_path": "assets/digital-book/dating-102/inline.webp",
+      "sha256_at_intake": "cea1e29c8e2e78585bf2fe712e18e0e24fec066fe2897d88ee42905f28fc375f",
+      "provenance": "Author asset archive: chapters/dating-102/artwork/content/illustrations/01-story-detail.webp. Placement: inline_illustration; native master retained in the supplied ZIP."
+    },
+    {
+      "source": "shared/artwork/digital-book/dating-102/centre.webp",
+      "public_path": "assets/digital-book/dating-102/centre.webp",
+      "sha256_at_intake": "49f5c211492b7e7325b56705f16591b726fea30f99f0db5a0934d8d99f8b0d77",
+      "provenance": "Author asset archive: chapters/dating-102/artwork/main-book/centre-scene.webp. Stationary centre for the rotating main-book ring."
+    },
+    {
+      "source": "shared/artwork/digital-book/to-mary-jane/mainBook.webp",
+      "public_path": "assets/digital-book/to-mary-jane/mainBook.webp",
+      "sha256_at_intake": "b98d4e90c7d5b6fe1e3c5a821f7cdd3069b28f50e4b0994a34fd34dc5505e437",
+      "provenance": "Author asset archive: chapters/to-mary-jane/artwork/main-book/portal.webp. Placement: main_book; native master retained in the supplied ZIP."
+    },
+    {
+      "source": "shared/artwork/digital-book/to-mary-jane/map.webp",
+      "public_path": "assets/digital-book/to-mary-jane/map.webp",
+      "sha256_at_intake": "2edc97ae8910c00e8edbe911c4c4f9fc8ca5a5f6fcfec54c717514cafbc47c75",
+      "provenance": "Author asset archive: chapters/to-mary-jane/artwork/chapter-map/portal.webp. Placement: chapter_map; native master retained in the supplied ZIP."
+    },
+    {
+      "source": "shared/artwork/digital-book/to-mary-jane/opening.webp",
+      "public_path": "assets/digital-book/to-mary-jane/opening.webp",
+      "sha256_at_intake": "e66b16e6d6838bdadac8adc71460b3cd5be08f0fe6c4c35090f4f06bb816936e",
+      "provenance": "Author asset archive: chapters/to-mary-jane/artwork/chapter-page/portal.webp. Placement: chapter_opening; native master retained in the supplied ZIP."
+    },
+    {
+      "source": "shared/artwork/digital-book/to-mary-jane/hero.webp",
+      "public_path": "assets/digital-book/to-mary-jane/hero.webp",
+      "sha256_at_intake": "50f3713b43416ca4962996ab1f150eea82063d69634f1157e92a0e79122925a2",
+      "provenance": "Author asset archive: chapters/to-mary-jane/artwork/chapter-page/hero.webp. Placement: reader_hero; native master retained in the supplied ZIP."
+    },
+    {
+      "source": "shared/artwork/digital-book/to-mary-jane/inline.webp",
+      "public_path": "assets/digital-book/to-mary-jane/inline.webp",
+      "sha256_at_intake": "01211100f2279ff9359738d1a1c3d5da4d0090f8ad55b76cde6c04c0c45305e1",
+      "provenance": "Author asset archive: chapters/to-mary-jane/artwork/content/illustrations/01-story-detail.webp. Placement: inline_illustration; native master retained in the supplied ZIP."
+    },
+    {
+      "source": "shared/artwork/digital-book/to-mary-jane/centre.webp",
+      "public_path": "assets/digital-book/to-mary-jane/centre.webp",
+      "sha256_at_intake": "558221d2170fdcd63a7b61406d36682f2dc156198554b0147403a684438cfce5",
+      "provenance": "Author asset archive: chapters/to-mary-jane/artwork/main-book/centre-scene.webp. Stationary centre for the rotating main-book ring."
+    },
+    {
+      "source": "shared/artwork/digital-book/runaway/mainBook.webp",
+      "public_path": "assets/digital-book/runaway/mainBook.webp",
+      "sha256_at_intake": "afc9fdb5b76b22d26f4888647c44ad68eeade0547e9068c89bbf16955fc4c052",
+      "provenance": "Author asset archive: chapters/runaway/artwork/main-book/portal.webp. Placement: main_book; native master retained in the supplied ZIP."
+    },
+    {
+      "source": "shared/artwork/digital-book/runaway/map.webp",
+      "public_path": "assets/digital-book/runaway/map.webp",
+      "sha256_at_intake": "e7160df357b41627fd108d1093ef36008d8ddb5f018df7e18f368e337ed23589",
+      "provenance": "Author asset archive: chapters/runaway/artwork/chapter-map/portal.webp. Placement: chapter_map; native master retained in the supplied ZIP."
+    },
+    {
+      "source": "shared/artwork/digital-book/runaway/opening.webp",
+      "public_path": "assets/digital-book/runaway/opening.webp",
+      "sha256_at_intake": "11b3ccdcb4c3715bde50e4338758bfc5d63fd73cad4216797ea22bf836fd1885",
+      "provenance": "Author asset archive: chapters/runaway/artwork/chapter-page/portal.webp. Placement: chapter_opening; native master retained in the supplied ZIP."
+    },
+    {
+      "source": "shared/artwork/digital-book/runaway/hero.webp",
+      "public_path": "assets/digital-book/runaway/hero.webp",
+      "sha256_at_intake": "6d80d420607348c286e1dadc9141363da628de7db2a02f2a97fa839d921ad3a3",
+      "provenance": "Author asset archive: chapters/runaway/artwork/chapter-page/hero.webp. Placement: reader_hero; native master retained in the supplied ZIP."
+    },
+    {
+      "source": "shared/artwork/digital-book/runaway/inline.webp",
+      "public_path": "assets/digital-book/runaway/inline.webp",
+      "sha256_at_intake": "4c029ccf2b4886351c0f21df7e32d68c2a5903504c5b0c5d473d2f01b7703c10",
+      "provenance": "Author asset archive: chapters/runaway/artwork/content/illustrations/01-story-detail.webp. Placement: inline_illustration; native master retained in the supplied ZIP."
+    },
+    {
+      "source": "shared/artwork/digital-book/runaway/centre.webp",
+      "public_path": "assets/digital-book/runaway/centre.webp",
+      "sha256_at_intake": "6def0dd0d44abaaa90486a5467c2ffeb02a258cff79ff28d47a0de4bd48864c2",
+      "provenance": "Author asset archive: chapters/runaway/artwork/main-book/centre-scene.webp. Stationary centre for the rotating main-book ring."
+    },
+    {
+      "source": "shared/artwork/digital-book/nhung-hinh-chieu-xau-xi/mainBook.webp",
+      "public_path": "assets/digital-book/nhung-hinh-chieu-xau-xi/mainBook.webp",
+      "sha256_at_intake": "ddac11df46a5fb1df19b6d49120b34691d5a096f34e17c3e13f28cce2b622195",
+      "provenance": "Author asset archive: chapters/nhung-hinh-chieu-xau-xi/artwork/main-book/portal.webp. Placement: main_book; native master retained in the supplied ZIP."
+    },
+    {
+      "source": "shared/artwork/digital-book/nhung-hinh-chieu-xau-xi/map.webp",
+      "public_path": "assets/digital-book/nhung-hinh-chieu-xau-xi/map.webp",
+      "sha256_at_intake": "f0f76c997296de871ad258f0b375fbf7076d9d40ede87816e673a11a58aac8bd",
+      "provenance": "Author asset archive: chapters/nhung-hinh-chieu-xau-xi/artwork/chapter-map/portal.webp. Placement: chapter_map; native master retained in the supplied ZIP."
+    },
+    {
+      "source": "shared/artwork/digital-book/nhung-hinh-chieu-xau-xi/opening.webp",
+      "public_path": "assets/digital-book/nhung-hinh-chieu-xau-xi/opening.webp",
+      "sha256_at_intake": "a885e00ab249f55547145aa94bcfe9ff5a15bc7aaf594486f37e4b458e640086",
+      "provenance": "Author asset archive: chapters/nhung-hinh-chieu-xau-xi/artwork/chapter-page/portal.webp. Placement: chapter_opening; native master retained in the supplied ZIP."
+    },
+    {
+      "source": "shared/artwork/digital-book/nhung-hinh-chieu-xau-xi/hero.webp",
+      "public_path": "assets/digital-book/nhung-hinh-chieu-xau-xi/hero.webp",
+      "sha256_at_intake": "2c861b34e834202cc22fdac5efa2782df05b82c368a872c41eaba01e3170959e",
+      "provenance": "Author asset archive: chapters/nhung-hinh-chieu-xau-xi/artwork/chapter-page/hero.webp. Placement: reader_hero; native master retained in the supplied ZIP."
+    },
+    {
+      "source": "shared/artwork/digital-book/nhung-hinh-chieu-xau-xi/inline.webp",
+      "public_path": "assets/digital-book/nhung-hinh-chieu-xau-xi/inline.webp",
+      "sha256_at_intake": "a87f337df2492c8ac65614bf8aa349e4b9b33d4623d4091b57b842e2bce3e633",
+      "provenance": "Author asset archive: chapters/nhung-hinh-chieu-xau-xi/artwork/content/illustrations/01-story-detail.webp. Placement: inline_illustration; native master retained in the supplied ZIP."
+    },
+    {
+      "source": "shared/artwork/digital-book/nhung-hinh-chieu-xau-xi/centre.webp",
+      "public_path": "assets/digital-book/nhung-hinh-chieu-xau-xi/centre.webp",
+      "sha256_at_intake": "66bcb02744ef956e85390e0b0d116d28d58b4f2b8465f1828b423dd4be075fec",
+      "provenance": "Author asset archive: chapters/nhung-hinh-chieu-xau-xi/artwork/main-book/centre-scene.webp. Stationary centre for the rotating main-book ring."
+    },
+    {
+      "source": "shared/artwork/digital-book/the-23-word-nuclear-warhead/mainBook.webp",
+      "public_path": "assets/digital-book/the-23-word-nuclear-warhead/mainBook.webp",
+      "sha256_at_intake": "b92c4df159d49e5111cc809c2091d46c77a7847734099309344ad1d23089b6bd",
+      "provenance": "Author asset archive: chapters/the-23-word-nuclear-warhead/artwork/main-book/portal.webp. Placement: main_book; native master retained in the supplied ZIP."
+    },
+    {
+      "source": "shared/artwork/digital-book/the-23-word-nuclear-warhead/map.webp",
+      "public_path": "assets/digital-book/the-23-word-nuclear-warhead/map.webp",
+      "sha256_at_intake": "2507434d9c1b5921f239612004af14b416eb650b6b96269789dd6ca26fa37d30",
+      "provenance": "Author asset archive: chapters/the-23-word-nuclear-warhead/artwork/chapter-map/portal.webp. Placement: chapter_map; native master retained in the supplied ZIP."
+    },
+    {
+      "source": "shared/artwork/digital-book/the-23-word-nuclear-warhead/opening.webp",
+      "public_path": "assets/digital-book/the-23-word-nuclear-warhead/opening.webp",
+      "sha256_at_intake": "57f962951ff2677a336440f85355ff08116517de1111e54ccd2bb0e7ee7c07ee",
+      "provenance": "Author asset archive: chapters/the-23-word-nuclear-warhead/artwork/chapter-page/portal.webp. Placement: chapter_opening; native master retained in the supplied ZIP."
+    },
+    {
+      "source": "shared/artwork/digital-book/the-23-word-nuclear-warhead/hero.webp",
+      "public_path": "assets/digital-book/the-23-word-nuclear-warhead/hero.webp",
+      "sha256_at_intake": "c9fbba4c8ca877d83444b9a71ca83403796578c7e942d0dec12d74f8f8f0f1c7",
+      "provenance": "Author asset archive: chapters/the-23-word-nuclear-warhead/artwork/chapter-page/hero.webp. Placement: reader_hero; native master retained in the supplied ZIP."
+    },
+    {
+      "source": "shared/artwork/digital-book/the-23-word-nuclear-warhead/inline.webp",
+      "public_path": "assets/digital-book/the-23-word-nuclear-warhead/inline.webp",
+      "sha256_at_intake": "518edc42c2213e1e5e5afd461b9be1878622d70921b8ff919b6e1062fdecbed1",
+      "provenance": "Author asset archive: chapters/the-23-word-nuclear-warhead/artwork/content/illustrations/01-story-detail.webp. Placement: inline_illustration; native master retained in the supplied ZIP."
+    },
+    {
+      "source": "shared/artwork/digital-book/the-23-word-nuclear-warhead/centre.webp",
+      "public_path": "assets/digital-book/the-23-word-nuclear-warhead/centre.webp",
+      "sha256_at_intake": "84c77723291e9604b7fdcfc9b729b9d521a48faea917fbf04c31bbc9423e7a01",
+      "provenance": "Author asset archive: chapters/the-23-word-nuclear-warhead/artwork/main-book/centre-scene.webp. Stationary centre for the rotating main-book ring."
+    },
+    {
+      "source": "shared/artwork/digital-book/the-payoff-matrix/mainBook.webp",
+      "public_path": "assets/digital-book/the-payoff-matrix/mainBook.webp",
+      "sha256_at_intake": "349d4e85f9810d95fd9aec2d3336fa0cfd44a84c6d86754eab9b9b66aec506a1",
+      "provenance": "Author asset archive: chapters/the-payoff-matrix/artwork/main-book/portal.webp. Placement: main_book; native master retained in the supplied ZIP."
+    },
+    {
+      "source": "shared/artwork/digital-book/the-payoff-matrix/map.webp",
+      "public_path": "assets/digital-book/the-payoff-matrix/map.webp",
+      "sha256_at_intake": "e73e9ecb2d5ae901f4bcd3918bbb304c73efe06003ed387b825136fc91a50010",
+      "provenance": "Author asset archive: chapters/the-payoff-matrix/artwork/chapter-map/portal.webp. Placement: chapter_map; native master retained in the supplied ZIP."
+    },
+    {
+      "source": "shared/artwork/digital-book/the-payoff-matrix/opening.webp",
+      "public_path": "assets/digital-book/the-payoff-matrix/opening.webp",
+      "sha256_at_intake": "af560cc5d66f3f3790bd5557ee8625da26fa9762e703fe998568363e19ddff3c",
+      "provenance": "Author asset archive: chapters/the-payoff-matrix/artwork/chapter-page/portal.webp. Placement: chapter_opening; native master retained in the supplied ZIP."
+    },
+    {
+      "source": "shared/artwork/digital-book/the-payoff-matrix/hero.webp",
+      "public_path": "assets/digital-book/the-payoff-matrix/hero.webp",
+      "sha256_at_intake": "fa008d32f9cd8519a9a31f25abc6c38047ba6900c2533ac05d1c09c4657ccdcf",
+      "provenance": "Author asset archive: chapters/the-payoff-matrix/artwork/chapter-page/hero.webp. Placement: reader_hero; native master retained in the supplied ZIP."
+    },
+    {
+      "source": "shared/artwork/digital-book/the-payoff-matrix/inline.webp",
+      "public_path": "assets/digital-book/the-payoff-matrix/inline.webp",
+      "sha256_at_intake": "92cd43e585bb73bf6ec5fa5ff0966ec0de7a1ace45e0acf0c3c0018383876bf1",
+      "provenance": "Author asset archive: chapters/the-payoff-matrix/artwork/content/illustrations/01-story-detail.webp. Placement: inline_illustration; native master retained in the supplied ZIP."
+    },
+    {
+      "source": "shared/artwork/digital-book/the-payoff-matrix/centre.webp",
+      "public_path": "assets/digital-book/the-payoff-matrix/centre.webp",
+      "sha256_at_intake": "1ce6eb2ccdd0f80fdbcdc2ae03792ef6b003b3b905cfccdb26c91ef1aabde273",
+      "provenance": "Author asset archive: chapters/the-payoff-matrix/artwork/main-book/centre-scene.webp. Stationary centre for the rotating main-book ring."
+    },
+    {
+      "source": "shared/artwork/digital-book/better-and-brighter-than-ever/mainBook.webp",
+      "public_path": "assets/digital-book/better-and-brighter-than-ever/mainBook.webp",
+      "sha256_at_intake": "4cb637d24624892616e614f0e03b40e2c52b82d75c1821353b9b50cc5382d7fb",
+      "provenance": "Author asset archive: chapters/better-and-brighter-than-ever/artwork/main-book/portal.webp. Placement: main_book; native master retained in the supplied ZIP."
+    },
+    {
+      "source": "shared/artwork/digital-book/better-and-brighter-than-ever/map.webp",
+      "public_path": "assets/digital-book/better-and-brighter-than-ever/map.webp",
+      "sha256_at_intake": "4fafee3ae1906b8ba87f6bef4ba0a60b2e74595b6993df3d20da7ecd4a83654b",
+      "provenance": "Author asset archive: chapters/better-and-brighter-than-ever/artwork/chapter-map/portal.webp. Placement: chapter_map; native master retained in the supplied ZIP."
+    },
+    {
+      "source": "shared/artwork/digital-book/better-and-brighter-than-ever/opening.webp",
+      "public_path": "assets/digital-book/better-and-brighter-than-ever/opening.webp",
+      "sha256_at_intake": "8ca9551faebbd42c768978ed650fe18670d1897d2a4782e58b81dee241e30fab",
+      "provenance": "Author asset archive: chapters/better-and-brighter-than-ever/artwork/chapter-page/portal.webp. Placement: chapter_opening; native master retained in the supplied ZIP."
+    },
+    {
+      "source": "shared/artwork/digital-book/better-and-brighter-than-ever/hero.webp",
+      "public_path": "assets/digital-book/better-and-brighter-than-ever/hero.webp",
+      "sha256_at_intake": "d8b982f4eb954247d83fbfcdfd31bbf51bc4c960c9679f042423fdb614710074",
+      "provenance": "Author asset archive: chapters/better-and-brighter-than-ever/artwork/chapter-page/hero.webp. Placement: reader_hero; native master retained in the supplied ZIP."
+    },
+    {
+      "source": "shared/artwork/digital-book/better-and-brighter-than-ever/inline.webp",
+      "public_path": "assets/digital-book/better-and-brighter-than-ever/inline.webp",
+      "sha256_at_intake": "b5a002ad7886c9101d1c315f5c3637bcf85819097cb05dc77b757229b6c9885b",
+      "provenance": "Author asset archive: chapters/better-and-brighter-than-ever/artwork/content/illustrations/01-story-detail.webp. Placement: inline_illustration; native master retained in the supplied ZIP."
+    },
+    {
+      "source": "shared/artwork/digital-book/better-and-brighter-than-ever/centre.webp",
+      "public_path": "assets/digital-book/better-and-brighter-than-ever/centre.webp",
+      "sha256_at_intake": "8b8c11b8bf50635d23357deabb60b74cd6fe9d7f89b84b64234d81fac75bedf8",
+      "provenance": "Author asset archive: chapters/better-and-brighter-than-ever/artwork/main-book/centre-scene.webp. Stationary centre for the rotating main-book ring."
+    },
+    {
+      "source": "shared/artwork/digital-book/masterclass-in-record-keeping/mainBook.webp",
+      "public_path": "assets/digital-book/masterclass-in-record-keeping/mainBook.webp",
+      "sha256_at_intake": "0dfc7a5464266edab10c7f859eddbe9c1d825a4d19b460ae544c79d2da778894",
+      "provenance": "Author asset archive: chapters/masterclass-in-record-keeping/artwork/main-book/portal.webp. Placement: main_book; native master retained in the supplied ZIP."
+    },
+    {
+      "source": "shared/artwork/digital-book/masterclass-in-record-keeping/map.webp",
+      "public_path": "assets/digital-book/masterclass-in-record-keeping/map.webp",
+      "sha256_at_intake": "58b2742d80f96a2acf0dfd0dfd0f769a970d88818f4ce7160f79a917dc7af6b2",
+      "provenance": "Author asset archive: chapters/masterclass-in-record-keeping/artwork/chapter-map/portal.webp. Placement: chapter_map; native master retained in the supplied ZIP."
+    },
+    {
+      "source": "shared/artwork/digital-book/masterclass-in-record-keeping/opening.webp",
+      "public_path": "assets/digital-book/masterclass-in-record-keeping/opening.webp",
+      "sha256_at_intake": "e147dba19067b24b0974a824cf4dad10ae10814fdbebe89573f17f99fd3dd475",
+      "provenance": "Author asset archive: chapters/masterclass-in-record-keeping/artwork/chapter-page/portal.webp. Placement: chapter_opening; native master retained in the supplied ZIP."
+    },
+    {
+      "source": "shared/artwork/digital-book/masterclass-in-record-keeping/hero.webp",
+      "public_path": "assets/digital-book/masterclass-in-record-keeping/hero.webp",
+      "sha256_at_intake": "3fca0a131c7704b272f6a7835e75f8918887dec057ade7cf5fc0b6d71c937879",
+      "provenance": "Author asset archive: chapters/masterclass-in-record-keeping/artwork/chapter-page/hero.webp. Placement: reader_hero; native master retained in the supplied ZIP."
+    },
+    {
+      "source": "shared/artwork/digital-book/masterclass-in-record-keeping/inline.webp",
+      "public_path": "assets/digital-book/masterclass-in-record-keeping/inline.webp",
+      "sha256_at_intake": "2915f33e807dc6e9ca97e1bbd1120a7143b17cfa324098ecd8be522afff7b360",
+      "provenance": "Author asset archive: chapters/masterclass-in-record-keeping/artwork/content/illustrations/01-story-detail.webp. Placement: inline_illustration; native master retained in the supplied ZIP."
+    },
+    {
+      "source": "shared/artwork/digital-book/masterclass-in-record-keeping/centre.webp",
+      "public_path": "assets/digital-book/masterclass-in-record-keeping/centre.webp",
+      "sha256_at_intake": "318d69595cb1a67e507582608852a80dd3a801ca640ce9d0d91769a8e945db15",
+      "provenance": "Author asset archive: chapters/masterclass-in-record-keeping/artwork/main-book/centre-scene.webp. Stationary centre for the rotating main-book ring."
+    },
+    {
+      "source": "shared/artwork/digital-book/good-boy/mainBook.webp",
+      "public_path": "assets/digital-book/good-boy/mainBook.webp",
+      "sha256_at_intake": "d8491ac0c547db060545e82ca3647c317361a318d6b2f8c7f4c7fcdc7eb36b55",
+      "provenance": "Author asset archive: chapters/good-boy/artwork/main-book/portal.webp. Placement: main_book; native master retained in the supplied ZIP."
+    },
+    {
+      "source": "shared/artwork/digital-book/good-boy/map.webp",
+      "public_path": "assets/digital-book/good-boy/map.webp",
+      "sha256_at_intake": "7c1175456698e763249edc7768a1d9988203d59c22372863092b3d5c7717fea0",
+      "provenance": "Author asset archive: chapters/good-boy/artwork/chapter-map/portal.webp. Placement: chapter_map; native master retained in the supplied ZIP."
+    },
+    {
+      "source": "shared/artwork/digital-book/good-boy/opening.webp",
+      "public_path": "assets/digital-book/good-boy/opening.webp",
+      "sha256_at_intake": "d04440491657136c74bd6258ba167fed0a976efbd65597574fdd31986cc793fe",
+      "provenance": "Author asset archive: chapters/good-boy/artwork/chapter-page/portal.webp. Placement: chapter_opening; native master retained in the supplied ZIP."
+    },
+    {
+      "source": "shared/artwork/digital-book/good-boy/hero.webp",
+      "public_path": "assets/digital-book/good-boy/hero.webp",
+      "sha256_at_intake": "67c5ede45f248862f70a57a6dc9a735bce6d6239fce42ff456c9036bc1663706",
+      "provenance": "Author asset archive: chapters/good-boy/artwork/chapter-page/hero.webp. Placement: reader_hero; native master retained in the supplied ZIP."
+    },
+    {
+      "source": "shared/artwork/digital-book/good-boy/inline.webp",
+      "public_path": "assets/digital-book/good-boy/inline.webp",
+      "sha256_at_intake": "a4a94548904442f60470e5ae1f6ea93a243548adfb216d3c40b3feba320969d1",
+      "provenance": "Author asset archive: chapters/good-boy/artwork/content/illustrations/01-story-detail.webp. Placement: inline_illustration; native master retained in the supplied ZIP."
+    },
+    {
+      "source": "shared/artwork/digital-book/good-boy/centre.webp",
+      "public_path": "assets/digital-book/good-boy/centre.webp",
+      "sha256_at_intake": "40f6e223ff5176fb4eecc2d4903a4cc3073b660195b2c8fa79b5111a1218b119",
+      "provenance": "Author asset archive: chapters/good-boy/artwork/main-book/centre-scene.webp. Stationary centre for the rotating main-book ring."
+    },
+    {
+      "source": "shared/artwork/digital-book/the-moral-story-schools-dont-teach-you/mainBook.webp",
+      "public_path": "assets/digital-book/the-moral-story-schools-dont-teach-you/mainBook.webp",
+      "sha256_at_intake": "5ec5d7bbf55bbe14493e4ef216f69beac3a513f723cbf1b6d4e6ee4fc52ded6b",
+      "provenance": "Author asset archive: chapters/the-moral-story-schools-dont-teach-you/artwork/main-book/portal.webp. Placement: main_book; native master retained in the supplied ZIP."
+    },
+    {
+      "source": "shared/artwork/digital-book/the-moral-story-schools-dont-teach-you/map.webp",
+      "public_path": "assets/digital-book/the-moral-story-schools-dont-teach-you/map.webp",
+      "sha256_at_intake": "2099125027056ee8549645dec50b40fd390acf8b38e6c217d07eb3c4bd574ee1",
+      "provenance": "Author asset archive: chapters/the-moral-story-schools-dont-teach-you/artwork/chapter-map/portal.webp. Placement: chapter_map; native master retained in the supplied ZIP."
+    },
+    {
+      "source": "shared/artwork/digital-book/the-moral-story-schools-dont-teach-you/opening.webp",
+      "public_path": "assets/digital-book/the-moral-story-schools-dont-teach-you/opening.webp",
+      "sha256_at_intake": "292ab0a828a616ef09a3860722ea5bcc90454382234a758a93f9307a9cd30b57",
+      "provenance": "Author asset archive: chapters/the-moral-story-schools-dont-teach-you/artwork/chapter-page/portal.webp. Placement: chapter_opening; native master retained in the supplied ZIP."
+    },
+    {
+      "source": "shared/artwork/digital-book/the-moral-story-schools-dont-teach-you/hero.webp",
+      "public_path": "assets/digital-book/the-moral-story-schools-dont-teach-you/hero.webp",
+      "sha256_at_intake": "6f94c568bdb9bd97de16321586e0e0050c2a5d100b51fac7aada7617ed4888ba",
+      "provenance": "Author asset archive: chapters/the-moral-story-schools-dont-teach-you/artwork/chapter-page/hero.webp. Placement: reader_hero; native master retained in the supplied ZIP."
+    },
+    {
+      "source": "shared/artwork/digital-book/the-moral-story-schools-dont-teach-you/inline.webp",
+      "public_path": "assets/digital-book/the-moral-story-schools-dont-teach-you/inline.webp",
+      "sha256_at_intake": "1f8e1eb7ca0ddc8abd65615c3458d81d817ee026b2abfdc613adc5224f9c91ee",
+      "provenance": "Author asset archive: chapters/the-moral-story-schools-dont-teach-you/artwork/content/illustrations/01-story-detail.webp. Placement: inline_illustration; native master retained in the supplied ZIP."
+    },
+    {
+      "source": "shared/artwork/digital-book/the-moral-story-schools-dont-teach-you/centre.webp",
+      "public_path": "assets/digital-book/the-moral-story-schools-dont-teach-you/centre.webp",
+      "sha256_at_intake": "1f9cb4b99ec479a9eb8311429691a772822f9efe13c04a9b296d5d28b081ccef",
+      "provenance": "Author asset archive: chapters/the-moral-story-schools-dont-teach-you/artwork/main-book/centre-scene.webp. Stationary centre for the rotating main-book ring."
+    },
+    {
+      "source": "shared/artwork/digital-book/negative-sum-game/mainBook.webp",
+      "public_path": "assets/digital-book/negative-sum-game/mainBook.webp",
+      "sha256_at_intake": "9317632ee9674e1d08269d91b04e073c0df01537dbe503315ec663b17f55343d",
+      "provenance": "Author asset archive: chapters/negative-sum-game/artwork/main-book/portal.webp. Placement: main_book; native master retained in the supplied ZIP."
+    },
+    {
+      "source": "shared/artwork/digital-book/negative-sum-game/map.webp",
+      "public_path": "assets/digital-book/negative-sum-game/map.webp",
+      "sha256_at_intake": "48c9c607225976275a82e663b5a20feca5bfbd80fd45743700eece8de0ead97a",
+      "provenance": "Author asset archive: chapters/negative-sum-game/artwork/chapter-map/portal.webp. Placement: chapter_map; native master retained in the supplied ZIP."
+    },
+    {
+      "source": "shared/artwork/digital-book/negative-sum-game/opening.webp",
+      "public_path": "assets/digital-book/negative-sum-game/opening.webp",
+      "sha256_at_intake": "8c9e9422df596c16a653054472a320bcdd25623239efd67430f5e861796d5e38",
+      "provenance": "Author asset archive: chapters/negative-sum-game/artwork/chapter-page/portal.webp. Placement: chapter_opening; native master retained in the supplied ZIP."
+    },
+    {
+      "source": "shared/artwork/digital-book/negative-sum-game/hero.webp",
+      "public_path": "assets/digital-book/negative-sum-game/hero.webp",
+      "sha256_at_intake": "7b4873a06bc636cc2e331b16104282ce36174c751001292139f0b64496829740",
+      "provenance": "Author asset archive: chapters/negative-sum-game/artwork/chapter-page/hero.webp. Placement: reader_hero; native master retained in the supplied ZIP."
+    },
+    {
+      "source": "shared/artwork/digital-book/negative-sum-game/inline.webp",
+      "public_path": "assets/digital-book/negative-sum-game/inline.webp",
+      "sha256_at_intake": "f226776a99cb8d3b0f76cb6e4070d9174826ed5066b86049e66db4bfd4785e86",
+      "provenance": "Author asset archive: chapters/negative-sum-game/artwork/content/illustrations/01-story-detail.webp. Placement: inline_illustration; native master retained in the supplied ZIP."
+    },
+    {
+      "source": "shared/artwork/digital-book/negative-sum-game/centre.webp",
+      "public_path": "assets/digital-book/negative-sum-game/centre.webp",
+      "sha256_at_intake": "5c18eb96e979f9dfb0b2c8783b19970478fc4fdcd2875f2dc3d1fcd7b1c6f327",
+      "provenance": "Author asset archive: chapters/negative-sum-game/artwork/main-book/centre-scene.webp. Stationary centre for the rotating main-book ring."
+    },
+    {
+      "source": "shared/artwork/digital-book/sharingan/mainBook.webp",
+      "public_path": "assets/digital-book/sharingan/mainBook.webp",
+      "sha256_at_intake": "18f9a1ccaeebd31f0bb07f0a4cc87b29c5371bee87cf1f93cbffe59f6e54e165",
+      "provenance": "Author asset archive: chapters/sharingan/artwork/main-book/portal.webp. Placement: main_book; native master retained in the supplied ZIP."
+    },
+    {
+      "source": "shared/artwork/digital-book/sharingan/map.webp",
+      "public_path": "assets/digital-book/sharingan/map.webp",
+      "sha256_at_intake": "2adba22e815144d15143d807304390df940998e9a287e354f2f294a401cc3a04",
+      "provenance": "Author asset archive: chapters/sharingan/artwork/chapter-map/portal.webp. Placement: chapter_map; native master retained in the supplied ZIP."
+    },
+    {
+      "source": "shared/artwork/digital-book/sharingan/opening.webp",
+      "public_path": "assets/digital-book/sharingan/opening.webp",
+      "sha256_at_intake": "cadb6a885119021bb23e7f60dbd4779debd63c90ddaccf6159460a353eeb7208",
+      "provenance": "Author asset archive: chapters/sharingan/artwork/chapter-page/portal.webp. Placement: chapter_opening; native master retained in the supplied ZIP."
+    },
+    {
+      "source": "shared/artwork/digital-book/sharingan/hero.webp",
+      "public_path": "assets/digital-book/sharingan/hero.webp",
+      "sha256_at_intake": "70cb67c6530803230cb5f4dc9b8b1b96ebe4957e199c783ddd839136a9e422b0",
+      "provenance": "Author asset archive: chapters/sharingan/artwork/chapter-page/hero.webp. Placement: reader_hero; native master retained in the supplied ZIP."
+    },
+    {
+      "source": "shared/artwork/digital-book/sharingan/inline.webp",
+      "public_path": "assets/digital-book/sharingan/inline.webp",
+      "sha256_at_intake": "366e28a145a5e51411f0f4b7ba6f0db4d1df6b281f385c43719df15bd4d97c79",
+      "provenance": "Author asset archive: chapters/sharingan/artwork/content/illustrations/01-story-detail.webp. Placement: inline_illustration; native master retained in the supplied ZIP."
+    },
+    {
+      "source": "shared/artwork/digital-book/sharingan/centre.webp",
+      "public_path": "assets/digital-book/sharingan/centre.webp",
+      "sha256_at_intake": "1d51a17488b8936eea0e76592f2c0d524c140a460ac2fcec6ead31352b7d766c",
+      "provenance": "Author asset archive: chapters/sharingan/artwork/main-book/centre-scene.webp. Stationary centre for the rotating main-book ring."
+    },
+    {
+      "source": "shared/artwork/digital-book/command-respect/mainBook.webp",
+      "public_path": "assets/digital-book/command-respect/mainBook.webp",
+      "sha256_at_intake": "b075ace571a7220b85d817cbd5c20b288f6a3706ad0476e7d5080414798e76a3",
+      "provenance": "Author asset archive: chapters/command-respect/artwork/main-book/portal.webp. Placement: main_book; native master retained in the supplied ZIP."
+    },
+    {
+      "source": "shared/artwork/digital-book/command-respect/map.webp",
+      "public_path": "assets/digital-book/command-respect/map.webp",
+      "sha256_at_intake": "7585c8c0bb876fabc7738a128e59e0d2b822e092d7f52a21255ccbedee5f497c",
+      "provenance": "Author asset archive: chapters/command-respect/artwork/chapter-map/portal.webp. Placement: chapter_map; native master retained in the supplied ZIP."
+    },
+    {
+      "source": "shared/artwork/digital-book/command-respect/opening.webp",
+      "public_path": "assets/digital-book/command-respect/opening.webp",
+      "sha256_at_intake": "417c2455d0316e31504f80fccdb00f9f905ddc81b2853df2449e654ff4b9a953",
+      "provenance": "Author asset archive: chapters/command-respect/artwork/chapter-page/portal.webp. Placement: chapter_opening; native master retained in the supplied ZIP."
+    },
+    {
+      "source": "shared/artwork/digital-book/command-respect/hero.webp",
+      "public_path": "assets/digital-book/command-respect/hero.webp",
+      "sha256_at_intake": "b2a923ece7db54c2fd20bef5e267eecd9ada302e9e4311caa972719a26f0f016",
+      "provenance": "Author asset archive: chapters/command-respect/artwork/chapter-page/hero.webp. Placement: reader_hero; native master retained in the supplied ZIP."
+    },
+    {
+      "source": "shared/artwork/digital-book/command-respect/inline.webp",
+      "public_path": "assets/digital-book/command-respect/inline.webp",
+      "sha256_at_intake": "008f7a1da5011ba482b5b42ffe06f5261dedf794bf43474cc9802df33bd5b429",
+      "provenance": "Author asset archive: chapters/command-respect/artwork/content/illustrations/01-story-detail.webp. Placement: inline_illustration; native master retained in the supplied ZIP."
+    },
+    {
+      "source": "shared/artwork/digital-book/command-respect/centre.webp",
+      "public_path": "assets/digital-book/command-respect/centre.webp",
+      "sha256_at_intake": "935074f18187ce0f1a7e18384c5ee01a999584db3bdab1da56b1bb01390ba5e1",
+      "provenance": "Author asset archive: chapters/command-respect/artwork/main-book/centre-scene.webp. Stationary centre for the rotating main-book ring."
+    },
+    {
+      "source": "shared/artwork/digital-book/lone-wolf/mainBook.webp",
+      "public_path": "assets/digital-book/lone-wolf/mainBook.webp",
+      "sha256_at_intake": "a7acc95fa8292420ed2675b2af38959d4976e1edac7e73be86d3b4710fe95f94",
+      "provenance": "Author asset archive: chapters/lone-wolf/artwork/main-book/portal.webp. Placement: main_book; native master retained in the supplied ZIP."
+    },
+    {
+      "source": "shared/artwork/digital-book/lone-wolf/map.webp",
+      "public_path": "assets/digital-book/lone-wolf/map.webp",
+      "sha256_at_intake": "f0c1c8428f43bdb93330e45b98799aaedce98735de02705110eb2c3f92692763",
+      "provenance": "Author asset archive: chapters/lone-wolf/artwork/chapter-map/portal.webp. Placement: chapter_map; native master retained in the supplied ZIP."
+    },
+    {
+      "source": "shared/artwork/digital-book/lone-wolf/opening.webp",
+      "public_path": "assets/digital-book/lone-wolf/opening.webp",
+      "sha256_at_intake": "a165bafc4d64cf7e9e9b051534e6afc8d8962b935715fbec6651f7f0b0b62c68",
+      "provenance": "Author asset archive: chapters/lone-wolf/artwork/chapter-page/portal.webp. Placement: chapter_opening; native master retained in the supplied ZIP."
+    },
+    {
+      "source": "shared/artwork/digital-book/lone-wolf/hero.webp",
+      "public_path": "assets/digital-book/lone-wolf/hero.webp",
+      "sha256_at_intake": "1422655e56a702f8d26af45975108467acac466f444caf2a2af797ef29ead5a4",
+      "provenance": "Author asset archive: chapters/lone-wolf/artwork/chapter-page/hero.webp. Placement: reader_hero; native master retained in the supplied ZIP."
+    },
+    {
+      "source": "shared/artwork/digital-book/lone-wolf/inline.webp",
+      "public_path": "assets/digital-book/lone-wolf/inline.webp",
+      "sha256_at_intake": "af290c96d4f1ff13c092a3d8352b8b69c0ae1c0ae14c5ab425eaf6a034dffb8a",
+      "provenance": "Author asset archive: chapters/lone-wolf/artwork/content/illustrations/01-story-detail.webp. Placement: inline_illustration; native master retained in the supplied ZIP."
+    },
+    {
+      "source": "shared/artwork/digital-book/lone-wolf/centre.webp",
+      "public_path": "assets/digital-book/lone-wolf/centre.webp",
+      "sha256_at_intake": "28ccac0029a4a13f0fe211fe5ca71ce7a78ef07fd1599c61d51542baa0aa0014",
+      "provenance": "Author asset archive: chapters/lone-wolf/artwork/main-book/centre-scene.webp. Stationary centre for the rotating main-book ring."
+    },
+    {
+      "source": "shared/artwork/digital-book/co-nhung-thu-chi-khi-minh-roi-di-roi-moi-nhin-thay/mainBook.webp",
+      "public_path": "assets/digital-book/co-nhung-thu-chi-khi-minh-roi-di-roi-moi-nhin-thay/mainBook.webp",
+      "sha256_at_intake": "aa9a40dfe2e1b73216a6a31b3ea1d27dcfe716414ab5e577d3ec918d71083a2a",
+      "provenance": "Author asset archive: chapters/co-nhung-thu-chi-khi-minh-roi-di-roi-moi-nhin-thay/artwork/main-book/portal.webp. Placement: main_book; native master retained in the supplied ZIP."
+    },
+    {
+      "source": "shared/artwork/digital-book/co-nhung-thu-chi-khi-minh-roi-di-roi-moi-nhin-thay/map.webp",
+      "public_path": "assets/digital-book/co-nhung-thu-chi-khi-minh-roi-di-roi-moi-nhin-thay/map.webp",
+      "sha256_at_intake": "5c7e3444406097dda382c3520c6dab0a1fce9b9e3606c9e2b117d13fd7c8e837",
+      "provenance": "Author asset archive: chapters/co-nhung-thu-chi-khi-minh-roi-di-roi-moi-nhin-thay/artwork/chapter-map/portal.webp. Placement: chapter_map; native master retained in the supplied ZIP."
+    },
+    {
+      "source": "shared/artwork/digital-book/co-nhung-thu-chi-khi-minh-roi-di-roi-moi-nhin-thay/opening.webp",
+      "public_path": "assets/digital-book/co-nhung-thu-chi-khi-minh-roi-di-roi-moi-nhin-thay/opening.webp",
+      "sha256_at_intake": "bf61f3febe37a5408a08ad470efb2de55cf5e23926db4a90a1f641e1bbcf97ec",
+      "provenance": "Author asset archive: chapters/co-nhung-thu-chi-khi-minh-roi-di-roi-moi-nhin-thay/artwork/chapter-page/portal.webp. Placement: chapter_opening; native master retained in the supplied ZIP."
+    },
+    {
+      "source": "shared/artwork/digital-book/co-nhung-thu-chi-khi-minh-roi-di-roi-moi-nhin-thay/hero.webp",
+      "public_path": "assets/digital-book/co-nhung-thu-chi-khi-minh-roi-di-roi-moi-nhin-thay/hero.webp",
+      "sha256_at_intake": "ea1bf531df2c23555e9e17b6ed5d69533eb4a322789c13bb4b17a54fef52f72d",
+      "provenance": "Author asset archive: chapters/co-nhung-thu-chi-khi-minh-roi-di-roi-moi-nhin-thay/artwork/chapter-page/hero.webp. Placement: reader_hero; native master retained in the supplied ZIP."
+    },
+    {
+      "source": "shared/artwork/digital-book/co-nhung-thu-chi-khi-minh-roi-di-roi-moi-nhin-thay/inline.webp",
+      "public_path": "assets/digital-book/co-nhung-thu-chi-khi-minh-roi-di-roi-moi-nhin-thay/inline.webp",
+      "sha256_at_intake": "894f629ececade88e23dbde4bb66351ab43c837098360aa8d1aefe9ddfb0f14c",
+      "provenance": "Author asset archive: chapters/co-nhung-thu-chi-khi-minh-roi-di-roi-moi-nhin-thay/artwork/content/illustrations/01-story-detail.webp. Placement: inline_illustration; native master retained in the supplied ZIP."
+    },
+    {
+      "source": "shared/artwork/digital-book/co-nhung-thu-chi-khi-minh-roi-di-roi-moi-nhin-thay/centre.webp",
+      "public_path": "assets/digital-book/co-nhung-thu-chi-khi-minh-roi-di-roi-moi-nhin-thay/centre.webp",
+      "sha256_at_intake": "d516cf7f7e8cafb1ae474e5f7ceef964aa9b542f1ce105f7c0b691bd52a243e7",
+      "provenance": "Author asset archive: chapters/co-nhung-thu-chi-khi-minh-roi-di-roi-moi-nhin-thay/artwork/main-book/centre-scene.webp. Stationary centre for the rotating main-book ring."
+    },
+    {
+      "source": "shared/artwork/digital-book/loi-xin-loi/mainBook.webp",
+      "public_path": "assets/digital-book/loi-xin-loi/mainBook.webp",
+      "sha256_at_intake": "a62e5e03ff01d29293f271a55bf25e07d4ad3d4973144aaaa639b4c2302c079e",
+      "provenance": "Author asset archive: chapters/loi-xin-loi/artwork/main-book/portal.webp. Placement: main_book; native master retained in the supplied ZIP."
+    },
+    {
+      "source": "shared/artwork/digital-book/loi-xin-loi/map.webp",
+      "public_path": "assets/digital-book/loi-xin-loi/map.webp",
+      "sha256_at_intake": "e71f1ee644bb7e7ec081dc0ed9bb744c78378068cbcf59c0cf9e1e3d2053b8f7",
+      "provenance": "Author asset archive: chapters/loi-xin-loi/artwork/chapter-map/portal.webp. Placement: chapter_map; native master retained in the supplied ZIP."
+    },
+    {
+      "source": "shared/artwork/digital-book/loi-xin-loi/opening.webp",
+      "public_path": "assets/digital-book/loi-xin-loi/opening.webp",
+      "sha256_at_intake": "3948f4cd3278fed939a57264988c5f9c63182d9b2092803d57f5661e1bd07503",
+      "provenance": "Author asset archive: chapters/loi-xin-loi/artwork/chapter-page/portal.webp. Placement: chapter_opening; native master retained in the supplied ZIP."
+    },
+    {
+      "source": "shared/artwork/digital-book/loi-xin-loi/hero.webp",
+      "public_path": "assets/digital-book/loi-xin-loi/hero.webp",
+      "sha256_at_intake": "b1c1262ec684104c97ccdd98202323ae2f28b6b07b21bacb22415884713f5bcf",
+      "provenance": "Author asset archive: chapters/loi-xin-loi/artwork/chapter-page/hero.webp. Placement: reader_hero; native master retained in the supplied ZIP."
+    },
+    {
+      "source": "shared/artwork/digital-book/loi-xin-loi/inline.webp",
+      "public_path": "assets/digital-book/loi-xin-loi/inline.webp",
+      "sha256_at_intake": "b75ad6aa4266206cbe53e232f822af45c859384c42cf9794a3db7305106d991c",
+      "provenance": "Author asset archive: chapters/loi-xin-loi/artwork/content/illustrations/01-story-detail.webp. Placement: inline_illustration; native master retained in the supplied ZIP."
+    },
+    {
+      "source": "shared/artwork/digital-book/loi-xin-loi/centre.webp",
+      "public_path": "assets/digital-book/loi-xin-loi/centre.webp",
+      "sha256_at_intake": "32cbd9dbb6aea626c2aa0af2c2657f75a9bdb890a672723a8038875b5938d2d0",
+      "provenance": "Author asset archive: chapters/loi-xin-loi/artwork/main-book/centre-scene.webp. Stationary centre for the rotating main-book ring."
+    },
+    {
+      "source": "shared/artwork/digital-book/loi-xin-loi/inline-02.webp",
+      "public_path": "assets/digital-book/loi-xin-loi/inline-02.webp",
+      "sha256_at_intake": "4fd6f383ea9b9953d033b707a5757b3540eb93bc3e2d4a3782767b7e7a48e4bb",
+      "provenance": "Author asset archive: chapters/loi-xin-loi/artwork/content/illustrations/02-unoffered-totes.webp. Additional in-content illustration."
+    },
+    {
+      "source": "shared/artwork/digital-book/loi-xin-loi/inline-03.webp",
+      "public_path": "assets/digital-book/loi-xin-loi/inline-03.webp",
+      "sha256_at_intake": "71f0801aa75cb26d3667b39c8cd49270187e173d6a3efc47351e1c62122299e6",
+      "provenance": "Author asset archive: chapters/loi-xin-loi/artwork/content/illustrations/03-questioning-the-story.webp. Additional in-content illustration."
+    },
+    {
+      "source": "shared/artwork/digital-book/rotating-ring-no-observer.png",
+      "public_path": "assets/digital-book/rotating-ring-no-observer.png",
+      "sha256_at_intake": "8479fd4c3f384d53c1a1ed52390c3baec3f7f72d0e6ef12696a6eae66fd2ca8a",
+      "provenance": "Author asset archive: shared/main-book/rotating-ring-no-observer.png. Observer-free shared rotating book ring."
+    },
+    {
+      "source": "shared/artwork/digital-book/main-book-cover-portal.webp",
+      "public_path": "assets/digital-book/main-book-cover-portal.webp",
+      "sha256_at_intake": "bb5a13033494f242c1914cee93bf518ede3fc29db43c569912e284c367ebbff0",
+      "provenance": "Author asset archive: shared/main-book/main-book-portal.webp. Updated complete portal for the default book-cover stop."
+    },
+    {
+      "source": "shared/artwork/digital-book/main-book-cover-ring.webp",
+      "public_path": "assets/digital-book/main-book-cover-ring.webp",
+      "sha256_at_intake": "b88572b1e492e38e91755f607342422a078198ea2ca582d5d7d2edf7a74821f1",
+      "provenance": "Author asset archive: shared/main-book/master-ring/app/portal-empty-center-compatible.webp. Rotating cover ring with Gấu."
+    },
+    {
+      "source": "shared/artwork/digital-book/main-book-cover-jason.webp",
+      "public_path": "assets/digital-book/main-book-cover-jason.webp",
+      "sha256_at_intake": "90ab60352afa62c012b991cb600206e08a4fd09af63402222eaed416161cf550",
+      "provenance": "Author asset archive: shared/main-book/master-ring/app/jason-fixed.webp. Stationary cover foreground."
+    }
+  ]
+}

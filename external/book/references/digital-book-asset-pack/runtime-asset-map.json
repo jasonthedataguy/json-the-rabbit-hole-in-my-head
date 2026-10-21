@@ -1,0 +1,1661 @@
+{
+  "chapters": [
+    {
+      "slug": "introduction",
+      "number": "intro",
+      "title": "Introduction",
+      "roles": {
+        "main_book": {
+          "src": "chapters/introduction/artwork/main-book/portal.webp",
+          "version": "b1b2efab337e",
+          "width": 1600,
+          "height": 1600,
+          "alt": "Full portal, without foreground observer — Introduction"
+        },
+        "chapter_map": {
+          "src": "chapters/introduction/artwork/chapter-map/portal.webp",
+          "version": "db4b013c6ebe",
+          "width": 1200,
+          "height": 1200,
+          "alt": "Full portal, without foreground observer; independently replaceable — Introduction"
+        },
+        "chapter_opening": {
+          "src": "chapters/introduction/artwork/chapter-page/portal.webp",
+          "version": "d0af6cadd675",
+          "width": 1600,
+          "height": 1600,
+          "alt": "Existing portal with Jason at the threshold — Introduction"
+        },
+        "reader_hero": {
+          "src": "chapters/introduction/artwork/chapter-page/hero.webp",
+          "version": "96f238ce6c6a",
+          "width": 1920,
+          "height": 1280,
+          "alt": "New full rectangular opening illustration — Introduction"
+        },
+        "inline_illustration": {
+          "src": "chapters/introduction/artwork/content/illustrations/01-story-detail.webp",
+          "version": "809e15778994",
+          "width": 1920,
+          "height": 1280,
+          "alt": "New supporting in-content illustration — Introduction"
+        }
+      },
+      "additional_illustrations": [],
+      "centre_scene": "chapters/introduction/artwork/main-book/centre-scene.webp"
+    },
+    {
+      "slug": "com-nguoi",
+      "number": "00",
+      "title": "Cold Rice",
+      "roles": {
+        "main_book": {
+          "src": "chapters/com-nguoi/artwork/main-book/portal.webp",
+          "version": "3c373a8c14bf",
+          "width": 1600,
+          "height": 1600,
+          "alt": "Full portal, without foreground observer — Cold Rice"
+        },
+        "chapter_map": {
+          "src": "chapters/com-nguoi/artwork/chapter-map/portal.webp",
+          "version": "6b206ba8a69d",
+          "width": 1200,
+          "height": 1200,
+          "alt": "Full portal, without foreground observer; independently replaceable — Cold Rice"
+        },
+        "chapter_opening": {
+          "src": "chapters/com-nguoi/artwork/chapter-page/portal.webp",
+          "version": "79b61b71d689",
+          "width": 1600,
+          "height": 1600,
+          "alt": "Existing portal with Jason at the threshold — Cold Rice"
+        },
+        "reader_hero": {
+          "src": "chapters/com-nguoi/artwork/chapter-page/hero.webp",
+          "version": "317e9cfb3387",
+          "width": 1920,
+          "height": 1280,
+          "alt": "New full rectangular opening illustration — Cold Rice"
+        },
+        "inline_illustration": {
+          "src": "chapters/com-nguoi/artwork/content/illustrations/01-story-detail.webp",
+          "version": "ce4f7fd4c2e4",
+          "width": 1920,
+          "height": 1280,
+          "alt": "New supporting in-content illustration — Cold Rice"
+        }
+      },
+      "additional_illustrations": [],
+      "centre_scene": "chapters/com-nguoi/artwork/main-book/centre-scene.webp"
+    },
+    {
+      "slug": "i-was-born-a-quant",
+      "number": "01",
+      "title": "I Was Born a Quant",
+      "roles": {
+        "main_book": {
+          "src": "chapters/i-was-born-a-quant/artwork/main-book/portal.webp",
+          "version": "9983d3c86ff5",
+          "width": 1600,
+          "height": 1600,
+          "alt": "Full portal, without foreground observer — I Was Born a Quant"
+        },
+        "chapter_map": {
+          "src": "chapters/i-was-born-a-quant/artwork/chapter-map/portal.webp",
+          "version": "88f9e12a7288",
+          "width": 1200,
+          "height": 1200,
+          "alt": "Full portal, without foreground observer; independently replaceable — I Was Born a Quant"
+        },
+        "chapter_opening": {
+          "src": "chapters/i-was-born-a-quant/artwork/chapter-page/portal.webp",
+          "version": "8f07bf1b0e19",
+          "width": 1600,
+          "height": 1600,
+          "alt": "Existing portal with Jason at the threshold — I Was Born a Quant"
+        },
+        "reader_hero": {
+          "src": "chapters/i-was-born-a-quant/artwork/chapter-page/hero.webp",
+          "version": "1d3a013fc23b",
+          "width": 1920,
+          "height": 1280,
+          "alt": "New full rectangular opening illustration — I Was Born a Quant"
+        },
+        "inline_illustration": {
+          "src": "chapters/i-was-born-a-quant/artwork/content/illustrations/01-story-detail.webp",
+          "version": "20cbd777c312",
+          "width": 1920,
+          "height": 1280,
+          "alt": "New supporting in-content illustration — I Was Born a Quant"
+        }
+      },
+      "additional_illustrations": [],
+      "centre_scene": "chapters/i-was-born-a-quant/artwork/main-book/centre-scene.webp"
+    },
+    {
+      "slug": "expected-utility",
+      "number": "02",
+      "title": "Expected Utility",
+      "roles": {
+        "main_book": {
+          "src": "chapters/expected-utility/artwork/main-book/portal.webp",
+          "version": "c19278aa715d",
+          "width": 1600,
+          "height": 1600,
+          "alt": "Full portal, without foreground observer — Expected Utility"
+        },
+        "chapter_map": {
+          "src": "chapters/expected-utility/artwork/chapter-map/portal.webp",
+          "version": "8b843cb2cbc4",
+          "width": 1200,
+          "height": 1200,
+          "alt": "Full portal, without foreground observer; independently replaceable — Expected Utility"
+        },
+        "chapter_opening": {
+          "src": "chapters/expected-utility/artwork/chapter-page/portal.webp",
+          "version": "7ca252b06238",
+          "width": 1600,
+          "height": 1600,
+          "alt": "Existing portal with Jason at the threshold — Expected Utility"
+        },
+        "reader_hero": {
+          "src": "chapters/expected-utility/artwork/chapter-page/hero.webp",
+          "version": "ca30b179bfaa",
+          "width": 1920,
+          "height": 1280,
+          "alt": "New full rectangular opening illustration — Expected Utility"
+        },
+        "inline_illustration": {
+          "src": "chapters/expected-utility/artwork/content/illustrations/01-story-detail.webp",
+          "version": "86157c3aff42",
+          "width": 1920,
+          "height": 1280,
+          "alt": "New supporting in-content illustration — Expected Utility"
+        }
+      },
+      "additional_illustrations": [],
+      "centre_scene": "chapters/expected-utility/artwork/main-book/centre-scene.webp"
+    },
+    {
+      "slug": "play-to-win",
+      "number": "03",
+      "title": "Play to Win, Don’t Play Not to Lose",
+      "roles": {
+        "main_book": {
+          "src": "chapters/play-to-win/artwork/main-book/portal.webp",
+          "version": "4a9ac2d92731",
+          "width": 1600,
+          "height": 1600,
+          "alt": "Full portal, without foreground observer — Play to Win, Don’t Play Not to Lose"
+        },
+        "chapter_map": {
+          "src": "chapters/play-to-win/artwork/chapter-map/portal.webp",
+          "version": "767b10308f82",
+          "width": 1200,
+          "height": 1200,
+          "alt": "Full portal, without foreground observer; independently replaceable — Play to Win, Don’t Play Not to Lose"
+        },
+        "chapter_opening": {
+          "src": "chapters/play-to-win/artwork/chapter-page/portal.webp",
+          "version": "12153bb4ca34",
+          "width": 1600,
+          "height": 1600,
+          "alt": "Existing portal with Jason at the threshold — Play to Win, Don’t Play Not to Lose"
+        },
+        "reader_hero": {
+          "src": "chapters/play-to-win/artwork/chapter-page/hero.webp",
+          "version": "feb99e02eb4c",
+          "width": 1920,
+          "height": 1280,
+          "alt": "New full rectangular opening illustration — Play to Win, Don’t Play Not to Lose"
+        },
+        "inline_illustration": {
+          "src": "chapters/play-to-win/artwork/content/illustrations/01-story-detail.webp",
+          "version": "e6bb5ecf5119",
+          "width": 1920,
+          "height": 1280,
+          "alt": "New supporting in-content illustration — Play to Win, Don’t Play Not to Lose"
+        }
+      },
+      "additional_illustrations": [],
+      "centre_scene": "chapters/play-to-win/artwork/main-book/centre-scene.webp"
+    },
+    {
+      "slug": "fashion",
+      "number": "04",
+      "title": "Fashion — Be Your Own Label",
+      "roles": {
+        "main_book": {
+          "src": "chapters/fashion/artwork/main-book/portal.webp",
+          "version": "89148e69654a",
+          "width": 1600,
+          "height": 1600,
+          "alt": "Full portal, without foreground observer — Fashion — Be Your Own Label"
+        },
+        "chapter_map": {
+          "src": "chapters/fashion/artwork/chapter-map/portal.webp",
+          "version": "604f50a52e2a",
+          "width": 1200,
+          "height": 1200,
+          "alt": "Full portal, without foreground observer; independently replaceable — Fashion — Be Your Own Label"
+        },
+        "chapter_opening": {
+          "src": "chapters/fashion/artwork/chapter-page/portal.webp",
+          "version": "b32e9c883c36",
+          "width": 1600,
+          "height": 1600,
+          "alt": "Existing portal with Jason at the threshold — Fashion — Be Your Own Label"
+        },
+        "reader_hero": {
+          "src": "chapters/fashion/artwork/chapter-page/hero.webp",
+          "version": "9c302ee18e3e",
+          "width": 1920,
+          "height": 1280,
+          "alt": "New full rectangular opening illustration — Fashion — Be Your Own Label"
+        },
+        "inline_illustration": {
+          "src": "chapters/fashion/artwork/content/illustrations/01-story-detail.webp",
+          "version": "7ccd2040f3d6",
+          "width": 1920,
+          "height": 1280,
+          "alt": "New supporting in-content illustration — Fashion — Be Your Own Label"
+        }
+      },
+      "additional_illustrations": [],
+      "centre_scene": "chapters/fashion/artwork/main-book/centre-scene.webp"
+    },
+    {
+      "slug": "flow",
+      "number": "05",
+      "title": "FLOW — The Secret of Wealth",
+      "roles": {
+        "main_book": {
+          "src": "chapters/flow/artwork/main-book/portal.webp",
+          "version": "681f7a3ed00b",
+          "width": 1600,
+          "height": 1600,
+          "alt": "Full portal, without foreground observer — FLOW — The Secret of Wealth"
+        },
+        "chapter_map": {
+          "src": "chapters/flow/artwork/chapter-map/portal.webp",
+          "version": "0a8518589a71",
+          "width": 1200,
+          "height": 1200,
+          "alt": "Full portal, without foreground observer; independently replaceable — FLOW — The Secret of Wealth"
+        },
+        "chapter_opening": {
+          "src": "chapters/flow/artwork/chapter-page/portal.webp",
+          "version": "c79aed6d58e3",
+          "width": 1600,
+          "height": 1600,
+          "alt": "Existing portal with Jason at the threshold — FLOW — The Secret of Wealth"
+        },
+        "reader_hero": {
+          "src": "chapters/flow/artwork/chapter-page/hero.webp",
+          "version": "68cdafbb23c8",
+          "width": 1920,
+          "height": 1280,
+          "alt": "New full rectangular opening illustration — FLOW — The Secret of Wealth"
+        },
+        "inline_illustration": {
+          "src": "chapters/flow/artwork/content/illustrations/01-story-detail.webp",
+          "version": "15f008c97955",
+          "width": 1920,
+          "height": 1280,
+          "alt": "New supporting in-content illustration — FLOW — The Secret of Wealth"
+        }
+      },
+      "additional_illustrations": [],
+      "centre_scene": "chapters/flow/artwork/main-book/centre-scene.webp"
+    },
+    {
+      "slug": "nut-do",
+      "number": "06",
+      "title": "Red Button",
+      "roles": {
+        "main_book": {
+          "src": "chapters/nut-do/artwork/main-book/portal.webp",
+          "version": "d78c4f6e7346",
+          "width": 1600,
+          "height": 1600,
+          "alt": "Full portal, without foreground observer — Red Button"
+        },
+        "chapter_map": {
+          "src": "chapters/nut-do/artwork/chapter-map/portal.webp",
+          "version": "5f34e7d6cf62",
+          "width": 1200,
+          "height": 1200,
+          "alt": "Full portal, without foreground observer; independently replaceable — Red Button"
+        },
+        "chapter_opening": {
+          "src": "chapters/nut-do/artwork/chapter-page/portal.webp",
+          "version": "e98a9a36b566",
+          "width": 1600,
+          "height": 1600,
+          "alt": "Existing portal with Jason at the threshold — Red Button"
+        },
+        "reader_hero": {
+          "src": "chapters/nut-do/artwork/chapter-page/hero.webp",
+          "version": "8801a2231dc0",
+          "width": 1920,
+          "height": 1280,
+          "alt": "New full rectangular opening illustration — Red Button"
+        },
+        "inline_illustration": {
+          "src": "chapters/nut-do/artwork/content/illustrations/01-story-detail.webp",
+          "version": "6232bd00a1d8",
+          "width": 1920,
+          "height": 1280,
+          "alt": "New supporting in-content illustration — Red Button"
+        }
+      },
+      "additional_illustrations": [],
+      "centre_scene": "chapters/nut-do/artwork/main-book/centre-scene.webp"
+    },
+    {
+      "slug": "mot-nguoi-ban-cu",
+      "number": "07",
+      "title": "An Old Friend",
+      "roles": {
+        "main_book": {
+          "src": "chapters/mot-nguoi-ban-cu/artwork/main-book/portal.webp",
+          "version": "0d60fe78c5e2",
+          "width": 1600,
+          "height": 1600,
+          "alt": "Full portal, without foreground observer — An Old Friend"
+        },
+        "chapter_map": {
+          "src": "chapters/mot-nguoi-ban-cu/artwork/chapter-map/portal.webp",
+          "version": "7669298cb9a5",
+          "width": 1200,
+          "height": 1200,
+          "alt": "Full portal, without foreground observer; independently replaceable — An Old Friend"
+        },
+        "chapter_opening": {
+          "src": "chapters/mot-nguoi-ban-cu/artwork/chapter-page/portal.webp",
+          "version": "a817415e5c18",
+          "width": 1600,
+          "height": 1600,
+          "alt": "Existing portal with Jason at the threshold — An Old Friend"
+        },
+        "reader_hero": {
+          "src": "chapters/mot-nguoi-ban-cu/artwork/chapter-page/hero.webp",
+          "version": "0d1fa41b6a7d",
+          "width": 1920,
+          "height": 1280,
+          "alt": "New full rectangular opening illustration — An Old Friend"
+        },
+        "inline_illustration": {
+          "src": "chapters/mot-nguoi-ban-cu/artwork/content/illustrations/01-story-detail.webp",
+          "version": "6804fa3f30ef",
+          "width": 1920,
+          "height": 1280,
+          "alt": "New supporting in-content illustration — An Old Friend"
+        }
+      },
+      "additional_illustrations": [],
+      "centre_scene": "chapters/mot-nguoi-ban-cu/artwork/main-book/centre-scene.webp"
+    },
+    {
+      "slug": "for-mother-russia",
+      "number": "08",
+      "title": "For Mother Russia",
+      "roles": {
+        "main_book": {
+          "src": "chapters/for-mother-russia/artwork/main-book/portal.webp",
+          "version": "6d72c20dcc2d",
+          "width": 1600,
+          "height": 1600,
+          "alt": "Full portal, without foreground observer — For Mother Russia"
+        },
+        "chapter_map": {
+          "src": "chapters/for-mother-russia/artwork/chapter-map/portal.webp",
+          "version": "9f328eefc092",
+          "width": 1200,
+          "height": 1200,
+          "alt": "Full portal, without foreground observer; independently replaceable — For Mother Russia"
+        },
+        "chapter_opening": {
+          "src": "chapters/for-mother-russia/artwork/chapter-page/portal.webp",
+          "version": "7fd2d48dda21",
+          "width": 1600,
+          "height": 1600,
+          "alt": "Existing portal with Jason at the threshold — For Mother Russia"
+        },
+        "reader_hero": {
+          "src": "chapters/for-mother-russia/artwork/chapter-page/hero.webp",
+          "version": "9ae88e3765c7",
+          "width": 1920,
+          "height": 1280,
+          "alt": "New full rectangular opening illustration — For Mother Russia"
+        },
+        "inline_illustration": {
+          "src": "chapters/for-mother-russia/artwork/content/illustrations/01-story-detail.webp",
+          "version": "33bec6f23b38",
+          "width": 1920,
+          "height": 1280,
+          "alt": "New supporting in-content illustration — For Mother Russia"
+        }
+      },
+      "additional_illustrations": [],
+      "centre_scene": "chapters/for-mother-russia/artwork/main-book/centre-scene.webp"
+    },
+    {
+      "slug": "the-gioi-trong-mo-cua-toi",
+      "number": "09",
+      "title": "The World in My Dreams",
+      "roles": {
+        "main_book": {
+          "src": "chapters/the-gioi-trong-mo-cua-toi/artwork/main-book/portal.webp",
+          "version": "0c95253c2f14",
+          "width": 1600,
+          "height": 1600,
+          "alt": "Full portal, without foreground observer — The World in My Dreams"
+        },
+        "chapter_map": {
+          "src": "chapters/the-gioi-trong-mo-cua-toi/artwork/chapter-map/portal.webp",
+          "version": "30c0ad735f97",
+          "width": 1200,
+          "height": 1200,
+          "alt": "Full portal, without foreground observer; independently replaceable — The World in My Dreams"
+        },
+        "chapter_opening": {
+          "src": "chapters/the-gioi-trong-mo-cua-toi/artwork/chapter-page/portal.webp",
+          "version": "41d8724b9735",
+          "width": 1600,
+          "height": 1600,
+          "alt": "Existing portal with Jason at the threshold — The World in My Dreams"
+        },
+        "reader_hero": {
+          "src": "chapters/the-gioi-trong-mo-cua-toi/artwork/chapter-page/hero.webp",
+          "version": "aece4b843345",
+          "width": 1920,
+          "height": 1280,
+          "alt": "New full rectangular opening illustration — The World in My Dreams"
+        },
+        "inline_illustration": {
+          "src": "chapters/the-gioi-trong-mo-cua-toi/artwork/content/illustrations/01-story-detail.webp",
+          "version": "4704699ce454",
+          "width": 1920,
+          "height": 1280,
+          "alt": "New supporting in-content illustration — The World in My Dreams"
+        }
+      },
+      "additional_illustrations": [],
+      "centre_scene": "chapters/the-gioi-trong-mo-cua-toi/artwork/main-book/centre-scene.webp"
+    },
+    {
+      "slug": "nhung-thu-khong-duoc-luu-lai",
+      "number": "10",
+      "title": "Dream Diary — The Things We Never Saved",
+      "roles": {
+        "main_book": {
+          "src": "chapters/nhung-thu-khong-duoc-luu-lai/artwork/main-book/portal.webp",
+          "version": "8829ff5318bd",
+          "width": 1600,
+          "height": 1600,
+          "alt": "Full portal, without foreground observer — Dream Diary — The Things We Never Saved"
+        },
+        "chapter_map": {
+          "src": "chapters/nhung-thu-khong-duoc-luu-lai/artwork/chapter-map/portal.webp",
+          "version": "9fde699c778c",
+          "width": 1200,
+          "height": 1200,
+          "alt": "Full portal, without foreground observer; independently replaceable — Dream Diary — The Things We Never Saved"
+        },
+        "chapter_opening": {
+          "src": "chapters/nhung-thu-khong-duoc-luu-lai/artwork/chapter-page/portal.webp",
+          "version": "657e5c5cb543",
+          "width": 1600,
+          "height": 1600,
+          "alt": "Existing portal with Jason at the threshold — Dream Diary — The Things We Never Saved"
+        },
+        "reader_hero": {
+          "src": "chapters/nhung-thu-khong-duoc-luu-lai/artwork/chapter-page/hero.webp",
+          "version": "8a2f6b9a6333",
+          "width": 1920,
+          "height": 1280,
+          "alt": "New full rectangular opening illustration — Dream Diary — The Things We Never Saved"
+        },
+        "inline_illustration": {
+          "src": "chapters/nhung-thu-khong-duoc-luu-lai/artwork/content/illustrations/01-story-detail.webp",
+          "version": "032e9509ac88",
+          "width": 1920,
+          "height": 1280,
+          "alt": "New supporting in-content illustration — Dream Diary — The Things We Never Saved"
+        }
+      },
+      "additional_illustrations": [],
+      "centre_scene": "chapters/nhung-thu-khong-duoc-luu-lai/artwork/main-book/centre-scene.webp"
+    },
+    {
+      "slug": "nhung-su-trung-hop",
+      "number": "11",
+      "title": "Coincidence - Or the arrangement of the universe",
+      "roles": {
+        "main_book": {
+          "src": "chapters/nhung-su-trung-hop/artwork/main-book/portal.webp",
+          "version": "43d1aee4047e",
+          "width": 1600,
+          "height": 1600,
+          "alt": "Full portal, without foreground observer — Coincidence - Or the arrangement of the universe"
+        },
+        "chapter_map": {
+          "src": "chapters/nhung-su-trung-hop/artwork/chapter-map/portal.webp",
+          "version": "6c422449474e",
+          "width": 1200,
+          "height": 1200,
+          "alt": "Full portal, without foreground observer; independently replaceable — Coincidence - Or the arrangement of the universe"
+        },
+        "chapter_opening": {
+          "src": "chapters/nhung-su-trung-hop/artwork/chapter-page/portal.webp",
+          "version": "c805e4cdc66e",
+          "width": 1600,
+          "height": 1600,
+          "alt": "Existing portal with Jason at the threshold — Coincidence - Or the arrangement of the universe"
+        },
+        "reader_hero": {
+          "src": "chapters/nhung-su-trung-hop/artwork/chapter-page/hero.webp",
+          "version": "9b4f4931f309",
+          "width": 1920,
+          "height": 1280,
+          "alt": "New full rectangular opening illustration — Coincidence - Or the arrangement of the universe"
+        },
+        "inline_illustration": {
+          "src": "chapters/nhung-su-trung-hop/artwork/content/illustrations/01-story-detail.webp",
+          "version": "a0b9eba00a22",
+          "width": 1920,
+          "height": 1280,
+          "alt": "New supporting in-content illustration — Coincidence - Or the arrangement of the universe"
+        }
+      },
+      "additional_illustrations": [],
+      "centre_scene": "chapters/nhung-su-trung-hop/artwork/main-book/centre-scene.webp"
+    },
+    {
+      "slug": "vo-mong",
+      "number": "12",
+      "title": "Disillusionment",
+      "roles": {
+        "main_book": {
+          "src": "chapters/vo-mong/artwork/main-book/portal.webp",
+          "version": "5bf4afd1f13a",
+          "width": 1600,
+          "height": 1600,
+          "alt": "Full portal, without foreground observer — Disillusionment"
+        },
+        "chapter_map": {
+          "src": "chapters/vo-mong/artwork/chapter-map/portal.webp",
+          "version": "0ff4f536268f",
+          "width": 1200,
+          "height": 1200,
+          "alt": "Full portal, without foreground observer; independently replaceable — Disillusionment"
+        },
+        "chapter_opening": {
+          "src": "chapters/vo-mong/artwork/chapter-page/portal.webp",
+          "version": "996f53d56cb7",
+          "width": 1600,
+          "height": 1600,
+          "alt": "Existing portal with Jason at the threshold — Disillusionment"
+        },
+        "reader_hero": {
+          "src": "chapters/vo-mong/artwork/chapter-page/hero.webp",
+          "version": "408dda037584",
+          "width": 1920,
+          "height": 1280,
+          "alt": "New full rectangular opening illustration — Disillusionment"
+        },
+        "inline_illustration": {
+          "src": "chapters/vo-mong/artwork/content/illustrations/01-story-detail.webp",
+          "version": "0cbbf24686ab",
+          "width": 1920,
+          "height": 1280,
+          "alt": "New supporting in-content illustration — Disillusionment"
+        }
+      },
+      "additional_illustrations": [],
+      "centre_scene": "chapters/vo-mong/artwork/main-book/centre-scene.webp"
+    },
+    {
+      "slug": "nhung-nguoi-anh-em",
+      "number": "13",
+      "title": "My brothers",
+      "roles": {
+        "main_book": {
+          "src": "chapters/nhung-nguoi-anh-em/artwork/main-book/portal.webp",
+          "version": "5fb830f3ac9a",
+          "width": 1600,
+          "height": 1600,
+          "alt": "Full portal, without foreground observer — My brothers"
+        },
+        "chapter_map": {
+          "src": "chapters/nhung-nguoi-anh-em/artwork/chapter-map/portal.webp",
+          "version": "2d7f82958b37",
+          "width": 1200,
+          "height": 1200,
+          "alt": "Full portal, without foreground observer; independently replaceable — My brothers"
+        },
+        "chapter_opening": {
+          "src": "chapters/nhung-nguoi-anh-em/artwork/chapter-page/portal.webp",
+          "version": "f3f178018a1f",
+          "width": 1600,
+          "height": 1600,
+          "alt": "Existing portal with Jason at the threshold — My brothers"
+        },
+        "reader_hero": {
+          "src": "chapters/nhung-nguoi-anh-em/artwork/chapter-page/hero.webp",
+          "version": "76164a6b5af9",
+          "width": 1920,
+          "height": 1280,
+          "alt": "New full rectangular opening illustration — My brothers"
+        },
+        "inline_illustration": {
+          "src": "chapters/nhung-nguoi-anh-em/artwork/content/illustrations/01-story-detail.webp",
+          "version": "709bcd742a38",
+          "width": 1920,
+          "height": 1280,
+          "alt": "New supporting in-content illustration — My brothers"
+        }
+      },
+      "additional_illustrations": [],
+      "centre_scene": "chapters/nhung-nguoi-anh-em/artwork/main-book/centre-scene.webp"
+    },
+    {
+      "slug": "viet-cho-sai-gon-cua-t",
+      "number": "14",
+      "title": "To My Saigon",
+      "roles": {
+        "main_book": {
+          "src": "chapters/viet-cho-sai-gon-cua-t/artwork/main-book/portal.webp",
+          "version": "73f2581cc0ec",
+          "width": 1600,
+          "height": 1600,
+          "alt": "Full portal, without foreground observer — To My Saigon"
+        },
+        "chapter_map": {
+          "src": "chapters/viet-cho-sai-gon-cua-t/artwork/chapter-map/portal.webp",
+          "version": "fdbaf15b9072",
+          "width": 1200,
+          "height": 1200,
+          "alt": "Full portal, without foreground observer; independently replaceable — To My Saigon"
+        },
+        "chapter_opening": {
+          "src": "chapters/viet-cho-sai-gon-cua-t/artwork/chapter-page/portal.webp",
+          "version": "4b7250eb6f9c",
+          "width": 1600,
+          "height": 1600,
+          "alt": "Existing portal with Jason at the threshold — To My Saigon"
+        },
+        "reader_hero": {
+          "src": "chapters/viet-cho-sai-gon-cua-t/artwork/chapter-page/hero.webp",
+          "version": "2340b7bdd9b5",
+          "width": 1920,
+          "height": 1280,
+          "alt": "New full rectangular opening illustration — To My Saigon"
+        },
+        "inline_illustration": {
+          "src": "chapters/viet-cho-sai-gon-cua-t/artwork/content/illustrations/01-story-detail.webp",
+          "version": "c6c0cd220a8e",
+          "width": 1920,
+          "height": 1280,
+          "alt": "New supporting in-content illustration — To My Saigon"
+        }
+      },
+      "additional_illustrations": [],
+      "centre_scene": "chapters/viet-cho-sai-gon-cua-t/artwork/main-book/centre-scene.webp"
+    },
+    {
+      "slug": "i-am-28-today",
+      "number": "15",
+      "title": "I'm 28 today",
+      "roles": {
+        "main_book": {
+          "src": "chapters/i-am-28-today/artwork/main-book/portal.webp",
+          "version": "3f087db4883d",
+          "width": 1600,
+          "height": 1600,
+          "alt": "Full portal, without foreground observer — I'm 28 today"
+        },
+        "chapter_map": {
+          "src": "chapters/i-am-28-today/artwork/chapter-map/portal.webp",
+          "version": "a275a7ce44d4",
+          "width": 1200,
+          "height": 1200,
+          "alt": "Full portal, without foreground observer; independently replaceable — I'm 28 today"
+        },
+        "chapter_opening": {
+          "src": "chapters/i-am-28-today/artwork/chapter-page/portal.webp",
+          "version": "0cb1506d21ad",
+          "width": 1600,
+          "height": 1600,
+          "alt": "Existing portal with Jason at the threshold — I'm 28 today"
+        },
+        "reader_hero": {
+          "src": "chapters/i-am-28-today/artwork/chapter-page/hero.webp",
+          "version": "cf98ee84e099",
+          "width": 1920,
+          "height": 1280,
+          "alt": "New full rectangular opening illustration — I'm 28 today"
+        },
+        "inline_illustration": {
+          "src": "chapters/i-am-28-today/artwork/content/illustrations/01-story-detail.webp",
+          "version": "c9585200bf96",
+          "width": 1920,
+          "height": 1280,
+          "alt": "New supporting in-content illustration — I'm 28 today"
+        }
+      },
+      "additional_illustrations": [],
+      "centre_scene": "chapters/i-am-28-today/artwork/main-book/centre-scene.webp"
+    },
+    {
+      "slug": "bad-trip",
+      "number": "16",
+      "title": "Bad Trip",
+      "roles": {
+        "main_book": {
+          "src": "chapters/bad-trip/artwork/main-book/portal.webp",
+          "version": "1de58f10e1e1",
+          "width": 1600,
+          "height": 1600,
+          "alt": "Full portal, without foreground observer — Bad Trip"
+        },
+        "chapter_map": {
+          "src": "chapters/bad-trip/artwork/chapter-map/portal.webp",
+          "version": "0722a4518844",
+          "width": 1200,
+          "height": 1200,
+          "alt": "Full portal, without foreground observer; independently replaceable — Bad Trip"
+        },
+        "chapter_opening": {
+          "src": "chapters/bad-trip/artwork/chapter-page/portal.webp",
+          "version": "fd29d876863a",
+          "width": 1600,
+          "height": 1600,
+          "alt": "Existing portal with Jason at the threshold — Bad Trip"
+        },
+        "reader_hero": {
+          "src": "chapters/bad-trip/artwork/chapter-page/hero.webp",
+          "version": "a00f5b38c9ee",
+          "width": 1920,
+          "height": 1280,
+          "alt": "New full rectangular opening illustration — Bad Trip"
+        },
+        "inline_illustration": {
+          "src": "chapters/bad-trip/artwork/content/illustrations/01-story-detail.webp",
+          "version": "cf03d89911f5",
+          "width": 1920,
+          "height": 1280,
+          "alt": "New supporting in-content illustration — Bad Trip"
+        }
+      },
+      "additional_illustrations": [],
+      "centre_scene": "chapters/bad-trip/artwork/main-book/centre-scene.webp"
+    },
+    {
+      "slug": "tieu-hanh-tinh",
+      "number": "17",
+      "title": "Asteroid",
+      "roles": {
+        "main_book": {
+          "src": "chapters/tieu-hanh-tinh/artwork/main-book/portal.webp",
+          "version": "a83c721668c7",
+          "width": 1600,
+          "height": 1600,
+          "alt": "Full portal, without foreground observer — Asteroid"
+        },
+        "chapter_map": {
+          "src": "chapters/tieu-hanh-tinh/artwork/chapter-map/portal.webp",
+          "version": "ba94e6260f06",
+          "width": 1200,
+          "height": 1200,
+          "alt": "Full portal, without foreground observer; independently replaceable — Asteroid"
+        },
+        "chapter_opening": {
+          "src": "chapters/tieu-hanh-tinh/artwork/chapter-page/portal.webp",
+          "version": "d5836de701b5",
+          "width": 1600,
+          "height": 1600,
+          "alt": "Existing portal with Jason at the threshold — Asteroid"
+        },
+        "reader_hero": {
+          "src": "chapters/tieu-hanh-tinh/artwork/chapter-page/hero.webp",
+          "version": "66c6db6531c7",
+          "width": 1920,
+          "height": 1280,
+          "alt": "New full rectangular opening illustration — Asteroid"
+        },
+        "inline_illustration": {
+          "src": "chapters/tieu-hanh-tinh/artwork/content/illustrations/01-story-detail.webp",
+          "version": "8fa185ee8bb3",
+          "width": 1920,
+          "height": 1280,
+          "alt": "New supporting in-content illustration — Asteroid"
+        }
+      },
+      "additional_illustrations": [],
+      "centre_scene": "chapters/tieu-hanh-tinh/artwork/main-book/centre-scene.webp"
+    },
+    {
+      "slug": "three-meeting-theory",
+      "number": "18",
+      "title": "Three Meeting Theory",
+      "roles": {
+        "main_book": {
+          "src": "chapters/three-meeting-theory/artwork/main-book/portal.webp",
+          "version": "486273a870b1",
+          "width": 1600,
+          "height": 1600,
+          "alt": "Full portal, without foreground observer — Three Meeting Theory"
+        },
+        "chapter_map": {
+          "src": "chapters/three-meeting-theory/artwork/chapter-map/portal.webp",
+          "version": "bd606a107dff",
+          "width": 1200,
+          "height": 1200,
+          "alt": "Full portal, without foreground observer; independently replaceable — Three Meeting Theory"
+        },
+        "chapter_opening": {
+          "src": "chapters/three-meeting-theory/artwork/chapter-page/portal.webp",
+          "version": "2de3cf2d0198",
+          "width": 1600,
+          "height": 1600,
+          "alt": "Existing portal with Jason at the threshold — Three Meeting Theory"
+        },
+        "reader_hero": {
+          "src": "chapters/three-meeting-theory/artwork/chapter-page/hero.webp",
+          "version": "19c7af3842bd",
+          "width": 1920,
+          "height": 1280,
+          "alt": "New full rectangular opening illustration — Three Meeting Theory"
+        },
+        "inline_illustration": {
+          "src": "chapters/three-meeting-theory/artwork/content/illustrations/01-story-detail.webp",
+          "version": "86ed3eafa549",
+          "width": 1920,
+          "height": 1280,
+          "alt": "New supporting in-content illustration — Three Meeting Theory"
+        }
+      },
+      "additional_illustrations": [],
+      "centre_scene": "chapters/three-meeting-theory/artwork/main-book/centre-scene.webp"
+    },
+    {
+      "slug": "dating-algorithm",
+      "number": "19",
+      "title": "Dating Algorithm",
+      "roles": {
+        "main_book": {
+          "src": "chapters/dating-algorithm/artwork/main-book/portal.webp",
+          "version": "efb4fe90f32b",
+          "width": 1600,
+          "height": 1600,
+          "alt": "Full portal, without foreground observer — Dating Algorithm"
+        },
+        "chapter_map": {
+          "src": "chapters/dating-algorithm/artwork/chapter-map/portal.webp",
+          "version": "c69a9817788f",
+          "width": 1200,
+          "height": 1200,
+          "alt": "Full portal, without foreground observer; independently replaceable — Dating Algorithm"
+        },
+        "chapter_opening": {
+          "src": "chapters/dating-algorithm/artwork/chapter-page/portal.webp",
+          "version": "a79092406469",
+          "width": 1600,
+          "height": 1600,
+          "alt": "Existing portal with Jason at the threshold — Dating Algorithm"
+        },
+        "reader_hero": {
+          "src": "chapters/dating-algorithm/artwork/chapter-page/hero.webp",
+          "version": "c072273a2637",
+          "width": 1920,
+          "height": 1280,
+          "alt": "New full rectangular opening illustration — Dating Algorithm"
+        },
+        "inline_illustration": {
+          "src": "chapters/dating-algorithm/artwork/content/illustrations/01-story-detail.webp",
+          "version": "b2ff59a9463b",
+          "width": 1920,
+          "height": 1280,
+          "alt": "New supporting in-content illustration — Dating Algorithm"
+        }
+      },
+      "additional_illustrations": [],
+      "centre_scene": "chapters/dating-algorithm/artwork/main-book/centre-scene.webp"
+    },
+    {
+      "slug": "dating-102",
+      "number": "20",
+      "title": "Dating 102",
+      "roles": {
+        "main_book": {
+          "src": "chapters/dating-102/artwork/main-book/portal.webp",
+          "version": "2fa4767d96cd",
+          "width": 1600,
+          "height": 1600,
+          "alt": "Full portal, without foreground observer — Dating 102"
+        },
+        "chapter_map": {
+          "src": "chapters/dating-102/artwork/chapter-map/portal.webp",
+          "version": "cf8dd919b37f",
+          "width": 1200,
+          "height": 1200,
+          "alt": "Full portal, without foreground observer; independently replaceable — Dating 102"
+        },
+        "chapter_opening": {
+          "src": "chapters/dating-102/artwork/chapter-page/portal.webp",
+          "version": "44e5de01346d",
+          "width": 1600,
+          "height": 1600,
+          "alt": "Existing portal with Jason at the threshold — Dating 102"
+        },
+        "reader_hero": {
+          "src": "chapters/dating-102/artwork/chapter-page/hero.webp",
+          "version": "3c1e4d80a377",
+          "width": 1920,
+          "height": 1280,
+          "alt": "New full rectangular opening illustration — Dating 102"
+        },
+        "inline_illustration": {
+          "src": "chapters/dating-102/artwork/content/illustrations/01-story-detail.webp",
+          "version": "cea1e29c8e2e",
+          "width": 1920,
+          "height": 1280,
+          "alt": "New supporting in-content illustration — Dating 102"
+        }
+      },
+      "additional_illustrations": [],
+      "centre_scene": "chapters/dating-102/artwork/main-book/centre-scene.webp"
+    },
+    {
+      "slug": "to-mary-jane",
+      "number": "21",
+      "title": "To Mary Jane",
+      "roles": {
+        "main_book": {
+          "src": "chapters/to-mary-jane/artwork/main-book/portal.webp",
+          "version": "b98d4e90c7d5",
+          "width": 1600,
+          "height": 1600,
+          "alt": "Full portal, without foreground observer — To Mary Jane"
+        },
+        "chapter_map": {
+          "src": "chapters/to-mary-jane/artwork/chapter-map/portal.webp",
+          "version": "2edc97ae8910",
+          "width": 1200,
+          "height": 1200,
+          "alt": "Full portal, without foreground observer; independently replaceable — To Mary Jane"
+        },
+        "chapter_opening": {
+          "src": "chapters/to-mary-jane/artwork/chapter-page/portal.webp",
+          "version": "e66b16e6d683",
+          "width": 1600,
+          "height": 1600,
+          "alt": "Existing portal with Jason at the threshold — To Mary Jane"
+        },
+        "reader_hero": {
+          "src": "chapters/to-mary-jane/artwork/chapter-page/hero.webp",
+          "version": "50f3713b4341",
+          "width": 1920,
+          "height": 1280,
+          "alt": "New full rectangular opening illustration — To Mary Jane"
+        },
+        "inline_illustration": {
+          "src": "chapters/to-mary-jane/artwork/content/illustrations/01-story-detail.webp",
+          "version": "01211100f227",
+          "width": 1920,
+          "height": 1280,
+          "alt": "New supporting in-content illustration — To Mary Jane"
+        }
+      },
+      "additional_illustrations": [],
+      "centre_scene": "chapters/to-mary-jane/artwork/main-book/centre-scene.webp"
+    },
+    {
+      "slug": "runaway",
+      "number": "22",
+      "title": "Run away",
+      "roles": {
+        "main_book": {
+          "src": "chapters/runaway/artwork/main-book/portal.webp",
+          "version": "afc9fdb5b76b",
+          "width": 1600,
+          "height": 1600,
+          "alt": "Full portal, without foreground observer — Run away"
+        },
+        "chapter_map": {
+          "src": "chapters/runaway/artwork/chapter-map/portal.webp",
+          "version": "e7160df357b4",
+          "width": 1200,
+          "height": 1200,
+          "alt": "Full portal, without foreground observer; independently replaceable — Run away"
+        },
+        "chapter_opening": {
+          "src": "chapters/runaway/artwork/chapter-page/portal.webp",
+          "version": "11b3ccdcb4c3",
+          "width": 1600,
+          "height": 1600,
+          "alt": "Existing portal with Jason at the threshold — Run away"
+        },
+        "reader_hero": {
+          "src": "chapters/runaway/artwork/chapter-page/hero.webp",
+          "version": "6d80d4206073",
+          "width": 1920,
+          "height": 1280,
+          "alt": "New full rectangular opening illustration — Run away"
+        },
+        "inline_illustration": {
+          "src": "chapters/runaway/artwork/content/illustrations/01-story-detail.webp",
+          "version": "4c029ccf2b48",
+          "width": 1920,
+          "height": 1280,
+          "alt": "New supporting in-content illustration — Run away"
+        }
+      },
+      "additional_illustrations": [],
+      "centre_scene": "chapters/runaway/artwork/main-book/centre-scene.webp"
+    },
+    {
+      "slug": "nhung-hinh-chieu-xau-xi",
+      "number": "23",
+      "title": "Ugly Projections",
+      "roles": {
+        "main_book": {
+          "src": "chapters/nhung-hinh-chieu-xau-xi/artwork/main-book/portal.webp",
+          "version": "ddac11df46a5",
+          "width": 1600,
+          "height": 1600,
+          "alt": "Full portal, without foreground observer — Ugly Projections"
+        },
+        "chapter_map": {
+          "src": "chapters/nhung-hinh-chieu-xau-xi/artwork/chapter-map/portal.webp",
+          "version": "f0f76c997296",
+          "width": 1200,
+          "height": 1200,
+          "alt": "Full portal, without foreground observer; independently replaceable — Ugly Projections"
+        },
+        "chapter_opening": {
+          "src": "chapters/nhung-hinh-chieu-xau-xi/artwork/chapter-page/portal.webp",
+          "version": "a885e00ab249",
+          "width": 1600,
+          "height": 1600,
+          "alt": "Existing portal with Jason at the threshold — Ugly Projections"
+        },
+        "reader_hero": {
+          "src": "chapters/nhung-hinh-chieu-xau-xi/artwork/chapter-page/hero.webp",
+          "version": "2c861b34e834",
+          "width": 1920,
+          "height": 1280,
+          "alt": "New full rectangular opening illustration — Ugly Projections"
+        },
+        "inline_illustration": {
+          "src": "chapters/nhung-hinh-chieu-xau-xi/artwork/content/illustrations/01-story-detail.webp",
+          "version": "a87f337df249",
+          "width": 1920,
+          "height": 1280,
+          "alt": "New supporting in-content illustration — Ugly Projections"
+        }
+      },
+      "additional_illustrations": [],
+      "centre_scene": "chapters/nhung-hinh-chieu-xau-xi/artwork/main-book/centre-scene.webp"
+    },
+    {
+      "slug": "the-23-word-nuclear-warhead",
+      "number": "24",
+      "title": "Office Battlefield - The 23-Word Nuclear Warhead",
+      "roles": {
+        "main_book": {
+          "src": "chapters/the-23-word-nuclear-warhead/artwork/main-book/portal.webp",
+          "version": "b92c4df159d4",
+          "width": 1600,
+          "height": 1600,
+          "alt": "Full portal, without foreground observer — Office Battlefield - The 23-Word Nuclear Warhead"
+        },
+        "chapter_map": {
+          "src": "chapters/the-23-word-nuclear-warhead/artwork/chapter-map/portal.webp",
+          "version": "2507434d9c1b",
+          "width": 1200,
+          "height": 1200,
+          "alt": "Full portal, without foreground observer; independently replaceable — Office Battlefield - The 23-Word Nuclear Warhead"
+        },
+        "chapter_opening": {
+          "src": "chapters/the-23-word-nuclear-warhead/artwork/chapter-page/portal.webp",
+          "version": "57f962951ff2",
+          "width": 1600,
+          "height": 1600,
+          "alt": "Existing portal with Jason at the threshold — Office Battlefield - The 23-Word Nuclear Warhead"
+        },
+        "reader_hero": {
+          "src": "chapters/the-23-word-nuclear-warhead/artwork/chapter-page/hero.webp",
+          "version": "c9fbba4c8ca8",
+          "width": 1920,
+          "height": 1280,
+          "alt": "New full rectangular opening illustration — Office Battlefield - The 23-Word Nuclear Warhead"
+        },
+        "inline_illustration": {
+          "src": "chapters/the-23-word-nuclear-warhead/artwork/content/illustrations/01-story-detail.webp",
+          "version": "518edc42c221",
+          "width": 1920,
+          "height": 1280,
+          "alt": "New supporting in-content illustration — Office Battlefield - The 23-Word Nuclear Warhead"
+        }
+      },
+      "additional_illustrations": [],
+      "centre_scene": "chapters/the-23-word-nuclear-warhead/artwork/main-book/centre-scene.webp"
+    },
+    {
+      "slug": "the-payoff-matrix",
+      "number": "25",
+      "title": "Office Battlefield - The Payoff Matrix",
+      "roles": {
+        "main_book": {
+          "src": "chapters/the-payoff-matrix/artwork/main-book/portal.webp",
+          "version": "349d4e85f981",
+          "width": 1600,
+          "height": 1600,
+          "alt": "Full portal, without foreground observer — Office Battlefield - The Payoff Matrix"
+        },
+        "chapter_map": {
+          "src": "chapters/the-payoff-matrix/artwork/chapter-map/portal.webp",
+          "version": "e73e9ecb2d5a",
+          "width": 1200,
+          "height": 1200,
+          "alt": "Full portal, without foreground observer; independently replaceable — Office Battlefield - The Payoff Matrix"
+        },
+        "chapter_opening": {
+          "src": "chapters/the-payoff-matrix/artwork/chapter-page/portal.webp",
+          "version": "af560cc5d66f",
+          "width": 1600,
+          "height": 1600,
+          "alt": "Existing portal with Jason at the threshold — Office Battlefield - The Payoff Matrix"
+        },
+        "reader_hero": {
+          "src": "chapters/the-payoff-matrix/artwork/chapter-page/hero.webp",
+          "version": "fa008d32f9cd",
+          "width": 1920,
+          "height": 1280,
+          "alt": "New full rectangular opening illustration — Office Battlefield - The Payoff Matrix"
+        },
+        "inline_illustration": {
+          "src": "chapters/the-payoff-matrix/artwork/content/illustrations/01-story-detail.webp",
+          "version": "92cd43e585bb",
+          "width": 1920,
+          "height": 1280,
+          "alt": "New supporting in-content illustration — Office Battlefield - The Payoff Matrix"
+        }
+      },
+      "additional_illustrations": [],
+      "centre_scene": "chapters/the-payoff-matrix/artwork/main-book/centre-scene.webp"
+    },
+    {
+      "slug": "better-and-brighter-than-ever",
+      "number": "26",
+      "title": "Office Battlefield - Better and Brighter Than Ever",
+      "roles": {
+        "main_book": {
+          "src": "chapters/better-and-brighter-than-ever/artwork/main-book/portal.webp",
+          "version": "4cb637d24624",
+          "width": 1600,
+          "height": 1600,
+          "alt": "Full portal, without foreground observer — Office Battlefield - Better and Brighter Than Ever"
+        },
+        "chapter_map": {
+          "src": "chapters/better-and-brighter-than-ever/artwork/chapter-map/portal.webp",
+          "version": "4fafee3ae190",
+          "width": 1200,
+          "height": 1200,
+          "alt": "Full portal, without foreground observer; independently replaceable — Office Battlefield - Better and Brighter Than Ever"
+        },
+        "chapter_opening": {
+          "src": "chapters/better-and-brighter-than-ever/artwork/chapter-page/portal.webp",
+          "version": "8ca9551faebb",
+          "width": 1600,
+          "height": 1600,
+          "alt": "Existing portal with Jason at the threshold — Office Battlefield - Better and Brighter Than Ever"
+        },
+        "reader_hero": {
+          "src": "chapters/better-and-brighter-than-ever/artwork/chapter-page/hero.webp",
+          "version": "d8b982f4eb95",
+          "width": 1920,
+          "height": 1280,
+          "alt": "New full rectangular opening illustration — Office Battlefield - Better and Brighter Than Ever"
+        },
+        "inline_illustration": {
+          "src": "chapters/better-and-brighter-than-ever/artwork/content/illustrations/01-story-detail.webp",
+          "version": "b5a002ad7886",
+          "width": 1920,
+          "height": 1280,
+          "alt": "New supporting in-content illustration — Office Battlefield - Better and Brighter Than Ever"
+        }
+      },
+      "additional_illustrations": [],
+      "centre_scene": "chapters/better-and-brighter-than-ever/artwork/main-book/centre-scene.webp"
+    },
+    {
+      "slug": "masterclass-in-record-keeping",
+      "number": "27",
+      "title": "Office Battlefield - Masterclass in Record Keeping",
+      "roles": {
+        "main_book": {
+          "src": "chapters/masterclass-in-record-keeping/artwork/main-book/portal.webp",
+          "version": "0dfc7a546426",
+          "width": 1600,
+          "height": 1600,
+          "alt": "Full portal, without foreground observer — Office Battlefield - Masterclass in Record Keeping"
+        },
+        "chapter_map": {
+          "src": "chapters/masterclass-in-record-keeping/artwork/chapter-map/portal.webp",
+          "version": "58b2742d80f9",
+          "width": 1200,
+          "height": 1200,
+          "alt": "Full portal, without foreground observer; independently replaceable — Office Battlefield - Masterclass in Record Keeping"
+        },
+        "chapter_opening": {
+          "src": "chapters/masterclass-in-record-keeping/artwork/chapter-page/portal.webp",
+          "version": "e147dba19067",
+          "width": 1600,
+          "height": 1600,
+          "alt": "Existing portal with Jason at the threshold — Office Battlefield - Masterclass in Record Keeping"
+        },
+        "reader_hero": {
+          "src": "chapters/masterclass-in-record-keeping/artwork/chapter-page/hero.webp",
+          "version": "3fca0a131c77",
+          "width": 1920,
+          "height": 1280,
+          "alt": "New full rectangular opening illustration — Office Battlefield - Masterclass in Record Keeping"
+        },
+        "inline_illustration": {
+          "src": "chapters/masterclass-in-record-keeping/artwork/content/illustrations/01-story-detail.webp",
+          "version": "2915f33e807d",
+          "width": 1920,
+          "height": 1280,
+          "alt": "New supporting in-content illustration — Office Battlefield - Masterclass in Record Keeping"
+        }
+      },
+      "additional_illustrations": [],
+      "centre_scene": "chapters/masterclass-in-record-keeping/artwork/main-book/centre-scene.webp"
+    },
+    {
+      "slug": "good-boy",
+      "number": "28",
+      "title": "Office Battlefield - Good Boy",
+      "roles": {
+        "main_book": {
+          "src": "chapters/good-boy/artwork/main-book/portal.webp",
+          "version": "d8491ac0c547",
+          "width": 1600,
+          "height": 1600,
+          "alt": "Full portal, without foreground observer — Office Battlefield - Good Boy"
+        },
+        "chapter_map": {
+          "src": "chapters/good-boy/artwork/chapter-map/portal.webp",
+          "version": "7c1175456698",
+          "width": 1200,
+          "height": 1200,
+          "alt": "Full portal, without foreground observer; independently replaceable — Office Battlefield - Good Boy"
+        },
+        "chapter_opening": {
+          "src": "chapters/good-boy/artwork/chapter-page/portal.webp",
+          "version": "d04440491657",
+          "width": 1600,
+          "height": 1600,
+          "alt": "Existing portal with Jason at the threshold — Office Battlefield - Good Boy"
+        },
+        "reader_hero": {
+          "src": "chapters/good-boy/artwork/chapter-page/hero.webp",
+          "version": "67c5ede45f24",
+          "width": 1920,
+          "height": 1280,
+          "alt": "New full rectangular opening illustration — Office Battlefield - Good Boy"
+        },
+        "inline_illustration": {
+          "src": "chapters/good-boy/artwork/content/illustrations/01-story-detail.webp",
+          "version": "a4a945489044",
+          "width": 1920,
+          "height": 1280,
+          "alt": "New supporting in-content illustration — Office Battlefield - Good Boy"
+        }
+      },
+      "additional_illustrations": [],
+      "centre_scene": "chapters/good-boy/artwork/main-book/centre-scene.webp"
+    },
+    {
+      "slug": "the-moral-story-schools-dont-teach-you",
+      "number": "29",
+      "title": "Office Battlefield - The Moral Story Schools Don't Teach You",
+      "roles": {
+        "main_book": {
+          "src": "chapters/the-moral-story-schools-dont-teach-you/artwork/main-book/portal.webp",
+          "version": "5ec5d7bbf55b",
+          "width": 1600,
+          "height": 1600,
+          "alt": "Full portal, without foreground observer — Office Battlefield - The Moral Story Schools Don't Teach You"
+        },
+        "chapter_map": {
+          "src": "chapters/the-moral-story-schools-dont-teach-you/artwork/chapter-map/portal.webp",
+          "version": "209912502705",
+          "width": 1200,
+          "height": 1200,
+          "alt": "Full portal, without foreground observer; independently replaceable — Office Battlefield - The Moral Story Schools Don't Teach You"
+        },
+        "chapter_opening": {
+          "src": "chapters/the-moral-story-schools-dont-teach-you/artwork/chapter-page/portal.webp",
+          "version": "292ab0a828a6",
+          "width": 1600,
+          "height": 1600,
+          "alt": "Existing portal with Jason at the threshold — Office Battlefield - The Moral Story Schools Don't Teach You"
+        },
+        "reader_hero": {
+          "src": "chapters/the-moral-story-schools-dont-teach-you/artwork/chapter-page/hero.webp",
+          "version": "6f94c568bdb9",
+          "width": 1920,
+          "height": 1280,
+          "alt": "New full rectangular opening illustration — Office Battlefield - The Moral Story Schools Don't Teach You"
+        },
+        "inline_illustration": {
+          "src": "chapters/the-moral-story-schools-dont-teach-you/artwork/content/illustrations/01-story-detail.webp",
+          "version": "1f8e1eb7ca0d",
+          "width": 1920,
+          "height": 1280,
+          "alt": "New supporting in-content illustration — Office Battlefield - The Moral Story Schools Don't Teach You"
+        }
+      },
+      "additional_illustrations": [],
+      "centre_scene": "chapters/the-moral-story-schools-dont-teach-you/artwork/main-book/centre-scene.webp"
+    },
+    {
+      "slug": "negative-sum-game",
+      "number": "30",
+      "title": "Office Battlefield - Negative-Sum Game",
+      "roles": {
+        "main_book": {
+          "src": "chapters/negative-sum-game/artwork/main-book/portal.webp",
+          "version": "9317632ee967",
+          "width": 1600,
+          "height": 1600,
+          "alt": "Full portal, without foreground observer — Office Battlefield - Negative-Sum Game"
+        },
+        "chapter_map": {
+          "src": "chapters/negative-sum-game/artwork/chapter-map/portal.webp",
+          "version": "48c9c6072259",
+          "width": 1200,
+          "height": 1200,
+          "alt": "Full portal, without foreground observer; independently replaceable — Office Battlefield - Negative-Sum Game"
+        },
+        "chapter_opening": {
+          "src": "chapters/negative-sum-game/artwork/chapter-page/portal.webp",
+          "version": "8c9e9422df59",
+          "width": 1600,
+          "height": 1600,
+          "alt": "Existing portal with Jason at the threshold — Office Battlefield - Negative-Sum Game"
+        },
+        "reader_hero": {
+          "src": "chapters/negative-sum-game/artwork/chapter-page/hero.webp",
+          "version": "7b4873a06bc6",
+          "width": 1920,
+          "height": 1280,
+          "alt": "New full rectangular opening illustration — Office Battlefield - Negative-Sum Game"
+        },
+        "inline_illustration": {
+          "src": "chapters/negative-sum-game/artwork/content/illustrations/01-story-detail.webp",
+          "version": "f226776a99cb",
+          "width": 1920,
+          "height": 1280,
+          "alt": "New supporting in-content illustration — Office Battlefield - Negative-Sum Game"
+        }
+      },
+      "additional_illustrations": [],
+      "centre_scene": "chapters/negative-sum-game/artwork/main-book/centre-scene.webp"
+    },
+    {
+      "slug": "sharingan",
+      "number": "31",
+      "title": "Sharingan",
+      "roles": {
+        "main_book": {
+          "src": "chapters/sharingan/artwork/main-book/portal.webp",
+          "version": "18f9a1ccaeeb",
+          "width": 1600,
+          "height": 1600,
+          "alt": "Full portal, without foreground observer — Sharingan"
+        },
+        "chapter_map": {
+          "src": "chapters/sharingan/artwork/chapter-map/portal.webp",
+          "version": "2adba22e8151",
+          "width": 1200,
+          "height": 1200,
+          "alt": "Full portal, without foreground observer; independently replaceable — Sharingan"
+        },
+        "chapter_opening": {
+          "src": "chapters/sharingan/artwork/chapter-page/portal.webp",
+          "version": "cadb6a885119",
+          "width": 1600,
+          "height": 1600,
+          "alt": "Existing portal with Jason at the threshold — Sharingan"
+        },
+        "reader_hero": {
+          "src": "chapters/sharingan/artwork/chapter-page/hero.webp",
+          "version": "70cb67c65308",
+          "width": 1920,
+          "height": 1280,
+          "alt": "New full rectangular opening illustration — Sharingan"
+        },
+        "inline_illustration": {
+          "src": "chapters/sharingan/artwork/content/illustrations/01-story-detail.webp",
+          "version": "366e28a145a5",
+          "width": 1920,
+          "height": 1280,
+          "alt": "New supporting in-content illustration — Sharingan"
+        }
+      },
+      "additional_illustrations": [],
+      "centre_scene": "chapters/sharingan/artwork/main-book/centre-scene.webp"
+    },
+    {
+      "slug": "command-respect",
+      "number": "32",
+      "title": "Office Battlefield - Command Respect",
+      "roles": {
+        "main_book": {
+          "src": "chapters/command-respect/artwork/main-book/portal.webp",
+          "version": "b075ace571a7",
+          "width": 1600,
+          "height": 1600,
+          "alt": "Full portal, without foreground observer — Office Battlefield - Command Respect"
+        },
+        "chapter_map": {
+          "src": "chapters/command-respect/artwork/chapter-map/portal.webp",
+          "version": "7585c8c0bb87",
+          "width": 1200,
+          "height": 1200,
+          "alt": "Full portal, without foreground observer; independently replaceable — Office Battlefield - Command Respect"
+        },
+        "chapter_opening": {
+          "src": "chapters/command-respect/artwork/chapter-page/portal.webp",
+          "version": "417c2455d031",
+          "width": 1600,
+          "height": 1600,
+          "alt": "Existing portal with Jason at the threshold — Office Battlefield - Command Respect"
+        },
+        "reader_hero": {
+          "src": "chapters/command-respect/artwork/chapter-page/hero.webp",
+          "version": "b2a923ece7db",
+          "width": 1920,
+          "height": 1280,
+          "alt": "New full rectangular opening illustration — Office Battlefield - Command Respect"
+        },
+        "inline_illustration": {
+          "src": "chapters/command-respect/artwork/content/illustrations/01-story-detail.webp",
+          "version": "008f7a1da501",
+          "width": 1920,
+          "height": 1280,
+          "alt": "New supporting in-content illustration — Office Battlefield - Command Respect"
+        }
+      },
+      "additional_illustrations": [],
+      "centre_scene": "chapters/command-respect/artwork/main-book/centre-scene.webp"
+    },
+    {
+      "slug": "lone-wolf",
+      "number": "33",
+      "title": "Lone Wolf",
+      "roles": {
+        "main_book": {
+          "src": "chapters/lone-wolf/artwork/main-book/portal.webp",
+          "version": "a7acc95fa829",
+          "width": 1600,
+          "height": 1600,
+          "alt": "Full portal, without foreground observer — Lone Wolf"
+        },
+        "chapter_map": {
+          "src": "chapters/lone-wolf/artwork/chapter-map/portal.webp",
+          "version": "f0c1c8428f43",
+          "width": 1200,
+          "height": 1200,
+          "alt": "Full portal, without foreground observer; independently replaceable — Lone Wolf"
+        },
+        "chapter_opening": {
+          "src": "chapters/lone-wolf/artwork/chapter-page/portal.webp",
+          "version": "a165bafc4d64",
+          "width": 1600,
+          "height": 1600,
+          "alt": "Existing portal with Jason at the threshold — Lone Wolf"
+        },
+        "reader_hero": {
+          "src": "chapters/lone-wolf/artwork/chapter-page/hero.webp",
+          "version": "1422655e56a7",
+          "width": 1920,
+          "height": 1280,
+          "alt": "New full rectangular opening illustration — Lone Wolf"
+        },
+        "inline_illustration": {
+          "src": "chapters/lone-wolf/artwork/content/illustrations/01-story-detail.webp",
+          "version": "af290c96d4f1",
+          "width": 1920,
+          "height": 1280,
+          "alt": "New supporting in-content illustration — Lone Wolf"
+        }
+      },
+      "additional_illustrations": [],
+      "centre_scene": "chapters/lone-wolf/artwork/main-book/centre-scene.webp"
+    },
+    {
+      "slug": "co-nhung-thu-chi-khi-minh-roi-di-roi-moi-nhin-thay",
+      "number": "34",
+      "title": "Office Battlefield - Things You Only See After Leaving",
+      "roles": {
+        "main_book": {
+          "src": "chapters/co-nhung-thu-chi-khi-minh-roi-di-roi-moi-nhin-thay/artwork/main-book/portal.webp",
+          "version": "aa9a40dfe2e1",
+          "width": 1600,
+          "height": 1600,
+          "alt": "Full portal, without foreground observer — Office Battlefield - Things You Only See After Leaving"
+        },
+        "chapter_map": {
+          "src": "chapters/co-nhung-thu-chi-khi-minh-roi-di-roi-moi-nhin-thay/artwork/chapter-map/portal.webp",
+          "version": "5c7e34444060",
+          "width": 1200,
+          "height": 1200,
+          "alt": "Full portal, without foreground observer; independently replaceable — Office Battlefield - Things You Only See After Leaving"
+        },
+        "chapter_opening": {
+          "src": "chapters/co-nhung-thu-chi-khi-minh-roi-di-roi-moi-nhin-thay/artwork/chapter-page/portal.webp",
+          "version": "bf61f3febe37",
+          "width": 1600,
+          "height": 1600,
+          "alt": "Existing portal with Jason at the threshold — Office Battlefield - Things You Only See After Leaving"
+        },
+        "reader_hero": {
+          "src": "chapters/co-nhung-thu-chi-khi-minh-roi-di-roi-moi-nhin-thay/artwork/chapter-page/hero.webp",
+          "version": "ea1bf531df2c",
+          "width": 1920,
+          "height": 1280,
+          "alt": "New full rectangular opening illustration — Office Battlefield - Things You Only See After Leaving"
+        },
+        "inline_illustration": {
+          "src": "chapters/co-nhung-thu-chi-khi-minh-roi-di-roi-moi-nhin-thay/artwork/content/illustrations/01-story-detail.webp",
+          "version": "894f629ececa",
+          "width": 1920,
+          "height": 1280,
+          "alt": "New supporting in-content illustration — Office Battlefield - Things You Only See After Leaving"
+        }
+      },
+      "additional_illustrations": [],
+      "centre_scene": "chapters/co-nhung-thu-chi-khi-minh-roi-di-roi-moi-nhin-thay/artwork/main-book/centre-scene.webp"
+    },
+    {
+      "slug": "loi-xin-loi",
+      "number": "35",
+      "title": "The Apology",
+      "roles": {
+        "main_book": {
+          "src": "chapters/loi-xin-loi/artwork/main-book/portal.webp",
+          "version": "a62e5e03ff01",
+          "width": 1600,
+          "height": 1600,
+          "alt": "Full portal, without foreground observer — The Apology"
+        },
+        "chapter_map": {
+          "src": "chapters/loi-xin-loi/artwork/chapter-map/portal.webp",
+          "version": "e71f1ee644bb",
+          "width": 1200,
+          "height": 1200,
+          "alt": "Full portal, without foreground observer; independently replaceable — The Apology"
+        },
+        "chapter_opening": {
+          "src": "chapters/loi-xin-loi/artwork/chapter-page/portal.webp",
+          "version": "3948f4cd3278",
+          "width": 1600,
+          "height": 1600,
+          "alt": "Existing portal with Jason at the threshold — The Apology"
+        },
+        "reader_hero": {
+          "src": "chapters/loi-xin-loi/artwork/chapter-page/hero.webp",
+          "version": "b1c1262ec684",
+          "width": 1920,
+          "height": 1280,
+          "alt": "New full rectangular opening illustration — The Apology"
+        },
+        "inline_illustration": {
+          "src": "chapters/loi-xin-loi/artwork/content/illustrations/01-story-detail.webp",
+          "version": "b75ad6aa4266",
+          "width": 1920,
+          "height": 1280,
+          "alt": "New supporting in-content illustration — The Apology"
+        }
+      },
+      "additional_illustrations": [
+        {
+          "id": "unoffered-totes",
+          "src": "chapters/loi-xin-loi/artwork/content/illustrations/02-unoffered-totes.webp",
+          "version": "4fd6f383ea9b",
+          "width": 1920,
+          "height": 1280,
+          "alt": "The two totes still in the suitcase"
+        },
+        {
+          "id": "questioning-the-story",
+          "src": "chapters/loi-xin-loi/artwork/content/illustrations/03-questioning-the-story.webp",
+          "version": "71f0801aa75c",
+          "width": 1920,
+          "height": 1280,
+          "alt": "Questioning the story he had constructed"
+        }
+      ],
+      "centre_scene": "chapters/loi-xin-loi/artwork/main-book/centre-scene.webp"
+    }
+  ],
+  "shared": {
+    "rotating_ring": "shared/main-book/rotating-ring-no-observer.png",
+    "geometry": "shared/main-book/ring-geometry.json",
+    "master_ring_manifest": "shared/main-book/master-ring/assets.json",
+    "master_ring_gallery": "shared/main-book/master-ring/index.html",
+    "printed_cover_proofs": "shared/main-book/master-ring/print/cover-front-proofs.pdf",
+    "complete_main_portal": "shared/main-book/main-book-portal.webp",
+    "stationary_foreground": "shared/main-book/foreground-jason-and-gau.webp",
+    "foreground_master": "shared/main-book/master-ring/foreground/jason-and-gau-registered.png",
+    "jason_cutout": "shared/main-book/master-ring/foreground/jason-back-silhouette.png",
+    "gau_cutout": "shared/main-book/master-ring/foreground/gau-white-fluffy-dog.png"
+  }
+}

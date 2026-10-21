@@ -1,0 +1,9 @@
+# Fashion — editorial review, 17 October 2026
+
+The latest supplied manuscript remains unchanged in wording. Possible copyedit points, including “đình đấy”, “This is who i am”, the uppercase “Thời” after a comma and the long final paragraph, are retained for the author rather than silently corrected. The unnamed colleague has no new identifying detail. Narrator age and original composition date remain unspecified.
+
+The 2015 footwear anchor is consistent with primary brand sources: adidas Japan announced NMD's global launch for 12 December 2015 ([brand press release](https://prtimes.jp/main/html/rd/p/000000218.000003301.html)); adidas Group's 2016 retrospective identifies Yeezy Season 1 and the first Boost 750 drop in February 2015 ([adidas release](https://www.adidas-group.com/en/media/press-releases/yeezy-adidas-and-kanye-west-make-history-with-transformative-new-partnership-adidas-kanye-west)). This supports the approximate 2015 anchor only; it does not establish the full personal sequence of brands or artist influence.
+
+The spending/recession passage and fast-fashion explanation remain the author's interpretation, not a checked causal economic model. The refreshed social pack uses personal-style excerpts rather than presenting those claims as measured findings. No economic wording was rewritten.
+
+The supplied visuals are illustrations, not photographs of the author's actual room or father's possessions. The existing poster visibly depicts Nike/adidas-style marks and wall imagery. No newly sourced logos, music or celebrity images were added; editable original layers, detailed image provenance and commercial-use review remain outstanding. The current post copy and new films omit the unsupported “twenty years” claim. Earlier supplied files remain in the reference archive.

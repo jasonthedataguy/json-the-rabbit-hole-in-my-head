@@ -1,0 +1,20 @@
+{
+  "scenes": [],
+  "carousel": [],
+  "print_scenes": [],
+  "films": [],
+  "memory": {
+    "heading": "",
+    "intro": "",
+    "moments": []
+  },
+  "digital_portal": {
+    "recipe": "scripts/cut_ugly_projections_board.py",
+    "ring": "artwork/portal/ugly-projections-ring-v1.png",
+    "scene": "artwork/portal/ugly-projections-scene-v1.png",
+    "homepage_scene": "artwork/portal/ugly-projections-scene-v1.png",
+    "reader_illustration": "artwork/portal/ugly-projections-spread-v1.webp",
+    "standalone_portal": "web/assets/ugly-projections-portal-v1.png",
+    "status": "digital crops from flattened supplied board"
+  }
+}

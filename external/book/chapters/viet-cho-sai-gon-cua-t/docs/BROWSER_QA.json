@@ -1,0 +1,23 @@
+{
+  "mode": "local",
+  "widths": [
+    320,
+    390,
+    820,
+    1440
+  ],
+  "checks": [
+    "320px: homepage, original prose, eight keyboard controls, images and gallery passed",
+    "390px: homepage, original prose, eight keyboard controls, images and gallery passed",
+    "820px: homepage, original prose, eight keyboard controls, images and gallery passed",
+    "1440px: homepage, original prose, eight keyboard controls, images and gallery passed"
+  ],
+  "original_sha256": "911b174411dced9668dffd01c6860c079cc17e231c5235f5153666c6021d8b26",
+  "paragraphs": 20,
+  "controls": 8,
+  "no_javascript": "pass",
+  "downloads": "pass",
+  "video_and_audio_playback": "pass",
+  "regressions": "all three other chapter manuscripts and interactions passed",
+  "errors": []
+}

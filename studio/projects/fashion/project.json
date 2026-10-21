@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "story_slug": "fashion",
+  "title": "Fashion — Be Your Own Label",
+  "edition_number": "04",
+  "original_edition_number": "02",
+  "source": {
+    "path": "C:\\Users\\Administrator\\OneDrive\\Desktop\\.json book\\json_under_revision_v2\\chapters\\fashion\\source\\approved.md",
+    "sha256": "fa6d61a045a5c160a45ecd541382077c46a4581b00de6ffd027bf1674ac78c9e"
+  },
+  "run_manifest": "studio/projects/fashion/run-manifest.json",
+  "asset_record": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\fashion\\assets.json",
+  "timeline": null,
+  "lanes": {
+    "editorial": "C:\\Users\\Administrator\\OneDrive\\Desktop\\.json book\\json_under_revision_v2\\chapters\\fashion\\source",
+    "reader": "C:\\Users\\Administrator\\OneDrive\\Desktop\\.json book\\json_under_revision_v2\\chapters\\fashion\\web",
+    "design": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\fashion\\assets.json",
+    "audio": "C:\\Users\\Administrator\\OneDrive\\Desktop\\.json book\\json_under_revision_v2\\chapters\\fashion\\audio",
+    "video": null,
+    "social": null,
+    "commerce": null,
+    "release": null,
+    "learning": null
+  },
+  "state_authority": "run_manifest; project.json contains pointers, not a second set of gate flags"
+}

@@ -1,0 +1,15 @@
+{
+  "approved": true,
+  "approver": "author in this chat",
+  "date": "2026-10-21",
+  "scope": "video_script_text_only",
+  "approved_path": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\script\\final-script-v2.md",
+  "approved_sha256": "d957b592dc2317aa34196dd25ab42a3fe4a7938d3aee5a1121ab173214bf76f9",
+  "canonical_source_sha256": "b4319bf9abb463148f590c773c14f12732e3524a612936fd2edddcaebecdfd3a",
+  "evidence": "Author supplied the complete text with 'here is the final script' and requested generation of the first Cơm Nguội video.",
+  "review_format_authorization": "give me a silent review cut",
+  "book_selection_changed": false,
+  "public_release_approved": false,
+  "paid_release_approved": false,
+  "difference_note": "The supplied video script retains the unsplit opening sentence and earlier paragraphing; prior manuscript approval remains selected in the external book."
+}

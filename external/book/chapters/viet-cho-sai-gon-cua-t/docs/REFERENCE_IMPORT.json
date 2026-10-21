@@ -1,0 +1,83 @@
+{
+  "schema_version": 1,
+  "source_folder": "Saigon_Chapter_Project_Board_v01",
+  "imported_on": "2026-10-16",
+  "chapter_number": "03",
+  "source_working_number": "01",
+  "scope": "Author-selected project board reference; no manuscript or finished chapter delivery supplied.",
+  "hash_mode": "sha256 of exact file bytes",
+  "files": [
+    {
+      "source": "assets/desktop_preview.png",
+      "path": "references/project-board-v01/assets/desktop_preview.png",
+      "bytes": 471052,
+      "sha256": "3dc34d9817e21c485c700cf56fdac7803af9a3013e9487cc061f8cad6fff1763"
+    },
+    {
+      "source": "assets/mobile_preview.png",
+      "path": "references/project-board-v01/assets/mobile_preview.png",
+      "bytes": 1813230,
+      "sha256": "5c0d80c62dfa3d8fac81ea8e0b1cc0b7c563e1e3274cc4c462f33be7aafbb2cc"
+    },
+    {
+      "source": "assets/saigon_cover_mock.svg",
+      "path": "references/project-board-v01/assets/saigon_cover_mock.svg",
+      "bytes": 2243,
+      "sha256": "fc7ef05d1624fc29822334ee6f775ba18e219471dc8cf576c265e841d570bfad"
+    },
+    {
+      "source": "assets/saigon_landmark_poster_proof.jpg",
+      "path": "references/project-board-v01/assets/saigon_landmark_poster_proof.jpg",
+      "bytes": 320246,
+      "sha256": "2331a752e351eb3872a971a68571e9b44276e08cd8d5964b1f4ac59749f903aa"
+    },
+    {
+      "source": "assets/saigon_landmark_poster_proof.png",
+      "path": "references/project-board-v01/assets/saigon_landmark_poster_proof.png",
+      "bytes": 3321247,
+      "sha256": "772f4d072532ece419688276e55e24356b2da30386f73b1fa6a73adcb984c94f"
+    },
+    {
+      "source": "data/board.js",
+      "path": "references/project-board-v01/data/board.js",
+      "bytes": 24718,
+      "sha256": "0e4b5ef99331f8215f0dc832ad9ce357525ba381661608ba8a27bd937d91af22"
+    },
+    {
+      "source": "data/CHECKLIST.csv",
+      "path": "references/project-board-v01/data/CHECKLIST.csv",
+      "bytes": 13061,
+      "sha256": "120400df55bc966d5787027f8a3a3ad59a9e72510307cd96555e466e776332a9"
+    },
+    {
+      "source": "data/tasks.json",
+      "path": "references/project-board-v01/data/tasks.json",
+      "bytes": 25591,
+      "sha256": "7c3b9f711c0171a09d9c25191bbe74899d6fb46a16f087cb1eccbb8f6314baa0"
+    },
+    {
+      "source": "docs/ART_DIRECTION.md",
+      "path": "references/project-board-v01/docs/ART_DIRECTION.md",
+      "bytes": 1947,
+      "sha256": "0bcccb2104908618d93d362fa3b477256c1d348f2677876e8b47ec9be8177e21"
+    },
+    {
+      "source": "docs/PROJECT_BOARD.md",
+      "path": "references/project-board-v01/docs/PROJECT_BOARD.md",
+      "bytes": 25146,
+      "sha256": "7c22c90891d5702703faa654a930a90dff5dbfdaec1bb7ca4737b9d5376f2b7c"
+    },
+    {
+      "source": "PROJECT_BOARD.html",
+      "path": "references/project-board-v01/PROJECT_BOARD.html",
+      "bytes": 44136,
+      "sha256": "c9f91109d67147760f925c321e2216d4ec037236a28665f73d583d0a50178daa"
+    },
+    {
+      "source": "README.md",
+      "path": "references/project-board-v01/README.md",
+      "bytes": 1998,
+      "sha256": "0bbc512e295bfcd58c746e332e324013b315ccd46fcec9d1eb85742bb36f8002"
+    }
+  ]
+}

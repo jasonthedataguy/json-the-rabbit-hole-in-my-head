@@ -1,0 +1,92 @@
+[
+  {
+    "name": "discovery-9x16",
+    "size": [
+      1080,
+      1920
+    ],
+    "duration": 24.0,
+    "segments": [
+      {
+        "start": 0,
+        "end": 4.8,
+        "text": "Welcome to my TED Talk on dating.",
+        "scene": "artwork/exports/stage-detail.jpg"
+      },
+      {
+        "start": 4.8,
+        "end": 9.6,
+        "text": "70% và 90% không phải evidence.",
+        "scene": "artwork/source/03_the_model_PREVIS.jpg"
+      },
+      {
+        "start": 9.6,
+        "end": 14.4,
+        "text": "Cái tôi đang mô tả có lẽ gần một matching problem hơn.",
+        "scene": "artwork/source/10_matching_hypothetical.png"
+      },
+      {
+        "start": 14.4,
+        "end": 19.2,
+        "text": "That's the difference between a model you like and a model the data actually supports.",
+        "scene": "artwork/source/09_funnel_original_diagram.png"
+      },
+      {
+        "start": 19.2,
+        "end": 24.0,
+        "text": "Success là cả hai có một buổi tối tử tế và đều muốn gặp lại.",
+        "scene": "artwork/source/11_invitation_decision_tree.png"
+      }
+    ],
+    "status": "edit preview awaiting author narration",
+    "timing": "provisional; retime to supplied recording",
+    "audio": "synthetic ambience; no spoken narration",
+    "caption_kind": "on-screen text timing; not narration subtitles",
+    "scene_fit": "contain"
+  },
+  {
+    "name": "essay-16x9",
+    "size": [
+      1920,
+      1080
+    ],
+    "duration": 24.0,
+    "segments": [
+      {
+        "start": 0,
+        "end": 4.8,
+        "text": "Welcome to my TED Talk on dating.",
+        "scene": "artwork/exports/stage-detail.jpg"
+      },
+      {
+        "start": 4.8,
+        "end": 9.6,
+        "text": "70% và 90% không phải evidence.",
+        "scene": "artwork/source/03_the_model_PREVIS.jpg"
+      },
+      {
+        "start": 9.6,
+        "end": 14.4,
+        "text": "Cái tôi đang mô tả có lẽ gần một matching problem hơn.",
+        "scene": "artwork/source/10_matching_hypothetical.png"
+      },
+      {
+        "start": 14.4,
+        "end": 19.2,
+        "text": "That's the difference between a model you like and a model the data actually supports.",
+        "scene": "artwork/source/09_funnel_original_diagram.png"
+      },
+      {
+        "start": 19.2,
+        "end": 24.0,
+        "text": "Success là cả hai có một buổi tối tử tế và đều muốn gặp lại.",
+        "scene": "artwork/source/11_invitation_decision_tree.png"
+      }
+    ],
+    "status": "edit preview awaiting author narration",
+    "timing": "provisional; retime to supplied recording",
+    "audio": "synthetic ambience; no spoken narration",
+    "caption_kind": "on-screen text timing; not narration subtitles",
+    "scene_fit": "contain"
+  }
+]

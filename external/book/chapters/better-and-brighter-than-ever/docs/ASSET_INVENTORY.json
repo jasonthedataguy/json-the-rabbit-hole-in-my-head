@@ -1,0 +1,90 @@
+{
+  "chapter": "better-and-brighter-than-ever",
+  "files": [
+    {
+      "path": "artwork/portal/better-brighter-portal-v1.png",
+      "bytes": 1624516,
+      "sha256": "5e139b354f7da208de6f41d8ac14a1b74c414adbd78de1c825547417de4b9770"
+    },
+    {
+      "path": "artwork/portal/better-brighter-ring-v1.png",
+      "bytes": 1961595,
+      "sha256": "ef31f853a88f96e7adf37b053043c38480f8a8033254ad9ae9729e2d4243a607"
+    },
+    {
+      "path": "artwork/portal/better-brighter-scene-v1.png",
+      "bytes": 1546096,
+      "sha256": "8bff4a7f0580d34da9c0ac03f5928207761379695a31a150286199fdc7d87a41"
+    },
+    {
+      "path": "artwork/portal/better-brighter-spread-v1.webp",
+      "bytes": 151162,
+      "sha256": "03364119ba7c38615b370465d6b6232f1b630c49164a213014819bdc2e821f0c"
+    },
+    {
+      "path": "chapter.json",
+      "bytes": 1393,
+      "sha256": "2406eb01078678650ffaa1e31c8f44d6581e1a8538426f496550e3234bf957bc"
+    },
+    {
+      "path": "docs/ASSET_SOURCE.md",
+      "bytes": 824,
+      "sha256": "efa369d223810ec16850146f64083082b3fc61e1ac13ebcdd1a509cc44484fa4"
+    },
+    {
+      "path": "docs/PRODUCTS.json",
+      "bytes": 1240,
+      "sha256": "6f90c5229b91bfd0196cf99baeb402b77322c22aba02733570f2f32c8e4327b1"
+    },
+    {
+      "path": "docs/QA.md",
+      "bytes": 1326,
+      "sha256": "bf01fd25fb86582c0bea0c0cf0ddd6271e812be0ce7a07c3a81cff0bf5f403aa"
+    },
+    {
+      "path": "production.json",
+      "bytes": 640,
+      "sha256": "8714c02d44ce64fc3ad7874c65aa66cf230839c81d3597271433875cd8ca3d3b"
+    },
+    {
+      "path": "README.md",
+      "bytes": 795,
+      "sha256": "b6f8591903d61fad34160178db3126a3a1657a8a80320425464834f7cb1e5032"
+    },
+    {
+      "path": "source/approved.md",
+      "bytes": 3201,
+      "sha256": "72ba8c983f5baa2be3a1ddd48df5cb848368de72d41853cdeaa8d3970c8c71ec"
+    },
+    {
+      "path": "source/outline.md",
+      "bytes": 243,
+      "sha256": "6679862af9f81e740df4482b4cb571439f90a5074787af7cc9326a2dad1d4256"
+    },
+    {
+      "path": "source/revisions.log",
+      "bytes": 466,
+      "sha256": "f973afe0490724a785baec7759a77d6d383c8dca886f87e2211d0f5d1fc7f21a"
+    },
+    {
+      "path": "web/assets/better-brighter-portal-v1.png",
+      "bytes": 1624516,
+      "sha256": "5e139b354f7da208de6f41d8ac14a1b74c414adbd78de1c825547417de4b9770"
+    },
+    {
+      "path": "web/assets/better-brighter-spread-v1.webp",
+      "bytes": 151162,
+      "sha256": "03364119ba7c38615b370465d6b6232f1b630c49164a213014819bdc2e821f0c"
+    },
+    {
+      "path": "web/better-brighter.css",
+      "bytes": 5858,
+      "sha256": "c67e46c92bfd305670ff91720faa61bc70116dab37d29af6d81363e82f21cd76"
+    },
+    {
+      "path": "web/index.html",
+      "bytes": 6356,
+      "sha256": "fbec1aebc23663b79fa8b48582234ac8825367eeac0627641be2e73a3e37a5ce"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "schema_version": 2,
+  "slug": "runaway",
+  "number": "22",
+  "title": "Run away",
+  "short_title": "Run away",
+  "part": 3,
+  "language": "vi",
+  "publish": true,
+  "release_stage": "reader-with-digital-portal",
+  "canonical_text": "source/approved.md",
+  "canonical_path": "#chapter/22",
+  "summary": "A remembers someone who saw past his polished image: the drawings, music, small acts of care and evenings with their dog. He looks back at the moment he chose a clean exit instead of listening to her.",
+  "portal": {
+    "scene": "Jason stands in a warmly lit doorway as a woman and Gấu wait inside; drawing, music, work and memories encircle the room.",
+    "objects": [
+      "open doorway",
+      "Jason and a woman",
+      "Gấu",
+      "drawing tablet",
+      "record and headphones",
+      "sickroom sofa",
+      "exit path"
+    ],
+    "iconKey": "door",
+    "motif": "The open door and the impulse to leave"
+  },
+  "original_edition": null,
+  "production_status": "author-selected full manuscript and board-derived digital portal; print and media pending",
+  "outline_title": "Runaway",
+  "manuscript_sha256": "cd1f179df1fe9c8cffccbffce7da2f7a58a3a242f557d4fc4fc2e0b7639e8895"
+}

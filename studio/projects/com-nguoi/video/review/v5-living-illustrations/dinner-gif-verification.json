@@ -1,0 +1,22 @@
+{
+  "status": "pass",
+  "video": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\animation\\v5\\exports\\com-nguoi-v5-dinner-living.mp4",
+  "video_sha256": "8699bc6d6e307b60b43fb5ab5b53ebebb3a1c6d129ef05a5e05cefef31c69c56",
+  "gif": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\animation\\v5\\exports\\com-nguoi-v5-dinner-living.gif",
+  "gif_sha256": "0b47f6e422a7b08b798b2337443f736df7ea6294baf748d989380d261a7b0ff9",
+  "frames": 100,
+  "resolution": [
+    960,
+    640
+  ],
+  "duration_ms": 8000,
+  "frame_duration_ms": 80,
+  "infinite_loop": true,
+  "fixed_palette": true,
+  "minimum_adjacent_frame_difference": 0.11941243489583332,
+  "median_adjacent_frame_difference": 0.2294341362847222,
+  "maximum_adjacent_frame_difference": 0.3496755642361111,
+  "last_to_first_frame_difference": 0.5478510199652777,
+  "author_quality_approved": false,
+  "public_release_approved": false
+}

@@ -1,0 +1,95 @@
+{
+  "chapter": "nhung-hinh-chieu-xau-xi",
+  "files": [
+    {
+      "path": "artwork/portal/ugly-projections-portal-v1.png",
+      "bytes": 1703624,
+      "sha256": "1483802cc7fe8a2d4066517bad63949937eec033486da30875d1b775be99a0f2"
+    },
+    {
+      "path": "artwork/portal/ugly-projections-ring-v1.png",
+      "bytes": 2109936,
+      "sha256": "bdb2a924bc3e21cdc58c04d80ef79275af17df0f408ef13d52438909ee27a9c5"
+    },
+    {
+      "path": "artwork/portal/ugly-projections-scene-v1.png",
+      "bytes": 1650121,
+      "sha256": "d8304d8715ffd3e31346825d829a2c7a97fb5009055bdbfadd899b9172c8b06b"
+    },
+    {
+      "path": "artwork/portal/ugly-projections-spread-v1.webp",
+      "bytes": 167024,
+      "sha256": "913af4fc6f1279751ab64c9c5585269c8908497131a2fb2f0c1d3c20a6b528be"
+    },
+    {
+      "path": "chapter.json",
+      "bytes": 1185,
+      "sha256": "66c0d5e428d6b2d4cf3386874111cc6e53b7557dc4a62d7e6f28f5caf49a78d3"
+    },
+    {
+      "path": "docs/ASSET_SOURCE.md",
+      "bytes": 900,
+      "sha256": "b9b4ad18693a7141d988d0d94532b6b9ab2f0e13360cc4bb45e739722ed929ba"
+    },
+    {
+      "path": "docs/PRODUCTS.json",
+      "bytes": 1164,
+      "sha256": "85d6dd6f7bd8962065b9724baf1991fd56e8cca7eaebeee8de9509ef5d61feaa"
+    },
+    {
+      "path": "docs/QA.md",
+      "bytes": 1711,
+      "sha256": "1b76b659283c43d94e31061d0ee8b7c72722db466260d42254a920f431df1055"
+    },
+    {
+      "path": "production.json",
+      "bytes": 646,
+      "sha256": "1f75d0067e0f49d9bc64f43180d6054ad32ab025afc85e18e3607c606e35463c"
+    },
+    {
+      "path": "README.md",
+      "bytes": 675,
+      "sha256": "d6a8df0f9eb9ed317b25e18d08fa068875addffa289f5bee0e4b25d852f428d6"
+    },
+    {
+      "path": "source/approved.md",
+      "bytes": 11366,
+      "sha256": "58f6e94d5fc49023a50366bfc6e2efc2737e8e7db85a6f1009fd7d32894b3a06"
+    },
+    {
+      "path": "source/author-attachment.txt",
+      "bytes": 11366,
+      "sha256": "58f6e94d5fc49023a50366bfc6e2efc2737e8e7db85a6f1009fd7d32894b3a06"
+    },
+    {
+      "path": "source/outline.md",
+      "bytes": 248,
+      "sha256": "90d289794d46e020f8543ac28de1a9c5a285794d6f2154721ed825e4a74b259c"
+    },
+    {
+      "path": "source/revisions.log",
+      "bytes": 335,
+      "sha256": "c4e3e626a4b9d5398205c29795e3a975ec8b8e80cabe1c8f67c500eab6a5da3f"
+    },
+    {
+      "path": "web/assets/ugly-projections-portal-v1.png",
+      "bytes": 1703624,
+      "sha256": "1483802cc7fe8a2d4066517bad63949937eec033486da30875d1b775be99a0f2"
+    },
+    {
+      "path": "web/assets/ugly-projections-spread-v1.webp",
+      "bytes": 167024,
+      "sha256": "913af4fc6f1279751ab64c9c5585269c8908497131a2fb2f0c1d3c20a6b528be"
+    },
+    {
+      "path": "web/index.html",
+      "bytes": 14777,
+      "sha256": "0a86b81d1f241f5254135bae351050be2f45e7f2c8784927fd9adfafb59f6f9f"
+    },
+    {
+      "path": "web/ugly-projections.css",
+      "bytes": 6022,
+      "sha256": "c31ce995ed7e0f3c2e7d4d0c09fc3acb532f284d5710e9f13ef6546b9a580f0c"
+    }
+  ]
+}

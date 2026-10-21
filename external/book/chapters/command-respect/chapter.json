@@ -1,0 +1,32 @@
+{
+  "schema_version": 2,
+  "slug": "command-respect",
+  "number": "32",
+  "title": "Office Battlefield - Command Respect",
+  "short_title": "Office Battlefield",
+  "part": 5,
+  "language": "vi",
+  "publish": true,
+  "release_stage": "reader-with-digital-portal",
+  "canonical_text": "source/approved.md",
+  "canonical_path": "#chapter/32",
+  "summary": "Jason traces his need to make Jamin afraid back to childhood violence and the fear that stayed with him. David asks him to stop escalating the workplace conflict; Jason recognizes that his own choices repeated the lesson he learned at five.",
+  "portal": {
+    "scene": "Jason faces a small boy in an arched mirror while a desk, work ticket, phone, and a note saying Jason, please, surround them.",
+    "objects": [
+      "arched childhood mirror",
+      "small boy",
+      "office desk",
+      "work ticket",
+      "telephone",
+      "pause symbol"
+    ],
+    "iconKey": "arch",
+    "motif": "Fear learned and choices made"
+  },
+  "original_edition": null,
+  "production_status": "author-selected full manuscript and board-derived digital portal; print and media pending",
+  "outline_title": "Command Respect",
+  "original_title": "08. Command Respect",
+  "manuscript_sha256": "70baf6a0282dc72851c0bba8bdb612d7d51fbeea37525406e86ffff727cd8037"
+}

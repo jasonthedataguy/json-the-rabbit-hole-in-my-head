@@ -1,0 +1,102 @@
+{
+  "date": "2026-10-21",
+  "moves": [
+    {
+      "from": "json_video_studio_codex/json_video_studio",
+      "to": "studio/apps/video"
+    },
+    {
+      "from": "studio/apps/video/chapters",
+      "to": "studio/references/video-starter/chapters"
+    },
+    {
+      "from": "studio/apps/video/assets",
+      "to": "studio/references/video-starter/assets"
+    },
+    {
+      "from": "studio/apps/video/public",
+      "to": "studio/references/video-starter/public"
+    },
+    {
+      "from": "studio/apps/video/docs",
+      "to": "studio/references/video-starter/docs"
+    },
+    {
+      "from": "studio/apps/video/manifests/chapters.json",
+      "to": "studio/references/video-starter/concepts.legacy.json"
+    }
+  ],
+  "original_reference_images": 31,
+  "preserved_reference_images": 31,
+  "image_hashes_preserved": true,
+  "original_images": {
+    "json_video_studio_codex/json_video_studio/assets/reference/CC0D6670-7A22-4F0A-BEEF-F95198A71F11.jpeg": "5b415b81f28edbdb587b530ed0334b2ec81271d68bac5d1ed768f9a197818f6d",
+    "json_video_studio_codex/json_video_studio/assets/reference/cozy_caro_by_lamplight.png": "6f9b581239d1c4ec6469ae85013906de0740b0c5451015aad205ceede16f4f65",
+    "json_video_studio_codex/json_video_studio/assets/reference/IMG_7111(1).jpeg": "8149cbf50996d2e4da177e2dd9ab34eaaa980e4cfb46ae035ad2bf7b9ac16751",
+    "json_video_studio_codex/json_video_studio/assets/reference/IMG_7111(20261018-191610).jpeg": "90c3da7f10af9888e603c38e8e2b60aabccff593c92c6549a05ac067a70dd9da",
+    "json_video_studio_codex/json_video_studio/assets/reference/IMG_7112(1).jpeg": "97afc44500c73dc3b8cf61d7b27671014818dee6c7972b493461a256388ca29b",
+    "json_video_studio_codex/json_video_studio/assets/reference/IMG_7113.jpeg": "3da5e91a10fcd1b01530dc6f3e71937cc392fbac4d87c8cf6205520506842ebc",
+    "json_video_studio_codex/json_video_studio/assets/reference/Jason Under Revision_ Design Asset Board.png": "6d88d87ed75fb097f60894df135c215b6aca866a466c0050445907ba1033805b",
+    "json_video_studio_codex/json_video_studio/assets/reference/rice-portal(1).png": "c53029b6e76cb6f08e7fa720bdf858dc498bc46511b90d288f63d118a6fd6b99",
+    "json_video_studio_codex/json_video_studio/assets/reference/rice-scene-v2.png": "e0ab1209f20a40393f2431de474c77291d71b478a7b26ebdec29087d2549d7c6",
+    "json_video_studio_codex/json_video_studio/chapters/00-introduction/source-boards/introduction_portal_ring_concept_board.png": "cb6e829a5eb992bce13b051abc3fb43a7ae8c950e70c682fbce6940e9ee6c937",
+    "json_video_studio_codex/json_video_studio/chapters/01-quant/source-boards/i_was_born_a_quant.png": "181776634b47dbcedd759c80b5ce300daefcd1554ec199d3570a27664b457960",
+    "json_video_studio_codex/json_video_studio/chapters/02-fashion/source-boards/fashion_chapter_editorial_moodboard.png": "731c99ac0a589a8a2f85b6f3f940d76d5aff6be7de034bc34e3aedd6914d57c4",
+    "json_video_studio_codex/json_video_studio/chapters/03-russia/source-boards/for_mother_russia_a_nostalgic_winter_editorial_bo.png": "55e193583d8a33a6d7d49aef37b8bb0f2ee860b635d76254c1eb1e6ac0e2c18b",
+    "json_video_studio_codex/json_video_studio/chapters/04-expected-utility/source-boards/expected_utility_editorial_design_board.png": "ff11ecaade0cc9510acbeab3b201d0954ef01b1ee898aeb83add8735c602eba6",
+    "json_video_studio_codex/json_video_studio/chapters/06-play-to-win/source-boards/poker_and_mahjong_editorial_moodboard.png": "9b2cae283ae2c73afe24988de89e4650ef567873807b9c2004b805b9d63804ba",
+    "json_video_studio_codex/json_video_studio/chapters/07-cold-rice/source-boards/cold_rice_layered_portal_design_board.png": "28c61620e76372b921033a4e1fe6b42d5cf28c574b3d23be7f6a17703a65dfe0",
+    "json_video_studio_codex/json_video_studio/chapters/15-three-meetings/source-boards/editorial_romance_travel_brand_board.png": "62168817c64617c089a5d60fbec9dc3df21e0a255ae4e823f4361914eb0ebe69",
+    "json_video_studio_codex/json_video_studio/chapters/16-dating-algorithm/source-boards/dating_algorithm_editorial_design_board.png": "0ba787e9f91412bfec55619a7e1e98133ca922cc3481d80ef5f8756868f1a409",
+    "json_video_studio_codex/json_video_studio/chapters/17-dating-102/source-boards/dating_102_editorial_concept_board.png": "6fae66282991b26c321570f7b8c1ce9ff1d6d8fdd19e6f3d16e21eb21337f300",
+    "json_video_studio_codex/json_video_studio/chapters/18-to-saigon/source-boards/saigon_sunset_storyboard_design_board.png": "986cf0d9c13ac55069845f1e51bc418dd30fef89549d395dbc6b61aa0ec788d2",
+    "json_video_studio_codex/json_video_studio/public/boards/00-introduction.png": "cb6e829a5eb992bce13b051abc3fb43a7ae8c950e70c682fbce6940e9ee6c937",
+    "json_video_studio_codex/json_video_studio/public/boards/01-quant.png": "181776634b47dbcedd759c80b5ce300daefcd1554ec199d3570a27664b457960",
+    "json_video_studio_codex/json_video_studio/public/boards/02-fashion.png": "731c99ac0a589a8a2f85b6f3f940d76d5aff6be7de034bc34e3aedd6914d57c4",
+    "json_video_studio_codex/json_video_studio/public/boards/03-russia.png": "55e193583d8a33a6d7d49aef37b8bb0f2ee860b635d76254c1eb1e6ac0e2c18b",
+    "json_video_studio_codex/json_video_studio/public/boards/04-expected-utility.png": "ff11ecaade0cc9510acbeab3b201d0954ef01b1ee898aeb83add8735c602eba6",
+    "json_video_studio_codex/json_video_studio/public/boards/06-play-to-win.png": "9b2cae283ae2c73afe24988de89e4650ef567873807b9c2004b805b9d63804ba",
+    "json_video_studio_codex/json_video_studio/public/boards/07-cold-rice.png": "28c61620e76372b921033a4e1fe6b42d5cf28c574b3d23be7f6a17703a65dfe0",
+    "json_video_studio_codex/json_video_studio/public/boards/15-three-meetings.png": "62168817c64617c089a5d60fbec9dc3df21e0a255ae4e823f4361914eb0ebe69",
+    "json_video_studio_codex/json_video_studio/public/boards/16-dating-algorithm.png": "0ba787e9f91412bfec55619a7e1e98133ca922cc3481d80ef5f8756868f1a409",
+    "json_video_studio_codex/json_video_studio/public/boards/17-dating-102.png": "6fae66282991b26c321570f7b8c1ce9ff1d6d8fdd19e6f3d16e21eb21337f300",
+    "json_video_studio_codex/json_video_studio/public/boards/18-to-saigon.png": "986cf0d9c13ac55069845f1e51bc418dd30fef89549d395dbc6b61aa0ec788d2"
+  },
+  "current_images": {
+    "studio/references/video-starter/assets/reference/CC0D6670-7A22-4F0A-BEEF-F95198A71F11.jpeg": "5b415b81f28edbdb587b530ed0334b2ec81271d68bac5d1ed768f9a197818f6d",
+    "studio/references/video-starter/assets/reference/cozy_caro_by_lamplight.png": "6f9b581239d1c4ec6469ae85013906de0740b0c5451015aad205ceede16f4f65",
+    "studio/references/video-starter/assets/reference/IMG_7111(1).jpeg": "8149cbf50996d2e4da177e2dd9ab34eaaa980e4cfb46ae035ad2bf7b9ac16751",
+    "studio/references/video-starter/assets/reference/IMG_7111(20261018-191610).jpeg": "90c3da7f10af9888e603c38e8e2b60aabccff593c92c6549a05ac067a70dd9da",
+    "studio/references/video-starter/assets/reference/IMG_7112(1).jpeg": "97afc44500c73dc3b8cf61d7b27671014818dee6c7972b493461a256388ca29b",
+    "studio/references/video-starter/assets/reference/IMG_7113.jpeg": "3da5e91a10fcd1b01530dc6f3e71937cc392fbac4d87c8cf6205520506842ebc",
+    "studio/references/video-starter/assets/reference/Jason Under Revision_ Design Asset Board.png": "6d88d87ed75fb097f60894df135c215b6aca866a466c0050445907ba1033805b",
+    "studio/references/video-starter/assets/reference/rice-portal(1).png": "c53029b6e76cb6f08e7fa720bdf858dc498bc46511b90d288f63d118a6fd6b99",
+    "studio/references/video-starter/assets/reference/rice-scene-v2.png": "e0ab1209f20a40393f2431de474c77291d71b478a7b26ebdec29087d2549d7c6",
+    "studio/references/video-starter/chapters/00-introduction/source-boards/introduction_portal_ring_concept_board.png": "cb6e829a5eb992bce13b051abc3fb43a7ae8c950e70c682fbce6940e9ee6c937",
+    "studio/references/video-starter/chapters/01-quant/source-boards/i_was_born_a_quant.png": "181776634b47dbcedd759c80b5ce300daefcd1554ec199d3570a27664b457960",
+    "studio/references/video-starter/chapters/02-fashion/source-boards/fashion_chapter_editorial_moodboard.png": "731c99ac0a589a8a2f85b6f3f940d76d5aff6be7de034bc34e3aedd6914d57c4",
+    "studio/references/video-starter/chapters/03-russia/source-boards/for_mother_russia_a_nostalgic_winter_editorial_bo.png": "55e193583d8a33a6d7d49aef37b8bb0f2ee860b635d76254c1eb1e6ac0e2c18b",
+    "studio/references/video-starter/chapters/04-expected-utility/source-boards/expected_utility_editorial_design_board.png": "ff11ecaade0cc9510acbeab3b201d0954ef01b1ee898aeb83add8735c602eba6",
+    "studio/references/video-starter/chapters/06-play-to-win/source-boards/poker_and_mahjong_editorial_moodboard.png": "9b2cae283ae2c73afe24988de89e4650ef567873807b9c2004b805b9d63804ba",
+    "studio/references/video-starter/chapters/07-cold-rice/source-boards/cold_rice_layered_portal_design_board.png": "28c61620e76372b921033a4e1fe6b42d5cf28c574b3d23be7f6a17703a65dfe0",
+    "studio/references/video-starter/chapters/15-three-meetings/source-boards/editorial_romance_travel_brand_board.png": "62168817c64617c089a5d60fbec9dc3df21e0a255ae4e823f4361914eb0ebe69",
+    "studio/references/video-starter/chapters/16-dating-algorithm/source-boards/dating_algorithm_editorial_design_board.png": "0ba787e9f91412bfec55619a7e1e98133ca922cc3481d80ef5f8756868f1a409",
+    "studio/references/video-starter/chapters/17-dating-102/source-boards/dating_102_editorial_concept_board.png": "6fae66282991b26c321570f7b8c1ce9ff1d6d8fdd19e6f3d16e21eb21337f300",
+    "studio/references/video-starter/chapters/18-to-saigon/source-boards/saigon_sunset_storyboard_design_board.png": "986cf0d9c13ac55069845f1e51bc418dd30fef89549d395dbc6b61aa0ec788d2",
+    "studio/references/video-starter/public/boards/00-introduction.png": "cb6e829a5eb992bce13b051abc3fb43a7ae8c950e70c682fbce6940e9ee6c937",
+    "studio/references/video-starter/public/boards/01-quant.png": "181776634b47dbcedd759c80b5ce300daefcd1554ec199d3570a27664b457960",
+    "studio/references/video-starter/public/boards/02-fashion.png": "731c99ac0a589a8a2f85b6f3f940d76d5aff6be7de034bc34e3aedd6914d57c4",
+    "studio/references/video-starter/public/boards/03-russia.png": "55e193583d8a33a6d7d49aef37b8bb0f2ee860b635d76254c1eb1e6ac0e2c18b",
+    "studio/references/video-starter/public/boards/04-expected-utility.png": "ff11ecaade0cc9510acbeab3b201d0954ef01b1ee898aeb83add8735c602eba6",
+    "studio/references/video-starter/public/boards/06-play-to-win.png": "9b2cae283ae2c73afe24988de89e4650ef567873807b9c2004b805b9d63804ba",
+    "studio/references/video-starter/public/boards/07-cold-rice.png": "28c61620e76372b921033a4e1fe6b42d5cf28c574b3d23be7f6a17703a65dfe0",
+    "studio/references/video-starter/public/boards/15-three-meetings.png": "62168817c64617c089a5d60fbec9dc3df21e0a255ae4e823f4361914eb0ebe69",
+    "studio/references/video-starter/public/boards/16-dating-algorithm.png": "0ba787e9f91412bfec55619a7e1e98133ca922cc3481d80ef5f8756868f1a409",
+    "studio/references/video-starter/public/boards/17-dating-102.png": "6fae66282991b26c321570f7b8c1ce9ff1d6d8fdd19e6f3d16e21eb21337f300",
+    "studio/references/video-starter/public/boards/18-to-saigon.png": "986cf0d9c13ac55069845f1e51bc418dd30fef89549d395dbc6b61aa0ec788d2"
+  },
+  "canonical_manuscripts_moved": false,
+  "external_asset_library_copied": false,
+  "starter_code_archive": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\references\\video-starter\\original-code-v0.1.zip",
+  "legacy_personal_references_visibility": "private; never automatically staged"
+}

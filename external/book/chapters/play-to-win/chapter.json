@@ -1,0 +1,36 @@
+{
+  "schema_version": 2,
+  "slug": "play-to-win",
+  "number": "03",
+  "title": "Play to Win, Don’t Play Not to Lose",
+  "short_title": "Play to Win, Don’t Play Not to Lose",
+  "part": 1,
+  "language": "vi",
+  "publish": true,
+  "release_stage": "reader-with-original-products",
+  "canonical_text": "source/approved.md",
+  "canonical_path": "#chapter/03",
+  "summary": "Từ cảnh mạt chược của Crazy Rich Asians, Jason đọc một mối quan hệ như một game có những payoff xung đột. Anh tin kiến thức giúp tìm điểm cân bằng trong đời sống.",
+  "portal": {
+    "scene": "A mahjong table sits in shadow between two opposed seats and an empty third chair.",
+    "objects": [
+      "mahjong tile",
+      "payout counters",
+      "empty chair"
+    ],
+    "iconKey": "tile",
+    "motif": "The empty seat"
+  },
+  "original_edition": {
+    "number": "06",
+    "title": "Play to Win, Don’t Play Not to Lose",
+    "repo": "https://github.com/jasonthedataguy/json-under-revision",
+    "commit": "b41b692b3e3633abea4997b6ac4513a91308f127",
+    "metadata": "references/original-edition/chapter.json",
+    "archive_url": "https://jasonthedataguy.github.io/json-under-revision/chapters/06/"
+  },
+  "production_status": "digital portal adapted from supplied board; imported print and media proofs still need v2 review",
+  "manuscript_sha256": "116573a7d6778968bdde5be030d9fb764346a992cd263d83efb94c6e2727e42b",
+  "outline_title": "Chơi để không thua",
+  "original_title": "Chơi để không thua"
+}

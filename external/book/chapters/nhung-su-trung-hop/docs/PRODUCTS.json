@@ -1,0 +1,46 @@
+{
+  "chapter": "nhung-su-trung-hop",
+  "products": [
+    {
+      "product": "Selected author manuscript",
+      "state": "ready; exact author-supplied bytes",
+      "path": "source/approved.md"
+    },
+    {
+      "product": "Coincidence rotating chapter ring",
+      "state": "board-derived digital crop; screen use only",
+      "path": "artwork/portal/coincidence-ring-v1.png"
+    },
+    {
+      "product": "Coincidence stationary bookshop centre",
+      "state": "aligned to the chapter ring; screen use only",
+      "path": "artwork/portal/coincidence-scene-v1.png"
+    },
+    {
+      "product": "Coincidence earlier homepage centre alternate",
+      "state": "tighter bookshop crop retained as an alternate; screen use only",
+      "path": "artwork/portal/coincidence-cover-scene-v1.png"
+    },
+    {
+      "product": "Coincidence rectangular reading illustration",
+      "state": "full scene crop; screen use only",
+      "path": "artwork/portal/coincidence-spread-v1.webp"
+    },
+    {
+      "product": "Coincidence extracted-elements sheet",
+      "state": "reusable digital crop; screen use only",
+      "path": "artwork/portal/coincidence-elements-v1.webp"
+    },
+    {
+      "product": "Coincidence standalone digital chapter",
+      "state": "ready for deployment; generated from selected manuscript",
+      "path": "web/index.html"
+    }
+  ],
+  "remaining": [
+    "Printer specifications and high-resolution separated art for certified print production",
+    "Author narration and films",
+    "Social channel packs",
+    "Physical-device and human screen-reader review"
+  ]
+}

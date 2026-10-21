@@ -1,0 +1,189 @@
+{
+  "schema_version": "1.0",
+  "story_slug": "com-nguoi",
+  "classification": "layer_animation",
+  "purpose": "Technical skill proof of independent paper planes and environmental light; not a new chapter film or approved artistic treatment.",
+  "source": {
+    "path": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\script\\final-script-v2.md",
+    "sha256": "d957b592dc2317aa34196dd25ab42a3fe4a7938d3aee5a1121ab173214bf76f9"
+  },
+  "width": 540,
+  "height": 960,
+  "fps": 30,
+  "duration_s": 12,
+  "background": "#101F31",
+  "opening": {
+    "title": "Cơm nguội",
+    "portal_asset": "portal",
+    "reveal_asset": "scene",
+    "focus_x": 0.5,
+    "focus_y": 0.565,
+    "title_hold_s": 1.5,
+    "entry_end_s": 3.0,
+    "story_start_s": 4.0
+  },
+  "assets": [
+    {
+      "id": "portal",
+      "path": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\com-nguoi\\artwork\\chapter-page\\portal.webp",
+      "sha256": "79b61b71d689bd27bd5cab1679c2a875aff7a8b660619afad9d1ed39d4a3587a",
+      "role": "portal"
+    },
+    {
+      "id": "scene",
+      "path": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\com-nguoi\\artwork\\chapter-page\\hero.webp",
+      "sha256": "317e9cfb33874f3ee417c09a6b43ca07de16fa69e63e93a4503e7352e93c4f84",
+      "role": "base"
+    },
+    {
+      "id": "rice-paper",
+      "path": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\com-nguoi\\artwork\\content\\elements\\11-navy-rice-stalk-panel.png",
+      "sha256": "53d206bf5f3b64e4ed1c25af345ff1c20edd97aeb9711ae2ffab28c3af2dc6b9",
+      "role": "plane"
+    },
+    {
+      "id": "wood-paper",
+      "path": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\com-nguoi\\artwork\\content\\elements\\13-wood-lattice-panel.png",
+      "sha256": "3712041f005c92eda7a71966e29dc7779dec8c24f5080cdfce56d716d6b2e30f",
+      "role": "plane"
+    }
+  ],
+  "layers": [
+    {
+      "id": "family-scene",
+      "asset_id": "scene",
+      "x": 0,
+      "y": 0,
+      "width": 540,
+      "height": 960,
+      "z": 0,
+      "tracks": {}
+    },
+    {
+      "id": "left-paper",
+      "asset_id": "rice-paper",
+      "x": 4,
+      "y": 250,
+      "width": 80,
+      "height": 310,
+      "z": 3,
+      "pivot_x": 0.5,
+      "pivot_y": 0.5,
+      "tracks": {
+        "x": [
+          {
+            "t": 0,
+            "value": 4
+          },
+          {
+            "t": 4,
+            "value": 18
+          },
+          {
+            "t": 8,
+            "value": 4
+          }
+        ],
+        "rotation": [
+          {
+            "t": 0,
+            "value": -2.4
+          },
+          {
+            "t": 3,
+            "value": 1.3
+          },
+          {
+            "t": 8,
+            "value": -2.4
+          }
+        ]
+      }
+    },
+    {
+      "id": "right-paper",
+      "asset_id": "wood-paper",
+      "x": 465,
+      "y": 410,
+      "width": 80,
+      "height": 310,
+      "z": 4,
+      "pivot_x": 0.5,
+      "pivot_y": 0.5,
+      "tracks": {
+        "x": [
+          {
+            "t": 0,
+            "value": 465
+          },
+          {
+            "t": 5,
+            "value": 450
+          },
+          {
+            "t": 8,
+            "value": 465
+          }
+        ],
+        "rotation": [
+          {
+            "t": 0,
+            "value": 1.5
+          },
+          {
+            "t": 5,
+            "value": -1.8
+          },
+          {
+            "t": 8,
+            "value": 1.5
+          }
+        ]
+      }
+    },
+    {
+      "id": "warm-lamp-light",
+      "kind": "glow",
+      "x": 200,
+      "y": 320,
+      "width": 140,
+      "height": 180,
+      "z": 2,
+      "color": "#EDB260",
+      "base": {
+        "opacity": 0.12
+      },
+      "tracks": {
+        "opacity": [
+          {
+            "t": 0,
+            "value": 0.12
+          },
+          {
+            "t": 2,
+            "value": 0.28
+          },
+          {
+            "t": 4,
+            "value": 0.16
+          },
+          {
+            "t": 6,
+            "value": 0.25
+          },
+          {
+            "t": 8,
+            "value": 0.12
+          }
+        ]
+      }
+    }
+  ],
+  "audio": {
+    "mode": "silent"
+  },
+  "status": "internal_review",
+  "author_quality_approved": false,
+  "public_release_approved": false,
+  "paid_release_approved": false
+}

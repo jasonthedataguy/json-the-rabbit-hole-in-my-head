@@ -1,0 +1,30 @@
+{
+  "schema_version": 2,
+  "slug": "i-am-28-today",
+  "number": "15",
+  "title": "I'm 28 today",
+  "short_title": "I'm 28 today",
+  "part": 2,
+  "language": "vi",
+  "publish": true,
+  "release_stage": "reader-with-digital-portal",
+  "canonical_text": "source/approved.md",
+  "canonical_path": "#chapter/15",
+  "summary": "On his 28th birthday, Jason remembers a childhood fear of not belonging, a painful career exit, and the friends and small moments that make life feel beautiful.",
+  "portal": {
+    "scene": "Jason looks through an open window while friends gather around a 28th-birthday cake, surrounded by photographs, music and keepsakes.",
+    "objects": [
+      "open window",
+      "birthday cake",
+      "friends",
+      "camera",
+      "film frames"
+    ],
+    "iconKey": "cake",
+    "motif": "The open window and birthday table"
+  },
+  "original_edition": null,
+  "production_status": "author-selected full manuscript and board-derived digital portal; print and media pending",
+  "outline_title": "I Am 28 Today",
+  "manuscript_sha256": "22b4bdbf83adf9d4d7bf03e52f73e13fd7d9e101c834831367b141726c8b9e69"
+}

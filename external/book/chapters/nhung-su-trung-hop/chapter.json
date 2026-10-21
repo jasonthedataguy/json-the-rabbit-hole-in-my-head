@@ -1,0 +1,32 @@
+{
+  "schema_version": 2,
+  "slug": "nhung-su-trung-hop",
+  "number": "11",
+  "title": "Coincidence - Or the arrangement of the universe",
+  "short_title": "Coincidence",
+  "part": 2,
+  "language": "vi",
+  "publish": true,
+  "release_stage": "reader-with-digital-portal",
+  "canonical_text": "source/approved.md",
+  "canonical_path": "#chapter/11",
+  "summary": "Những giờ lặp trên iPhone, ba người bạn gặp lại ở Sài Gòn và một cuộc trò chuyện về Việt Nam trong hiệu sách Saratoga khiến Jason tự hỏi đâu là ngẫu nhiên, đâu là điều mình đang chú ý nhiều hơn.",
+  "portal": {
+    "scene": "A lamplit Saratoga bookshop stands at the crossing of winding paths while clocks, autumn trees, friends and constellations circle it.",
+    "objects": [
+      "23:23 phone",
+      "clock",
+      "bookshop",
+      "converging paths",
+      "three friends",
+      "constellations"
+    ],
+    "iconKey": "clock",
+    "motif": "The crossing paths beneath a repeating clock"
+  },
+  "original_edition": null,
+  "production_status": "author-selected full manuscript and board-derived digital portal; print and media pending",
+  "manuscript_sha256": "e07f63a241743c69b782eb25d5fb5259237f64187e2fedd6b3d496d5b4994c92",
+  "outline_title": "Những sự trùng hợp",
+  "original_title": "Những sự trùng hợp"
+}

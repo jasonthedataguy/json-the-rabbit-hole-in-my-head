@@ -1,0 +1,434 @@
+{
+  "schema_version": 1,
+  "status": "multimedia proofs; original author narration pending",
+  "excerpts_verbatim": true,
+  "hero_mobile_size": [
+    1080,
+    810
+  ],
+  "scenes": [
+    {
+      "id": "lecture",
+      "box": [
+        0.17942583732057416,
+        0.0,
+        0.6010765550239234,
+        0.361317747077577
+      ],
+      "kind": "crop of supplied concept board; enlarged derivatives do not add native detail"
+    },
+    {
+      "id": "curiosity",
+      "box": [
+        0.42822966507177035,
+        0.08501594048884166,
+        0.5998803827751196,
+        0.30499468650371947
+      ],
+      "kind": "crop of supplied concept board; enlarged derivatives do not add native detail"
+    },
+    {
+      "id": "sketchbook",
+      "box": [
+        0.7344497607655502,
+        0.03719447396386823,
+        0.861244019138756,
+        0.27417640807651433
+      ],
+      "kind": "crop of supplied concept board; enlarged derivatives do not add native detail"
+    },
+    {
+      "id": "football",
+      "box": [
+        0.6507177033492823,
+        0.7151965993623804,
+        0.7206937799043063,
+        0.824654622741764
+      ],
+      "kind": "crop of supplied concept board; enlarged derivatives do not add native detail"
+    },
+    {
+      "id": "picnic",
+      "box": [
+        0.6196172248803827,
+        0.005313496280552604,
+        0.7272727272727273,
+        0.2731137088204038
+      ],
+      "kind": "crop of supplied concept board; enlarged derivatives do not add native detail"
+    },
+    {
+      "id": "status",
+      "box": [
+        0.7446172248803827,
+        0.4527098831030818,
+        0.7996411483253588,
+        0.6036131774707758
+      ],
+      "kind": "crop of supplied concept board; enlarged derivatives do not add native detail"
+    }
+  ],
+  "carousel": [
+    {
+      "text": "t mô phỏng trò chơi dating thành 3 yếu tố: players (người chơi), rules/constraints (luật chơi), và quan trọng nhất, incentives (động lực thúc đẩy họ hành động khi tham gia trò chơi).",
+      "scene": 0
+    },
+    {
+      "text": "các b luôn luôn tìm kiếm sự công nhận từ bên ngoài (external validation) để bản thân mình thấy có giá trị hơn.",
+      "scene": 5
+    },
+    {
+      "text": "The friend thought for a sec and said why do you think that?",
+      "scene": 1
+    },
+    {
+      "text": "Các b k quan tâm ng ta là ai, cái các b quan tâm chỉ là ng ta khiến b cảm thấy thế nào trong mắt ng khác.",
+      "scene": 4
+    },
+    {
+      "text": "If you love someone, just try to know who they are.",
+      "scene": 1
+    }
+  ],
+  "print_scenes": [
+    {
+      "after_paragraph": 3,
+      "scene": 4
+    },
+    {
+      "after_paragraph": 4,
+      "scene": 1
+    }
+  ],
+  "print_layout": {
+    "font_size": 10.5,
+    "leading": 15.5,
+    "paragraph_space": 10
+  },
+  "films": [
+    {
+      "name": "discovery-9x16",
+      "size": [
+        1080,
+        1920
+      ],
+      "scene_fit": "contain",
+      "segments": [
+        {
+          "text": "t mô phỏng trò chơi dating thành 3 yếu tố: players (người chơi), rules/constraints (luật chơi), và quan trọng nhất, incentives (động lực thúc đẩy họ hành động khi tham gia trò chơi).",
+          "scene": "artwork/scenes/01-lecture.jpg",
+          "duration": 14
+        },
+        {
+          "text": "các b luôn luôn tìm kiếm sự công nhận từ bên ngoài (external validation) để bản thân mình thấy có giá trị hơn.",
+          "scene": "artwork/scenes/06-status.jpg",
+          "duration": 11
+        },
+        {
+          "text": "Các b k quan tâm ng ta là ai, cái các b quan tâm chỉ là ng ta khiến b cảm thấy thế nào trong mắt ng khác.",
+          "scene": "artwork/scenes/03-sketchbook.jpg",
+          "duration": 11
+        },
+        {
+          "text": "The friend thought for a sec and said why do you think that?",
+          "scene": "artwork/scenes/02-curiosity.jpg",
+          "duration": 9
+        },
+        {
+          "text": "If you love someone, just try to know who they are.",
+          "scene": "artwork/scenes/02-curiosity.jpg",
+          "duration": 9
+        },
+        {
+          "text": "dùng bạn xanh thì được kkk.",
+          "scene": "artwork/scenes/05-picnic.jpg",
+          "duration": 6
+        }
+      ]
+    },
+    {
+      "name": "youtube-9x16",
+      "size": [
+        1080,
+        1920
+      ],
+      "scene_fit": "contain",
+      "segments": [
+        {
+          "text": "t mô phỏng trò chơi dating thành 3 yếu tố: players (người chơi), rules/constraints (luật chơi), và quan trọng nhất, incentives (động lực thúc đẩy họ hành động khi tham gia trò chơi).",
+          "scene": "artwork/scenes/01-lecture.jpg",
+          "duration": 18
+        },
+        {
+          "text": "các b luôn luôn tìm kiếm sự công nhận từ bên ngoài (external validation) để bản thân mình thấy có giá trị hơn.",
+          "scene": "artwork/scenes/06-status.jpg",
+          "duration": 15
+        },
+        {
+          "text": "Các b k quan tâm ng ta là ai, cái các b quan tâm chỉ là ng ta khiến b cảm thấy thế nào trong mắt ng khác.",
+          "scene": "artwork/scenes/03-sketchbook.jpg",
+          "duration": 15
+        },
+        {
+          "text": "cô bạn chẳng quen biết kia vẫn tò mò muốn biết cô ấy là ai,",
+          "scene": "artwork/scenes/02-curiosity.jpg",
+          "duration": 12
+        },
+        {
+          "text": "The friend thought for a sec and said why do you think that?",
+          "scene": "artwork/scenes/02-curiosity.jpg",
+          "duration": 10
+        },
+        {
+          "text": "Bởi vì, talking, dates, gifts are all rituals of love but being curious mới là actual intimacy, vì love k chỉ nằm ở những rituals đó.",
+          "scene": "artwork/scenes/02-curiosity.jpg",
+          "duration": 22
+        },
+        {
+          "text": "If you love someone, just try to know who they are.",
+          "scene": "artwork/scenes/02-curiosity.jpg",
+          "duration": 12
+        },
+        {
+          "text": "n không phải là đơn vị (currency) mà t chấp nhận thanh toán, dùng bạn xanh thì được kkk.",
+          "scene": "artwork/scenes/05-picnic.jpg",
+          "duration": 16
+        }
+      ]
+    },
+    {
+      "name": "feed-3x4",
+      "size": [
+        1080,
+        1440
+      ],
+      "scene_fit": "contain",
+      "segments": [
+        {
+          "text": "các b luôn luôn tìm kiếm sự công nhận từ bên ngoài (external validation) để bản thân mình thấy có giá trị hơn.",
+          "scene": "artwork/scenes/06-status.jpg",
+          "duration": 12
+        },
+        {
+          "text": "The friend thought for a sec and said why do you think that?",
+          "scene": "artwork/scenes/02-curiosity.jpg",
+          "duration": 9
+        },
+        {
+          "text": "Các b k quan tâm ng ta là ai, cái các b quan tâm chỉ là ng ta khiến b cảm thấy thế nào trong mắt ng khác.",
+          "scene": "artwork/scenes/05-picnic.jpg",
+          "duration": 14
+        },
+        {
+          "text": "If you love someone, just try to know who they are.",
+          "scene": "artwork/scenes/02-curiosity.jpg",
+          "duration": 10
+        }
+      ]
+    },
+    {
+      "name": "teaser-9x16",
+      "size": [
+        1080,
+        1920
+      ],
+      "scene_fit": "contain",
+      "segments": [
+        {
+          "text": "The friend thought for a sec and said why do you think that?",
+          "scene": "artwork/scenes/02-curiosity.jpg",
+          "duration": 8
+        },
+        {
+          "text": "If you love someone, just try to know who they are.",
+          "scene": "artwork/scenes/02-curiosity.jpg",
+          "duration": 10
+        },
+        {
+          "text": "dùng bạn xanh thì được kkk.",
+          "scene": "artwork/scenes/05-picnic.jpg",
+          "duration": 6
+        }
+      ]
+    },
+    {
+      "name": "essay-16x9",
+      "size": [
+        1920,
+        1080
+      ],
+      "scene_fit": "contain",
+      "segments": [
+        {
+          "text": "t mô phỏng trò chơi dating thành 3 yếu tố: players (người chơi), rules/constraints (luật chơi), và quan trọng nhất, incentives (động lực thúc đẩy họ hành động khi tham gia trò chơi).",
+          "scene": "artwork/scenes/01-lecture.jpg",
+          "duration": 18
+        },
+        {
+          "text": "các b luôn luôn tìm kiếm sự công nhận từ bên ngoài (external validation) để bản thân mình thấy có giá trị hơn.",
+          "scene": "artwork/scenes/06-status.jpg",
+          "duration": 15
+        },
+        {
+          "text": "Các b k quan tâm ng ta là ai, cái các b quan tâm chỉ là ng ta khiến b cảm thấy thế nào trong mắt ng khác.",
+          "scene": "artwork/scenes/03-sketchbook.jpg",
+          "duration": 15
+        },
+        {
+          "text": "cô bạn chẳng quen biết kia vẫn tò mò muốn biết cô ấy là ai,",
+          "scene": "artwork/scenes/02-curiosity.jpg",
+          "duration": 12
+        },
+        {
+          "text": "The friend thought for a sec and said why do you think that?",
+          "scene": "artwork/scenes/02-curiosity.jpg",
+          "duration": 10
+        },
+        {
+          "text": "Bởi vì, talking, dates, gifts are all rituals of love but being curious mới là actual intimacy, vì love k chỉ nằm ở những rituals đó.",
+          "scene": "artwork/scenes/02-curiosity.jpg",
+          "duration": 22
+        },
+        {
+          "text": "If you love someone, just try to know who they are.",
+          "scene": "artwork/scenes/02-curiosity.jpg",
+          "duration": 12
+        },
+        {
+          "text": "n không phải là đơn vị (currency) mà t chấp nhận thanh toán, dùng bạn xanh thì được kkk.",
+          "scene": "artwork/scenes/05-picnic.jpg",
+          "duration": 16
+        }
+      ]
+    }
+  ],
+  "print_extras": true,
+  "supplemental": {
+    "editable_cover": true,
+    "cards": [
+      {
+        "path": "social/instagram/story-01.jpg",
+        "size": [
+          1080,
+          1920
+        ],
+        "text": "các b luôn luôn tìm kiếm sự công nhận từ bên ngoài (external validation) để bản thân mình thấy có giá trị hơn.",
+        "scene": 5,
+        "label": "STORY 01",
+        "alt": "Minh họa ý niệm từ bảng thiết kế Dating 102. Chữ trên thẻ: các b luôn luôn tìm kiếm sự công nhận từ bên ngoài (external validation) để bản thân mình thấy có giá trị hơn."
+      },
+      {
+        "path": "social/instagram/story-02.jpg",
+        "size": [
+          1080,
+          1920
+        ],
+        "text": "The friend thought for a sec and said why do you think that?",
+        "scene": 1,
+        "label": "STORY 02",
+        "alt": "Minh họa ý niệm từ bảng thiết kế Dating 102. Chữ trên thẻ: The friend thought for a sec and said why do you think that?"
+      },
+      {
+        "path": "social/instagram/story-03.jpg",
+        "size": [
+          1080,
+          1920
+        ],
+        "text": "If you love someone, just try to know who they are.",
+        "scene": 4,
+        "label": "STORY 03",
+        "alt": "Minh họa ý niệm từ bảng thiết kế Dating 102. Chữ trên thẻ: If you love someone, just try to know who they are."
+      }
+    ],
+    "copy": {
+      "audio/RECORDING_HANDOFF.md": "# Author recording handoff\n\nRecord reading-script.md for the complete ten-paragraph essay, or the named cut script for selected exact excerpts. Record at your natural pace; 24/45/60/120-second timings are provisional. Deliver an unprocessed mono WAV, preferably 48 kHz / 24 bit, plus room tone. No generated voice is used.\n\nOn receipt: edit pauses and scene holds to the recording, replace text-card timings with speech-aligned Vietnamese subtitles, translate/review English subtitles, duck ambience, and export the final mix. The current original synthetic 24-second tonal bed is looped in the cuts; it is not documentary location audio.",
+      "docs/DESIGN_REVIEW.md": "# Design implementation\n\nTeal, coral, sage and cream follow the supplied board. Six documented scene crops use only the supplied artwork. Paris/reunion imagery is omitted because it is absent from the essay. Thursday football follows the actual t5 text, overriding the Tuesday typo in one reference task. The demographic mock-chart is not republished as evidence.\n\nThe reader retains all ten author paragraphs and presents source notes separately. Currency Exchange switches between two perspectives and four everyday objects; it does not rate people or predict outcomes. Five social cards and five film formats select exact author excerpts. The films are provisional edits awaiting the author recording. PDF files are editorial proofs; native crop resolution limits print quality. The original board remains intact under references; the new board uses actual deliverables.",
+      "social/BRIEF.md": "# Dating 102 social pack\n\nFive 1080×1440 cards, three 1080×1920 stories, Facebook 1200×630, YouTube 1280×720, TikTok 1080×1920. The social sequence focuses on status, asking questions and being known; the chapter retains the full demographic argument with separate source notes. No numerical prediction or gender generalization is promoted as a verified finding.\n\nVideo: 24-second teaser, 60-second discovery, 45-second feed, and 120-second excerpts in portrait and landscape. All await author narration. No external social upload or scheduling has occurred.\n\nhttps://jasonthedataguy.github.io/json-under-revision/chapters/16/",
+      "social/instagram/caption.md": "If you love someone, just try to know who they are.\n\nDating 102 — The Wrong Currency\n.json / Jason, under revision\nĐọc trọn chương: https://jasonthedataguy.github.io/json-under-revision/chapters/16/\n\n#jsonunderrevision #Dating102",
+      "social/facebook/post.md": "If you love someone, just try to know who they are.\n\nDating 102 — The Wrong Currency\n.json / Jason, under revision\nĐọc trọn chương: https://jasonthedataguy.github.io/json-under-revision/chapters/16/\n\n#jsonunderrevision #Dating102",
+      "social/tiktok/caption.md": "If you love someone, just try to know who they are.\n\nDating 102 — The Wrong Currency\n.json / Jason, under revision\nĐọc trọn chương: https://jasonthedataguy.github.io/json-under-revision/chapters/16/\n\nBản dựng dùng trích đoạn nguyên văn, đang chờ giọng đọc tác giả.",
+      "social/youtube/description.md": "If you love someone, just try to know who they are.\n\nDating 102 — The Wrong Currency\n.json / Jason, under revision\nĐọc trọn chương: https://jasonthedataguy.github.io/json-under-revision/chapters/16/\n\nBản dựng dùng trích đoạn nguyên văn, đang chờ giọng đọc tác giả."
+    },
+    "products": [
+      {
+        "path": "artwork/exports/cover-a5.svg",
+        "product": "Editable cover typography",
+        "state": "concept-art derivative"
+      },
+      {
+        "path": "book/poster-A4-proof.pdf",
+        "product": "A4 poster",
+        "state": "editorial proof"
+      },
+      {
+        "path": "book/bookmark-proof.pdf",
+        "product": "Bookmark",
+        "state": "editorial proof"
+      },
+      {
+        "path": "audio/ambience.wav",
+        "product": "Ambient audio",
+        "state": "original synthetic bed; no speech"
+      },
+      {
+        "path": "audio/RECORDING_HANDOFF.md",
+        "product": "Recording handoff",
+        "state": "ready"
+      },
+      {
+        "path": "source/NARRATIVE_MAP.md",
+        "product": "Manuscript analysis",
+        "state": "ten paragraphs mapped to seven beats"
+      },
+      {
+        "path": "previews/product-board.jpg",
+        "product": "Actual product board",
+        "state": "delivered artifacts"
+      },
+      {
+        "path": "previews/PROJECT_BOARD.pdf",
+        "product": "Project board PDF",
+        "state": "design and production review"
+      },
+      {
+        "path": "video/teaser-9x16.mp4",
+        "product": "teaser-9x16 film",
+        "state": "edit preview; author narration pending"
+      },
+      {
+        "path": "video/essay-16x9.mp4",
+        "product": "essay-16x9 film",
+        "state": "edit preview; author narration pending"
+      },
+      {
+        "path": "social/instagram/story-01.jpg",
+        "product": "Instagram story 1",
+        "state": "ready"
+      },
+      {
+        "path": "social/instagram/story-02.jpg",
+        "product": "Instagram story 2",
+        "state": "ready"
+      },
+      {
+        "path": "social/instagram/story-03.jpg",
+        "product": "Instagram story 3",
+        "state": "ready"
+      }
+    ],
+    "alt_text": [
+      {
+        "file": "social/facebook/post.jpg",
+        "alt": "Dating 102 — minh họa người thuyết trình bên cảnh hai người cùng xem máy tính bảng. Bảng màu xanh đậm, san hô và giấy kem."
+      },
+      {
+        "file": "social/youtube/thumbnail.jpg",
+        "alt": "Dating 102 — minh họa người thuyết trình bên cảnh hai người cùng xem máy tính bảng. Bảng màu xanh đậm, san hô và giấy kem."
+      },
+      {
+        "file": "social/tiktok/cover.jpg",
+        "alt": "Dating 102 — minh họa người thuyết trình bên cảnh hai người cùng xem máy tính bảng. Bảng màu xanh đậm, san hô và giấy kem."
+      }
+    ]
+  }
+}

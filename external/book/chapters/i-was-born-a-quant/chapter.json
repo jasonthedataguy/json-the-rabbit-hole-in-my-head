@@ -1,0 +1,28 @@
+{
+  "schema_version": 2,
+  "slug": "i-was-born-a-quant",
+  "number": "01",
+  "title": "I Was Born a Quant",
+  "short_title": "I Was Born a Quant",
+  "part": 1,
+  "language": "vi",
+  "publish": true,
+  "release_stage": "reader-with-portal-art",
+  "canonical_text": "source/approved.md",
+  "canonical_path": "#chapter/01",
+  "summary": "Jason phân biệt tư duy dự báo kết quả với tư duy quản lý rủi ro khi kết quả không thể bảo đảm. Anh kể chuyện trưởng thành trong môi trường thiếu tính nhất quán như một lý giải cá nhân cho sự đề phòng.",
+  "portal": {
+    "scene": "Jason studies a city of charts, probability curves and dice, weighing possible returns against the risk he can afford.",
+    "objects": [
+      "probability curve",
+      "dice",
+      "city skyline"
+    ],
+    "iconKey": "chart",
+    "motif": "The risk budget"
+  },
+  "original_edition": null,
+  "production_status": "selected author manuscript and editorial web portal; other products pending",
+  "outline_title": "I Was Born a Quant",
+  "manuscript_sha256": "9f41b35e58610640618ed793b079eda6dd8f7a47bb5dd434677f1b56b7ac0380"
+}

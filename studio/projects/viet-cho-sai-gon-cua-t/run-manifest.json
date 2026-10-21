@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0",
+  "story_id": "viet-cho-sai-gon-cua-t",
+  "chapter_slug": "viet-cho-sai-gon-cua-t",
+  "chapter_slot": "14",
+  "title": "To My Saigon",
+  "run_mode": "audit",
+  "repository": "jasonthedataguy/json-under-revision-v2",
+  "canonical_source_path": "C:\\Users\\Administrator\\OneDrive\\Desktop\\.json book\\json_under_revision_v2\\chapters\\viet-cho-sai-gon-cua-t\\source\\approved.md",
+  "canonical_sha256": "911b174411dced9668dffd01c6860c079cc17e231c5235f5153666c6021d8b26",
+  "author_approved": false,
+  "source_facts_approval_evidence": null,
+  "public_visibility_policy": "undecided",
+  "founder_public_release_approved": false,
+  "founder_paid_release_approved": false,
+  "reader_verified_live": false,
+  "reader_live_url": null,
+  "website_cta_verified": false,
+  "privacy_rights_approved": false,
+  "script_facts_approved": false,
+  "narration_recorded_by_author": false,
+  "marketing_assets_qa_passed": false,
+  "commerce_checkout_and_fulfillment_tested": false,
+  "selected_revenue_offer": null,
+  "stages": {
+    "S00_intake": "in_progress",
+    "S01_editorial_diagnosis": "not_started",
+    "S02_canonical": "not_started",
+    "S03_narration_script": "not_started",
+    "S04_digital_reader": "not_started",
+    "S05_design": "not_started",
+    "S06_audio_film": "not_started",
+    "S07_campaign_assets": "not_started",
+    "S08_product_strategy": "not_started",
+    "S09_commerce": "skipped",
+    "S10_release": "not_started",
+    "S11_learning": "not_started"
+  },
+  "stage_evidence": {
+    "S09_commerce": {
+      "reason": "No paid experiment selected; optional lane deferred."
+    }
+  },
+  "derivatives": [],
+  "jira_issue_keys": [],
+  "blockers": [],
+  "offer_hypotheses": [],
+  "observed_metrics": {},
+  "next_actions": [],
+  "notes": "Pilot queue only. Selected source exists in registry; no author approval inferred. No new prose/script/media produced.",
+  "release_scope": {
+    "surfaces": [
+      "reader",
+      "film",
+      "social"
+    ]
+  }
+}

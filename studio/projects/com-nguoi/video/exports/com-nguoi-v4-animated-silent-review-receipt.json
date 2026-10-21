@@ -1,0 +1,26 @@
+{
+  "version": "v4-layer-animation",
+  "video": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\video\\exports\\com-nguoi-v4-animated-silent-review-1080x1920.mp4",
+  "video_sha256": "cc9fb5934b693bf4e7c29fdaba23557bb27ff0b1d78a0aa5531321fc0cb609a0",
+  "source_sha256": "d957b592dc2317aa34196dd25ab42a3fe4a7938d3aee5a1121ab173214bf76f9",
+  "motion_manifest": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\animation\\v4\\motion-manifest.json",
+  "motion_manifest_sha256": "1ead205626abe9e378f2c604fe388bdefa0c32352da7d12f7b16b4245c759b08",
+  "timeline_sha256": "341edb3980dae4f19ec9e8a88a267fd4e6a3681e96440925c73baddc1e1501d0",
+  "verification": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\video\\review\\v4-layer-animation\\verification.json",
+  "verification_sha256": "d9b828090162e9cebd16ce2150456e7d30de7910a79c7866f2bc9036e4b7d8ce",
+  "motion_verification": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\video\\review\\v4-layer-animation\\motion-controls\\verification.json",
+  "motion_verification_sha256": "a6fc8345b84fdc3ee28e02ca8f280501649b9534d1a6e8ac4ecef4f263906604",
+  "duration_s": 120,
+  "frames": 3600,
+  "resolution": [
+    1080,
+    1920
+  ],
+  "audio_tracks": 0,
+  "previous_v3_preserved": true,
+  "book_text_changed": false,
+  "original_artwork_changed": false,
+  "author_quality_approved": false,
+  "public_release_approved": false,
+  "paid_release_approved": false
+}

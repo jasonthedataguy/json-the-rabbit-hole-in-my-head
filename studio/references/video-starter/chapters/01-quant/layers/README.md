@@ -1,0 +1,1 @@
+Animation-ready transparent layers go here (PNG/WebP alpha). Suggested: background, ring-outer, ring-mid, ring-inner, center-art, foreground, floating-symbols. Current chapter board is FLATTENED and is not these layers. Keep originals unchanged.

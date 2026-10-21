@@ -1,0 +1,10 @@
+{
+  "video": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\video\\exports\\com-nguoi-v2-silent-review-1080x1920.mp4",
+  "video_sha256": "fddb546d99c88a810cc9114a5ac7c46a05b2ad07ae9d9a328893c08e6f91a911",
+  "rendered_from": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\video\\previews\\master-vertical-b88ddc8c2641-REVIEW.mp4",
+  "mode": "copy_for_render_cache",
+  "verification": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\video\\review\\v2-silent\\verification.json",
+  "verification_sha256": "f23ed666499106f3e0943c9cbd5d298a9e8018831b2f7cf699a8c90cfbf2812a",
+  "review_only": true,
+  "public_release_approved": false
+}

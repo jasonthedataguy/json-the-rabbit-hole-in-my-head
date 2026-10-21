@@ -1,0 +1,95 @@
+{
+  "chapter": "co-nhung-thu-chi-khi-minh-roi-di-roi-moi-nhin-thay",
+  "files": [
+    {
+      "path": "artwork/portal/after-leaving-portal-v1.png",
+      "bytes": 1689117,
+      "sha256": "60ecc48bf2bde17f232dc790b159c379a0cae84396e1b72b6becfd9324b18f32"
+    },
+    {
+      "path": "artwork/portal/after-leaving-ring-v1.png",
+      "bytes": 2118368,
+      "sha256": "7e24f74e45b0542864c43df86aa09759c1a92ab8efbdf2de40b208b4ebc788d7"
+    },
+    {
+      "path": "artwork/portal/after-leaving-scene-v1.png",
+      "bytes": 1677558,
+      "sha256": "e0787c69adf2a0533051e0b204649581fb268c24bf475beefbb7c58e8d086046"
+    },
+    {
+      "path": "artwork/portal/after-leaving-spread-v1.webp",
+      "bytes": 169400,
+      "sha256": "21d0187f79c45f0396dfda27ab23ea78bdaf4052d472cf4254d8c399046321dd"
+    },
+    {
+      "path": "chapter.json",
+      "bytes": 1451,
+      "sha256": "5e5fdfb27c5a301f7577e86f251a690f7254645bf7290f91e1725a2c3664279b"
+    },
+    {
+      "path": "docs/ASSET_SOURCE.md",
+      "bytes": 851,
+      "sha256": "0e7ff45a85e47376e50f569f88586d4a8443720e1d103acfba88fbc939ebbe0e"
+    },
+    {
+      "path": "docs/PRODUCTS.json",
+      "bytes": 1223,
+      "sha256": "9052656234f46554b31dfa9a718ebefed79518f3a0e710d482a00bb5cd41b604"
+    },
+    {
+      "path": "docs/QA.md",
+      "bytes": 1576,
+      "sha256": "f963b804e25b548f05afbe73296efd62ccb2b439c66b8426efd669945841282d"
+    },
+    {
+      "path": "production.json",
+      "bytes": 628,
+      "sha256": "6ca0372ce65e0d39d2af223c308a8ea5ae43c9f9def9b1d324ac1ea13ad27031"
+    },
+    {
+      "path": "README.md",
+      "bytes": 600,
+      "sha256": "fa018b55a7afae2f33150acf7b5e4c1c6a76f29c8a4f534c8f4b8b594c5b378d"
+    },
+    {
+      "path": "source/approved.md",
+      "bytes": 11969,
+      "sha256": "71fb56af585c9ac5e737e990c4484218367c90bb63454c6c97cf45e637903e48"
+    },
+    {
+      "path": "source/author-attachment.txt",
+      "bytes": 11902,
+      "sha256": "961f4518a4c955405a7cb1560b9e301939c0ac75a1400c8ab78d359b09769346"
+    },
+    {
+      "path": "source/outline.md",
+      "bytes": 450,
+      "sha256": "24e8f52e8138856a30c1b91f65a0206b132136fa05a2e4336a93071622dd0916"
+    },
+    {
+      "path": "source/revisions.log",
+      "bytes": 300,
+      "sha256": "6db065942c9c0f7e31eed9dad100ed9930bb63041c6da4d202cf35a3f55a162b"
+    },
+    {
+      "path": "web/after-leaving.css",
+      "bytes": 6022,
+      "sha256": "c31ce995ed7e0f3c2e7d4d0c09fc3acb532f284d5710e9f13ef6546b9a580f0c"
+    },
+    {
+      "path": "web/assets/after-leaving-portal-v1.png",
+      "bytes": 1689117,
+      "sha256": "60ecc48bf2bde17f232dc790b159c379a0cae84396e1b72b6becfd9324b18f32"
+    },
+    {
+      "path": "web/assets/after-leaving-spread-v1.webp",
+      "bytes": 169400,
+      "sha256": "21d0187f79c45f0396dfda27ab23ea78bdaf4052d472cf4254d8c399046321dd"
+    },
+    {
+      "path": "web/index.html",
+      "bytes": 14838,
+      "sha256": "3d476b71c4a4199cfc9fd844a6838a33693772a8b73cc7d6fe52286c963105e5"
+    }
+  ]
+}

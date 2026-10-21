@@ -1,0 +1,258 @@
+{
+  "version": "v1",
+  "source_path": "C:\\Users\\Administrator\\OneDrive\\Desktop\\.json book\\json_under_revision_v2\\chapters\\com-nguoi\\source\\approved.md",
+  "source_sha256": "b4319bf9abb463148f590c773c14f12732e3524a612936fd2edddcaebecdfd3a",
+  "status": "ready_for_review",
+  "timing_status": "estimates until author recording",
+  "author_vo_recorded": false,
+  "script_facts_approved": false,
+  "master_duration_estimate_s": 54,
+  "alternate_duration_estimate_s": 18,
+  "master": [
+    {
+      "segment_id": "B01",
+      "start_estimate_s": 0,
+      "duration_estimate_s": 5,
+      "vo_text": "Nó không phải sở thích.",
+      "source_excerpt_or_adaptation": "verbatim excerpt",
+      "source_reference": {
+        "text": "Nó không phải sở thích.",
+        "line": 5,
+        "path": "C:\\Users\\Administrator\\OneDrive\\Desktop\\.json book\\json_under_revision_v2\\chapters\\com-nguoi\\source\\approved.md",
+        "source_sha256": "b4319bf9abb463148f590c773c14f12732e3524a612936fd2edddcaebecdfd3a"
+      },
+      "visual": "Bowl illustration; title supplies context",
+      "asset_path": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\com-nguoi\\artwork\\content\\elements\\03-rice-bowl-and-steam.png",
+      "asset_sha256": "a78ec2f1175c1bc96e52b09a0ff1907ea31b545b04c5e99a125ea21773ab3762",
+      "on_screen_text": "Cơm nguội",
+      "subtitle_notes": "Actual VO only; at most two readable lines; retime after real recording",
+      "emotion": "quiet curiosity",
+      "rights_notes": "Existing illustrative artwork; public/commercial rights and author visual approval pending; not archival photography",
+      "status": "ready_for_review"
+    },
+    {
+      "segment_id": "B02",
+      "start_estimate_s": 5,
+      "duration_estimate_s": 6,
+      "vo_text": "Cơm nguội gắn liền với thời thơ ấu của tớ.",
+      "source_excerpt_or_adaptation": "verbatim excerpt",
+      "source_reference": {
+        "text": "Cơm nguội gắn liền với thời thơ ấu của tớ.",
+        "line": 7,
+        "path": "C:\\Users\\Administrator\\OneDrive\\Desktop\\.json book\\json_under_revision_v2\\chapters\\com-nguoi\\source\\approved.md",
+        "source_sha256": "b4319bf9abb463148f590c773c14f12732e3524a612936fd2edddcaebecdfd3a"
+      },
+      "visual": "Whole family illustration",
+      "asset_path": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\com-nguoi\\artwork\\chapter-page\\hero.webp",
+      "asset_sha256": "317e9cfb33874f3ee417c09a6b43ca07de16fa69e63e93a4503e7352e93c4f84",
+      "on_screen_text": "",
+      "subtitle_notes": "Actual VO only; at most two readable lines; retime after real recording",
+      "emotion": "recollection",
+      "rights_notes": "Existing illustrative artwork; public/commercial rights and author visual approval pending; not archival photography",
+      "status": "ready_for_review"
+    },
+    {
+      "segment_id": "B03",
+      "start_estimate_s": 11,
+      "duration_estimate_s": 11,
+      "vo_text": "Tớ để ý bố luôn là người ăn hết tô cơm ấy, còn phần cơm nóng thì để mẹ và tớ ăn.",
+      "source_excerpt_or_adaptation": "verbatim excerpt",
+      "source_reference": {
+        "text": "Tớ để ý bố luôn là người ăn hết tô cơm ấy, còn phần cơm nóng thì để mẹ và tớ ăn.",
+        "line": 9,
+        "path": "C:\\Users\\Administrator\\OneDrive\\Desktop\\.json book\\json_under_revision_v2\\chapters\\com-nguoi\\source\\approved.md",
+        "source_sha256": "b4319bf9abb463148f590c773c14f12732e3524a612936fd2edddcaebecdfd3a"
+      },
+      "visual": "Full family table, no forced portrait crop",
+      "asset_path": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\com-nguoi\\artwork\\chapter-page\\hero.webp",
+      "asset_sha256": "317e9cfb33874f3ee417c09a6b43ca07de16fa69e63e93a4503e7352e93c4f84",
+      "on_screen_text": "",
+      "subtitle_notes": "Actual VO only; at most two readable lines; retime after real recording",
+      "emotion": "observation",
+      "rights_notes": "Existing illustrative artwork; public/commercial rights and author visual approval pending; not archival photography",
+      "status": "ready_for_review"
+    },
+    {
+      "segment_id": "B04",
+      "start_estimate_s": 22,
+      "duration_estimate_s": 6,
+      "vo_text": "Tớ không muốn bố phải ăn cơm nguội.",
+      "source_excerpt_or_adaptation": "verbatim excerpt",
+      "source_reference": {
+        "text": "Tớ không muốn bố phải ăn cơm nguội.",
+        "line": 11,
+        "path": "C:\\Users\\Administrator\\OneDrive\\Desktop\\.json book\\json_under_revision_v2\\chapters\\com-nguoi\\source\\approved.md",
+        "source_sha256": "b4319bf9abb463148f590c773c14f12732e3524a612936fd2edddcaebecdfd3a"
+      },
+      "visual": "Child and parents illustration",
+      "asset_path": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\com-nguoi\\artwork\\content\\illustrations\\01-story-detail.webp",
+      "asset_sha256": "ce4f7fd4c2e46725139dc97f04bdd2b4fcfb8f00cef3313331063a608dfe0342",
+      "on_screen_text": "",
+      "subtitle_notes": "Actual VO only; at most two readable lines; retime after real recording",
+      "emotion": "care, understated",
+      "rights_notes": "Existing illustrative artwork; public/commercial rights and author visual approval pending; not archival photography",
+      "status": "ready_for_review"
+    },
+    {
+      "segment_id": "B05",
+      "start_estimate_s": 28,
+      "duration_estimate_s": 11,
+      "vo_text": "Thế nên cứ mỗi bữa, tớ lại giành lấy phần cơm ấy, bảo rằng tớ thích ăn cơm nguội hơn.",
+      "source_excerpt_or_adaptation": "verbatim excerpt",
+      "source_reference": {
+        "text": "Thế nên cứ mỗi bữa, tớ lại giành lấy phần cơm ấy, bảo rằng tớ thích ăn cơm nguội hơn.",
+        "line": 13,
+        "path": "C:\\Users\\Administrator\\OneDrive\\Desktop\\.json book\\json_under_revision_v2\\chapters\\com-nguoi\\source\\approved.md",
+        "source_sha256": "b4319bf9abb463148f590c773c14f12732e3524a612936fd2edddcaebecdfd3a"
+      },
+      "visual": "Small framing move; no staged exchange",
+      "asset_path": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\com-nguoi\\artwork\\content\\illustrations\\01-story-detail.webp",
+      "asset_sha256": "ce4f7fd4c2e46725139dc97f04bdd2b4fcfb8f00cef3313331063a608dfe0342",
+      "on_screen_text": "",
+      "subtitle_notes": "Actual VO only; at most two readable lines; retime after real recording",
+      "emotion": "remembered choice",
+      "rights_notes": "Existing illustrative artwork; public/commercial rights and author visual approval pending; not archival photography",
+      "status": "ready_for_review"
+    },
+    {
+      "segment_id": "B06",
+      "start_estimate_s": 39,
+      "duration_estimate_s": 4,
+      "vo_text": "Cho đến tận bây giờ.",
+      "source_excerpt_or_adaptation": "verbatim excerpt",
+      "source_reference": {
+        "text": "Cho đến tận bây giờ.",
+        "line": 17,
+        "path": "C:\\Users\\Administrator\\OneDrive\\Desktop\\.json book\\json_under_revision_v2\\chapters\\com-nguoi\\source\\approved.md",
+        "source_sha256": "b4319bf9abb463148f590c773c14f12732e3524a612936fd2edddcaebecdfd3a"
+      },
+      "visual": "Return to full portal",
+      "asset_path": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\com-nguoi\\artwork\\chapter-page\\portal.webp",
+      "asset_sha256": "79b61b71d689bd27bd5cab1679c2a875aff7a8b660619afad9d1ed39d4a3587a",
+      "on_screen_text": "",
+      "subtitle_notes": "Actual VO only; at most two readable lines; retime after real recording",
+      "emotion": "time bridge",
+      "rights_notes": "Existing illustrative artwork; public/commercial rights and author visual approval pending; not archival photography",
+      "status": "ready_for_review"
+    },
+    {
+      "segment_id": "B07",
+      "start_estimate_s": 43,
+      "duration_estimate_s": 6,
+      "vo_text": "“Con thích ăn cơm nguội.”",
+      "source_excerpt_or_adaptation": "verbatim excerpt",
+      "source_reference": {
+        "text": "“Con thích ăn cơm nguội.”",
+        "line": 23,
+        "path": "C:\\Users\\Administrator\\OneDrive\\Desktop\\.json book\\json_under_revision_v2\\chapters\\com-nguoi\\source\\approved.md",
+        "source_sha256": "b4319bf9abb463148f590c773c14f12732e3524a612936fd2edddcaebecdfd3a"
+      },
+      "visual": "Still family illustration",
+      "asset_path": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\com-nguoi\\artwork\\chapter-page\\hero.webp",
+      "asset_sha256": "317e9cfb33874f3ee417c09a6b43ca07de16fa69e63e93a4503e7352e93c4f84",
+      "on_screen_text": "",
+      "subtitle_notes": "Actual VO only; at most two readable lines; retime after real recording",
+      "emotion": "restraint",
+      "rights_notes": "Existing illustrative artwork; public/commercial rights and author visual approval pending; not archival photography",
+      "status": "ready_for_review"
+    },
+    {
+      "segment_id": "B08",
+      "start_estimate_s": 49,
+      "duration_estimate_s": 5,
+      "vo_text": "",
+      "source_excerpt_or_adaptation": "marketing slate; silent, outside memoir",
+      "source_reference": null,
+      "visual": "Silent beat then title/CTA slate",
+      "asset_path": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\com-nguoi\\artwork\\chapter-page\\portal.webp",
+      "asset_sha256": "79b61b71d689bd27bd5cab1679c2a875aff7a8b660619afad9d1ed39d4a3587a",
+      "on_screen_text": ".json / Cơm nguội · Đọc trọn chương",
+      "subtitle_notes": "Actual VO only; at most two readable lines; retime after real recording",
+      "emotion": "quiet invitation",
+      "rights_notes": "Existing illustrative artwork; public/commercial rights and author visual approval pending; not archival photography",
+      "status": "ready_for_review"
+    }
+  ],
+  "alternate": [
+    {
+      "segment_id": "B01",
+      "start_estimate_s": 0,
+      "duration_estimate_s": 4,
+      "vo_text": "Nó không phải sở thích.",
+      "source_excerpt_or_adaptation": "verbatim excerpt",
+      "source_reference": {
+        "text": "Nó không phải sở thích.",
+        "line": 5,
+        "path": "C:\\Users\\Administrator\\OneDrive\\Desktop\\.json book\\json_under_revision_v2\\chapters\\com-nguoi\\source\\approved.md",
+        "source_sha256": "b4319bf9abb463148f590c773c14f12732e3524a612936fd2edddcaebecdfd3a"
+      },
+      "visual": "Bowl illustration; title supplies context",
+      "asset_path": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\com-nguoi\\artwork\\content\\elements\\03-rice-bowl-and-steam.png",
+      "asset_sha256": "a78ec2f1175c1bc96e52b09a0ff1907ea31b545b04c5e99a125ea21773ab3762",
+      "on_screen_text": "Cơm nguội",
+      "subtitle_notes": "Actual VO only; at most two readable lines; retime after real recording",
+      "emotion": "quiet curiosity",
+      "rights_notes": "Existing illustrative artwork; public/commercial rights and author visual approval pending; not archival photography",
+      "status": "ready_for_review"
+    },
+    {
+      "segment_id": "B02",
+      "start_estimate_s": 4,
+      "duration_estimate_s": 6,
+      "vo_text": "Tớ không muốn bố phải ăn cơm nguội.",
+      "source_excerpt_or_adaptation": "verbatim excerpt",
+      "source_reference": {
+        "text": "Tớ không muốn bố phải ăn cơm nguội.",
+        "line": 11,
+        "path": "C:\\Users\\Administrator\\OneDrive\\Desktop\\.json book\\json_under_revision_v2\\chapters\\com-nguoi\\source\\approved.md",
+        "source_sha256": "b4319bf9abb463148f590c773c14f12732e3524a612936fd2edddcaebecdfd3a"
+      },
+      "visual": "Child and parents illustration",
+      "asset_path": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\com-nguoi\\artwork\\content\\illustrations\\01-story-detail.webp",
+      "asset_sha256": "ce4f7fd4c2e46725139dc97f04bdd2b4fcfb8f00cef3313331063a608dfe0342",
+      "on_screen_text": "",
+      "subtitle_notes": "Actual VO only; at most two readable lines; retime after real recording",
+      "emotion": "care, understated",
+      "rights_notes": "Existing illustrative artwork; public/commercial rights and author visual approval pending; not archival photography",
+      "status": "ready_for_review"
+    },
+    {
+      "segment_id": "B03",
+      "start_estimate_s": 10,
+      "duration_estimate_s": 4,
+      "vo_text": "“Con thích ăn cơm nguội.”",
+      "source_excerpt_or_adaptation": "verbatim excerpt",
+      "source_reference": {
+        "text": "“Con thích ăn cơm nguội.”",
+        "line": 23,
+        "path": "C:\\Users\\Administrator\\OneDrive\\Desktop\\.json book\\json_under_revision_v2\\chapters\\com-nguoi\\source\\approved.md",
+        "source_sha256": "b4319bf9abb463148f590c773c14f12732e3524a612936fd2edddcaebecdfd3a"
+      },
+      "visual": "Still family illustration",
+      "asset_path": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\com-nguoi\\artwork\\chapter-page\\hero.webp",
+      "asset_sha256": "317e9cfb33874f3ee417c09a6b43ca07de16fa69e63e93a4503e7352e93c4f84",
+      "on_screen_text": "",
+      "subtitle_notes": "Actual VO only; at most two readable lines; retime after real recording",
+      "emotion": "restraint",
+      "rights_notes": "Existing illustrative artwork; public/commercial rights and author visual approval pending; not archival photography",
+      "status": "ready_for_review"
+    },
+    {
+      "segment_id": "B04",
+      "start_estimate_s": 14,
+      "duration_estimate_s": 4,
+      "vo_text": "",
+      "source_excerpt_or_adaptation": "marketing slate; silent, outside memoir",
+      "source_reference": null,
+      "visual": "Silent beat then title/CTA slate",
+      "asset_path": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\com-nguoi\\artwork\\chapter-page\\portal.webp",
+      "asset_sha256": "79b61b71d689bd27bd5cab1679c2a875aff7a8b660619afad9d1ed39d4a3587a",
+      "on_screen_text": ".json / Cơm nguội · Đọc trọn chương",
+      "subtitle_notes": "Actual VO only; at most two readable lines; retime after real recording",
+      "emotion": "quiet invitation",
+      "rights_notes": "Existing illustrative artwork; public/commercial rights and author visual approval pending; not archival photography",
+      "status": "ready_for_review"
+    }
+  ],
+  "source_rebase_note": "All quoted words remain exact in author-approved v1; source line numbers/hash refreshed. Script approval still pending."
+}

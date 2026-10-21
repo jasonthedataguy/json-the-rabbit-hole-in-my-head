@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.0",
+  "story_slug": "com-nguoi",
+  "title": "Cold Rice",
+  "edition_number": "00",
+  "original_edition_number": "07",
+  "source": {
+    "path": "C:\\Users\\Administrator\\OneDrive\\Desktop\\.json book\\json_under_revision_v2\\chapters\\com-nguoi\\source\\approved.md",
+    "sha256": "b4319bf9abb463148f590c773c14f12732e3524a612936fd2edddcaebecdfd3a"
+  },
+  "run_manifest": "outputs/2026-10-21-com-nguoi/run-manifest.json",
+  "asset_record": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\com-nguoi\\assets.json",
+  "timeline": "studio/projects/com-nguoi/video/timeline.json",
+  "lanes": {
+    "editorial": "C:\\Users\\Administrator\\OneDrive\\Desktop\\.json book\\json_under_revision_v2\\chapters\\com-nguoi\\source",
+    "reader": "C:\\Users\\Administrator\\OneDrive\\Desktop\\.json book\\json_under_revision_v2\\chapters\\com-nguoi\\web",
+    "design": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\com-nguoi\\assets.json",
+    "audio": "C:\\Users\\Administrator\\OneDrive\\Desktop\\.json book\\json_under_revision_v2\\chapters\\com-nguoi\\audio",
+    "video": "studio/projects/com-nguoi/video",
+    "social": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\outputs\\2026-10-21-com-nguoi\\social-pack.json",
+    "commerce": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\outputs\\2026-10-21-com-nguoi\\monetization-options.md",
+    "release": null,
+    "learning": null
+  },
+  "state_authority": "run_manifest; project.json contains pointers, not a second set of gate flags",
+  "animation_manifest": {
+    "path": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\animation\\v5\\motion-manifest.json",
+    "sha256": "4c19f85ef5cb91b42eca387b3476f4826c12b338aa5459bf2fa6617702971d76",
+    "render_entry": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\apps\\video\\src\\com-nguoi-v5-entry.tsx",
+    "render_entry_sha256": "62703201512aaf078992fb579e242c8cb6ca1a10efb111189671bbfd0c3c44db"
+  }
+}

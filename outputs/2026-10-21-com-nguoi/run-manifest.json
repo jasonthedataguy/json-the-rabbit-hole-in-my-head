@@ -1,0 +1,1090 @@
+{
+  "schema_version": "1.0",
+  "story_id": "com-nguoi",
+  "chapter_slug": "com-nguoi",
+  "chapter_slot": "00",
+  "title": "Cold Rice / Cơm nguội",
+  "run_mode": "audit + next actions",
+  "repository": "jasonthedataguy/json-under-revision-v2",
+  "canonical_source_path": "C:\\Users\\Administrator\\OneDrive\\Desktop\\.json book\\json_under_revision_v2\\chapters\\com-nguoi\\source\\approved.md",
+  "canonical_sha256": "b4319bf9abb463148f590c773c14f12732e3524a612936fd2edddcaebecdfd3a",
+  "author_approved": true,
+  "source_facts_approval_evidence": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\outputs\\2026-10-21-com-nguoi\\editorial-approval.json",
+  "public_visibility_policy": "undecided",
+  "founder_public_release_approved": false,
+  "founder_paid_release_approved": false,
+  "reader_verified_live": false,
+  "reader_live_url": null,
+  "website_cta_verified": false,
+  "privacy_rights_approved": false,
+  "script_facts_approved": true,
+  "narration_recorded_by_author": false,
+  "marketing_assets_qa_passed": false,
+  "commerce_checkout_and_fulfillment_tested": false,
+  "selected_revenue_offer": null,
+  "stages": {
+    "S00_intake": "ready_for_review",
+    "S01_editorial_diagnosis": "ready_for_review",
+    "S02_canonical": "approved",
+    "S03_narration_script": "approved",
+    "S04_digital_reader": "in_progress",
+    "S05_design": "ready_for_review",
+    "S06_audio_film": "ready_for_review",
+    "S07_campaign_assets": "ready_for_review",
+    "S08_product_strategy": "ready_for_review",
+    "S09_commerce": "blocked",
+    "S10_release": "blocked",
+    "S11_learning": "not_started"
+  },
+  "stage_evidence": {
+    "S00_intake": {
+      "path": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\outputs\\2026-10-21-com-nguoi\\story-brief.md",
+      "sha256": "0e3eaf671fff39e94d098226408b09442639e69d3826f6a46f0c5d17aca50bf0",
+      "scope": "internal artifact/status evidence; not release approval"
+    },
+    "S01_editorial_diagnosis": {
+      "path": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\outputs\\2026-10-21-com-nguoi\\editorial-review.md",
+      "sha256": "11db8ae2d266be8dd50a209ef9f55bf99c493d9567dd4b21914a9f9ce573a9e6",
+      "scope": "internal artifact/status evidence; not release approval"
+    },
+    "S02_canonical": {
+      "path": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\outputs\\2026-10-21-com-nguoi\\chapter-proposed-v1.md",
+      "sha256": "b4319bf9abb463148f590c773c14f12732e3524a612936fd2edddcaebecdfd3a",
+      "scope": "internal artifact/status evidence; not release approval",
+      "approval_evidence": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\outputs\\2026-10-21-com-nguoi\\editorial-approval.json"
+    },
+    "S03_narration_script": {
+      "path": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\script\\final-script-v2.md",
+      "sha256": "d957b592dc2317aa34196dd25ab42a3fe4a7938d3aee5a1121ab173214bf76f9",
+      "scope": "author supplied final full video script; excerpt scripts remain historical",
+      "approval": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\script\\final-script-v2-approval.json"
+    },
+    "S04_digital_reader": {
+      "path": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\outputs\\2026-10-21-com-nguoi\\digital-book-design-plan.md",
+      "sha256": "1305c8469fe7e10ebc68b5991b58a8d40b530e47aa9b2d914eec06521f863dcb",
+      "scope": "internal artifact/status evidence; not release approval"
+    },
+    "S05_design": {
+      "path": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\outputs\\2026-10-21-com-nguoi\\asset-reuse.json",
+      "sha256": "165a964b1f758d250919b7eaab945bf27e3330eda169f9520409baa3c4ffccdc",
+      "scope": "internal artifact/status evidence; not release approval"
+    },
+    "S06_audio_film": {
+      "path": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\video\\exports\\com-nguoi-v5-living-illustrations-silent-review-1080x1920.mp4",
+      "artifact_sha256": "17e7cfe9c0efd402f9f29c17f2a4ff6bb1be2c4e7f1234bab24862d11a0b6a22",
+      "version": "v5-living-illustrations",
+      "classification": "2.5D living illustrations with source-anchored procedural vapor; no character-body/facial animation",
+      "source_sha256": "d957b592dc2317aa34196dd25ab42a3fe4a7938d3aee5a1121ab173214bf76f9",
+      "verification": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\video\\review\\v5-living-illustrations\\verification.json",
+      "motion_verification": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\video\\review\\v5-living-illustrations\\motion-controls\\verification.json",
+      "gif_previews": [
+        "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\animation\\v5\\exports\\com-nguoi-v5-dinner-living.gif",
+        "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\animation\\v5\\exports\\com-nguoi-v5-child-living.gif"
+      ],
+      "duration_s": 120,
+      "story_starts_s": 10.5,
+      "audio_tracks": 0,
+      "state": "V5 complete silent film and two living GIFs rendered and technically checked; exact author look/pacing approval pending."
+    },
+    "S07_campaign_assets": {
+      "path": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\outputs\\2026-10-21-com-nguoi\\social-pack.json",
+      "sha256": "73599950993b490c6d5b9cd7428ea34b2397898bcc857f002db3a6ed1b092b46",
+      "scope": "internal artifact/status evidence; not release approval"
+    },
+    "S08_product_strategy": {
+      "path": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\outputs\\2026-10-21-com-nguoi\\monetization-options.md",
+      "sha256": "ed79423db4d67ea72186e908b087e46f90fec99037a2cba74fc02b535d77d383",
+      "scope": "internal artifact/status evidence; not release approval"
+    },
+    "S09_commerce": {
+      "path": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\outputs\\2026-10-21-com-nguoi\\monetization-options.md",
+      "sha256": "ed79423db4d67ea72186e908b087e46f90fec99037a2cba74fc02b535d77d383",
+      "scope": "internal artifact/status evidence; not release approval"
+    },
+    "S10_release": {
+      "path": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\outputs\\2026-10-21-com-nguoi\\production-plan.md",
+      "sha256": "45e6c886ccd6c7a2b41a7d08e086815e194bad4e7066324a05a205f4fc9b89b4",
+      "scope": "internal artifact/status evidence; not release approval"
+    },
+    "S11_learning": {
+      "path": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\outputs\\2026-10-21-com-nguoi\\production-plan.md",
+      "sha256": "45e6c886ccd6c7a2b41a7d08e086815e194bad4e7066324a05a205f4fc9b89b4",
+      "scope": "internal artifact/status evidence; not release approval"
+    }
+  },
+  "derivatives": [
+    {
+      "id": "chapter-proposed-v1",
+      "path": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\outputs\\2026-10-21-com-nguoi\\chapter-proposed-v1.md",
+      "source_sha256": "b4319bf9abb463148f590c773c14f12732e3524a612936fd2edddcaebecdfd3a",
+      "artifact_sha256": "b4319bf9abb463148f590c773c14f12732e3524a612936fd2edddcaebecdfd3a",
+      "version": "v1",
+      "format": "md",
+      "rights": "public/commercial approval pending; existing illustrative artwork referenced in metadata",
+      "status": "approved",
+      "evidence": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\outputs\\2026-10-21-com-nguoi\\editorial-approval.json",
+      "source_rebase_status": "unchanged quotes verified; no approval inherited"
+    },
+    {
+      "id": "chapter-proposed-v1",
+      "path": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\outputs\\2026-10-21-com-nguoi\\chapter-proposed-v1.diff",
+      "source_sha256": "d957b592dc2317aa34196dd25ab42a3fe4a7938d3aee5a1121ab173214bf76f9",
+      "artifact_sha256": "a1ab1f3e25576de20f9fba98656317a3a9f4b89d6e89469c8932765278d6c64e",
+      "version": "v1",
+      "format": "diff",
+      "rights": "public/commercial approval pending; existing illustrative artwork referenced in metadata",
+      "status": "ready_for_review",
+      "evidence": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\outputs\\2026-10-21-com-nguoi\\chapter-proposed-v1.diff"
+    },
+    {
+      "id": "editorial-review",
+      "path": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\outputs\\2026-10-21-com-nguoi\\editorial-review.md",
+      "source_sha256": "d957b592dc2317aa34196dd25ab42a3fe4a7938d3aee5a1121ab173214bf76f9",
+      "artifact_sha256": "11db8ae2d266be8dd50a209ef9f55bf99c493d9567dd4b21914a9f9ce573a9e6",
+      "version": "v1",
+      "format": "md",
+      "rights": "public/commercial approval pending; existing illustrative artwork referenced in metadata",
+      "status": "ready_for_review",
+      "evidence": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\outputs\\2026-10-21-com-nguoi\\editorial-review.md"
+    },
+    {
+      "id": "story-brief",
+      "path": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\outputs\\2026-10-21-com-nguoi\\story-brief.md",
+      "source_sha256": "d957b592dc2317aa34196dd25ab42a3fe4a7938d3aee5a1121ab173214bf76f9",
+      "artifact_sha256": "0e3eaf671fff39e94d098226408b09442639e69d3826f6a46f0c5d17aca50bf0",
+      "version": "v1",
+      "format": "md",
+      "rights": "public/commercial approval pending; existing illustrative artwork referenced in metadata",
+      "status": "ready_for_review",
+      "evidence": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\outputs\\2026-10-21-com-nguoi\\story-brief.md"
+    },
+    {
+      "id": "film-script",
+      "path": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\outputs\\2026-10-21-com-nguoi\\film-script.md",
+      "source_sha256": "b4319bf9abb463148f590c773c14f12732e3524a612936fd2edddcaebecdfd3a",
+      "artifact_sha256": "1bbb086711d1dbed99863c91530507fdfc41bf8b1d6e2cdfa7eea21f244197a6",
+      "version": "v1",
+      "format": "md",
+      "rights": "public/commercial approval pending; existing illustrative artwork referenced in metadata",
+      "status": "ready_for_review",
+      "evidence": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\outputs\\2026-10-21-com-nguoi\\film-script.md",
+      "source_rebase_status": "unchanged quotes verified; no approval inherited",
+      "active_video_use": "historical excerpt plan; superseded by full video script v2 for this cut"
+    },
+    {
+      "id": "film-script",
+      "path": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\outputs\\2026-10-21-com-nguoi\\film-script.json",
+      "source_sha256": "b4319bf9abb463148f590c773c14f12732e3524a612936fd2edddcaebecdfd3a",
+      "artifact_sha256": "2ea7a5ea7b9110c7ff2ce5c993fd20c903ffb56f638a8e04584092dcc2ba8dff",
+      "version": "v1",
+      "format": "json",
+      "rights": "public/commercial approval pending; existing illustrative artwork referenced in metadata",
+      "status": "ready_for_review",
+      "evidence": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\outputs\\2026-10-21-com-nguoi\\film-script.json",
+      "source_rebase_status": "unchanged quotes verified; no approval inherited",
+      "active_video_use": "historical excerpt plan; superseded by full video script v2 for this cut"
+    },
+    {
+      "id": "social-pack",
+      "path": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\outputs\\2026-10-21-com-nguoi\\social-pack.md",
+      "source_sha256": "b4319bf9abb463148f590c773c14f12732e3524a612936fd2edddcaebecdfd3a",
+      "artifact_sha256": "eda6b7b4ee1110e6ea61c61e22e7ecb530ab0f70f3fe1b06ec764efee8360879",
+      "version": "v1",
+      "format": "md",
+      "rights": "public/commercial approval pending; existing illustrative artwork referenced in metadata",
+      "status": "ready_for_review",
+      "evidence": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\outputs\\2026-10-21-com-nguoi\\social-pack.md",
+      "source_rebase_status": "unchanged quotes verified; no approval inherited"
+    },
+    {
+      "id": "social-pack",
+      "path": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\outputs\\2026-10-21-com-nguoi\\social-pack.json",
+      "source_sha256": "b4319bf9abb463148f590c773c14f12732e3524a612936fd2edddcaebecdfd3a",
+      "artifact_sha256": "73599950993b490c6d5b9cd7428ea34b2397898bcc857f002db3a6ed1b092b46",
+      "version": "v1",
+      "format": "json",
+      "rights": "public/commercial approval pending; existing illustrative artwork referenced in metadata",
+      "status": "ready_for_review",
+      "evidence": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\outputs\\2026-10-21-com-nguoi\\social-pack.json",
+      "source_rebase_status": "unchanged quotes verified; no approval inherited"
+    },
+    {
+      "id": "digital-book-design-plan",
+      "path": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\outputs\\2026-10-21-com-nguoi\\digital-book-design-plan.md",
+      "source_sha256": "b4319bf9abb463148f590c773c14f12732e3524a612936fd2edddcaebecdfd3a",
+      "artifact_sha256": "1305c8469fe7e10ebc68b5991b58a8d40b530e47aa9b2d914eec06521f863dcb",
+      "version": "v1",
+      "format": "md",
+      "rights": "public/commercial approval pending; existing illustrative artwork referenced in metadata",
+      "status": "ready_for_review",
+      "evidence": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\outputs\\2026-10-21-com-nguoi\\digital-book-design-plan.md",
+      "source_rebase_status": "unchanged quotes verified; no approval inherited"
+    },
+    {
+      "id": "monetization-options",
+      "path": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\outputs\\2026-10-21-com-nguoi\\monetization-options.md",
+      "source_sha256": "b4319bf9abb463148f590c773c14f12732e3524a612936fd2edddcaebecdfd3a",
+      "artifact_sha256": "ed79423db4d67ea72186e908b087e46f90fec99037a2cba74fc02b535d77d383",
+      "version": "v1",
+      "format": "md",
+      "rights": "public/commercial approval pending; existing illustrative artwork referenced in metadata",
+      "status": "ready_for_review",
+      "evidence": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\outputs\\2026-10-21-com-nguoi\\monetization-options.md",
+      "source_rebase_status": "unchanged quotes verified; no approval inherited"
+    },
+    {
+      "id": "social-contact-sheet",
+      "path": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\outputs\\2026-10-21-com-nguoi\\social-contact-sheet.jpg",
+      "source_sha256": "b4319bf9abb463148f590c773c14f12732e3524a612936fd2edddcaebecdfd3a",
+      "artifact_sha256": "6ea28fd796a4c4af82db90a77080ed70d231754b5a97004eae9513faa43a35ac",
+      "version": "v1",
+      "format": "jpg",
+      "rights": "public/commercial approval pending; existing illustrative artwork referenced in metadata",
+      "status": "ready_for_review",
+      "evidence": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\outputs\\2026-10-21-com-nguoi\\social-contact-sheet.jpg",
+      "source_rebase_status": "unchanged quotes verified; no approval inherited"
+    },
+    {
+      "id": "carousel-01",
+      "path": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\outputs\\2026-10-21-com-nguoi\\social\\carousel-01.jpg",
+      "source_sha256": "b4319bf9abb463148f590c773c14f12732e3524a612936fd2edddcaebecdfd3a",
+      "artifact_sha256": "61f906a7abaf361f82c3e3bb4afccbc781d934cf142295f8fcc88f5b9a29031a",
+      "version": "v1",
+      "format": "jpg",
+      "rights": "public/commercial approval pending; existing illustrative artwork referenced in metadata",
+      "status": "ready_for_review",
+      "evidence": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\outputs\\2026-10-21-com-nguoi\\social\\carousel-01.jpg",
+      "source_rebase_status": "unchanged quotes verified; no approval inherited"
+    },
+    {
+      "id": "carousel-02",
+      "path": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\outputs\\2026-10-21-com-nguoi\\social\\carousel-02.jpg",
+      "source_sha256": "b4319bf9abb463148f590c773c14f12732e3524a612936fd2edddcaebecdfd3a",
+      "artifact_sha256": "f85a0b0829c9b0db21ffbe282b156109eb7c6d57550ce8f3203a545e764d38be",
+      "version": "v1",
+      "format": "jpg",
+      "rights": "public/commercial approval pending; existing illustrative artwork referenced in metadata",
+      "status": "ready_for_review",
+      "evidence": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\outputs\\2026-10-21-com-nguoi\\social\\carousel-02.jpg",
+      "source_rebase_status": "unchanged quotes verified; no approval inherited"
+    },
+    {
+      "id": "carousel-03",
+      "path": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\outputs\\2026-10-21-com-nguoi\\social\\carousel-03.jpg",
+      "source_sha256": "b4319bf9abb463148f590c773c14f12732e3524a612936fd2edddcaebecdfd3a",
+      "artifact_sha256": "e9b199f026c3c962364521fdd6a0c30b065f4da03b3c2077668a027cbef8a8c4",
+      "version": "v1",
+      "format": "jpg",
+      "rights": "public/commercial approval pending; existing illustrative artwork referenced in metadata",
+      "status": "ready_for_review",
+      "evidence": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\outputs\\2026-10-21-com-nguoi\\social\\carousel-03.jpg",
+      "source_rebase_status": "unchanged quotes verified; no approval inherited"
+    },
+    {
+      "id": "carousel-04",
+      "path": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\outputs\\2026-10-21-com-nguoi\\social\\carousel-04.jpg",
+      "source_sha256": "b4319bf9abb463148f590c773c14f12732e3524a612936fd2edddcaebecdfd3a",
+      "artifact_sha256": "71a7f241a68530ab6416badeb281b754e56b198e576a2b60c8cf67b7565ef1c8",
+      "version": "v1",
+      "format": "jpg",
+      "rights": "public/commercial approval pending; existing illustrative artwork referenced in metadata",
+      "status": "ready_for_review",
+      "evidence": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\outputs\\2026-10-21-com-nguoi\\social\\carousel-04.jpg",
+      "source_rebase_status": "unchanged quotes verified; no approval inherited"
+    },
+    {
+      "id": "carousel-05",
+      "path": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\outputs\\2026-10-21-com-nguoi\\social\\carousel-05.jpg",
+      "source_sha256": "b4319bf9abb463148f590c773c14f12732e3524a612936fd2edddcaebecdfd3a",
+      "artifact_sha256": "e7845f77773b502b49d2c0c21b0ee9fdb770016e1ee321f0f67b4c8cd28548bc",
+      "version": "v1",
+      "format": "jpg",
+      "rights": "public/commercial approval pending; existing illustrative artwork referenced in metadata",
+      "status": "ready_for_review",
+      "evidence": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\outputs\\2026-10-21-com-nguoi\\social\\carousel-05.jpg",
+      "source_rebase_status": "unchanged quotes verified; no approval inherited"
+    },
+    {
+      "id": "facebook-caption",
+      "path": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\outputs\\2026-10-21-com-nguoi\\social\\facebook-caption.txt",
+      "source_sha256": "b4319bf9abb463148f590c773c14f12732e3524a612936fd2edddcaebecdfd3a",
+      "artifact_sha256": "c44dde1ca1030d6c1fbde3454481868535d7d3ac26d4c126f916b4c56fe4b9ca",
+      "version": "v1",
+      "format": "txt",
+      "rights": "public/commercial approval pending; existing illustrative artwork referenced in metadata",
+      "status": "ready_for_review",
+      "evidence": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\outputs\\2026-10-21-com-nguoi\\social\\facebook-caption.txt",
+      "source_rebase_status": "unchanged quotes verified; no approval inherited"
+    },
+    {
+      "id": "facebook-image-v1",
+      "path": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\outputs\\2026-10-21-com-nguoi\\social\\facebook-image-v1.jpg",
+      "source_sha256": "b4319bf9abb463148f590c773c14f12732e3524a612936fd2edddcaebecdfd3a",
+      "artifact_sha256": "ca4ecee253d2cd5f4471a4a03bc203405e4930d006bd4ae1b6c41e1c7a7d8688",
+      "version": "v1",
+      "format": "jpg",
+      "rights": "public/commercial approval pending; existing illustrative artwork referenced in metadata",
+      "status": "ready_for_review",
+      "evidence": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\outputs\\2026-10-21-com-nguoi\\social\\facebook-image-v1.jpg",
+      "source_rebase_status": "unchanged quotes verified; no approval inherited"
+    },
+    {
+      "id": "instagram-caption",
+      "path": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\outputs\\2026-10-21-com-nguoi\\social\\instagram-caption.txt",
+      "source_sha256": "b4319bf9abb463148f590c773c14f12732e3524a612936fd2edddcaebecdfd3a",
+      "artifact_sha256": "2849db33461c48de6dab20d712df40a306614c88d447acfaf320833499818e38",
+      "version": "v1",
+      "format": "txt",
+      "rights": "public/commercial approval pending; existing illustrative artwork referenced in metadata",
+      "status": "ready_for_review",
+      "evidence": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\outputs\\2026-10-21-com-nguoi\\social\\instagram-caption.txt",
+      "source_rebase_status": "unchanged quotes verified; no approval inherited"
+    },
+    {
+      "id": "story-image-v1",
+      "path": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\outputs\\2026-10-21-com-nguoi\\social\\story-image-v1.jpg",
+      "source_sha256": "b4319bf9abb463148f590c773c14f12732e3524a612936fd2edddcaebecdfd3a",
+      "artifact_sha256": "fdd00550886bc6cdfa9dfcfda4a69f9c02b67406625d55196d849999a0dd8642",
+      "version": "v1",
+      "format": "jpg",
+      "rights": "public/commercial approval pending; existing illustrative artwork referenced in metadata",
+      "status": "ready_for_review",
+      "evidence": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\outputs\\2026-10-21-com-nguoi\\social\\story-image-v1.jpg",
+      "source_rebase_status": "unchanged quotes verified; no approval inherited"
+    },
+    {
+      "id": "sunday-caption",
+      "path": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\outputs\\2026-10-21-com-nguoi\\social\\sunday-caption.txt",
+      "source_sha256": "b4319bf9abb463148f590c773c14f12732e3524a612936fd2edddcaebecdfd3a",
+      "artifact_sha256": "d66bd40272a6117a97988710ffbfde043d6f1642c798fd28509f3ec507f3c360",
+      "version": "v1",
+      "format": "txt",
+      "rights": "public/commercial approval pending; existing illustrative artwork referenced in metadata",
+      "status": "ready_for_review",
+      "evidence": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\outputs\\2026-10-21-com-nguoi\\social\\sunday-caption.txt",
+      "source_rebase_status": "unchanged quotes verified; no approval inherited"
+    },
+    {
+      "id": "tiktok-caption",
+      "path": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\outputs\\2026-10-21-com-nguoi\\social\\tiktok-caption.txt",
+      "source_sha256": "b4319bf9abb463148f590c773c14f12732e3524a612936fd2edddcaebecdfd3a",
+      "artifact_sha256": "5056881866db0f6d2ee4c15ea97021670cab74bdb8d4eb7800126b31f7c64736",
+      "version": "v1",
+      "format": "txt",
+      "rights": "public/commercial approval pending; existing illustrative artwork referenced in metadata",
+      "status": "ready_for_review",
+      "evidence": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\outputs\\2026-10-21-com-nguoi\\social\\tiktok-caption.txt",
+      "source_rebase_status": "unchanged quotes verified; no approval inherited"
+    },
+    {
+      "id": "youtube-caption",
+      "path": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\outputs\\2026-10-21-com-nguoi\\social\\youtube-caption.txt",
+      "source_sha256": "b4319bf9abb463148f590c773c14f12732e3524a612936fd2edddcaebecdfd3a",
+      "artifact_sha256": "288f1b55c6f73125fee53a20008df56bc1712114959328a07614c6c3eb3239ce",
+      "version": "v1",
+      "format": "txt",
+      "rights": "public/commercial approval pending; existing illustrative artwork referenced in metadata",
+      "status": "ready_for_review",
+      "evidence": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\outputs\\2026-10-21-com-nguoi\\social\\youtube-caption.txt",
+      "source_rebase_status": "unchanged quotes verified; no approval inherited"
+    },
+    {
+      "id": "final-video-script-v2",
+      "path": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\script\\final-script-v2.md",
+      "source_sha256": "d957b592dc2317aa34196dd25ab42a3fe4a7938d3aee5a1121ab173214bf76f9",
+      "canonical_source_sha256": "b4319bf9abb463148f590c773c14f12732e3524a612936fd2edddcaebecdfd3a",
+      "artifact_sha256": "d957b592dc2317aa34196dd25ab42a3fe4a7938d3aee5a1121ab173214bf76f9",
+      "version": "v2",
+      "format": "md",
+      "status": "approved",
+      "rights": "internal production only; public/commercial gates pending",
+      "evidence": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\script\\final-script-v2-approval.json"
+    },
+    {
+      "id": "full-video-timeline-v2",
+      "path": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\video\\history\\timeline-full-silent-v2.json",
+      "source_sha256": "d957b592dc2317aa34196dd25ab42a3fe4a7938d3aee5a1121ab173214bf76f9",
+      "canonical_source_sha256": "b4319bf9abb463148f590c773c14f12732e3524a612936fd2edddcaebecdfd3a",
+      "artifact_sha256": "fa484bfb77f1ae5d5575307d424a871751f56e515ab3dc7df43633cbf60cd6a2",
+      "version": "v2",
+      "format": "json",
+      "status": "historical_review",
+      "rights": "internal production only; public/commercial gates pending",
+      "evidence": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\video\\timeline.json"
+    },
+    {
+      "id": "silent-reading-srt-v2",
+      "path": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\video\\com-nguoi-v2-reading-timings.srt",
+      "source_sha256": "d957b592dc2317aa34196dd25ab42a3fe4a7938d3aee5a1121ab173214bf76f9",
+      "canonical_source_sha256": "b4319bf9abb463148f590c773c14f12732e3524a612936fd2edddcaebecdfd3a",
+      "artifact_sha256": "88a322ee87e17af5ccd3f6f360807e4e6b85787f8453a19f4750525a6321fd15",
+      "version": "v2",
+      "format": "srt",
+      "status": "ready_for_review",
+      "rights": "internal production only; public/commercial gates pending",
+      "evidence": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\video\\com-nguoi-v2-reading-timings.srt"
+    },
+    {
+      "id": "silent-reading-vtt-v2",
+      "path": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\video\\com-nguoi-v2-reading-timings.vtt",
+      "source_sha256": "d957b592dc2317aa34196dd25ab42a3fe4a7938d3aee5a1121ab173214bf76f9",
+      "canonical_source_sha256": "b4319bf9abb463148f590c773c14f12732e3524a612936fd2edddcaebecdfd3a",
+      "artifact_sha256": "0f3c79997a428ca6aabad1a6f0abec85f82eeedcbb9e273e14cb21bfe62e793f",
+      "version": "v2",
+      "format": "vtt",
+      "status": "ready_for_review",
+      "rights": "internal production only; public/commercial gates pending",
+      "evidence": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\video\\com-nguoi-v2-reading-timings.vtt"
+    },
+    {
+      "id": "full-silent-review-video-v2",
+      "path": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\video\\exports\\com-nguoi-v2-silent-review-1080x1920.mp4",
+      "source_sha256": "d957b592dc2317aa34196dd25ab42a3fe4a7938d3aee5a1121ab173214bf76f9",
+      "canonical_source_sha256": "b4319bf9abb463148f590c773c14f12732e3524a612936fd2edddcaebecdfd3a",
+      "artifact_sha256": "fddb546d99c88a810cc9114a5ac7c46a05b2ad07ae9d9a328893c08e6f91a911",
+      "version": "v2-silent-review",
+      "format": "mp4",
+      "status": "ready_for_review",
+      "rights": "internal review only; no public/paid release approved",
+      "evidence": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\video\\review\\v2-silent\\verification.json"
+    },
+    {
+      "id": "full-silent-review-qc-v2",
+      "path": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\video\\review\\v2-silent\\verification.json",
+      "source_sha256": "d957b592dc2317aa34196dd25ab42a3fe4a7938d3aee5a1121ab173214bf76f9",
+      "canonical_source_sha256": "b4319bf9abb463148f590c773c14f12732e3524a612936fd2edddcaebecdfd3a",
+      "artifact_sha256": "f23ed666499106f3e0943c9cbd5d298a9e8018831b2f7cf699a8c90cfbf2812a",
+      "version": "v2-silent-review",
+      "format": "json",
+      "status": "ready_for_review",
+      "rights": "internal review only; no public/paid release approved",
+      "evidence": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\video\\review\\v2-silent\\verification.json"
+    },
+    {
+      "id": "full-silent-review-receipt-v2",
+      "path": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\video\\exports\\com-nguoi-v2-silent-review-receipt.json",
+      "source_sha256": "d957b592dc2317aa34196dd25ab42a3fe4a7938d3aee5a1121ab173214bf76f9",
+      "canonical_source_sha256": "b4319bf9abb463148f590c773c14f12732e3524a612936fd2edddcaebecdfd3a",
+      "artifact_sha256": "01c48eaaa2edaed7974425bb671cb5758c472c02d939c84e2b21f233ee501974",
+      "version": "v2-silent-review",
+      "format": "json",
+      "status": "ready_for_review",
+      "rights": "internal review only; no public/paid release approved",
+      "evidence": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\video\\review\\v2-silent\\verification.json"
+    },
+    {
+      "id": "full-video-timeline-v3",
+      "path": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\video\\history\\timeline-full-portal-v3.json",
+      "artifact_sha256": "9cf5bfb65e7205f719a42b70a3dffa168b52bd39b54bf1c7b6abcd59f5bad1e9",
+      "source_sha256": "d957b592dc2317aa34196dd25ab42a3fe4a7938d3aee5a1121ab173214bf76f9",
+      "canonical_source_sha256": "b4319bf9abb463148f590c773c14f12732e3524a612936fd2edddcaebecdfd3a",
+      "version": "v3-portal-entry",
+      "format": "json",
+      "status": "historical_review",
+      "rights": "internal review only; public/paid approval pending",
+      "evidence": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\video\\timeline.json"
+    },
+    {
+      "id": "silent-reading-srt-v3",
+      "path": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\video\\com-nguoi-v3-reading-timings.srt",
+      "artifact_sha256": "b3d1d8bd67cad0e6cdeffef262fbb0c09e9ed8ebd9feb820660a335587c520db",
+      "source_sha256": "d957b592dc2317aa34196dd25ab42a3fe4a7938d3aee5a1121ab173214bf76f9",
+      "canonical_source_sha256": "b4319bf9abb463148f590c773c14f12732e3524a612936fd2edddcaebecdfd3a",
+      "version": "v3-portal-entry",
+      "format": "srt",
+      "status": "ready_for_review",
+      "rights": "internal review only; public/paid approval pending",
+      "evidence": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\video\\timeline.json"
+    },
+    {
+      "id": "silent-reading-vtt-v3",
+      "path": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\video\\com-nguoi-v3-reading-timings.vtt",
+      "artifact_sha256": "e8137508de560051a3bfcc0936aa8a0b8248cc41539ad6514756a2a55253717a",
+      "source_sha256": "d957b592dc2317aa34196dd25ab42a3fe4a7938d3aee5a1121ab173214bf76f9",
+      "canonical_source_sha256": "b4319bf9abb463148f590c773c14f12732e3524a612936fd2edddcaebecdfd3a",
+      "version": "v3-portal-entry",
+      "format": "vtt",
+      "status": "ready_for_review",
+      "rights": "internal review only; public/paid approval pending",
+      "evidence": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\video\\timeline.json"
+    },
+    {
+      "id": "portal-entry-silent-review-video-v3",
+      "path": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\video\\exports\\com-nguoi-v3-portal-entry-silent-review-1080x1920.mp4",
+      "source_sha256": "d957b592dc2317aa34196dd25ab42a3fe4a7938d3aee5a1121ab173214bf76f9",
+      "canonical_source_sha256": "b4319bf9abb463148f590c773c14f12732e3524a612936fd2edddcaebecdfd3a",
+      "artifact_sha256": "a4280b872b8f586a7fce483f80c56f00550a40e318cf9eb5d3cbe7c79c7fb11b",
+      "version": "v3-portal-entry",
+      "format": "mp4",
+      "status": "ready_for_review",
+      "rights": "internal review only; public/paid approval pending",
+      "evidence": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\video\\review\\v3-portal-entry\\verification.json"
+    },
+    {
+      "id": "portal-entry-silent-review-qc-v3",
+      "path": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\video\\review\\v3-portal-entry\\verification.json",
+      "source_sha256": "d957b592dc2317aa34196dd25ab42a3fe4a7938d3aee5a1121ab173214bf76f9",
+      "canonical_source_sha256": "b4319bf9abb463148f590c773c14f12732e3524a612936fd2edddcaebecdfd3a",
+      "artifact_sha256": "33b87b25eda1e1230d40411df805b7c57382944e85f3b75cb7f45d68aa03a258",
+      "version": "v3-portal-entry",
+      "format": "json",
+      "status": "ready_for_review",
+      "rights": "internal review only; public/paid approval pending",
+      "evidence": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\video\\review\\v3-portal-entry\\verification.json"
+    },
+    {
+      "id": "portal-entry-silent-review-receipt-v3",
+      "path": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\video\\exports\\com-nguoi-v3-portal-entry-silent-review-receipt.json",
+      "source_sha256": "d957b592dc2317aa34196dd25ab42a3fe4a7938d3aee5a1121ab173214bf76f9",
+      "canonical_source_sha256": "b4319bf9abb463148f590c773c14f12732e3524a612936fd2edddcaebecdfd3a",
+      "artifact_sha256": "fe609c846a2d3332aa6b2db405e152bd5b263bc36ed3d613c574e7dc83ad288c",
+      "version": "v3-portal-entry",
+      "format": "json",
+      "status": "ready_for_review",
+      "rights": "internal review only; public/paid approval pending",
+      "evidence": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\video\\review\\v3-portal-entry\\verification.json"
+    },
+    {
+      "id": "portal-entry-opening-motion-check-v3",
+      "path": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\video\\previews\\com-nguoi-v3-opening-motion-check.mp4",
+      "source_sha256": "d957b592dc2317aa34196dd25ab42a3fe4a7938d3aee5a1121ab173214bf76f9",
+      "canonical_source_sha256": "b4319bf9abb463148f590c773c14f12732e3524a612936fd2edddcaebecdfd3a",
+      "artifact_sha256": "e49ffe7f88ff952aedc21de019e730f6edc36ed244819f41004678110d2c6368",
+      "version": "v3-portal-entry",
+      "format": "mp4",
+      "status": "ready_for_review",
+      "rights": "internal review only; public/paid approval pending",
+      "evidence": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\video\\review\\v3-portal-entry\\verification.json"
+    },
+    {
+      "id": "com-nguoi-v4-film",
+      "path": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\video\\exports\\com-nguoi-v4-animated-silent-review-1080x1920.mp4",
+      "artifact_sha256": "cc9fb5934b693bf4e7c29fdaba23557bb27ff0b1d78a0aa5531321fc0cb609a0",
+      "source_sha256": "d957b592dc2317aa34196dd25ab42a3fe4a7938d3aee5a1121ab173214bf76f9",
+      "canonical_source_sha256": "b4319bf9abb463148f590c773c14f12732e3524a612936fd2edddcaebecdfd3a",
+      "version": "v4-layer-animation",
+      "format": "mp4",
+      "status": "ready_for_review",
+      "rights": "Internal review; no public/paid release approval inferred.",
+      "evidence": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\video\\review\\v4-layer-animation\\verification.json"
+    },
+    {
+      "id": "com-nguoi-v4-timeline",
+      "path": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\video\\timeline-v4.json",
+      "artifact_sha256": "341edb3980dae4f19ec9e8a88a267fd4e6a3681e96440925c73baddc1e1501d0",
+      "source_sha256": "d957b592dc2317aa34196dd25ab42a3fe4a7938d3aee5a1121ab173214bf76f9",
+      "canonical_source_sha256": "b4319bf9abb463148f590c773c14f12732e3524a612936fd2edddcaebecdfd3a",
+      "version": "v4-layer-animation",
+      "format": "json",
+      "status": "ready_for_review",
+      "rights": "Internal review; no public/paid release approval inferred.",
+      "evidence": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\video\\review\\v4-layer-animation\\verification.json"
+    },
+    {
+      "id": "com-nguoi-v4-motion-manifest",
+      "path": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\animation\\v4\\motion-manifest.json",
+      "artifact_sha256": "1ead205626abe9e378f2c604fe388bdefa0c32352da7d12f7b16b4245c759b08",
+      "source_sha256": "d957b592dc2317aa34196dd25ab42a3fe4a7938d3aee5a1121ab173214bf76f9",
+      "canonical_source_sha256": "b4319bf9abb463148f590c773c14f12732e3524a612936fd2edddcaebecdfd3a",
+      "version": "v4-layer-animation",
+      "format": "json",
+      "status": "ready_for_review",
+      "rights": "Internal review; no public/paid release approval inferred.",
+      "evidence": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\video\\review\\v4-layer-animation\\verification.json"
+    },
+    {
+      "id": "com-nguoi-v4-media-qc",
+      "path": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\video\\review\\v4-layer-animation\\verification.json",
+      "artifact_sha256": "d9b828090162e9cebd16ce2150456e7d30de7910a79c7866f2bc9036e4b7d8ce",
+      "source_sha256": "d957b592dc2317aa34196dd25ab42a3fe4a7938d3aee5a1121ab173214bf76f9",
+      "canonical_source_sha256": "b4319bf9abb463148f590c773c14f12732e3524a612936fd2edddcaebecdfd3a",
+      "version": "v4-layer-animation",
+      "format": "json",
+      "status": "ready_for_review",
+      "rights": "Internal review; no public/paid release approval inferred.",
+      "evidence": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\video\\review\\v4-layer-animation\\verification.json"
+    },
+    {
+      "id": "com-nguoi-v4-motion-qc",
+      "path": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\video\\review\\v4-layer-animation\\motion-controls\\verification.json",
+      "artifact_sha256": "a6fc8345b84fdc3ee28e02ca8f280501649b9534d1a6e8ac4ecef4f263906604",
+      "source_sha256": "d957b592dc2317aa34196dd25ab42a3fe4a7938d3aee5a1121ab173214bf76f9",
+      "canonical_source_sha256": "b4319bf9abb463148f590c773c14f12732e3524a612936fd2edddcaebecdfd3a",
+      "version": "v4-layer-animation",
+      "format": "json",
+      "status": "ready_for_review",
+      "rights": "Internal review; no public/paid release approval inferred.",
+      "evidence": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\video\\review\\v4-layer-animation\\verification.json"
+    },
+    {
+      "id": "com-nguoi-v4-receipt",
+      "path": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\video\\exports\\com-nguoi-v4-animated-silent-review-receipt.json",
+      "artifact_sha256": "855d4002044166991d51b25534359e511ae7efa145e97895f4b61ff4236be962",
+      "source_sha256": "d957b592dc2317aa34196dd25ab42a3fe4a7938d3aee5a1121ab173214bf76f9",
+      "canonical_source_sha256": "b4319bf9abb463148f590c773c14f12732e3524a612936fd2edddcaebecdfd3a",
+      "version": "v4-layer-animation",
+      "format": "json",
+      "status": "ready_for_review",
+      "rights": "Internal review; no public/paid release approval inferred.",
+      "evidence": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\video\\review\\v4-layer-animation\\verification.json"
+    },
+    {
+      "id": "com-nguoi-v4-derivation",
+      "path": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\animation\\v4\\derivation-receipt.json",
+      "artifact_sha256": "6bb46fc245511124b9990f403785cf509a97002e7d0b625741fe7ee0cb3f35a6",
+      "source_sha256": "d957b592dc2317aa34196dd25ab42a3fe4a7938d3aee5a1121ab173214bf76f9",
+      "canonical_source_sha256": "b4319bf9abb463148f590c773c14f12732e3524a612936fd2edddcaebecdfd3a",
+      "version": "v4-layer-animation",
+      "format": "json",
+      "status": "ready_for_review",
+      "rights": "Internal review; no public/paid release approval inferred.",
+      "evidence": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\video\\review\\v4-layer-animation\\verification.json"
+    },
+    {
+      "id": "com-nguoi-v4-renderer",
+      "path": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\apps\\video\\src\\com-nguoi-v4.tsx",
+      "artifact_sha256": "9a114d4b511dee89d329ab0b65eb539cb177b2659dff47e1f07068fe820fa7f1",
+      "source_sha256": "d957b592dc2317aa34196dd25ab42a3fe4a7938d3aee5a1121ab173214bf76f9",
+      "canonical_source_sha256": "b4319bf9abb463148f590c773c14f12732e3524a612936fd2edddcaebecdfd3a",
+      "version": "v4-layer-animation",
+      "format": "tsx",
+      "status": "ready_for_review",
+      "rights": "Internal review; no public/paid release approval inferred.",
+      "evidence": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\video\\review\\v4-layer-animation\\verification.json"
+    },
+    {
+      "id": "com-nguoi-v4-entry",
+      "path": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\apps\\video\\src\\com-nguoi-v4-entry.tsx",
+      "artifact_sha256": "aa72113f1544b5b252ed200047a36e19c4357a91c4c0277cc4d3b0e6d006c427",
+      "source_sha256": "d957b592dc2317aa34196dd25ab42a3fe4a7938d3aee5a1121ab173214bf76f9",
+      "canonical_source_sha256": "b4319bf9abb463148f590c773c14f12732e3524a612936fd2edddcaebecdfd3a",
+      "version": "v4-layer-animation",
+      "format": "tsx",
+      "status": "ready_for_review",
+      "rights": "Internal review; no public/paid release approval inferred.",
+      "evidence": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\video\\review\\v4-layer-animation\\verification.json"
+    },
+    {
+      "id": "com-nguoi-v4-builder",
+      "path": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\video\\build_v4.py",
+      "artifact_sha256": "3c1b0d063fe26da82ef1d435d4e892cff75b2bab6689de130a44754b129a036c",
+      "source_sha256": "d957b592dc2317aa34196dd25ab42a3fe4a7938d3aee5a1121ab173214bf76f9",
+      "canonical_source_sha256": "b4319bf9abb463148f590c773c14f12732e3524a612936fd2edddcaebecdfd3a",
+      "version": "v4-layer-animation",
+      "format": "py",
+      "status": "ready_for_review",
+      "rights": "Internal review; no public/paid release approval inferred.",
+      "evidence": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\video\\review\\v4-layer-animation\\verification.json"
+    },
+    {
+      "id": "com-nguoi-v4-motion-study",
+      "path": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\video\\previews\\com-nguoi-v4-opening-and-motion-study.mp4",
+      "artifact_sha256": "57bc50f02bb0ad1ebb72f60f51d4af4ee3860c5c6225ca1318a85d20c6df993b",
+      "source_sha256": "d957b592dc2317aa34196dd25ab42a3fe4a7938d3aee5a1121ab173214bf76f9",
+      "canonical_source_sha256": "b4319bf9abb463148f590c773c14f12732e3524a612936fd2edddcaebecdfd3a",
+      "version": "v4-layer-animation",
+      "format": "mp4",
+      "status": "ready_for_review",
+      "rights": "Internal review; no public/paid release approval inferred.",
+      "evidence": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\video\\review\\v4-layer-animation\\verification.json"
+    },
+    {
+      "id": "com-nguoi-v5-film",
+      "path": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\video\\exports\\com-nguoi-v5-living-illustrations-silent-review-1080x1920.mp4",
+      "artifact_sha256": "17e7cfe9c0efd402f9f29c17f2a4ff6bb1be2c4e7f1234bab24862d11a0b6a22",
+      "source_sha256": "d957b592dc2317aa34196dd25ab42a3fe4a7938d3aee5a1121ab173214bf76f9",
+      "canonical_source_sha256": "b4319bf9abb463148f590c773c14f12732e3524a612936fd2edddcaebecdfd3a",
+      "version": "v5-living-illustrations",
+      "format": "mp4",
+      "status": "ready_for_review",
+      "rights": "Internal review; no artistic/public/paid approval inferred.",
+      "evidence": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\video\\review\\v5-living-illustrations\\verification.json"
+    },
+    {
+      "id": "com-nguoi-v5-timeline",
+      "path": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\video\\timeline-v5.json",
+      "artifact_sha256": "b1569745ca76238dff27d33a8aa51e3bee0449070ef3f85ea14d399f780965f1",
+      "source_sha256": "d957b592dc2317aa34196dd25ab42a3fe4a7938d3aee5a1121ab173214bf76f9",
+      "canonical_source_sha256": "b4319bf9abb463148f590c773c14f12732e3524a612936fd2edddcaebecdfd3a",
+      "version": "v5-living-illustrations",
+      "format": "json",
+      "status": "ready_for_review",
+      "rights": "Internal review; no artistic/public/paid approval inferred.",
+      "evidence": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\video\\review\\v5-living-illustrations\\verification.json"
+    },
+    {
+      "id": "com-nguoi-v5-motion-manifest",
+      "path": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\animation\\v5\\motion-manifest.json",
+      "artifact_sha256": "4c19f85ef5cb91b42eca387b3476f4826c12b338aa5459bf2fa6617702971d76",
+      "source_sha256": "d957b592dc2317aa34196dd25ab42a3fe4a7938d3aee5a1121ab173214bf76f9",
+      "canonical_source_sha256": "b4319bf9abb463148f590c773c14f12732e3524a612936fd2edddcaebecdfd3a",
+      "version": "v5-living-illustrations",
+      "format": "json",
+      "status": "ready_for_review",
+      "rights": "Internal review; no artistic/public/paid approval inferred.",
+      "evidence": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\video\\review\\v5-living-illustrations\\verification.json"
+    },
+    {
+      "id": "com-nguoi-v5-media-qc",
+      "path": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\video\\review\\v5-living-illustrations\\verification.json",
+      "artifact_sha256": "1758f8f28e11a59a81da5d37c563ea00987ac3144dd62efac96324b3cb5f1cf2",
+      "source_sha256": "d957b592dc2317aa34196dd25ab42a3fe4a7938d3aee5a1121ab173214bf76f9",
+      "canonical_source_sha256": "b4319bf9abb463148f590c773c14f12732e3524a612936fd2edddcaebecdfd3a",
+      "version": "v5-living-illustrations",
+      "format": "json",
+      "status": "ready_for_review",
+      "rights": "Internal review; no artistic/public/paid approval inferred.",
+      "evidence": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\video\\review\\v5-living-illustrations\\verification.json"
+    },
+    {
+      "id": "com-nguoi-v5-motion-qc",
+      "path": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\video\\review\\v5-living-illustrations\\motion-controls\\verification.json",
+      "artifact_sha256": "0c1d9c320c58257b2e82f6812a523663a079941f3dfbda566779a47f4bd13eb3",
+      "source_sha256": "d957b592dc2317aa34196dd25ab42a3fe4a7938d3aee5a1121ab173214bf76f9",
+      "canonical_source_sha256": "b4319bf9abb463148f590c773c14f12732e3524a612936fd2edddcaebecdfd3a",
+      "version": "v5-living-illustrations",
+      "format": "json",
+      "status": "ready_for_review",
+      "rights": "Internal review; no artistic/public/paid approval inferred.",
+      "evidence": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\video\\review\\v5-living-illustrations\\verification.json"
+    },
+    {
+      "id": "com-nguoi-v5-receipt",
+      "path": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\video\\exports\\com-nguoi-v5-living-illustrations-silent-review-receipt.json",
+      "artifact_sha256": "3a60160384f611df693c7bc08fca55e98e47589ade6b7805fe8aa3651b48cb1f",
+      "source_sha256": "d957b592dc2317aa34196dd25ab42a3fe4a7938d3aee5a1121ab173214bf76f9",
+      "canonical_source_sha256": "b4319bf9abb463148f590c773c14f12732e3524a612936fd2edddcaebecdfd3a",
+      "version": "v5-living-illustrations",
+      "format": "json",
+      "status": "ready_for_review",
+      "rights": "Internal review; no artistic/public/paid approval inferred.",
+      "evidence": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\video\\review\\v5-living-illustrations\\verification.json"
+    },
+    {
+      "id": "com-nguoi-v5-derivation",
+      "path": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\animation\\v5\\derivation-receipt.json",
+      "artifact_sha256": "63e3c0b06e174a2678d81aad650abee71fa6484b6de11ff4c17d5568e4dfde39",
+      "source_sha256": "d957b592dc2317aa34196dd25ab42a3fe4a7938d3aee5a1121ab173214bf76f9",
+      "canonical_source_sha256": "b4319bf9abb463148f590c773c14f12732e3524a612936fd2edddcaebecdfd3a",
+      "version": "v5-living-illustrations",
+      "format": "json",
+      "status": "ready_for_review",
+      "rights": "Internal review; no artistic/public/paid approval inferred.",
+      "evidence": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\video\\review\\v5-living-illustrations\\verification.json"
+    },
+    {
+      "id": "com-nguoi-v5-renderer",
+      "path": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\apps\\video\\src\\com-nguoi-v5.tsx",
+      "artifact_sha256": "973a9a78488857118f34502e35884a436f0db5afe47c0d15b6dbefbbb2de4566",
+      "source_sha256": "d957b592dc2317aa34196dd25ab42a3fe4a7938d3aee5a1121ab173214bf76f9",
+      "canonical_source_sha256": "b4319bf9abb463148f590c773c14f12732e3524a612936fd2edddcaebecdfd3a",
+      "version": "v5-living-illustrations",
+      "format": "tsx",
+      "status": "ready_for_review",
+      "rights": "Internal review; no artistic/public/paid approval inferred.",
+      "evidence": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\video\\review\\v5-living-illustrations\\verification.json"
+    },
+    {
+      "id": "com-nguoi-v5-entry",
+      "path": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\apps\\video\\src\\com-nguoi-v5-entry.tsx",
+      "artifact_sha256": "62703201512aaf078992fb579e242c8cb6ca1a10efb111189671bbfd0c3c44db",
+      "source_sha256": "d957b592dc2317aa34196dd25ab42a3fe4a7938d3aee5a1121ab173214bf76f9",
+      "canonical_source_sha256": "b4319bf9abb463148f590c773c14f12732e3524a612936fd2edddcaebecdfd3a",
+      "version": "v5-living-illustrations",
+      "format": "tsx",
+      "status": "ready_for_review",
+      "rights": "Internal review; no artistic/public/paid approval inferred.",
+      "evidence": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\video\\review\\v5-living-illustrations\\verification.json"
+    },
+    {
+      "id": "com-nguoi-v5-steam-component",
+      "path": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\apps\\video\\src\\LivingSteam.tsx",
+      "artifact_sha256": "908129d5b74a5fedab1eca6443cf3ece3e69ac5ba360315c585b0bd725abc61d",
+      "source_sha256": "d957b592dc2317aa34196dd25ab42a3fe4a7938d3aee5a1121ab173214bf76f9",
+      "canonical_source_sha256": "b4319bf9abb463148f590c773c14f12732e3524a612936fd2edddcaebecdfd3a",
+      "version": "v5-living-illustrations",
+      "format": "tsx",
+      "status": "ready_for_review",
+      "rights": "Internal review; no artistic/public/paid approval inferred.",
+      "evidence": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\video\\review\\v5-living-illustrations\\verification.json"
+    },
+    {
+      "id": "com-nguoi-v5-builder",
+      "path": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\video\\build_v5.py",
+      "artifact_sha256": "73da280bce466e945c8a768a5f67ff443a538dd49ebf09be5e0fda0936c8229b",
+      "source_sha256": "d957b592dc2317aa34196dd25ab42a3fe4a7938d3aee5a1121ab173214bf76f9",
+      "canonical_source_sha256": "b4319bf9abb463148f590c773c14f12732e3524a612936fd2edddcaebecdfd3a",
+      "version": "v5-living-illustrations",
+      "format": "py",
+      "status": "ready_for_review",
+      "rights": "Internal review; no artistic/public/paid approval inferred.",
+      "evidence": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\video\\review\\v5-living-illustrations\\verification.json"
+    },
+    {
+      "id": "com-nguoi-v5-motion-check-script",
+      "path": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\video\\verify_v5_motion.py",
+      "artifact_sha256": "6229ab81132b8fcb747542ed1b9d8aa4f6684abe58cf474c8769c255cbea5bf2",
+      "source_sha256": "d957b592dc2317aa34196dd25ab42a3fe4a7938d3aee5a1121ab173214bf76f9",
+      "canonical_source_sha256": "b4319bf9abb463148f590c773c14f12732e3524a612936fd2edddcaebecdfd3a",
+      "version": "v5-living-illustrations",
+      "format": "py",
+      "status": "ready_for_review",
+      "rights": "Internal review; no artistic/public/paid approval inferred.",
+      "evidence": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\video\\review\\v5-living-illustrations\\verification.json"
+    },
+    {
+      "id": "com-nguoi-v5-media-check-script",
+      "path": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\video\\verify_silent_cut.py",
+      "artifact_sha256": "3efecd0206be25dde02e63f347d2982bf2d1ad56c6146b9c675ac9c9a1fe355f",
+      "source_sha256": "d957b592dc2317aa34196dd25ab42a3fe4a7938d3aee5a1121ab173214bf76f9",
+      "canonical_source_sha256": "b4319bf9abb463148f590c773c14f12732e3524a612936fd2edddcaebecdfd3a",
+      "version": "v5-living-illustrations",
+      "format": "py",
+      "status": "ready_for_review",
+      "rights": "Internal review; no artistic/public/paid approval inferred.",
+      "evidence": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\video\\review\\v5-living-illustrations\\verification.json"
+    },
+    {
+      "id": "com-nguoi-v5-motion-study",
+      "path": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\video\\previews\\com-nguoi-v5-opening-and-living-scene-study.mp4",
+      "artifact_sha256": "31b6a5a4714d51a22ede1f85b3c3dcc7765d166357f7f5f6f24d1f2f916dfb80",
+      "source_sha256": "d957b592dc2317aa34196dd25ab42a3fe4a7938d3aee5a1121ab173214bf76f9",
+      "canonical_source_sha256": "b4319bf9abb463148f590c773c14f12732e3524a612936fd2edddcaebecdfd3a",
+      "version": "v5-living-illustrations",
+      "format": "mp4",
+      "status": "ready_for_review",
+      "rights": "Internal review; no artistic/public/paid approval inferred.",
+      "evidence": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\video\\review\\v5-living-illustrations\\verification.json"
+    },
+    {
+      "id": "com-nguoi-v5-animation-skill",
+      "path": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\skills\\json-asset-animation\\SKILL.md",
+      "artifact_sha256": "a6a6b1618589ef23aafdd5ee2c5b47a94f44329e7d5b3275e6ff9d0b2d5031f7",
+      "source_sha256": "d957b592dc2317aa34196dd25ab42a3fe4a7938d3aee5a1121ab173214bf76f9",
+      "canonical_source_sha256": "b4319bf9abb463148f590c773c14f12732e3524a612936fd2edddcaebecdfd3a",
+      "version": "v5-living-illustrations",
+      "format": "md",
+      "status": "ready_for_review",
+      "rights": "Internal review; no artistic/public/paid approval inferred.",
+      "evidence": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\video\\review\\v5-living-illustrations\\verification.json"
+    },
+    {
+      "id": "com-nguoi-v5-gif-exporter",
+      "path": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\skills\\json-asset-animation\\scripts\\export_loop_gif.py",
+      "artifact_sha256": "bfb70923a53605e6c0e7feea8986eaa722aed705b417dc9249c759e4bbc65e8a",
+      "source_sha256": "d957b592dc2317aa34196dd25ab42a3fe4a7938d3aee5a1121ab173214bf76f9",
+      "canonical_source_sha256": "b4319bf9abb463148f590c773c14f12732e3524a612936fd2edddcaebecdfd3a",
+      "version": "v5-living-illustrations",
+      "format": "py",
+      "status": "ready_for_review",
+      "rights": "Internal review; no artistic/public/paid approval inferred.",
+      "evidence": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\video\\review\\v5-living-illustrations\\verification.json"
+    },
+    {
+      "id": "com-nguoi-v5-dinner-gif",
+      "path": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\animation\\v5\\exports\\com-nguoi-v5-dinner-living.gif",
+      "artifact_sha256": "0b47f6e422a7b08b798b2337443f736df7ea6294baf748d989380d261a7b0ff9",
+      "source_sha256": "d957b592dc2317aa34196dd25ab42a3fe4a7938d3aee5a1121ab173214bf76f9",
+      "canonical_source_sha256": "b4319bf9abb463148f590c773c14f12732e3524a612936fd2edddcaebecdfd3a",
+      "version": "v5-living-illustrations",
+      "format": "gif",
+      "status": "ready_for_review",
+      "rights": "Internal review; no artistic/public/paid approval inferred.",
+      "evidence": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\video\\review\\v5-living-illustrations\\verification.json"
+    },
+    {
+      "id": "com-nguoi-v5-dinner-loop-video",
+      "path": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\animation\\v5\\exports\\com-nguoi-v5-dinner-living.mp4",
+      "artifact_sha256": "8699bc6d6e307b60b43fb5ab5b53ebebb3a1c6d129ef05a5e05cefef31c69c56",
+      "source_sha256": "d957b592dc2317aa34196dd25ab42a3fe4a7938d3aee5a1121ab173214bf76f9",
+      "canonical_source_sha256": "b4319bf9abb463148f590c773c14f12732e3524a612936fd2edddcaebecdfd3a",
+      "version": "v5-living-illustrations",
+      "format": "mp4",
+      "status": "ready_for_review",
+      "rights": "Internal review; no artistic/public/paid approval inferred.",
+      "evidence": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\video\\review\\v5-living-illustrations\\verification.json"
+    },
+    {
+      "id": "com-nguoi-v5-dinner-gif-qc",
+      "path": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\video\\review\\v5-living-illustrations\\dinner-gif-verification.json",
+      "artifact_sha256": "5b1c2d98129208d83bda280d4e3dcda8b931034304ba94ea19754468944b9f62",
+      "source_sha256": "d957b592dc2317aa34196dd25ab42a3fe4a7938d3aee5a1121ab173214bf76f9",
+      "canonical_source_sha256": "b4319bf9abb463148f590c773c14f12732e3524a612936fd2edddcaebecdfd3a",
+      "version": "v5-living-illustrations",
+      "format": "json",
+      "status": "ready_for_review",
+      "rights": "Internal review; no artistic/public/paid approval inferred.",
+      "evidence": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\video\\review\\v5-living-illustrations\\verification.json"
+    },
+    {
+      "id": "com-nguoi-v5-child-gif",
+      "path": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\animation\\v5\\exports\\com-nguoi-v5-child-living.gif",
+      "artifact_sha256": "90658f12f2fb1c6942dc7e159f502ff559a5a8a0ec8ddba01555440681e76c23",
+      "source_sha256": "d957b592dc2317aa34196dd25ab42a3fe4a7938d3aee5a1121ab173214bf76f9",
+      "canonical_source_sha256": "b4319bf9abb463148f590c773c14f12732e3524a612936fd2edddcaebecdfd3a",
+      "version": "v5-living-illustrations",
+      "format": "gif",
+      "status": "ready_for_review",
+      "rights": "Internal review; no artistic/public/paid approval inferred.",
+      "evidence": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\video\\review\\v5-living-illustrations\\verification.json"
+    },
+    {
+      "id": "com-nguoi-v5-child-loop-video",
+      "path": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\animation\\v5\\exports\\com-nguoi-v5-child-living.mp4",
+      "artifact_sha256": "75b16028963d0e2b56ec72a63d8aec63237f356b84cd87161c7ffbfa2aa4bedb",
+      "source_sha256": "d957b592dc2317aa34196dd25ab42a3fe4a7938d3aee5a1121ab173214bf76f9",
+      "canonical_source_sha256": "b4319bf9abb463148f590c773c14f12732e3524a612936fd2edddcaebecdfd3a",
+      "version": "v5-living-illustrations",
+      "format": "mp4",
+      "status": "ready_for_review",
+      "rights": "Internal review; no artistic/public/paid approval inferred.",
+      "evidence": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\video\\review\\v5-living-illustrations\\verification.json"
+    },
+    {
+      "id": "com-nguoi-v5-child-gif-qc",
+      "path": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\video\\review\\v5-living-illustrations\\child-gif-verification.json",
+      "artifact_sha256": "c22fda26b1464320c1e61a52798e397728e7e97373ea9e3ba556665496e8ee49",
+      "source_sha256": "d957b592dc2317aa34196dd25ab42a3fe4a7938d3aee5a1121ab173214bf76f9",
+      "canonical_source_sha256": "b4319bf9abb463148f590c773c14f12732e3524a612936fd2edddcaebecdfd3a",
+      "version": "v5-living-illustrations",
+      "format": "json",
+      "status": "ready_for_review",
+      "rights": "Internal review; no artistic/public/paid approval inferred.",
+      "evidence": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\video\\review\\v5-living-illustrations\\verification.json"
+    }
+  ],
+  "jira_issue_keys": [],
+  "blockers": [
+    {
+      "id": "PUBLIC_SCOPE",
+      "owner": "Jason",
+      "reason": "Video script supplied as final; public family/visual scope remains pending."
+    },
+    {
+      "id": "VO",
+      "owner": "Jason then editor/AI",
+      "reason": "Silent review cut explicitly requested. Author recording is needed only for a future personal-narration release."
+    },
+    {
+      "id": "LIVE",
+      "owner": "Technical owner + Jason",
+      "reason": "Live chapter/CTA, accessibility, rights and final G3 not yet verified/approved."
+    },
+    {
+      "id": "G4",
+      "owner": "Jason",
+      "reason": "Optional commerce: no selected offer or actual checkout/fulfillment/terms tests."
+    }
+  ],
+  "offer_hypotheses": [
+    {
+      "id": "H1",
+      "name": "Illustrated digital mini-edition",
+      "validated": false
+    },
+    {
+      "id": "H2",
+      "name": "Art print/postcard pair",
+      "validated": false
+    },
+    {
+      "id": "H3",
+      "name": "Collection/publisher licensing",
+      "validated": false
+    }
+  ],
+  "observed_metrics": {
+    "reach": null,
+    "visits": null,
+    "reads": null,
+    "onward_clicks": null,
+    "subscribers": null,
+    "paid_units": null,
+    "net_sales_vnd": null,
+    "contribution_vnd": null
+  },
+  "next_actions": [
+    {
+      "priority": 1,
+      "owner": "Jason",
+      "action": "Review v5 living vapor, illustration GIFs, portal landing and full-film pacing; approve the exact look or request revisions.",
+      "dependency": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\video\\exports\\com-nguoi-v5-living-illustrations-silent-review-1080x1920.mp4",
+      "effort_estimate": "5-10 minutes",
+      "jira_path": "not synced; existing mapping unverified"
+    },
+    {
+      "priority": 2,
+      "owner": "Editor/AI",
+      "action": "Apply requested revisions; a future narrated edition additionally needs the author recording and speech retiming",
+      "dependency": "author review of this silent cut",
+      "effort_estimate": "30-90 minutes depending on changes",
+      "jira_path": "not synced; existing mapping unverified"
+    },
+    {
+      "priority": 3,
+      "owner": "Jason + technical owner",
+      "action": "Select public family/visual scope and verify live reader/CTA before exact release approval",
+      "dependency": "selected final artifacts and disclosure decision",
+      "effort_estimate": "1-2 hours excluding fixes",
+      "jira_path": "not synced; existing mapping unverified"
+    }
+  ],
+  "notes": "V5 makes both story illustrations live with curling, rising/fading vapor and periodic environmental motion; two 8-second looping GIFs accompany the full silent film. Cold bowl, family poses, complete script and portal opening preserved. V4 and earlier reviews retained; originals unchanged. Artistic/public/paid approval remains pending.",
+  "original_edition_slot": "07",
+  "approval_scope_note": "Book manuscript v1 approval retained. Author supplied final full video script v2 and requested a silent review cut. This approves video text/use for internal production only; family/public scope, final quality, public and paid release remain pending.",
+  "historical_editorial_approval_evidence": "C:\\Users\\Administrator\\OneDrive\\Desktop\\.json book\\json_under_revision_v2\\chapters\\com-nguoi\\source\\edit-notes.md",
+  "proposed_manuscript_path": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\outputs\\2026-10-21-com-nguoi\\chapter-proposed-v1.md",
+  "proposed_sha256": "b4319bf9abb463148f590c773c14f12732e3524a612936fd2edddcaebecdfd3a",
+  "run_date": "2026-10-21",
+  "timezone": "Asia/Bangkok",
+  "repository_head_observed": "3ceecb11076ccf50a58e26d093b0dc0c97e41051",
+  "reader_candidate_url": "https://jasonthedataguy.github.io/json-the-rabbit-hole-in-my-head/#chapter/00",
+  "jira_sync_status": "not performed; connector unavailable",
+  "originals_unchanged": true,
+  "approval_gates": {
+    "G1": {
+      "status": "manuscript_text_approved",
+      "evidence": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\outputs\\2026-10-21-com-nguoi\\editorial-approval.json",
+      "public_family_scope": "pending"
+    },
+    "script": {
+      "status": "final_video_script_text_approved",
+      "evidence": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\script\\final-script-v2-approval.json"
+    },
+    "G2": {
+      "status": "pending",
+      "evidence": null
+    },
+    "G3": {
+      "status": "pending",
+      "evidence": null
+    },
+    "G4": {
+      "status": "pending",
+      "evidence": null
+    },
+    "G5": {
+      "status": "pending",
+      "evidence": null
+    }
+  },
+  "manuscript_text_approved": true,
+  "manuscript_text_approval_evidence": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\outputs\\2026-10-21-com-nguoi\\editorial-approval.json",
+  "canonical_integration_status": "applied_locally",
+  "canonical_selection_receipt": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\outputs\\2026-10-21-com-nguoi\\canonical-selection-receipt.json",
+  "release_scope": {
+    "surfaces": [
+      "reader",
+      "film",
+      "social"
+    ]
+  },
+  "studio_project": "studio/projects/com-nguoi/project.json",
+  "founder_public_release_evidence": null,
+  "founder_paid_release_evidence": null,
+  "script_approval_evidence": {
+    "path": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\script\\final-script-v2-approval.json",
+    "sha256": "01fa41f32730ebe512f6a46d9a3ea3adea6468e6665142962c2f445430ffd230"
+  },
+  "cloud_portability_note": "Path resolution and runtime-tool lookup added for a private cross-device handoff; media, original source/art hashes and all approval decisions unchanged."
+}

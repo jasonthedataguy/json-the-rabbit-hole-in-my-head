@@ -1,0 +1,282 @@
+{
+  "technical_status": "pass",
+  "visual_review_status": "editor_visual_check_passed_author_review_pending",
+  "date": "2026-10-21",
+  "video": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\video\\previews\\master-vertical-cb5e9de111b6-REVIEW.mp4",
+  "video_sha256": "a4280b872b8f586a7fce483f80c56f00550a40e318cf9eb5d3cbe7c79c7fb11b",
+  "bytes": 74383331,
+  "source_sha256": "d957b592dc2317aa34196dd25ab42a3fe4a7938d3aee5a1121ab173214bf76f9",
+  "timeline_sha256": "9cf5bfb65e7205f719a42b70a3dffa168b52bd39b54bf1c7b6abcd59f5bad1e9",
+  "duration_s": 120.0,
+  "frames_decoded": 3600,
+  "resolution": [
+    1080,
+    1920
+  ],
+  "fps": 30,
+  "audio_tracks": 0,
+  "full_source_coverage": true,
+  "reading_cues": 27,
+  "captures": [
+    {
+      "shot": "OPEN",
+      "cue": 1,
+      "time_s": 1.55,
+      "text": "chapter title",
+      "frame": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\video\\review\\v3-portal-entry\\OPEN-01.png"
+    },
+    {
+      "shot": "OPEN",
+      "cue": 2,
+      "time_s": 4.55,
+      "text": "enter portal",
+      "frame": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\video\\review\\v3-portal-entry\\OPEN-02.png"
+    },
+    {
+      "shot": "OPEN",
+      "cue": 3,
+      "time_s": 6.55,
+      "text": "center reveal begins",
+      "frame": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\video\\review\\v3-portal-entry\\OPEN-03.png"
+    },
+    {
+      "shot": "OPEN",
+      "cue": 4,
+      "time_s": 7.55,
+      "text": "center-scene dissolve",
+      "frame": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\video\\review\\v3-portal-entry\\OPEN-04.png"
+    },
+    {
+      "shot": "OPEN",
+      "cue": 5,
+      "time_s": 9.55,
+      "text": "settle into story",
+      "frame": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\video\\review\\v3-portal-entry\\OPEN-05.png"
+    },
+    {
+      "shot": "OPEN",
+      "cue": 6,
+      "time_s": 10.4,
+      "text": "landing before first source paragraph",
+      "frame": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\video\\review\\v3-portal-entry\\OPEN-06.png"
+    },
+    {
+      "shot": "P01",
+      "cue": 1,
+      "time_s": 12.75,
+      "text": "Nếu đây là lần đầu tiên\ncác cậu ăn cơm với tớ,",
+      "frame": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\video\\review\\v3-portal-entry\\P01-01.png"
+    },
+    {
+      "shot": "P01",
+      "cue": 2,
+      "time_s": 16.75,
+      "text": "chắc hẳn các cậu\nsẽ hơi ngạc nhiên",
+      "frame": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\video\\review\\v3-portal-entry\\P01-02.png"
+    },
+    {
+      "shot": "P01",
+      "cue": 3,
+      "time_s": 20.0,
+      "text": "khi thấy tớ luôn chọn cơm nguội,",
+      "frame": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\video\\review\\v3-portal-entry\\P01-03.png"
+    },
+    {
+      "shot": "P01",
+      "cue": 4,
+      "time_s": 23.75,
+      "text": "dù trên bàn vẫn có một\nnồi cơm mới nấu nóng hổi.",
+      "frame": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\video\\review\\v3-portal-entry\\P01-04.png"
+    },
+    {
+      "shot": "P02",
+      "cue": 1,
+      "time_s": 27.5,
+      "text": "Nó không phải sở thích.",
+      "frame": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\video\\review\\v3-portal-entry\\P02-01.png"
+    },
+    {
+      "shot": "P02",
+      "cue": 2,
+      "time_s": 31.0,
+      "text": "Chẳng ai có cái sở\nthích kỳ quái vậy cả.",
+      "frame": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\video\\review\\v3-portal-entry\\P02-02.png"
+    },
+    {
+      "shot": "P02",
+      "cue": 3,
+      "time_s": 34.75,
+      "text": "Ăn cơm nóng rõ\nràng ngon hơn chứ.",
+      "frame": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\video\\review\\v3-portal-entry\\P02-03.png"
+    },
+    {
+      "shot": "P02",
+      "cue": 4,
+      "time_s": 38.25,
+      "text": "Với tớ, nó chỉ là một thói quen,",
+      "frame": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\video\\review\\v3-portal-entry\\P02-04.png"
+    },
+    {
+      "shot": "P02",
+      "cue": 5,
+      "time_s": 41.75,
+      "text": "mà thói quen thì\nthường rất khó bỏ.",
+      "frame": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\video\\review\\v3-portal-entry\\P02-05.png"
+    },
+    {
+      "shot": "P03",
+      "cue": 1,
+      "time_s": 45.5,
+      "text": "Cơm nguội gắn liền\nvới thời thơ ấu của tớ.",
+      "frame": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\video\\review\\v3-portal-entry\\P03-01.png"
+    },
+    {
+      "shot": "P04",
+      "cue": 1,
+      "time_s": 49.25,
+      "text": "Ngày bé, cái thời mà lò vi sóng",
+      "frame": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\video\\review\\v3-portal-entry\\P04-01.png"
+    },
+    {
+      "shot": "P04",
+      "cue": 2,
+      "time_s": 53.75,
+      "text": "hay bất cứ thứ gì dùng để hâm\nnóng thức ăn vẫn còn xa lạ,",
+      "frame": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\video\\review\\v3-portal-entry\\P04-02.png"
+    },
+    {
+      "shot": "P04",
+      "cue": 3,
+      "time_s": 58.75,
+      "text": "tô cơm nguội luôn xuất hiện\ntrong những bữa ăn nhà tớ.",
+      "frame": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\video\\review\\v3-portal-entry\\P04-03.png"
+    },
+    {
+      "shot": "P04",
+      "cue": 4,
+      "time_s": 63.25,
+      "text": "Tớ để ý bố luôn là\nngười ăn hết tô cơm ấy,",
+      "frame": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\video\\review\\v3-portal-entry\\P04-04.png"
+    },
+    {
+      "shot": "P04",
+      "cue": 5,
+      "time_s": 67.5,
+      "text": "còn phần cơm nóng\nthì để mẹ và tớ ăn.",
+      "frame": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\video\\review\\v3-portal-entry\\P04-05.png"
+    },
+    {
+      "shot": "P05",
+      "cue": 1,
+      "time_s": 72.0,
+      "text": "Tớ không muốn bố\nphải ăn cơm nguội.",
+      "frame": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\video\\review\\v3-portal-entry\\P05-01.png"
+    },
+    {
+      "shot": "P06",
+      "cue": 1,
+      "time_s": 76.75,
+      "text": "Thế nên cứ mỗi bữa, tớ lại\ngiành lấy phần cơm ấy,",
+      "frame": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\video\\review\\v3-portal-entry\\P06-01.png"
+    },
+    {
+      "shot": "P06",
+      "cue": 2,
+      "time_s": 80.75,
+      "text": "bảo rằng tớ thích\năn cơm nguội hơn.",
+      "frame": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\video\\review\\v3-portal-entry\\P06-02.png"
+    },
+    {
+      "shot": "P06",
+      "cue": 3,
+      "time_s": 84.25,
+      "text": "Ban đầu chỉ đơn giản\nlà không muốn bố",
+      "frame": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\video\\review\\v3-portal-entry\\P06-03.png"
+    },
+    {
+      "shot": "P06",
+      "cue": 4,
+      "time_s": 87.75,
+      "text": "phải ăn phần cơm\ncòn lại từ bữa trước.",
+      "frame": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\video\\review\\v3-portal-entry\\P06-04.png"
+    },
+    {
+      "shot": "P06",
+      "cue": 5,
+      "time_s": 91.25,
+      "text": "Nhưng cứ thế, bữa\nnày qua bữa khác,",
+      "frame": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\video\\review\\v3-portal-entry\\P06-05.png"
+    },
+    {
+      "shot": "P06",
+      "cue": 6,
+      "time_s": 94.5,
+      "text": "nó dần trở thành thói quen.",
+      "frame": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\video\\review\\v3-portal-entry\\P06-06.png"
+    },
+    {
+      "shot": "P07",
+      "cue": 1,
+      "time_s": 98.5,
+      "text": "Cho đến tận bây giờ.",
+      "frame": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\video\\review\\v3-portal-entry\\P07-01.png"
+    },
+    {
+      "shot": "P08",
+      "cue": 1,
+      "time_s": 103.0,
+      "text": "Thỉnh thoảng trong những\nbữa cơm, bố mẹ vẫn bảo:",
+      "frame": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\video\\review\\v3-portal-entry\\P08-01.png"
+    },
+    {
+      "shot": "P09",
+      "cue": 1,
+      "time_s": 106.5,
+      "text": "“Sao không ăn cơm nóng kia con,",
+      "frame": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\video\\review\\v3-portal-entry\\P09-01.png"
+    },
+    {
+      "shot": "P09",
+      "cue": 2,
+      "time_s": 109.5,
+      "text": "ăn cơm nguội đau dạ dày.”",
+      "frame": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\video\\review\\v3-portal-entry\\P09-02.png"
+    },
+    {
+      "shot": "P10",
+      "cue": 1,
+      "time_s": 113.5,
+      "text": "“Con thích ăn cơm nguội.”",
+      "frame": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\video\\review\\v3-portal-entry\\P10-01.png"
+    },
+    {
+      "shot": "CLOSE",
+      "cue": 1,
+      "time_s": 118.0,
+      "text": "Cơm nguội",
+      "frame": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\video\\review\\v3-portal-entry\\CLOSE-01.png"
+    }
+  ],
+  "opening": {
+    "kind": "portal_entry",
+    "duration_s": 10.5,
+    "title": "Cơm nguội",
+    "title_audio": "none; silent review",
+    "story_start_s": 10.5
+  },
+  "public_release_approved": false,
+  "paid_release_approved": false,
+  "visual_review_evidence": {
+    "reviewer": "Codex",
+    "method": "Inspected all 34 captures across four contact sheets, plus full-resolution landing OPEN-06 and first paragraph P01-01. The separate 12-second motion check was also sampled across the opening phases.",
+    "observations": "Title hold leads into focused portal-center camera move, then sharp family-table reveal and matching first story artwork. Vietnamese text remains readable and the complete source ending is retained.",
+    "real_time_playback_review_claimed": false
+  },
+  "delivery_path": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\video\\exports\\com-nguoi-v3-portal-entry-silent-review-1080x1920.mp4",
+  "delivery_mode": "copy_for_render_cache",
+  "author_quality_approved": false,
+  "control_validation": {
+    "unit_tests_passed": 23,
+    "video_typecheck": "pass"
+  }
+}

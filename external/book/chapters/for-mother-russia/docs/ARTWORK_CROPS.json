@@ -1,0 +1,18 @@
+{
+  "source": "artwork/source/00_CHAPTER_POSTER_A4.jpg",
+  "source_dimensions": [
+    1900,
+    2500
+  ],
+  "crop_pixels": [
+    75,
+    650,
+    1825,
+    2250
+  ],
+  "reason": "Remove embedded working chapter labels and poster typography from the public hero. Supplied proof files remain unchanged.",
+  "outputs": [
+    "web/assets/reader-hero.jpg",
+    "artwork/exports/hero.jpg"
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "chapter": "com-nguoi",
+  "products": [
+    {
+      "product": "Selected prose",
+      "state": "ready",
+      "path": "source/approved.md"
+    },
+    {
+      "product": "Source illustration and scene crops",
+      "state": "ready as supplied-art derivatives",
+      "path": "artwork/scenes/index.json"
+    },
+    {
+      "product": "Cold Rice board portal for chapter map and reader",
+      "state": "screen adaptation ready for review",
+      "path": "web/assets/rice-portal-board-v2.png"
+    },
+    {
+      "product": "Illustrated A5 chapter",
+      "state": "editorial proof",
+      "path": "book/chapter-A5-proof.pdf"
+    },
+    {
+      "product": "Interactive website",
+      "state": "ready for deployment",
+      "path": "web/index.html"
+    },
+    {
+      "product": "Instagram carousel (five 3:4 cards)",
+      "state": "ready",
+      "path": "social/instagram/slide-01.jpg"
+    },
+    {
+      "product": "Facebook image and copy",
+      "state": "ready",
+      "path": "social/facebook/post.jpg"
+    },
+    {
+      "product": "YouTube thumbnail and description",
+      "state": "ready",
+      "path": "social/youtube/thumbnail.jpg"
+    },
+    {
+      "product": "TikTok cover and caption",
+      "state": "ready",
+      "path": "social/tiktok/cover.jpg"
+    },
+    {
+      "product": "9:16 discovery cut",
+      "state": "edit preview; author narration pending",
+      "path": "video/discovery-9x16.mp4"
+    },
+    {
+      "product": "9:16 YouTube cut",
+      "state": "edit preview; author narration pending",
+      "path": "video/youtube-9x16.mp4"
+    },
+    {
+      "product": "3:4 feed cut",
+      "state": "edit preview; author narration pending",
+      "path": "video/feed-3x4.mp4"
+    },
+    {
+      "product": "SRT/VTT text timings",
+      "state": "provisional; retime to recorded narration",
+      "path": "video/timeline.json"
+    },
+    {
+      "product": "Author reading script",
+      "state": "ready for recording",
+      "path": "audio/reading-script.md"
+    }
+  ],
+  "remaining": [
+    "Jason recorded narration and final timing/mix",
+    "Printer specifications and high-resolution art for certified print production",
+    "Physical-device and human screen-reader review",
+    "Author-managed social uploads; QR remains deferred"
+  ]
+}

@@ -1,0 +1,925 @@
+{
+  "chapter": "dating-algorithm",
+  "files": [
+    {
+      "path": "artwork/exports/hero-mobile.jpg",
+      "bytes": 210507,
+      "sha256": "f3600c1ba29445036f4db5e4130fdeb8ee3bdff0c0758e157b6493986dc0d619"
+    },
+    {
+      "path": "artwork/exports/hero.jpg",
+      "bytes": 168139,
+      "sha256": "6f58b4306d2c370d7a5738b6a113f34d44d6f991c3abf28cda876f286a8bcb0f"
+    },
+    {
+      "path": "artwork/exports/poster-9x16.jpg",
+      "bytes": 278624,
+      "sha256": "7988012cbc4816cfbd2236e71dd757d42c8e0e88af6d0f9c13654408675e449c"
+    },
+    {
+      "path": "artwork/exports/stage-detail.jpg",
+      "bytes": 244796,
+      "sha256": "a35115b38d5d1570fa49b88a95d99d3ee8518c26941473ae27abe4dfa0fcfe29"
+    },
+    {
+      "path": "artwork/portal/dating-algorithm-cover-scene-v2.png",
+      "bytes": 1180360,
+      "sha256": "caa0efa2bf021f42094248351c48fc0cf834751cef08b970d642cfd2f74b9fb1"
+    },
+    {
+      "path": "artwork/portal/dating-algorithm-portal-v2.png",
+      "bytes": 1368390,
+      "sha256": "60fcfdddd00204de11f15fac8cadac4b0e14c2f4e4a1813bc52a5c58474b7f35"
+    },
+    {
+      "path": "artwork/portal/dating-algorithm-ring-v2.png",
+      "bytes": 1534696,
+      "sha256": "5b0427cc915bc523e2436eb9a44d470a4d8181bb2c0d550695e4b5df05e5f582"
+    },
+    {
+      "path": "artwork/portal/dating-algorithm-scene-v2.png",
+      "bytes": 1229469,
+      "sha256": "482d681cacb177f47c113ee982a6c448e81f0c526da1ff86d306bebfe2c92ba4"
+    },
+    {
+      "path": "artwork/portal/dating-algorithm-spread-v2.webp",
+      "bytes": 61316,
+      "sha256": "1b28a2c29dc4306717c8d84968edd24bc6dc8f92111fc8ead31204cc53abc99e"
+    },
+    {
+      "path": "artwork/scenes/index.json",
+      "bytes": 993,
+      "sha256": "d7f7cbdd2ee30e9232cf100f55db2fe9891df8d76d94a2e377bdaf10573fb66e"
+    },
+    {
+      "path": "artwork/source/00_CHAPTER_04_COVER.jpg",
+      "bytes": 1209006,
+      "sha256": "fce339a66287f02035c5e1e7a827ff956d88f3f6c9a6dfbecff42bd38bb6d16c"
+    },
+    {
+      "path": "artwork/source/01_stage_hero_PREVIS.jpg",
+      "bytes": 698803,
+      "sha256": "a19f6f1a71aaf2eb68e5bdfb3c3ce0ad5b468deff1b95f36bfba2919d17a55dc"
+    },
+    {
+      "path": "artwork/source/02_presenter_profile_PREVIS.jpg",
+      "bytes": 88157,
+      "sha256": "1f50a33a2b9e2a6b3f11afc75476c292c7174601d76fcbc197b9a2d276c08d05"
+    },
+    {
+      "path": "artwork/source/03_the_model_PREVIS.jpg",
+      "bytes": 109601,
+      "sha256": "3a4c6d9e6d23539240d1241bc48452e9ba8cfbcf7692b9f68c3128667c274cb5"
+    },
+    {
+      "path": "artwork/source/04_audience_PREVIS.jpg",
+      "bytes": 130212,
+      "sha256": "89c348761bdefb538ac4fab01a2e5ee91a310daeebf864b28798349656c174fb"
+    },
+    {
+      "path": "artwork/source/05_lecture_PREVIS.jpg",
+      "bytes": 103505,
+      "sha256": "580fa08c08aef154e2772c76285878d962930e500feb7eedad11a3f8f365a033"
+    },
+    {
+      "path": "artwork/source/06_tinder_PREVIS.jpg",
+      "bytes": 67548,
+      "sha256": "5b21d3ae3d96806d56844fb921679a736ec78d2eae0e7506ff646c69c6d36779"
+    },
+    {
+      "path": "artwork/source/07_notebook_PREVIS.jpg",
+      "bytes": 65585,
+      "sha256": "aa53cd4790b121c479d592ff17c5a190d123d0c75446505b8f4330d969d4fd42"
+    },
+    {
+      "path": "artwork/source/08_city_PREVIS.jpg",
+      "bytes": 83173,
+      "sha256": "21302b58d675aa546be53adecaa6b0e1e3275ed70170d3a43a9ed4f263292a00"
+    },
+    {
+      "path": "artwork/source/09_funnel_original_diagram.png",
+      "bytes": 59707,
+      "sha256": "1a8220ddf85d5e6d2d117d44cc0b4d759e9667e1548b4bb5fe5117c37a3a5b18"
+    },
+    {
+      "path": "artwork/source/10_matching_hypothetical.png",
+      "bytes": 49657,
+      "sha256": "f12afe0fe629a16b253cea9dc56118f5fc586c48ed73ef83c995acdecfba080d"
+    },
+    {
+      "path": "artwork/source/11_invitation_decision_tree.png",
+      "bytes": 53034,
+      "sha256": "a846c527e35df9320f2db738affe1fa27a94834c9fe0969b7e66f6bc7f456a00"
+    },
+    {
+      "path": "audio/ambience.wav",
+      "bytes": 1058444,
+      "sha256": "18b69caad202e9e657e08186e0acfd7da65f44f23246ee53fe25b54b21dcac62"
+    },
+    {
+      "path": "audio/discovery-9x16-script.md",
+      "bytes": 505,
+      "sha256": "6b5f80b2b3291f6229c2f928d1563ccaef3dab698e91f324f0585ae404b3de3e"
+    },
+    {
+      "path": "audio/essay-16x9-script.md",
+      "bytes": 501,
+      "sha256": "9867ae2f299c40207fbc5e6e247e85468297867d40d6579d8d8bc6d540540d80"
+    },
+    {
+      "path": "audio/NARRATION.md",
+      "bytes": 360,
+      "sha256": "d889704a7127dd48e9111c25ac83286fe8d0e67e928516d2941f971ff2e11379"
+    },
+    {
+      "path": "audio/reading-script.md",
+      "bytes": 14268,
+      "sha256": "ffa4e16711ff364538e8e60def9144a4dcdbe13b612c1ce10360fa70efae5c49"
+    },
+    {
+      "path": "audio/RECORDING_HANDOFF.md",
+      "bytes": 649,
+      "sha256": "2efe1170160c3725704460453337f5b23fc34c6396435ce0cafc6034b67b2c0d"
+    },
+    {
+      "path": "audio/SUPPLIED_NARRATION_DRAFT.md",
+      "bytes": 986,
+      "sha256": "1d0e29d673de998ae6a0753ada80cd43f29a9741183238fd373d5bc0698a81ff"
+    },
+    {
+      "path": "book/04_Dating_Algorithm_A4_POSTER_PROOF.pdf",
+      "bytes": 1512967,
+      "sha256": "52abeea1854f06bd46e3e4247741c5c69a595a1782c59121e3a201eb8c40d1f9"
+    },
+    {
+      "path": "book/04_Dating_Algorithm_A5_EDITORIAL_PROOF.pdf",
+      "bytes": 1901315,
+      "sha256": "3e5b0384feae361b34d0cf87d818feb9d2c1b22dc4f586dd58f7f11836c6aa89"
+    },
+    {
+      "path": "chapter.json",
+      "bytes": 1539,
+      "sha256": "a156f2f03deff2134b51c1a7b2460b69f63ac8b3bb1c910c74582074920214d9"
+    },
+    {
+      "path": "docs/BROWSER_QA.json",
+      "bytes": 747,
+      "sha256": "93106b649e07e0dd24ca69a66a0ae9a8ff1cc46da1d233f7a358f9964339b2fc"
+    },
+    {
+      "path": "docs/CHECKLIST_REVIEW.csv",
+      "bytes": 10651,
+      "sha256": "285d08fb6c89fa7ae6d8c78271a0e53716c2bb1ae65b34332798fc261d9d54de"
+    },
+    {
+      "path": "docs/CHECKLIST_REVIEW.json",
+      "bytes": 29985,
+      "sha256": "95397b888d8d34d9e7c250341df02766be74974870869bf083acee36f1101d64"
+    },
+    {
+      "path": "docs/CHECKLIST_REVIEW.md",
+      "bytes": 10721,
+      "sha256": "5bb8c7bb10f40ff59589465ae15b77f2101f42e6f0e2d1320a6f49e6b8fc43f5"
+    },
+    {
+      "path": "docs/INVENTORY.json",
+      "bytes": 17353,
+      "sha256": "ff7ffeae796aedb591b3ecf90d4a55ee798207e8b159613ab018422ae8dfe1ae"
+    },
+    {
+      "path": "docs/MEDIA_QA.json",
+      "bytes": 6839,
+      "sha256": "d37000bab96e1f643f094df4f3873fd9d63badc735f9e7b7c326c5a4724d7e2a"
+    },
+    {
+      "path": "docs/PRODUCT_SET.md",
+      "bytes": 3661,
+      "sha256": "2732eacb099de27241ba84d0cc288fd46a2d5160dbfa958e09e4b9354801336f"
+    },
+    {
+      "path": "docs/PRODUCTS.json",
+      "bytes": 5171,
+      "sha256": "a43859c26e68c74ae024823cbb3cacaaedd805e2d676f7a1efa53ccec9ef22d9"
+    },
+    {
+      "path": "docs/REFERENCE_IMPORT.json",
+      "bytes": 12644,
+      "sha256": "d606fdbb3715e7149ae2770dee06c69153b2d73e3c5dcd290b345129f36afcaf"
+    },
+    {
+      "path": "docs/RESEARCH_REVIEW.md",
+      "bytes": 3314,
+      "sha256": "3e1282d275e649d407583e71c99449602a05d7c65af000c92c5aacc3917321ca"
+    },
+    {
+      "path": "previews/ASSET_OVERVIEW.jpg",
+      "bytes": 334756,
+      "sha256": "98d6306269469ed06979b4006d8cbfa19edd863dd8cb2e7036448c39f364e470"
+    },
+    {
+      "path": "previews/board_desktop.png",
+      "bytes": 771854,
+      "sha256": "e5c0acc8da9e676b89872bdc521feae10ff3778999aa51018a5d62fdb49a6eff"
+    },
+    {
+      "path": "previews/book.jpg",
+      "bytes": 285712,
+      "sha256": "c16a5e6f1f1993a9b83bb1178e3bb037da10140b69856451c52881f90f180227"
+    },
+    {
+      "path": "previews/interactive-1440.png",
+      "bytes": 29205,
+      "sha256": "24ad0e9031620f793dc78fc51408093b2cf36810ac7a22b0f98ff6596eeb4286"
+    },
+    {
+      "path": "previews/interactive-390.png",
+      "bytes": 22979,
+      "sha256": "9a6897c92cae51ba5b1435b9977370c3aca39c344f1157b42c9cae89562f7952"
+    },
+    {
+      "path": "previews/PDF_CONTACT_SHEET.jpg",
+      "bytes": 464213,
+      "sha256": "a9507bea6b6b1d3c137745f67c623980558d0016fe0d38688c4da404009cd06c"
+    },
+    {
+      "path": "previews/poster.jpg",
+      "bytes": 121553,
+      "sha256": "1464fb3d2969e879b1731ae821b65fca5fa6285ae4912e5c03196526db2977c1"
+    },
+    {
+      "path": "previews/product-board.jpg",
+      "bytes": 910451,
+      "sha256": "99bd32b2208356bbb38f1b6147a83072d8cc01eede1205d3f0afb82406f06213"
+    },
+    {
+      "path": "previews/social.jpg",
+      "bytes": 113437,
+      "sha256": "f2fd4a87f9812a240d591b9f492218a8a29cc55245d916aaa6ce31ac6cdf5620"
+    },
+    {
+      "path": "previews/video-frames.jpg",
+      "bytes": 201034,
+      "sha256": "df214700b5ca474c072ccc3a2b19830b326cd44112298df091d96ca40620441e"
+    },
+    {
+      "path": "previews/web-1440.png",
+      "bytes": 1094819,
+      "sha256": "7dcf17050b6c47ec9d68212ea2e1a041b0f6841a2faf3ddabc192dd285ecafe6"
+    },
+    {
+      "path": "previews/web-390.png",
+      "bytes": 302047,
+      "sha256": "bee66cb7137607e1b91dc15ee9a901109ee02fe5990aecd28d315eba6d682246"
+    },
+    {
+      "path": "previews/website_desktop.png",
+      "bytes": 58104,
+      "sha256": "5be514eb41184e5710d7243c0226569e6ed4ba5c55f4785a6b41a9f7f5e07a66"
+    },
+    {
+      "path": "previews/website_mobile.png",
+      "bytes": 55716,
+      "sha256": "29497862cb38113fe209ccb479c73ece53355bbb2831a11b6f7352b280dc1db7"
+    },
+    {
+      "path": "production.json",
+      "bytes": 3260,
+      "sha256": "acae35005aa687863d30741410f5b20e9cccb92522fcff02a71c1c39107d69cc"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1678,
+      "sha256": "eb1c36342384cb51fe5c145e2fe342808a1d2d5b236044541ba942c6e898d036"
+    },
+    {
+      "path": "references/dating-v01/art/00_CHAPTER_04_COVER.jpg",
+      "bytes": 1209006,
+      "sha256": "fce339a66287f02035c5e1e7a827ff956d88f3f6c9a6dfbecff42bd38bb6d16c"
+    },
+    {
+      "path": "references/dating-v01/art/01_stage_hero_PREVIS.jpg",
+      "bytes": 698803,
+      "sha256": "a19f6f1a71aaf2eb68e5bdfb3c3ce0ad5b468deff1b95f36bfba2919d17a55dc"
+    },
+    {
+      "path": "references/dating-v01/art/02_presenter_profile_PREVIS.jpg",
+      "bytes": 88157,
+      "sha256": "1f50a33a2b9e2a6b3f11afc75476c292c7174601d76fcbc197b9a2d276c08d05"
+    },
+    {
+      "path": "references/dating-v01/art/03_the_model_PREVIS.jpg",
+      "bytes": 109601,
+      "sha256": "3a4c6d9e6d23539240d1241bc48452e9ba8cfbcf7692b9f68c3128667c274cb5"
+    },
+    {
+      "path": "references/dating-v01/art/04_audience_PREVIS.jpg",
+      "bytes": 130212,
+      "sha256": "89c348761bdefb538ac4fab01a2e5ee91a310daeebf864b28798349656c174fb"
+    },
+    {
+      "path": "references/dating-v01/art/05_lecture_PREVIS.jpg",
+      "bytes": 103505,
+      "sha256": "580fa08c08aef154e2772c76285878d962930e500feb7eedad11a3f8f365a033"
+    },
+    {
+      "path": "references/dating-v01/art/06_tinder_PREVIS.jpg",
+      "bytes": 67548,
+      "sha256": "5b21d3ae3d96806d56844fb921679a736ec78d2eae0e7506ff646c69c6d36779"
+    },
+    {
+      "path": "references/dating-v01/art/07_notebook_PREVIS.jpg",
+      "bytes": 65585,
+      "sha256": "aa53cd4790b121c479d592ff17c5a190d123d0c75446505b8f4330d969d4fd42"
+    },
+    {
+      "path": "references/dating-v01/art/08_city_PREVIS.jpg",
+      "bytes": 83173,
+      "sha256": "21302b58d675aa546be53adecaa6b0e1e3275ed70170d3a43a9ed4f263292a00"
+    },
+    {
+      "path": "references/dating-v01/art/09_funnel_original_diagram.png",
+      "bytes": 59707,
+      "sha256": "1a8220ddf85d5e6d2d117d44cc0b4d759e9667e1548b4bb5fe5117c37a3a5b18"
+    },
+    {
+      "path": "references/dating-v01/art/10_matching_hypothetical.png",
+      "bytes": 49657,
+      "sha256": "f12afe0fe629a16b253cea9dc56118f5fc586c48ed73ef83c995acdecfba080d"
+    },
+    {
+      "path": "references/dating-v01/art/11_invitation_decision_tree.png",
+      "bytes": 53034,
+      "sha256": "a846c527e35df9320f2db738affe1fa27a94834c9fe0969b7e66f6bc7f456a00"
+    },
+    {
+      "path": "references/dating-v01/book/04_Dating_Algorithm_A4_POSTER_PROOF.pdf",
+      "bytes": 1512967,
+      "sha256": "52abeea1854f06bd46e3e4247741c5c69a595a1782c59121e3a201eb8c40d1f9"
+    },
+    {
+      "path": "references/dating-v01/book/04_Dating_Algorithm_A5_EDITORIAL_PROOF.pdf",
+      "bytes": 1901315,
+      "sha256": "3e5b0384feae361b34d0cf87d818feb9d2c1b22dc4f586dd58f7f11836c6aa89"
+    },
+    {
+      "path": "references/dating-v01/data/tinder_ten_profiles_BLANK.csv",
+      "bytes": 399,
+      "sha256": "4048b0db26e2d968d26d25a51e15c0f99a7bda9a425c241881237335e3ca20c3"
+    },
+    {
+      "path": "references/dating-v01/docs/CHECKLIST.csv",
+      "bytes": 9365,
+      "sha256": "d482a71455569e3866e1884f865570c8a4e8a9e4e32da52534ca6a041446606b"
+    },
+    {
+      "path": "references/dating-v01/docs/metadata.json",
+      "bytes": 940,
+      "sha256": "fdea507b9e7a6988442fe754a1518142848338a7a19d187547fee5e0a39a4279"
+    },
+    {
+      "path": "references/dating-v01/docs/NARRATION_SCRIPT.md",
+      "bytes": 986,
+      "sha256": "1d0e29d673de998ae6a0753ada80cd43f29a9741183238fd373d5bc0698a81ff"
+    },
+    {
+      "path": "references/dating-v01/docs/palette.json",
+      "bytes": 122,
+      "sha256": "dd01a06ebd062e3bfd7268de2f77a97ae8dc07521a0cd953224913a86217fd91"
+    },
+    {
+      "path": "references/dating-v01/docs/PROJECT_BOARD.html",
+      "bytes": 21733,
+      "sha256": "ca78b008cfa37ed516d101000f6ad514b9767014175e635f18922078638c2db0"
+    },
+    {
+      "path": "references/dating-v01/docs/PROJECT_BOARD.md",
+      "bytes": 6051,
+      "sha256": "b9cf99bfa2efc6573d563868a3531ea0067703d5f6f16d64f1f2e9d2e2005bf3"
+    },
+    {
+      "path": "references/dating-v01/docs/QA_REPORT.json",
+      "bytes": 1136,
+      "sha256": "baaa7b89775dce0c71d7c5982d7eb9d72dc01955a247e66582ba2111e341c12f"
+    },
+    {
+      "path": "references/dating-v01/docs/README_ASSETS.md",
+      "bytes": 805,
+      "sha256": "56ad0c040f8e1401f831fccc8580fc6c49bf5b701124d7ca5689d0f9465ebb06"
+    },
+    {
+      "path": "references/dating-v01/docs/RELEASE_CHECKLIST.md",
+      "bytes": 1214,
+      "sha256": "adb196e1b2514e6460ee4d0288e1be28ab2097f0f79daab295bdd7d8624335a2"
+    },
+    {
+      "path": "references/dating-v01/docs/SOCIAL_COPY.md",
+      "bytes": 959,
+      "sha256": "c3d4ef5f439830d962ae5d9bad6fb894560d1c4a0db67fe33a80badffef162f1"
+    },
+    {
+      "path": "references/dating-v01/docs/STORYBOARD.md",
+      "bytes": 747,
+      "sha256": "4e79451b5dd8b24a71c019330f62c2456166e2f5f2a79f84ee53cf0d03fd5517"
+    },
+    {
+      "path": "references/dating-v01/docs/TASKS.json",
+      "bytes": 18110,
+      "sha256": "2d4ef99a2a370186f59c20e08654a7c50e84ae91dcb4d84ad483e19d98bbe8b7"
+    },
+    {
+      "path": "references/dating-v01/manuscript/CANONICAL_CANDIDATE.md",
+      "bytes": 14268,
+      "sha256": "ffa4e16711ff364538e8e60def9144a4dcdbe13b612c1ce10360fa70efae5c49"
+    },
+    {
+      "path": "references/dating-v01/manuscript/EDIT_NOTES.md",
+      "bytes": 1933,
+      "sha256": "9621ab157c5d55291d72226aae0a3e12105ff05c0eeef95ae9250ef9f072d72e"
+    },
+    {
+      "path": "references/dating-v01/manuscript/SOURCE_FACTS.md",
+      "bytes": 1063,
+      "sha256": "61458de22896594dc9774f9195d334509dff2b5a477fac0bd53bb863ff386aa6"
+    },
+    {
+      "path": "references/dating-v01/manuscript/VERSION_B_VERBATIM.md",
+      "bytes": 14268,
+      "sha256": "ffa4e16711ff364538e8e60def9144a4dcdbe13b612c1ce10360fa70efae5c49"
+    },
+    {
+      "path": "references/dating-v01/previews/ASSET_OVERVIEW.jpg",
+      "bytes": 334756,
+      "sha256": "98d6306269469ed06979b4006d8cbfa19edd863dd8cb2e7036448c39f364e470"
+    },
+    {
+      "path": "references/dating-v01/previews/board_desktop.png",
+      "bytes": 771854,
+      "sha256": "e5c0acc8da9e676b89872bdc521feae10ff3778999aa51018a5d62fdb49a6eff"
+    },
+    {
+      "path": "references/dating-v01/previews/PDF_CONTACT_SHEET.jpg",
+      "bytes": 464213,
+      "sha256": "a9507bea6b6b1d3c137745f67c623980558d0016fe0d38688c4da404009cd06c"
+    },
+    {
+      "path": "references/dating-v01/previews/website_desktop.png",
+      "bytes": 58104,
+      "sha256": "5be514eb41184e5710d7243c0226569e6ed4ba5c55f4785a6b41a9f7f5e07a66"
+    },
+    {
+      "path": "references/dating-v01/previews/website_mobile.png",
+      "bytes": 55716,
+      "sha256": "29497862cb38113fe209ccb479c73ece53355bbb2831a11b6f7352b280dc1db7"
+    },
+    {
+      "path": "references/dating-v01/README.md",
+      "bytes": 4171,
+      "sha256": "b0700e58a03b7fe67849d277578f04c4514d4f934574d902e66e86834f417e89"
+    },
+    {
+      "path": "references/dating-v01/scripts/assemble.py",
+      "bytes": 33384,
+      "sha256": "1aa347b7434ef039da6368bc636b94d2ffeeebab2201a100f2913bff73ce5043"
+    },
+    {
+      "path": "references/dating-v01/scripts/build_kit.py",
+      "bytes": 15067,
+      "sha256": "0503540bb7703f82d5e9e82ee6e65900f24fe4dccbb7627f6a434ed21ec25fd6"
+    },
+    {
+      "path": "references/dating-v01/scripts/video_and_finalize.py",
+      "bytes": 4725,
+      "sha256": "83a5230458ecfe3391f9ca5ec0b6bef780cdd1c32e26624c81243ffae9408926"
+    },
+    {
+      "path": "references/dating-v01/social/facebook/facebook_1600x900.jpg",
+      "bytes": 259155,
+      "sha256": "e3e7ba4512c89ad6f1f0d10f66c2cd26680bf198516e48b2b598bc6926ca4cb6"
+    },
+    {
+      "path": "references/dating-v01/social/instagram/01_dating_algorithm_3x4.jpg",
+      "bytes": 292846,
+      "sha256": "e6084d1191311bdfa20c59a85c2713df3801079bbd363615750d4707c267cd1f"
+    },
+    {
+      "path": "references/dating-v01/social/instagram/02_dating_algorithm_3x4.jpg",
+      "bytes": 196411,
+      "sha256": "0121db7244eaa81d8325296b2bb04be4d315996eaba657b2b0b799922628ffea"
+    },
+    {
+      "path": "references/dating-v01/social/instagram/03_dating_algorithm_3x4.jpg",
+      "bytes": 162604,
+      "sha256": "fc41b945221ce251143d5bab5bab7cdfbd8d084c331ec0d34f11391a50a05912"
+    },
+    {
+      "path": "references/dating-v01/social/instagram/04_dating_algorithm_3x4.jpg",
+      "bytes": 170666,
+      "sha256": "ef6a828e760921065deaa67faf0a152eae8a7049b1c2b4dc3b46782e722a7cfb"
+    },
+    {
+      "path": "references/dating-v01/social/instagram/05_dating_algorithm_3x4.jpg",
+      "bytes": 151518,
+      "sha256": "98ab45a3489372404acd3f025c7aad24496b39f4e296e896434ab39b00aa190d"
+    },
+    {
+      "path": "references/dating-v01/social/youtube/youtube_thumb_1280x720.jpg",
+      "bytes": 184861,
+      "sha256": "a4fff1c90dcea09d3f50d5238761a1066b83890f18cdf41666efc74a5da8863c"
+    },
+    {
+      "path": "references/dating-v01/video/04_Dating_Algorithm_ANIMATIC_9x16.mp4",
+      "bytes": 1285749,
+      "sha256": "c5917af4975847e175b51865785f66c8cb3477ebd650ac47091161a94628172e"
+    },
+    {
+      "path": "references/dating-v01/video/04_Dating_Algorithm_YOUTUBE_16x9_AMBIENT_PROOF.mp4",
+      "bytes": 1293429,
+      "sha256": "9570597c2cc43a1c186ef3e46bf9737ab052af2015add095daadb7a4897439a0"
+    },
+    {
+      "path": "references/dating-v01/video/landscape_stills/01.jpg",
+      "bytes": 107774,
+      "sha256": "73297786f136d85924dec29045df6f42403351291b18c7cd131a0f3dd10024a8"
+    },
+    {
+      "path": "references/dating-v01/video/landscape_stills/02.jpg",
+      "bytes": 75798,
+      "sha256": "17c3cbfeea4694280490a4264aba9c736b6dd758dccdda63e8e5a9cdaa6f775f"
+    },
+    {
+      "path": "references/dating-v01/video/landscape_stills/03.jpg",
+      "bytes": 66871,
+      "sha256": "73621b8e975f3ec39bf228e2486b629fd10a119784cdb30f4d4f27aa315080b1"
+    },
+    {
+      "path": "references/dating-v01/video/landscape_stills/04.jpg",
+      "bytes": 70603,
+      "sha256": "9ceaef4ef59b5de08c1e9a649f82f7d199de9aedb34be668f875cf8b66962a6e"
+    },
+    {
+      "path": "references/dating-v01/video/landscape_stills/05.jpg",
+      "bytes": 68266,
+      "sha256": "e75685586eb6dedcf888c303c579d79edd4c4043f8226ca4e42a4df2bbb5e2c0"
+    },
+    {
+      "path": "references/dating-v01/video/ORIGINAL_SYNTHETIC_AMBIENCE.wav",
+      "bytes": 1058444,
+      "sha256": "18b69caad202e9e657e08186e0acfd7da65f44f23246ee53fe25b54b21dcac62"
+    },
+    {
+      "path": "references/dating-v01/video/stills/01.jpg",
+      "bytes": 160208,
+      "sha256": "3d52bbc9b49d602e1229ddabc170412cece91e9dc38a5947980c0981487c9768"
+    },
+    {
+      "path": "references/dating-v01/video/stills/02.jpg",
+      "bytes": 95202,
+      "sha256": "5c5b4e4fa9102633063fc84d432c6d758c982b1639e4733cac4917a30af93220"
+    },
+    {
+      "path": "references/dating-v01/video/stills/03.jpg",
+      "bytes": 70882,
+      "sha256": "ae835187d6822eceacbebdf5538ba57bdce175cad3582b67cf1d21dab4a45e99"
+    },
+    {
+      "path": "references/dating-v01/video/stills/04.jpg",
+      "bytes": 85489,
+      "sha256": "70a573f0990521831a9671ac259c59fa4827679d29d3bd716a7faae54e6fe0bf"
+    },
+    {
+      "path": "references/dating-v01/video/stills/05.jpg",
+      "bytes": 77944,
+      "sha256": "df297d38178556f721287f4c7708ae26c22b385359c80f0740bd9dacb87d54bc"
+    },
+    {
+      "path": "references/dating-v01/video/VISUAL_BEAT_CAPTIONS_NOT_VOICE.srt",
+      "bytes": 441,
+      "sha256": "fcb1000f026cda27a2153ad7f172ca7b15438f526d2d4feee0b5e69f6e99c7d2"
+    },
+    {
+      "path": "references/dating-v01/web/assets/01_stage_hero_PREVIS.jpg",
+      "bytes": 698803,
+      "sha256": "a19f6f1a71aaf2eb68e5bdfb3c3ce0ad5b468deff1b95f36bfba2919d17a55dc"
+    },
+    {
+      "path": "references/dating-v01/web/assets/09_funnel_original_diagram.png",
+      "bytes": 59707,
+      "sha256": "1a8220ddf85d5e6d2d117d44cc0b4d759e9667e1548b4bb5fe5117c37a3a5b18"
+    },
+    {
+      "path": "references/dating-v01/web/assets/10_matching_hypothetical.png",
+      "bytes": 49657,
+      "sha256": "f12afe0fe629a16b253cea9dc56118f5fc586c48ed73ef83c995acdecfba080d"
+    },
+    {
+      "path": "references/dating-v01/web/index.html",
+      "bytes": 26031,
+      "sha256": "d199137a7015d36936a1f909bba2a05a37cd4b3d87cdf5cb080e59909ca31e7b"
+    },
+    {
+      "path": "references/original-edition/approved.md",
+      "bytes": 14268,
+      "sha256": "ffa4e16711ff364538e8e60def9144a4dcdbe13b612c1ce10360fa70efae5c49"
+    },
+    {
+      "path": "references/original-edition/chapter-checkout.json",
+      "bytes": 2055,
+      "sha256": "7510cf66b607f5209790b700398240ee5c513573e5dc05fb7561942641d54ad2"
+    },
+    {
+      "path": "references/original-edition/chapter.json",
+      "bytes": 2004,
+      "sha256": "bc41448fdcd52574a85405449d289907ae0856b433e6990304b40ea6886ada3c"
+    },
+    {
+      "path": "references/original-edition/README.md",
+      "bytes": 1898,
+      "sha256": "682330934261a7829e6548072b69ea1178c7b6fb488335e693cbc82373d60bf7"
+    },
+    {
+      "path": "social/alt-text.json",
+      "bytes": 981,
+      "sha256": "aeee1229744f8ad55ba79ff0c3a3444857b38396bdbee30a9cc8fecc8b082b6c"
+    },
+    {
+      "path": "social/facebook/facebook_1600x900.jpg",
+      "bytes": 259155,
+      "sha256": "e3e7ba4512c89ad6f1f0d10f66c2cd26680bf198516e48b2b598bc6926ca4cb6"
+    },
+    {
+      "path": "social/instagram/01_dating_algorithm_3x4.jpg",
+      "bytes": 292846,
+      "sha256": "e6084d1191311bdfa20c59a85c2713df3801079bbd363615750d4707c267cd1f"
+    },
+    {
+      "path": "social/instagram/02_dating_algorithm_3x4.jpg",
+      "bytes": 196411,
+      "sha256": "0121db7244eaa81d8325296b2bb04be4d315996eaba657b2b0b799922628ffea"
+    },
+    {
+      "path": "social/instagram/03_dating_algorithm_3x4.jpg",
+      "bytes": 162604,
+      "sha256": "fc41b945221ce251143d5bab5bab7cdfbd8d084c331ec0d34f11391a50a05912"
+    },
+    {
+      "path": "social/instagram/04_dating_algorithm_3x4.jpg",
+      "bytes": 170666,
+      "sha256": "ef6a828e760921065deaa67faf0a152eae8a7049b1c2b4dc3b46782e722a7cfb"
+    },
+    {
+      "path": "social/instagram/05_dating_algorithm_3x4.jpg",
+      "bytes": 151518,
+      "sha256": "98ab45a3489372404acd3f025c7aad24496b39f4e296e896434ab39b00aa190d"
+    },
+    {
+      "path": "social/instagram/slide-01.jpg",
+      "bytes": 219106,
+      "sha256": "4aa05a168741e211fed92dd46244baa13d8c571eb80e13f242f0dc6b9ea33986"
+    },
+    {
+      "path": "social/instagram/slide-02.jpg",
+      "bytes": 237952,
+      "sha256": "0093b35282c8b0b00041ad03d402dafaf76aa7b8d5b459a93a3abc5b421e4165"
+    },
+    {
+      "path": "social/instagram/slide-03.jpg",
+      "bytes": 149103,
+      "sha256": "253fdff6e3992de4572896d9faaf15f241823bcd3ab040f765b0242befbbfea5"
+    },
+    {
+      "path": "social/instagram/slide-04.jpg",
+      "bytes": 186426,
+      "sha256": "f12e814ab2cc02ec1990b08555d64e0696a174270623949dd8ac9d7ca02f81d6"
+    },
+    {
+      "path": "social/instagram/slide-05.jpg",
+      "bytes": 144107,
+      "sha256": "1537b89c41855e36f038504880d0506937b628150e4160bcfad2041dc042843b"
+    },
+    {
+      "path": "social/POSTS.md",
+      "bytes": 1626,
+      "sha256": "76706ae1a1ce7d55e46c620b076693147f0d1512c8262be5dd3835e836d4e6b7"
+    },
+    {
+      "path": "social/tiktok/cover.jpg",
+      "bytes": 278624,
+      "sha256": "7988012cbc4816cfbd2236e71dd757d42c8e0e88af6d0f9c13654408675e449c"
+    },
+    {
+      "path": "social/youtube/youtube_thumb_1280x720.jpg",
+      "bytes": 184861,
+      "sha256": "a4fff1c90dcea09d3f50d5238761a1066b83890f18cdf41666efc74a5da8863c"
+    },
+    {
+      "path": "source/approved.md",
+      "bytes": 43595,
+      "sha256": "304dad35f472e6ab17729d6867f8f8db958c75ed9d50ff5170ccad7d75f0f23e"
+    },
+    {
+      "path": "source/author-final-submission-2026-10-19.txt",
+      "bytes": 44748,
+      "sha256": "e848474849fec2d62f4e13ab319504b8525127b5c508ec2c58041396fcbdfa9d"
+    },
+    {
+      "path": "source/original.md",
+      "bytes": 14268,
+      "sha256": "ffa4e16711ff364538e8e60def9144a4dcdbe13b612c1ce10360fa70efae5c49"
+    },
+    {
+      "path": "source/revisions/approved-2026-10-17.md",
+      "bytes": 14268,
+      "sha256": "ffa4e16711ff364538e8e60def9144a4dcdbe13b612c1ce10360fa70efae5c49"
+    },
+    {
+      "path": "source/revisions.log",
+      "bytes": 1033,
+      "sha256": "0e30d08ed7e58ce9f8044195e0333a051ae3c5912f7a363c1ed0c7bdedd95641"
+    },
+    {
+      "path": "source/SUPPLIED_EDIT_NOTES.md",
+      "bytes": 2116,
+      "sha256": "476360e401d36642becc98a5acd1fa1ecc91db1a7a5a99b96d88c00e9771c89b"
+    },
+    {
+      "path": "source/SUPPLIED_SOURCE_FACTS.md",
+      "bytes": 1063,
+      "sha256": "61458de22896594dc9774f9195d334509dff2b5a477fac0bd53bb863ff386aa6"
+    },
+    {
+      "path": "source/tinder-ten-profiles-BLANK.csv",
+      "bytes": 399,
+      "sha256": "4048b0db26e2d968d26d25a51e15c0f99a7bda9a425c241881237335e3ca20c3"
+    },
+    {
+      "path": "video/04_Dating_Algorithm_ANIMATIC_9x16.mp4",
+      "bytes": 1285749,
+      "sha256": "c5917af4975847e175b51865785f66c8cb3477ebd650ac47091161a94628172e"
+    },
+    {
+      "path": "video/04_Dating_Algorithm_YOUTUBE_16x9_AMBIENT_PROOF.mp4",
+      "bytes": 1293429,
+      "sha256": "9570597c2cc43a1c186ef3e46bf9737ab052af2015add095daadb7a4897439a0"
+    },
+    {
+      "path": "video/discovery-9x16.mp4",
+      "bytes": 692007,
+      "sha256": "fcf8f79da4b1abd6c6f0d606aed0b4ba1b9303be63b149bc95eabc53bacf0f14"
+    },
+    {
+      "path": "video/discovery-9x16.srt",
+      "bytes": 497,
+      "sha256": "9a881b4ce609d37bf8c6ba3fe279c933b8eedab9354b1373695eb6586b5dd1e6"
+    },
+    {
+      "path": "video/discovery-9x16.vtt",
+      "bytes": 492,
+      "sha256": "42e2064c23fe3a7f6d1f7f2a466a0ea0d57073ce2c35630883a98c48916391b1"
+    },
+    {
+      "path": "video/essay-16x9.mp4",
+      "bytes": 699377,
+      "sha256": "666f1b926a3bf1e9c552cdc700ecef22d265776502f31a76e46a2622ffe4373f"
+    },
+    {
+      "path": "video/essay-16x9.srt",
+      "bytes": 497,
+      "sha256": "9a881b4ce609d37bf8c6ba3fe279c933b8eedab9354b1373695eb6586b5dd1e6"
+    },
+    {
+      "path": "video/essay-16x9.vtt",
+      "bytes": 492,
+      "sha256": "42e2064c23fe3a7f6d1f7f2a466a0ea0d57073ce2c35630883a98c48916391b1"
+    },
+    {
+      "path": "video/landscape_stills/01.jpg",
+      "bytes": 107774,
+      "sha256": "73297786f136d85924dec29045df6f42403351291b18c7cd131a0f3dd10024a8"
+    },
+    {
+      "path": "video/landscape_stills/02.jpg",
+      "bytes": 75798,
+      "sha256": "17c3cbfeea4694280490a4264aba9c736b6dd758dccdda63e8e5a9cdaa6f775f"
+    },
+    {
+      "path": "video/landscape_stills/03.jpg",
+      "bytes": 66871,
+      "sha256": "73621b8e975f3ec39bf228e2486b629fd10a119784cdb30f4d4f27aa315080b1"
+    },
+    {
+      "path": "video/landscape_stills/04.jpg",
+      "bytes": 70603,
+      "sha256": "9ceaef4ef59b5de08c1e9a649f82f7d199de9aedb34be668f875cf8b66962a6e"
+    },
+    {
+      "path": "video/landscape_stills/05.jpg",
+      "bytes": 68266,
+      "sha256": "e75685586eb6dedcf888c303c579d79edd4c4043f8226ca4e42a4df2bbb5e2c0"
+    },
+    {
+      "path": "video/ORIGINAL_SYNTHETIC_AMBIENCE.wav",
+      "bytes": 1058444,
+      "sha256": "18b69caad202e9e657e08186e0acfd7da65f44f23246ee53fe25b54b21dcac62"
+    },
+    {
+      "path": "video/stills/01.jpg",
+      "bytes": 160208,
+      "sha256": "3d52bbc9b49d602e1229ddabc170412cece91e9dc38a5947980c0981487c9768"
+    },
+    {
+      "path": "video/stills/02.jpg",
+      "bytes": 95202,
+      "sha256": "5c5b4e4fa9102633063fc84d432c6d758c982b1639e4733cac4917a30af93220"
+    },
+    {
+      "path": "video/stills/03.jpg",
+      "bytes": 70882,
+      "sha256": "ae835187d6822eceacbebdf5538ba57bdce175cad3582b67cf1d21dab4a45e99"
+    },
+    {
+      "path": "video/stills/04.jpg",
+      "bytes": 85489,
+      "sha256": "70a573f0990521831a9671ac259c59fa4827679d29d3bd716a7faae54e6fe0bf"
+    },
+    {
+      "path": "video/stills/05.jpg",
+      "bytes": 77944,
+      "sha256": "df297d38178556f721287f4c7708ae26c22b385359c80f0740bd9dacb87d54bc"
+    },
+    {
+      "path": "video/STORYBOARD.md",
+      "bytes": 1167,
+      "sha256": "988aa322143b000d6951b7e53a3e33318c4687ff151775fa4ca3d9c33250a3ac"
+    },
+    {
+      "path": "video/SUPPLIED_STORYBOARD.md",
+      "bytes": 747,
+      "sha256": "4e79451b5dd8b24a71c019330f62c2456166e2f5f2a79f84ee53cf0d03fd5517"
+    },
+    {
+      "path": "video/timeline.json",
+      "bytes": 2901,
+      "sha256": "027dd311d86a211b8c65395906045b0339908b9c09188f456bfde9731083f0f7"
+    },
+    {
+      "path": "video/VISUAL_BEAT_CAPTIONS_NOT_VOICE.srt",
+      "bytes": 441,
+      "sha256": "fcb1000f026cda27a2153ad7f172ca7b15438f526d2d4feee0b5e69f6e99c7d2"
+    },
+    {
+      "path": "web/assets/01_stage_hero_PREVIS.jpg",
+      "bytes": 698803,
+      "sha256": "a19f6f1a71aaf2eb68e5bdfb3c3ce0ad5b468deff1b95f36bfba2919d17a55dc"
+    },
+    {
+      "path": "web/assets/09_funnel_original_diagram.png",
+      "bytes": 59707,
+      "sha256": "1a8220ddf85d5e6d2d117d44cc0b4d759e9667e1548b4bb5fe5117c37a3a5b18"
+    },
+    {
+      "path": "web/assets/10_matching_hypothetical.png",
+      "bytes": 49657,
+      "sha256": "f12afe0fe629a16b253cea9dc56118f5fc586c48ed73ef83c995acdecfba080d"
+    },
+    {
+      "path": "web/assets/chapter.css",
+      "bytes": 2291,
+      "sha256": "56cbd01c2336fb6621a520386fdd968aedd12f0f6a18bb39608ac07816b58087"
+    },
+    {
+      "path": "web/assets/chapter.js",
+      "bytes": 2623,
+      "sha256": "30b03d390e552dcbc4485a8b6329801bf36d7dd393ec0b856bdd9cc984ed6646"
+    },
+    {
+      "path": "web/assets/dating-algorithm-portal-v2.png",
+      "bytes": 1368390,
+      "sha256": "60fcfdddd00204de11f15fac8cadac4b0e14c2f4e4a1813bc52a5c58474b7f35"
+    },
+    {
+      "path": "web/assets/dating-algorithm-spread-v2.webp",
+      "bytes": 61316,
+      "sha256": "1b28a2c29dc4306717c8d84968edd24bc6dc8f92111fc8ead31204cc53abc99e"
+    },
+    {
+      "path": "web/assets/reader-hero.jpg",
+      "bytes": 210507,
+      "sha256": "f3600c1ba29445036f4db5e4130fdeb8ee3bdff0c0758e157b6493986dc0d619"
+    },
+    {
+      "path": "web/dating-algorithm-v2.css",
+      "bytes": 1432,
+      "sha256": "ea95f5607459887bceaa6eb009db080576bd22ca4fd5d5c6ff7813d3e93c53c5"
+    },
+    {
+      "path": "web/index.html",
+      "bytes": 68160,
+      "sha256": "ff2b5e06eae8fdee4119adafd6911766a0c13e6fcdc52425077685366465a006"
+    },
+    {
+      "path": "web/template.html",
+      "bytes": 19243,
+      "sha256": "f029f988730a59ab2f72ed290ce774c98839bcc898c20a4016007958926fa216"
+    }
+  ]
+}

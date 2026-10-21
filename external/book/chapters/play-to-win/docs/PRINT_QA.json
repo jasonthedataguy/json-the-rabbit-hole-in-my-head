@@ -1,0 +1,32 @@
+{
+  "paragraphs_preserved": 41,
+  "proofs": [
+    {
+      "file": "chapter-A5-proof.pdf",
+      "pages": 9,
+      "trim_mm": [
+        148,
+        210
+      ],
+      "text_bounds": "pass"
+    },
+    {
+      "file": "poster-A4-proof.pdf",
+      "pages": 1,
+      "trim_mm": [
+        210,
+        297
+      ],
+      "text_bounds": "pass"
+    },
+    {
+      "file": "bookmark-proof.pdf",
+      "pages": 1,
+      "trim_mm": [
+        50,
+        150
+      ],
+      "text_bounds": "pass"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "chapter": "runaway",
+  "products": [
+    {
+      "product": "Selected author manuscript",
+      "state": "ready; copied from author-supplied attachment",
+      "path": "source/approved.md"
+    },
+    {
+      "product": "Run away rotating chapter ring",
+      "state": "board-derived digital crop; screen use only",
+      "path": "artwork/portal/runaway-ring-v1.png"
+    },
+    {
+      "product": "Run away stationary doorway centre",
+      "state": "aligned to chapter ring; screen use only",
+      "path": "artwork/portal/runaway-scene-v1.png"
+    },
+    {
+      "product": "Run away rectangular reading illustration",
+      "state": "key-elements crop; screen use only",
+      "path": "artwork/portal/runaway-spread-v1.webp"
+    },
+    {
+      "product": "Run away standalone digital chapter",
+      "state": "ready for deployment; generated from selected manuscript",
+      "path": "web/index.html"
+    }
+  ],
+  "remaining": [
+    "Printer specifications and separated high-resolution art for certified print production",
+    "Author narration and films",
+    "Social channel packs",
+    "Physical-device and human screen-reader review"
+  ]
+}

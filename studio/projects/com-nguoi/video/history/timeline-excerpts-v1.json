@@ -1,0 +1,294 @@
+{
+  "schema_version": "1.0",
+  "story_slug": "com-nguoi",
+  "version": "v1",
+  "title": "Cold Rice / Cơm nguội",
+  "source": {
+    "path": "C:\\Users\\Administrator\\OneDrive\\Desktop\\.json book\\json_under_revision_v2\\chapters\\com-nguoi\\source\\approved.md",
+    "sha256": "b4319bf9abb463148f590c773c14f12732e3524a612936fd2edddcaebecdfd3a"
+  },
+  "script_reference": "outputs/2026-10-21-com-nguoi/film-script.json",
+  "status": "ready_for_review",
+  "timing": "estimates_until_author_recording",
+  "visual_mode": "flat_illustration",
+  "author_audio": null,
+  "music": null,
+  "cuts": {
+    "master": {
+      "duration_estimate_s": 54,
+      "shots": [
+        {
+          "id": "B01",
+          "start_s": 0,
+          "duration_s": 5,
+          "vo_text": "Nó không phải sở thích.",
+          "source_reference": {
+            "text": "Nó không phải sở thích.",
+            "line": 5,
+            "path": "C:\\Users\\Administrator\\OneDrive\\Desktop\\.json book\\json_under_revision_v2\\chapters\\com-nguoi\\source\\approved.md",
+            "source_sha256": "b4319bf9abb463148f590c773c14f12732e3524a612936fd2edddcaebecdfd3a"
+          },
+          "asset_path": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\com-nguoi\\artwork\\content\\elements\\03-rice-bowl-and-steam.png",
+          "asset_sha256": "a78ec2f1175c1bc96e52b09a0ff1907ea31b545b04c5e99a125ea21773ab3762",
+          "visual": "Bowl illustration; title supplies context",
+          "on_screen_text": "Cơm nguội",
+          "subtitle_status": "storyboard_text_only; speech_captions_pending",
+          "motion": {
+            "scale_from": 1,
+            "scale_to": 1.03,
+            "pan_x_px": 0,
+            "pan_y_px": 0
+          }
+        },
+        {
+          "id": "B02",
+          "start_s": 5,
+          "duration_s": 6,
+          "vo_text": "Cơm nguội gắn liền với thời thơ ấu của tớ.",
+          "source_reference": {
+            "text": "Cơm nguội gắn liền với thời thơ ấu của tớ.",
+            "line": 7,
+            "path": "C:\\Users\\Administrator\\OneDrive\\Desktop\\.json book\\json_under_revision_v2\\chapters\\com-nguoi\\source\\approved.md",
+            "source_sha256": "b4319bf9abb463148f590c773c14f12732e3524a612936fd2edddcaebecdfd3a"
+          },
+          "asset_path": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\com-nguoi\\artwork\\chapter-page\\hero.webp",
+          "asset_sha256": "317e9cfb33874f3ee417c09a6b43ca07de16fa69e63e93a4503e7352e93c4f84",
+          "visual": "Whole family illustration",
+          "on_screen_text": "",
+          "subtitle_status": "storyboard_text_only; speech_captions_pending",
+          "motion": {
+            "scale_from": 1,
+            "scale_to": 1.03,
+            "pan_x_px": 0,
+            "pan_y_px": 0
+          }
+        },
+        {
+          "id": "B03",
+          "start_s": 11,
+          "duration_s": 11,
+          "vo_text": "Tớ để ý bố luôn là người ăn hết tô cơm ấy, còn phần cơm nóng thì để mẹ và tớ ăn.",
+          "source_reference": {
+            "text": "Tớ để ý bố luôn là người ăn hết tô cơm ấy, còn phần cơm nóng thì để mẹ và tớ ăn.",
+            "line": 9,
+            "path": "C:\\Users\\Administrator\\OneDrive\\Desktop\\.json book\\json_under_revision_v2\\chapters\\com-nguoi\\source\\approved.md",
+            "source_sha256": "b4319bf9abb463148f590c773c14f12732e3524a612936fd2edddcaebecdfd3a"
+          },
+          "asset_path": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\com-nguoi\\artwork\\chapter-page\\hero.webp",
+          "asset_sha256": "317e9cfb33874f3ee417c09a6b43ca07de16fa69e63e93a4503e7352e93c4f84",
+          "visual": "Full family table, no forced portrait crop",
+          "on_screen_text": "",
+          "subtitle_status": "storyboard_text_only; speech_captions_pending",
+          "motion": {
+            "scale_from": 1,
+            "scale_to": 1.03,
+            "pan_x_px": 0,
+            "pan_y_px": 0
+          }
+        },
+        {
+          "id": "B04",
+          "start_s": 22,
+          "duration_s": 6,
+          "vo_text": "Tớ không muốn bố phải ăn cơm nguội.",
+          "source_reference": {
+            "text": "Tớ không muốn bố phải ăn cơm nguội.",
+            "line": 11,
+            "path": "C:\\Users\\Administrator\\OneDrive\\Desktop\\.json book\\json_under_revision_v2\\chapters\\com-nguoi\\source\\approved.md",
+            "source_sha256": "b4319bf9abb463148f590c773c14f12732e3524a612936fd2edddcaebecdfd3a"
+          },
+          "asset_path": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\com-nguoi\\artwork\\content\\illustrations\\01-story-detail.webp",
+          "asset_sha256": "ce4f7fd4c2e46725139dc97f04bdd2b4fcfb8f00cef3313331063a608dfe0342",
+          "visual": "Child and parents illustration",
+          "on_screen_text": "",
+          "subtitle_status": "storyboard_text_only; speech_captions_pending",
+          "motion": {
+            "scale_from": 1,
+            "scale_to": 1.03,
+            "pan_x_px": 0,
+            "pan_y_px": 0
+          }
+        },
+        {
+          "id": "B05",
+          "start_s": 28,
+          "duration_s": 11,
+          "vo_text": "Thế nên cứ mỗi bữa, tớ lại giành lấy phần cơm ấy, bảo rằng tớ thích ăn cơm nguội hơn.",
+          "source_reference": {
+            "text": "Thế nên cứ mỗi bữa, tớ lại giành lấy phần cơm ấy, bảo rằng tớ thích ăn cơm nguội hơn.",
+            "line": 13,
+            "path": "C:\\Users\\Administrator\\OneDrive\\Desktop\\.json book\\json_under_revision_v2\\chapters\\com-nguoi\\source\\approved.md",
+            "source_sha256": "b4319bf9abb463148f590c773c14f12732e3524a612936fd2edddcaebecdfd3a"
+          },
+          "asset_path": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\com-nguoi\\artwork\\content\\illustrations\\01-story-detail.webp",
+          "asset_sha256": "ce4f7fd4c2e46725139dc97f04bdd2b4fcfb8f00cef3313331063a608dfe0342",
+          "visual": "Small framing move; no staged exchange",
+          "on_screen_text": "",
+          "subtitle_status": "storyboard_text_only; speech_captions_pending",
+          "motion": {
+            "scale_from": 1,
+            "scale_to": 1.03,
+            "pan_x_px": 0,
+            "pan_y_px": 0
+          }
+        },
+        {
+          "id": "B06",
+          "start_s": 39,
+          "duration_s": 4,
+          "vo_text": "Cho đến tận bây giờ.",
+          "source_reference": {
+            "text": "Cho đến tận bây giờ.",
+            "line": 17,
+            "path": "C:\\Users\\Administrator\\OneDrive\\Desktop\\.json book\\json_under_revision_v2\\chapters\\com-nguoi\\source\\approved.md",
+            "source_sha256": "b4319bf9abb463148f590c773c14f12732e3524a612936fd2edddcaebecdfd3a"
+          },
+          "asset_path": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\com-nguoi\\artwork\\chapter-page\\portal.webp",
+          "asset_sha256": "79b61b71d689bd27bd5cab1679c2a875aff7a8b660619afad9d1ed39d4a3587a",
+          "visual": "Return to full portal",
+          "on_screen_text": "",
+          "subtitle_status": "storyboard_text_only; speech_captions_pending",
+          "motion": {
+            "scale_from": 1,
+            "scale_to": 1.03,
+            "pan_x_px": 0,
+            "pan_y_px": 0
+          }
+        },
+        {
+          "id": "B07",
+          "start_s": 43,
+          "duration_s": 6,
+          "vo_text": "“Con thích ăn cơm nguội.”",
+          "source_reference": {
+            "text": "“Con thích ăn cơm nguội.”",
+            "line": 23,
+            "path": "C:\\Users\\Administrator\\OneDrive\\Desktop\\.json book\\json_under_revision_v2\\chapters\\com-nguoi\\source\\approved.md",
+            "source_sha256": "b4319bf9abb463148f590c773c14f12732e3524a612936fd2edddcaebecdfd3a"
+          },
+          "asset_path": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\com-nguoi\\artwork\\chapter-page\\hero.webp",
+          "asset_sha256": "317e9cfb33874f3ee417c09a6b43ca07de16fa69e63e93a4503e7352e93c4f84",
+          "visual": "Still family illustration",
+          "on_screen_text": "",
+          "subtitle_status": "storyboard_text_only; speech_captions_pending",
+          "motion": {
+            "scale_from": 1,
+            "scale_to": 1.03,
+            "pan_x_px": 0,
+            "pan_y_px": 0
+          }
+        },
+        {
+          "id": "B08",
+          "start_s": 49,
+          "duration_s": 5,
+          "vo_text": "",
+          "source_reference": null,
+          "asset_path": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\com-nguoi\\artwork\\chapter-page\\portal.webp",
+          "asset_sha256": "79b61b71d689bd27bd5cab1679c2a875aff7a8b660619afad9d1ed39d4a3587a",
+          "visual": "Silent beat then title/CTA slate",
+          "on_screen_text": ".json / Cơm nguội · Đọc trọn chương",
+          "subtitle_status": "storyboard_text_only; speech_captions_pending",
+          "motion": {
+            "scale_from": 1,
+            "scale_to": 1.03,
+            "pan_x_px": 0,
+            "pan_y_px": 0
+          }
+        }
+      ]
+    },
+    "alternate": {
+      "duration_estimate_s": 18,
+      "shots": [
+        {
+          "id": "B01",
+          "start_s": 0,
+          "duration_s": 4,
+          "vo_text": "Nó không phải sở thích.",
+          "source_reference": {
+            "text": "Nó không phải sở thích.",
+            "line": 5,
+            "path": "C:\\Users\\Administrator\\OneDrive\\Desktop\\.json book\\json_under_revision_v2\\chapters\\com-nguoi\\source\\approved.md",
+            "source_sha256": "b4319bf9abb463148f590c773c14f12732e3524a612936fd2edddcaebecdfd3a"
+          },
+          "asset_path": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\com-nguoi\\artwork\\content\\elements\\03-rice-bowl-and-steam.png",
+          "asset_sha256": "a78ec2f1175c1bc96e52b09a0ff1907ea31b545b04c5e99a125ea21773ab3762",
+          "visual": "Bowl illustration; title supplies context",
+          "on_screen_text": "Cơm nguội",
+          "subtitle_status": "storyboard_text_only; speech_captions_pending",
+          "motion": {
+            "scale_from": 1,
+            "scale_to": 1.03,
+            "pan_x_px": 0,
+            "pan_y_px": 0
+          }
+        },
+        {
+          "id": "B02",
+          "start_s": 4,
+          "duration_s": 6,
+          "vo_text": "Tớ không muốn bố phải ăn cơm nguội.",
+          "source_reference": {
+            "text": "Tớ không muốn bố phải ăn cơm nguội.",
+            "line": 11,
+            "path": "C:\\Users\\Administrator\\OneDrive\\Desktop\\.json book\\json_under_revision_v2\\chapters\\com-nguoi\\source\\approved.md",
+            "source_sha256": "b4319bf9abb463148f590c773c14f12732e3524a612936fd2edddcaebecdfd3a"
+          },
+          "asset_path": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\com-nguoi\\artwork\\content\\illustrations\\01-story-detail.webp",
+          "asset_sha256": "ce4f7fd4c2e46725139dc97f04bdd2b4fcfb8f00cef3313331063a608dfe0342",
+          "visual": "Child and parents illustration",
+          "on_screen_text": "",
+          "subtitle_status": "storyboard_text_only; speech_captions_pending",
+          "motion": {
+            "scale_from": 1,
+            "scale_to": 1.03,
+            "pan_x_px": 0,
+            "pan_y_px": 0
+          }
+        },
+        {
+          "id": "B03",
+          "start_s": 10,
+          "duration_s": 4,
+          "vo_text": "“Con thích ăn cơm nguội.”",
+          "source_reference": {
+            "text": "“Con thích ăn cơm nguội.”",
+            "line": 23,
+            "path": "C:\\Users\\Administrator\\OneDrive\\Desktop\\.json book\\json_under_revision_v2\\chapters\\com-nguoi\\source\\approved.md",
+            "source_sha256": "b4319bf9abb463148f590c773c14f12732e3524a612936fd2edddcaebecdfd3a"
+          },
+          "asset_path": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\com-nguoi\\artwork\\chapter-page\\hero.webp",
+          "asset_sha256": "317e9cfb33874f3ee417c09a6b43ca07de16fa69e63e93a4503e7352e93c4f84",
+          "visual": "Still family illustration",
+          "on_screen_text": "",
+          "subtitle_status": "storyboard_text_only; speech_captions_pending",
+          "motion": {
+            "scale_from": 1,
+            "scale_to": 1.03,
+            "pan_x_px": 0,
+            "pan_y_px": 0
+          }
+        },
+        {
+          "id": "B04",
+          "start_s": 14,
+          "duration_s": 4,
+          "vo_text": "",
+          "source_reference": null,
+          "asset_path": "E:\\books\\.json\\outputs\\json-digital-book-assets\\chapters\\com-nguoi\\artwork\\chapter-page\\portal.webp",
+          "asset_sha256": "79b61b71d689bd27bd5cab1679c2a875aff7a8b660619afad9d1ed39d4a3587a",
+          "visual": "Silent beat then title/CTA slate",
+          "on_screen_text": ".json / Cơm nguội · Đọc trọn chương",
+          "subtitle_status": "storyboard_text_only; speech_captions_pending",
+          "motion": {
+            "scale_from": 1,
+            "scale_to": 1.03,
+            "pan_x_px": 0,
+            "pan_y_px": 0
+          }
+        }
+      ]
+    }
+  }
+}

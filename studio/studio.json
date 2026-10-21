@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0",
+  "name": ".json Studio",
+  "timezone": "Asia/Bangkok",
+  "workspace_root": "..",
+  "book_repository": "C:\\Users\\Administrator\\OneDrive\\Desktop\\.json book\\json_under_revision_v2",
+  "asset_library": "E:\\books\\.json\\outputs\\json-digital-book-assets",
+  "video_app": "studio/apps/video",
+  "strategy_deck": "json_video_design_strategy_deck.pptx",
+  "legacy_video_reference_root": "studio/references/video-starter",
+  "style": "studio/apps/video/manifests/style.json",
+  "projects": "studio/projects",
+  "catalog": "studio/catalog/stories.json",
+  "cache": "studio/.cache",
+  "reports": "studio/reports",
+  "run_manifest_schema": "templates/run-manifest.json",
+  "default_visibility": "private",
+  "video_policy": {
+    "opening_required": true,
+    "opening_standard": "studio/docs/VIDEO_OPENING.md",
+    "animation_skill": "skills/json-asset-animation/SKILL.md",
+    "dynamic_acceptance": "independent scene-element animation; whole-image/text motion alone is a reading cut"
+  },
+  "pilot_order": [
+    "com-nguoi",
+    "fashion",
+    "viet-cho-sai-gon-cua-t"
+  ],
+  "release_policy": "Exact author approval by scope/version; this workspace contains no publisher or payment action"
+}

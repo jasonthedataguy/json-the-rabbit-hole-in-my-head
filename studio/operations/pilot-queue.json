@@ -1,0 +1,28 @@
+{
+  "date": "2026-10-21",
+  "wip_limit": 1,
+  "projects": [
+    {
+      "slug": "com-nguoi",
+      "project": "studio/projects/com-nguoi/project.json",
+      "role": "active",
+      "owner": "Jason + AI",
+      "next_dependency": "script/visual/public-scope approval"
+    },
+    {
+      "slug": "fashion",
+      "project": "studio/projects/fashion/project.json",
+      "role": "queued",
+      "owner": "Jason + AI",
+      "next_dependency": "source/approval/rights audit before adaptation"
+    },
+    {
+      "slug": "viet-cho-sai-gon-cua-t",
+      "project": "studio/projects/viet-cho-sai-gon-cua-t/project.json",
+      "role": "queued",
+      "owner": "Jason + AI",
+      "next_dependency": "source/approval/rights audit before adaptation"
+    }
+  ],
+  "dates": "unscheduled; sequence is dependency-based"
+}

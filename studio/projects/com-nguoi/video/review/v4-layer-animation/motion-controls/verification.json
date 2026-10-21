@@ -1,0 +1,30 @@
+{
+  "status": "pass",
+  "method": "Same source frame, camera and text; only independent layer rotations/light disabled in static control. Non-text scene changes measured separately.",
+  "checks": [
+    {
+      "scene": "dinner",
+      "frame": 390,
+      "region_mean_absolute_pixel_change": {
+        "lamp": 7.051237322515213,
+        "foliage": 2.655214410967639
+      },
+      "caption_region_change": 0.0,
+      "moving_frame": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\video\\review\\v4-layer-animation\\motion-controls\\dinner-moving.png",
+      "static_control": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\video\\review\\v4-layer-animation\\motion-controls\\dinner-static.png"
+    },
+    {
+      "scene": "child",
+      "frame": 2340,
+      "region_mean_absolute_pixel_change": {
+        "lamp": 4.172301587301587,
+        "foliage": 2.987073170731707
+      },
+      "caption_region_change": 0.0,
+      "moving_frame": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\video\\review\\v4-layer-animation\\motion-controls\\child-moving.png",
+      "static_control": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\studio\\projects\\com-nguoi\\video\\review\\v4-layer-animation\\motion-controls\\child-static.png"
+    }
+  ],
+  "renderer_sha256": "9a114d4b511dee89d329ab0b65eb539cb177b2659dff47e1f07068fe820fa7f1",
+  "author_quality_approved": false
+}

@@ -1,0 +1,51 @@
+{
+  "date": "2026-10-21",
+  "source_sha256": "b4319bf9abb463148f590c773c14f12732e3524a612936fd2edddcaebecdfd3a",
+  "approved_sha256": "b4319bf9abb463148f590c773c14f12732e3524a612936fd2edddcaebecdfd3a",
+  "archive_sha256": "d957b592dc2317aa34196dd25ab42a3fe4a7938d3aee5a1121ab173214bf76f9",
+  "original_unchanged": true,
+  "source_quote_rebase": "all exact quotations verified",
+  "art_regenerated": false,
+  "local_checks": [
+    {
+      "command": [
+        "scripts/build_inventory.py"
+      ],
+      "exit_code": 0,
+      "log": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\outputs\\2026-10-21-com-nguoi\\approval-check-1.log"
+    },
+    {
+      "command": [
+        "scripts/build_site.py"
+      ],
+      "exit_code": 0,
+      "log": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\outputs\\2026-10-21-com-nguoi\\approval-check-2.log"
+    },
+    {
+      "command": [
+        "scripts/check_site.py"
+      ],
+      "exit_code": 0,
+      "log": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\outputs\\2026-10-21-com-nguoi\\approval-check-3.log"
+    },
+    {
+      "command": [
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-v"
+      ],
+      "exit_code": 0,
+      "log": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\outputs\\2026-10-21-com-nguoi\\approval-check-4.log"
+    }
+  ],
+  "status": "pass",
+  "public_release_approved": false,
+  "paid_release_approved": false,
+  "script_approved": false,
+  "derivative_hash_checks": "pass",
+  "stage_evidence_hash_checks": "pass",
+  "manifest_validation": "0 errors, 0 warnings; public-ready NO"
+}

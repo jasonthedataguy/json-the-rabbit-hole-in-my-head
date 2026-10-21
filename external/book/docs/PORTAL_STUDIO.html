@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Portal picture studio · .json</title>
+<style>
+:root{color-scheme:dark;font:15px/1.6 system-ui,sans-serif;color:#eadfc9;background:#0b1821}*{box-sizing:border-box}body{margin:0;padding:32px}main{max-width:1100px;margin:auto}header{margin-bottom:30px}header p{color:#aaa995;max-width:650px}h1{font:42px/1.2 Georgia,serif;margin:0 0 14px}h2{font:24px Georgia,serif;margin:0 0 20px}.workspace{display:grid;grid-template-columns:minmax(0,1fr) 320px;gap:40px;align-items:start}.preview{position:relative;width:100%;aspect-ratio:1;isolation:isolate;background:radial-gradient(circle,#20343b,#0b1821 70%)}.slot{position:absolute;inset:18.8%;overflow:hidden;border-radius:50%;background:#142b35}.slot>svg,.frame>svg{display:block;width:100%;height:100%}.frame,.guides{position:absolute;inset:0;width:100%;height:100%;pointer-events:none}.guides{z-index:3}.guides[hidden]{display:none}aside{background:#152832;border:1px solid #a28c5b40;border-radius:14px;padding:25px}label{display:block;margin:18px 0 8px;color:#c9bea8}select,input[type=file],button{font:inherit;width:100%;border:1px solid #8d805e70;border-radius:6px;padding:10px;background:#0e1f29;color:#eee0c6}input[type=range]{width:100%;accent-color:#ccad73}output{float:right;color:#d9b679;font-variant-numeric:tabular-nums}.help{font-size:12px;color:#9baaa4;margin:7px 0 18px}.toggle{display:flex;align-items:center;gap:9px}button{cursor:pointer;margin:8px 0;background:#d4b77d;color:#14232b}button.secondary{background:transparent;color:#d4b77d}.status{font-size:12px;min-height:2em;color:#c6bea6;white-space:pre-wrap}.caption{text-align:center;color:#aaa995;font-size:13px;margin:18px 0}a{color:#d4b77d}footer{margin:32px 0;color:#9aa79e;font-size:13px}code{font-size:12px}button:focus-visible,input:focus-visible,select:focus-visible{outline:2px solid #f7d58a;outline-offset:4px}@media(max-width:750px){body{padding:20px}.workspace{grid-template-columns:1fr;gap:20px}h1{font-size:32px}}
+</style></head><body><main>
+<header><h1>A picture, a frame, a memory.</h1><p>Place a scene in the circular opening. Adjust the picture while the frame stays centred, then turn the ring to check the fit. Your chosen file stays in this browser.</p></header>
+<div class="workspace"><section aria-label="Live portal preview"><div class="preview" id="preview"><div class="slot" id="picture"></div><div class="frame" id="frame"></div><svg class="guides" id="guides" viewBox="0 0 1000 1000" aria-label="Centre and safe-area guides"><circle cx="500" cy="500" r="310" fill="none" stroke="#ffe5ac" stroke-width="2" stroke-dasharray="8 8"/><circle cx="500" cy="500" r="248" fill="none" stroke="#ffe5ac" stroke-width="1.5" stroke-dasharray="4 8"/><path d="M460 500h80M500 460v80" stroke="#ffe5ac" stroke-width="2"/></svg></div><p class="caption">Keep faces and important details inside the inner dotted circle.</p></section>
+<aside><h2>Picture insert</h2><label for="preset">Start with</label><select id="preset"><option value="cover">Book cover</option><option value="introduction">Introduction</option><option value="rice">Cold Rice / Cơm nguội</option><option value="placeholder">Empty placeholder</option></select><label for="file">Choose your picture</label><input id="file" type="file" accept="image/png,image/jpeg,image/webp"><p class="help">Use a square scene without a decorative border. Landscape and portrait images are cropped from the centre.</p>
+<label for="zoom">Zoom <output id="zoom-value"></output></label><input id="zoom" type="range" min="1" max="2" step="0.01" value="1">
+<label for="x">Horizontal <output id="x-value"></output></label><input id="x" type="range" min="-50" max="50" step="0.5" value="0">
+<label for="y">Vertical <output id="y-value"></output></label><input id="y" type="range" min="-50" max="50" step="0.5" value="0">
+<label for="rotation">Turn the frame <output id="rotation-value"></output></label><input id="rotation" type="range" min="-180" max="180" step="1" value="0">
+<label class="toggle"><input id="show-guides" type="checkbox" checked> Show alignment guides</label>
+<button id="download">Download fitted SVG</button><button id="reset" class="secondary">Reset picture placement</button><p class="status" id="status" role="status"></p>
+</aside></div>
+<footer>Template: 1000 × 1000 · centre (500, 500) · picture opening Ø620. The exported SVG includes the picture and ring, with no guides. <a href="../templates/portal/README.md">Template instructions</a></footer>
+</main><script type="module">
+import {portalPictures,renderPortalPicture,renderPortalFrame} from '../shared/web/portal-art.js';
+const $=id=>document.getElementById(id), textures={cover:'../shared/artwork/portal/board-cover-ring.png?v=2',standard:'../shared/artwork/portal/board-ring-cut.png'};
+const sources={cover:'../shared/artwork/book-cover/cover-scene-landscape.png',introduction:'../shared/artwork/portal/introduction-scene.png',rice:'../chapters/com-nguoi/artwork/portal/rice-scene-v2.png',placeholder:'../shared/artwork/portal/placeholder.svg'};
+let key='cover',source=sources.cover,uploaded=null;
+const frameTexture=()=>uploaded||key==='placeholder'?textures.standard:textures.cover;
+function settings(){return {src:source,zoom:+$('zoom').value,x:+$('x').value,y:+$('y').value};}
+function paint(){
+  const limit=(+$('zoom').value-1)*50;
+  for(const axis of ['x','y']){$(axis).min=-limit;$(axis).max=limit;$(axis).disabled=limit===0;$(axis).value=Math.max(-limit,Math.min(limit,+$(axis).value));}
+  $('picture').innerHTML=renderPortalPicture(key,settings());
+  $('frame').innerHTML=renderPortalFrame('studio-frame',frameTexture());
+  $('frame').style.transform=`rotate(${$('rotation').value}deg)`;
+  $('guides').hidden=!$('show-guides').checked;
+  for(const id of ['zoom','x','y','rotation'])$(id+'-value').value=id==='zoom'?`${(+$('zoom').value).toFixed(2)}×`:`${$(id).value}${id==='rotation'?'°':'%'}`;
+}
+function reset(){const p=portalPictures[key];for(const id of ['x','y']){$(id).min=-50;$(id).max=50;}for(const id of ['zoom','x','y'])$(id).value=uploaded?(id==='zoom'?1:0):p[id];$('rotation').value=0;paint();}
+$('preset').addEventListener('change',()=>{if(uploaded)URL.revokeObjectURL(uploaded);uploaded=null;key=$('preset').value;source=sources[key];$('file').value='';$('status').textContent='';reset();});
+$('file').addEventListener('change',async()=>{const file=$('file').files[0];if(!file)return;if(!['image/png','image/jpeg','image/webp'].includes(file.type)){$('status').textContent='Choose a PNG, JPEG or WebP image.';return;}const next=URL.createObjectURL(file);const image=new Image();image.src=next;try{await image.decode();if(uploaded)URL.revokeObjectURL(uploaded);uploaded=next;source=next;reset();$('status').textContent=`Loaded ${file.name}. Adjust zoom to move the picture within the frame.`;}catch{URL.revokeObjectURL(next);$('status').textContent='This image could not be opened.';}});
+for(const id of ['zoom','x','y','rotation','show-guides'])$(id).addEventListener('input',paint);
+$('reset').addEventListener('click',reset);
+async function dataURL(url){const response=await fetch(url);if(!response.ok)throw new Error('Picture could not be loaded.');const blob=await response.blob();return await new Promise((resolve,reject)=>{const reader=new FileReader();reader.onload=()=>resolve(reader.result);reader.onerror=reject;reader.readAsDataURL(blob);});}
+$('download').addEventListener('click',async()=>{const button=$('download');button.disabled=true;try{
+  const [picture,ring]=await Promise.all([dataURL(source),dataURL(frameTexture())]);
+  const scene=renderPortalPicture(key,{...settings(),src:picture}).replace('<svg ','<svg x="188" y="188" width="624" height="624" ');
+  const svg=`<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1000" viewBox="0 0 1000 1000"><defs><clipPath id="picture-cut"><circle cx="500" cy="500" r="312"/></clipPath></defs><g clip-path="url(#picture-cut)">${scene}</g><g transform="rotate(${$('rotation').value} 500 500)">${renderPortalFrame('export-frame',ring)}</g></svg>`;
+  const url=URL.createObjectURL(new Blob([svg],{type:'image/svg+xml'}));const a=document.createElement('a');a.href=url;a.download=`portal-${uploaded?'custom':key}.svg`;a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);
+  const {zoom,x,y}=settings();$('status').textContent=`Exported. Website placement: zoom ${zoom}, x ${x}, y ${y}.`;
+}catch(error){$('status').textContent=error.message;}finally{button.disabled=false;}});
+reset();
+</script></body></html>

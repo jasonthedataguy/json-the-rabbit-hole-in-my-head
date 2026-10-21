@@ -1,0 +1,162 @@
+[
+  {
+    "path": "artwork/scenes/01_rooftop_skyline.jpg",
+    "source": "references/dream-world-v01/art/01_rooftop_skyline.jpg",
+    "source_sha256": "801b8cb4d9a9287dabbc147b89361b89c40e5b8d636173f4b7b9ea7d3a45307f",
+    "source_size": [
+      2000,
+      600
+    ],
+    "crop_box": [
+      720,
+      0,
+      1125,
+      600
+    ],
+    "native_size": [
+      405,
+      600
+    ],
+    "kind": "label-free crop of supplied concept artwork; not a documentary photograph or independent print master"
+  },
+  {
+    "path": "artwork/scenes/02_metro_children.jpg",
+    "source": "references/dream-world-v01/art/02_metro_children.jpg",
+    "source_sha256": "5be1cea139572f849b0ca835b7c0840a887d60162395506555384ab4998fc3f0",
+    "source_size": [
+      1600,
+      930
+    ],
+    "crop_box": [
+      35,
+      112,
+      1600,
+      920
+    ],
+    "native_size": [
+      1565,
+      808
+    ],
+    "kind": "label-free crop of supplied concept artwork; not a documentary photograph or independent print master"
+  },
+  {
+    "path": "artwork/scenes/03_bastille_station.jpg",
+    "source": "references/dream-world-v01/art/03_bastille_station.jpg",
+    "source_sha256": "63a6bbb9d932ba995fe669dc8e3c2c68cd29c671626a89cf77944c9aa2d134ea",
+    "source_size": [
+      950,
+      800
+    ],
+    "crop_box": [
+      0,
+      150,
+      915,
+      730
+    ],
+    "native_size": [
+      915,
+      580
+    ],
+    "kind": "label-free crop of supplied concept artwork; not a documentary photograph or independent print master"
+  },
+  {
+    "path": "artwork/scenes/04_telephone.jpg",
+    "source": "references/dream-world-v01/art/04_telephone.jpg",
+    "source_sha256": "5492c9ee0570f1900415c28f0ec1b557e1c47ba00c9ee02e18d292669f62d3d5",
+    "source_size": [
+      1000,
+      880
+    ],
+    "crop_box": [
+      125,
+      110,
+      1000,
+      695
+    ],
+    "native_size": [
+      875,
+      585
+    ],
+    "kind": "label-free crop of supplied concept artwork; not a documentary photograph or independent print master"
+  },
+  {
+    "path": "artwork/scenes/05_imagined_kitchen.jpg",
+    "source": "references/dream-world-v01/art/05_imagined_kitchen.jpg",
+    "source_sha256": "c9916264a9e3d0a6570b4d754c88c456a9211970dba7e283fd0057895f9ea986",
+    "source_size": [
+      1100,
+      880
+    ],
+    "crop_box": [
+      60,
+      140,
+      1100,
+      880
+    ],
+    "native_size": [
+      1040,
+      740
+    ],
+    "kind": "label-free crop of supplied concept artwork; not a documentary photograph or independent print master"
+  },
+  {
+    "path": "artwork/scenes/06_rooftop_afterimage.jpg",
+    "source": "references/dream-world-v01/art/06_rooftop_afterimage.jpg",
+    "source_sha256": "7277a285a0c25e01890727a16a37eba00c7e4380e4dd817b3924c77512a45cfe",
+    "source_size": [
+      1000,
+      850
+    ],
+    "crop_box": [
+      115,
+      145,
+      1000,
+      850
+    ],
+    "native_size": [
+      885,
+      705
+    ],
+    "kind": "label-free crop of supplied concept artwork; not a documentary photograph or independent print master"
+  },
+  {
+    "path": "artwork/scenes/07_old_photographs.jpg",
+    "source": "references/dream-world-v01/art/07_old_photographs.jpg",
+    "source_sha256": "c52b7eb8e89f2661cc4b9061cd9c4fa1f28879c5ea8efd4e0a1206b2cc893fbd",
+    "source_size": [
+      1000,
+      840
+    ],
+    "crop_box": [
+      85,
+      110,
+      1000,
+      660
+    ],
+    "native_size": [
+      915,
+      550
+    ],
+    "kind": "label-free crop of supplied concept artwork; not a documentary photograph or independent print master"
+  },
+  {
+    "path": "artwork/scenes/08_both_children.jpg",
+    "source": "references/dream-world-v01/art/08_both_children.jpg",
+    "source_sha256": "c9c0cdcb10de07a7ebb9f801b631483e6b50bdd850aa9794ea2bafd88f7d06e7",
+    "source_size": [
+      900,
+      940
+    ],
+    "crop_box": [
+      105,
+      110,
+      900,
+      720
+    ],
+    "native_size": [
+      795,
+      610
+    ],
+    "kind": "label-free crop of supplied concept artwork; not a documentary photograph or independent print master"
+  }
+]

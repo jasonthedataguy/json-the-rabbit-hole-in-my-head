@@ -1,0 +1,236 @@
+{
+  "scenes": [
+    {
+      "id": "desk",
+      "box": [
+        0.040106951871657755,
+        0.28031383737517834,
+        0.9696969696969697,
+        0.7902995720399429
+      ]
+    },
+    {
+      "id": "eyes",
+      "box": [
+        0.5998217468805704,
+        0.18972895863052783,
+        0.9295900178253119,
+        0.43009985734664763
+      ]
+    },
+    {
+      "id": "unobserved-window",
+      "box": [
+        0.6996434937611408,
+        0.2396576319543509,
+        0.9696969696969697,
+        0.48002853067047074
+      ]
+    },
+    {
+      "id": "coffee",
+      "box": [
+        0.6996434937611408,
+        0.579885877318117,
+        0.9402852049910874,
+        0.8002853067047075
+      ]
+    }
+  ],
+  "carousel": [
+    {
+      "text": "Đôi khi bạn không nên làm theo trái tim của mình.",
+      "scene": 0
+    },
+    {
+      "text": "Trái tim, theo cách tôi nghĩ lúc ấy, giống một cái máy đo emotional surplus.",
+      "scene": 3
+    },
+    {
+      "text": "Phần lớn thời gian, chúng ta chỉ đoán.",
+      "scene": 2
+    },
+    {
+      "text": "Bạn không bao giờ được nhìn bảng kết quả của những lựa chọn mình không chọn.",
+      "scene": 0
+    },
+    {
+      "text": "Vẫn là đôi mắt buồn long lanh dưới ánh đèn mờ.",
+      "scene": 1
+    }
+  ],
+  "print_scenes": [
+    {
+      "after_paragraph": 7,
+      "scene": 3
+    },
+    {
+      "after_paragraph": 18,
+      "scene": 2
+    }
+  ],
+  "films": [
+    {
+      "name": "discovery-9x16",
+      "size": [
+        1080,
+        1920
+      ],
+      "segments": [
+        {
+          "text": "Expected_utility",
+          "scene": "artwork/scenes/01-desk.jpg",
+          "duration": 5
+        },
+        {
+          "text": "Đôi khi bạn không nên làm theo trái tim của mình.",
+          "scene": "artwork/scenes/02-eyes.jpg",
+          "duration": 10
+        },
+        {
+          "text": "Ít nhất trên giấy là vậy.",
+          "scene": "artwork/scenes/03-unobserved-window.jpg",
+          "duration": 7
+        },
+        {
+          "text": "Phần lớn thời gian, chúng ta chỉ đoán.",
+          "scene": "artwork/scenes/04-coffee.jpg",
+          "duration": 9
+        },
+        {
+          "text": "Bạn không bao giờ được nhìn bảng kết quả của những lựa chọn mình không chọn.",
+          "scene": "artwork/scenes/01-desk.jpg",
+          "duration": 15
+        },
+        {
+          "text": "Thế nên câu “giá như” vừa vô dụng vừa addictive.",
+          "scene": "artwork/scenes/02-eyes.jpg",
+          "duration": 10
+        },
+        {
+          "text": "Vẫn là đôi mắt buồn long lanh dưới ánh đèn mờ.",
+          "scene": "artwork/scenes/03-unobserved-window.jpg",
+          "duration": 12
+        }
+      ]
+    },
+    {
+      "name": "youtube-9x16",
+      "size": [
+        1080,
+        1920
+      ],
+      "segments": [
+        {
+          "text": "Tôi chẳng biết tại sao, cũng chẳng biết từ khi nào mà hình ảnh của cô ấy cứ mãi lảng vảng trong đầu mình.",
+          "scene": "artwork/scenes/01-desk.jpg",
+          "duration": 18.061
+        },
+        {
+          "text": "Đôi khi bạn không nên làm theo trái tim của mình. Tôi nói thật đấy.",
+          "scene": "artwork/scenes/02-eyes.jpg",
+          "duration": 15.051
+        },
+        {
+          "text": "Ít nhất trên giấy là vậy.",
+          "scene": "artwork/scenes/03-unobserved-window.jpg",
+          "duration": 15.051
+        },
+        {
+          "text": "Trái tim, theo cách tôi nghĩ lúc ấy, giống một cái máy đo emotional surplus.",
+          "scene": "artwork/scenes/04-coffee.jpg",
+          "duration": 15.051
+        },
+        {
+          "text": "Nhưng Benefit mới chỉ là một nửa bài toán. Phần còn lại là Cost, và tôi nghĩ đó là công việc của lý trí.",
+          "scene": "artwork/scenes/01-desk.jpg",
+          "duration": 18.061
+        },
+        {
+          "text": "Lý trí, theo tôi lúc ấy, thực chất là một prediction engine cho outcome.",
+          "scene": "artwork/scenes/02-eyes.jpg",
+          "duration": 15.05
+        },
+        {
+          "text": "Và quan trọng hơn, chúng ta không phải Dr. Strange. Không ai đứng trước một quyết định rồi trong một tích tắc nhìn xuyên qua hàng triệu future scenarios, chạy simulation cho từng cái, assign probability, calculate expected utility rồi bình tĩnh chọn phương án tối ưu.",
+          "scene": "artwork/scenes/03-unobserved-window.jpg",
+          "duration": 35.37
+        },
+        {
+          "text": "Phần lớn thời gian, chúng ta chỉ đoán. Thậm chí có những lúc chúng ta còn chẳng buồn đoán.",
+          "scene": "artwork/scenes/04-coffee.jpg",
+          "duration": 15.051
+        },
+        {
+          "text": "Và như mọi hệ thống được build bởi một thằng developer hơi ẩu, bugs bắt đầu xuất hiện.",
+          "scene": "artwork/scenes/01-desk.jpg",
+          "duration": 15.051
+        },
+        {
+          "text": "Thế nên câu “giá như” vừa vô dụng vừa addictive.",
+          "scene": "artwork/scenes/02-eyes.jpg",
+          "duration": 15.05
+        },
+        {
+          "text": "Nhưng lúc viết những dòng này, tôi vẫn chưa biết cái nào trong số đó đúng.",
+          "scene": "artwork/scenes/03-unobserved-window.jpg",
+          "duration": 15.051
+        },
+        {
+          "text": "Không hiệu quả lắm.",
+          "scene": "artwork/scenes/04-coffee.jpg",
+          "duration": 15.051
+        },
+        {
+          "text": "Vẫn là đôi mắt buồn long lanh dưới ánh đèn mờ.",
+          "scene": "artwork/scenes/01-desk.jpg",
+          "duration": 15.051
+        }
+      ]
+    },
+    {
+      "name": "feed-3x4",
+      "size": [
+        1080,
+        1440
+      ],
+      "segments": [
+        {
+          "text": "Expected_utility",
+          "scene": "artwork/scenes/01-desk.jpg",
+          "duration": 5
+        },
+        {
+          "text": "Đôi khi bạn không nên làm theo trái tim của mình.",
+          "scene": "artwork/scenes/02-eyes.jpg",
+          "duration": 10
+        },
+        {
+          "text": "Ít nhất trên giấy là vậy.",
+          "scene": "artwork/scenes/03-unobserved-window.jpg",
+          "duration": 7
+        },
+        {
+          "text": "Phần lớn thời gian, chúng ta chỉ đoán.",
+          "scene": "artwork/scenes/04-coffee.jpg",
+          "duration": 9
+        },
+        {
+          "text": "Bạn không bao giờ được nhìn bảng kết quả của những lựa chọn mình không chọn.",
+          "scene": "artwork/scenes/01-desk.jpg",
+          "duration": 15
+        },
+        {
+          "text": "Thế nên câu “giá như” vừa vô dụng vừa addictive.",
+          "scene": "artwork/scenes/02-eyes.jpg",
+          "duration": 10
+        },
+        {
+          "text": "Vẫn là đôi mắt buồn long lanh dưới ánh đèn mờ.",
+          "scene": "artwork/scenes/03-unobserved-window.jpg",
+          "duration": 12
+        }
+      ]
+    }
+  ]
+}

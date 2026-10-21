@@ -1,0 +1,31 @@
+{
+  "schema_version": 2,
+  "slug": "mot-nguoi-ban-cu",
+  "number": "07",
+  "title": "An Old Friend",
+  "short_title": "An Old Friend",
+  "part": 2,
+  "language": "vi",
+  "publish": true,
+  "release_stage": "reader-with-digital-portal",
+  "canonical_text": "source/approved.md",
+  "canonical_path": "#chapter/07",
+  "summary": "Một gói chíp chíp ở lớp mẫu giáo mở đầu tình bạn kéo dài nhiều năm. Những trò chơi, bài kiểm tra và lời xin lỗi vẫn còn trong ký ức, dù hai người không thể quay lại như xưa.",
+  "portal": {
+    "scene": "Two children share a packet of chíp chíp on a bench while games, schoolwork, an apology and diverging paths circle them.",
+    "objects": [
+      "packet of chíp chíp",
+      "childhood game console",
+      "geometry test papers",
+      "apology note",
+      "diverging paths"
+    ],
+    "iconKey": "candy",
+    "motif": "The packet of chíp chíp"
+  },
+  "original_edition": null,
+  "production_status": "author-selected full manuscript and board-derived digital portal; print and media pending",
+  "manuscript_sha256": "63440b007aac6d24575d45b72f8912b069a05f5d60370fed1fef1c9100870e1c",
+  "outline_title": "Một người bạn cũ",
+  "original_title": "Một người bạn cũ"
+}

@@ -1,0 +1,24 @@
+{
+  "chapter": "09",
+  "mode": "local",
+  "widths": [
+    320,
+    390,
+    820,
+    1440
+  ],
+  "homepage_cards": 10,
+  "source_paragraphs": 19,
+  "source_sha256": "4382f452fa05b61baceed66a86b0510882f9a5b7329a44bf9fa3e831b830c3d9",
+  "checks": [
+    "all 19 original paragraphs and all nine prior chapter texts",
+    "three observed/imagined/afterimage states, keyboard, grade extremes and reset",
+    "notes, revision history and reduced motion",
+    "all images and download targets",
+    "1080p 60-second film playback, VTT and ambient audio",
+    "no-JavaScript full essay and default exploration",
+    "offline reader and artifact",
+    "08 → 09 → 15 navigation and slug alias"
+  ],
+  "errors": []
+}

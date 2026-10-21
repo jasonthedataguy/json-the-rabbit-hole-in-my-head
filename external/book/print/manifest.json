@@ -1,0 +1,114 @@
+{
+  "schema_version": 1,
+  "status": "prototype",
+  "trim_mm": [
+    152.4,
+    228.6
+  ],
+  "bleed_mm": 3.175,
+  "spine_mm": 12.0,
+  "raster_ppi": 300,
+  "color_mode": "RGB proof; convert to printer profile before production",
+  "files": [
+    {
+      "path": "print/assets/chapter-ring-3000-alpha.png",
+      "sha256": "32e58a3d2938dc0fb485091b801fc7534110b127834a03f1f5c8bdd3485845d9",
+      "bytes": 97915
+    },
+    {
+      "path": "print/assets/chapter-ring-3000.png",
+      "sha256": "4cfd3a905cb78c12433f34029cc239cc443d856dac71b40275d949a18b65e063",
+      "bytes": 3565374
+    },
+    {
+      "path": "print/assets/cold-rice-scene-3000.png",
+      "sha256": "4f090fcad4e970f7e651e1e7bcd690babdeab41e0df4fbc6da74d9d2beae4a97",
+      "bytes": 5880523
+    },
+    {
+      "path": "print/assets/cover-ring-3000-alpha.png",
+      "sha256": "f233bc3097801957859b129afe9c745d25a7a91be307c60376dd48ce299d9952",
+      "bytes": 101119
+    },
+    {
+      "path": "print/assets/cover-ring-3000.png",
+      "sha256": "1228435a03767dd8f001780fef18b400b4ec83c4ba469bb6b82c1ceb39d7f33c",
+      "bytes": 3606413
+    },
+    {
+      "path": "print/assets/cover-saigon-scene-3000.png",
+      "sha256": "7d5d4902c5c8bd7823d52c4e79a039f5e72338241223e21f6c8a454e158b7f82",
+      "bytes": 6180931
+    },
+    {
+      "path": "print/proofs/chapter-00-diecut-face-6x9.png",
+      "sha256": "b4d243c3208c39a61ca07a0f320bd62b13e3230441c87745cb631a9e2de9649a",
+      "bytes": 1143112
+    },
+    {
+      "path": "print/proofs/chapter-00-flat-6x9.png",
+      "sha256": "f53246d2d935abe2a0fd0a8cd3f9ba79bc3976d6935c2b6c2a4b466d45d085e9",
+      "bytes": 1523942
+    },
+    {
+      "path": "print/proofs/chapter-00-underlay-6x9.png",
+      "sha256": "c1016222a607ce97de211e87c3fb7bf35d6624839a0b9ef25e1b1c1aedf75de8",
+      "bytes": 567716
+    },
+    {
+      "path": "print/proofs/cover-portal-underlay-6x9.png",
+      "sha256": "6b12d9aec3b7cf0b83c406b56b16cb8221278e56d5dcf342f852bf7d48ddee2c",
+      "bytes": 765859
+    },
+    {
+      "path": "print/proofs/cover-wrap-diecut-face-6x9.png",
+      "sha256": "530e0c821e6ff4cbbf19861c5035c301eed0663e940555eb90faee754d316fb4",
+      "bytes": 2174934
+    },
+    {
+      "path": "print/proofs/cover-wrap-flat-6x9.png",
+      "sha256": "287fcbe449cfbbe68eb1ba52130d9cd1dfb408ac55c3c767a75b8f0873682dee",
+      "bytes": 2748835
+    },
+    {
+      "path": "print/cut/chapter-00-dieline.svg",
+      "sha256": "1dd406936845eed67d314ec9018e5e67a093405ee7bd7e7cda1d09c6632514b0",
+      "bytes": 351
+    },
+    {
+      "path": "print/cut/cover-wrap-dieline.svg",
+      "sha256": "2bc67976f863710d1a317c5ad61d4d0c63a460d13a52d4e612cb307d19a3500f",
+      "bytes": 702
+    },
+    {
+      "path": "print/cut/portal-ring-band-guides.svg",
+      "sha256": "4fb89acbee8d5481e2099eea8caff4d46695cfcc94132e2fc59c972e9f303bed",
+      "bytes": 594
+    },
+    {
+      "path": "output/pdf/chapter-00-diecut-face-6x9.pdf",
+      "sha256": "6a166770df71300b2207ae75810237f14a6ffb1c958faf26db31cd8eb90edcd1",
+      "bytes": 394728
+    },
+    {
+      "path": "output/pdf/chapter-00-underlay-6x9.pdf",
+      "sha256": "4f6780cb9c55b2909107363efb7aa30ff2ed4840b10454ac731d5ee818f512a4",
+      "bytes": 275315
+    },
+    {
+      "path": "output/pdf/cover-portal-underlay-6x9.pdf",
+      "sha256": "12889d31737dcdd4050c5658d106ed4928344ab82117f9000ff82a4efdfd3e40",
+      "bytes": 426121
+    },
+    {
+      "path": "output/pdf/cover-wrap-diecut-face-6x9.pdf",
+      "sha256": "be395f1f3d291358cbca6e00417eeb625eefbecbffdb7d56b1b7d64fa7970f30",
+      "bytes": 1032337
+    },
+    {
+      "path": "output/pdf/cover-wrap-flat-6x9.pdf",
+      "sha256": "661427d5080595832966d57a9217cb4e499c564f251d561392fd7854986e41bd",
+      "bytes": 1170033
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: ".json Asset Animation"
+  short_description: "Living artwork, looping GIFs and animated films"
+  default_prompt: "Use $json-asset-animation to animate the selected chapter from our existing assets, with the standard portal opening and release approval gates."

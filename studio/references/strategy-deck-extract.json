@@ -1,0 +1,206 @@
+{
+  "source": "E:\\json-story-to-business-skill-v1\\json-story-to-business\\json_video_design_strategy_deck.pptx",
+  "sha256": "09c420f00476ef143c1fe43af0fe0268bdf6bbb97d14a3ba313b27dee8603a48",
+  "slide_count": 12,
+  "slides": [
+    {
+      "slide": 1,
+      "text": [
+        "01 / CREATIVE PROPOSITION",
+        "An illustrated memoir in motion",
+        ".json  /  VIDEO SYSTEM                                           01",
+        "Video design & production architecture",
+        "Move like a memory.",
+        "Sound like a confession.",
+        "Open like a rabbit hole.",
+        "A Codex-ready prototype built from existing chapter concept boards."
+      ]
+    },
+    {
+      "slide": 2,
+      "text": [
+        "02 / CREATIVE STRATEGY",
+        "Our content has three jobs",
+        ".json  /  VIDEO SYSTEM                                           02",
+        "READ",
+        "The chapter is canonical.",
+        "Narrative pacing & ambiguity.",
+        "EXPLORE",
+        "Illustration, motion, sound and",
+        "archival context.",
+        "REVISIT",
+        "Older thinking, contradictions",
+        "and revision traces.",
+        "One emotional universe, different media. The video is a doorway—not a substitute for the book."
+      ]
+    },
+    {
+      "slide": 3,
+      "text": [
+        "03 / PROPOSED FORMAT STRATEGY",
+        "A production mix with reuse built in",
+        ".json  /  VIDEO SYSTEM                                           03",
+        "75%",
+        "Illustrated motion",
+        "Recognizable portals • parallax • quote cards",
+        "20%",
+        "Authentic archival",
+        "Real photographs and recordings with permission",
+        "5%",
+        "Realistic AI scenes",
+        "Only for dreams / reconstructions, clearly contextualized",
+        "These ratios are the initial creative hypothesis; pilot results should decide future allocation."
+      ]
+    },
+    {
+      "slide": 4,
+      "text": [
+        "04 / ART DIRECTION",
+        "Visual grammar: quiet luxury x graphic memory",
+        ".json  /  VIDEO SYSTEM                                           04",
+        "CUT PAPER",
+        "4–8 slow layers",
+        "LIGHT",
+        "Soft dusk / practical lamps",
+        "TYPOGRAPHY",
+        "Archival serif + small metadata",
+        "COLOR",
+        "Midnight navy / cream / warm coral",
+        "MOTION",
+        "Subtle, never cartoonish"
+      ]
+    },
+    {
+      "slide": 5,
+      "text": [
+        "05 / 45-SECOND EPISODE BLUEPRINT",
+        "One video = one emotional arc",
+        ".json  /  VIDEO SYSTEM                                           05",
+        "00–05",
+        "HOOK",
+        "One unresolved image / line",
+        "05–14",
+        "ENTER",
+        "Move through the chapter portal",
+        "14–28",
+        "REMEMBER",
+        "Stay with a concrete scene",
+        "28–39",
+        "RECONSIDER",
+        "Reveal a tension, not a moral",
+        "39–45",
+        "RETURN",
+        "Book + chapter invitation"
+      ]
+    },
+    {
+      "slide": 6,
+      "text": [
+        "06 / MOTION CHOREOGRAPHY",
+        "Make the portal feel alive, not busy",
+        ".json  /  VIDEO SYSTEM                                           06",
+        "•",
+        "Slow depth movement and deliberate reveals",
+        "•",
+        "Scale shifts: 2–5% per 5–8 seconds",
+        "•",
+        "Gentle ambient light and material grain",
+        "•",
+        "Voiceover comes first; music is supportive",
+        "•",
+        "No aggressive spinning, lip-sync or fake realism"
+      ]
+    },
+    {
+      "slide": 7,
+      "text": [
+        "07 / HUMAN INTIMACY",
+        "Chapter prototype A — Cold Rice",
+        ".json  /  VIDEO SYSTEM                                           07",
+        "HERO",
+        "Bowl / family table",
+        "Animate drifting steam, the warm pool of light, and the slow arrival of the ring. The ordinary gesture is the emotional engine."
+      ]
+    },
+    {
+      "slide": 8,
+      "text": [
+        "08 / IDENTITY OVER DISPLAY",
+        "Chapter prototype B — Fashion",
+        ".json  /  VIDEO SYSTEM                                           08",
+        "HERO",
+        "Shoes → wardrobe → self",
+        "Use Air Jordan 1 and an iconic Adidas as personal history; avoid commercial advertising aesthetics. Fade from consumer noise into timeless materials."
+      ]
+    },
+    {
+      "slide": 9,
+      "text": [
+        "09 / BECOMING & BELONGING",
+        "Chapter prototype C — To Saigon",
+        ".json  /  VIDEO SYSTEM                                           09",
+        "HERO",
+        "Ba Son / dusk / still here",
+        "Return to the sunset: a couple viewed from behind, pink cap and blonde hair, Gấu nearby. Preserve the skyline and emotional quiet."
+      ]
+    },
+    {
+      "slide": 10,
+      "text": [
+        "10 / ASSET SYSTEM",
+        "A chapter is a repeatable production unit",
+        ".json  /  VIDEO SYSTEM                                           10",
+        "•",
+        "Approved flattened board (source of truth)",
+        "•",
+        "Separated transparent portal planes",
+        "•",
+        "Episode script + narrated audio + captions",
+        "•",
+        "Motion timeline JSON + music / SFX ledger",
+        "•",
+        "9:16 social master, 16:9 archive, still cover",
+        "•",
+        "Rights, consent, accuracy and author sign-off"
+      ]
+    },
+    {
+      "slide": 11,
+      "text": [
+        "11 / CODEX WORKFLOW",
+        "Build once. Adapt 32 times.",
+        ".json  /  VIDEO SYSTEM                                           11",
+        "01",
+        "Inventory and approve art",
+        "02",
+        "Isolate layered rings",
+        "03",
+        "Create chapter timeline",
+        "04",
+        "Narrate and caption",
+        "05",
+        "Render formats & review",
+        "Starter code includes a working flattened-board motion prototype; real parallax requires layered asset extraction."
+      ]
+    },
+    {
+      "slide": 12,
+      "text": [
+        "12 / PRODUCTION ROADMAP",
+        "Pilot, measure, then scale",
+        ".json  /  VIDEO SYSTEM                                           12",
+        "SPRINT 1",
+        "Lock identity and build one visual template.",
+        "Produce Cold Rice prototype.",
+        "SPRINT 2",
+        "Fashion + To Saigon variants.",
+        "Caption, audio and template QA.",
+        "SPRINT 3",
+        "Test across channels, compare retention",
+        "and qualified chapter traffic.",
+        "The key outcome is qualified reader interest and paid intent—not raw views."
+      ]
+    }
+  ],
+  "scope": "User-provided ideation; not manuscript, approval, release proof or measured business results"
+}

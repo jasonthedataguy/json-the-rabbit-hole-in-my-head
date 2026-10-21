@@ -1,0 +1,41 @@
+{
+  "chapter": "the-23-word-nuclear-warhead",
+  "products": [
+    {
+      "product": "Selected author manuscript",
+      "state": "ready; display spacing only, original attachment retained unchanged",
+      "path": "source/approved.md"
+    },
+    {
+      "product": "Original author attachment",
+      "state": "unchanged intake copy",
+      "path": "source/original.md"
+    },
+    {
+      "product": "Office Battlefield rotating chapter ring",
+      "state": "board-derived digital crop; screen use only",
+      "path": "artwork/portal/office-battlefield-ring-v1.png"
+    },
+    {
+      "product": "Office Battlefield stationary chess centre",
+      "state": "aligned to chapter ring; screen use only",
+      "path": "artwork/portal/office-battlefield-scene-v1.png"
+    },
+    {
+      "product": "Office Battlefield rectangular reading illustration",
+      "state": "key-elements crop; screen use only",
+      "path": "artwork/portal/office-battlefield-spread-v1.webp"
+    },
+    {
+      "product": "Office Battlefield standalone digital chapter",
+      "state": "generated from selected manuscript",
+      "path": "web/index.html"
+    }
+  ],
+  "remaining": [
+    "Separated high-resolution art and printer specifications for certified print production",
+    "Author narration and films",
+    "Social channel packs",
+    "Physical-device and human screen-reader review"
+  ]
+}

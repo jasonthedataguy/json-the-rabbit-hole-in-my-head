@@ -1,0 +1,15 @@
+{
+  "schema_version": "1.0",
+  "story_slug": null,
+  "observed_at": null,
+  "channel": null,
+  "creative_id": null,
+  "post_url": null,
+  "approved_landing_url": null,
+  "campaign": null,
+  "observed": {"reach": null, "views": null, "clicks": null, "engaged_reads": null, "onward_clicks": null, "opt_ins": null, "paid_units": null, "gross_sales_vnd": null, "refunds_vnd": null, "net_sales_vnd": null, "variable_costs_vnd": null, "contribution_vnd": null},
+  "measurement_evidence": [],
+  "attribution_gaps": [],
+  "next_decision": null,
+  "notes": "Unknown is null, not zero. Keep targets in a separate experiment record. Contribution is not operating profit."
+}

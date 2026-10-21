@@ -1,0 +1,40 @@
+{
+  "chapter": "to-mary-jane",
+  "files": [
+    {
+      "path": "chapter.json",
+      "bytes": 1043,
+      "sha256": "6ffd1e12cb9a4065f8e3c6b51e7bec600cc67488e43650e41c51749826a9ed12"
+    },
+    {
+      "path": "docs/PRODUCTS.json",
+      "bytes": 271,
+      "sha256": "6576e02707dec1b3569e12312d3bb01e6872739ba37c59a4d012a0b824392d24"
+    },
+    {
+      "path": "production.json",
+      "bytes": 158,
+      "sha256": "04cca5cbcb7714947f2e115425c3b36fd58203c853d17184364ed8f229b16d7d"
+    },
+    {
+      "path": "README.md",
+      "bytes": 581,
+      "sha256": "7a9b832b05cb59139cd2b59d9bf3e8e3346fc602cb92a9a932ecdec5ebd17a9e"
+    },
+    {
+      "path": "source/approved.md",
+      "bytes": 2455,
+      "sha256": "e2386492c3c52d51af9350274ae223515b205e8ccd9e760e80c9b6fc555548d3"
+    },
+    {
+      "path": "source/outline.md",
+      "bytes": 253,
+      "sha256": "9cd3a29c21edda490d04290743261d6599c27dc5140e3a4ca219a7b86429c809"
+    },
+    {
+      "path": "source/revisions.log",
+      "bytes": 377,
+      "sha256": "09ace0a6c05ea0c6bdda8b51a192691561f59987ddcb185820695848dda6491a"
+    }
+  ]
+}

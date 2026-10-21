@@ -1,0 +1,32 @@
+{
+  "schema_version": 2,
+  "slug": "good-boy",
+  "number": "28",
+  "title": "Office Battlefield - Good Boy",
+  "short_title": "Office Battlefield",
+  "part": 4,
+  "language": "vi",
+  "publish": true,
+  "release_stage": "reader-with-digital-portal",
+  "canonical_text": "source/approved.md",
+  "canonical_path": "#chapter/28",
+  "summary": "Jamin apologizes for the ticket title and public jokes. Jason treats the apology as proof he was right, answers with \"good boy,\" and keeps escalating while David urges him to stop.",
+  "portal": {
+    "scene": "Jason faces an apology letter marked GOOD BOY beside a heavy rubber stamp and office phone, while messages and coworkers circle the desk.",
+    "objects": [
+      "apology letter",
+      "rubber stamp",
+      "office phone",
+      "1:53 clock",
+      "chat messages",
+      "pause symbol"
+    ],
+    "iconKey": "stamp",
+    "motif": "An apology treated as a victory stamp"
+  },
+  "original_edition": null,
+  "production_status": "author-selected full manuscript and board-derived digital portal; print and media pending",
+  "outline_title": "Good Boy",
+  "original_title": "05. Good Boy",
+  "manuscript_sha256": "002e9474456c897d763d9764f2df1ba791ed7ded435f4c95127c30d42d1a1d8a"
+}

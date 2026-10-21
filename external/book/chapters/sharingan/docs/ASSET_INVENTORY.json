@@ -1,0 +1,45 @@
+{
+  "chapter": "sharingan",
+  "files": [
+    {
+      "path": "chapter.json",
+      "bytes": 1111,
+      "sha256": "5e6371846139941ca4023572c9dbb4c234ea5d881c89c0acfc0bf4566653b25f"
+    },
+    {
+      "path": "docs/PRODUCTS.json",
+      "bytes": 268,
+      "sha256": "51d0a35ed42a99f91a3e5bc2d9d74ad1ffa1dce61782231b305c17c5be14d32f"
+    },
+    {
+      "path": "production.json",
+      "bytes": 158,
+      "sha256": "04cca5cbcb7714947f2e115425c3b36fd58203c853d17184364ed8f229b16d7d"
+    },
+    {
+      "path": "README.md",
+      "bytes": 575,
+      "sha256": "4db84ea26b5c8d8e7a6205835a7e699293ae9c444a8246e553cd084e17e6ebd1"
+    },
+    {
+      "path": "source/approved.md",
+      "bytes": 15721,
+      "sha256": "3f5c3c163445a539abbcc44e09d7aba3e316f85d7edd3166d166afa242f933da"
+    },
+    {
+      "path": "source/author-submission-2026-10-20.txt",
+      "bytes": 16036,
+      "sha256": "04d2efcb018c6a1873a6f6f75f87b06fb3c3656c30da26feab4e3307a8e957f1"
+    },
+    {
+      "path": "source/outline.md",
+      "bytes": 408,
+      "sha256": "1047b65d9f9af8d236b7a6265abb07b17cba4cc71fe6660a255abdf80c44085c"
+    },
+    {
+      "path": "source/revisions.log",
+      "bytes": 482,
+      "sha256": "d008a2191edd9411ffbee4152bbab599a87706602624f55774054e8a63a640a3"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "schema_version": 2,
+  "slug": "the-payoff-matrix",
+  "number": "25",
+  "title": "Office Battlefield - The Payoff Matrix",
+  "short_title": "Office Battlefield",
+  "part": 4,
+  "language": "vi",
+  "publish": true,
+  "release_stage": "reader-with-digital-portal",
+  "canonical_text": "source/approved.md",
+  "canonical_path": "#chapter/25",
+  "summary": "After scoring two workplace jokes with AI, Jason models their exchange as a payoff matrix. The numbers and game-theory vocabulary make his retaliatory message feel like proof that he has won.",
+  "portal": {
+    "scene": "Jason holds a phone before a scored payoff table over a chessboard; AI, coworkers, paths and office objects fill the surrounding ring.",
+    "objects": [
+      "payoff table",
+      "scorecards",
+      "chessboard",
+      "AI agent",
+      "phone",
+      "office desks"
+    ],
+    "iconKey": "matrix",
+    "motif": "The score as proof"
+  },
+  "original_edition": null,
+  "production_status": "author-selected full manuscript and board-derived digital portal; print and media pending",
+  "outline_title": "The Payoff Matrix",
+  "original_title": "02. The Payoff Matrix",
+  "manuscript_sha256": "df619212308c5a4b1e1cf843d81245e66d1d186e288cfe8f688ea4cbf9a0c1c4"
+}

@@ -1,0 +1,29 @@
+{
+  "schema_version": 2,
+  "slug": "vo-mong",
+  "number": "12",
+  "title": "Disillusionment",
+  "short_title": "Disillusionment",
+  "part": 2,
+  "language": "vi",
+  "publish": true,
+  "release_stage": "reader-with-digital-portal",
+  "canonical_text": "source/approved.md",
+  "canonical_path": "#chapter/12",
+  "summary": "Từ ông già Noel đến những quả dâu tây chua, Jason nhận ra sự vỡ mộng đôi khi nằm ở khoảng cách giữa điều mình mong đợi và điều mình thực sự nếm trải.",
+  "portal": {
+    "scene": "A fading childhood holiday decoration hangs above an ordinary roof and a small lit window.",
+    "objects": [
+      "paper star",
+      "gift box",
+      "window light"
+    ],
+    "iconKey": "star",
+    "motif": "The paper star"
+  },
+  "original_edition": null,
+  "production_status": "author-selected full manuscript and digital-book portal; standalone, print and media pending",
+  "outline_title": "Vỡ mộng",
+  "original_title": "Vỡ mộng",
+  "manuscript_sha256": "51e9003460647c55ca03b16dcdc9cb6d90bdcd13f8f87245410d879ed8b788fd"
+}

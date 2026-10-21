@@ -1,0 +1,76 @@
+﻿id,stream,title,owner,priority,status,dependencies,acceptance
+E01,Editorial,"Archive original chapter verbatim, including 2025/10/07 signature",Editor,P0,PROOF,,Original remains available in the supplied conversation; a private byte-for-byte source file is still needed
+E02,Editorial,"Confirm chapter working number, part and slug",Jason,P0,TODO,E01,"Set provisional #01, stable slug viet-cho-sai-gon-cua-t, choose final book section"
+E03,Editorial,Map timeline and ages without inserting new dates,Editor,P0,TODO,E01,Source-grounded timeline from arrival at 26 through 2025/10/07; flag unknown dates
+E04,Editorial,Prepare literary edit with natural Vinglish voice,Editor,P0,TODO,"E01,E03","Full revised chapter, no invented events or dialogue, preserve jokes and self-criticism"
+E05,Editorial,Create line-by-line change notes,Editor,P1,TODO,E04,"Cuts, moved material, vulnerable statements and strongest retained passages documented"
+E06,Editorial,Preserve emotional arc and Ba Son opening/ending,Editor,P0,TODO,E04,"Belonging remains a question, not a motivational slogan"
+E07,Editorial,"Verify brands, jobs, offer chronology and financial disclosures",Jason,P0,BLOCKED,E03,Confirm factual accuracy of Grab/Masan/work changes and whether exact numbers are approved for publication
+E08,Editorial,Review real people's identifiers and sensitive histories,Jason,P0,BLOCKED,E01,"Consent/anonymization decision for colleague, new partner, Lily, friends, workplaces and trauma detail"
+E09,Editorial,Review drug-use passages and self-characterizations for fairness,Jason,P0,BLOCKED,"E04,E08",Intentional inclusion with no glamorizing or unnecessary identification; avoid diagnostic certainty about avoidant attachment
+E10,Editorial,Select canonical version and sign off public excerpt,Jason,P0,BLOCKED,"E04,E07,E08,E09",Explicit approve exact text and selected preview paragraphs; not inferred from art approval
+E11,Editorial,Freeze v1.0 metadata and source hash,Editor,P1,BLOCKED,E10,"Approved chapter, provenance, date and revision hash captured"
+A01,Visual identity,Select Landmark picnic cover motif,Jason,P0,PROOF,,User selected retro screen-print concept based on two photos of companion and Gấu
+A02,Visual identity,Define distinct Sài Gòn palette,Art director,P0,READY,A01,"Overcast pearl, picnic blue, lawn olive, coral dusk, peach, dark ink and paper cream specified"
+A03,Visual identity,Clear use of identifiable companion from reference photos,Jason,P0,BLOCKED,A01,"Explicit consent for portrait-based artwork publication, or anonymous/generic alternative"
+A04,Visual identity,Approve Gấu likeness and visible background details,Jason,P0,BLOCKED,A01,"Dog, pink cap, gingham blanket and Landmark silhouette reviewed for accuracy/privacy"
+A05,Visual identity,Prepare cover master with textless art layer,Designer,P0,TODO,"A03,A04",Editable original scene without embedded headline/credits
+A06,Visual identity,Design rough-print surface and independent typographic layer,Designer,P1,TODO,A05,"1970s indie screenprint mood, original artwork not copied from album; Vietnamese glyph proof"
+A07,Visual identity,Create six scene illustrations,Illustrator,P1,TODO,"E03,A06","Ba Son arrival, career detour, farewell, team/friends, Christmas, Landmark picnic all source-grounded"
+A08,Visual identity,Illustrate Christmas cookies and 12 grapes miniatures,Illustrator,P1,TODO,"E04,A06",Gấu's biscuits and under-table grapes: no invented dialogue/identifiable face
+A09,Visual identity,Make original Ba Son bridge city panorama,Illustrator,P1,TODO,"E03,A06","Grounded silhouette, no fabricated real photograph; suitable page divider"
+A10,Visual identity,Export A5 art at print dimensions,Designer,P0,BLOCKED,"A05,A06","Vendor-approved print color, 300ppi effective size, bleed and layered master"
+A11,Visual identity,Export responsive web and social crops,Designer,P1,TODO,"A05,A06","WebP/PNG optimized, desktop/mobile, 1080x1440 and 1080x1920 with alt text"
+A12,Visual identity,Obtain approval of whole visual family,Jason,P0,BLOCKED,"A07,A08,A09,A10,A11",Confirm creative fidelity and rights for every depicted person/object
+B01,Book / PDF,Design illustrated A5 master grid,Book designer,P1,TODO,A01,"A5 148x210mm with inner gutter, readable serif, chapter opener and restrained margins"
+B02,Book / PDF,Compose complete proposed prose and 3–6 illustrations,Book designer,P0,BLOCKED,"E04,B01,A07","No clipping, consistent full chapter text, no filler, opening/closing Ba Son echo"
+B03,Book / PDF,Design optional memory-file mini insert,Book designer,P2,TODO,"E04,B01","Small editorial appendix enriches story, no spoilers in body and no fake metadata"
+B04,Book / PDF,Produce A5 illustrated editorial proof PDF,Book designer,P0,BLOCKED,B02,"PDF renders correctly page-by-page, proper Vietnamese glyphs and visual balance"
+B05,Book / PDF,Conduct independent text/page proofread,QA,P0,BLOCKED,"B04,E10",Proof matches canonical text and no missing/duplicated paragraphs
+B06,Book / PDF,"Confirm printer specs, binding, paper and quotation",Jason / Printer,P0,BLOCKED,B04,Written trim/gutter/bleed/color/profile/PDF-X specs obtained
+B07,Book / PDF,Generate permanent chapter QR only after canonical URL,Engineer,P1,BLOCKED,"W11,B06",Scannable QR to durable chapter URL tested on iOS/Android cellular
+B08,Book / PDF,Export press-ready PDF/X with embedded fonts,Book designer,P0,BLOCKED,"B05,B06,B07,A12","Vendor preflight passes, final approved art and bleeds; not just A5 proof"
+B09,Book / PDF,Physical proof and signoff,Jason / Printer,P0,BLOCKED,B08,"Printed color, margins, QR, legibility and binding approved"
+W01,Web & artifact,Create stable chapter data contract,Engineer,P0,TODO,E02,"Slug, working number, source, privacy release flags, art inventory and version states"
+W02,Web & artifact,Build hero and accessible long-form reader,Engineer,P0,TODO,"W01,A05,E10",Desktop/mobile polished page; full public prose only after approval
+W03,Web & artifact,Build non-geographic emotional journey map,Engineer,P0,TODO,"E03,W01","Seven-to-nine source-grounded narrative nodes, no private location pins"
+W04,Web & artifact,Attach accurate artifact annotation per journey stop,Editor,P1,TODO,"E04,W03",Each memory caption text-backed; invented dialogue prohibited
+W05,Web & artifact,Make interactive journey timeline with click/tap nodes,Engineer,P0,TODO,"W03,W04","Keyboard accessible, live-region feedback, reduced motion, no fake probabilities"
+W06,Web & artifact,Add photographic scrapbook mode with consent logic,Engineer,P1,BLOCKED,"A03,A12,W02",Original photo only after consent; otherwise display approved illustrative adaptation
+W07,Web & artifact,Build artifact: city-as-version-history,Engineer,P1,TODO,"E04,W03","Career, community and relationship transitions shown as reflective commits without gamification"
+W08,Web & artifact,Add optional ambient Saigon audio,Sound designer,P2,BLOCKED,W02,"Original or licensed ambience; clearly labeled, no autoplay"
+W09,Web & artifact,Create teaser-safe public preview and protected full text policy,Engineer,P0,TODO,"E08,W01","Public teaser independent of private draft, no accidental leaking in JSON or HTML"
+W10,Web & artifact,"Test accessibility, device widths and performance",QA,P0,BLOCKED,"W02,W05","390/820/1440px, WCAG basics, alt text, keyboard, reduced motion and mobile speed"
+W11,Web & artifact,"Approve URL, deploy to HTTPS and verify",Engineer / Jason,P0,BLOCKED,"W09,W10,E10,A12","Public release specifically approved; exact commit, deployed prose and links checked"
+W12,Web & artifact,Publish chapter QR in book only after live tests,QA,P1,BLOCKED,"W11,B07",Scan final QR on phones over mobile data to exact chapter
+V01,Video / audio,Write 6–8 beat film storyboard,Video editor,P0,TODO,"E03,A01",Ba Son arrival → lost career bet → search for home → Landmark & Gấu → return to city
+V02,Video / audio,Write 45–75s narrator discovery script,Writer,P0,TODO,"E04,V01","Source-grounded teaser, authentic Vietnamese/Vinglish and unchanged emotional tone"
+V03,Video / audio,Write 2–4min essay-film outline,Writer,P2,TODO,V01,Optional longer story distinct from Short; no fictional reenacted dialogue
+V04,Video / audio,Create 9:16 poster-led animatic,Motion designer,P1,TODO,"V01,A07","Playable rough cut, honest status; artwork and captions not fabricated as completed"
+V05,Video / audio,Record own/consented voiceover,Jason / Audio,P0,BLOCKED,V02,"Narrator audio, rights, clean recording, chosen language and natural pace"
+V06,Video / audio,Produce audio mix with licensed sound and captions,Video editor,P0,BLOCKED,"V04,V05","Speech intelligible, timed Vietnamese SRT/VTT, no music copyright issues"
+V07,Video / audio,Export master vertical 1080x1920,Video editor,P0,BLOCKED,"V06,A12","H.264 9:16, readable safe-zones, audible voice, timed caption track"
+V08,Video / audio,"Prepare separate 15s teaser, cover thumbnail",Video editor,P1,BLOCKED,V07,Matching vertical cover and 15s teaser cut
+V09,Video / audio,Produce optional long-form 16:9 YouTube essay,Video editor,P2,BLOCKED,"V03,V05,A12","Separate storyboard with horizontal composition, not stretched short"
+V10,Video / audio,Phone playback QA + synthetic disclosure,QA,P0,BLOCKED,V07,"Android/iOS title-safe, captions, licensing, audio and image rights checked"
+S01,Social & growth,Define organic launch narrative and spoiler policy,Marketing,P0,TODO,"E04,E08","Memory-first, not brand campaign; do not reveal intimate private arcs without consent"
+S02,Social & growth,Design 5-card Instagram 3:4 carousel,Designer,P1,TODO,"A11,S01","1080x1440 each; Landmark, Ba Son, career, community, ending"
+S03,Social & growth,Write Instagram post and alt text,Writer,P1,TODO,"S02,E10","Source-based caption, no intimate spoilers, consent-cleared portrait"
+S04,Social & growth,Produce 9:16 Instagram Reel adaptation,Video editor,P1,BLOCKED,V07,Final narrated master recut with IG safe zones and caption
+S05,Social & growth,"Produce 9:16 TikTok video, title and cover",Video editor,P1,BLOCKED,V07,"1080x1920, original hook, no clickbait, approved release"
+S06,Social & growth,Produce 9:16 YouTube Short title and description,Writer,P1,BLOCKED,"V07,W11","Final video, working website CTA and correct content disclosures"
+S07,Social & growth,Draft standalone Facebook reflection and visual,Writer,P1,TODO,"S01,A11","Personal essay-style caption, 1 landscape/photo-appropriate artwork and link placeholder"
+S08,Social & growth,Design 3 Instagram story cards & chapter highlight,Designer,P2,TODO,S02,"Behind-the-scenes, safe release only, 1080x1920"
+S09,Social & growth,"Prepare creator bio, playlist/handle consistency",Marketing,P2,TODO,S01,"Same identity across channels, verify handle availability, no invented accounts"
+S10,Social & growth,"Verify account access, schedule and publish",Jason / Marketing,P0,BLOCKED,"S03,S04,S05,S06,S07,W11","Verified post URLs + timestamps, author account permissions and final approvals"
+S11,Social & growth,Collect 5 reader feedback interviews,Jason,P1,BLOCKED,W11,"Obtain qualitative feedback on emotional resonance vs. overexplaining, with permission"
+R01,Rights / QA / launch,Record author vs third-party ownership of all source photos,Jason,P0,BLOCKED,A03,Exact photograph origins and depiction consent; no public upload until rights clear
+R02,Rights / QA / launch,Review safety/sensitive content and real employer references,Jason / Editor,P0,BLOCKED,"E08,E09","Decide anonymization, avoid misleading implication re identifiable coworkers' drug use or private history"
+R03,Rights / QA / launch,Audit factual claims and city landmarks,Editor,P1,TODO,E07,"Names, sequence and locations checked only for claims retained"
+R04,Rights / QA / launch,Create source and media credits register,Producer,P1,TODO,"R01,A07,V06","Asset owner, source, licenses, AI/reconstruction notes, release consent stored"
+R05,Rights / QA / launch,Build per-format QA evidence and issue list,QA,P0,TODO,"B04,W10,V10","PDF pages, mobile captures, video specs, social dimensions, artifacts and license log"
+R06,Rights / QA / launch,Validate purchase experience stays separate from free archive,Product,P2,TODO,W02,"Book primary, artifacts optional, no premature paywall or unsupported claims"
+R07,Rights / QA / launch,Create Git branch and draft PR with board only,Engineer,P0,TODO,E01,Existing published Cơm nguội/Expected_utility unchanged; public docs contain no sensitive manuscript or photo
+R08,Rights / QA / launch,Import public-ready binary art and previews after consent,Engineer,P0,BLOCKED,"A03,R01,R07",Separate approval for poster portrait and source photos; no automatic merge
+R09,Rights / QA / launch,Complete prerelease signoff: go / revise / hold,Jason,P0,BLOCKED,"E10,A12,B09,W11,V10,S10,R05",Checklist all P0 blockers resolved and signed review decision
+R10,Rights / QA / launch,Pilot with 5–10 readers before monetization claims,Product,P1,BLOCKED,R09,"Reader completion, artifact usefulness and realistic cost feedback documented"

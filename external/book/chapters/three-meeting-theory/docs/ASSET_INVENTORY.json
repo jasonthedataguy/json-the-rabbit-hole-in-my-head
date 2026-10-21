@@ -1,0 +1,895 @@
+{
+  "chapter": "three-meeting-theory",
+  "files": [
+    {
+      "path": "artwork/exports/hero.jpg",
+      "bytes": 271069,
+      "sha256": "a5547c4b63d809f4f2863a49f408ed9c0291ba104d765bb0ad03114083c6b0b3"
+    },
+    {
+      "path": "artwork/exports/poster-9x16.jpg",
+      "bytes": 269977,
+      "sha256": "6bf3bf1ffbadf7e3cecd6f12970e63b91d70e00d2ea6ee60176c39af96bc2fb0"
+    },
+    {
+      "path": "artwork/portal/three-meeting-cover-scene-v2.png",
+      "bytes": 1097589,
+      "sha256": "3518ae13e3c8d68d844c12e322123e60ba9b7fa694a5a8356ac1595cff1e6cae"
+    },
+    {
+      "path": "artwork/portal/three-meeting-portal-v2.png",
+      "bytes": 1348520,
+      "sha256": "056744edffcd57b195fb40afab7816528864208016aa0a7c428aaa0c0ae3e4c8"
+    },
+    {
+      "path": "artwork/portal/three-meeting-ring-v2.png",
+      "bytes": 1541101,
+      "sha256": "cb3c567612b843ad7c42b372a341cc6cf3e12ec96b69ac7446f203d93fe0f6e3"
+    },
+    {
+      "path": "artwork/portal/three-meeting-scene-v2.png",
+      "bytes": 1180022,
+      "sha256": "1cd9fae942ce5820d5dd2118d91ffc049ccf4ffc8bea18a21f3b70e00d377b3b"
+    },
+    {
+      "path": "artwork/portal/three-meeting-spread-v2.webp",
+      "bytes": 159882,
+      "sha256": "73be9ccef0b7b11ed05fbccac7c1341f7af5717e478eaaf0775d75d8ad76758d"
+    },
+    {
+      "path": "artwork/scenes/city.jpg",
+      "bytes": 128678,
+      "sha256": "0fd37a5863c35d6dadf9081a3ef91b1dc0eb6f4e09b0fccf25e8f45eb99cc785"
+    },
+    {
+      "path": "artwork/scenes/first.jpg",
+      "bytes": 119263,
+      "sha256": "96f5b8d4999398a35de85c637b0406e0c5f006e69486a150b9a1f4fa189cf641"
+    },
+    {
+      "path": "artwork/scenes/index.json",
+      "bytes": 2071,
+      "sha256": "0e95f5ceaf5ee88004b734f9aa24e1074d4aa6f6abb65575a4c3c00b261f865c"
+    },
+    {
+      "path": "artwork/scenes/second.jpg",
+      "bytes": 109084,
+      "sha256": "3b92f5bb1cc3f4a8201d167b5b53e518f680f1e8e9704e7e3c10b191756fe0f8"
+    },
+    {
+      "path": "artwork/scenes/third.jpg",
+      "bytes": 120982,
+      "sha256": "489a23c11a51271eaee3ef42e9af04908cd1ace646eba95cc4f7c22099c5537f"
+    },
+    {
+      "path": "artwork/scenes/yellow.jpg",
+      "bytes": 119328,
+      "sha256": "a7a8e20e2b5cac092251d16a25b8019eab729f895656a881ca374fe418b0e993"
+    },
+    {
+      "path": "artwork/source/00_approved_project_board.jpg",
+      "bytes": 711243,
+      "sha256": "d503a47490d7c4e09470f06099192f9d4f16a03f9d30fff4619bc2af8781b680"
+    },
+    {
+      "path": "artwork/source/01_cover_wide.jpg",
+      "bytes": 202415,
+      "sha256": "32852ab96d4286e96c3052f811491be98a56c692fbd4b2cf69cc1bebbc6f9e16"
+    },
+    {
+      "path": "artwork/source/02_first_meeting.jpg",
+      "bytes": 119213,
+      "sha256": "3c0b8ae500720a1682863799010a71a829f7f556f557794a104d440521e6927c"
+    },
+    {
+      "path": "artwork/source/03_second_meeting.jpg",
+      "bytes": 111009,
+      "sha256": "99cf544c7f730381c1bad4ada5ef1c1e9702f2812010f2174cf452f3d5ddf168"
+    },
+    {
+      "path": "artwork/source/04_third_meeting.jpg",
+      "bytes": 121873,
+      "sha256": "57b33709200f8bbe55d040c6ff0d10ccc9676620751261c48156f905a2b5b86d"
+    },
+    {
+      "path": "artwork/source/05_city_bridge.jpg",
+      "bytes": 127382,
+      "sha256": "b83ca2b8b9a6c0a46224fb0183b76004bc2e20d82f5da946be6c84efd4974b96"
+    },
+    {
+      "path": "artwork/source/06_yellow_dress.jpg",
+      "bytes": 155441,
+      "sha256": "12f0ec74980a4603c282e237b2651d2bafae499e67f9ccbfa507f0a758c69bec"
+    },
+    {
+      "path": "artwork/source/07_night_city.jpg",
+      "bytes": 96006,
+      "sha256": "ef6127b84214ba2e80ea48f045e036d9eae4b4fbea73677461682477057ef01a"
+    },
+    {
+      "path": "artwork/source/08_pastry.jpg",
+      "bytes": 88564,
+      "sha256": "4442df27adabf633fb7b49acf50a9373b9c170f8675ec61bfceed97453b3dd51"
+    },
+    {
+      "path": "artwork/source/09_sunflowers.jpg",
+      "bytes": 108486,
+      "sha256": "b0bd852770f642175a1b938bac01128f34ae9c003fbcf9e9a03077eea9170d84"
+    },
+    {
+      "path": "artwork/source/10_cover_portrait.jpg",
+      "bytes": 469550,
+      "sha256": "abbe266408242f4037723ef1a794be954c9521721026f60070b072b238fe1b26"
+    },
+    {
+      "path": "artwork/source/11_meeting_01_card.jpg",
+      "bytes": 196632,
+      "sha256": "92dc852df37843b151ec56ce8a1471e872ef8a880ccbe71b4317f5031dae6bab"
+    },
+    {
+      "path": "artwork/source/11_meeting_02_card.jpg",
+      "bytes": 179958,
+      "sha256": "4b19239c07bf9d72bedd87d76718c1f13656596dd95eab16352c5b222da5e958"
+    },
+    {
+      "path": "artwork/source/11_meeting_03_card.jpg",
+      "bytes": 226185,
+      "sha256": "c33d1b73003ad49e35f8af861aa1cea69eab828fc225e63bb7390e760384bd99"
+    },
+    {
+      "path": "audio/ambience.wav",
+      "bytes": 768044,
+      "sha256": "58ce472e18e95cfa5c9b3e5c29a495f3f620a995590e3bdb3cfa7f26df91257e"
+    },
+    {
+      "path": "audio/discovery-9x16-script.md",
+      "bytes": 492,
+      "sha256": "308661ef57920f172be8aba391f1178124ea57aaf345193eacc9867430f941f2"
+    },
+    {
+      "path": "audio/NARRATION.md",
+      "bytes": 360,
+      "sha256": "d889704a7127dd48e9111c25ac83286fe8d0e67e928516d2941f971ff2e11379"
+    },
+    {
+      "path": "audio/reading-script.md",
+      "bytes": 2839,
+      "sha256": "b5b27a3d38118db90eb440f12b095a44fc66a73e631e7ca1f5f232b4c65651c2"
+    },
+    {
+      "path": "audio/RECORDING_HANDOFF.md",
+      "bytes": 340,
+      "sha256": "50361aba52bd720ce7027bfd4f222eb01419397e332f72f51c3b85042441780c"
+    },
+    {
+      "path": "book/15_Three_Meeting_Theory_A4_POSTER_PROOF.pdf",
+      "bytes": 588634,
+      "sha256": "d5675a91282d12e26fcaa214c25c9a0b5423efcefa2741e153c80228417e8669"
+    },
+    {
+      "path": "book/15_Three_Meeting_Theory_A5_EDITORIAL_PROOF.pdf",
+      "bytes": 1398767,
+      "sha256": "a26a61b7543e0abff43ff738d1fff79f54c1456034798033db9b9dc5e79ada6e"
+    },
+    {
+      "path": "chapter.json",
+      "bytes": 1430,
+      "sha256": "857a9212e415d783050128550502fa567f297d235b72286007f283ef8f55fb66"
+    },
+    {
+      "path": "docs/BROWSER_QA.json",
+      "bytes": 705,
+      "sha256": "0ec58beb2994af4e6a78533421e8e43500e6f33419a6afdfc4ffe23b1e5ddec1"
+    },
+    {
+      "path": "docs/CHECKLIST_REVIEW.csv",
+      "bytes": 12729,
+      "sha256": "13ab7b6e1e35322b09e306ab5bcca5e33b2f5bdbd2ddd55d68d78cb7940dd961"
+    },
+    {
+      "path": "docs/CHECKLIST_REVIEW.json",
+      "bytes": 34573,
+      "sha256": "6797548166869d58bcb739ec91b9c2accd71df206427f6325aa0b5c4c9524b01"
+    },
+    {
+      "path": "docs/CHECKLIST_REVIEW.md",
+      "bytes": 14733,
+      "sha256": "ff2d3c05689e516e7c448cb2455004f214ccfca163ae89598572f5305f403cdc"
+    },
+    {
+      "path": "docs/DESIGN_ADAPTATION.md",
+      "bytes": 1670,
+      "sha256": "e4eb0aad5b855f8fdb7c7feb6d40b8f273b8eec6230e3f378899a8d0dbd51bd6"
+    },
+    {
+      "path": "docs/INVENTORY.json",
+      "bytes": 16980,
+      "sha256": "c7e612f88d7dc982971b2832a320e0e2efac76af53408f2149ca739f34a9a298"
+    },
+    {
+      "path": "docs/MEDIA_QA.json",
+      "bytes": 5848,
+      "sha256": "366ba1b060841adad8e822010063ff9af1141a57593fb048e02ed55accbf3f83"
+    },
+    {
+      "path": "docs/PRODUCT_SET.md",
+      "bytes": 2966,
+      "sha256": "c5899f915c3eccb1a55a6cf7d9da24fd48f7faa0c4e4bbaf7dc3a48772a9abe5"
+    },
+    {
+      "path": "docs/PRODUCTS.json",
+      "bytes": 3596,
+      "sha256": "814d89cc3074a3dae6299872b01012567925bd58b974abd8839a3daee64f6eb6"
+    },
+    {
+      "path": "docs/REFERENCE_IMPORT.json",
+      "bytes": 12275,
+      "sha256": "57e2d13cce035c227420d1467055f4a2d63c160a0e64cbd4d56d914613341e51"
+    },
+    {
+      "path": "previews/board_desktop.png",
+      "bytes": 87433,
+      "sha256": "436804d2f278ab33b003bc092b179a734970ca1139fab4835fbebaeec33da713"
+    },
+    {
+      "path": "previews/board_mobile.png",
+      "bytes": 58025,
+      "sha256": "efe159963cfd36e0791eef19b304994d845a02df11e6fcff24f7a501bfc3cf3f"
+    },
+    {
+      "path": "previews/book.jpg",
+      "bytes": 183807,
+      "sha256": "8c9247d28a74d1b3f6c223d7afa5f9fc568152b606dbe755a939434708ee5240"
+    },
+    {
+      "path": "previews/interactive-1440.png",
+      "bytes": 215285,
+      "sha256": "7ed56192351238e8e285353e676b42d147393b0e21a815052e2b2c3ceebabe7c"
+    },
+    {
+      "path": "previews/interactive-390.png",
+      "bytes": 147751,
+      "sha256": "540abbef3d2596413095c4675b4297882f460a83935c652a33e660953fd0023e"
+    },
+    {
+      "path": "previews/PDF_CONTACT_SHEET.jpg",
+      "bytes": 182067,
+      "sha256": "20b921420d1361e2aa9a3902bf9471eaf88ed92e1edea6526a63fa1028f49a71"
+    },
+    {
+      "path": "previews/pdf_pages/page-1.png",
+      "bytes": 420384,
+      "sha256": "0fc186957ca5394a80b6bab4a0bc28be337022edff4922a0b34a8b6b687a0f3a"
+    },
+    {
+      "path": "previews/pdf_pages/page-2.png",
+      "bytes": 81738,
+      "sha256": "a89dd01f55f07475d8dcf616900f83f6021764e0aa683249e7f3c0cbc4ec96c7"
+    },
+    {
+      "path": "previews/pdf_pages/page-3.png",
+      "bytes": 181590,
+      "sha256": "ac7f707e27f0b3edb4fb78abdd85e93f7b889dff4afa764d883920f90c0a7090"
+    },
+    {
+      "path": "previews/pdf_pages/page-4.png",
+      "bytes": 169669,
+      "sha256": "bc5b2c703185b9e419b7f68f78797a5b73ef74d686557175507cb72add836b3c"
+    },
+    {
+      "path": "previews/pdf_pages/page-5.png",
+      "bytes": 143690,
+      "sha256": "0896a7c05b907b6d22900ce1b0a47d44dd673ae2fc6f2fc301fc67f25a654179"
+    },
+    {
+      "path": "previews/product-board.jpg",
+      "bytes": 897295,
+      "sha256": "c43bb29ce287778f17549a7ce6d09ffd3ccb22d09c7e71472d4e50348fd247a3"
+    },
+    {
+      "path": "previews/social.jpg",
+      "bytes": 135978,
+      "sha256": "0c2533b4b20d6a30b9674c373e2fd25747d2f8287d6ad945602cc9305ae5ecee"
+    },
+    {
+      "path": "previews/video-frames.jpg",
+      "bytes": 170081,
+      "sha256": "2ec9843db9056ee87ecd4129134eff9a4efec17cd97e5f55370e649067119000"
+    },
+    {
+      "path": "previews/web-1440.png",
+      "bytes": 1117269,
+      "sha256": "be3924465ef59fe2c0d351e4929db3bf86d022a4908a8e12821d5c9ae9e80246"
+    },
+    {
+      "path": "previews/web-390.png",
+      "bytes": 279914,
+      "sha256": "632ed0919fce57c51af40cd7c1580dc9a91d8416a87787826778c75eb8c3b62e"
+    },
+    {
+      "path": "previews/website_desktop.png",
+      "bytes": 274724,
+      "sha256": "f7ab6397e48b7af67e60820b5c9b929571d3a773f74a14f155635063b88a9631"
+    },
+    {
+      "path": "previews/website_mobile.png",
+      "bytes": 177777,
+      "sha256": "57ef0d9c14a00775939ca1c6a3178196d5fc4c6eaecf6745c0b55588fbf7b1b4"
+    },
+    {
+      "path": "production.json",
+      "bytes": 1905,
+      "sha256": "09600acc977700c7cfaf001a4ca3f31600f358d1014de7e27136aba5675c7916"
+    },
+    {
+      "path": "README.md",
+      "bytes": 950,
+      "sha256": "b1e6e0c68a1ec89b8d1f350222e688ebcdcad0c35b8394d852308e5bc90c0607"
+    },
+    {
+      "path": "references/original-edition/approved.md",
+      "bytes": 2839,
+      "sha256": "b5b27a3d38118db90eb440f12b095a44fc66a73e631e7ca1f5f232b4c65651c2"
+    },
+    {
+      "path": "references/original-edition/chapter-checkout.json",
+      "bytes": 1914,
+      "sha256": "9bbf37d66713737faa3da10707b5470ba3f3a2567dc6dcda0b78fd6a767523fc"
+    },
+    {
+      "path": "references/original-edition/chapter.json",
+      "bytes": 1863,
+      "sha256": "99e3b2d98311aba1d7c63add5ec754b073d8a22314957c8d83f2f71437f16695"
+    },
+    {
+      "path": "references/original-edition/README.md",
+      "bytes": 1580,
+      "sha256": "ae3720afc9de1fe69c9a484486c0cc7f5622976a5545059a725bf706e6562ab7"
+    },
+    {
+      "path": "references/three-meeting-v01/art/00_approved_project_board.jpg",
+      "bytes": 711243,
+      "sha256": "d503a47490d7c4e09470f06099192f9d4f16a03f9d30fff4619bc2af8781b680"
+    },
+    {
+      "path": "references/three-meeting-v01/art/01_cover_wide.jpg",
+      "bytes": 202415,
+      "sha256": "32852ab96d4286e96c3052f811491be98a56c692fbd4b2cf69cc1bebbc6f9e16"
+    },
+    {
+      "path": "references/three-meeting-v01/art/02_first_meeting.jpg",
+      "bytes": 119213,
+      "sha256": "3c0b8ae500720a1682863799010a71a829f7f556f557794a104d440521e6927c"
+    },
+    {
+      "path": "references/three-meeting-v01/art/03_second_meeting.jpg",
+      "bytes": 111009,
+      "sha256": "99cf544c7f730381c1bad4ada5ef1c1e9702f2812010f2174cf452f3d5ddf168"
+    },
+    {
+      "path": "references/three-meeting-v01/art/04_third_meeting.jpg",
+      "bytes": 121873,
+      "sha256": "57b33709200f8bbe55d040c6ff0d10ccc9676620751261c48156f905a2b5b86d"
+    },
+    {
+      "path": "references/three-meeting-v01/art/05_city_bridge.jpg",
+      "bytes": 127382,
+      "sha256": "b83ca2b8b9a6c0a46224fb0183b76004bc2e20d82f5da946be6c84efd4974b96"
+    },
+    {
+      "path": "references/three-meeting-v01/art/06_yellow_dress.jpg",
+      "bytes": 155441,
+      "sha256": "12f0ec74980a4603c282e237b2651d2bafae499e67f9ccbfa507f0a758c69bec"
+    },
+    {
+      "path": "references/three-meeting-v01/art/07_night_city.jpg",
+      "bytes": 96006,
+      "sha256": "ef6127b84214ba2e80ea48f045e036d9eae4b4fbea73677461682477057ef01a"
+    },
+    {
+      "path": "references/three-meeting-v01/art/08_pastry.jpg",
+      "bytes": 88564,
+      "sha256": "4442df27adabf633fb7b49acf50a9373b9c170f8675ec61bfceed97453b3dd51"
+    },
+    {
+      "path": "references/three-meeting-v01/art/09_sunflowers.jpg",
+      "bytes": 108486,
+      "sha256": "b0bd852770f642175a1b938bac01128f34ae9c003fbcf9e9a03077eea9170d84"
+    },
+    {
+      "path": "references/three-meeting-v01/art/10_cover_portrait.jpg",
+      "bytes": 469550,
+      "sha256": "abbe266408242f4037723ef1a794be954c9521721026f60070b072b238fe1b26"
+    },
+    {
+      "path": "references/three-meeting-v01/art/11_meeting_01_card.jpg",
+      "bytes": 196632,
+      "sha256": "92dc852df37843b151ec56ce8a1471e872ef8a880ccbe71b4317f5031dae6bab"
+    },
+    {
+      "path": "references/three-meeting-v01/art/11_meeting_02_card.jpg",
+      "bytes": 179958,
+      "sha256": "4b19239c07bf9d72bedd87d76718c1f13656596dd95eab16352c5b222da5e958"
+    },
+    {
+      "path": "references/three-meeting-v01/art/11_meeting_03_card.jpg",
+      "bytes": 226185,
+      "sha256": "c33d1b73003ad49e35f8af861aa1cea69eab828fc225e63bb7390e760384bd99"
+    },
+    {
+      "path": "references/three-meeting-v01/book/15_Three_Meeting_Theory_A4_POSTER_PROOF.pdf",
+      "bytes": 588634,
+      "sha256": "d5675a91282d12e26fcaa214c25c9a0b5423efcefa2741e153c80228417e8669"
+    },
+    {
+      "path": "references/three-meeting-v01/book/15_Three_Meeting_Theory_A5_EDITORIAL_PROOF.pdf",
+      "bytes": 1398767,
+      "sha256": "a26a61b7543e0abff43ff738d1fff79f54c1456034798033db9b9dc5e79ada6e"
+    },
+    {
+      "path": "references/three-meeting-v01/docs/chapter_metadata.json",
+      "bytes": 912,
+      "sha256": "5210877f929150d2d3dda3e0adfd6778f04acc76db2f7c111a00b242f749edae"
+    },
+    {
+      "path": "references/three-meeting-v01/docs/CHECKLIST.csv",
+      "bytes": 9263,
+      "sha256": "a91fc707f61e2b0e82998e2ef10eda3a7243f3ac24459689c1ab63fb87ad220c"
+    },
+    {
+      "path": "references/three-meeting-v01/docs/PROJECT_BOARD.html",
+      "bytes": 20295,
+      "sha256": "641c8fa6e2d8ae3d478734600aeec3fd10f4d256900d8cbd9136be4dc8e0b4ef"
+    },
+    {
+      "path": "references/three-meeting-v01/docs/PROJECT_BOARD.md",
+      "bytes": 7513,
+      "sha256": "cd095025f56eda827fbdc2c40946ce216f10d1b3950cc9937a898e12d7db8d45"
+    },
+    {
+      "path": "references/three-meeting-v01/docs/QA_AND_RELEASE.md",
+      "bytes": 1259,
+      "sha256": "11ce91dbba6c2ae00682ad21124f7cba0d60d65a812a61aa152086f543854b1e"
+    },
+    {
+      "path": "references/three-meeting-v01/docs/TASKS.json",
+      "bytes": 18089,
+      "sha256": "1e2ef9e9b52f3c47696545595e4751803a9194957f01b58d9ed9ff57259ed63c"
+    },
+    {
+      "path": "references/three-meeting-v01/manuscript/EDITOR_NOTES.md",
+      "bytes": 755,
+      "sha256": "ec408d9a4e2118ac8a47546a6f53e58e041a60a1e09265c290250a538aacb072"
+    },
+    {
+      "path": "references/three-meeting-v01/manuscript/ORIGINAL_VERBATIM.md",
+      "bytes": 2839,
+      "sha256": "b5b27a3d38118db90eb440f12b095a44fc66a73e631e7ca1f5f232b4c65651c2"
+    },
+    {
+      "path": "references/three-meeting-v01/previews/board_desktop.png",
+      "bytes": 87433,
+      "sha256": "436804d2f278ab33b003bc092b179a734970ca1139fab4835fbebaeec33da713"
+    },
+    {
+      "path": "references/three-meeting-v01/previews/board_mobile.png",
+      "bytes": 58025,
+      "sha256": "efe159963cfd36e0791eef19b304994d845a02df11e6fcff24f7a501bfc3cf3f"
+    },
+    {
+      "path": "references/three-meeting-v01/previews/PDF_CONTACT_SHEET.jpg",
+      "bytes": 182067,
+      "sha256": "20b921420d1361e2aa9a3902bf9471eaf88ed92e1edea6526a63fa1028f49a71"
+    },
+    {
+      "path": "references/three-meeting-v01/previews/pdf_pages/page-1.png",
+      "bytes": 420384,
+      "sha256": "0fc186957ca5394a80b6bab4a0bc28be337022edff4922a0b34a8b6b687a0f3a"
+    },
+    {
+      "path": "references/three-meeting-v01/previews/pdf_pages/page-2.png",
+      "bytes": 81738,
+      "sha256": "a89dd01f55f07475d8dcf616900f83f6021764e0aa683249e7f3c0cbc4ec96c7"
+    },
+    {
+      "path": "references/three-meeting-v01/previews/pdf_pages/page-3.png",
+      "bytes": 181590,
+      "sha256": "ac7f707e27f0b3edb4fb78abdd85e93f7b889dff4afa764d883920f90c0a7090"
+    },
+    {
+      "path": "references/three-meeting-v01/previews/pdf_pages/page-4.png",
+      "bytes": 169669,
+      "sha256": "bc5b2c703185b9e419b7f68f78797a5b73ef74d686557175507cb72add836b3c"
+    },
+    {
+      "path": "references/three-meeting-v01/previews/pdf_pages/page-5.png",
+      "bytes": 143690,
+      "sha256": "0896a7c05b907b6d22900ce1b0a47d44dd673ae2fc6f2fc301fc67f25a654179"
+    },
+    {
+      "path": "references/three-meeting-v01/previews/website_desktop.png",
+      "bytes": 274724,
+      "sha256": "f7ab6397e48b7af67e60820b5c9b929571d3a773f74a14f155635063b88a9631"
+    },
+    {
+      "path": "references/three-meeting-v01/previews/website_mobile.png",
+      "bytes": 177777,
+      "sha256": "57ef0d9c14a00775939ca1c6a3178196d5fc4c6eaecf6745c0b55588fbf7b1b4"
+    },
+    {
+      "path": "references/three-meeting-v01/README.md",
+      "bytes": 1038,
+      "sha256": "54fc067aaa6e30c3d2ea1fda7677eae41c1c3b72d51f60be05eea3f305a83b64"
+    },
+    {
+      "path": "references/three-meeting-v01/social/CAPTIONS_DRAFT.md",
+      "bytes": 1399,
+      "sha256": "55b9b4b92f0ebb061d18657a81cd1c363e80f1ea7f199edcb1ebe9b5c9694e48"
+    },
+    {
+      "path": "references/three-meeting-v01/social/facebook_1600x900.jpg",
+      "bytes": 237161,
+      "sha256": "d9accc18aa8f98f79cf31faa1e3f0468f5d141fc4688c201a2cea3179d63dfba"
+    },
+    {
+      "path": "references/three-meeting-v01/social/instagram/slide_01_3x4.jpg",
+      "bytes": 179441,
+      "sha256": "025a4356e664b79fed0521510464a23e87fea1cc79e20af640c7c22b201cc964"
+    },
+    {
+      "path": "references/three-meeting-v01/social/instagram/slide_02_3x4.jpg",
+      "bytes": 169439,
+      "sha256": "81bc759e8b54d63247a164787d3b7e865b80ede44dbb891744e2b611e010ece5"
+    },
+    {
+      "path": "references/three-meeting-v01/social/instagram/slide_03_3x4.jpg",
+      "bytes": 161212,
+      "sha256": "f995a33eb46f25cc5c32c6827c43f3ed3cb680c447bc88fda2565a7956e82aba"
+    },
+    {
+      "path": "references/three-meeting-v01/social/instagram/slide_04_3x4.jpg",
+      "bytes": 171962,
+      "sha256": "e9ebe2e8d71f7331541ac7f268d93df351efe576304726ddcaa1f06473567bdc"
+    },
+    {
+      "path": "references/three-meeting-v01/social/instagram/slide_05_3x4.jpg",
+      "bytes": 209979,
+      "sha256": "d801c00ed7f292df80b61b107b5321c9ca1bf97317f85ffb362e81bd8d7b56ed"
+    },
+    {
+      "path": "references/three-meeting-v01/social/youtube_thumbnail_1280x720.jpg",
+      "bytes": 175609,
+      "sha256": "37c3980adbde46cb2ec7f8eec092b423be6a9e540b61b5c27793bd13b28eee82"
+    },
+    {
+      "path": "references/three-meeting-v01/source/build_chapter.py",
+      "bytes": 41510,
+      "sha256": "d0aa2c3d749e9198024f86e2ed1f05d318ec3f9a3400baa22d38c5a36d59dfda"
+    },
+    {
+      "path": "references/three-meeting-v01/source/REPRODUCIBILITY.md",
+      "bytes": 814,
+      "sha256": "3eac39ac380715515107a2b1e3c0ce4560b039853f882f36d742b97ddbbbc213"
+    },
+    {
+      "path": "references/three-meeting-v01/video/15_Three_Meeting_Theory_ANIMATIC_9x16.mp4",
+      "bytes": 1075768,
+      "sha256": "c2c12ffc80fd468341b4c082d8079a5e4c685ece546b7f81d9c76fb58d9d4b26"
+    },
+    {
+      "path": "references/three-meeting-v01/video/ambient_original.wav",
+      "bytes": 768044,
+      "sha256": "58ce472e18e95cfa5c9b3e5c29a495f3f620a995590e3bdb3cfa7f26df91257e"
+    },
+    {
+      "path": "references/three-meeting-v01/video/NARRATION_DRAFT.md",
+      "bytes": 812,
+      "sha256": "4ed19a523c2f2eef3997859cf6e95adb455104423256cf614145658f92f9ed8d"
+    },
+    {
+      "path": "references/three-meeting-v01/video/stills/frame_01.jpg",
+      "bytes": 90522,
+      "sha256": "20b97f275fe3390a2b86dca5a99c46fd6daa8cb5f80512bf2a69fc9ab8176e6f"
+    },
+    {
+      "path": "references/three-meeting-v01/video/stills/frame_02.jpg",
+      "bytes": 83746,
+      "sha256": "1b0fb44fdb33c147d462b9d038484604b75c3553d5dd3d79ec73800ec8cbcd39"
+    },
+    {
+      "path": "references/three-meeting-v01/video/stills/frame_03.jpg",
+      "bytes": 81324,
+      "sha256": "ed8e2cdac8f836d97abefaba3ea968a638062046f243fdace646ec8f4097237c"
+    },
+    {
+      "path": "references/three-meeting-v01/video/stills/frame_04.jpg",
+      "bytes": 88423,
+      "sha256": "05f185d1e456d696f7c4ae55d8743f05924f080eef29908bcdea364853e8f60e"
+    },
+    {
+      "path": "references/three-meeting-v01/video/stills/frame_05.jpg",
+      "bytes": 108856,
+      "sha256": "8fd6f484ccd57da624e3bf49d533a87217a7070585f2136185b33ddb4df62032"
+    },
+    {
+      "path": "references/three-meeting-v01/video/STORYBOARD.md",
+      "bytes": 754,
+      "sha256": "182126b1ce58d6111759d3493615b9ad44feb426ce323bb00a138a3d5614405d"
+    },
+    {
+      "path": "references/three-meeting-v01/web/app.js",
+      "bytes": 1310,
+      "sha256": "921ced6d12e48193438844a8a2928dea400de69faf82120516f66a1b1e8710b0"
+    },
+    {
+      "path": "references/three-meeting-v01/web/assets/beat_1.jpg",
+      "bytes": 119213,
+      "sha256": "3c0b8ae500720a1682863799010a71a829f7f556f557794a104d440521e6927c"
+    },
+    {
+      "path": "references/three-meeting-v01/web/assets/beat_2.jpg",
+      "bytes": 111009,
+      "sha256": "99cf544c7f730381c1bad4ada5ef1c1e9702f2812010f2174cf452f3d5ddf168"
+    },
+    {
+      "path": "references/three-meeting-v01/web/assets/beat_3.jpg",
+      "bytes": 155441,
+      "sha256": "12f0ec74980a4603c282e237b2651d2bafae499e67f9ccbfa507f0a758c69bec"
+    },
+    {
+      "path": "references/three-meeting-v01/web/assets/cover.jpg",
+      "bytes": 469550,
+      "sha256": "abbe266408242f4037723ef1a794be954c9521721026f60070b072b238fe1b26"
+    },
+    {
+      "path": "references/three-meeting-v01/web/assets/hero.jpg",
+      "bytes": 202415,
+      "sha256": "32852ab96d4286e96c3052f811491be98a56c692fbd4b2cf69cc1bebbc6f9e16"
+    },
+    {
+      "path": "references/three-meeting-v01/web/index.html",
+      "bytes": 5778,
+      "sha256": "4313d4829f7bea5905c76bb1fc54ca16084d2f552836a212750639850fcacc0a"
+    },
+    {
+      "path": "references/three-meeting-v01/web/styles.css",
+      "bytes": 2880,
+      "sha256": "e0dd43465332c9840ab058086efb55b02d52702c4cb595a0244c8ee3e8731d8b"
+    },
+    {
+      "path": "social/alt-text.json",
+      "bytes": 984,
+      "sha256": "5a84a811a5838acf2fed7ad22e12edba2d05ed5450bcf108df4ed3c03c73806e"
+    },
+    {
+      "path": "social/CAPTIONS_DRAFT.md",
+      "bytes": 1399,
+      "sha256": "55b9b4b92f0ebb061d18657a81cd1c363e80f1ea7f199edcb1ebe9b5c9694e48"
+    },
+    {
+      "path": "social/facebook_1600x900.jpg",
+      "bytes": 237161,
+      "sha256": "d9accc18aa8f98f79cf31faa1e3f0468f5d141fc4688c201a2cea3179d63dfba"
+    },
+    {
+      "path": "social/instagram/slide-01.jpg",
+      "bytes": 210254,
+      "sha256": "e4f9d92b39edb552c5761b864d3ba145cebbc13074280deb5c48cd1cb63eb34d"
+    },
+    {
+      "path": "social/instagram/slide-02.jpg",
+      "bytes": 195948,
+      "sha256": "3bb0b6b1e4ee10ab64f3e7408bc5e59781105e3070fed6a67fd216734f3a163c"
+    },
+    {
+      "path": "social/instagram/slide-03.jpg",
+      "bytes": 226399,
+      "sha256": "7ab885b81a02461300a6276606d512571be4020664a2de5c2190e617152ab48b"
+    },
+    {
+      "path": "social/instagram/slide-04.jpg",
+      "bytes": 215407,
+      "sha256": "b820ee0138ed7ee5d7b87b184562c08b9717909bd976cd6066610900b4ad2a71"
+    },
+    {
+      "path": "social/instagram/slide-05.jpg",
+      "bytes": 252195,
+      "sha256": "135f2319514a86bddbce81f39ad1083c2fe3e414cae37a86a51e457b74e5ea78"
+    },
+    {
+      "path": "social/instagram/slide_01_3x4.jpg",
+      "bytes": 179441,
+      "sha256": "025a4356e664b79fed0521510464a23e87fea1cc79e20af640c7c22b201cc964"
+    },
+    {
+      "path": "social/instagram/slide_02_3x4.jpg",
+      "bytes": 169439,
+      "sha256": "81bc759e8b54d63247a164787d3b7e865b80ede44dbb891744e2b611e010ece5"
+    },
+    {
+      "path": "social/instagram/slide_03_3x4.jpg",
+      "bytes": 161212,
+      "sha256": "f995a33eb46f25cc5c32c6827c43f3ed3cb680c447bc88fda2565a7956e82aba"
+    },
+    {
+      "path": "social/instagram/slide_04_3x4.jpg",
+      "bytes": 171962,
+      "sha256": "e9ebe2e8d71f7331541ac7f268d93df351efe576304726ddcaa1f06473567bdc"
+    },
+    {
+      "path": "social/instagram/slide_05_3x4.jpg",
+      "bytes": 209979,
+      "sha256": "d801c00ed7f292df80b61b107b5321c9ca1bf97317f85ffb362e81bd8d7b56ed"
+    },
+    {
+      "path": "social/POSTS.md",
+      "bytes": 1757,
+      "sha256": "130ca3aacb8eae3497f1b4edc80f1a940abff457c6ca87f3f6ab228ced2bd3fa"
+    },
+    {
+      "path": "social/tiktok/cover.jpg",
+      "bytes": 269977,
+      "sha256": "6bf3bf1ffbadf7e3cecd6f12970e63b91d70e00d2ea6ee60176c39af96bc2fb0"
+    },
+    {
+      "path": "social/youtube_thumbnail_1280x720.jpg",
+      "bytes": 175609,
+      "sha256": "37c3980adbde46cb2ec7f8eec092b423be6a9e540b61b5c27793bd13b28eee82"
+    },
+    {
+      "path": "source/approved.md",
+      "bytes": 2839,
+      "sha256": "b5b27a3d38118db90eb440f12b095a44fc66a73e631e7ca1f5f232b4c65651c2"
+    },
+    {
+      "path": "source/original.md",
+      "bytes": 2839,
+      "sha256": "b5b27a3d38118db90eb440f12b095a44fc66a73e631e7ca1f5f232b4c65651c2"
+    },
+    {
+      "path": "source/revisions.log",
+      "bytes": 300,
+      "sha256": "54b4c532fef0dcc8d9da1606e5816c4ff48192918c9837fe5d51505a301dc04b"
+    },
+    {
+      "path": "source/SUPPLIED_EDITOR_NOTES.md",
+      "bytes": 755,
+      "sha256": "ec408d9a4e2118ac8a47546a6f53e58e041a60a1e09265c290250a538aacb072"
+    },
+    {
+      "path": "video/15_Three_Meeting_Theory_ANIMATIC_9x16.mp4",
+      "bytes": 1075768,
+      "sha256": "c2c12ffc80fd468341b4c082d8079a5e4c685ece546b7f81d9c76fb58d9d4b26"
+    },
+    {
+      "path": "video/ambient_original.wav",
+      "bytes": 768044,
+      "sha256": "58ce472e18e95cfa5c9b3e5c29a495f3f620a995590e3bdb3cfa7f26df91257e"
+    },
+    {
+      "path": "video/discovery-9x16.mp4",
+      "bytes": 744276,
+      "sha256": "a3cedad2effae9d2fbc2ba57aaa35f2c1e542cc76e0843bec1a5cecac73ce10c"
+    },
+    {
+      "path": "video/discovery-9x16.srt",
+      "bytes": 480,
+      "sha256": "71ca4e8243dba658b9ab6bd74ce882a9a41dc0415100a956be4da66878325199"
+    },
+    {
+      "path": "video/discovery-9x16.vtt",
+      "bytes": 475,
+      "sha256": "50e00cc80464bfa82af38fc655efc2b862ca6943df9b7b93c0affa8347c8c1e5"
+    },
+    {
+      "path": "video/NARRATION_DRAFT.md",
+      "bytes": 812,
+      "sha256": "4ed19a523c2f2eef3997859cf6e95adb455104423256cf614145658f92f9ed8d"
+    },
+    {
+      "path": "video/stills/frame_01.jpg",
+      "bytes": 90522,
+      "sha256": "20b97f275fe3390a2b86dca5a99c46fd6daa8cb5f80512bf2a69fc9ab8176e6f"
+    },
+    {
+      "path": "video/stills/frame_02.jpg",
+      "bytes": 83746,
+      "sha256": "1b0fb44fdb33c147d462b9d038484604b75c3553d5dd3d79ec73800ec8cbcd39"
+    },
+    {
+      "path": "video/stills/frame_03.jpg",
+      "bytes": 81324,
+      "sha256": "ed8e2cdac8f836d97abefaba3ea968a638062046f243fdace646ec8f4097237c"
+    },
+    {
+      "path": "video/stills/frame_04.jpg",
+      "bytes": 88423,
+      "sha256": "05f185d1e456d696f7c4ae55d8743f05924f080eef29908bcdea364853e8f60e"
+    },
+    {
+      "path": "video/stills/frame_05.jpg",
+      "bytes": 108856,
+      "sha256": "8fd6f484ccd57da624e3bf49d533a87217a7070585f2136185b33ddb4df62032"
+    },
+    {
+      "path": "video/STORYBOARD.md",
+      "bytes": 671,
+      "sha256": "7f0392f9fe1d99297c94a53377dc96bfc11d3520d171ff860e32655a6a6c3c39"
+    },
+    {
+      "path": "video/SUPPLIED_STORYBOARD.md",
+      "bytes": 754,
+      "sha256": "182126b1ce58d6111759d3493615b9ad44feb426ce323bb00a138a3d5614405d"
+    },
+    {
+      "path": "video/timeline.json",
+      "bytes": 1355,
+      "sha256": "e6bad1238189829671a11e1ac63ef595709eac317653055a7b669dc882781f64"
+    },
+    {
+      "path": "web/assets/beat_1.jpg",
+      "bytes": 119213,
+      "sha256": "3c0b8ae500720a1682863799010a71a829f7f556f557794a104d440521e6927c"
+    },
+    {
+      "path": "web/assets/beat_2.jpg",
+      "bytes": 111009,
+      "sha256": "99cf544c7f730381c1bad4ada5ef1c1e9702f2812010f2174cf452f3d5ddf168"
+    },
+    {
+      "path": "web/assets/beat_3.jpg",
+      "bytes": 155441,
+      "sha256": "12f0ec74980a4603c282e237b2651d2bafae499e67f9ccbfa507f0a758c69bec"
+    },
+    {
+      "path": "web/assets/chapter.css",
+      "bytes": 4500,
+      "sha256": "829567c181e63958ddf44a9839b8fb563562da32da6eac592bfc629e5492548d"
+    },
+    {
+      "path": "web/assets/chapter.js",
+      "bytes": 1432,
+      "sha256": "9693004b4a90417845d70b2d94b46c63bf9673a6d2c31167c19b58d78275b4d2"
+    },
+    {
+      "path": "web/assets/cover.jpg",
+      "bytes": 469550,
+      "sha256": "abbe266408242f4037723ef1a794be954c9521721026f60070b072b238fe1b26"
+    },
+    {
+      "path": "web/assets/hero.jpg",
+      "bytes": 202415,
+      "sha256": "32852ab96d4286e96c3052f811491be98a56c692fbd4b2cf69cc1bebbc6f9e16"
+    },
+    {
+      "path": "web/assets/reader-hero.jpg",
+      "bytes": 271069,
+      "sha256": "a5547c4b63d809f4f2863a49f408ed9c0291ba104d765bb0ad03114083c6b0b3"
+    },
+    {
+      "path": "web/assets/three-meeting-portal-v2.png",
+      "bytes": 1348520,
+      "sha256": "056744edffcd57b195fb40afab7816528864208016aa0a7c428aaa0c0ae3e4c8"
+    },
+    {
+      "path": "web/assets/three-meeting-spread-v2.webp",
+      "bytes": 159882,
+      "sha256": "73be9ccef0b7b11ed05fbccac7c1341f7af5717e478eaaf0775d75d8ad76758d"
+    },
+    {
+      "path": "web/index.html",
+      "bytes": 11016,
+      "sha256": "ae33e4e3ff05bab1da95a1bbcce60601988b76fed05c422e3fe2f52d61e1e6ca"
+    },
+    {
+      "path": "web/template.html",
+      "bytes": 6587,
+      "sha256": "d81e426959ebb019ac655f07ab6bafdb8e5d7a06b6ae725aac4b3035e00c63cb"
+    },
+    {
+      "path": "web/three-meeting-v2.css",
+      "bytes": 1811,
+      "sha256": "400ba0e16aa8194142d05e0e684b5eac2cd1f783769c973216231e8290fd3cd6"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "schema_version": 2,
+  "slug": "replace-me",
+  "number": null,
+  "title": "New chapter",
+  "short_title": "New chapter",
+  "part": null,
+  "language": "vi",
+  "publish": false,
+  "release_stage": "outline",
+  "canonical_text": null,
+  "canonical_path": "",
+  "summary": "",
+  "portal": {"scene": "", "objects": [], "iconKey": "notebook", "motif": ""},
+  "original_edition": null,
+  "production_status": "awaiting author manuscript"
+}

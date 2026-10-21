@@ -1,0 +1,100 @@
+{
+  "chapter": "nhung-su-trung-hop",
+  "files": [
+    {
+      "path": "artwork/portal/coincidence-cover-scene-v1.png",
+      "bytes": 1305768,
+      "sha256": "328a27b0637cee239aeadcde856aad405aaeaf9ca96f68dbb43cfa9630a266ae"
+    },
+    {
+      "path": "artwork/portal/coincidence-elements-v1.webp",
+      "bytes": 145204,
+      "sha256": "3f00a259c3cf32a53ff76bda46889b7ef14a7d26588f8a4f61515783e5544724"
+    },
+    {
+      "path": "artwork/portal/coincidence-portal-v1.png",
+      "bytes": 1654992,
+      "sha256": "c61898102d74484e58743fdeaeece47aaa046b6aee10d8a1b338fa0b0ecd6d3b"
+    },
+    {
+      "path": "artwork/portal/coincidence-ring-v1.png",
+      "bytes": 2008785,
+      "sha256": "4cd15d8b242b8264f7ffcfa65636b5f952a916cf503ecd359a400df36b0f007f"
+    },
+    {
+      "path": "artwork/portal/coincidence-scene-v1.png",
+      "bytes": 1662609,
+      "sha256": "b1e54ad339f4376ce97e41aa057ffb35f61d2dc825d6b1ffcc670f74f60a774b"
+    },
+    {
+      "path": "artwork/portal/coincidence-spread-v1.webp",
+      "bytes": 469598,
+      "sha256": "b7bf9730aa76bbc81f243fa2d11244fe4e2b572025fb8f89bb6f38b3f32bc92a"
+    },
+    {
+      "path": "chapter.json",
+      "bytes": 1387,
+      "sha256": "d46216ae4a4f6d9f2f56b84791d1b6b932f710ecb360fa18ca1ba221d7f945b1"
+    },
+    {
+      "path": "docs/ASSET_SOURCE.md",
+      "bytes": 1104,
+      "sha256": "801ce6dcc49e69bec6ff96f6d9ef16b3ad40b1af31d4f715051168966fd32259"
+    },
+    {
+      "path": "docs/PRODUCTS.json",
+      "bytes": 1634,
+      "sha256": "85e89f6ed7f29a88aaae3789a5a197fd64e06c8a674447abd1c3f171a54945b9"
+    },
+    {
+      "path": "production.json",
+      "bytes": 698,
+      "sha256": "d1ceb71e8248aa322fb96ab4cfbc52f54bf0a06213ff64e19ef58a37892feade"
+    },
+    {
+      "path": "README.md",
+      "bytes": 794,
+      "sha256": "1e6fae2a16e256e432a27b60287745bcec7a3bd071d1054e713942e812ef849f"
+    },
+    {
+      "path": "source/approved.md",
+      "bytes": 11827,
+      "sha256": "e07f63a241743c69b782eb25d5fb5259237f64187e2fedd6b3d496d5b4994c92"
+    },
+    {
+      "path": "source/outline.md",
+      "bytes": 345,
+      "sha256": "f0f794177775a9bb80f5ef71f60d93e409362870debc1185ceaf7f912c6b6356"
+    },
+    {
+      "path": "source/revisions.log",
+      "bytes": 341,
+      "sha256": "06f704b362c0f9dc5acd004f8c678c36c6e34298f03bd02474abf2c34f4da80a"
+    },
+    {
+      "path": "web/assets/coincidence-elements-v1.webp",
+      "bytes": 145204,
+      "sha256": "3f00a259c3cf32a53ff76bda46889b7ef14a7d26588f8a4f61515783e5544724"
+    },
+    {
+      "path": "web/assets/coincidence-portal-v1.png",
+      "bytes": 1654992,
+      "sha256": "c61898102d74484e58743fdeaeece47aaa046b6aee10d8a1b338fa0b0ecd6d3b"
+    },
+    {
+      "path": "web/assets/coincidence-spread-v1.webp",
+      "bytes": 469598,
+      "sha256": "b7bf9730aa76bbc81f243fa2d11244fe4e2b572025fb8f89bb6f38b3f32bc92a"
+    },
+    {
+      "path": "web/coincidence.css",
+      "bytes": 5275,
+      "sha256": "1aa753adc3ad35ef0875658f97455db05a6577f823a244100b2439273740178d"
+    },
+    {
+      "path": "web/index.html",
+      "bytes": 16330,
+      "sha256": "48e7be62d7ae3411918c7e612b29e15da217ddec50d9d3e8daf52fcdd978401a"
+    }
+  ]
+}

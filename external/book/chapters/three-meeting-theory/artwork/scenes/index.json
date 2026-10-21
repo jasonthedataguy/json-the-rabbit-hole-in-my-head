@@ -1,0 +1,92 @@
+{
+  "scenes": [
+    {
+      "id": "first",
+      "source": "artwork/source/02_first_meeting.jpg",
+      "source_pixels": [
+        840,
+        1000
+      ],
+      "crop_pixels": [
+        0,
+        0,
+        840,
+        790
+      ],
+      "path": "artwork/scenes/first.jpg",
+      "kind": "crop of supplied enlarged concept art; native detail remains limited"
+    },
+    {
+      "id": "second",
+      "source": "artwork/source/03_second_meeting.jpg",
+      "source_pixels": [
+        840,
+        1000
+      ],
+      "crop_pixels": [
+        0,
+        0,
+        840,
+        790
+      ],
+      "path": "artwork/scenes/second.jpg",
+      "kind": "crop of supplied enlarged concept art; native detail remains limited"
+    },
+    {
+      "id": "third",
+      "source": "artwork/source/04_third_meeting.jpg",
+      "source_pixels": [
+        840,
+        1000
+      ],
+      "crop_pixels": [
+        0,
+        0,
+        840,
+        790
+      ],
+      "path": "artwork/scenes/third.jpg",
+      "kind": "crop of supplied enlarged concept art; native detail remains limited"
+    },
+    {
+      "id": "city",
+      "source": "artwork/source/05_city_bridge.jpg",
+      "source_pixels": [
+        840,
+        1000
+      ],
+      "crop_pixels": [
+        0,
+        0,
+        840,
+        790
+      ],
+      "path": "artwork/scenes/city.jpg",
+      "kind": "crop of supplied enlarged concept art; native detail remains limited"
+    },
+    {
+      "id": "yellow",
+      "source": "artwork/source/06_yellow_dress.jpg",
+      "source_pixels": [
+        840,
+        1000
+      ],
+      "crop_pixels": [
+        225,
+        20,
+        820,
+        810
+      ],
+      "path": "artwork/scenes/yellow.jpg",
+      "kind": "crop of supplied enlarged concept art; native detail remains limited"
+    }
+  ],
+  "hero": {
+    "path": "artwork/exports/hero.jpg",
+    "size": [
+      1600,
+      960
+    ],
+    "composition": "first and yellow crops placed side by side; no new content"
+  }
+}
