@@ -14,6 +14,8 @@ Each query string precedes the `#chapter/NN` route. These are link drafts for ma
 | Fashion · Instagram | `https://jasonthedataguy.github.io/json-the-rabbit-hole-in-my-head/?utm_source=instagram&utm_medium=organic_social&utm_campaign=fashion_w01#chapter/04` |
 | To My Saigon · Facebook | `https://jasonthedataguy.github.io/json-the-rabbit-hole-in-my-head/?utm_source=facebook&utm_medium=organic_social&utm_campaign=saigon_w01#chapter/14` |
 
+The former `/json-under-revision-v2/` GitHub Pages URL returned 404 after the repository rename. Replace any previously copied campaign drafts with the URLs above before posting.
+
 ## Measurement for Week 1
 
 This site currently has no campaign analytics, event collector, signup endpoint or consented attribution pipeline. A UTM label in a URL does not itself record a visit or conversion. This release adds none of those systems and sends no new event beacons. The reader's existing on-device reading-position and display preferences remain separate from campaign measurement.
