@@ -22,6 +22,7 @@
 .cover-top-nav{font-size:13px;gap:28px}
 .cover-titling>p{font-size:12px;letter-spacing:2px}
 .cover-ring-quote text{font-family:Georgia,'Times New Roman',serif;font-size:22px;font-style:italic;letter-spacing:0}
+.cover-ring-quote text.cover-quote-literature{font-size:19px}
 .cover-page-position{margin:10px 0 0;color:#b7a78b;font:10px/1.5 var(--sans);letter-spacing:1.6px}
 .cover-chapter-link{font:24px/1.3 var(--serif);letter-spacing:0;margin-top:4px;max-width:94%;min-height:34px}
 .cover-chapter-link>span:first-child{white-space:normal;overflow:visible;text-overflow:clip;text-wrap:balance}
@@ -76,6 +77,17 @@
   .cover-reading-panel .chapter-archive { color: #777766; border-color: #9d866443; }
 }
 @media print { .cover-reading-panel { display: none !important; } }
+
+.book-cover-view{padding:clamp(22px,5vw,70px) 18px 80px;background:#12202a}
+.book-cover-leaf{max-width:680px;min-height:min(900px,calc(100svh - 110px));margin:auto;padding:clamp(42px,8vw,88px) clamp(22px,7vw,74px) 24px;text-align:center;background:repeating-linear-gradient(93deg,#815c3308 0 1px,transparent 1px 6px),linear-gradient(90deg,#e8d7b7,#f8eedb 5%,#f5e9d2);border:1px solid #b89a6f;box-shadow:0 20px 50px #0008}
+.book-cover-leaf>.leaf-kicker{color:#987957;font-size:11px;letter-spacing:2px}
+.book-cover-leaf h1{margin:16px 0 24px;color:#1b343c;font:clamp(78px,14vw,110px)/1.05 var(--serif);letter-spacing:-4px}
+.book-cover-subtitle{color:#977a58;font:11px/1.5 var(--sans);letter-spacing:2px}
+.book-cover-art{width:min(380px,90%);margin:40px auto 28px}
+.book-cover-art img{display:block;width:100%;height:auto;aspect-ratio:1;object-fit:contain;border-radius:50%}
+.book-cover-description{max-width:34ch;margin:0 auto 54px;color:#354846;font:italic clamp(20px,3.3vw,27px)/1.5 var(--serif);text-wrap:balance}
+.book-cover-leaf .leaf-navigation{text-align:left}
+@media(max-width:640px){.book-cover-view{padding:12px 10px 40px}.book-cover-leaf{padding-top:48px}.book-cover-art{margin-top:34px}.book-cover-description{margin-bottom:42px}}
 
 /* Front matter and Quant now open with complete landscape illustrations. */
 @media screen and (min-width: 1024px) {

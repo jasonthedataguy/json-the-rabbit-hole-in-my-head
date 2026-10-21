@@ -3,6 +3,7 @@ import { identity, introduction, parts, chapterNotes } from './book.js?v=30';
 import { PortalRing } from './ring.js?v=10';
 import { renderPortalPicture, renderPortalFrame, renderFramedPortal } from './portal-art.js?v=59';
 import { digitalArt, digitalCoverPortal, digitalCoverRing, digitalCoverJason } from './digital-art.js?v=3';
+import { commerce } from './commerce.js?v=1';
 
 const $ = selector => document.querySelector(selector);
 const $$ = selector => [...document.querySelectorAll(selector)];
@@ -49,7 +50,9 @@ function parseRoute(){
   const archive=hash.match(/^archive\/([a-z0-9-]+)$/);
   if(archive){const editorialId=publishedBySlug.get(archive[1])?.editorialId;if(editorialId!==null&&editorialId!==undefined){history.replaceState(null,'',`#chapter/${editorialId}`);return {type:'chapter',key:`chapter/${editorialId}`,id:editorialId};}}
   if(archive&&publishedBySlug.get(archive[1])?.legacyId!=null)return {type:'archive-chapter',key:hash,slug:archive[1]};
-  if(['cover','introduction','contents','map','edition','archive'].includes(hash))return {type:hash,key:hash};
+  const checkout=hash.match(/^checkout\/(core|illustrated|collector)$/);
+  if(checkout)return {type:'checkout',key:hash,offerId:checkout[1]};
+  if(['cover','book-cover','introduction','contents','map','edition','archive','marketplace'].includes(hash))return {type:hash,key:hash};
   return {type:'cover',key:'cover'};
 }
 function isCurrent(key){return currentRoute?.key===key;}
@@ -58,12 +61,22 @@ const dot = available => available?'<span class="available-dot" aria-label="Full
 function chapterNavIcon(chapter){return `<span class="nav-chapter-icon">${renderIcon(chapter,18)}</span>`;}
 function navigationHTML(){
   const currentChapter=currentRoute?.type==='chapter'?chapterById(currentRoute.id):null;
-  return `<div class="frontmatter-nav"><a class="nav-link" href="#cover"${currentAttr('cover')}><span class="nav-symbol" aria-hidden="true">▯</span><span>Book cover</span></a><a class="nav-link" href="#map"${currentAttr('map')}><span class="nav-symbol" aria-hidden="true">◌</span><span>Chapter map</span></a><a class="nav-link" href="#introduction"${currentAttr('introduction')}><span class="nav-number">i</span><span class="nav-title">Introduction</span></a><a class="nav-link" href="#contents"${currentAttr('contents')}><span class="nav-number">ii</span><span class="nav-title">Contents</span></a><a class="nav-link prologue-nav" href="#chapter/00"${currentAttr('chapter/00')}>${chapterNavIcon(chapters[0])}<span class="nav-number">00</span><span class="nav-title"><small>PROLOGUE</small>Cold Rice</span>${dot(publishedById.has('00'))}</a></div><div class="part-navigation-list">${parts.map(part=>`<details class="part-navigation"${currentChapter?.act===part.id?' open':''}><summary><span class="part-roman">${roman[part.id]}</span><span class="part-nav-title">${esc(partLabel(part))}</span></summary><div class="part-chapters">${chapters.filter(chapter=>chapter.act===part.id).map(chapter=>`<a class="chapter-nav-link" href="#chapter/${chapter.id}"${currentAttr(`chapter/${chapter.id}`)}>${chapterNavIcon(chapter)}<span class="nav-number">${chapter.id}</span><span class="nav-title">${esc(chapter.title)}</span>${dot(publishedById.has(chapter.id))}</a>`).join('')}</div></details>`).join('')}</div><div class="sidebar-secondary"><a class="nav-link" href="#archive"${currentAttr('archive')}><span class="nav-symbol" aria-hidden="true"><svg width="12" height="14" viewBox="0 0 14 16" fill="none" stroke="currentColor"><path d="M2 2h9v12H2zM4 5h5M4 8h5M4 11h3"/></svg></span><span>Published essays</span></a><a class="nav-link" href="#edition"${currentAttr('edition')}><span class="nav-symbol" aria-hidden="true">·</span><span>About this edition</span></a></div>`;
+  return `<div class="frontmatter-nav"><a class="nav-link" href="#cover"${currentAttr('cover')}><span class="nav-symbol" aria-hidden="true">▯</span><span>Interactive cover</span></a><a class="nav-link" href="#book-cover"${currentAttr('book-cover')}><span class="nav-number">C</span><span class="nav-title">Book cover page</span></a><a class="nav-link" href="#map"${currentAttr('map')}><span class="nav-symbol" aria-hidden="true">◌</span><span>Chapter map</span></a><a class="nav-link" href="#introduction"${currentAttr('introduction')}><span class="nav-number">i</span><span class="nav-title">Introduction</span></a><a class="nav-link" href="#contents"${currentAttr('contents')}><span class="nav-number">ii</span><span class="nav-title">Contents</span></a><a class="nav-link prologue-nav" href="#chapter/00"${currentAttr('chapter/00')}>${chapterNavIcon(chapters[0])}<span class="nav-number">00</span><span class="nav-title"><small>PROLOGUE</small>Cold Rice</span>${dot(publishedById.has('00'))}</a></div><div class="part-navigation-list">${parts.map(part=>`<details class="part-navigation"${currentChapter?.act===part.id?' open':''}><summary><span class="part-roman">${roman[part.id]}</span><span class="part-nav-title">${esc(partLabel(part))}</span></summary><div class="part-chapters">${chapters.filter(chapter=>chapter.act===part.id).map(chapter=>`<a class="chapter-nav-link" href="#chapter/${chapter.id}"${currentAttr(`chapter/${chapter.id}`)}>${chapterNavIcon(chapter)}<span class="nav-number">${chapter.id}</span><span class="nav-title">${esc(chapter.title)}</span>${dot(publishedById.has(chapter.id))}</a>`).join('')}</div></details>`).join('')}</div><div class="sidebar-secondary"><a class="nav-link" href="#marketplace"${currentAttr('marketplace')}><span class="nav-symbol" aria-hidden="true">◇</span><span>Marketplace</span></a><a class="nav-link" href="#archive"${currentAttr('archive')}><span class="nav-symbol" aria-hidden="true"><svg width="12" height="14" viewBox="0 0 14 16" fill="none" stroke="currentColor"><path d="M2 2h9v12H2zM4 5h5M4 8h5M4 11h3"/></svg></span><span>Published essays</span></a><a class="nav-link" href="#edition"${currentAttr('edition')}><span class="nav-symbol" aria-hidden="true">·</span><span>About this edition</span></a></div>`;
 }
 function renderNavigation(){$('#desktop-navigation').innerHTML=navigationHTML();$('#mobile-navigation').innerHTML=navigationHTML();}
 function tocRow(chapter){return `<a class="toc-row" href="#chapter/${chapter.id}"><span class="toc-number">${chapter.id}</span><span class="toc-title">${esc(chapter.title)}${chapter.slug==='loi-xin-loi'?'<small class="toc-epilogue">Epilogue</small>':''}</span><span class="toc-leader" aria-hidden="true"></span>${dot(publishedById.has(chapter.id))}</a>`;}
 function renderContents(){
   $('#book-table-of-contents').innerHTML=`<div class="toc-frontmatter"><a class="toc-row" href="#introduction"><span class="toc-number">i</span><span class="toc-title">Introduction</span><span class="toc-leader" aria-hidden="true"></span></a><p class="toc-prologue-label">PROLOGUE</p>${tocRow(chapters[0])}</div>${parts.map(part=>`<section class="toc-part"><header><p class="toc-part-number">PART ${String(part.id).padStart(2,'0')}</p><h2>${esc(partLabel(part))}</h2></header><div class="toc-chapters">${chapters.filter(chapter=>chapter.act===part.id).map(tocRow).join('')}</div></section>`).join('')}`;
+}
+const formatVnd = amount => `${new Intl.NumberFormat('vi-VN').format(amount)} ₫`;
+function renderMarketplace(){
+  $('#marketplace-offers').innerHTML=commerce.offers.map(offer=>`<article class="commerce-offer"><p class="leaf-kicker">PROPOSED EDITION</p><h2>${esc(offer.name)}</h2><p>${esc(offer.description)}</p><p class="commerce-estimate">Estimated price <strong>${formatVnd(offer.estimate)}</strong></p><a href="#checkout/${offer.id}">Review proposed preorder <span aria-hidden="true">→</span></a></article>`).join('');
+  $('#marketplace-samples').innerHTML=commerce.samples.map(item=>`<div><strong>${esc(item.name)}</strong><span>Estimate ${formatVnd(item.estimate)}</span></div>`).join('');
+}
+function renderCheckout(offerId){
+  const offer=commerce.offers.find(item=>item.id===offerId);
+  $('#checkout-summary').innerHTML=`<div class="checkout-summary"><p class="leaf-kicker">SELECTED EDITION</p><h2>${esc(offer.name)}</h2><p>${esc(offer.description)}</p><dl><div><dt>Planning estimate</dt><dd>${formatVnd(offer.estimate)}</dd></div><div><dt>Refundable deposit</dt><dd>To be set</dd></div><div><dt>Shipping and taxes</dt><dd>To be quoted before payment</dd></div><div><dt>Delivery window</dt><dd>Awaiting print proof</dd></div></dl><p class="checkout-blocked">Checkout is not open. This estimate is not a payment request.</p></div>`;
+  $('#checkout-methods').innerHTML=commerce.paymentMethods.map(method=>`<div><strong>${esc(method.name)}</strong><p>${esc(method.detail)}</p><span>Setup pending</span></div>`).join('');
 }
 function artHTML(chapter){
   if(digitalArt[chapter.slug])return digitalImage(chapter.slug,'opening','digital-book-opening');
@@ -115,7 +128,7 @@ function postRead(chapter){
   const next=chapters[Number(chapter.id)+1];
   const primary=next?{href:`#chapter/${next.id}`,label:'NEXT CHAPTER',title:next.title}:{href:'#contents',label:'FINISHED THE BOOK',title:'Browse all chapters'};
   const secondary=next?{href:'#contents',title:'Contents'}:{href:'#cover',title:'Book cover'};
-  return `<aside class="post-read" aria-label="After reading"><p class="leaf-kicker">KEEP READING</p><h2>Continue the story</h2><div class="post-read-actions"><a class="post-read-primary" href="${primary.href}"><span>${primary.label}</span><strong>${esc(primary.title)}</strong><span aria-hidden="true">→</span></a><a class="post-read-secondary" href="${secondary.href}">${secondary.title}</a></div></aside>`;
+  return `<aside class="post-read" aria-label="After reading"><p class="leaf-kicker">KEEP READING</p><h2>Continue the story</h2><div class="post-read-actions"><a class="post-read-primary" href="${primary.href}"><span>${primary.label}</span><strong>${esc(primary.title)}</strong><span aria-hidden="true">→</span></a><a class="post-read-secondary" href="${secondary.href}">${secondary.title}</a></div><a class="post-read-marketplace" href="#marketplace">Explore the proposed book editions <span aria-hidden="true">→</span></a></aside>`;
 }
 function sourceNotes(manuscript){
   const original=manuscript.legacyId!=null;
@@ -244,7 +257,7 @@ function renderArchiveChapter(slug){
 function savePosition(){if(currentRoute){positions[currentRoute.key]=Math.round(window.scrollY);store.set('json-book-positions',positions);}}
 function breadcrumb(route){
   if(route.type==='chapter'){const chapter=chapterById(route.id);return chapter.act?`Part ${roman[chapter.act]} / ${chapter.title}`:`Prologue / ${chapter.title}`;}
-  return ({cover:'Book cover',introduction:'Front matter / Introduction',contents:'Contents',map:'Chapter map',edition:'Edition notes',archive:'Published essays','archive-chapter':'Archive / '+(publishedBySlug.get(route.slug)?.title || '')})[route.type];
+  return ({cover:'Interactive cover','book-cover':'Book cover',introduction:'Front matter / Introduction',contents:'Contents',map:'Chapter map',edition:'Edition notes',archive:'Published essays',marketplace:'Marketplace',checkout:'Checkout preview','archive-chapter':'Archive / '+(publishedBySlug.get(route.slug)?.title || '')})[route.type];
 }
 function renderRoute(route,{initial=false}={}){
   if(!initial)savePosition();
@@ -253,6 +266,7 @@ function renderRoute(route,{initial=false}={}){
   $$('.book-view').forEach(element=>{element.hidden=element.id!==`${view}-view`;});
   if(route.type==='chapter')renderChapter(route.id);
   if(route.type==='archive-chapter')renderArchiveChapter(route.slug);
+  if(route.type==='checkout')renderCheckout(route.offerId);
   if(route.type==='map')selectMapChapter(selectedMapChapter);
   if(route.type==='cover')selectCoverPage(0);
   $('#reading-breadcrumb').textContent=breadcrumb(route);
@@ -347,7 +361,7 @@ $('#portal-stage').addEventListener('keydown',event=>{
 
 // Front matter and chapter stops follow the same order as a physical book.
 const coverPages = [
-  {kind:'cover', label:'Cover', title:`${identity.title} — ${identity.subtitle}`, href:'#introduction'},
+  {kind:'cover', label:'Cover', title:`${identity.title} — ${identity.subtitle}`, href:'#book-cover'},
   {kind:'introduction', label:'i', title:introduction.title, href:'#introduction'},
   ...chapters.map(chapter=>({kind:'chapter', label:chapter.id, title:chapter.id==='10'?chapter.shortTitle:chapter.title, href:`#chapter/${chapter.id}`, chapter}))
 ];
@@ -444,8 +458,8 @@ function renderCoverReadingPage(page){
   content.scrollTop=0;
   $('#cover-reading-folio').textContent=page.kind==='cover'?'COVER':page.kind==='introduction'?'i':page.label;
   const link=$('#cover-reading-link');
-  link.href=page.kind==='cover'?'#introduction':page.href;
-  link.innerHTML=`${page.kind==='cover'?'Open the book':page.kind==='introduction'?'Read Introduction':`Read ${page.label} in the book`} <span aria-hidden="true">→</span>`;
+  link.href=page.href;
+  link.innerHTML=`${page.kind==='cover'?'View the cover page':page.kind==='introduction'?'Read Introduction':`Read ${page.label} in the book`} <span aria-hidden="true">→</span>`;
 }
 function positionCoverOrbit(rotation=coverRing?.rotation ?? -selectedCoverPage*coverStep){
   const radius=-$('#cover-stage').getBoundingClientRect().width*.457;
@@ -480,7 +494,7 @@ function selectCoverPage(index,{fromRing=false}={}){
   }).catch(()=>{});
   $('#cover-chapter-link').href=page.href;
   $('#cover-chapter-label').textContent=page.kind==='cover'?'Book cover':page.kind==='introduction'?'Introduction':`${page.label} · ${page.title}`;
-  $('#cover-chapter-link').title=page.kind==='cover'?'Open the introduction':page.title;
+  $('#cover-chapter-link').title=page.kind==='cover'?'View the book cover page':page.title;
   $('#cover-stage').setAttribute('aria-label',`Book ring. ${page.kind==='cover'?'Book cover':page.title}. Drag to turn, arrow keys to choose, Enter to read.`);
   $('#cover-page-position').textContent=page.kind==='cover'?'COVER':page.kind==='introduction'?'FRONT MATTER':page.label==='00'?'PROLOGUE':`CHAPTER ${page.label} / ${chapters.at(-1).id}`;
   renderCoverReadingPage(page);
@@ -527,4 +541,4 @@ window.addEventListener('pagehide',savePosition);
 $('#book-epigraph').innerHTML=introduction.epigraph.split(/(?<=answer\.)\s+/).map(line=>`<p>${esc(line)}</p>`).join('');
 $('#introduction-text').innerHTML=introduction.sections.map((section,index)=>`<section class="intro-section${index===0?' intro-synopsis':''}"><h2>${esc(section.heading)}</h2>${section.paragraphs.map(paragraph=>`<p>${introInline(paragraph)}</p>`).join('')}</section>`).join('');
 insertBodyArt($('#introduction-text').querySelector('section'),'introduction');
-renderContents();renderArchive();applyReadingSize();applyMotion();renderRoute(parseRoute(),{initial:true});
+renderContents();renderMarketplace();renderArchive();applyReadingSize();applyMotion();renderRoute(parseRoute(),{initial:true});
