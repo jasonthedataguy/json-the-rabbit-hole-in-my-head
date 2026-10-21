@@ -878,13 +878,13 @@
     },
     {
       "path": "web/index.html",
-      "bytes": 10983,
-      "sha256": "a13a6b2766044ff18254a9069917776dd543b9065fb48a183e979f468f50810d"
+      "bytes": 11016,
+      "sha256": "ae33e4e3ff05bab1da95a1bbcce60601988b76fed05c422e3fe2f52d61e1e6ca"
     },
     {
       "path": "web/template.html",
-      "bytes": 6572,
-      "sha256": "ec33e0b761b29775d5e2fcf717bed05e4786f9bff25cbc94c0e810d8d7b23c97"
+      "bytes": 6587,
+      "sha256": "d81e426959ebb019ac655f07ab6bafdb8e5d7a06b6ae725aac4b3035e00c63cb"
     },
     {
       "path": "web/three-meeting-v2.css",

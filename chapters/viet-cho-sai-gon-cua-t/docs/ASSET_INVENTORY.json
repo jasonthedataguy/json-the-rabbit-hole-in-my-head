@@ -603,8 +603,8 @@
     },
     {
       "path": "web/index.html",
-      "bytes": 34727,
-      "sha256": "955aa810e2f51782d20dad806c634c46c290ef9d05be8290e77d60776376495b"
+      "bytes": 34745,
+      "sha256": "dc61315e5b7801aa7eaef14c7a9a65f4190678fa70b3f3b96749d965e2a35a69"
     },
     {
       "path": "web/saigon-v1.css",
@@ -613,8 +613,8 @@
     },
     {
       "path": "web/template.html",
-      "bytes": 5654,
-      "sha256": "895d392099f1333cbba383fbc98936016b47dc7af4e20e830e3fe88d5e442544"
+      "bytes": 5664,
+      "sha256": "0d84575c34c407edbdfd1a4f501f663ed359437c9b276ea8ec300c2772150728"
     }
   ]
 }

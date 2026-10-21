@@ -40,6 +40,10 @@
 @media(max-width:350px){.cover-top-nav{font-size:11px;gap:14px}.cover-chapter-link{font-size:20px}.cover-page-controls{font-size:9px}}
 @media print{.cover-page-controls,.cover-page-position{display:none}}
 
+.cover-tagline{max-width:40ch;margin:17px auto 0;color:#c9b79b;font:italic 14px/1.5 var(--serif);text-wrap:balance}
+.cover-reader-tagline{max-width:37ch;margin:26px auto 0;color:#57645d;font:italic 21px/1.45 var(--serif);text-wrap:balance}
+@media(max-width:640px){.cover-tagline{max-width:36ch;margin-top:12px;font-size:12px}}
+
 /* On a wide screen the ring turns the page beside it. Narrow screens keep the cover. */
 .cover-reading-panel { display: none; }
 @media screen and (min-width: 1024px) {

@@ -12,9 +12,9 @@ def main():
     changes = [
         ('<meta name="theme-color" content="#102a2c">', '<meta name="theme-color" content="#102331">'),
         ('<title>Cơm nguội — .json</title>', '<title>Cold Rice — .json</title>'),
-        ('href="https://jasonthedataguy.github.io/json-under-revision/chapters/07/"', 'href="https://jasonthedataguy.github.io/json-under-revision-v2/chapters/com-nguoi/web/"'),
+        ('href="https://jasonthedataguy.github.io/json-under-revision/chapters/07/"', 'href="https://jasonthedataguy.github.io/json-the-rabbit-hole-in-my-head/chapters/com-nguoi/web/"'),
         ('<meta property="og:title" content="Cơm nguội — .json">', '<meta property="og:title" content="Cold Rice — .json">'),
-        ('content="https://jasonthedataguy.github.io/json-under-revision/chapters/07/artwork/exports/hero.jpg"', 'content="https://jasonthedataguy.github.io/json-under-revision-v2/chapters/com-nguoi/web/assets/rice-portal-board-v2.png"'),
+        ('content="https://jasonthedataguy.github.io/json-under-revision/chapters/07/artwork/exports/hero.jpg"', 'content="https://jasonthedataguy.github.io/json-the-rabbit-hole-in-my-head/chapters/com-nguoi/web/assets/rice-portal-board-v2.png"'),
         ('<style>:root{--dark:#102a2c;--paper:#f3ead5;--accent:#d39b72;--ink:#182a2a}</style>', '<link rel="stylesheet" href="cold-rice-v2.css">'),
         ('<a class="brand" href="https://jasonthedataguy.github.io/json-under-revision/">', '<a class="brand" href="../../../index.html#chapter/00">'),
         ('href="https://jasonthedataguy.github.io/json-under-revision/#chapters">Chapters</a>', 'href="../../../index.html#contents">Chapters</a>'),

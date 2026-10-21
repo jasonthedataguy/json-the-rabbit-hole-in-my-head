@@ -130,7 +130,7 @@ def build_site():
     def js(value):
         return json.dumps(value, ensure_ascii=False, indent=2)
     (staging / 'chapter-data.js').write_text('// Generated from book.json and chapters/*/chapter.json.\nexport const chapters = ' + js(portals) + ';\nexport const acts = ' + js(registry['acts']) + ';\n', encoding='utf-8')
-    (staging / 'book.js').write_text('// Generated from the source registry; edit book.json or chapter.json.\n' + '\n'.join('export const ' + name + ' = ' + js(value) + ';' for name, value in [('introduction', registry['introduction']), ('parts', registry['parts']), ('chapterNotes', notes)]) + '\n', encoding='utf-8')
+    (staging / 'book.js').write_text('// Generated from the source registry; edit book.json or chapter.json.\n' + '\n'.join('export const ' + name + ' = ' + js(value) + ';' for name, value in [('identity', {key: registry[key] for key in ('title', 'subtitle', 'tagline')}), ('introduction', registry['introduction']), ('parts', registry['parts']), ('chapterNotes', notes)]) + '\n', encoding='utf-8')
     library = build_library(staging, entries)
     products = []
     for folder, meta in entries:

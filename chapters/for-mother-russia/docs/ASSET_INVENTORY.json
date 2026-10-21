@@ -733,8 +733,8 @@
     },
     {
       "path": "web/index.html",
-      "bytes": 23281,
-      "sha256": "3d3f35b81f0d86dba01bb9b42e41e780407ab4a093c28e33fa9bebd8aa0afc73"
+      "bytes": 23304,
+      "sha256": "ad46510cf8e75ef6927dc4b7542b968252e61ab9ef172207083d1a9bdcb6e711"
     },
     {
       "path": "web/mother-russia-v2.css",
@@ -743,8 +743,8 @@
     },
     {
       "path": "web/template.html",
-      "bytes": 16031,
-      "sha256": "0e545805bae53e6b79628eabead402bd52063bdd7d2795341560e832484fb434"
+      "bytes": 16036,
+      "sha256": "8579745b1ba4a8ff1631903a48b7818e1a9b8c4ba284715d11e2b7722686dd5e"
     }
   ]
 }

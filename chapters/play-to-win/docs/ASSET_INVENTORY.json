@@ -573,8 +573,8 @@
     },
     {
       "path": "web/index.html",
-      "bytes": 47981,
-      "sha256": "931fe69540161f9c2fb5c240b496164d1a395f3f62d8e65ca4cbc31fd5d5dcbb"
+      "bytes": 48009,
+      "sha256": "8d166de08e6ee1b2bbb844ae7869ec7fbd4876a4b740bc499115bf33d4c12128"
     },
     {
       "path": "web/play-to-win-v2.css",
@@ -583,8 +583,8 @@
     },
     {
       "path": "web/template.html",
-      "bytes": 10307,
-      "sha256": "ed7f05c78ffd562036f34ba6f693cb764992433ccb77cdbf3d75237cda522033"
+      "bytes": 10317,
+      "sha256": "4e1e169d344bea3c3dc9c6ac8716597c7ccdbcb8cfc6fcbe72f8cb28211a910f"
     }
   ]
 }

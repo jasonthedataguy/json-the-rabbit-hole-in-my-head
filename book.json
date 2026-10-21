@@ -1,8 +1,9 @@
 {
   "schema_version": 2,
   "title": ".json",
-  "subtitle": "Jason, under revision",
-  "public_url": "https://jasonthedataguy.github.io/json-under-revision-v2/",
+  "subtitle": "the rabbit hole in my head",
+  "tagline": "A rabbit hole into the mind of a man who can structure everything into data, except the truth about himself",
+  "public_url": "https://jasonthedataguy.github.io/json-the-rabbit-hole-in-my-head/",
   "chapters": [
     "com-nguoi",
     "i-was-born-a-quant",

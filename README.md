@@ -1,4 +1,6 @@
-# .json — Jason, under revision
+# .json — the rabbit hole in my head
+
+A rabbit hole into the mind of a man who can structure everything into data, except the truth about himself.
 
 The current portal and reading illustrations for the Introduction and all 36
 chapter slots are installed from the [digital-book artwork library](docs/DIGITAL_ASSET_PACK.md).
@@ -91,7 +93,7 @@ To My Saigon uses the supplied Saigon board's work-and-home ring and the still v
 
 
 
-GitHub Actions tests, inventories, builds and validates before deploying `dist/` on pushes to `main`. Pull requests run checks without deployment. Source assets and chapter products are versioned; generated site output is ignored. Existing hash routes and root asset URLs are preserved, and all local paths work beneath `/json-under-revision-v2/`.
+GitHub Actions tests, inventories, builds and validates before deploying `dist/` on pushes to `main`. Pull requests run checks without deployment. Source assets and chapter products are versioned; generated site output is ignored. Existing hash routes and root asset URLs are preserved, and all local paths work beneath `/json-the-rabbit-hole-in-my-head/`.
 
 No release or social upload is performed by the local build. The [original edition](https://github.com/jasonthedataguy/json-under-revision) remains unchanged at its own repository and URLs.
 

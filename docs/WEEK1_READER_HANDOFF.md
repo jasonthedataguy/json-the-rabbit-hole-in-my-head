@@ -10,9 +10,9 @@ Each query string precedes the `#chapter/NN` route. These are link drafts for ma
 
 | Campaign | Proposed URL |
 | --- | --- |
-| Cold Rice · TikTok | `https://jasonthedataguy.github.io/json-under-revision-v2/?utm_source=tiktok&utm_medium=organic_social&utm_campaign=cold_rice_w01#chapter/00` |
-| Fashion · Instagram | `https://jasonthedataguy.github.io/json-under-revision-v2/?utm_source=instagram&utm_medium=organic_social&utm_campaign=fashion_w01#chapter/04` |
-| To My Saigon · Facebook | `https://jasonthedataguy.github.io/json-under-revision-v2/?utm_source=facebook&utm_medium=organic_social&utm_campaign=saigon_w01#chapter/14` |
+| Cold Rice · TikTok | `https://jasonthedataguy.github.io/json-the-rabbit-hole-in-my-head/?utm_source=tiktok&utm_medium=organic_social&utm_campaign=cold_rice_w01#chapter/00` |
+| Fashion · Instagram | `https://jasonthedataguy.github.io/json-the-rabbit-hole-in-my-head/?utm_source=instagram&utm_medium=organic_social&utm_campaign=fashion_w01#chapter/04` |
+| To My Saigon · Facebook | `https://jasonthedataguy.github.io/json-the-rabbit-hole-in-my-head/?utm_source=facebook&utm_medium=organic_social&utm_campaign=saigon_w01#chapter/14` |
 
 ## Measurement for Week 1
 
