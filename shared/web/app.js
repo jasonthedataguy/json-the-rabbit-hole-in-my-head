@@ -75,8 +75,11 @@ function renderMarketplace(){
 }
 function renderCheckout(offerId){
   const offer=commerce.offers.find(item=>item.id===offerId);
-  $('#checkout-summary').innerHTML=`<div class="checkout-summary"><p class="leaf-kicker">SELECTED EDITION</p><h2>${esc(offer.name)}</h2><p>${esc(offer.description)}</p><dl><div><dt>Planning estimate</dt><dd>${formatVnd(offer.estimate)}</dd></div><div><dt>Refundable deposit</dt><dd>To be set</dd></div><div><dt>Shipping and taxes</dt><dd>To be quoted before payment</dd></div><div><dt>Delivery window</dt><dd>Awaiting print proof</dd></div></dl><p class="checkout-blocked">Checkout is not open. This estimate is not a payment request.</p></div>`;
-  $('#checkout-methods').innerHTML=commerce.paymentMethods.map(method=>`<div><strong>${esc(method.name)}</strong><p>${esc(method.detail)}</p><span>Setup pending</span></div>`).join('');
+  if(!offer){location.hash='#marketplace';return;}
+  const pending=commerce.readiness.filter(gate=>!gate.complete);
+  const checklist=commerce.readiness.map(gate=>`<li class="checkout-gate"><span class="checkout-gate-marker" aria-hidden="true">${gate.complete?'✓':'○'}</span><span><strong>${esc(gate.name)}</strong><small>${esc(gate.detail)}</small></span><em>${gate.complete?'Reviewed':'Pending'}</em></li>`).join('');
+  $('#checkout-summary').innerHTML=`<div class="checkout-summary"><p class="leaf-kicker">SELECTED EDITION / INTERNAL PLANNING PREVIEW</p><h2>${esc(offer.name)}</h2><p>${esc(offer.description)}</p><dl><div><dt>Unapproved planning estimate</dt><dd>${formatVnd(offer.estimate)}</dd></div><div><dt>Refundable deposit</dt><dd>Not determined</dd></div><div><dt>Shipping, taxes, final total</dt><dd>Not yet quoted</dd></div><div><dt>Delivery window</dt><dd>Awaiting print proof</dd></div></dl><p class="checkout-blocked" role="status">Ordering and payment are disabled. Do not transfer money for this edition.</p></div><section class="checkout-readiness" aria-labelledby="checkout-readiness-heading"><p class="leaf-kicker">PAYMENT READINESS</p><h3 id="checkout-readiness-heading">Before orders can open</h3><p>${pending.length} requirements remain pending. This checklist does not grant publication or payment approval.</p><ul>${checklist}</ul></section>`;
+  $('#checkout-methods').innerHTML=commerce.paymentMethods.map(method=>`<div><strong>${esc(method.name)}</strong><p>${esc(method.detail)}</p><span>Not connected · no payment action</span></div>`).join('');
 }
 function artHTML(chapter){
   if(digitalArt[chapter.slug])return digitalImage(chapter.slug,'opening','digital-book-opening');
