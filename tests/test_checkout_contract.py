@@ -35,6 +35,18 @@ class CheckoutContractTests(unittest.TestCase):
         with self.assertRaises(CheckoutUnavailable):
             quote_request(self.request, self.policy)
 
+    def test_frontend_stays_a_preview_and_matches_planning_estimates(self):
+        # Public copy must never silently diverge from the unapproved catalog.
+        script = (ROOT / "shared/web/commerce.js").read_text(encoding="utf-8")
+        self.assertIn("status: 'preview'", script)
+        self.assertIn("checkoutEndpoint: ''", script)
+        for edition_id, spec in self.policy["offers"].items():
+            self.assertIn(f"id:'{edition_id}'", script)
+            self.assertIn(f"estimate:{spec['planning_estimate_vnd']}", script)
+        for gate in REQUIRED_GATES:
+            self.assertIn(f"id:'{gate}'", script)
+        self.assertEqual(script.count("complete:false"), len(REQUIRED_GATES))
+
     def test_rejects_client_controlled_amount_urls_and_status(self):
         for injected in ({"amount": 1}, {"return_url": "https://attacker.example"}, {"status": "PAID"}, {"buyer_email": "x@y.test"}):
             with self.subTest(injected=injected), self.assertRaises(CheckoutUnavailable):
