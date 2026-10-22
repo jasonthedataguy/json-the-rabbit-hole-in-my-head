@@ -124,11 +124,15 @@ function chapterFooter(chapter){
   const next=number===chapters.length-1?{href:'#cover',title:'Book cover',label:'CLOSE THE BOOK'}:{href:`#chapter/${chapters[number+1].id}`,title:chapters[number+1].title,label:'NEXT CHAPTER'};
   return `<footer class="leaf-navigation">${pageTurn({...previous,direction:'previous'})}<span class="folio">${chapter.id}</span>${pageTurn({...next,direction:'next'})}</footer>`;
 }
+// This list is intentionally empty until the founder clears specific public chapters
+// in JSON-103. This only controls the post-read recommendation, not site access.
+const postReadClearedChapterIds = new Set([]);
 function postRead(chapter){
-  const next=chapters[Number(chapter.id)+1];
-  const primary=next?{href:`#chapter/${next.id}`,label:'NEXT CHAPTER',title:next.title}:{href:'#contents',label:'FINISHED THE BOOK',title:'Browse all chapters'};
-  const secondary=next?{href:'#contents',title:'Contents'}:{href:'#cover',title:'Book cover'};
-  return `<aside class="post-read" aria-label="After reading"><p class="leaf-kicker">KEEP READING</p><h2>Continue the story</h2><div class="post-read-actions"><a class="post-read-primary" href="${primary.href}"><span>${primary.label}</span><strong>${esc(primary.title)}</strong><span aria-hidden="true">→</span></a><a class="post-read-secondary" href="${secondary.href}">${secondary.title}</a></div><a class="post-read-marketplace" href="#marketplace">Explore the proposed book editions <span aria-hidden="true">→</span></a></aside>`;
+  const candidate=chapters[Number(chapter.id)+1];
+  const next=candidate && postReadClearedChapterIds.has(candidate.id) ? candidate : null;
+  const primary=next?{href:`#chapter/${next.id}`,label:'NEXT APPROVED CHAPTER',title:next.title}:{href:'#contents',label:'CONTINUE READING',title:'Browse the contents'};
+  const secondary=next?`<a class="post-read-secondary" href="#contents">Contents</a>`:'';
+  return `<aside class="post-read" aria-label="After reading"><p class="leaf-kicker">KEEP READING</p><h2>Continue the story</h2><div class="post-read-actions"><a class="post-read-primary" href="${primary.href}"><span>${primary.label}</span><strong>${esc(primary.title)}</strong><span aria-hidden="true">→</span></a>${secondary}</div><a class="post-read-follow" href="https://www.instagram.com/jsonrabbithole/" target="_blank" rel="noopener noreferrer" aria-label="Follow .json on Instagram (opens in a new tab)">Follow .json on Instagram <span aria-hidden="true">↗</span></a></aside>`;
 }
 function sourceNotes(manuscript){
   const original=manuscript.legacyId!=null;
