@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "mode": "disabled",
+  "currency": "VND",
+  "status": "internal_design_only",
+  "merchant_provider": null,
+  "payment_endpoint": null,
+  "approval_gates": {
+    "offer_and_prices_approved": false,
+    "print_and_shipping_confirmed": false,
+    "buyer_notice_and_refund_terms_approved": false,
+    "merchant_and_webhook_verified": false,
+    "transaction_and_refund_tested": false,
+    "founder_paid_release_approved": false
+  },
+  "approved_payment_methods": [],
+  "offers": {
+    "core": {
+      "approved_price_vnd": null,
+      "approved_deposit_vnd": null,
+      "planning_estimate_vnd": 249000
+    },
+    "illustrated": {
+      "approved_price_vnd": null,
+      "approved_deposit_vnd": null,
+      "planning_estimate_vnd": 429000
+    },
+    "collector": {
+      "approved_price_vnd": null,
+      "approved_deposit_vnd": null,
+      "planning_estimate_vnd": 799000
+    }
+  },
+  "notes": "Planning estimates are not chargeable prices. No order endpoint, API keys, payment links or buyer data are stored here."
+}
