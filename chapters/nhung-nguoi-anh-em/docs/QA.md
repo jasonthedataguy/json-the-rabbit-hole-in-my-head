@@ -1,7 +1,0 @@
-# My brothers digital QA
-
-On 2026-10-20 the site build and link validator passed with 36 editorial chapters and 30 full manuscripts; all 11 project unit tests passed. Headless Chrome checked 1440 × 900 desktop and 390 × 844 mobile. Chapter 13's reading leaf, map, homepage cover stop and standalone reader load the board-derived art without page-wide horizontal overflow. The rotating memory ring and stationary four-friends centre align; the map reports FULL TEXT and displays the universe-model marker. The supplied six paragraphs render across the chapter, desktop homepage reading panel and standalone reader. The desktop cover and reading panel each measure 833 px high. Direct routes for Chapter 13 and later published chapters resolve.
-
-Visual evidence: [portal composition](../../../docs/qa/my-brothers-board-portal-composition.png), [desktop chapter](../../../docs/qa/my-brothers-chapter-desktop.png), [mobile chapter](../../../docs/qa/my-brothers-chapter-mobile.png), [desktop map](../../../docs/qa/my-brothers-map-desktop.png), [mobile map](../../../docs/qa/my-brothers-map-mobile.png), [desktop homepage stop](../../../docs/qa/my-brothers-cover-desktop.png), [mobile homepage stop](../../../docs/qa/my-brothers-cover-mobile.png), [desktop standalone reader](../../../docs/qa/my-brothers-standalone-desktop.png) and [mobile standalone reader](../../../docs/qa/my-brothers-standalone-mobile.png).
-
-Physical-device and human screen-reader review remain pending. The flattened board supports digital crops, not certified print production.

@@ -1,7 +1,0 @@
-# Command Respect digital QA
-
-On 2026-10-20 the site build and link validator passed with 36 editorial chapters and 26 exact full manuscripts; all 11 project unit tests passed. Headless Chrome checked 1440?900 desktop and 390?844 mobile. Chapter 32's leaf, map, homepage cover stop and standalone reader load the board-derived art without page-wide horizontal overflow. The ring and stationary childhood-mirror centre align; the map reports FULL TEXT and displays the arch marker. The selected manuscript renders 101 reading blocks across the chapter, desktop homepage reading panel and standalone reader. The desktop cover and reading panel each measure 833 px high. Direct routes for Chapters 24?33 resolve.
-
-Visual evidence: [portal composition](../../../docs/qa/command-respect-board-portal-composition.png), [desktop chapter](../../../docs/qa/command-respect-chapter-desktop.png), [mobile chapter](../../../docs/qa/command-respect-chapter-mobile.png), [desktop map](../../../docs/qa/command-respect-map-desktop.png), [mobile map](../../../docs/qa/command-respect-map-mobile.png), [desktop homepage stop](../../../docs/qa/command-respect-cover-desktop.png), [mobile homepage stop](../../../docs/qa/command-respect-cover-mobile.png), [desktop standalone reader](../../../docs/qa/command-respect-standalone-desktop.png) and [mobile standalone reader](../../../docs/qa/command-respect-standalone-mobile.png).
-
-Physical-device and human screen-reader review remain pending. The flattened board supports digital crops, not certified print production.

@@ -1,9 +1,0 @@
-# Chơi để không thua
-
-V2 slot: **03**. Stable folder: `play-to-win`.
-
-Edit identity and state in `chapter.json`; keep author prose in `source/` and production recipes in `production.json`. See [the chapter workflow](../../docs/PRODUCTION_WORKFLOW.md) and [product status](docs/PRODUCT_STATUS.json).
-
-The original edition files are preserved. Its chapter number, proof labels and narration status remain historical facts; they are not a completed v2 release. Original metadata lives in `references/original-edition/`.
-
-The supplied game-table concept board now shapes the v2 digital portal, chapter map, reading leaf and immersive page. See [the design adaptation](docs/DESIGN_ADAPTATION.md).

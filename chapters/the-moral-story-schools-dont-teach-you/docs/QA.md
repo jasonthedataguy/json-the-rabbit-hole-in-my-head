@@ -1,7 +1,0 @@
-# Moral Story digital QA
-
-On 2026-10-19 the site build and link validator passed with 36 editorial chapters and 24 exact full manuscripts; all 11 project unit tests passed. Headless Chrome checked 1440×900 desktop and 390×844 mobile. Chapter 29's leaf, map, homepage cover stop and standalone reader load the board-derived art without page-wide horizontal overflow. The ring and stationary open-book centre align; the map reports FULL TEXT and displays the book marker. The selected manuscript renders 157 reading blocks, including 25 quoted prompt/reply blocks, across the chapter, desktop homepage reading panel and standalone reader. The desktop cover and reading panel each measure 864 px high. Direct routes for Chapters 24–31 resolve, including the shifted Negative-Sum Game at Chapter 30.
-
-Visual evidence: [portal composition](../../../docs/qa/moral-story-board-portal-composition.png), [desktop chapter](../../../docs/qa/moral-story-chapter-desktop.png), [mobile chapter](../../../docs/qa/moral-story-chapter-mobile.png), [desktop map](../../../docs/qa/moral-story-map-desktop.png), [mobile map](../../../docs/qa/moral-story-map-mobile.png), [desktop homepage stop](../../../docs/qa/moral-story-cover-desktop.png), [mobile homepage stop](../../../docs/qa/moral-story-cover-mobile.png) and [mobile standalone reader](../../../docs/qa/moral-story-standalone-mobile.png).
-
-Physical-device and human screen-reader review remain pending. The flattened board supports digital crops, not certified print production.

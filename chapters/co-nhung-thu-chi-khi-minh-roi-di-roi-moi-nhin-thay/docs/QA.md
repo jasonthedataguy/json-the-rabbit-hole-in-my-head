@@ -1,7 +1,0 @@
-# Things You Only See After Leaving digital QA
-
-On 2026-10-20 the site build and link validator passed with 36 editorial chapters and 27 exact full manuscripts; all 11 project unit tests passed. Headless Chrome checked 1440 × 900 desktop and 390 × 844 mobile. Chapter 34's reading leaf, map, homepage cover stop and standalone reader load the board-derived art without page-wide horizontal overflow. The office ring and stationary whiteboard centre align; the map reports FULL TEXT and displays the whiteboard marker. The supplied manuscript renders 14 reading paragraphs across the chapter, desktop homepage reading panel and standalone reader. The desktop cover and reading panel each measure 864 px high. Direct routes for Chapters 24–34 resolve.
-
-Visual evidence: [portal composition](../../../docs/qa/after-leaving-board-portal-composition.png), [desktop chapter](../../../docs/qa/after-leaving-chapter-desktop.png), [mobile chapter](../../../docs/qa/after-leaving-chapter-mobile.png), [desktop map](../../../docs/qa/after-leaving-map-desktop.png), [mobile map](../../../docs/qa/after-leaving-map-mobile.png), [desktop homepage stop](../../../docs/qa/after-leaving-cover-desktop.png), [mobile homepage stop](../../../docs/qa/after-leaving-cover-mobile.png), [desktop standalone reader](../../../docs/qa/after-leaving-standalone-desktop.png) and [mobile standalone reader](../../../docs/qa/after-leaving-standalone-mobile.png).
-
-Physical-device and human screen-reader review remain pending. The flattened board supports digital crops, not certified print production.

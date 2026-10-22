@@ -1,7 +1,0 @@
-# Negative-Sum Game digital QA
-
-On 2026-10-20 the site build and link validator passed with 36 editorial chapters and 25 exact full manuscripts; all 11 project unit tests passed. Headless Chrome checked 1440?900 desktop and 390?844 mobile. Chapter 30's leaf, map, homepage cover stop and standalone reader load the board-derived art without page-wide horizontal overflow. The ring and stationary chess-table centre align; the map reports FULL TEXT and displays the chessboard marker. The selected manuscript renders 81 reading blocks across the chapter, desktop homepage reading panel and standalone reader. The desktop cover and reading panel each measure 833 px high. Direct routes for Chapters 24?31 resolve.
-
-Visual evidence: [portal composition](../../../docs/qa/negative-sum-board-portal-composition.png), [desktop chapter](../../../docs/qa/negative-sum-chapter-desktop.png), [mobile chapter](../../../docs/qa/negative-sum-chapter-mobile.png), [desktop map](../../../docs/qa/negative-sum-map-desktop.png), [mobile map](../../../docs/qa/negative-sum-map-mobile.png), [desktop homepage stop](../../../docs/qa/negative-sum-cover-desktop.png), [mobile homepage stop](../../../docs/qa/negative-sum-cover-mobile.png), [desktop standalone reader](../../../docs/qa/negative-sum-standalone-desktop.png) and [mobile standalone reader](../../../docs/qa/negative-sum-standalone-mobile.png).
-
-Physical-device and human screen-reader review remain pending. The flattened board supports digital crops, not certified print production.
