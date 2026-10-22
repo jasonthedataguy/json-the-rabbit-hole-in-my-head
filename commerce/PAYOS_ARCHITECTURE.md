@@ -1,14 +1,14 @@
-# PAYOS-01 — Proposed private checkout architecture (ADR draft)
+# PAYOS-01 — Accepted private checkout architecture (ADR)
 
-- **Status:** proposed for founder review; no infrastructure created, no provider connected
+- **Status:** architecture approved by founder on 2026-10-23; no infrastructure provisioned, merchant connected, credentials submitted, funds spent, or public checkout activated
 - **Date:** 2026-10-23
 - **Jira:** [JSON-123](https://jason-agentic-workspace.atlassian.net/browse/JSON-123), [PAYOS-01 / JSON-124](https://jason-agentic-workspace.atlassian.net/browse/JSON-124)
 - **Baseline:** [draft checkout PR #2](https://github.com/jasonthedataguy/json-the-rabbit-hole-in-my-head/pull/2)
 - **Phase 1:** payOS hosted domestic bank-QR payment for approved physical-book editions only; no cards/wallets assumed
 
-## Decision proposal
+## Architecture decision (accepted 2026-10-23)
 
-**Keep the GitHub Pages reader static and isolated from all checkout secrets.** Add a minimal server-side HTTPS order service on **Cloudflare Workers + D1** as the leading low-cost candidate, subject to account/contract/cost/security review before provisioning. Use plain HTTPS requests to payOS merchant APIs with documented HMAC signing and avoid assuming a particular Node SDK works in Workers. A provider adapter can be swapped without altering the reader or canonical order records.
+**Keep the GitHub Pages reader static and isolated from all checkout secrets.** Add a minimal server-side HTTPS order service on **Cloudflare Workers + D1** as the founder-approved architecture choice. Account ownership, any provisioning, cost, contract, data-handling, and security checks still require their own review before deployment. Use plain HTTPS requests to payOS merchant APIs with documented HMAC signing and avoid assuming a particular Node SDK works in Workers. A provider adapter can be swapped without altering the reader or canonical order records.
 
 Rationale: existing public book routes and illustration assets remain untouched; Worker Secrets provide non-public credential bindings; D1 provides durable relational orders, transaction uniqueness constraints, audit ledger and idempotent webhook transitions. Worker/D1 free quotas may suit a small pilot, but quotas/overages, availability, data residency, privacy and dispute handling must be checked before adoption. No paid hosting/domain/account is authorized by this document.
 
@@ -94,13 +94,19 @@ Transitions must be conditional/idempotent in the database; never turn PAID back
 
 CI on book PRs runs tests/build/link validation without deploying GitHub Pages; no production backend credentials in CI. Rollback: set server and reader `checkout_enabled=false`, disable new sessions, keep webhook receiving existing settled events, preserve ledger and manual reconciliation; never delete pending customer orders.
 
-## Open decisions before PAYOS-01 can be considered approved
+## Remaining operational prerequisites (do not block the architecture decision)
 
-- [ ] Confirm founder controls (or will create) a Cloudflare account; authorize any infrastructure provisioning separately.
-- [ ] Confirm Cloudflare Workers+D1 is acceptable under the real pilot limits/cost, data-handling requirements and uptime needs; otherwise record selected alternative.
-- [ ] Confirm the canonical deployed public reader origin; a future `jsonrabbithole` domain requires separate purchase/DNS approval and later callback updates.
-- [ ] Confirm payOS account/channel, settlement eligibility and fee/refund operations (PAYOS-02; may remain pending while mock coding proceeds).
-- [ ] Approve implementation scope and evidence needed to close architecture task. Founder G4 **not** implied.
+- [ ] Verify founder-controlled Cloudflare account and approve any infrastructure provisioning separately (PAYOS-04).
+- [x] Founder selects **Cloudflare Workers + D1** as the architecture on 2026-10-23. Actual quota, costs, privacy, data-handling, and uptime constraints must still be verified before provisioning.
+- [ ] Validate the final live reader HTTPS origin and callback routes during PAYOS-04/09 before backend activation; a future `jsonrabbithole` domain requires separate purchase/DNS approval.
+- [ ] Verify payOS account/channel, settlement eligibility, fees and refund operations in PAYOS-02; those checks remain outstanding, while mock coding can proceed separately.
+- [x] Founder approved the **architecture choice only** on 2026-10-23. Founder G4, live payment tests, merchant onboarding, hosting charges, domain/DNS changes and real checkout enablement are **not** authorized by this decision.
+
+## Decision record
+
+**Founder confirmation:** "yes agree the architecture" (2026-10-23). This explicitly accepts GitHub Pages + Cloudflare Workers + D1 + payOS-hosted bank QR as the Phase 1 engineering direction. It does not authorize merchant onboarding, account provisioning, new spend, live credentials, real-money test, or commercial G4 release.
+
+**Review evidence:** Draft PR #2 maintains payments disabled. GitHub Actions PR build/test proof: https://github.com/jasonthedataguy/json-the-rabbit-hole-in-my-head/actions/runs/39872496519
 
 ## References checked 23 October 2026
 
