@@ -1,8 +1,11 @@
 # Lone Wolf — Side-by-side editorial reading
 
+> **AUTHOR DECISION — 2026-10-24:** Original Version A is chosen for every chapter in this study. The author rejected all Version B expansions because they diluted voice, interrupted pacing and undermined story coherence. Do not merge the B alternatives or promote them to canonical text. Songs may remain as private mood references only. This editorial experiment is closed; all eight approved source files on main were verified to match Version A after normalizing line endings.
+
+
 **Music lens:** Who Knows — Daniel Caesar; You Got The Part — New West
 
-**Assessment:** A 9.2/10 · B 9.5/10 · **Recommendation: B**
+**Assessment:** A 9.2/10 · B 9.5/10 · **Recommendation withdrawn — Version A selected by author**
 
 B retains the dog/wolf humor while making room for imperfect, uncertain closeness. It doesn't prescribe reconciliation or a new relationship as the only valid outcome.
 

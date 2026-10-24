@@ -1,8 +1,11 @@
 # Dating Algorithm — Side-by-side editorial reading
 
+> **AUTHOR DECISION — 2026-10-24:** Original Version A is chosen for every chapter in this study. The author rejected all Version B expansions because they diluted voice, interrupted pacing and undermined story coherence. Do not merge the B alternatives or promote them to canonical text. Songs may remain as private mood references only. This editorial experiment is closed; all eight approved source files on main were verified to match Version A after normalizing line endings.
+
+
 **Music lens:** fake love don't last — mgk / iann dior; You Got The Part — New West
 
-**Assessment:** A 8.9/10 · B 8.8/10 · **Recommendation: A**
+**Assessment:** A 8.9/10 · B 8.8/10 · **Recommendation withdrawn — Version A selected by author**
 
 The approved version already contains its own self-correction and elaborate models. B adds distrust as an emotional source but gives away the later arc too early and lengthens an already long chapter.
 

@@ -1,8 +1,11 @@
 # To Mary Jane — Side-by-side editorial reading
 
+> **AUTHOR DECISION — 2026-10-24:** Original Version A is chosen for every chapter in this study. The author rejected all Version B expansions because they diluted voice, interrupted pacing and undermined story coherence. Do not merge the B alternatives or promote them to canonical text. Songs may remain as private mood references only. This editorial experiment is closed; all eight approved source files on main were verified to match Version A after normalizing line endings.
+
+
 **Music lens:** Always — Daniel Caesar; times of my life — mgk
 
-**Assessment:** A 9/10 · B 8.8/10 · **Recommendation: A**
+**Assessment:** A 9/10 · B 8.8/10 · **Recommendation withdrawn — Version A selected by author**
 
 A has the unsent-letter authenticity of someone declaring rather than discussing an exit. B is more generous but risks rewriting what Jason really felt at the time and prematurely explaining the later regret.
 

@@ -1,8 +1,11 @@
 # Ugly Projections — Side-by-side editorial reading
 
+> **AUTHOR DECISION — 2026-10-24:** Original Version A is chosen for every chapter in this study. The author rejected all Version B expansions because they diluted voice, interrupted pacing and undermined story coherence. Do not merge the B alternatives or promote them to canonical text. Songs may remain as private mood references only. This editorial experiment is closed; all eight approved source files on main were verified to match Version A after normalizing line endings.
+
+
 **Music lens:** Don't Freak Out — Huddy / iann dior; fake love don't last — mgk / iann dior
 
-**Assessment:** A 9.2/10 · B 9.6/10 · **Recommendation: B**
+**Assessment:** A 9.2/10 · B 9.6/10 · **Recommendation withdrawn — Version A selected by author**
 
 B deepens the gap between cognition and the body's alarm response. It makes the earlier generalized distrust feel like a narrator's projection, not the book's endorsed truth.
 

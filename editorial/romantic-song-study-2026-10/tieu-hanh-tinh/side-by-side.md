@@ -1,8 +1,11 @@
 # Asteroid / Tiểu hành tinh — Side-by-side editorial reading
 
+> **AUTHOR DECISION — 2026-10-24:** Original Version A is chosen for every chapter in this study. The author rejected all Version B expansions because they diluted voice, interrupted pacing and undermined story coherence. Do not merge the B alternatives or promote them to canonical text. Songs may remain as private mood references only. This editorial experiment is closed; all eight approved source files on main were verified to match Version A after normalizing line endings.
+
+
 **Music lens:** Those Eyes — New West; Xem như tôi đã cưới được cô ấy
 
-**Assessment:** A 8.7/10 · B 9.3/10 · **Recommendation: B**
+**Assessment:** A 8.7/10 · B 9.3/10 · **Recommendation withdrawn — Version A selected by author**
 
 B keeps the charming planetary metaphor but brings it closer to human-scale intimacy. It makes the imagined shared future an imagined possibility—not a relationship the manuscript claims happened.
 

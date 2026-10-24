@@ -1,8 +1,11 @@
 # Red Button / Nút đỏ — Side-by-side editorial reading
 
+> **AUTHOR DECISION — 2026-10-24:** Original Version A is chosen for every chapter in this study. The author rejected all Version B expansions because they diluted voice, interrupted pacing and undermined story coherence. Do not merge the B alternatives or promote them to canonical text. Songs may remain as private mood references only. This editorial experiment is closed; all eight approved source files on main were verified to match Version A after normalizing line endings.
+
+
 **Music lens:** Don't Freak Out — Huddy / iann dior (emotional counterpoint, not a romantic-scene match)
 
-**Assessment:** A 9.2/10 · B 8.8/10 · **Recommendation: A**
+**Assessment:** A 9.2/10 · B 8.8/10 · **Recommendation withdrawn — Version A selected by author**
 
 A is more powerful through restraint. B makes the emotional mechanism too explicit and weakens the final repeated action. Keep the existing short scene as the book's factual family-memory bridge.
 

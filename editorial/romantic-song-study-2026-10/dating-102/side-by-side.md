@@ -1,8 +1,11 @@
 # Dating 102 — Side-by-side editorial reading
 
+> **AUTHOR DECISION — 2026-10-24:** Original Version A is chosen for every chapter in this study. The author rejected all Version B expansions because they diluted voice, interrupted pacing and undermined story coherence. Do not merge the B alternatives or promote them to canonical text. Songs may remain as private mood references only. This editorial experiment is closed; all eight approved source files on main were verified to match Version A after normalizing line endings.
+
+
 **Music lens:** fake love don't last — mgk / iann dior; Those Eyes — New West
 
-**Assessment:** A 7.3/10 · B 8.5/10 · **Recommendation: B**
+**Assessment:** A 7.3/10 · B 8.5/10 · **Recommendation withdrawn — Version A selected by author**
 
 B preserves the combative TED-talk voice but makes the crucial distinction between criticizing status transactions and judging every person who enjoys beautiful things. It gives stronger scenes and avoids treating unsupported demographic conjecture as a proven prediction.
 
