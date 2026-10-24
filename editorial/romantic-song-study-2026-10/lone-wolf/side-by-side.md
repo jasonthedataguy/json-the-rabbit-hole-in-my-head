@@ -6,7 +6,7 @@
 
 B retains the dog/wolf humor while making room for imperfect, uncertain closeness. It doesn't prescribe reconciliation or a new relationship as the only valid outcome.
 
-Source version: [approved repository manuscript](../../chapters/lone-wolf/source/approved.md). Text in Version A below is a literal snapshot, not an edited revision. Version B retains the full source and adds 2 original interpolations inspired by emotional themes, without song lyrics.
+Source version: [approved repository manuscript](../../../chapters/lone-wolf/source/approved.md). Text in Version A below is a literal snapshot, not an edited revision. Version B retains the full source and adds 2 original interpolations inspired by emotional themes, without song lyrics.
 
 <table><thead><tr><th>VERSION A — Current approved</th><th>VERSION B — Song-informed alternative</th></tr></thead><tbody><tr><td valign="top"><p># Lone Wolf</p>
 <p>Mọi người, khi lần đầu nhìn vào mắt tôi, thường nghĩ tôi là một chú Golden Retriever lơ đãng, với cái bản mặt ngờ nghệch và đôi mắt puppy lúc nào cũng trông như đang chờ ai đó xoa đầu.</p>

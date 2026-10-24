@@ -6,7 +6,7 @@
 
 A is more powerful through restraint. B makes the emotional mechanism too explicit and weakens the final repeated action. Keep the existing short scene as the book's factual family-memory bridge.
 
-Source version: [approved repository manuscript](../../chapters/nut-do/source/approved.md). Text in Version A below is a literal snapshot, not an edited revision. Version B retains the full source and adds 2 original interpolations inspired by emotional themes, without song lyrics.
+Source version: [approved repository manuscript](../../../chapters/nut-do/source/approved.md). Text in Version A below is a literal snapshot, not an edited revision. Version B retains the full source and adds 2 original interpolations inspired by emotional themes, without song lyrics.
 
 <table><thead><tr><th>VERSION A — Current approved</th><th>VERSION B — Song-informed alternative</th></tr></thead><tbody><tr><td valign="top"><p># Red Button</p>
 <p>*Bài 9*</p>

@@ -6,7 +6,7 @@
 
 B deepens the gap between cognition and the body's alarm response. It makes the earlier generalized distrust feel like a narrator's projection, not the book's endorsed truth.
 
-Source version: [approved repository manuscript](../../chapters/nhung-hinh-chieu-xau-xi/source/approved.md). Text in Version A below is a literal snapshot, not an edited revision. Version B retains the full source and adds 2 original interpolations inspired by emotional themes, without song lyrics.
+Source version: [approved repository manuscript](../../../chapters/nhung-hinh-chieu-xau-xi/source/approved.md). Text in Version A below is a literal snapshot, not an edited revision. Version B retains the full source and adds 2 original interpolations inspired by emotional themes, without song lyrics.
 
 <table><thead><tr><th>VERSION A — Current approved</th><th>VERSION B — Song-informed alternative</th></tr></thead><tbody><tr><td valign="top"><p># Bài 26: Ugly Projections</p>
 <p>T nhận ra t có một cái nhìn rất xấu xí về phụ nữ nói chung.</p>

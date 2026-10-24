@@ -6,7 +6,7 @@
 
 The approved version already contains its own self-correction and elaborate models. B adds distrust as an emotional source but gives away the later arc too early and lengthens an already long chapter.
 
-Source version: [approved repository manuscript](../../chapters/dating-algorithm/source/approved.md). Text in Version A below is a literal snapshot, not an edited revision. Version B retains the full source and adds 2 original interpolations inspired by emotional themes, without song lyrics.
+Source version: [approved repository manuscript](../../../chapters/dating-algorithm/source/approved.md). Text in Version A below is a literal snapshot, not an edited revision. Version B retains the full source and adds 2 original interpolations inspired by emotional themes, without song lyrics.
 
 <table><thead><tr><th>VERSION A — Current approved</th><th>VERSION B — Song-informed alternative</th></tr></thead><tbody><tr><td valign="top"><p>Let a data scientist teach you how to optimize your dating game.</p>
 <p>It's all based on a metric called SMV (Sexual Market Value), and this value is perceived differently between genders.</p>

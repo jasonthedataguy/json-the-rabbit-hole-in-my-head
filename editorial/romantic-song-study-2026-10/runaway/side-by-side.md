@@ -6,7 +6,7 @@
 
 B strengthens the chapter's best material—iPad sketches, replayed songs, awkward care for a sick person—without turning her into a metaphor or inventing scenes. It connects flight and tenderness through concrete memories.
 
-Source version: [approved repository manuscript](../../chapters/runaway/source/approved.md). Text in Version A below is a literal snapshot, not an edited revision. Version B retains the full source and adds 3 original interpolations inspired by emotional themes, without song lyrics.
+Source version: [approved repository manuscript](../../../chapters/runaway/source/approved.md). Text in Version A below is a literal snapshot, not an edited revision. Version B retains the full source and adds 3 original interpolations inspired by emotional themes, without song lyrics.
 
 <table><thead><tr><th>VERSION A — Current approved</th><th>VERSION B — Song-informed alternative</th></tr></thead><tbody><tr><td valign="top"><p># Runaway</p>
 <p>A không biết nữa. A luôn so sánh mọi cô gái với e.</p>

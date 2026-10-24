@@ -6,7 +6,7 @@
 
 B preserves the combative TED-talk voice but makes the crucial distinction between criticizing status transactions and judging every person who enjoys beautiful things. It gives stronger scenes and avoids treating unsupported demographic conjecture as a proven prediction.
 
-Source version: [approved repository manuscript](../../chapters/dating-102/source/approved.md). Text in Version A below is a literal snapshot, not an edited revision. Version B retains the full source and adds 2 original interpolations inspired by emotional themes, without song lyrics.
+Source version: [approved repository manuscript](../../../chapters/dating-102/source/approved.md). Text in Version A below is a literal snapshot, not an edited revision. Version B retains the full source and adds 2 original interpolations inspired by emotional themes, without song lyrics.
 
 <table><thead><tr><th>VERSION A — Current approved</th><th>VERSION B — Song-informed alternative</th></tr></thead><tbody><tr><td valign="top"><p># Bài 16</p>
 <p>trong buổi học dating 101 hôm trước t có trình bày 1 khái niệm gọi là dating game, trong đó t mô phỏng trò chơi dating thành 3 yếu tố: players (người chơi), rules/constraints (luật chơi), và quan trọng nhất, incentives (động lực thúc đẩy họ hành động khi tham gia trò chơi). T có đưa ra kết luận là các b đang chơi trò chơi này 1 cách ngu ngốc và sự ngu ngốc của các b sẽ gây ra diệt vong cho nhân loại.</p>

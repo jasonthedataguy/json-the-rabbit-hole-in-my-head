@@ -6,7 +6,7 @@
 
 B keeps the charming planetary metaphor but brings it closer to human-scale intimacy. It makes the imagined shared future an imagined possibility—not a relationship the manuscript claims happened.
 
-Source version: [approved repository manuscript](../../chapters/tieu-hanh-tinh/source/approved.md). Text in Version A below is a literal snapshot, not an edited revision. Version B retains the full source and adds 2 original interpolations inspired by emotional themes, without song lyrics.
+Source version: [approved repository manuscript](../../../chapters/tieu-hanh-tinh/source/approved.md). Text in Version A below is a literal snapshot, not an edited revision. Version B retains the full source and adds 2 original interpolations inspired by emotional themes, without song lyrics.
 
 <table><thead><tr><th>VERSION A — Current approved</th><th>VERSION B — Song-informed alternative</th></tr></thead><tbody><tr><td valign="top"><p># Asteroid</p>
 <p>*Bài 14*</p>

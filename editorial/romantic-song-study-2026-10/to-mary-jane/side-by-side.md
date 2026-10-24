@@ -6,7 +6,7 @@
 
 A has the unsent-letter authenticity of someone declaring rather than discussing an exit. B is more generous but risks rewriting what Jason really felt at the time and prematurely explaining the later regret.
 
-Source version: [approved repository manuscript](../../chapters/to-mary-jane/source/approved.md). Text in Version A below is a literal snapshot, not an edited revision. Version B retains the full source and adds 2 original interpolations inspired by emotional themes, without song lyrics.
+Source version: [approved repository manuscript](../../../chapters/to-mary-jane/source/approved.md). Text in Version A below is a literal snapshot, not an edited revision. Version B retains the full source and adds 2 original interpolations inspired by emotional themes, without song lyrics.
 
 <table><thead><tr><th>VERSION A — Current approved</th><th>VERSION B — Song-informed alternative</th></tr></thead><tbody><tr><td valign="top"><p># To Mary Jane</p>
 <p>anh định k rep nhưng nghĩ lại thì anh vẫn muốn giữ 1 hình ảnh đẹp trong em, khi anh nói cho em về solution của anh anh k hề expect là em sẽ react ra sao, actually em k phản ứng gì nhiều anh lại khá thích, mọi thứ nhẹ nhàng, sau một đêm tỉnh dậy mọi thứ lại như lúc chưa bắt đầu đời vẫn êm trôi anh quay lại với vòng quay của anh em trở về cuộc sống của em lúc mình chưa biết nhau</p>
