@@ -1,4 +1,4 @@
-# jason - the rabbit hole in my head
+# .json — The Rabbit Hole in My Head
 
 A rabbit hole into the mind of a man who can structure everything into data, except the truth about himself.
 
