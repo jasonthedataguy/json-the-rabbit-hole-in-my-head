@@ -1,38 +1,38 @@
-# Canonical book-title migration — 2026-10-30
+# Canonical book-title proposal — 2026-10-30; corrected 2026-10-31
 
-## Founder directive
+## Final founder-approved display identity
 
-- **New canonical book title (exact wording):** `jason - the rabbit hole in my head`.
-- **Book title component:** `jason` (lowercase).
-- **Book subtitle:** `the rabbit hole in my head` (lowercase).
-- This replaces the *book title* `.json — the rabbit hole in my head`. It does **not** automatically rename the `.json Studio` production platform, Jira project key `JSON`, social handles, labels, chapter slugs or existing assets.
-- Do not modify the founder-approved text of memoir chapters, historic posts/captions, previously approved video masters, visual artwork or platform settings during this naming migration.
+**.json — The Rabbit Hole in My Head**
 
-## Implemented in this proposed change
+- **Title component:** `.json` (leading dot included).
+- **Subtitle component:** `The Rabbit Hole in My Head`.
+- **Complete display title:** `.json — The Rabbit Hole in My Head`.
+- **Production platform:** `.json Studio` (unchanged).
+- **Working book repository:** `jasonthedataguy/json-the-rabbit-hole-in-my-head` (unchanged).
 
-- `book.json` sets `title` to `jason`; existing subtitle and chapter/edition structure stay the same.
-- `README.md` project heading uses the new canonical book title.
-- `shared/web/index.html` updates browser metadata and visible HTML brand/book labels to `jason`.
-- Public `book.json.public_url` and reader deep links intentionally remain at the **currently deployed** slug until URL-migration acceptance. No redirect is assumed or invented.
+### Correction provenance
 
-## Requires a separate, verified URL migration
+Earlier on 2026-10-30 the draft proposed `jason - the rabbit hole in my head`. A subsequent discussion briefly used `json - the rabbit hole in my head`. On 2026-10-31 the founder explicitly corrected both: **.json — The Rabbit Hole in My Head**. These old variants remain historical proposals and must not be merged into future-facing copy.
 
-1. Change GitHub repo name to the founder-selected target only when it is available and migration is ready; current GitHub API reports the new target 404. Previously existing instruction: Change GitHub repo name from `jasonthedataguy/json-the-rabbit-hole-in-my-head` to **`jasonthedataguy/json-rabbit-hole-in-my-head`** using GitHub repository Settings when approved; confirm that name is free. The connector currently cannot rename repositories.
-2. Check GitHub Pages publication under the new name, including the home reader and `/read/com-nguoi/` chapter alias on mobile and within Instagram.
-3. Preserve old public links with an independently verified working redirect or stable custom domain before replacing any public CTA. Do **not** assume old `github.io/<old-repo>/` URL redirects automatically when a repository is renamed.
-4. Once tested, update `book.json.public_url`, social bios, Jira active link destinations, GitHub links, QR codes, sites, publishing templates and campaign CTAs as a **separate approved cutover**. Historic publication URLs remain historical evidence.
-5. Update book-cover/ring art or embedded logo text only after visual design review; source manuscripts and release-approved images are not rewritten.
-6. Check repository code search for old title/slug and align copy in build outputs and other repositories, keeping backward-compatible identifiers where required.
+## Current draft PR scope
 
-## Current boundaries
+This PR prepares a reversible **book-title/copy-only** change, not an external release:
 
-- This is **title/copy preparation only**, not a publication, redeployment, social reschedule, automation change or new domain purchase.
-- `.json Studio`, Jira keys and existing publishing connections are preserved.
+1. `book.json` has title `.json` and subtitle `The Rabbit Hole in My Head`, preserving the chapter list, approved manuscripts and current public URL.
+2. `README.md` displays the complete corrected title.
+3. `shared/web/index.html` uses `.json` and the matching title in intended web metadata/visible labels.
+4. No previously approved chapter prose, artwork, original audio, native social post, past decision, automation or platform settings are changed by this PR.
+5. The PR is **draft**. Do not merge/deploy until founder review and relevant checks; no public publication approval is implied.
 
-## Founder slug correction — 2026-10-31 (authoritative target)
+## URL scope and later migration
 
-- Book: `jason - the rabbit hole in my head`.
-- **Repository target:** `https://github.com/jasonthedataguy/json-rabbit-hole-in-my-head` (`json-rabbit-hole-in-my-head`, not `jason-the-rabbit-hole-in-my-head`).
-- **Website target:** `https://jasonthedataguy.github.io/json-rabbit-hole-in-my-head/`, Cold Rice target `https://jasonthedataguy.github.io/json-rabbit-hole-in-my-head/read/com-nguoi/`.
-- Verification: Connected GitHub currently returns the old repository; the new repository responds 404, and new Pages deployment could not be confirmed. Record this as founder-declared intended identity, not a verified live endpoint.
-- Preserve current public links, historical Jira evidence and `book.json.public_url` until the new site and deep links are confirmed working. No publishing settings or automations changed.
+The book repository and deployed Pages route are separate from the **display title**. The earlier shorter slug `jasonthedataguy/json-rabbit-hole-in-my-head` and its corresponding GitHub Pages URL were **proposed**, not verified migrated. The title correction does **not** require that rename.
+
+Preserve current verified links and the `book.json.public_url` value. Only consider repository rename, DNS/Pages changes, link redirects, social profile links, QR codes and published CTAs via a separate explicitly approved, tested cutover. Never assume GitHub Pages URLs redirect automatically.
+
+## Approval and evidence controls
+
+- Do not republish or rewrite historical proof merely because a title changed.
+- For any platform, verify native permissions, exact approved caption/media/settings, and publication proof separately.
+- Preserve earlier draft text in Git history and preserve prior founder authorizations in Jira and asset registries.
+- Group policy: [Shared Governance](https://github.com/jasonthedataguy/json-studio/blob/main/governance/SHARED_GOVERNANCE.md) and [Two-Layer AI Evidence Contract](https://github.com/jasonthedataguy/json-studio/blob/main/governance/AI_EVIDENCE_CONTRACT.md).
