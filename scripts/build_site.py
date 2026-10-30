@@ -119,6 +119,9 @@ def build_site():
     for source in (ROOT / 'shared/web').iterdir():
         if source.is_file():
             copy_file(source, staging / source.name)
+    # Copy isolated, fragment-free public reading links for Instagram and other apps.
+    # The source remains in shared/web/, never in generated dist/.
+    copy_public_tree(ROOT / 'shared/web/read', staging / 'read')
     for asset in read_json(ROOT / registry['asset_manifest'])['assets']:
         copy_file(safe_path(ROOT, asset['source']), safe_path(staging, asset['public_path']))
     portals = []
