@@ -4,22 +4,22 @@
   "products": [
     {
       "product": "Current author manuscript",
-      "state": "wording preserved; spacing normalized",
-      "path": "source/approved.md"
+      "state": "author-approved Hybrid V0.4 selected for digital reader; historical original retained",
+      "path": "source/author-approved-v0.4.md"
     },
     {
       "product": "Illustrated A5 book",
-      "state": "current text; 8-page home/office printable PDF",
+      "state": "pre-V0.4 text; 8-page home/office printable PDF; not regenerated",
       "path": "book/Fashion-A5-print.pdf"
     },
     {
       "product": "Ink-saving A4 text",
-      "state": "current text; 2-page printable PDF",
+      "state": "pre-V0.4 text; 2-page printable PDF; not regenerated",
       "path": "book/Fashion-A4-ink-saving.pdf"
     },
     {
       "product": "A4 folded booklet",
-      "state": "current text; imposed for 2 A4 duplex sheets",
+      "state": "pre-V0.4 text; imposed for 2 A4 duplex sheets; not regenerated",
       "path": "book/Fashion-A4-booklet.pdf"
     },
     {
@@ -34,7 +34,7 @@
     },
     {
       "product": "Interactive reader",
-      "state": "current manuscript and earlier version history",
+      "state": "legacy standalone reader; not updated for V0.4; portal reader uses selected manuscript",
       "path": "web/index.html"
     },
     {
@@ -89,7 +89,7 @@
     },
     {
       "product": "Full author reading script",
-      "state": "byte-identical to selected manuscript",
+      "state": "pre-V0.4 reading script; not regenerated or approved for new narration",
       "path": "audio/reading-script.md"
     },
     {
