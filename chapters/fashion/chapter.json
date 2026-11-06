@@ -8,7 +8,7 @@
   "language": "vi",
   "publish": true,
   "release_stage": "reader-with-original-products",
-  "canonical_text": "source/approved.md",
+  "canonical_text": "source/author-approved-v0.4.md",
   "canonical_path": "#chapter/04",
   "summary": "Một thời chạy theo NMD, Yeezy và các thần tượng hip-hop, rồi chuyển từ sưu tập món đồ đắt tiền sang trân trọng thứ mặc được lâu và có lịch sử riêng.",
   "portal": {
@@ -30,6 +30,6 @@
     "archive_url": "https://jasonthedataguy.github.io/json-under-revision/chapters/02/"
   },
   "production_status": "digital portal adapted from final board; imported print and media proofs still need v2 review",
-  "manuscript_sha256": "fa6d61a045a5c160a45ecd541382077c46a4581b00de6ffd027bf1674ac78c9e",
+  "manuscript_sha256": "dd81d8c35b7ff542c36cdb0be3f26a6685406b11e30cb8a88d8ccf83697abb47",
   "outline_title": "Fashion — Be Your Own Label"
 }
