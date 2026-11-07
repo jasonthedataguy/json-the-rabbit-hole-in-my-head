@@ -46,13 +46,86 @@ export const digitalArt = Object.freeze({
     "extras": []
   },
   "fashion": {
-    "mainBook": "assets/digital-book/fashion/mainBook.webp?v=89148e69654a",
-    "map": "assets/digital-book/fashion/map.webp?v=604f50a52e2a",
-    "opening": "assets/digital-book/fashion/opening.webp?v=b32e9c883c36",
-    "hero": "assets/digital-book/fashion/hero.webp?v=9c302ee18e3e",
-    "inline": "assets/digital-book/fashion/inline.webp?v=7ccd2040f3d6",
-    "centre": "assets/digital-book/fashion/centre.webp?v=669a0dfc2332",
-    "extras": []
+      "mainBook": "assets/digital-book/fashion/v1.1/f00-no-foreground.png?v=705797bb51b4",
+      "map": "assets/digital-book/fashion/v1.1/f00-no-foreground.png?v=705797bb51b4",
+      "opening": "assets/digital-book/fashion/v1.1/f00-with-character.webp?v=614cb50189b5",
+      "hero": "assets/digital-book/fashion/v1.1/f00-hero.webp?v=1f42e07eecbf",
+      "inline": "assets/digital-book/fashion/inline.webp?v=7ccd2040f3d6",
+      "centre": "assets/digital-book/fashion/v1.1/f00-centre.webp?v=19b77fb410ca",
+      "heroCaption": "Fashion — Be Your Own Label · Một cánh cửa từ quần áo đến identity.",
+      "extras": [],
+      "placements": [
+          {
+              "id": "F01",
+              "src": "assets/digital-book/fashion/v1.1/f01-sneaker-dream.webp?v=2fab9e3a55b7",
+              "anchor": "Một đôi giày đôi khi không chỉ là một đôi giày.",
+              "caption": "Một đôi giày đôi khi là hình ảnh của người mình muốn trở thành.",
+              "alt": "Một người trẻ trong phòng ngủ ngắm đôi sneakers, phía xa là giấc mơ về phiên bản tương lai."
+          },
+          {
+              "id": "F02",
+              "src": "assets/digital-book/fashion/v1.1/f02-triple-mirror.webp?v=186b424ea8ec",
+              "anchor": "Ba thứ ấy nghe thì có vẻ giống nhau, nhưng hình như không hoàn toàn là một.",
+              "caption": "Mình là ai, mình muốn trở thành ai, và muốn người khác nhìn thấy ai?",
+              "alt": "Ba tấm gương phản chiếu các phiên bản khác nhau của cùng một chàng trai."
+          },
+          {
+              "id": "F03",
+              "src": "assets/digital-book/fashion/v1.1/f03-trend-machine.webp?v=02aebd5ad4d1",
+              "anchor": "Cứ thế, từ một sở thích, fashion đôi khi trở thành một cuộc đua",
+              "caption": "Mỗi mùa một xu hướng mới; chiếc vạch đích của ham muốn cứ lùi xa.",
+              "alt": "Vòng băng chuyền thời trang xoay quanh người trẻ giữa giày dép, quần áo và những bộ sưu tập."
+          },
+          {
+              "id": "F04",
+              "src": "assets/digital-book/fashion/v1.1/f04-wardrobe-classroom.webp?v=55cf30f7c8e5",
+              "anchor": "Rồi dần dần từ đống đồ mình copy của thiên hạ mới hình thành được",
+              "caption": "Học theo người khác cũng có thể là bước đầu tìm ra style của mình.",
+              "alt": "Người trẻ học và thử những bộ trang phục khác nhau trong căn phòng đầy bản vẽ và vải mẫu."
+          },
+          {
+              "id": "F05",
+              "src": "assets/digital-book/fashion/v1.1/f05-life-rulebook.webp?v=ca79326c0f19",
+              "anchor": "Một công việc có prestige, một mức thu nhập đáng mơ ước",
+              "caption": "Đôi khi ta chọn một cuộc đời giống như chọn một bộ đồ vừa mắt người khác.",
+              "alt": "Tủ quần áo biến thành các ngăn chứa biểu tượng sự nghiệp, nhà cửa, hôn nhân và thành đạt."
+          },
+          {
+              "id": "F06",
+              "src": "assets/digital-book/fashion/v1.1/f06-imagined-expectations.webp?v=8d5f60733397",
+              "anchor": "Chúng ta có thể dành rất nhiều thời gian và công sức để trở thành một người",
+              "caption": "Có những kỳ vọng chưa từng được nói ra — chỉ do mình hình dung.",
+              "alt": "Người trẻ ngồi dưới ánh đèn, xung quanh là những bóng người như được phóng chiếu từ suy nghĩ."
+          },
+          {
+              "id": "F07",
+              "src": "assets/digital-book/fashion/v1.1/f07-authenticity-paradox.webp?v=6251aee8c97c",
+              "anchor": "Mình có thể dành cả đời để chứng minh mình không sống theo kỳ vọng",
+              "caption": "Thoát khỏi một chiếc nhãn đôi khi lại là bắt đầu mang một chiếc nhãn khác.",
+              "alt": "Người trẻ mặc đồ tối giản ngồi giữa các trang phục đã bỏ lại, phía sau là quầng sáng tượng trưng cho một danh tính mới."
+          },
+          {
+              "id": "F08",
+              "src": "assets/digital-book/fashion/v1.1/f08-invisible-logo.webp?v=d9233b778a4d",
+              "anchor": "Có khi chỉ là đổi từ một cái logo trên áo sang một thứ logo vô hình khác mà thôi.",
+              "caption": "Logo trên áo có thể biến mất; logo trong câu chuyện về bản thân thì chưa chắc.",
+              "alt": "Những mảnh ký ức, chuyến đi và thành tựu kết thành một biểu tượng vô hình quanh ngực chàng trai."
+          },
+          {
+              "id": "F09",
+              "src": "assets/digital-book/fashion/v1.1/f09-dads-wardrobe.webp?v=326627ba0b71",
+              "anchor": "Believe me or not, cái cảm giác lục tủ đồ của bố bạn",
+              "caption": "Một món đồ được thừa hưởng vẫn có thể trở thành của riêng mình.",
+              "alt": "Chàng trai nâng một chiếc áo cũ sờn vải từ tủ đồ của bố trong ánh sáng ấm áp."
+          },
+          {
+              "id": "F10",
+              "src": "assets/digital-book/fashion/v1.1/f10-open-identity.webp?v=8b684864fe92",
+              "anchor": "Is the person I’m trying to become really the person I want to be?",
+              "caption": "Không nhất thiết phải có câu trả lời; điều quan trọng là còn dám tự hỏi.",
+              "alt": "Người trẻ đứng trước đường hầm tối phản chiếu nhiều phiên bản có thể có của mình, không lối đi nào được chọn."
+          }
+      ]
   },
   "flow": {
     "mainBook": "assets/digital-book/flow/mainBook.webp?v=681f7a3ed00b",

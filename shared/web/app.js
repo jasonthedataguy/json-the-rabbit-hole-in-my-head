@@ -2,7 +2,7 @@ import { chapters, renderIcon, renderPortal, renderPortalScene } from './chapter
 import { identity, introduction, parts, chapterNotes } from './book.js?v=30';
 import { PortalRing } from './ring.js?v=10';
 import { renderPortalPicture, renderPortalFrame, renderFramedPortal } from './portal-art.js?v=59';
-import { digitalArt, digitalCoverPortal, digitalCoverRing, digitalCoverJason } from './digital-art.js?v=3';
+import { digitalArt, digitalCoverPortal, digitalCoverRing, digitalCoverJason } from './digital-art.js?v=4';
 import { commerce } from './commerce.js?v=1';
 
 const $ = selector => document.querySelector(selector);
@@ -27,6 +27,20 @@ const chapterBySlug = slug => chapters.find(chapter=>chapter.slug===slug);
 function insertBodyArt(prose,slug,cover=false){
   const art=digitalArt[slug];if(!art||!prose)return;
   const paragraphs=[...prose.children].filter(node=>node.tagName==='P');
+  // Fashion V0.5: exact manuscript-anchored illustrations, not fixed paragraph offsets.
+  // This leaves all other chapter placement behaviour untouched.
+  if(slug==='fashion'&&Array.isArray(art.placements)){
+    for(const scene of art.placements){
+      const anchor=paragraphs.find(node=>node.textContent.normalize('NFC').replace(/\s+/g,' ').includes(scene.anchor.normalize('NFC')));
+      if(!anchor){console.warn('Missing Fashion art anchor:',scene.id);continue;}
+      const figure=document.createElement('figure');
+      figure.className='digital-book-inline digital-book-fashion-scene'+(cover?' digital-book-inline-cover':'');
+      figure.dataset.artId=scene.id;
+      figure.innerHTML=`<img src="${esc(scene.src)}" alt="${esc(scene.alt)}" width="900" height="1125" loading="lazy" decoding="async"><figcaption><span class="fashion-figure-number">${esc(scene.id)}</span><span>${esc(scene.caption)}</span></figcaption>`;
+      anchor.after(figure);
+    }
+    return;
+  }
   const images=[art.inline,...art.extras];
   for(const [index,src] of images.entries()){
     const figure=document.createElement('figure');figure.className=cover?'digital-book-inline digital-book-inline-cover':'digital-book-inline';
@@ -212,7 +226,7 @@ function renderChapter(id){
     const prose=leaf.querySelector('.chapter-prose');
     const banner=[...leaf.querySelectorAll('figure')].find(figure=>!figure.classList.contains('chapter-illustration')&&!prose?.contains(figure));
     const hero=document.createElement('figure');hero.className='digital-book-hero';
-    hero.innerHTML=`${digitalImage(chapter.slug,'hero')}<figcaption>Opening illustration</figcaption>`;
+    hero.innerHTML=`${digitalImage(chapter.slug,'hero')}<figcaption>${esc(digitalArt[chapter.slug]?.heroCaption || 'Opening illustration')}</figcaption>`;
     if(banner)banner.replaceWith(hero);
     else (prose || leaf.querySelector('.outline-prose'))?.before(hero);
     insertBodyArt(prose || leaf.querySelector('.outline-prose'),chapter.slug);
@@ -454,7 +468,7 @@ function renderCoverReadingPage(page){
       const pageNode=content.querySelector('.cover-reader-page');
       const existing=pageNode.querySelector('figure');
       const hero=document.createElement('figure');hero.className='digital-book-cover-hero';
-      hero.innerHTML=`${digitalImage(slug,'hero','','eager')}<figcaption>Opening illustration</figcaption>`;
+      hero.innerHTML=`${digitalImage(slug,'hero','','eager')}<figcaption>${esc(art.heroCaption || 'Opening illustration')}</figcaption>`;
       if(existing)existing.replaceWith(hero);else pageNode.querySelector('.cover-reader-prose, .cover-reader-outline')?.before(hero);
       insertBodyArt(pageNode.querySelector('.cover-reader-prose'),slug,true);
     }

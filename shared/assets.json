@@ -2208,6 +2208,90 @@
       "public_path": "assets/digital-book/main-book-cover-jason.webp",
       "sha256_at_intake": "90ab60352afa62c012b991cb600206e08a4fd09af63402222eaed416161cf550",
       "provenance": "Author asset archive: shared/main-book/master-ring/app/jason-fixed.webp. Stationary cover foreground."
+    },
+    {
+      "source": "chapters/fashion/artwork/exports/reader-v1_1/f00-no-foreground.png",
+      "public_path": "assets/digital-book/fashion/v1.1/f00-no-foreground.png",
+      "sha256_at_intake": "705797bb51b4d8975fcdf25a48b049956429f9c19b6a620e3f2b89320ff05785",
+      "provenance": "JS Fashion reader artwork V1.1, derived from founder-locked Fashion F00–F10 V1.0 private Drive library; role/placement selected 2026-11-07. Screen export only, not approval for public publishing."
+    },
+    {
+      "source": "chapters/fashion/artwork/exports/reader-v1_1/f00-with-character.webp",
+      "public_path": "assets/digital-book/fashion/v1.1/f00-with-character.webp",
+      "sha256_at_intake": "614cb50189b5ddaa6224b10b5d12001ee9a7cc2616791ae4eebb957c68492e77",
+      "provenance": "JS Fashion reader artwork V1.1, derived from founder-locked Fashion F00–F10 V1.0 private Drive library; role/placement selected 2026-11-07. Screen export only, not approval for public publishing."
+    },
+    {
+      "source": "chapters/fashion/artwork/exports/reader-v1_1/f00-hero.webp",
+      "public_path": "assets/digital-book/fashion/v1.1/f00-hero.webp",
+      "sha256_at_intake": "1f42e07eecbf6337b7a1d4461d6e5a850323f1fa391aec2c7bd6304649f12eda",
+      "provenance": "JS Fashion reader artwork V1.1, derived from founder-locked Fashion F00–F10 V1.0 private Drive library; role/placement selected 2026-11-07. Screen export only, not approval for public publishing."
+    },
+    {
+      "source": "chapters/fashion/artwork/exports/reader-v1_1/f00-centre.webp",
+      "public_path": "assets/digital-book/fashion/v1.1/f00-centre.webp",
+      "sha256_at_intake": "19b77fb410ca09a7b3fba312cd08eef1cf0930891e220843d792310c6c867db8",
+      "provenance": "JS Fashion reader artwork V1.1, derived from founder-locked Fashion F00–F10 V1.0 private Drive library; role/placement selected 2026-11-07. Screen export only, not approval for public publishing."
+    },
+    {
+      "source": "chapters/fashion/artwork/exports/reader-v1_1/f01-sneaker-dream.webp",
+      "public_path": "assets/digital-book/fashion/v1.1/f01-sneaker-dream.webp",
+      "sha256_at_intake": "2fab9e3a55b7accaec21102b3d3ed55c67811cf51584b073aaef4715e270d25e",
+      "provenance": "JS Fashion reader artwork V1.1, derived from founder-locked Fashion F00–F10 V1.0 private Drive library; role/placement selected 2026-11-07. Screen export only, not approval for public publishing."
+    },
+    {
+      "source": "chapters/fashion/artwork/exports/reader-v1_1/f02-triple-mirror.webp",
+      "public_path": "assets/digital-book/fashion/v1.1/f02-triple-mirror.webp",
+      "sha256_at_intake": "186b424ea8ec4805b3a656b6f71cd25333fb88acb057ef62375914535c38aeaa",
+      "provenance": "JS Fashion reader artwork V1.1, derived from founder-locked Fashion F00–F10 V1.0 private Drive library; role/placement selected 2026-11-07. Screen export only, not approval for public publishing."
+    },
+    {
+      "source": "chapters/fashion/artwork/exports/reader-v1_1/f03-trend-machine.webp",
+      "public_path": "assets/digital-book/fashion/v1.1/f03-trend-machine.webp",
+      "sha256_at_intake": "02aebd5ad4d1e3cfa5b37cc96606c0f4b48e438105463966d92d2eb9487ca886",
+      "provenance": "JS Fashion reader artwork V1.1, derived from founder-locked Fashion F00–F10 V1.0 private Drive library; role/placement selected 2026-11-07. Screen export only, not approval for public publishing."
+    },
+    {
+      "source": "chapters/fashion/artwork/exports/reader-v1_1/f04-wardrobe-classroom.webp",
+      "public_path": "assets/digital-book/fashion/v1.1/f04-wardrobe-classroom.webp",
+      "sha256_at_intake": "55cf30f7c8e55d93893d44d6f7de3edc56174df4013549e48628fb00433b6807",
+      "provenance": "JS Fashion reader artwork V1.1, derived from founder-locked Fashion F00–F10 V1.0 private Drive library; role/placement selected 2026-11-07. Screen export only, not approval for public publishing."
+    },
+    {
+      "source": "chapters/fashion/artwork/exports/reader-v1_1/f05-life-rulebook.webp",
+      "public_path": "assets/digital-book/fashion/v1.1/f05-life-rulebook.webp",
+      "sha256_at_intake": "ca79326c0f19ea692f5fbee1eaee62a15168b334a6d85e312b0422f8987b1424",
+      "provenance": "JS Fashion reader artwork V1.1, derived from founder-locked Fashion F00–F10 V1.0 private Drive library; role/placement selected 2026-11-07. Screen export only, not approval for public publishing."
+    },
+    {
+      "source": "chapters/fashion/artwork/exports/reader-v1_1/f06-imagined-expectations.webp",
+      "public_path": "assets/digital-book/fashion/v1.1/f06-imagined-expectations.webp",
+      "sha256_at_intake": "8d5f6073339714ec9917899ff4a37f9561947c4aa27fa7c730fde8ba9ac5aa83",
+      "provenance": "JS Fashion reader artwork V1.1, derived from founder-locked Fashion F00–F10 V1.0 private Drive library; role/placement selected 2026-11-07. Screen export only, not approval for public publishing."
+    },
+    {
+      "source": "chapters/fashion/artwork/exports/reader-v1_1/f07-authenticity-paradox.webp",
+      "public_path": "assets/digital-book/fashion/v1.1/f07-authenticity-paradox.webp",
+      "sha256_at_intake": "6251aee8c97cfc48382dd992e3eb68e0ab9508def2ea069965bc258d0d9f4cbb",
+      "provenance": "JS Fashion reader artwork V1.1, derived from founder-locked Fashion F00–F10 V1.0 private Drive library; role/placement selected 2026-11-07. Screen export only, not approval for public publishing."
+    },
+    {
+      "source": "chapters/fashion/artwork/exports/reader-v1_1/f08-invisible-logo.webp",
+      "public_path": "assets/digital-book/fashion/v1.1/f08-invisible-logo.webp",
+      "sha256_at_intake": "d9233b778a4db2ea994120125aa2dd5ef50b3ec307bbfa22c268f825c6eef9d2",
+      "provenance": "JS Fashion reader artwork V1.1, derived from founder-locked Fashion F00–F10 V1.0 private Drive library; role/placement selected 2026-11-07. Screen export only, not approval for public publishing."
+    },
+    {
+      "source": "chapters/fashion/artwork/exports/reader-v1_1/f09-dads-wardrobe.webp",
+      "public_path": "assets/digital-book/fashion/v1.1/f09-dads-wardrobe.webp",
+      "sha256_at_intake": "326627ba0b71c094ec92ebfe54ae639b1eec54ab856144c6704ec5be85484f4c",
+      "provenance": "JS Fashion reader artwork V1.1, derived from founder-locked Fashion F00–F10 V1.0 private Drive library; role/placement selected 2026-11-07. Screen export only, not approval for public publishing."
+    },
+    {
+      "source": "chapters/fashion/artwork/exports/reader-v1_1/f10-open-identity.webp",
+      "public_path": "assets/digital-book/fashion/v1.1/f10-open-identity.webp",
+      "sha256_at_intake": "8b684864fe92c0a5f6c02c04aae4e9a6096c8070d975e5264296023c2b876bca",
+      "provenance": "JS Fashion reader artwork V1.1, derived from founder-locked Fashion F00–F10 V1.0 private Drive library; role/placement selected 2026-11-07. Screen export only, not approval for public publishing."
     }
   ]
 }
