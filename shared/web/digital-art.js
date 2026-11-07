@@ -47,12 +47,11 @@ export const digitalArt = Object.freeze({
   },
   "fashion": {
       "mainBook": "assets/digital-book/fashion/v1.1/f00-no-foreground.png?v=705797bb51b4",
-      "map": "assets/digital-book/fashion/v1.1/f00-no-foreground.png?v=705797bb51b4",
+      "map": "assets/digital-book/fashion/v1.1/f00-with-character.webp?v=614cb50189b5",
       "opening": "assets/digital-book/fashion/v1.1/f00-with-character.webp?v=614cb50189b5",
-      "hero": "assets/digital-book/fashion/v1.1/f00-hero.webp?v=1f42e07eecbf",
+      "hero": null,
       "inline": "assets/digital-book/fashion/inline.webp?v=7ccd2040f3d6",
       "centre": "assets/digital-book/fashion/v1.1/f00-centre.webp?v=19b77fb410ca",
-      "heroCaption": "Fashion — Be Your Own Label · Một cánh cửa từ quần áo đến identity.",
       "extras": [],
       "placements": [
           {

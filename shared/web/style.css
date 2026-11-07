@@ -1167,3 +1167,12 @@ h1, h2, h3 { font-family: var(--serif); font-weight: 400; line-height: 1.15; }
     font-size:13px;gap:7px;line-height:1.55;
   }
 }
+
+/* Fashion F00: render only the author-selected circular book-layer portal.
+   The square navy export surround is masked at display time, without
+   changing master pixels or clipping imagery in other chapters. */
+.chapter-leaf .fashion-chapter-stage .digital-book-chapter-art .digital-book-opening,
+#map-view[data-chapter="fashion"] .digital-book-map .digital-book-map-image{
+  clip-path:circle(48.7% at 50% 50%);
+  border-radius:50%;
+}
