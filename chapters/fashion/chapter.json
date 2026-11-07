@@ -8,9 +8,9 @@
   "language": "vi",
   "publish": true,
   "release_stage": "reader-with-original-products",
-  "canonical_text": "source/author-approved-v0.4.md",
+  "canonical_text": "source/author-approved-v0.5.md",
   "canonical_path": "#chapter/04",
-  "summary": "Một thời chạy theo NMD, Yeezy và các thần tượng hip-hop, rồi chuyển từ sưu tập món đồ đắt tiền sang trân trọng thứ mặc được lâu và có lịch sử riêng.",
+  "summary": "Từ những đôi sneakers thời hip-hop đến câu hỏi về gu, identity và kỳ vọng xã hội: ta đang sống cuộc đời mình muốn, hay theo một hình mẫu mà mình học được cách ngưỡng mộ?",
   "portal": {
     "scene": "A layered wardrobe room holds sneakers, shoeboxes, hanging clothes and photographs against a sunset city window.",
     "objects": [
@@ -30,6 +30,6 @@
     "archive_url": "https://jasonthedataguy.github.io/json-under-revision/chapters/02/"
   },
   "production_status": "digital portal adapted from final board; imported print and media proofs still need v2 review",
-  "manuscript_sha256": "dd81d8c35b7ff542c36cdb0be3f26a6685406b11e30cb8a88d8ccf83697abb47",
+  "manuscript_sha256": "9865a628ce7ab58b244caaac072a176fe0c85486c6f2c5ef436097d299ebe3d5",
   "outline_title": "Fashion — Be Your Own Label"
 }
