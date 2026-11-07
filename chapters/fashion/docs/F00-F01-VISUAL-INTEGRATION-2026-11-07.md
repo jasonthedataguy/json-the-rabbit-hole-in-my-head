@@ -19,7 +19,7 @@ Founder instruction on 2026-11-07: "yes fix it, and update on google drive and t
 - Source artwork and prior F00 derivatives remain preserved; no images regenerated.
 
 ## Exact UI changes
-1. Use F00-with-character for Fashion chapter opening and chapter map.
+1. Use approved F00-with-character for the Fashion chapter opening. Keep the existing no-foreground chapter-map export to preserve the shared book/map composition; do not use the no-character reconstruction as a newly approved chapter opening.
 2. Mask only Fashion's square navy export surround using a 48.7% circle centred at 50%/50%. The artwork content is unmodified.
 3. Remove the redundant F00 hero **and** legacy Fashion room banner before the chapter text in the main chapter leaf.
 4. Remove the duplicate F00 hero and legacy banner in the page-turn book reader; the first in-text illustration is F01 at its exact canonical anchor, followed by F02–F10.

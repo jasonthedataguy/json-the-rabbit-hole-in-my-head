@@ -35,7 +35,7 @@ class FashionReaderArtTests(unittest.TestCase):
         self.assertEqual(art["mainBook"], art["map"])
         self.assertIn("f00-no-foreground.png", art["mainBook"])
         self.assertIn("f00-with-character.webp", art["opening"])
-        self.assertIn("f00-hero.webp", art["hero"])
+        self.assertIsNone(art["hero"], "F00 must not repeat as a hero illustration")
         self.assertIn("f00-centre.webp", art["centre"])
         self.assertNotEqual(art["mainBook"], art["opening"])
 
@@ -77,9 +77,12 @@ class FashionReaderArtTests(unittest.TestCase):
         self.assertIn("Missing Fashion art anchor", app)
         self.assertIn("digital-book-fashion-scene", app)
         self.assertIn("digital-book-fashion-scene", style)
-        self.assertIn("app.js?v=82", index)
-        self.assertIn("style.css?v=62", index)
-        self.assertIn("./digital-art.js?v=4", app)
+        self.assertIn("if(chapter.slug==='fashion')", app)
+        self.assertIn("if(slug==='fashion')", app)
+        self.assertIn("clip-path:circle(48.7% at 50% 50%)", style)
+        self.assertIn("app.js?v=83", index)
+        self.assertIn("style.css?v=63", index)
+        self.assertIn("./digital-art.js?v=5", app)
 
 
 if __name__ == "__main__":
