@@ -10,16 +10,16 @@
   "release_stage": "reader-with-original-products",
   "canonical_text": "source/approved.md",
   "canonical_path": "#chapter/00",
-  "summary": "Một người trẻ vẫn ăn cơm nguội dù luôn có cơm mới nấu. Lý do dẫn về ký ức đứa trẻ giành phần cơm nguội từ bố.",
+  "summary": "Người kể vẫn chọn cơm nguội dù có cơm nóng. Ngày bé, cậu giành phần cơm còn lại từ bữa trước để bố không phải ăn và nói rằng mình thích nó; lựa chọn ấy thành thói quen kéo dài đến tận bây giờ.",
   "portal": {
-    "scene": "A family meal glows beneath an amber lamp, with the shared bowl of rice at the heart of the table.",
+    "scene": "A child looks toward a family meal through a layered memory portal: a bowl of leftover rice recalls the quiet choice he made so his father would not have to eat it.",
     "objects": [
       "porcelain bowl of rice",
       "family table",
       "amber hanging lamp"
     ],
     "iconKey": "bowl",
-    "motif": "The bowl"
+    "motif": "The bowl he chose"
   },
   "original_edition": {
     "number": "07",

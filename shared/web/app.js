@@ -21,17 +21,37 @@ const partById = id => parts.find(part=>part.id===id);
 const partLabel = part => `${part.key} | ${part.title}`;
 const digitalImage = (slug, role, className='', loading='lazy') => {
   const src=digitalArt[slug]?.[role];
-  return src?`<img class="${className}" src="${esc(src)}" alt="${esc(slug==='introduction'?'Introduction':chapterBySlug(slug)?.title || slug)} — ${role==='opening'?'chapter portal':role==='map'?'chapter map':role==='mainBook'?'book portal':role==='centre'?'centre scene':'reading illustration'}" loading="${loading}" decoding="async">`:'';
+  const label=chapterArtCopy[slug]?.[role]?.alt || `${slug==='introduction'?'Introduction':chapterBySlug(slug)?.title || slug} — ${role==='opening'?'chapter portal':role==='map'?'chapter map':role==='mainBook'?'book portal':role==='centre'?'centre scene':'reading illustration'}`;
+  return src?`<img class="${className}" src="${esc(src)}" alt="${esc(label)}" loading="${loading}" decoding="async">`:'';
 };
 const chapterBySlug = slug => chapters.find(chapter=>chapter.slug===slug);
+const chapterArtCopy = {
+  'com-nguoi': {
+    opening: {
+      alt: 'Cậu bé đứng trước một cổng ký ức nhiều lớp, nhìn vào bữa cơm gia đình bên trong.'
+    },
+    hero: {
+      alt: 'Minh họa bữa cơm gia đình với bố, mẹ, con và bát cơm ở giữa bàn.',
+      caption: '“Tớ không muốn bố phải ăn cơm nguội.”'
+    },
+    inline: [{
+      alt: 'Cậu bé giữ bát cơm ở tiền cảnh; phía sau, bố mẹ ngồi ăn dưới ánh đèn.',
+      caption: '“Thế nên cứ mỗi bữa, tớ lại giành lấy phần cơm ấy, bảo rằng tớ thích ăn cơm nguội hơn.”'
+    }]
+  }
+};
 function insertBodyArt(prose,slug,cover=false){
   const art=digitalArt[slug];if(!art||!prose)return;
   const paragraphs=[...prose.children].filter(node=>node.tagName==='P');
   const images=[art.inline,...art.extras];
   for(const [index,src] of images.entries()){
     const figure=document.createElement('figure');figure.className=cover?'digital-book-inline digital-book-inline-cover':'digital-book-inline';
-    figure.innerHTML=`<img src="${esc(src)}" alt="${esc(chapterBySlug(slug)?.title || 'Introduction')} — supporting illustration ${index+1}" loading="lazy" decoding="async"><figcaption>Story illustration ${index+1}</figcaption>`;
-    const anchor=paragraphs[Math.min(3+index*5,paragraphs.length-1)];
+    const copy=chapterArtCopy[slug]?.inline?.[index];
+    const alt=copy?.alt || `${chapterBySlug(slug)?.title || 'Introduction'} — supporting illustration ${index+1}`;
+    const caption=copy?.caption || `Story illustration ${index+1}`;
+    figure.innerHTML=`<img src="${esc(src)}" alt="${esc(alt)}" loading="lazy" decoding="async"><figcaption>${esc(caption)}</figcaption>`;
+    const anchorIndex=slug==='com-nguoi' && index===0?5:3+index*5;
+    const anchor=paragraphs[Math.min(anchorIndex,paragraphs.length-1)];
     if(anchor)anchor.after(figure);else prose.append(figure);
   }
 }
@@ -195,7 +215,7 @@ function renderChapter(id){
     :id==='08'
     ?`<header class="russia-chapter-heading"><p class="leaf-kicker">PART ${roman[part.id]} · CHAPTER ${id}</p><p class="russia-chapter-numeral">${id}</p><h1 id="chapter-heading" tabindex="-1">${esc(chapter.title)}</h1><p class="russia-chapter-subtitle">Memory / Nostalgia / War / Dream</p><p class="russia-chapter-part">${esc(partLabel(part))}</p>${sourceTitle}</header><div class="russia-chapter-stage">${chapterArtwork(chapter)}<div class="russia-chapter-note"><span>A VISUAL INTRODUCTION</span><p>Some homelands are inherited through stories.</p><button type="button" id="russia-read">Read the chapter <span aria-hidden="true">↓</span></button></div></div><figure class="russia-cabin-banner"><img src="assets/mother-russia-cabin-v2.webp" width="240" height="150" alt="A wooden cabin glows beside the water amid snowy pines beneath a winter moon."><figcaption>Memory / Nostalgia / War / Dream</figcaption></figure>`
     :id==='00'
-    ?`<header class="rice-chapter-heading"><p class="leaf-kicker">PROLOGUE · ${id}</p><p class="rice-chapter-numeral">${id}</p><h1 id="chapter-heading" tabindex="-1">${esc(chapter.title)}</h1><p class="rice-chapter-subtitle">Memory / Family / Childhood / Home</p>${sourceTitle}</header><div class="rice-chapter-stage">${chapterArtwork(chapter)}<div class="rice-chapter-note"><span>A VISUAL INTRODUCTION</span><p>A bowl of cold rice, a warm home, and the people who made ordinary nights feel like everything.</p><button type="button" id="rice-read">Read the prologue <span aria-hidden="true">↓</span></button></div></div><figure class="rice-room-banner"><img src="assets/rice-family-room-v2.webp?v=2" alt="A family shares dinner in a warm room overlooking the city."><figcaption>Memory / Family / Childhood / Home</figcaption></figure>`
+    ?`<header class="rice-chapter-heading"><p class="leaf-kicker">PROLOGUE · ${id}</p><p class="rice-chapter-numeral">${id}</p><h1 id="chapter-heading" tabindex="-1">${esc(chapter.title)}</h1><p class="rice-chapter-subtitle">Quiet Care / A Small Choice / A Habit That Stayed</p>${sourceTitle}</header><div class="rice-chapter-stage">${chapterArtwork(chapter)}<div class="rice-chapter-note"><span>A VISUAL INTRODUCTION</span><p>Tớ không muốn bố phải ăn cơm nguội.</p><button type="button" id="rice-read">Read the prologue <span aria-hidden="true">↓</span></button></div></div><figure class="rice-room-banner"><img src="assets/rice-family-room-v2.webp?v=2" alt="Minh họa bố, mẹ và con bên bàn ăn, với bát cơm ở giữa."><figcaption>Một lựa chọn nhỏ, lặp lại qua từng bữa cơm.</figcaption></figure>`
     :id==='02'
     ?`<header class="utility-chapter-heading"><p class="leaf-kicker">PART ${roman[part.id]} · CHAPTER ${id}</p><p class="utility-chapter-numeral">${id}</p><h1 id="chapter-heading" tabindex="-1">${esc(chapter.shortTitle)}</h1><p class="utility-chapter-subtitle">Decision / Probability / Emotion</p><p class="utility-chapter-part">${esc(partLabel(part))}</p>${sourceTitle}</header><div class="utility-chapter-stage">${chapterArtwork(chapter)}<div class="utility-chapter-note"><span>A VISUAL INTRODUCTION</span><p>Different outcomes.<br>Same uncertainty.<br>Still you.</p><button type="button" id="utility-read">Read the chapter <span aria-hidden="true">↓</span></button></div></div><figure class="utility-spread-banner"><img src="assets/expected-utility-gaze-v3.webp" alt="A woman's eyes framed by choices, a heart, scales, code, a letter and branching paths."><figcaption>Decision / Probability / Emotion</figcaption></figure>`
     :id==='03'
@@ -212,7 +232,7 @@ function renderChapter(id){
     const prose=leaf.querySelector('.chapter-prose');
     const banner=[...leaf.querySelectorAll('figure')].find(figure=>!figure.classList.contains('chapter-illustration')&&!prose?.contains(figure));
     const hero=document.createElement('figure');hero.className='digital-book-hero';
-    hero.innerHTML=`${digitalImage(chapter.slug,'hero')}<figcaption>Opening illustration</figcaption>`;
+    hero.innerHTML=`${digitalImage(chapter.slug,'hero')}<figcaption>${esc(chapterArtCopy[chapter.slug]?.hero?.caption || 'Opening illustration')}</figcaption>`;
     if(banner)banner.replaceWith(hero);
     else (prose || leaf.querySelector('.outline-prose'))?.before(hero);
     insertBodyArt(prose || leaf.querySelector('.outline-prose'),chapter.slug);
@@ -436,7 +456,7 @@ function renderCoverReadingPage(page){
       :chapter.id==='01'
       ?`<div class="cover-reader-page quant-reader-page"><p class="cover-reader-kicker">PART ${roman[part.id]} · CHAPTER ${chapter.id}</p><h2>${esc(chapter.title)}</h2><p class="cover-reader-part">${esc(partLabel(part))}</p><figure class="cover-reader-illustration"><img src="assets/quant-reading-spread-v2.webp" width="540" height="265" alt="Jason studies charts at his desk with a dog beside him and a note about minimizing loss."><figcaption>Same objective. Same potential. Different risk budget.</figcaption></figure>${body}</div>`
       :chapter.id==='00'
-      ?`<div class="cover-reader-page rice-reader-page"><p class="cover-reader-kicker">PROLOGUE · ${chapter.id}</p><span class="rice-reader-number">${chapter.id}</span><h2>${esc(chapter.title)}</h2><p class="rice-reader-subtitle">Memory / Family / Childhood / Home</p><figure class="rice-reader-scene"><img src="assets/rice-family-room-v2.webp?v=2" alt="A family shares dinner in a warm room overlooking the city."><figcaption>The same table. The same bowl. A thousand versions of home.</figcaption></figure>${body}</div>`
+      ?`<div class="cover-reader-page rice-reader-page"><p class="cover-reader-kicker">PROLOGUE · ${chapter.id}</p><span class="rice-reader-number">${chapter.id}</span><h2>${esc(chapter.title)}</h2><p class="rice-reader-subtitle">Quiet Care / A Small Choice / A Habit That Stayed</p><figure class="rice-reader-scene"><img src="assets/rice-family-room-v2.webp?v=2" alt="Minh họa bố, mẹ và con bên bàn ăn, với bát cơm ở giữa."><figcaption>Một lựa chọn nhỏ, lặp lại qua từng bữa cơm.</figcaption></figure>${body}</div>`
       :chapter.id==='02'
       ?`<div class="cover-reader-page utility-reader-page"><p class="cover-reader-kicker">PART ${roman[part.id]} · CHAPTER ${chapter.id}</p><span class="utility-reader-number">${chapter.id}</span><h2>${esc(chapter.shortTitle)}</h2><p class="utility-reader-subtitle">Decision / Probability / Emotion</p><figure class="utility-reader-scene"><img src="assets/expected-utility-gaze-v3.webp" alt="A woman's eyes framed by choices, a heart, scales, code, a letter and branching paths."><figcaption>Different outcomes. Same uncertainty. Still you.</figcaption></figure>${body}</div>`
       :chapter.id==='03'
@@ -454,7 +474,7 @@ function renderCoverReadingPage(page){
       const pageNode=content.querySelector('.cover-reader-page');
       const existing=pageNode.querySelector('figure');
       const hero=document.createElement('figure');hero.className='digital-book-cover-hero';
-      hero.innerHTML=`${digitalImage(slug,'hero','','eager')}<figcaption>Opening illustration</figcaption>`;
+      hero.innerHTML=`${digitalImage(slug,'hero','','eager')}<figcaption>${esc(chapterArtCopy[slug]?.hero?.caption || 'Opening illustration')}</figcaption>`;
       if(existing)existing.replaceWith(hero);else pageNode.querySelector('.cover-reader-prose, .cover-reader-outline')?.before(hero);
       insertBodyArt(pageNode.querySelector('.cover-reader-prose'),slug,true);
     }
