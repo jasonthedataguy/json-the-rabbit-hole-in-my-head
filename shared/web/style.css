@@ -1137,3 +1137,42 @@ h1, h2, h3 { font-family: var(--serif); font-weight: 400; line-height: 1.15; }
 .digital-book-inline{margin:35px 0}
 .digital-book-inline img{border-width:2px}
 @media(max-width:700px){.chapter-leaf [class$="-chapter-stage"] .digital-book-chapter-art{width:min(310px,82%);margin:0 auto}.chapter-leaf .digital-book-chapter-art{width:min(340px,100%)}.digital-book-hero,.digital-book-inline{margin-block:22px 32px}}
+
+/* Fashion Chapter 04 / V0.5 / locked F01–F10 portrait plates.
+   Captions are visual commentary, not manuscript paragraphs. */
+.digital-book-inline.digital-book-fashion-scene{
+  width:min(100%,690px);max-width:100%;margin:42px auto 48px;
+  break-inside:avoid;page-break-inside:avoid;
+}
+.digital-book-inline.digital-book-fashion-scene img{
+  width:100%;max-height:none;height:auto;aspect-ratio:4 / 5;object-fit:contain;
+  background:#111f30;border:2px solid #d7bda0;
+  box-shadow:0 14px 30px #14233222;
+}
+.digital-book-inline.digital-book-fashion-scene figcaption{
+  display:flex;align-items:baseline;justify-content:center;gap:10px;
+  padding:1px 10px 0;margin-top:12px;
+  font:italic 14px/1.65 var(--serif);letter-spacing:normal;
+  color:#6f645e;text-transform:none;text-align:center;
+}
+.digital-book-fashion-scene .fashion-figure-number{
+  flex:none;font:700 10px/1.6 var(--sans);letter-spacing:1.5px;color:#a66c63;
+}
+.cover-reader-prose .digital-book-inline.digital-book-fashion-scene{
+  width:min(100%,490px);margin:27px auto 36px;
+}
+@media(max-width:700px){
+  .digital-book-inline.digital-book-fashion-scene{width:100%;margin:29px auto 39px;}
+  .digital-book-inline.digital-book-fashion-scene figcaption{
+    font-size:13px;gap:7px;line-height:1.55;
+  }
+}
+
+/* Fashion F00: render only the author-selected circular book-layer portal.
+   The square navy export surround is masked at display time, without
+   changing master pixels or clipping imagery in other chapters. */
+.chapter-leaf .fashion-chapter-stage .digital-book-chapter-art .digital-book-opening,
+#map-view[data-chapter="fashion"] .digital-book-map .digital-book-map-image{
+  clip-path:circle(48.7% at 50% 50%);
+  border-radius:50%;
+}
