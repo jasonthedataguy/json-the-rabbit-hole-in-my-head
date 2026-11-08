@@ -2292,6 +2292,18 @@
       "public_path": "assets/digital-book/fashion/v1.1/f10-open-identity.webp",
       "sha256_at_intake": "8b684864fe92c0a5f6c02c04aae4e9a6096c8070d975e5264296023c2b876bca",
       "provenance": "JS Fashion reader artwork V1.1, derived from founder-locked Fashion F00–F10 V1.0 private Drive library; role/placement selected 2026-11-07. Screen export only, not approval for public publishing."
+    },
+    {
+      "source": "chapters/fashion/artwork/exports/reader-v1_2/f00-with-character-transparent.webp",
+      "public_path": "assets/digital-book/fashion/v1.2/f00-with-character-transparent.webp",
+      "sha256_at_intake": "f245c3795ae8bcd4332749d0f8b17ddd4ea1ecd29fbe7fd7520cac5acd114fe3",
+      "provenance": "Fashion F00 V1.2, author-approved master A: foreground character retained; exact RGB pixels preserved from author-selected F00-A, isolated transparent alpha; source PNG held on Google Drive. Founder authorized the paired portal use 2026-11-08, digital-book scope only."
+    },
+    {
+      "source": "chapters/fashion/artwork/exports/reader-v1_2/f00-without-character-transparent.webp",
+      "public_path": "assets/digital-book/fashion/v1.2/f00-without-character-transparent.webp",
+      "sha256_at_intake": "95ff1c00d71a6836e7ff4f4ba96b666cb444a9401135e919e9008a733ee1aa86",
+      "provenance": "Fashion F00 V1.2, no-foreground version sourced from preserved F00-B reconstruction (only foreground character region differs); exact RGB pixels preserved, isolated transparent alpha; original/review source maintained on Google Drive. Founder authorized paired portal use 2026-11-08, digital-book scope only."
     }
   ]
 }

@@ -33,8 +33,8 @@ class FashionReaderArtTests(unittest.TestCase):
     def test_portal_roles_have_correct_foreground(self):
         art = self.art
         self.assertEqual(art["mainBook"], art["map"])
-        self.assertIn("f00-no-foreground.png", art["mainBook"])
-        self.assertIn("f00-with-character.webp", art["opening"])
+        self.assertIn("v1.2/f00-without-character-transparent.webp", art["mainBook"])
+        self.assertIn("v1.2/f00-with-character-transparent.webp", art["opening"])
         self.assertIsNone(art["hero"], "F00 must not repeat as a hero illustration")
         self.assertIn("f00-centre.webp", art["centre"])
         self.assertNotEqual(art["mainBook"], art["opening"])
@@ -79,10 +79,30 @@ class FashionReaderArtTests(unittest.TestCase):
         self.assertIn("digital-book-fashion-scene", style)
         self.assertIn("if(chapter.slug==='fashion')", app)
         self.assertIn("if(slug==='fashion')", app)
-        self.assertIn("clip-path:circle(48.7% at 50% 50%)", style)
-        self.assertIn("app.js?v=83", index)
-        self.assertIn("style.css?v=63", index)
-        self.assertIn("./digital-art.js?v=5", app)
+        self.assertNotIn("clip-path:circle(48.7% at 50% 50%)", style)
+        self.assertIn("app.js?v=84", index)
+        self.assertIn("style.css?v=64", index)
+        self.assertIn("./digital-art.js?v=6", app)
+
+
+    def test_transparent_f00_pair_is_registered_and_binary_exact(self):
+        pair = {
+            "f00-with-character-transparent.webp": "f245c3795ae8bcd4332749d0f8b17ddd4ea1ecd29fbe7fd7520cac5acd114fe3",
+            "f00-without-character-transparent.webp": "95ff1c00d71a6836e7ff4f4ba96b666cb444a9401135e919e9008a733ee1aa86",
+        }
+        for name, expected_hash in pair.items():
+            with self.subTest(name=name):
+                public = "assets/digital-book/fashion/v1.2/" + name
+                matches = [a for a in self.manifest["assets"] if a["public_path"] == public]
+                self.assertEqual(len(matches), 1)
+                asset = matches[0]
+                file_bytes = (ROOT / asset["source"]).read_bytes()
+                self.assertEqual(hashlib.sha256(file_bytes).hexdigest(), expected_hash)
+                self.assertEqual(asset["sha256_at_intake"], expected_hash)
+                self.assertEqual(file_bytes[:4], b"RIFF")
+                self.assertEqual(file_bytes[8:12], b"WEBP")
+                self.assertEqual(file_bytes[12:16], b"VP8X")
+                self.assertIn(b"ALPH", file_bytes[:64], "Portal exports must retain transparency")
 
 
 if __name__ == "__main__":
