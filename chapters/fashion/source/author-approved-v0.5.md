@@ -2,7 +2,7 @@
 
 Chắc cũng phải hơn một năm rồi tôi chưa mua thêm món quần áo mới nào.
 
-Nghe hơi buồn cười, vì có một thời ước mơ của tôi thật sự đơn giản vl: hustle học hành, kiếm tiền, để mỗi mùa đông về có thể tự thưởng cho bản thân một đôi sneakers trendy nhất season.
+Đã từng có một thời ước mơ của tôi thật sự đơn giản vl: hustle học hành, kiếm tiền, để mỗi mùa đông về có thể tự thưởng cho bản thân một đôi sneakers trendy nhất season.
 
 Không biết là mình già đi, hay đơn giản là có những thứ ngày trước mình cần, giờ lại chẳng thấy cần nữa.
 
@@ -16,7 +16,7 @@ Thời đấy, những ngôi sao âm nhạc như Kanye West, A$AP Rocky, Drake, 
 
 Từ thời Adidas NMD, Yeezy làm mưa làm gió khoảng năm 2015, rồi Rick Owens, Timberland, đến những cái tên high-end street fashion như Off-White, Balenciaga, Fear of God…
 
-Có một thời mấy đôi chunky dad shoes mới là thứ thời thượng, thì tôi cũng từng có cơ hội sở hữu vài items như thế.
+Có một thời mấy đôi chunky dad shoes mới là thứ thời thượng, thì tôi cũng từng có cơ hội sở hữu một vài items.
 
 Giờ nhìn lại cái hành trình này mới thấy ngày xưa mình ngựa ngựa như thế nào.
 
@@ -52,9 +52,7 @@ Một collection mới xuất hiện, người ta thấy thích, mua nó. Khi m�
 
 Một cái vòng lặp quen thuộc.
 
-Nhưng có một điều tôi thấy khá thú vị.
-
-Mình thích một đôi giày vì nó đẹp, hay mình thấy nó đẹp vì đã nhìn thấy nó trên chân những người mình ngưỡng mộ quá nhiều lần?
+Nhưng tôi tự hỏi liệu rằng mình thích một đôi giày vì nó đẹp, hay mình thấy nó đẹp vì đã nhìn thấy nó trên chân những người mình ngưỡng mộ quá nhiều lần?
 
 Có khi cả hai.
 
@@ -162,7 +160,7 @@ Và nếu điều đó đúng với một đôi giày, liệu nó có đúng v�
 
 Chẳng hạn như công việc mình theo đuổi, những thành tựu mình muốn đạt được, hay cả cách mình muốn người khác nhìn nhận về con người mình.
 
-Có bao nhiêu thứ mình muốn làm đơn giản vì mình thấy thích, và bao nhiêu thứ mình muốn làm vì mình nghĩ một người như mình *nên* muốn những thứ đó?
+Có bao nhiêu thứ mình muốn làm đơn giản vì mình thấy thích, và bao nhiêu thứ mình muốn làm vì mình nghĩ một người như mình nên muốn những thứ đó?
 
 Hay nói cách khác, mình đang sống cuộc đời mình muốn, hay đang cố gắng trở thành một phiên bản mà mình nghĩ người khác sẽ thấy cool?
 
@@ -176,7 +174,7 @@ Mình nghĩ bố mẹ sẽ tự hào nếu mình thành công theo một cách n
 
 Nhưng liệu đó có thực sự là điều họ mong đợi?
 
-Hay chỉ là điều mình *nghĩ* rằng họ mong đợi?
+Hay chỉ là điều mình nghĩ rằng họ mong đợi?
 
 Và rồi mình bắt đầu theo đuổi một hình ảnh do chính mình tạo ra về kỳ vọng của người khác.
 
