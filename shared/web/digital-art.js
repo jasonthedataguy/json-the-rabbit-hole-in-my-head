@@ -56,10 +56,10 @@ export const digitalArt = Object.freeze({
       "placements": [
           {
               "id": "F01",
-              "src": "assets/digital-book/fashion/v1.1/f01-sneaker-dream.webp?v=2fab9e3a55b7",
+              "src": "assets/digital-book/fashion/v1.3/f01-sneaker-dream.webp?v=5a80feba402a",
               "anchor": "Một đôi giày đôi khi không chỉ là một đôi giày.",
               "caption": "Một đôi giày đôi khi là hình ảnh của người mình muốn trở thành.",
-              "alt": "Một người trẻ trong phòng ngủ ngắm đôi sneakers, phía xa là giấc mơ về phiên bản tương lai."
+              "alt": "Một chàng trai đứng trước bộ sưu tập sneakers trong căn phòng mơ ước, nhìn đôi giày đỏ-trắng ở giữa tủ trưng bày phát sáng."
           },
           {
               "id": "F02",

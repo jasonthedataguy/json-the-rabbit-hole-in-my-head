@@ -50,7 +50,12 @@ class FashionReaderArtTests(unittest.TestCase):
                 self.assertTrue(place["anchor"].strip())
                 self.assertEqual(self.manuscript.count(place["anchor"]), 1)
                 positions.append(self.manuscript.index(place["anchor"]))
-                self.assertIn(place["src"].split("?")[0], self.exports)
+                path = place["src"].split("?")[0]
+                if place["id"] == "F01":
+                    self.assertEqual(path, "assets/digital-book/fashion/v1.3/f01-sneaker-dream.webp")
+                    self.assertEqual(len([a for a in self.manifest["assets"] if a["public_path"] == path]), 1)
+                else:
+                    self.assertIn(path, self.exports)
         self.assertEqual(positions, sorted(positions), "Illustrations must follow manuscript order")
 
     def test_fourteen_locked_web_assets_are_retrievable_and_exact(self):
@@ -69,6 +74,22 @@ class FashionReaderArtTests(unittest.TestCase):
                 else:
                     self.assertEqual(raw[:8], b"\x89PNG\r\n\x1a\n")
 
+    def test_f01_author_selected_replacement_is_exact_and_separate(self):
+        f01 = self.art["placements"][0]
+        self.assertEqual(f01["id"], "F01")
+        asset_url = "assets/digital-book/fashion/v1.3/f01-sneaker-dream.webp"
+        self.assertEqual(f01["src"], asset_url + "?v=5a80feba402a")
+        self.assertIn("bộ sưu tập sneakers", f01["alt"])
+        matches = [a for a in self.manifest["assets"] if a["public_path"] == asset_url]
+        self.assertEqual(len(matches), 1)
+        asset = matches[0]
+        self.assertEqual(asset["source"], "chapters/fashion/artwork/exports/reader-v1_3/f01-sneaker-dream.webp")
+        self.assertEqual(asset["sha256_at_intake"], "5a80feba402ab1f8e0bf470846d3d4f2108b5e8627b594869d1d67412297d613")
+        data = (ROOT / asset["source"]).read_bytes()
+        self.assertEqual(hashlib.sha256(data).hexdigest(), "5a80feba402ab1f8e0bf470846d3d4f2108b5e8627b594869d1d67412297d613")
+        self.assertEqual(data[:4], b"RIFF")
+        self.assertEqual(data[8:12], b"WEBP")
+
     def test_fashion_has_dedicated_reader_layout_and_cache_keys(self):
         app = (ROOT / "shared/web/app.js").read_text(encoding="utf-8")
         index = (ROOT / "shared/web/index.html").read_text(encoding="utf-8")
@@ -80,9 +101,9 @@ class FashionReaderArtTests(unittest.TestCase):
         self.assertIn("if(chapter.slug==='fashion')", app)
         self.assertIn("if(slug==='fashion')", app)
         self.assertNotIn("clip-path:circle(48.7% at 50% 50%)", style)
-        self.assertIn("app.js?v=84", index)
+        self.assertIn("app.js?v=85", index)
         self.assertIn("style.css?v=64", index)
-        self.assertIn("./digital-art.js?v=6", app)
+        self.assertIn("./digital-art.js?v=7", app)
 
 
     def test_transparent_f00_pair_is_registered_and_binary_exact(self):

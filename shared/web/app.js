@@ -2,7 +2,7 @@ import { chapters, renderIcon, renderPortal, renderPortalScene } from './chapter
 import { identity, introduction, parts, chapterNotes } from './book.js?v=30';
 import { PortalRing } from './ring.js?v=10';
 import { renderPortalPicture, renderPortalFrame, renderFramedPortal } from './portal-art.js?v=59';
-import { digitalArt, digitalCoverPortal, digitalCoverRing, digitalCoverJason } from './digital-art.js?v=6';
+import { digitalArt, digitalCoverPortal, digitalCoverRing, digitalCoverJason } from './digital-art.js?v=7';
 import { commerce } from './commerce.js?v=1';
 
 const $ = selector => document.querySelector(selector);

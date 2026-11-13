@@ -2240,6 +2240,12 @@
       "provenance": "JS Fashion reader artwork V1.1, derived from founder-locked Fashion F00–F10 V1.0 private Drive library; role/placement selected 2026-11-07. Screen export only, not approval for public publishing."
     },
     {
+      "source": "chapters/fashion/artwork/exports/reader-v1_3/f01-sneaker-dream.webp",
+      "public_path": "assets/digital-book/fashion/v1.3/f01-sneaker-dream.webp",
+      "sha256_at_intake": "5a80feba402ab1f8e0bf470846d3d4f2108b5e8627b594869d1d67412297d613",
+      "provenance": "Founder-selected F01 Sneaker Dream replacement uploaded 2026-11-13 to .json Fashion digital book. Original author-selected PNG preserved in Fashion Drive folder (SHA-256 29b5c53ed5e82a43aedaaa58f50737864377af7275f582e961735a57b7a090cd); web derivative encoded RGB WebP quality 86 (SHA-256 5a80feba402ab1f8e0bf470846d3d4f2108b5e8627b594869d1d67412297d613). Digital-book F01 only; previous reader V1.1 F01 retained for history. No changes to manuscript, portal, F02-F10 or rights scope."
+    },
+    {
       "source": "chapters/fashion/artwork/exports/reader-v1_1/f02-triple-mirror.webp",
       "public_path": "assets/digital-book/fashion/v1.1/f02-triple-mirror.webp",
       "sha256_at_intake": "186b424ea8ec4805b3a656b6f71cd25333fb88acb057ef62375914535c38aeaa",
