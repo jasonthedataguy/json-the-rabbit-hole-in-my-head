@@ -34,7 +34,7 @@ class FashionReaderArtTests(unittest.TestCase):
         art = self.art
         self.assertEqual(art["mainBook"], art["map"])
         self.assertIn("v5.1/f00-without-observer-clean-edge.webp", art["mainBook"])
-        self.assertIn("v5.0/f00-with-observer-transparent.webp", art["opening"])
+        self.assertIn("v5.2/f00-with-observer-clean-alpha-lossless.webp", art["opening"])
         self.assertIsNone(art["hero"], "F00 must not repeat as a hero illustration")
         self.assertIn("f00-centre.webp", art["centre"])
         self.assertNotEqual(art["mainBook"], art["opening"])
@@ -101,9 +101,9 @@ class FashionReaderArtTests(unittest.TestCase):
         self.assertIn("if(chapter.slug==='fashion')", app)
         self.assertIn("if(slug==='fashion')", app)
         self.assertNotIn("clip-path:circle(48.7% at 50% 50%)", style)
-        self.assertIn("app.js?v=87", index)
+        self.assertIn("app.js?v=88", index)
         self.assertIn("style.css?v=64", index)
-        self.assertIn("./digital-art.js?v=8", app)
+        self.assertIn("./digital-art.js?v=9", app)
         self.assertIn("cover.css?v=57", index)
         cover = (ROOT / "shared/web/cover.css").read_text(encoding="utf-8")
         self.assertIn("dataset.portalSlug=page.chapter?.slug || page.kind", app)
@@ -169,7 +169,29 @@ class FashionReaderArtTests(unittest.TestCase):
         self.assertTrue(b"ALPH" in raw[:128] or b"VP8L" in raw[:32], "WebP must encode its alpha channel")
         self.assertTrue(self.art["map"].startswith(public))
         self.assertTrue(self.art["mainBook"].startswith(public))
-        self.assertIn("v5.0/f00-with-observer-transparent.webp", self.art["opening"])
+        self.assertIn("v5.2/f00-with-observer-clean-alpha-lossless.webp", self.art["opening"])
+
+
+    def test_v52_original_rim_alpha_clean_opening(self):
+        """Approved V5.2 opening preserves the original illustrated rim and replaces only exterior alpha."""
+        public = "assets/digital-book/fashion/v5.2/f00-with-observer-clean-alpha-lossless.webp"
+        expected_hash = "278c4e3c4b5b59c8d1ff36819bf945bad1e9b8854c98894eab8e657bf99a9354"
+        source_hash = "564bb37197a4bd32a396c49ff041a849404618e1ca30965931e64222af84c7ba"
+        self.assertEqual(self.art["opening"], public + "?v=278c4e3c4b5b")
+        self.assertIn("v5.1/f00-without-observer-clean-edge.webp", self.art["mainBook"])
+        self.assertEqual(self.art["mainBook"], self.art["map"])
+        matches = [asset for asset in self.manifest["assets"] if asset["public_path"] == public]
+        self.assertEqual(len(matches), 1, "V5.2 must be registered exactly once")
+        entry = matches[0]
+        self.assertEqual(entry["source"], "chapters/fashion/artwork/exports/reader-v5_2/f00-with-observer-clean-alpha-lossless.webp")
+        self.assertEqual(entry["sha256_at_intake"], expected_hash)
+        self.assertIn(source_hash, entry["provenance"])
+        self.assertIn("alpha-only", entry["provenance"])
+        content = (ROOT / entry["source"]).read_bytes()
+        self.assertEqual(hashlib.sha256(content).hexdigest(), expected_hash)
+        self.assertEqual(content[:4], b"RIFF")
+        self.assertEqual(content[8:12], b"WEBP")
+        self.assertEqual(content[12:16], b"VP8L", "Use exact-lossless RGBA WebP")
 
 
 if __name__ == "__main__":

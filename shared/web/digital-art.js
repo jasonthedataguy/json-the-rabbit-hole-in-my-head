@@ -48,7 +48,7 @@ export const digitalArt = Object.freeze({
   "fashion": {
       "mainBook": "assets/digital-book/fashion/v5.1/f00-without-observer-clean-edge.webp?v=da0b51263d9b",
       "map": "assets/digital-book/fashion/v5.1/f00-without-observer-clean-edge.webp?v=da0b51263d9b",
-      "opening": "assets/digital-book/fashion/v5.0/f00-with-observer-transparent.webp?v=eb8f22e130dd",
+      "opening": "assets/digital-book/fashion/v5.2/f00-with-observer-clean-alpha-lossless.webp?v=278c4e3c4b5b",
       "hero": null,
       "inline": "assets/digital-book/fashion/inline.webp?v=7ccd2040f3d6",
       "centre": "assets/digital-book/fashion/v1.1/f00-centre.webp?v=19b77fb410ca",
