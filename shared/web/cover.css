@@ -426,3 +426,9 @@
 .digital-book-cover-hero img,.digital-book-inline-cover img{display:block;width:100%;height:auto;aspect-ratio:3/2;object-fit:contain;border:3px solid #dac3a3}
 .digital-book-cover-hero figcaption,.digital-book-inline-cover figcaption{margin-top:8px;color:#997c66;font:9px/1.4 var(--sans);letter-spacing:1px;text-transform:uppercase}
 .digital-book-inline-cover{margin:27px 0}
+
+/* Fashion F00 is one source-approved painting, not a separable animated ring.
+   The generic 31–33% centre/ring mask overlap doubles and misaligns fragments.
+   Keep the entire Fashion image stationary; other chapter portals still rotate. */
+.cover-stage[data-portal-slug="fashion"] .cover-rotor.digital-book-cover-ring{visibility:hidden}
+.cover-stage[data-portal-slug="fashion"] .cover-scene.digital-book-cover-centre{mask-image:none;-webkit-mask-image:none;background-image:none!important}
