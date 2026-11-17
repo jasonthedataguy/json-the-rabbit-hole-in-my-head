@@ -1,0 +1,39 @@
+{
+  "version": "FASHION-F00-V5.1-EDGE-CLEAN-2026-11-17",
+  "accountable_project": "JS",
+  "source_book_commit": "03dbacfc950aabe336b9344cfe1600b994fdc0b7",
+  "source_user_selected_image_sha256": "3fe9cf6d5ad3277e4553e5121798e289b02a1510c5ba938892e2ee03c599eb2f",
+  "parent_approved_with_observer": {
+    "master_drive": "11RxyR7W1pKiMRECUEY3p_m7F4TbEyraz",
+    "book_role": "opening",
+    "unchanged": true
+  },
+  "corrected_observer_free": {
+    "png_sha256": "6d2e74302086aa24958cdc5d0ad17fcdaec1e63a1e3fb1833ee40de1f6550345",
+    "webp_sha256": "da0b51263d9b73c445bf0e9d50ae9f10ae826c97956226cacd292bf5bffefd5e",
+    "github_source": "chapters/fashion/artwork/exports/reader-v5_1/f00-without-observer-clean-edge.webp",
+    "github_public_path": "assets/digital-book/fashion/v5.1/f00-without-observer-clean-edge.webp",
+    "drive_png_id": "1l2dJthW-bozskouzbQwjZ8u9XhQFPGsS",
+    "drive_webp_id": "12QNxO86qj5MiJqFCvuJKF9ahblYdojgJ",
+    "qa_contact_id": "160-m9mliGw3c_Mv7t9fxNXC1WLnoFRqW",
+    "transform": "Measured largest alpha foreground contour; elliptical trim inset 1.4 px; 1.5 px antialias; hidden fringe/debris removed; original visible RGB pixel values retained; PNG -> lossless WebP",
+    "qa": {
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "transparent_corners": true,
+      "one_main_foreground_component": true,
+      "alpha_outside_outer_silhouette": 0,
+      "lossless_webp_matches_png_visible_rgba": true,
+      "local_preview": "verified on checkerboard and navy"
+    },
+    "roles": [
+      "fashion.map",
+      "fashion.mainBook"
+    ],
+    "approval_scope": "User requested replacing the corrected observer-free portal in the book and Google Drive. No unrelated art, prose, social publication or platform settings modified."
+  },
+  "prior_version": "V5.0 observer-free reconstruction kept in history; V5.1 supersedes its active map/homepage mapping",
+  "site_validation": "PR CI pending, no live deployment claimed"
+}

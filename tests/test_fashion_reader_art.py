@@ -33,8 +33,8 @@ class FashionReaderArtTests(unittest.TestCase):
     def test_portal_roles_have_correct_foreground(self):
         art = self.art
         self.assertEqual(art["mainBook"], art["map"])
-        self.assertIn("v1.2/f00-without-character-transparent.webp", art["mainBook"])
-        self.assertIn("v1.2/f00-with-character-transparent.webp", art["opening"])
+        self.assertIn("v5.1/f00-without-observer-clean-edge.webp", art["mainBook"])
+        self.assertIn("v5.0/f00-with-observer-transparent.webp", art["opening"])
         self.assertIsNone(art["hero"], "F00 must not repeat as a hero illustration")
         self.assertIn("f00-centre.webp", art["centre"])
         self.assertNotEqual(art["mainBook"], art["opening"])
@@ -101,9 +101,9 @@ class FashionReaderArtTests(unittest.TestCase):
         self.assertIn("if(chapter.slug==='fashion')", app)
         self.assertIn("if(slug==='fashion')", app)
         self.assertNotIn("clip-path:circle(48.7% at 50% 50%)", style)
-        self.assertIn("app.js?v=85", index)
+        self.assertIn("app.js?v=86", index)
         self.assertIn("style.css?v=64", index)
-        self.assertIn("./digital-art.js?v=7", app)
+        self.assertIn("./digital-art.js?v=8", app)
 
 
     def test_transparent_f00_pair_is_registered_and_binary_exact(self):
@@ -124,6 +124,44 @@ class FashionReaderArtTests(unittest.TestCase):
                 self.assertEqual(file_bytes[8:12], b"WEBP")
                 self.assertEqual(file_bytes[12:16], b"VP8X")
                 self.assertIn(b"ALPH", file_bytes[:64], "Portal exports must retain transparency")
+
+
+    def test_v5_selected_portal_and_review_candidate_have_exact_web_bytes(self):
+        pair = {
+            "f00-with-observer-transparent.webp": "eb8f22e130dd786260768a3ef885603f8cbc0bb08e5ad1faeaa60db65335699b",
+            "f00-without-observer-REVIEW-transparent.webp": "ba80312c30acd63692df47f1ae0fadd7f1b0f16be9c2b8b167b773da8f388b1f",
+        }
+        for name, expected_hash in pair.items():
+            with self.subTest(name=name):
+                public = "assets/digital-book/fashion/v5.0/" + name
+                matches = [a for a in self.manifest["assets"] if a["public_path"] == public]
+                self.assertEqual(len(matches), 1)
+                asset = matches[0]
+                file_bytes = (ROOT / asset["source"]).read_bytes()
+                self.assertEqual(hashlib.sha256(file_bytes).hexdigest(), expected_hash)
+                self.assertEqual(asset["sha256_at_intake"], expected_hash)
+                self.assertEqual(file_bytes[:4], b"RIFF")
+                self.assertEqual(file_bytes[8:12], b"WEBP")
+                self.assertIn(b"ALPH", file_bytes[:80])
+        self.assertIn("v5.1/f00-without-observer-clean-edge.webp", self.art["mainBook"],
+                      "Corrected observer-free asset must replace V5.0 preview in map/homepage")
+
+
+    def test_v51_clean_edge_asset_exact_bytes(self):
+        expected = "da0b51263d9b73c445bf0e9d50ae9f10ae826c97956226cacd292bf5bffefd5e"
+        public = "assets/digital-book/fashion/v5.1/f00-without-observer-clean-edge.webp"
+        matches = [a for a in self.manifest["assets"] if a["public_path"] == public]
+        self.assertEqual(len(matches), 1)
+        asset = matches[0]
+        raw = (ROOT / asset["source"]).read_bytes()
+        self.assertEqual(hashlib.sha256(raw).hexdigest(), expected)
+        self.assertEqual(asset["sha256_at_intake"], expected)
+        self.assertEqual(raw[:4], b"RIFF")
+        self.assertEqual(raw[8:12], b"WEBP")
+        self.assertTrue(b"ALPH" in raw[:128] or b"VP8L" in raw[:32], "WebP must encode its alpha channel")
+        self.assertTrue(self.art["map"].startswith(public))
+        self.assertTrue(self.art["mainBook"].startswith(public))
+        self.assertIn("v5.0/f00-with-observer-transparent.webp", self.art["opening"])
 
 
 if __name__ == "__main__":
