@@ -2322,6 +2322,12 @@
       "public_path": "assets/digital-book/fashion/v5.0/f00-without-observer-REVIEW-transparent.webp",
       "sha256_at_intake": "ba80312c30acd63692df47f1ae0fadd7f1b0f16be9c2b8b167b773da8f388b1f",
       "provenance": "Fashion F00 V5.0 no-foreground technical reconstruction from founder-selected source. Source RGB outside localized ~4.93% edit unchanged; review-only candidate for map and homepage. NOT independently founder-approved. Prior no-observer web asset preserved until reviewed."
+    },
+    {
+      "source": "chapters/fashion/artwork/exports/reader-v5_1/f00-without-observer-clean-edge.webp",
+      "public_path": "assets/digital-book/fashion/v5.1/f00-without-observer-clean-edge.webp",
+      "sha256_at_intake": "da0b51263d9b73c445bf0e9d50ae9f10ae826c97956226cacd292bf5bffefd5e",
+      "provenance": "Corrected observer-free Fashion F00 V5.1 selected 2026-11-17; clean elliptical antialiased transparency, no exterior debris, source pixels retained inside silhouette. Derived from image file SHA-256 3fe9cf6d5ad3277e4553e5121798e289b02a1510c5ba938892e2ee03c599eb2f; clean PNG master SHA-256 6d2e74302086aa24958cdc5d0ad17fcdaec1e63a1e3fb1833ee40de1f6550345. Scope: Fashion Chapter 04 homepage and chapter map only; V5.0 review and historical originals unchanged. Canonical Google Drive PNG 1l2dJthW-bozskouzbQwjZ8u9XhQFPGsS; WebP 12QNxO86qj5MiJqFCvuJKF9ahblYdojgJ."
     }
   ]
 }
