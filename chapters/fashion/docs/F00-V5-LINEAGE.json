@@ -1,0 +1,52 @@
+{
+  "version": "FASHION-F00-V5.0-2026-11-17",
+  "owner": "JS",
+  "date_ict": "2026-11-17",
+  "source_art": {
+    "sha256": "3998354bba9cb854291e3b25a491cf4f8cd4225ada811b16ee4cb11f4a503199",
+    "size_px": [
+      1254,
+      1254
+    ],
+    "drive_id": "11RxyR7W1pKiMRECUEY3p_m7F4TbEyraz",
+    "approval_scope": "exact with-observer artwork selected in conversation, and derivatives requested for digital book and Drive"
+  },
+  "transformations": [
+    {
+      "role": "chapter opening",
+      "source": "approved art",
+      "operation": "feathered circular alpha; preserve original RGB",
+      "webp_sha256": "eb8f22e130dd786260768a3ef885603f8cbc0bb08e5ad1faeaa60db65335699b"
+    },
+    {
+      "role": "cover stop and chapter map",
+      "source": "approved art + AI stair reconstruction",
+      "operation": "localized foreground-observer removal, 95.07% source RGB pixels unchanged, circular alpha",
+      "webp_sha256": "ba80312c30acd63692df47f1ae0fadd7f1b0f16be9c2b8b167b773da8f388b1f",
+      "approval": "new review-required derivative"
+    }
+  ],
+  "previous_pack": "FASHION-F00-F10-V4.0-2026-11-17-PRODUCTION-PREVIEW",
+  "drive_artifacts": {
+    "folder": "18DJaQWAy_a-kuTmGspu3_BF8CPvWjZIv",
+    "web_with_observer": "1_1SnkbSXkhlxFP1I_sFKdeQOs7AEBnPn",
+    "web_without_observer_review": "1ylVwoentcor5aUdgDTe4vGZDGXU8YIuS",
+    "zip": "1vGh2xbrt-PM2mNmg19F_1ed4I0o5L5LW"
+  },
+  "reader_mapping": {
+    "opening": "with observer",
+    "map": "without observer candidate",
+    "mainBook": "without observer candidate",
+    "hero": null,
+    "F01-F10": "unchanged",
+    "centre": "unchanged"
+  },
+  "build_validation": {
+    "source_copy_hash_match": true,
+    "alpha_corner_test": true,
+    "visible_manual_qa": "local contact sheet generated",
+    "reader_tests": "pending PR CI",
+    "public_site": "not deployed or verified"
+  },
+  "base_book_commit": "8c3348e22bb7d7d9a4e3d5a2e0ee1f84f347c647"
+}
