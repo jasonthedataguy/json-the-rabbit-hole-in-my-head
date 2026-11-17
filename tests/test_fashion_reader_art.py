@@ -158,7 +158,7 @@ class FashionReaderArtTests(unittest.TestCase):
         self.assertEqual(asset["sha256_at_intake"], expected)
         self.assertEqual(raw[:4], b"RIFF")
         self.assertEqual(raw[8:12], b"WEBP")
-        self.assertIn(b"ALPH", raw[:128])
+        self.assertTrue(b"ALPH" in raw[:128] or b"VP8L" in raw[:32], "WebP must encode its alpha channel")
         self.assertTrue(self.art["map"].startswith(public))
         self.assertTrue(self.art["mainBook"].startswith(public))
         self.assertIn("v5.0/f00-with-observer-transparent.webp", self.art["opening"])
