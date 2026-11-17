@@ -2328,6 +2328,12 @@
       "public_path": "assets/digital-book/fashion/v5.1/f00-without-observer-clean-edge.webp",
       "sha256_at_intake": "da0b51263d9b73c445bf0e9d50ae9f10ae826c97956226cacd292bf5bffefd5e",
       "provenance": "Corrected observer-free Fashion F00 V5.1 selected 2026-11-17; clean elliptical antialiased transparency, no exterior debris, source pixels retained inside silhouette. Derived from image file SHA-256 3fe9cf6d5ad3277e4553e5121798e289b02a1510c5ba938892e2ee03c599eb2f; clean PNG master SHA-256 6d2e74302086aa24958cdc5d0ad17fcdaec1e63a1e3fb1833ee40de1f6550345. Scope: Fashion Chapter 04 homepage and chapter map only; V5.0 review and historical originals unchanged. Canonical Google Drive PNG 1l2dJthW-bozskouzbQwjZ8u9XhQFPGsS; WebP 12QNxO86qj5MiJqFCvuJKF9ahblYdojgJ."
+    },
+    {
+      "source": "chapters/fashion/artwork/exports/reader-v5_2/f00-with-observer-clean-alpha-lossless.webp",
+      "public_path": "assets/digital-book/fashion/v5.2/f00-with-observer-clean-alpha-lossless.webp",
+      "sha256_at_intake": "278c4e3c4b5b59c8d1ff36819bf945bad1e9b8854c98894eab8e657bf99a9354",
+      "provenance": "Fashion F00 V5.2: founder-reviewed source-preserving alpha-only correction to the 2026-11-17 with-observer portal, keeping segmented pink/navy book rim, child, and all original RGB pixels. Removes exterior navy background outside the irregular rim; full interior unchanged. Canonical source PNG SHA-256 564bb37197a4bd32a396c49ff041a849404618e1ca30965931e64222af84c7ba (Google Drive file 1zHYelOdtOTtFrinak6mYLFobCK6Eqzia). Lossless WebP SHA-256 278c4e3c4b5b59c8d1ff36819bf945bad1e9b8854c98894eab8e657bf99a9354 matches the PNG pixel-for-pixel in RGBA on decode (Google Drive file 1q4tho8PN-ApuuhUeHbjYQ0KXJO0RmHo6). This update is scoped to the Fashion Chapter 04 opening only; mainBook/map remain V5.1 and F01–F10 and manuscript remain unchanged. V5.0 retained as history."
     }
   ]
 }
