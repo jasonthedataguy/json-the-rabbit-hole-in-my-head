@@ -111,7 +111,7 @@ class FashionReaderArtTests(unittest.TestCase):
         self.assertIn('[data-portal-slug="fashion"] .cover-scene.digital-book-cover-centre{mask-image:none', cover)
         self.assertIn("background-image:none!important", cover)
         # Other chapters keep their rotating-ring and stationary-centre treatment.
-        self.assertIn("coverRotor.style.transform", app)
+        self.assertIn("$('#cover-rotor').style.transform", app)
 
 
     def test_transparent_f00_pair_is_registered_and_binary_exact(self):
