@@ -33,8 +33,8 @@ class FashionReaderArtTests(unittest.TestCase):
     def test_portal_roles_have_correct_foreground(self):
         art = self.art
         self.assertEqual(art["mainBook"], art["map"])
-        self.assertIn("v1.2/f00-without-character-transparent.webp", art["mainBook"])
-        self.assertIn("v1.2/f00-with-character-transparent.webp", art["opening"])
+        self.assertIn("v5.0/f00-without-observer-REVIEW-transparent.webp", art["mainBook"])
+        self.assertIn("v5.0/f00-with-observer-transparent.webp", art["opening"])
         self.assertIsNone(art["hero"], "F00 must not repeat as a hero illustration")
         self.assertIn("f00-centre.webp", art["centre"])
         self.assertNotEqual(art["mainBook"], art["opening"])
@@ -101,9 +101,9 @@ class FashionReaderArtTests(unittest.TestCase):
         self.assertIn("if(chapter.slug==='fashion')", app)
         self.assertIn("if(slug==='fashion')", app)
         self.assertNotIn("clip-path:circle(48.7% at 50% 50%)", style)
-        self.assertIn("app.js?v=85", index)
+        self.assertIn("app.js?v=86", index)
         self.assertIn("style.css?v=64", index)
-        self.assertIn("./digital-art.js?v=7", app)
+        self.assertIn("./digital-art.js?v=8", app)
 
 
     def test_transparent_f00_pair_is_registered_and_binary_exact(self):
@@ -124,6 +124,27 @@ class FashionReaderArtTests(unittest.TestCase):
                 self.assertEqual(file_bytes[8:12], b"WEBP")
                 self.assertEqual(file_bytes[12:16], b"VP8X")
                 self.assertIn(b"ALPH", file_bytes[:64], "Portal exports must retain transparency")
+
+
+    def test_v5_selected_portal_and_review_candidate_have_exact_web_bytes(self):
+        pair = {
+            "f00-with-observer-transparent.webp": "eb8f22e130dd786260768a3ef885603f8cbc0bb08e5ad1faeaa60db65335699b",
+            "f00-without-observer-REVIEW-transparent.webp": "ba80312c30acd63692df47f1ae0fadd7f1b0f16be9c2b8b167b773da8f388b1f",
+        }
+        for name, expected_hash in pair.items():
+            with self.subTest(name=name):
+                public = "assets/digital-book/fashion/v5.0/" + name
+                matches = [a for a in self.manifest["assets"] if a["public_path"] == public]
+                self.assertEqual(len(matches), 1)
+                asset = matches[0]
+                file_bytes = (ROOT / asset["source"]).read_bytes()
+                self.assertEqual(hashlib.sha256(file_bytes).hexdigest(), expected_hash)
+                self.assertEqual(asset["sha256_at_intake"], expected_hash)
+                self.assertEqual(file_bytes[:4], b"RIFF")
+                self.assertEqual(file_bytes[8:12], b"WEBP")
+                self.assertIn(b"ALPH", file_bytes[:80])
+        self.assertIn("REVIEW", self.art["mainBook"],
+                      "Observer-free reconstruction is a draft-only review candidate")
 
 
 if __name__ == "__main__":
