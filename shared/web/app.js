@@ -520,6 +520,8 @@ function selectCoverPage(index,{fromRing=false}={}){
   const page=coverPages[selectedCoverPage];
   $('#cover-stage').dataset.page=page.kind;
   $('#cover-stage').dataset.pageIndex=String(selectedCoverPage);
+  // Fashion F00 is a complete approved image; CSS must not split it into rotating fragments.
+  $('#cover-stage').dataset.portalSlug=page.chapter?.slug || page.kind;
   const coverScene=$('#cover-scene');
   const previousSceneImage=coverScene.querySelector('img')?.currentSrc;
   coverScene.style.backgroundImage=previousSceneImage?`url("${previousSceneImage}")`:'';

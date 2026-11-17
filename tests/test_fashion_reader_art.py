@@ -101,9 +101,17 @@ class FashionReaderArtTests(unittest.TestCase):
         self.assertIn("if(chapter.slug==='fashion')", app)
         self.assertIn("if(slug==='fashion')", app)
         self.assertNotIn("clip-path:circle(48.7% at 50% 50%)", style)
-        self.assertIn("app.js?v=86", index)
+        self.assertIn("app.js?v=87", index)
         self.assertIn("style.css?v=64", index)
         self.assertIn("./digital-art.js?v=8", app)
+        self.assertIn("cover.css?v=57", index)
+        cover = (ROOT / "shared/web/cover.css").read_text(encoding="utf-8")
+        self.assertIn("dataset.portalSlug=page.chapter?.slug || page.kind", app)
+        self.assertIn('[data-portal-slug="fashion"] .cover-rotor.digital-book-cover-ring{visibility:hidden}', cover)
+        self.assertIn('[data-portal-slug="fashion"] .cover-scene.digital-book-cover-centre{mask-image:none', cover)
+        self.assertIn("background-image:none!important", cover)
+        # Other chapters keep their rotating-ring and stationary-centre treatment.
+        self.assertIn("$('#cover-rotor').style.transform", app)
 
 
     def test_transparent_f00_pair_is_registered_and_binary_exact(self):
